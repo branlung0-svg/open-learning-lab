@@ -2,7 +2,10 @@
 (function () {
   const { h } = Lab;
   const cache = {};
-  Lab.claims = (disc) => (cache[disc] ||= fetch(`data/claims/${disc}.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null));
+  Lab.CLAIMS = {};
+  Lab.CLAIM_DISCS = ['physics'];
+  Lab.claims = (disc) => (cache[disc] ||= fetch(`data/claims/${disc}.json`).then((r) => (r.ok ? r.json() : null)).then((d) => { if (d) Lab.CLAIMS[disc] = d; return d; }).catch(() => null));
+  setTimeout(() => Lab.CLAIM_DISCS.forEach((d) => Lab.claims(d)), 1500);
   const STATUS = {
     drafted: ['Sources linked', 'Written with sources attached. Not yet independently checked.'],
     verified: ['Checked', 'An independent check confirmed that the linked source supports this statement.'],
@@ -34,4 +37,13 @@
         h('b', null, p.name), h('span', { class: 'tiny muted' }, `  ${p.years} · ${p.region}`), h('div', { class: 'small' }, p.text),
         h('div', { class: 'tiny muted', style: { marginTop: '4px' } }, (p.sources || []).map((s) => h('a', { href: s.url, target: '_blank', rel: 'noopener', style: { color: 'inherit', marginRight: '8px' } }, '↗ ' + s.cite)))))));
   };
+  // Primary texts in their original languages (data/intl-sources.json)
+  let intl;
+  Lab.intlSources = (disc) => (intl ||= fetch('data/intl-sources.json').then((r) => (r.ok ? r.json() : { items: [] })).catch(() => ({ items: [] }))).then((d) => d.items.filter((i) => i.disc === disc));
+  Lab.intlBlock = (L) => h('div', { style: { marginTop: '16px' } }, h('h3', null, '🌍 In the original language'),
+    h('p', { class: 'small muted' }, 'Read key texts as their authors wrote them. Most of these sites put a translation beside the original, so you can compare line by line.'),
+    h('div', { class: 'grid g2' }, L.map((i) => h('div', { class: 'card', style: { boxShadow: 'none', background: 'var(--card2)', padding: '12px' } },
+      h('div', { class: 'tiny muted' }, i.langName), h('a', { href: i.url, target: '_blank', rel: 'noopener', lang: i.lang, style: { fontWeight: 700 } }, i.title),
+      h('div', { class: 'small', style: { marginTop: '4px' } }, i.note),
+      i.en ? h('a', { class: 'tiny', href: i.en, target: '_blank', rel: 'noopener' }, 'English translation ↗') : null))));
 })();

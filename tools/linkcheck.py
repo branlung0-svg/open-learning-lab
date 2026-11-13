@@ -7,6 +7,10 @@ for f in glob.glob('data/claims/*.json'):
     d = json.load(open(f, encoding='utf-8'))
     for c in d.get('events', []) + d.get('people', []):
         for s in c.get('sources', []): urls.setdefault(s['url'], []).append(c['id'])
+for f in glob.glob('data/intl-sources.json'):
+    for it in json.load(open(f, encoding='utf-8'))['items']:
+        for k in ('url', 'en'):
+            if it.get(k): urls.setdefault(it[k], []).append('intl:' + it['title'][:30])
 dead = []
 for u, who in sorted(urls.items()):
     try:

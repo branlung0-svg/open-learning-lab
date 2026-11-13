@@ -26,7 +26,7 @@
     const C = [];
     (Lab.DISC || []).forEach((d) => {
       const page = 'd-' + d.id;
-      (d.tl || []).forEach((t, i) => C.push({ id: `d:${d.id}:tl:${i}`, page, kind: 'recall', topic: d.name, front: `${d.e} ${d.name}: when did this happen?\n\n“${t[1]}”`, back: t[0] }));
+      if (!(Lab.CLAIMS || {})[d.id]) (d.tl || []).forEach((t, i) => C.push({ id: `d:${d.id}:tl:${i}`, page, kind: 'recall', topic: d.name, front: `${d.e} ${d.name}: when did this happen?\n\n“${t[1]}”`, back: t[0] }));
       (d.people || []).forEach((p, i) => C.push({ id: `d:${d.id}:p:${i}`, page, kind: 'recall', topic: d.name, front: `${d.e} ${d.name}: who is this?\n\n${p[3]}`, back: `${p[1]} (${p[2]})` }));
       (d.qs || []).forEach((q, i) => C.push({ id: `d:${d.id}:q:${i}`, page, kind: 'explain', topic: d.name, front: q, back: `There is no single answer. A strong answer names what the field knows, what is still debated, and one piece of evidence. Revisit the ${d.name} page and its debates to check yourself.` }));
       (d.links || []).forEach((l, i) => { const o = (Lab.DISC || []).find((x) => x.id === l[0]); if (o) C.push({ id: `d:${d.id}:l:${i}`, page, kind: 'recall', topic: d.name, front: `How are ${d.name} and ${o.name} connected?`, back: l[1] }); });
@@ -38,6 +38,9 @@
       X.claims.forEach((x, i) => C.push({ id: 'mx:c:' + i, page: 'history-modern-marxism-claims', kind: 'verdict', topic: 'Marxism', front: x[0], back: x[2], answer: x[1], opts: ['True', 'False', 'Misleading', 'Contested'] }));
       X.predictions.forEach((x, i) => C.push({ id: 'mx:p:' + i, page: 'history-modern-marxism-evidence', kind: 'verdict', topic: 'Marxism', front: 'Marx predicted: ' + x[0] + '. How did it turn out?', back: x[2], answer: x[1], opts: ['Hit', 'Miss', 'Mostly miss', 'Contested', 'Hit (but reformist)'] }));
     }
+    Object.values(Lab.CLAIMS || {}).forEach((F) => { const d = (Lab.DISC || []).find((x) => x.id === F.disc); if (!d) return; const page = 'd-' + d.id;
+      (F.events || []).forEach((c) => C.push({ id: 'cl:' + c.id, page, kind: 'recall', topic: d.name, front: `${d.e} ${d.name}: when did this happen?\n\n“${c.text}”`, back: c.when + (c.sources && c.sources[0] ? `\n\nSource: ${c.sources[0].cite}` : '') }));
+      (F.people || []).forEach((c) => C.push({ id: 'cl:' + c.id, page, kind: 'recall', topic: d.name, front: `${d.e} ${d.name}: who is this?\n\n${c.text}`, back: `${c.name} (${c.years}, ${c.region})` })); });
     S().mycards.forEach((c) => C.push(Object.assign({ kind: 'recall', topic: 'My cards' }, c)));
     POOL = C; return C;
   };

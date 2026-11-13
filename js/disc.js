@@ -84,7 +84,9 @@ Lab.routes.d = function (app, [id, part]) {
   body.append(card('books', 'Library', lbox));
   // Primary documents
   const dbox = h('div');
-  body.append(card('docs', 'Primary documents', dbox));
+  const ibox = h('div');
+  body.append(card('docs', 'Primary documents', dbox, ibox));
+  Lab.intlSources(D.id).then((L) => { if (L.length) ibox.append(Lab.intlBlock(L)); });
   // Real data
   const xbox = h('div');
   body.append(card('data', 'Real data you can explore', xbox));
