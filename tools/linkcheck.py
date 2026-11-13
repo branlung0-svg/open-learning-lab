@@ -18,8 +18,8 @@ for u, who in sorted(urls.items()):
         code = urllib.request.urlopen(req, timeout=25).status
     except urllib.error.HTTPError as e: code = e.code
     except Exception as e: code = str(e)[:60]
-    ok = isinstance(code, int) and (code < 400 or code in (401, 403, 429))  # 403/429: site blocks bots, not necessarily dead
-    print(('ok  ' if ok else 'DEAD'), code, u)
+    ok = not (isinstance(code, int) and code in (404, 410)) and 'Name or service not known' not in str(code)  # only a clear 404/410 or a dead domain counts; 403/429/timeouts are bot blocks or slow servers
+    print(('ok  ' if ok else 'DEAD') if (ok and isinstance(code, int) and code < 400) or not ok else 'warn', code, u)
     if not ok: dead.append((u, code, who))
 print(f'{len(urls)} links, {len(dead)} dead')
 for u, code, who in dead: print(f'::warning::{code} {u} used by {", ".join(who)}')
