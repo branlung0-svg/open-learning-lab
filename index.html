@@ -112,7 +112,7 @@ table.t th,table.t td{padding:7px 8px;border-bottom:1px solid var(--line);text-a
 .reader p{margin:0 0 1em}
 .loading{padding:40px;text-align:center;color:var(--muted)}
 .tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:10px;padding:7px 10px;font-size:13px;z-index:5;max-width:260px}
-@media (max-width:560px){.top .pill{padding:5px 8px;font-size:13px}.top #streakPill{display:none}.logo span{font-size:16px}.top .wrap{gap:6px}}
+@media (max-width:560px){.top .pill{padding:5px 8px;font-size:13px}.top #streakPill,.top .pill[title='Settings'],.top .pill[title='About this lab']{display:none}.logo span{font-size:16px}.top .wrap{gap:6px}}
 </style>
 </head>
 <body>
@@ -135,6 +135,8 @@ table.t th,table.t td{padding:7px 8px;border-bottom:1px solid var(--line);text-a
 <script src="vendor/topojson-client.min.js"></script>
 <script src="js/core.js"></script>
 <script src="js/open.js"></script>
+<script src="js/review.js"></script>
+<script src="js/changes-data.js"></script>
 <script src="js/sources.js"></script>
 <script src="js/ratings.js"></script>
 <script src="js/korea-data.js"></script>
