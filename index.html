@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open Learning Lab: learn anything, free</title>
+<meta name="description" content="A free, open learning lab for ages 10 to 100: 24 disciplines with real evidence, primary sources, hands-on labs and honest, even-handed explanations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Noto+Serif+SC:wght@500&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap" rel="stylesheet">
+<script type="importmap">{"imports":{"three":"./vendor/three.module.min.js"}}</script>
+<style>
+:root{
+  --bg:#F5F6FB; --card:#FFFFFF; --card2:#F0F1F8; --ink:#14142B; --muted:#5F6382; --line:#E3E5F0;
+  --shadow:0 1px 2px rgba(20,20,43,.06),0 8px 24px rgba(20,20,43,.07);
+  --history:#F59E0B; --economy:#10B981; --body:#F43F5E; --physics:#8B5CF6; --math:#3B82F6;
+  --ai:#06B6D4; --mandarin:#EF4444; --ged:#F97316; --reading:#6366F1; --evidence:#14B8A6; --news:#EC4899;
+  --good:#16A34A; --bad:#DC2626; --warn:#D97706;
+  --r:18px;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#0E1022;--card:#171A31;--card2:#1F2340;--ink:#F3F4FB;--muted:#A3A7C6;--line:#2B2F50;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);}
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.2;margin:0 0 .4em}
+h1{font-size:clamp(26px,5vw,40px)} h2{font-size:clamp(20px,3.4vw,27px)} h3{font-size:18px}
+p{margin:0 0 .8em} a{color:inherit}
+button{font:inherit;color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+/* top bar */
+.top{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:10px;height:56px}
+.logo{display:flex;align-items:center;gap:8px;font:700 17px "Space Grotesk";text-decoration:none;white-space:nowrap}
+.logo i{width:26px;height:26px;border-radius:8px;background:conic-gradient(from 200deg,#F59E0B,#F43F5E,#8B5CF6,#3B82F6,#10B981,#F59E0B);display:inline-block}
+.sp{flex:1}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-weight:600;font-size:13px;white-space:nowrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:9px 15px;border-radius:12px;border:1px solid var(--line);background:var(--card);cursor:pointer;font-weight:600;font-size:14px;transition:transform .08s,background .15s}
+.btn:hover{transform:translateY(-1px)} .btn:active{transform:none}
+.btn.primary{background:var(--accent,#3B82F6);color:var(--on-accent,#fff);border-color:transparent}
+.btn.ghost{background:transparent}
+.btn.sm{padding:6px 11px;font-size:13px;border-radius:10px}
+.btn[disabled]{opacity:.5;cursor:default;transform:none}
+/* hero */
+.hero{border-radius:24px;padding:26px 22px;margin:18px 0;color:#fff;position:relative;overflow:hidden;background:linear-gradient(135deg,var(--accent),color-mix(in srgb,var(--accent) 55%,#14142B))}
+.hero p{opacity:.92;max-width:720px}
+.hero .crumb{font-size:13px;opacity:.85;text-decoration:none;font-weight:600}
+.hero::after{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;border-radius:50%;background:rgba(255,255,255,.12)}
+.hero .emoji{font-size:44px;line-height:1;margin-bottom:6px}
+/* tabs */
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:4px 0 12px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;padding:9px 15px;border-radius:999px;border:1px solid var(--line);background:var(--card);cursor:pointer;font-weight:600;font-size:14px}
+.tab.on{background:var(--accent);color:var(--on-accent,#fff);border-color:transparent}
+/* cards */
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px;box-shadow:var(--shadow)}
+.grid{display:grid;gap:14px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.g4{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.muted{color:var(--muted)} .small{font-size:13px} .tiny{font-size:12px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.stack>*+*{margin-top:12px}
+.tag{display:inline-block;padding:2px 9px;border-radius:999px;font-size:12px;font-weight:700;background:color-mix(in srgb,var(--c,var(--accent)) 16%,transparent);color:color-mix(in srgb,var(--c,var(--accent)) 80%,var(--ink))}
+.conf{font-weight:700;font-size:12px;padding:2px 8px;border-radius:6px}
+.conf.Established{background:#16A34A22;color:#15803D}.conf.Strong{background:#2563EB22;color:#1D4ED8}.conf.Contested{background:#D9770622;color:#B45309}.conf.Unknown{background:#64748B22;color:#475569}.conf.Clouded{background:#7C3AED22;color:#6D28D9}.conf.Developing{background:#DB277722;color:#BE185D}
+@media (prefers-color-scheme: dark){.conf.Established{color:#4ADE80}.conf.Strong{color:#93C5FD}.conf.Contested{color:#FBBF24}.conf.Unknown{color:#CBD5E1}.conf.Clouded{color:#C4B5FD}.conf.Developing{color:#F9A8D4}}
+input[type=range]{width:100%;accent-color:var(--accent)}
+select,input[type=text],input[type=number],textarea{font:inherit;color:inherit;background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+label.ctl{display:block;font-size:13px;font-weight:600;color:var(--muted);margin:6px 0 2px}
+label.ctl b{color:var(--ink)}
+canvas,svg{display:block;max-width:100%}
+.viz{background:var(--card2);border-radius:14px;overflow:hidden;position:relative}
+.kpi{font:700 26px "Space Grotesk"} .kpi small{font-size:13px;color:var(--muted);font-weight:500}
+.hint{border-left:4px solid var(--accent);background:color-mix(in srgb,var(--accent) 9%,var(--card));padding:12px 14px;border-radius:0 12px 12px 0}
+.apply{border:1px dashed color-mix(in srgb,var(--accent) 60%,var(--line));border-radius:14px;padding:12px 14px}
+.apply b:first-child{color:color-mix(in srgb,var(--accent) 65%,var(--ink))}
+.src{font-size:12px;color:var(--muted);margin-top:8px}
+.src a{color:var(--muted)}
+/* home subject cards */
+.subj{position:relative;display:block;text-decoration:none;border-radius:20px;padding:18px;color:#fff;min-height:150px;overflow:hidden;box-shadow:var(--shadow);background:linear-gradient(145deg,var(--c),color-mix(in srgb,var(--c) 50%,#14142B));transition:transform .12s}
+.subj:hover{transform:translateY(-3px)}
+.subj .e{font-size:34px} .subj h3{margin:8px 0 4px;font-size:19px} .subj p{font-size:13px;opacity:.9;margin:0}
+.subj .meter{position:absolute;left:18px;right:18px;bottom:12px;height:5px;border-radius:9px;background:rgba(255,255,255,.25)}
+.subj .meter i{display:block;height:100%;border-radius:9px;background:#fff}
+/* tutor */
+.fab{position:fixed;right:16px;bottom:16px;z-index:40;border-radius:999px;padding:13px 18px;background:#14142B;color:#fff;border:0;box-shadow:0 10px 30px rgba(0,0,0,.25);font-weight:700;cursor:pointer}
+@media (prefers-color-scheme: dark){.fab{background:#F3F4FB;color:#14142B}}
+.drawer{position:fixed;inset:auto 0 0 0;z-index:50;max-height:78vh;background:var(--card);border-top-left-radius:22px;border-top-right-radius:22px;box-shadow:0 -10px 40px rgba(0,0,0,.25);display:flex;flex-direction:column;transform:translateY(105%);transition:transform .25s}
+.drawer.open{transform:none;visibility:visible}
+.drawer:not(.open){visibility:hidden;transition:transform .25s,visibility 0s .25s}
+@media (min-width:900px){.drawer{left:auto;right:16px;bottom:16px;width:440px;border-radius:22px;max-height:80vh}}
+.drawer header{display:flex;align-items:center;gap:8px;padding:14px 16px;border-bottom:1px solid var(--line)}
+.msgs{overflow:auto;padding:14px 16px;flex:1}
+.msg{margin:0 0 12px;white-space:pre-wrap}
+.msg.me{background:var(--card2);padding:9px 12px;border-radius:12px}
+.drawer form{display:flex;gap:8px;padding:12px 16px;border-top:1px solid var(--line)}
+.drawer textarea{flex:1;resize:none;height:44px}
+.toast{position:fixed;left:50%;top:70px;transform:translateX(-50%);background:#14142B;color:#fff;padding:9px 16px;border-radius:999px;font-weight:600;z-index:60;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.on{opacity:1}
+.foot{padding:30px 0 90px;color:var(--muted);font-size:13px}
+table.t{width:100%;border-collapse:collapse;font-size:14px}
+table.t th,table.t td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:999px;border:1.5px solid var(--line);cursor:pointer;font-size:13px;font-weight:600;background:var(--card);user-select:none}
+.chip.on{border-color:var(--c);background:color-mix(in srgb,var(--c) 14%,var(--card))}
+.chip i{width:10px;height:10px;border-radius:50%;background:var(--c)}
+.opt{display:block;width:100%;text-align:left;padding:11px 14px;margin:6px 0;border-radius:12px;border:1.5px solid var(--line);background:var(--card);cursor:pointer;font-weight:500}
+.opt.right{border-color:var(--good);background:#16A34A18}.opt.wrong{border-color:var(--bad);background:#DC262618}
+.bar{height:8px;border-radius:9px;background:var(--card2);overflow:hidden}.bar i{display:block;height:100%;background:var(--accent);border-radius:9px;transition:width .3s}
+.reader{font-family:Literata,Georgia,serif;font-size:18px;line-height:1.75;max-width:720px;margin:0 auto}
+.reader p{margin:0 0 1em}
+.loading{padding:40px;text-align:center;color:var(--muted)}
+.tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:10px;padding:7px 10px;font-size:13px;z-index:5;max-width:260px}
+@media (max-width:560px){.top .pill{padding:5px 8px;font-size:13px}.top #streakPill{display:none}.logo span{font-size:16px}.top .wrap{gap:6px}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap">
+  <a class="logo" href="#home"><i></i><span>Open Learning Lab</span></a>
+  <div class="sp"></div>
+  <span class="pill" id="xpPill" title="Experience points">⚡ <span id="xpVal">0</span> XP</span>
+  <span class="pill" id="streakPill" title="Days in a row">🔥 <span id="streakVal">0</span></span>
+</div></div>
+<main class="wrap" id="app"><div class="loading">Loading…</div></main>
+<div class="wrap foot" id="foot"></div>
+<button class="fab" id="fab">✦ Ask the tutor</button>
+<div class="drawer" id="drawer" aria-hidden="true">
+  <header><b style="font-family:'Space Grotesk'">✦ Tutor</b><span class="muted small" id="tutorCtx"></span><span class="sp"></span><button class="btn sm ghost" id="tutorClose">Close</button></header>
+  <div class="msgs" id="msgs"></div>
+  <form id="tutorForm"><textarea id="tutorIn" placeholder="Ask anything about what you're looking at…"></textarea><button class="btn primary" style="--accent:#14142B">Send</button></form>
+</div>
+<div class="toast" id="toast"></div>
+<script src="vendor/d3.min.js"></script>
+<script src="vendor/topojson-client.min.js"></script>
+<script src="js/core.js"></script>
+<script src="js/open.js"></script>
+<script src="js/sources.js"></script>
+<script src="js/ratings.js"></script>
+<script src="js/korea-data.js"></script>
+<script src="js/sides-data.js"></script>
+<script src="js/power-data.js"></script>
+<script src="js/africa-data.js"></script>
+<script src="js/americas-data.js"></script><script src="js/marx-data.js"></script>
+<script src="js/connect.js"></script>
+<script src="js/links-data.js"></script>
+<script src="js/learn.js"></script>
+<script src="js/usp-data.js"></script>
+<script src="js/usp-data2.js"></script>
+<script src="js/disc-data.js"></script>
+<script src="js/lib-data.js"></script>
+<script src="js/modern-a.js"></script>
+<script src="js/modern-b.js"></script>
+<script src="js/modern-c.js"></script>
+<script src="js/modern-d.js"></script>
+<script src="js/modern-e.js"></script>
+<script src="js/modern-f.js"></script>
+<script src="js/modern-g.js"></script>
+<script src="js/modern-h.js"></script>
+<script src="js/modern-i.js"></script>
+<script src="js/modern-j.js"></script>
+<script src="js/modern-k.js"></script>
+<script src="js/modern-l.js"></script>
+<script src="js/modern-m.js"></script>
+<script src="js/anatomy2.js"></script>
+<script src="js/arcade.js"></script>
+<script src="js/arcade-math.js"></script>
+<script src="js/arcade-formal.js"></script>
+<script src="js/arcade-natural.js"></script>
+<script src="js/arcade-social.js"></script>
+<script src="js/arcade-human.js"></script>
+<script src="js/arcade-extra.js"></script>
+<script src="js/arcade-extra2.js"></script>
+<script src="js/arcade-quantum.js"></script><script src="js/arcade-marx.js"></script>
+<script type="module" src="js/home.js"></script>
+<script type="module" src="js/history.js"></script>
+<script type="module" src="js/economy.js"></script>
+<script type="module" src="js/body.js"></script>
+<script type="module" src="js/physics.js"></script>
+<script type="module" src="js/math.js"></script>
+<script type="module" src="js/ai.js"></script>
+<script type="module" src="js/mandarin.js"></script>
+<script type="module" src="js/ged.js"></script>
+<script type="module" src="js/reading.js"></script>
+<script type="module" src="js/evidence.js"></script>
+<script type="module" src="js/news.js"></script>
+<script type="module" src="js/space.js"></script>
+<script type="module" src="js/algebra.js"></script>
+<script type="module" src="js/labs2.js"></script>
+<script type="module" src="js/disc.js"></script>
+<script type="module" src="js/modern.js"></script>
+<script type="module" src="js/modern2.js"></script>
+<script type="module" src="js/modern3.js"></script>
+<script type="module" src="js/modern4.js"></script>
+<script type="module" src="js/modern5.js"></script>
+<script type="module" src="js/modern6.js"></script>
+<script type="module" src="js/modern7.js"></script>
+<script type="module" src="js/modern8.js"></script>
+<script type="module" src="js/modern9.js"></script>
+<script type="module" src="js/modern10.js"></script>
+<script type="module" src="js/modern11.js"></script>
+<script type="module" src="js/selection.js"></script><script type="module" src="js/marxism.js"></script>
+<script type="module" src="js/hub.js"></script>
+</body>
+</html>
