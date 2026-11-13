@@ -8,7 +8,7 @@
   setTimeout(() => Lab.CLAIM_DISCS.forEach((d) => Lab.claims(d)), 1500);
   const STATUS = {
     drafted: ['Sources linked', 'Written with sources attached. Not yet independently checked.'],
-    verified: ['Checked', 'An independent check confirmed that the linked source supports this statement.'],
+    verified: ['Checked', 'A separate AI fact-checking pass (not a human expert) confirmed that the linked source supports this statement.'],
     reviewed: ['Expert reviewed', 'A named subject expert has reviewed this statement.'],
   };
   Lab.timeline = (color, items, extra) => h('div', { class: 'stack', style: { gap: 0, borderLeft: `3px solid ${color}`, marginLeft: '8px' } }, items.map((it) => h('div', { style: { position: 'relative', padding: '8px 0 12px 20px' } },
@@ -25,7 +25,7 @@
     const show = h('div');
     const head = h('p', { class: 'small muted' }, `${ev.length} events, each with its source. `,
       Object.entries(counts).map(([k, n]) => `${n} ${(STATUS[k] || [k])[0].toLowerCase()}`).join(' · '),
-      '. Tap ↗ to read the source yourself, or ⚑ to report a mistake.');
+      '. “Checked” means a separate AI fact-checker confirmed the source; no human expert has reviewed these yet. Tap ↗ to read the source yourself, or ⚑ to report a mistake.');
     show.append(Lab.timeline(D.c, ev, srcLine));
     return h('div', null, head, show);
   };
