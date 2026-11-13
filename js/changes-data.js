@@ -155,6 +155,70 @@ Lab.CHANGES = [
 },
 {
 "d": "2026-11-13",
+"area": "Who really rules?",
+"page": "history-modern-power",
+"sev": "error",
+"what": "The 9th Congress presidium was not expanded: it had 39 members, the same number as at the 8th Congress in 2021, with 23 seats changing hands.",
+"src": [
+"https://www.asianews.it/en/east-asia/north-korea/at-ninth-party-congress-in-pyongyang-sees-kim-reshuffle-its-leadership-boosting-his-power",
+"https://www.dailynk.com/english/north-korea-ninth-party-congress/"
+]
+},
+{
+"d": "2026-11-13",
+"area": "Who really rules?",
+"page": "history-modern-power",
+"sev": "outdated",
+"what": "Outdated: in February 2026 South Korea’s NIS upgraded its assessment, telling lawmakers Ju Ae was at the stage of being internally designated successor.",
+"src": [
+"https://www.dawn.com/news/1972876",
+"https://www.dailynk.com/english/north-korea-ninth-party-congress/"
+]
+},
+{
+"d": "2026-11-13",
+"area": "Who really rules?",
+"page": "history-modern-power",
+"sev": "error",
+"what": "The KSDP held 50 of 687 SPA seats in the 2019 election (Chondoists 22), more than ‘a few’; the seats are allotted, not won.",
+"src": [
+"https://www.indexmundi.com/north_korea/legislative_branch.html (CIA World Factbook data, 2019 SPA election)"
+]
+},
+{
+"d": "2026-11-13",
+"area": "Who really rules?",
+"page": "history-modern-power",
+"sev": "framing",
+"what": "Omits that the party chief has held the presidency twice before (Nguyen Phu Trong 2018–21; To Lam Aug–Oct 2024), so the 2026 merger is presented as more unprecedented than it is.",
+"src": [
+"https://www.wsls.com/news/world/2026/04/07/vietnam-elects-communist-party-chief-as-president-echoing-chinas-power-structure/",
+"https://thediplomat.com/2018/10/meet-vietnams-new-president-the-communist-party-chief"
+]
+},
+{
+"d": "2026-11-13",
+"area": "Who really rules?",
+"page": "history-modern-power",
+"sev": "error",
+"what": "Laos’s 2015 constitutional amendment set a formal limit of two consecutive terms for the president (who is also the party chief), so ‘Informal’ is wrong.",
+"src": [
+"https://jclao.com/?p=14924"
+]
+},
+{
+"d": "2026-11-13",
+"area": "The Korean War",
+"page": "history-modern-koreawar",
+"sev": "error",
+"what": "Survivors generally put the No Gun Ri toll at about 400 (including ~100 in the initial air attack), not 300; the 2005 South Korean committee certified 163 dead or missing.",
+"src": [
+"https://en.wikipedia.org/wiki/No_Gun_Ri_massacre (citing AP 1999 and the 2005 ROK committee)",
+"https://apjjf.org/wp-content/uploads/2023/11/article-1929.pdf"
+]
+},
+{
+"d": "2026-11-13",
 "area": "Marxism–Leninism deep dive",
 "page": "history-modern-marxism",
 "sev": "error",
@@ -269,6 +333,112 @@ Lab.CHANGES = [
 "what": "Counting Kosovo as a successor state without qualification states a contested sovereignty question as settled.",
 "src": [
 "https://en.wikipedia.org/wiki/International_recognition_of_Kosovo"
+]
+},
+{
+"d": "2026-11-13",
+"area": "How American power works",
+"page": "history-modern-uspower",
+"sev": "error",
+"what": "Chun visited on February 2, 1981; Jamaica’s Edward Seaga was the first foreign leader Reagan hosted (January 27–29, 1981).",
+"src": [
+"https://history.state.gov/departmenthistory/visits/jamaica",
+"https://www.csmonitor.com/1981/0128/012852.html"
+]
+},
+{
+"d": "2026-11-13",
+"area": "How American power works",
+"page": "history-modern-uspower",
+"sev": "error",
+"what": "The 1959 hearings on retired officers hired by defense contractors were held by the House Armed Services Subcommittee for Special Investigations (Hébert), not the Senate.",
+"src": [
+"https://onlinebooks.library.upenn.edu/webbin/who/United%20States%2e%20Congress%2e%20House%2e%20Committee%20on%20Armed%20Services%2e%20Subcommittee%20for%20Special%20Investigations",
+"House Armed Services Committee, Subcommittee for Special Investigations, Employment of Retired Military and Civilian Personnel by Defense Industries: Hearings (1959)"
+]
+},
+{
+"d": "2026-11-13",
+"area": "How American power works",
+"page": "history-modern-uspower",
+"sev": "outdated",
+"what": "Outdated: after the April stopgaps Section 702 lapsed on June 12, 2026 and had not been reauthorized as of late October 2026, with collection continuing under certifications until March 2027.",
+"src": [
+"https://www.opb.org/article/2026/06/13/fisa-702-a-key-u-s-spy-tool-has-lapsed-now-what",
+"https://www.deseret.com/politics/2026/07/29/clayton-nomination-mean-for-fisa-authorization/",
+"https://www.brennancenter.org/our-work/research-reports/section-702-foreign-intelligence-surveillance-act-fisa-2026-resource-page"
+]
+},
+{
+"d": "2026-11-13",
+"area": "How American power works",
+"page": "history-modern-uspower",
+"sev": "error",
+"what": "The CRS count is “at least 128 overseas bases in at least 51 countries” (68 persistent bases and 60 other sites), not 128 “major” bases in 49 countries.",
+"src": [
+"https://www.everycrsreport.com/files/2024-07-10_R48123_44023b7587a1d5980af3e288bb50f6be16480a0d.html"
+]
+},
+{
+"d": "2026-11-13",
+"area": "How American power works",
+"page": "history-modern-uspower",
+"sev": "error",
+"what": "CRS counts at least 128 overseas bases, of which only 68 are persistent bases; calling all 128 “major” misstates the source.",
+"src": [
+"https://www.everycrsreport.com/files/2024-07-10_R48123_44023b7587a1d5980af3e288bb50f6be16480a0d.html"
+]
+},
+{
+"d": "2026-11-13",
+"area": "How American power works",
+"page": "history-modern-uspower",
+"sev": "error",
+"what": "CRS gives about $298 billion in constant 2024 dollars for all US aid to Israel in 1946–2024 ($174 billion in current dollars), a figure for total aid, not military aid alone, and not “over $300 billion.”",
+"src": [
+"https://www.everycrsreport.com/files/2025-05-28_RL33222_5306b5d4e077538d2db80d05cd10ca8c08501669.html"
+]
+},
+{
+"d": "2026-11-13",
+"area": "How American power works",
+"page": "history-modern-uspower",
+"sev": "error",
+"what": "CRS estimates about $298 billion (constant 2024 dollars) for 1946–2024, not over $300 billion.",
+"src": [
+"https://www.everycrsreport.com/files/2025-05-28_RL33222_5306b5d4e077538d2db80d05cd10ca8c08501669.html"
+]
+},
+{
+"d": "2026-11-13",
+"area": "How American power works",
+"page": "history-modern-uspower",
+"sev": "error",
+"what": "The figures (Japan 53,912, Germany 35,989) match DMDC active-duty counts; with civilians included, Japan is over 60,000 and Germany nearly 50,000.",
+"src": [
+"https://www.fox4news.com/news/u-s-troop-counts-country-how-pulling-5000-from-germany-impacts-europe-global-presence",
+"https://statista.com/chart/36174/us-military-presence-in-europe-permanent-troops-stationed-by-country/"
+]
+},
+{
+"d": "2026-11-13",
+"area": "How American power works",
+"page": "history-modern-uspower",
+"sev": "outdated",
+"what": "Since July 2025, nuclear watchdogs and the press have reported that B61-12 bombs were redeployed to RAF Lakenheath in the UK; this is not officially confirmed, but the flat five-country list leaves it out.",
+"src": [
+"https://ukdefencejournal.org.uk/us-nukes-deployed-to-england-for-first-time-in-over-a-decade/",
+"https://fas.org/publication/potential-return-of-the-us-nuclear-mission-to-raf-lakenheath"
+]
+},
+{
+"d": "2026-11-13",
+"area": "How American power works",
+"page": "history-modern-uspower",
+"sev": "error",
+"what": "The monitoring of Merkel’s phone was revealed by Der Spiegel in October 2013, not by the Guardian or the Washington Post in June.",
+"src": [
+"Der Spiegel, October 23–27, 2013 reporting on NSA monitoring of Chancellor Merkel’s phone"
 ]
 }
 ];

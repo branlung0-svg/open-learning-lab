@@ -140,11 +140,11 @@
       if (items.length < 12) { const kw = await commonsSearch(`${q} filetype:bitmap`, off, 24); kw.forEach((k) => (k.loose = true)); items = items.concat(kw); }
       const seen = new Set(); return items.filter((x) => !seen.has(x.key) && seen.add(x.key)); } },
     films: { label: '🎞️ Films & newsreels', credit: 'Internet Archive', async load(q, off) {
-      const qq = `(title:(${q})^4 OR subject:(${q})^2 OR description:(${q})) AND mediatype:(movies) AND NOT collection:(opensource_movies)`;
+      const ph = q.replace(/"/g, ''); const qq = `(title:("${ph}")^4 OR subject:("${ph}")^3 OR description:("${ph}")) AND mediatype:(movies) AND NOT collection:(tvarchive) AND NOT collection:(opensource_movies)`;
       const j = await getJSON('https://archive.org/advancedsearch.php?q=' + encodeURIComponent(qq) + '&fl[]=identifier&fl[]=title&fl[]=year&fl[]=creator&fl[]=description&rows=18&page=' + (off / 18 + 1) + '&output=json');
       return (j.response.docs || []).map((d) => ({ kind: 'film', key: d.identifier, thumb: 'https://archive.org/services/img/' + d.identifier, embed: 'https://archive.org/embed/' + d.identifier, title: strip(Array.isArray(d.title) ? d.title[0] : d.title), desc: strip(Array.isArray(d.description) ? d.description[0] : d.description).slice(0, 300), credit: (strip(Array.isArray(d.creator) ? d.creator[0] : d.creator) || 'Internet Archive') + (d.year ? ' · ' + d.year : ''), url: 'https://archive.org/details/' + d.identifier })); } },
     docs: { label: '📜 Documents & books', credit: 'Internet Archive', async load(q, off) {
-      const qq = `(title:(${q})^4 OR subject:(${q})^2) AND mediatype:(texts)`;
+      const ph = q.replace(/"/g, ''); const qq = `(title:("${ph}")^4 OR subject:("${ph}")^2) AND mediatype:(texts)`;
       const j = await getJSON('https://archive.org/advancedsearch.php?q=' + encodeURIComponent(qq) + '&fl[]=identifier&fl[]=title&fl[]=year&fl[]=creator&rows=18&page=' + (off / 18 + 1) + '&output=json');
       return (j.response.docs || []).map((d) => ({ kind: 'doc', key: d.identifier, thumb: 'https://archive.org/services/img/' + d.identifier, embed: 'https://archive.org/embed/' + d.identifier, title: strip(Array.isArray(d.title) ? d.title[0] : d.title), credit: (strip(Array.isArray(d.creator) ? d.creator[0] : d.creator) || 'Internet Archive') + (d.year ? ' · ' + d.year : ''), url: 'https://archive.org/details/' + d.identifier })); } },
     loc: { label: '🏛️ Library of Congress', credit: 'Library of Congress', async load(q, off) {
