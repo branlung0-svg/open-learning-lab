@@ -191,7 +191,9 @@
       h('div', { class: 'row', style: { gap: '6px', marginTop: '8px' } }, h('a', { class: 'btn sm', target: '_blank', rel: 'noopener', href: 'https://www.youtube.com/results?search_query=' + encodeURIComponent(query + ' documentary'), style: { textDecoration: 'none' }, onclick: (e) => { e.currentTarget.href = 'https://www.youtube.com/results?search_query=' + encodeURIComponent(q + ' documentary'); } }, '▶ Videos on YouTube ↗'), h('a', { class: 'btn sm', target: '_blank', rel: 'noopener', href: 'https://www.google.com/search?tbm=nws&q=' + encodeURIComponent(query), style: { textDecoration: 'none' }, onclick: (e) => { e.currentTarget.href = 'https://www.google.com/search?tbm=nws&q=' + encodeURIComponent(q); } }, '📰 News coverage ↗'), h('a', { class: 'btn sm', target: '_blank', rel: 'noopener', href: 'https://scholar.google.com/scholar?q=' + encodeURIComponent(query), style: { textDecoration: 'none' }, onclick: (e) => { e.currentTarget.href = 'https://scholar.google.com/scholar?q=' + encodeURIComponent(q); } }, '🎓 Research papers ↗')));
     drawTabs();
     if (Lab.isKid()) { grid.append(h('p', { class: 'small muted' }, 'Live archive searches are turned off for ages 10–12, because automatic results are not checked. Ask a parent or teacher to explore them with you.')); tabs.style.display = 'none'; chips.style.display = 'none'; return card; }
-    const io = new IntersectionObserver((es) => { if (es.some((x) => x.isIntersecting)) { io.disconnect(); run(); } }, { rootMargin: '300px' }); io.observe(card);
+    let started = false; const start = () => { if (started) return; started = true; io.disconnect(); run(); };
+    const io = new IntersectionObserver((es) => { if (es.some((x) => x.isIntersecting)) start(); }, { rootMargin: '400px' }); io.observe(card);
+    setTimeout(start, 3500);
     return card;
   };
   // Add the panel to discipline pages, modern-world tabs and case studies automatically (public site).
