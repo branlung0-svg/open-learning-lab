@@ -337,6 +337,120 @@ Lab.CHANGES = [
 },
 {
 "d": "2026-11-13",
+"area": "People",
+"page": "history-modern-people",
+"sev": "error",
+"what": "The famous line is a misquotation; Churchill’s documented 1948 Commons remark was that he proposed “to write that history myself”.",
+"src": [
+"https://winstonchurchill.org/resources/quotes/quotes-falsely-attributed/"
+]
+},
+{
+"d": "2026-11-13",
+"area": "People",
+"page": "history-modern-people",
+"sev": "error",
+"what": "Garbled sentence makes it read as if files show no US role regarding Pakistan; Nixon and Kissinger backed Pakistan in 1971 (Bass, The Blood Telegram), and ‘show no role’ overstates what the records prove.",
+"src": [
+"Gary J. Bass, The Blood Telegram (2013)",
+"CIA Activities in Chile (Hinchey Report), 2000: https://www.cia.gov/readingroom/document/0000105716"
+]
+},
+{
+"d": "2026-11-13",
+"area": "People",
+"page": "history-modern-people",
+"sev": "error",
+"what": "Moise’s own published revision puts executions at ‘perhaps on the rough order of 10,000’ (up from about 5,000), not 15,000.",
+"src": [
+"https://edmoise.sites.clemson.edu/landbook.html"
+]
+},
+{
+"d": "2026-11-13",
+"area": "People",
+"page": "history-modern-people",
+"sev": "error",
+"what": "Prince Max von Baden announced the abdication on November 9 without Wilhelm’s consent; Wilhelm signed his formal abdication on November 28, 1918.",
+"src": [
+"John Röhl, Wilhelm II: Into the Abyss of War and Exile (2014)",
+"https://www.britannica.com/biography/William-II-emperor-of-Germany"
+]
+},
+{
+"d": "2026-11-13",
+"area": "Events",
+"page": "history-modern-events",
+"sev": "framing",
+"what": "Stimson wrote ‘casualties’, not lives, and 1945 estimates were not capped at several hundred thousand: the Joint Chiefs’ April 1945 figure for both invasions was about 1.2 million casualties and the Shockley memo projected 1.7–4 million.",
+"src": [
+"https://ahf.nuclearmuseum.org/ahf/key-documents/stimson-bomb/",
+"D. M. Giangreco, Hell to Pay (2009); summarized at https://en.wikipedia.org/wiki/Operation_Downfall#Estimated_casualties"
+]
+},
+{
+"d": "2026-11-13",
+"area": "Events",
+"page": "history-modern-events",
+"sev": "error",
+"what": "The name lists were revealed by Kathy Kadane’s 1990 reporting, not by the 2017 cable release, which documented US officials’ detailed knowledge of the killings.",
+"src": [
+"https://adst.org/2016/05/naming-names-u-s-embassy-jakarta-indonesian-purges-1965-1966/",
+"https://www.hrw.org/news/2017/10/18/indonesia-us-documents-released-1965-66-massacres"
+]
+},
+{
+"d": "2026-11-13",
+"area": "Events",
+"page": "history-modern-events",
+"sev": "error",
+"what": "The roughly $11.3 billion figure is US Lend-Lease to the USSR alone; British aid was additional.",
+"src": [
+"https://www.rferl.org/a/did-us-lend-lease-aid-tip-the-balance-in-soviet-fight-against-nazi-germany/30599486.html"
+]
+},
+{
+"d": "2026-11-13",
+"area": "Events",
+"page": "history-modern-events",
+"sev": "error",
+"what": "Sukarno had a single name; ‘Ahmed/Achmed’ was a foreign press invention (the file elsewhere uses ‘Sukarno’).",
+"src": [
+"https://www.britannica.com/biography/Sukarno"
+]
+},
+{
+"d": "2026-11-13",
+"area": "Africa in depth",
+"page": "history-modern-africa",
+"sev": "error",
+"what": "The item cites Lovejoy, whose estimates total about 10.7–11.5 million (7.42 million trans-Saharan plus 3.3–4.0 million Red Sea/East Africa), so ‘around 6 million or more’ badly understates the cited scholarship.",
+"src": [
+"Boston University African Studies Center, Slave Trade Tables (from Lovejoy, Transformations in Slavery, 3rd ed. 2012): https://www.bu.edu/africa/files/2023/11/Slave-Trade-Tables.docx.pdf"
+]
+},
+{
+"d": "2026-11-13",
+"area": "Africa in depth",
+"page": "history-modern-africa",
+"sev": "framing",
+"what": "The range stops at 800,000 while citing the UN, which (like Rwanda’s government census) puts the toll at about 1 million; the low-end scholarly range is presented as the whole picture.",
+"src": [
+"UN Secretary-General message, 7 April 2024: ‘Over the course of 100 days, 1 million people were killed.’ https://press.un.org/en/2024/sgsm22184.doc.htm"
+]
+},
+{
+"d": "2026-11-13",
+"area": "The Americas in depth",
+"page": "history-modern-americas",
+"sev": "error",
+"what": "‘Up to about a million’ presents a ceiling that is below the leading demographic estimate (McCaa 2003: about 1.4 million excess deaths, 2.1 million total population loss).",
+"src": [
+"Robert McCaa, ‘Missing millions: the demographic costs of the Mexican Revolution’, Mexican Studies/Estudios Mexicanos 19:2 (2003): https://users.pop.umn.edu/~rmccaa/missmill/abstract.htm"
+]
+},
+{
+"d": "2026-11-13",
 "area": "How American power works",
 "page": "history-modern-uspower",
 "sev": "error",

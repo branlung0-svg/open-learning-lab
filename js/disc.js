@@ -68,9 +68,10 @@ Lab.routes.d = function (app, [id, part]) {
   const pgrid = h('div', { class: 'grid g3' });
   body.append(card('people', 'The people who built it', h('p', { class: 'small muted' }, 'Real portraits and photographs from Wikimedia Commons. Tap a person to ask the tutor about their life and work.'), pgrid));
   // Timeline
-  body.append(card('time', 'How it unfolded', h('div', { class: 'stack', style: { gap: 0, borderLeft: `3px solid ${D.c}`, marginLeft: '8px' } }, D.tl.map(([y, t]) => h('div', { style: { position: 'relative', padding: '8px 0 12px 20px' } },
-    h('span', { style: { position: 'absolute', left: '-8px', top: '13px', width: '13px', height: '13px', borderRadius: '50%', background: D.c, border: '3px solid var(--card)' } }),
-    h('div', { class: 'tiny', style: { fontWeight: 700, color: D.c, letterSpacing: '.02em' } }, y), h('div', null, t))))));
+  const tline = Lab.timeline(D.c, D.tl.map(([y, t]) => ({ when: y, text: t })));
+  const tbox = h('div', null, tline);
+  body.append(card('time', 'How it unfolded', tbox));
+  Lab.claims(D.id).then((C) => { if (!C) return; tbox.replaceChildren(Lab.claimsTimeline(D, C)); const extra = Lab.claimsPeople(C); if (extra) sec.people.append(extra); });
   // Pictures: archive highlights + the larger gallery
   const agrid = h('div', { class: 'grid g3' });
   const gmore = h('div', { class: 'row', style: { marginTop: '10px' } });
