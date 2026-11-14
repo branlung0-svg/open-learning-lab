@@ -1,0 +1,812 @@
+[
+ {
+  "id": "cap-e-pacioli",
+  "verdict": "fix",
+  "text": "Luca Pacioli publishes the first widely read printed account of double-entry bookkeeping, a method Italian merchants and bankers had already used for generations. Firms still use it today.",
+  "sources": [
+   {
+    "cite": "Wikipedia, Luca Pacioli (Wikipedia used because the Britannica page could not be opened; swap for a scholarly source when possible)",
+    "url": "https://en.wikipedia.org/wiki/Luca_Pacioli"
+   }
+  ],
+  "method": "Opened Wikipedia, Luca Pacioli (says Summa of 1494 is one of the first published descriptions of the Venetian method); Britannica URL could not be opened",
+  "problem": "Britannica URL could not be opened. Wording softened: Pacioli described an existing method, and some sources call his the first, others one of the first, printed accounts."
+ },
+ {
+  "id": "cap-e-atlantic",
+  "verdict": "fix",
+  "text": "The Atlantic slave trade carries about 12.5 million enslaved Africans onto ships; about 10.7 million survive the crossing, so close to 2 million die at sea. Their forced labor grows sugar, tobacco and cotton for world markets.",
+  "sources": [
+   {
+    "cite": "SlaveVoyages, Methodology of the Trans-Atlantic Slave Trade database",
+    "url": "https://legacy.slavevoyages.org/blog/methodology-trans-atlantic"
+   }
+  ],
+  "method": "Opened SlaveVoyages methodology essay (legacy site): 12.52 million departed, about 10.7 million disembarked, 1514–1866",
+  "problem": "Figures confirmed; original estimates-page URL could not be opened, so replaced with the SlaveVoyages page I opened. Added the deaths at sea plainly rather than leaving readers to subtract."
+ },
+ {
+  "id": "cap-e-eic",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "Wikipedia, East India Company (Wikipedia used because the Britannica page could not be opened; swap for a scholarly source when possible)",
+    "url": "https://en.wikipedia.org/wiki/East_India_Company"
+   }
+  ],
+  "method": "Opened Wikipedia, East India Company: charter of 31 Dec 1600, joint-stock company, armies of about 260,000 at peak, ruled much of India until 1858",
+  "problem": "Text accurate; Britannica URL could not be opened, source replaced."
+ },
+ {
+  "id": "cap-e-voc",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "Wikipedia, Dutch East India Company (Wikipedia used because the Britannica page could not be opened; swap for a scholarly source when possible)",
+    "url": "https://en.wikipedia.org/wiki/Dutch_East_India_Company"
+   }
+  ],
+  "method": "Opened Wikipedia, Dutch East India Company: founded 20 March 1602, shares traded in markets that became the Amsterdam Stock Exchange, one of the first joint-stock companies",
+  "problem": "Text accurate; Britannica URL could not be opened, source replaced."
+ },
+ {
+  "id": "cap-e-banda",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "Wikipedia, Dutch conquest of the Banda Islands (cites Loth, Corn and Lape)",
+    "url": "https://en.wikipedia.org/wiki/Dutch_conquest_of_the_Banda_Islands"
+   },
+   {
+    "cite": "Cambridge World History of Genocide, Genocide in the Spice Islands",
+    "url": "https://www.cambridge.org/core/books/abs/cambridge-world-history-of-genocide/genocide-in-the-spice-islands/FB91452701BB794181164C59D08C659C"
+   }
+  ],
+  "method": "Opened Wikipedia, Dutch conquest of the Banda Islands: pre-conquest population about 15,000; about 2,800 killed, 1,700 enslaved, 1,000 deported in 1621 under Coen; Lape estimates 90% killed, enslaved or deported. Cambridge chapter seen in search results only",
+  "problem": "Text accurate; Britannica URL could not be opened, sources replaced. Conf Strong is right (population estimates are approximate)."
+ },
+ {
+  "id": "cap-e-tulip",
+  "verdict": "fix",
+  "conf": "Strong",
+  "text": "Tulip bulb prices in the Dutch Republic soar and then collapse in early 1637. Historian Anne Goldgar found few bankruptcies and far less damage to the wider economy than the later legend claims.",
+  "sources": [
+   {
+    "cite": "Reviews in History (Institute of Historical Research), review of Goldgar, Tulipmania (2008)",
+    "url": "https://reviews.history.ac.uk/review/666"
+   }
+  ],
+  "method": "Opened Reviews in History review 666 of Goldgar’s Tulipmania: peak Feb 1637, collapse March 1637, few bankruptcies, legend based on a few pamphlets",
+  "problem": "UChicago Press URL could not be opened; replaced with a scholarly review I opened. The modest-damage view is now the mainstream among historians of the episode, so Strong fits better than Contested."
+ },
+ {
+  "id": "cap-e-boe",
+  "verdict": "fix",
+  "text": "The Bank of England is founded as a company owned by private investors, set up to lend money to King William III’s government for its war with France. Central banking grows out of arrangements like this.",
+  "sources": [
+   {
+    "cite": "Bank of England Museum, Why was the Bank of England founded?",
+    "url": "https://www.bankofengland.co.uk/museum/online-collections/blog/why-was-the-bank-of-england-founded"
+   }
+  ],
+  "method": "Opened Bank of England Museum blog: Royal Charter 27 July 1694, raised £1.2 million from 1,268 investors for William III’s wars against France",
+  "problem": "Original /about/history URL could not be opened; replaced. Clarified ownership (a joint-stock company of private investors, nationalised only in 1946) and which war."
+ },
+ {
+  "id": "cap-e-bubble",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "EBSCO Research Starters, Collapse of the South Sea Bubble",
+    "url": "https://www.ebsco.com/research-starters/history/collapse-south-sea-bubble"
+   }
+  ],
+  "method": "Opened EBSCO Research Starters on the South Sea Bubble: share price from £128.5 to £1,000 and back to £135 by Sept 1720, thousands bankrupted; Mississippi scheme mentioned",
+  "problem": "Text accurate; Britannica URL could not be opened, source replaced."
+ },
+ {
+  "id": "cap-e-enclosure",
+  "verdict": "fix",
+  "text": "Over 5,000 Acts of Parliament enclose open fields and shared village land in England, turning them into private farms. Farm output rises, but many poor families lose rights to graze animals or gather fuel; historians still debate how far this pushed people into towns and factory work.",
+  "sources": [
+   {
+    "cite": "UK Parliament, Enclosing the land (same page opened on Parliament’s webtest mirror)",
+    "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/landscape/overview/enclosingland/"
+   }
+  ],
+  "method": "Opened UK Parliament Living Heritage, Enclosing the land (webtest.parliament.uk copy of the same path): over 5,200 enclosure bills 1604–1914, productivity gains, historians divided on whether it drove labourers off the land",
+  "problem": "The record stated as fact that families moved to towns; Parliament’s own page says historians are divided on this. Rewrote so the migration effect is shown as debated, while keeping the loss of common rights."
+ },
+ {
+  "id": "cap-e-diwani",
+  "verdict": "fix",
+  "text": "After winning the Battle of Plassey (1757), the East India Company is granted the diwani, the right to collect Bengal’s land revenue, by the Mughal emperor in 1765. A trading company becomes a government.",
+  "sources": [
+   {
+    "cite": "Wikipedia, Company rule in India",
+    "url": "https://en.wikipedia.org/wiki/Company_rule_in_India"
+   },
+   {
+    "cite": "Wikipedia, Treaty of Allahabad",
+    "url": "https://en.wikipedia.org/wiki/Treaty_of_Allahabad"
+   }
+  ],
+  "method": "Opened Wikipedia, Battle of Plassey (23 June 1757), Company rule in India (diwani of Bengal and Bihar granted 1765) and Treaty of Allahabad (granted by Shah Alam II)",
+  "problem": "Facts correct; Britannica URL could not be opened. Added who granted the diwani (it followed the 1764 Battle of Buxar as well as Plassey)."
+ },
+ {
+  "id": "cap-e-bengal1770",
+  "verdict": "fix",
+  "text": "Famine kills at least a million people in Bengal. The Company’s own 1770 estimate was a third of the population (about 10 million), while some modern historians put it near 1.2 million; they also debate how much Company tax collection and grain dealing worsened a drought-driven crisis.",
+  "sources": [
+   {
+    "cite": "Wikipedia, Great Bengal famine of 1770 (summarizes Datta, Dyson, Roy)",
+    "url": "https://en.wikipedia.org/wiki/Great_Bengal_famine_of_1770"
+   }
+  ],
+  "method": "Opened Wikipedia, Great Bengal famine of 1770: Court of Directors 1770 estimate one-third (10 million), Datta about 1.2 million, Dyson calls 10 million barely credible; debate on drought vs Company policy",
+  "problem": "‘Kills millions’ overstated the lower end of modern estimates. Now gives the range, who made each estimate, and the causal debate."
+ },
+ {
+  "id": "cap-e-wealth",
+  "verdict": "supported",
+  "method": "Saw the Online Library of Liberty title page for the Cannan edition vol. 1 in search results (URL confirmed to exist); content checked from general knowledge of the text (Book I on division of labor; Book I ch. 10 on merchants conspiring)"
+ },
+ {
+  "id": "cap-e-industrial",
+  "verdict": "fix",
+  "text": "The Industrial Revolution begins in Britain: machines, factories and coal-powered steam engines multiply output, first in cotton textiles. Historians still debate how quickly ordinary workers’ living standards rose in its early decades.",
+  "sources": [
+   {
+    "cite": "World History Encyclopedia, British Industrial Revolution",
+    "url": "https://worldhistory.org/British_Industrial_Revolution"
+   }
+  ],
+  "method": "Opened World History Encyclopedia, British Industrial Revolution: dated 1760–1840, cotton, coal, Watt engine, 2,500 steam engines by 1800",
+  "problem": "Britannica URL could not be opened, source replaced. Added the long-running ‘standard of living debate’ (optimists vs pessimists), which a fair historian on either side would mention."
+ },
+ {
+  "id": "cap-e-gin",
+  "verdict": "supported",
+  "method": "Opened National Archives, Eli Whitney’s Patent for the Cotton Gin (the record URL): patent 1794, inland sticky-seed cotton, growth of slavery called the most significant effect, slave states 6 to 15"
+ },
+ {
+  "id": "cap-e-domestic",
+  "verdict": "fix",
+  "when": "1810–1860",
+  "sources": [
+   {
+    "cite": "Equal Justice Initiative, The Domestic Slave Trade",
+    "url": "https://eji.org/history-racial-injustice-domestic-slave-trade"
+   },
+   {
+    "cite": "Smithsonian Magazine, Retracing Slavery’s Trail of Tears (2015)",
+    "url": "https://www.smithsonianmag.com/history/slavery-trail-of-tears-180956968"
+   }
+  ],
+  "method": "Opened EJI, The Domestic Slave Trade (about one million moved 1810–1860; family separation) and Smithsonian, Retracing Slavery’s Trail of Tears (about a million in the 50 years before the Civil War); opened the EconPapers entry for Olmstead and Rhode 2018",
+  "problem": "Olmstead and Rhode (2018) is a critique of the ‘New History of Capitalism’ and does not support the one-million figure; Gilder Lehrman URL could not be opened. Replaced with two sources I opened and matched the dates they give (1810–1860)."
+ },
+ {
+  "id": "cap-e-ricardo",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Ricardo’s Principles (1817), ch. 7, gives the England–Portugal wine and cloth example"
+ },
+ {
+  "id": "cap-e-factory",
+  "verdict": "supported",
+  "sources": [
+   {
+    "cite": "UK Parliament, The 1833 Factory Act",
+    "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/factoryact/"
+   },
+   {
+    "cite": "The National Archives, 1833 Factory Act (education resource)",
+    "url": "https://www.nationalarchives.gov.uk/education/resources/1833-factory-act/"
+   }
+  ],
+  "method": "Opened The National Archives, 1833 Factory Act: no workers under nine, 9 hours for ages 9–13, 12 for 13–18, four inspectors, textiles; Parliament page exists (seen on webtest mirror)"
+ },
+ {
+  "id": "cap-e-abolition",
+  "verdict": "fix",
+  "text": "Britain abolishes slavery in most of its colonies (not in Company-ruled India) and pays £20 million, about 40% of that year’s government spending, to slave owners. The enslaved get nothing and are forced into years of unpaid “apprenticeship” until 1838.",
+  "sources": [
+   {
+    "cite": "UCL Centre for the Study of the Legacies of British Slavery",
+    "url": "https://www.ucl.ac.uk/lbs/"
+   },
+   {
+    "cite": "Full Fact, What we know about the government loan to pay slave owners (2018)",
+    "url": "https://fullfact.org/economy/slavery-abolition-act-loan/"
+   }
+  ],
+  "method": "Opened Full Fact on the Slavery Abolition Act loan: £20 million to owners, about 40% of spending, exceptions such as India, unpaid apprenticeship, no compensation for the freed. UCL LBS page could not be opened",
+  "problem": "Facts right; added the scale of the payment and the India exception, and a source I could open alongside UCL."
+ },
+ {
+  "id": "cap-e-ireland",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "UK Parliament, The Great Famine (Parliament and Ireland)",
+    "url": "https://webtest.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliamentandireland/overview/the-great-famine"
+   }
+  ],
+  "method": "Opened UK Parliament Living Heritage, The Great Famine (webtest mirror): 1845–1852, about 1,000,000 deaths, Trevelyan limited aid on laissez-faire principles, food exports continued",
+  "problem": "Text accurate and fairly balanced; Britannica URL could not be opened, source replaced (this is Parliament’s own page, served from its webtest host; the www.parliament.uk path is very likely the same)."
+ },
+ {
+  "id": "cap-e-cornlaws",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "EBSCO Research Starters, British Parliament Repeals the Corn Laws",
+    "url": "https://www.ebsco.com/research-starters/history/british-parliament-repeals-corn-laws"
+   }
+  ],
+  "method": "Opened EBSCO Research Starters, British Parliament Repeals the Corn Laws: grain tariffs kept prices high for landowners; 1846 repeal under Peel was the first step to free trade",
+  "problem": "Text accurate; original Parliament URL could not be opened, source replaced."
+ },
+ {
+  "id": "cap-e-manifesto",
+  "verdict": "fix",
+  "text": "Marx and Engels publish The Communist Manifesto, one of the most influential critiques of capitalism ever written (see the Marxism–Leninism deep dive).",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. The Marxists Internet Archive hosts the full public-domain text at this path",
+  "problem": "‘The most influential critique’ is a judgment; ‘one of the most influential’ is defensible to both sides."
+ },
+ {
+  "id": "cap-e-limited",
+  "verdict": "fix",
+  "text": "British laws of 1855–1862 let ordinary companies offer limited liability: investors can lose only what they put in. This makes it easier to raise money from many small shareholders, though critics then and now warn it lets owners push losses onto creditors.",
+  "sources": [
+   {
+    "cite": "Wikipedia, Limited Liability Act 1855",
+    "url": "https://en.wikipedia.org/wiki/Limited_Liability_Act_1855"
+   },
+   {
+    "cite": "Wikipedia, Limited liability",
+    "url": "https://en.wikipedia.org/wiki/Limited_liability"
+   }
+  ],
+  "method": "Opened Wikipedia, Limited Liability Act 1855 and Limited liability: 1855 act first general grant (more than 25 members), 1856 Act cut to seven members, 1862 Act extended to insurers",
+  "problem": "Facts right; Britannica URL could not be opened. Added the standard objection (moral hazard) so both sides appear."
+ },
+ {
+  "id": "cap-e-meiji",
+  "verdict": "fix",
+  "text": "Japan’s Meiji Restoration begins state-led industrialization: the government builds model factories, mines, railways and shipyards. In the 1880s it sells most of its factories and mines, often cheaply, to investors with close government ties, and some grow into the zaibatsu.",
+  "sources": [
+   {
+    "cite": "Britannica, Empire of Japan: The emergence of modern Japan",
+    "url": "https://www.britannica.com/place/Empire-of-Japan/The-emergence-of-modern-Japan"
+   },
+   {
+    "cite": "Shippensburg University course page, Meiji Economic Development",
+    "url": "https://webspace.ship.edu/jkskaf/Mod.%20Japan/a11EconomicTrans.html"
+   }
+  ],
+  "method": "Opened Britannica, Empire of Japan: The emergence of modern Japan (pilot factories sold in the 1880s to investors close to officials, who became the zaibatsu) and a Shippensburg course page (railways later nationalized in 1907, Mitsubishi got Nagasaki shipyard 1883, Mitsui got Miike mine 1888)",
+  "problem": "Railways and banks were not generally sold to the zaibatsu (main railways were nationalized in 1906–07). Corrected what was sold and added the political-connections point."
+ },
+ {
+  "id": "cap-e-gold",
+  "verdict": "fix",
+  "text": "During the era of the classical gold standard, with steamships, railways and telegraphs cutting costs, world trade and cross-border investment rise to levels not seen again until the late 20th century. This ‘first globalization’ also coincides with the height of European empire.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. The comparison (1913 trade and capital-flow ratios regained around the 1970s–1990s depending on the measure) is standard in O’Rourke and Williamson’s work; the Britannica gold-standard page is unlikely to state it",
+  "problem": "The causal phrasing (‘under the gold standard’) is debated, and the year the old peak was regained depends on the measure. Also, the Britannica gold-standard page probably does not support the trade claim; a better source would be O’Rourke and Williamson, Globalization and History (MIT Press, 1999)."
+ },
+ {
+  "id": "cap-e-panic1873",
+  "verdict": "fix",
+  "conf": "Established",
+  "text": "A financial panic in Vienna (May 1873) and New York (September 1873) starts a long period of falling prices and slow growth in Europe and North America, later called the Long Depression; historians debate how deep it really was.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Vienna crash of May 1873 and failure of Jay Cooke & Co. in Sept 1873 are well established; S. B. Saul’s ‘The Myth of the Great Depression’ (1969) questions its depth",
+  "problem": "The panic itself is Established; the severity of the ‘Long Depression’ is debated, so the debate is now in the text instead of lowering the label for the whole record."
+ },
+ {
+  "id": "cap-e-congo",
+  "verdict": "fix",
+  "conf": "Established",
+  "text": "In the Congo Free State, owned personally by King Leopold II of Belgium, forced rubber collection enforced by hostage-taking, mutilation and killing causes mass death. Because no census was taken, estimates of the toll range widely, from about 1 million to 10 million or more.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Mass death and the methods are documented by the 1904 Casement Report and Belgium’s own 1905 commission; toll estimates differ (Hochschild about 10 million via population halving; lower scholarly estimates around 1–5 million)",
+  "problem": "Labeling the whole record Contested could be read as doubting the atrocities, which are settled. Only the size of the toll is disputed, and the text now says why."
+ },
+ {
+  "id": "cap-e-sherman",
+  "verdict": "fix",
+  "text": "The US Sherman Antitrust Act outlaws agreements that restrain trade, such as cartels, and attempts to monopolize a market.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Section 1 bans contracts and combinations in restraint of trade; Section 2 bans monopolizing or attempting to monopolize",
+  "problem": "Being a monopoly is not itself illegal under the Act; monopolizing (gaining or keeping one by improper means) is. Wording made precise."
+ },
+ {
+  "id": "cap-e-weber",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-e-triangle",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. 146 deaths on 25 March 1911, most of them young Jewish and Italian immigrant women; a locked stairwell door; New York’s Factory Investigating Commission followed"
+ },
+ {
+  "id": "cap-e-ford",
+  "verdict": "fix",
+  "text": "Ford introduces the moving assembly line (1913) and then the five-dollar day (1914), cutting the price of a car and roughly doubling usual factory pay. The high wage was partly meant to stop workers quitting the fast, repetitive line, and to qualify, workers had to meet company rules on their home lives.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Model T price fell from about $850 to under $300; the $5 day roughly doubled the $2.34 average; turnover was about 370% in 1913; the Sociological Department inspected homes",
+  "problem": "Added context that both admirers and critics of Ford stress: the pay rise answered huge turnover, and it came with conditions."
+ },
+ {
+  "id": "cap-e-fed",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Federal Reserve Act signed 23 December 1913 after the Panic of 1907 and earlier panics"
+ },
+ {
+  "id": "cap-e-pigou",
+  "verdict": "fix",
+  "text": "Arthur Pigou’s Economics of Welfare explains what are now called externalities, costs such as pollution that fall on people outside a deal, and proposes taxing them.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Pigou wrote of gaps between private and social net product; the word ‘externality’ became standard later",
+  "problem": "Minor precision: Pigou did not use the word ‘externalities’."
+ },
+ {
+  "id": "cap-e-crash",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Lebergott’s NBER series gives about 3.2% unemployment in 1929 and about 24.9% in 1933; roughly 9,000 banks failed 1930–33"
+ },
+ {
+  "id": "cap-e-smoot",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-e-dustbowl",
+  "verdict": "fix",
+  "text": "Drought and years of plowing up native grassland for wheat bring the Dust Bowl to the southern Great Plains, driving hundreds of thousands of people off the land.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Commonly cited: about 2.5 million left the Plains states in the 1930s, and roughly 200,000–400,000 Dust Bowl migrants went to California",
+  "problem": "‘Families’ overstates the commonly cited migration figures, which count people. Added the wheat boom as the reason for the plowing."
+ },
+ {
+  "id": "cap-e-newdeal",
+  "verdict": "fix",
+  "text": "Roosevelt’s New Deal adds bank deposit insurance, the separation of commercial and investment banking (Glass–Steagall), Social Security, minimum wages and the legal right to join a union. Supporters credit it with stability; critics argue some policies slowed recovery, and many farm and domestic workers, often Black, were left out at first.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. FDIC and Glass–Steagall 1933, Social Security and Wagner Acts 1935, Fair Labor Standards Act 1938; Cole and Ohanian (2004) argue some policies slowed recovery; the occupational exclusions are well documented",
+  "problem": "List was accurate but one-sided for a contested program; added the main critique from each side in one sentence."
+ },
+ {
+  "id": "cap-e-keynes",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-e-coase",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. The Nature of the Firm (1937); Nobel 1991"
+ },
+ {
+  "id": "cap-e-schumpeter",
+  "verdict": "fix",
+  "text": "Joseph Schumpeter describes “creative destruction”: new firms and technologies destroy old ones. He also predicted that capitalism would slowly give way to socialism, not because it failed but because its success would weaken the institutions and attitudes that support it.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Capitalism, Socialism and Democracy (1942)",
+  "problem": "Without the reason, readers could take the prediction as a claim that capitalism fails, which is the opposite of Schumpeter’s argument."
+ },
+ {
+  "id": "cap-e-1944books",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. The Nobel source supports only the Hayek half; consider adding a Polanyi source (e.g., the Beacon Press edition page)"
+ },
+ {
+  "id": "cap-e-bretton",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. 44 Allied nations, July 1944; dollar pegged to gold at $35 an ounce"
+ },
+ {
+  "id": "cap-e-erhard",
+  "verdict": "fix",
+  "text": "West Germany’s 1948 currency reform, organized by the Western Allies, and Ludwig Erhard’s lifting of most price controls start the “social market economy”, combining competitive markets with social insurance and, later, a strong role for unions. Rapid growth (the “economic miracle”) follows; economists debate how much came from the reforms and how much from postwar rebuilding and Marshall aid.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only",
+  "problem": "The currency reform was an Allied measure; strong union co-determination came in the 1950s and 1970s; and the cause of the ‘miracle’ is debated, so stating ‘growth follows’ alone implied settled causation."
+ },
+ {
+  "id": "cap-e-rehn",
+  "verdict": "fix",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. The Rehn–Meidner model was presented to the LO union congress in 1951",
+  "problem": "Text accurate, but the cited Britannica ‘Sweden: Economy’ page probably does not discuss the Rehn–Meidner model. Needs a specific source (e.g., an LO or academic history of the model); I could not open one in this session."
+ },
+ {
+  "id": "cap-e-korea",
+  "verdict": "fix",
+  "text": "Under Park Chung-hee, who took power in a 1961 military coup and ruled until 1979, South Korea grows rapidly through state-directed, export-led industrialization: cheap credit for chosen firms (the chaebol), strict export targets, and suppressed labor unions. Incomes rise fast, while political opponents are jailed.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only",
+  "problem": "Park ruled as an elected but authoritarian president after 1963, so ‘military government’ needed precision. Added the income gains and the repression of opponents so both are stated plainly."
+ },
+ {
+  "id": "cap-e-friedman1970",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. New York Times Magazine, 13 September 1970"
+ },
+ {
+  "id": "cap-e-nixon",
+  "verdict": "fix",
+  "text": "President Nixon ends the dollar’s convertibility into gold (August 1971), and by 1973 the Bretton Woods system of fixed exchange rates has collapsed.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only",
+  "problem": "The system broke down over 1971–1973 (Smithsonian Agreement, then floating), not in one step."
+ },
+ {
+  "id": "cap-e-oil",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Interpretation (loss of faith in Keynesian management) is standard; causes of the Great Inflation are debated but the record does not assert them"
+ },
+ {
+  "id": "cap-e-chile",
+  "verdict": "fix",
+  "text": "After the 1973 military coup in Chile, economists trained in Chicago (the “Chicago Boys”) privatize, cut tariffs and create private pensions; there was a deep crash in 1982, and fast growth and big falls in poverty came mainly from the late 1980s and after democracy returned in 1990. The dictatorship killed or disappeared more than 3,000 people and tortured tens of thousands.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Rettig and Valech commissions: about 3,000+ killed or disappeared, about 38,000 recognized as political prisoners or torture victims; poverty around 45% in 1987, falling sharply in the 1990s",
+  "problem": "‘Growth and poverty reduction follow’ implied the gains came under the dictatorship; most poverty decline came later, which critics insist on, while supporters credit the market framework that democratic governments kept. Death and torture figures made concrete. The Cato URL could not be checked and should be confirmed."
+ },
+ {
+  "id": "cap-e-china1978",
+  "verdict": "fix",
+  "text": "China begins “reform and opening up”: farm families may sell surplus crops, special economic zones welcome foreign firms, and markets slowly spread under Communist Party rule. Over the next four decades, by World Bank figures, about 800 million people in China leave extreme poverty.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. World Bank and China’s State Council joint report (2022) gives about 800 million lifted out of extreme poverty since 1978",
+  "problem": "Accurate, but the set lacks the single largest poverty decline linked to market reforms; added it (with the state-led context already in the text)."
+ },
+ {
+  "id": "cap-e-thatcher",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. The Thatcher Foundation homepage is a general archive; a page specific to the policies would be stronger"
+ },
+ {
+  "id": "cap-e-consensus",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Williamson’s paper was given in November 1989 and published in 1990"
+ },
+ {
+  "id": "cap-e-india1991",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-e-russia",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Brainerd and Cutler (2005) is the JEP paper ‘Autopsy on an Empire’; male life expectancy fell from about 64 (1990) to about 58 (1994)"
+ },
+ {
+  "id": "cap-e-asia1997",
+  "verdict": "fix",
+  "text": "The Asian financial crisis hits Thailand, Indonesia and South Korea when a rush of short-term foreign money reverses, exposing fixed currency pegs and weak banks. Economists still argue over the blame: footloose capital and IMF austerity, or crony lending and poor regulation.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only",
+  "problem": "Single-cause wording; added the rival explanations both camps use."
+ },
+ {
+  "id": "cap-e-wto",
+  "verdict": "fix",
+  "text": "China joins the World Trade Organization. Research later finds that the surge of Chinese imports, which accelerated after it joined, explains about a quarter of the fall in US manufacturing jobs from 1990 to 2007, with lasting damage in hard-hit towns, while lowering prices for consumers.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Autor, Dorn and Hanson (2013) estimate about one-quarter of the 1990–2007 decline; Amiti and others document consumer price gains",
+  "problem": "‘Resulting’ tied a 1990–2007 effect to a 2001 event; the China shock began before accession. Added the consumer-price gain so the record is not one-sided."
+ },
+ {
+  "id": "cap-e-gfc",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. FCIC majority found the crisis avoidable; dissents by Hennessey, Holtz-Eakin and Thomas, and separately Wallison"
+ },
+ {
+  "id": "cap-e-rana",
+  "verdict": "fix",
+  "text": "The Rana Plaza garment factory building collapses in Bangladesh, killing more than 1,130 workers who made clothes for global brands and injuring over 2,500. It leads to a binding safety accord between brands and unions.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Official toll usually given as 1,134; the ILO uses 1,132 in some pages",
+  "problem": "Sources differ slightly on the exact toll (1,132 vs 1,134); a rounded figure avoids a conflict with the ILO page."
+ },
+ {
+  "id": "cap-e-piketty",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-e-brt",
+  "verdict": "fix",
+  "text": "The US Business Roundtable says companies should serve customers, workers, suppliers and communities as well as shareholders, a shift away from the Friedman view. Some critics doubt behavior changed; others warn that managers answerable to everyone are answerable to no one.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only",
+  "problem": "Only one side’s criticism was given; added the shareholder-primacy objection."
+ },
+ {
+  "id": "cap-e-povdebate",
+  "verdict": "fix",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Sullivan and Hickel DOI matches World Development 161 (2023) 106026 as far as I know",
+  "problem": "Text is balanced, but I could not confirm the Rutar (2024) citation or its DOI and journal; please check them before publishing."
+ },
+ {
+  "id": "cap-e-poverty2025",
+  "verdict": "fix",
+  "text": "The World Bank raises its extreme-poverty line to $3.00 a day. By that measure roughly 800 million people remain extremely poor, compared with about 2 billion or more in 1990.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. The June 2025 update moved to $3.00 (2021 prices); I recall estimates of about 810–840 million for 2022–2025 but could not open the factsheet",
+  "problem": "Exact figures (830 million; 2.3 billion in 1990) could not be checked against the factsheet; rounded so the record is safe, and should be re-checked against the World Bank page."
+ },
+ {
+  "id": "cap-e-wir2026",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. The figures match the World Inequality Lab’s long-running estimates; note they are model-based and disputed by some economists"
+ },
+ {
+  "id": "cap-e-nobel2024",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Prize ‘for studies of how institutions are formed and affect prosperity’"
+ },
+ {
+  "id": "cap-e-nobel2025",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Half to Mokyr, half shared by Aghion and Howitt"
+ },
+ {
+  "id": "cap-e-survival",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. BLS Business Employment Dynamics: about 20% close in year one, roughly half by year five"
+ },
+ {
+  "id": "cap-p-khaldun",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-smith",
+  "verdict": "fix",
+  "text": "Explained the division of labor and used the image of an “invisible hand” for how self-interest can serve others in markets, but also attacked monopolies and argued that no society can flourish when most of its members are poor.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. The ‘invisible hand’ appears only once in the Wealth of Nations; the line on the poor is in Book I, ch. 8",
+  "problem": "‘Cared about the poor’ is vague and sounds like praise; replaced with what he actually argued."
+ },
+ {
+  "id": "cap-p-ricardo",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-mill",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-marx",
+  "verdict": "fix",
+  "text": "The most influential critic of capitalism; argued that profit comes from labor that workers are not paid for, and that capitalism’s recurring crises would lead workers to overthrow it.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only",
+  "problem": "‘End in crisis’ was imprecise; Marx predicted a workers’ revolution driven by crises."
+ },
+ {
+  "id": "cap-p-carnegie",
+  "verdict": "fix",
+  "text": "Built a steel empire through relentless cost-cutting and fought unions (his company broke the 1892 Homestead strike, in which workers and Pinkerton guards were killed), then gave away most of his fortune, especially to libraries and universities.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only",
+  "problem": "‘Ruthless’ is a loaded word; the facts (Homestead deaths) now carry the point."
+ },
+ {
+  "id": "cap-p-motherjones",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Her birth year is uncertain (baptized 1837, she later claimed 1830)"
+ },
+ {
+  "id": "cap-p-weber",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-ford",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. The Dearborn Independent ran ‘The International Jew’ series in 1920–22"
+ },
+ {
+  "id": "cap-p-perkins",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-keynes",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-schumpeter",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-polanyi",
+  "verdict": "fix",
+  "region": "Austria-Hungary, Britain, the United States and Canada",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only",
+  "problem": "He lived and worked in Vienna and taught at Columbia in New York; region list incomplete."
+ },
+ {
+  "id": "cap-p-hayek",
+  "verdict": "fix",
+  "region": "Austria, Britain, the United States and Germany",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only",
+  "problem": "He taught in Chicago (1950–62) and Freiburg; region list incomplete."
+ },
+ {
+  "id": "cap-p-prebisch",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-erhard",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-friedman",
+  "verdict": "fix",
+  "text": "Argued for free markets and steady money growth; Nobel Prize 1976. Chilean economists trained in Chicago advised the Pinochet dictatorship, and his 1975 meeting with Pinochet drew lasting criticism; he replied that he gave similar advice to communist governments.",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only",
+  "problem": "‘His students’ understated his own 1975 visit and left out his response; both sides’ points now appear."
+ },
+ {
+  "id": "cap-p-coase",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-park",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-deng",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-ostrom",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-sen",
+  "verdict": "fix",
+  "region": "India, Britain and the United States",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only",
+  "problem": "He spent much of his career in Britain (LSE, Oxford, Master of Trinity College, Cambridge)."
+ },
+ {
+  "id": "cap-p-yunus",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Could add that he led Bangladesh’s interim government from 2024 (Developing)"
+ },
+ {
+  "id": "cap-p-singh",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. Died 26 December 2024"
+ },
+ {
+  "id": "cap-p-rodney",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only. A 2014 commission of inquiry found the Burnham government responsible for the 1980 killing"
+ },
+ {
+  "id": "cap-p-desoto",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-mccloskey",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "Deirdre McCloskey, official website",
+    "url": "https://www.deirdremccloskey.com/"
+   }
+  ],
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only",
+  "problem": "The cite said ‘University of Illinois Chicago’ but the URL is her personal website; label corrected (URL itself not opened)."
+ },
+ {
+  "id": "cap-p-chang",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "cap-p-piketty",
+  "verdict": "supported",
+  "method": "General knowledge: record URL not opened (direct fetches were blocked by the session URL allowlist and the shared search budget ran out mid-task); fact checked from my own knowledge only"
+ },
+ {
+  "id": "_balance",
+  "notes": "Overall the set is unusually even: it pairs gains (Ricardo, Ford, Bretton Woods, China and India reforms, poverty data, Nobel growth research) with harms (Atlantic slavery, Banda, Bengal, Congo, Triangle, Rana Plaza, Chile, Russia, 2008). Biggest gaps. Gains side: no long-run data record for the ‘Great Enrichment’ itself (world GDP per head, life expectancy and literacy since 1800, e.g. Maddison Project), no record of the collapse of the Soviet-bloc planned economies in 1989–91 as the main real-world comparison, no East Asian or Nordic welfare-capitalism success data, and no technology-diffusion story (electricity, vaccines and medicines made and spread by firms, the internet). Harms side: no Opium Wars (free trade imposed by force), no modern forced labor in supply chains (Xinjiang cotton, cobalt in the DR Congo), no climate change and pollution record (e.g. Bhopal 1984), no corporate-backed coups (Guatemala 1954, United Fruit), no labor violence such as Ludlow 1914, and no corporate fraud case such as Enron 2001 or the opioid crisis. Framing: several records treat imperial or state violence (Banda, Bengal, Congo, Ireland) as part of capitalism’s record; whether colonialism counts as capitalism is itself the Sullivan–Hickel vs Rutar dispute, so the page should say so once, up front. Sourcing: in this run I could open only about 25 pages because direct fetches were blocked and the shared search budget ran out, so most records are marked General knowledge and the URLs below are NOT opened. They are suggestions to verify, not checked sources.",
+  "suggested_events": [
+   {
+    "when": "1820–2018",
+    "conf": "Strong",
+    "text": "World average income per person rises roughly fifteen-fold and life expectancy more than doubles, after thousands of years of little change. Scholars disagree about how much credit markets, science, states or empire deserve.",
+    "sources": [
+     {
+      "cite": "Maddison Project Database 2020 (University of Groningen)",
+      "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/"
+     }
+    ],
+    "url_status": "not opened in this session"
+   },
+   {
+    "when": "1989–1991",
+    "conf": "Established",
+    "text": "Communist planned economies in Eastern Europe and the Soviet Union collapse; most adopt markets, with very different results (Poland and the Baltics grow fast, Russia and Ukraine suffer deep slumps).",
+    "sources": [
+     {
+      "cite": "US Department of State, Office of the Historian, The Collapse of the Soviet Union",
+      "url": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union"
+     }
+    ],
+    "url_status": "not opened in this session"
+   },
+   {
+    "when": "1839–1842",
+    "conf": "Established",
+    "text": "Britain fights the First Opium War after China bans the opium trade; the Treaty of Nanking forces China to open ports, pay an indemnity and give up Hong Kong.",
+    "sources": [
+     {
+      "cite": "US Department of State, Office of the Historian, The Opening to China Part I: the First Opium War",
+      "url": "https://history.state.gov/milestones/1830-1860/china-1"
+     }
+    ],
+    "url_status": "not opened in this session"
+   },
+   {
+    "when": "1954",
+    "conf": "Established",
+    "text": "A CIA-backed coup overthrows Guatemala’s elected president Jacobo Árbenz after his land reform took unused land from the United Fruit Company.",
+    "sources": [
+     {
+      "cite": "US Department of State, Foreign Relations of the United States, Guatemala retrospective volume",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54Guat"
+     }
+    ],
+    "url_status": "not opened in this session"
+   },
+   {
+    "when": "1984",
+    "conf": "Established",
+    "text": "A gas leak at Union Carbide’s pesticide plant in Bhopal, India, kills thousands of people within days, among the worst industrial disasters ever; estimates of the total toll differ widely.",
+    "sources": [
+     {
+      "cite": "Britannica, Bhopal disaster",
+      "url": "https://www.britannica.com/event/Bhopal-disaster"
+     }
+    ],
+    "url_status": "not opened in this session"
+   },
+   {
+    "when": "1950s–1990s",
+    "conf": "Strong",
+    "text": "Hong Kong, Singapore, Taiwan and South Korea go from poor to rich within two generations through export-led growth, though they mix markets with very different amounts of state direction.",
+    "sources": [
+     {
+      "cite": "World Bank, The East Asian Miracle (1993)",
+      "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/975081468244550798/main-report"
+     }
+    ],
+    "url_status": "not opened in this session"
+   },
+   {
+    "when": "2016–2025",
+    "conf": "Strong",
+    "text": "The ILO and Walk Free estimate about 28 million people in forced labor in 2021, much of it in private-sector supply chains, alongside state-imposed forced labor such as in Xinjiang.",
+    "sources": [
+     {
+      "cite": "ILO, Walk Free and IOM, Global Estimates of Modern Slavery (2022)",
+      "url": "https://www.ilo.org/publications/major-publications/global-estimates-modern-slavery-forced-labour-and-forced-marriage"
+     }
+    ],
+    "url_status": "not opened in this session"
+   },
+   {
+    "when": "1988–2023",
+    "conf": "Strong",
+    "text": "Climate scientists find that fossil-fuel burning by industrial economies is the main cause of global warming; economists debate whether carbon prices, regulation or deeper change is the right response.",
+    "sources": [
+     {
+      "cite": "IPCC Sixth Assessment Report, Synthesis Report (2023)",
+      "url": "https://www.ipcc.ch/report/ar6/syr/"
+     }
+    ],
+    "url_status": "not opened in this session"
+   }
+  ]
+ }
+]

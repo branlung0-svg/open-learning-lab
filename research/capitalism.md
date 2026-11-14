@@ -92,3 +92,14 @@ Lowell mills; Manchester cotton mills; Triangle Shirtwaist fire 1911; Bread line
 2. Maddison Project 2023 series for GDP per head (UK, US, India, China, Korea, Chile, Russia) 1820–2022: data file for an interactive chart.
 3. Non-English sources: Chilean CASEN reports (Spanish), Bank of Korea (Korean), Russian Rosstat demographic yearbooks, Indian Famine Commission reports.
 4. Ask two subject-expert reviewers (one sympathetic to markets, one critical) to review the debates section before launch.
+
+
+## 8. Independent check of `data/claims/capitalism.json` (2026-11-14)
+- 94 records: 46 supported, 48 fixed. 21 were confirmed against a page that was actually opened (status "verified"). 73 rest on general knowledge, because the search budget ran out, and stay "drafted": open their sources in the next check.
+- To confirm: the Rutar (2024) citation and DOI; the World Bank 2025 poverty figure (now rounded); the sources for the Rehn–Meidner and gold-standard records; and the parliament.uk URLs.
+
+### Balance review (by the checker)
+Overall the set is unusually even: it pairs gains (Ricardo, Ford, Bretton Woods, China and India reforms, poverty data, Nobel growth research) with harms (Atlantic slavery, Banda, Bengal, Congo, Triangle, Rana Plaza, Chile, Russia, 2008). Biggest gaps. Gains side: no long-run data record for the ‘Great Enrichment’ itself (world GDP per head, life expectancy and literacy since 1800, e.g. Maddison Project), no record of the collapse of the Soviet-bloc planned economies in 1989–91 as the main real-world comparison, no East Asian or Nordic welfare-capitalism success data, and no technology-diffusion story (electricity, vaccines and medicines made and spread by firms, the internet). Harms side: no Opium Wars (free trade imposed by force), no modern forced labor in supply chains (Xinjiang cotton, cobalt in the DR Congo), no climate change and pollution record (e.g. Bhopal 1984), no corporate-backed coups (Guatemala 1954, United Fruit), no labor violence such as Ludlow 1914, and no corporate fraud case such as Enron 2001 or the opioid crisis. Framing: several records treat imperial or state violence (Banda, Bengal, Congo, Ireland) as part of capitalism’s record; whether colonialism counts as capitalism is itself the Sullivan–Hickel vs Rutar dispute, so the page should say so once, up front. Sourcing: in this run I could open only about 25 pages because direct fetches were blocked and the shared search budget ran out, so most records are marked General knowledge and the URLs below are NOT opened. They are suggestions to verify, not checked sources.
+
+### Suggested additional events (leads only, sources not yet opened)
+

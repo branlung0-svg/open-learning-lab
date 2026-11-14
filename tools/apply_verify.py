@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Apply an independent verification file to a claim file.
-Usage: python3 tools/apply_verify.py data/claims/<id>.json factcheck/<id>-verify.json
+Usage: python3 tools/apply_verify.py data/claims/<id>.json factcheck/<id>-verify.json [--no-log]
+(--no-log: the claims are not public yet, so pre-publication fixes stay out of the public corrections log.)
 Verify file: list of {id, verdict: supported|fix, text?, when?, years?, region?, conf?, sources?, method, problem?}
 - Corrections are applied field by field.
 - status becomes "verified" (with a checked record) only when the method shows a page was actually opened;
@@ -31,7 +32,7 @@ for kind in ('events', 'people'):
 d['updated'] = today
 json.dump(d, open(cf, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 name = os.path.basename(cf)[:-5] + '-claims'
-if fixes:
+if fixes and '--no-log' not in sys.argv:
     json.dump(fixes, open(f'factcheck/{name}.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     ap = 'factcheck/applied.json'; done = json.load(open(ap)); done[name] = today; json.dump(done, open(ap, 'w'), indent=1)
     subprocess.run([sys.executable, 'tools/mkchanges.py'], check=True)

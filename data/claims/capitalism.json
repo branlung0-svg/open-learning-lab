@@ -1,34 +1,44 @@
 {
  "disc": "capitalism",
  "schema": 1,
- "updated": "2026-11-14",
+ "updated": "2026-11-13",
  "note": "Claim records for the capitalism deep dive. status: drafted = written with sources linked; verified = an independent AI check confirmed the source supports the claim.",
  "events": [
   {
    "id": "cap-e-pacioli",
    "when": "1494",
-   "text": "Luca Pacioli publishes the first printed account of double-entry bookkeeping, the accounting method Italian merchants and bankers had developed. Firms still use it today.",
+   "text": "Luca Pacioli publishes the first widely read printed account of double-entry bookkeeping, a method Italian merchants and bankers had already used for generations. Firms still use it today.",
    "conf": "Established",
    "sources": [
     {
-     "cite": "Britannica, Luca Pacioli",
-     "url": "https://www.britannica.com/biography/Luca-Pacioli"
+     "cite": "Wikipedia, Luca Pacioli (Wikipedia used because the Britannica page could not be opened; swap for a scholarly source when possible)",
+     "url": "https://en.wikipedia.org/wiki/Luca_Pacioli"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened Wikipedia, Luca Pacioli (says Summa of 1494 is one of the first published descriptions of the Venetian method); Britannica URL could not be opened Corrected after this check: Britannica URL could not be opened. Wording softened: Pacioli described an existing method, and some sources call his the first, others one of the first, printed accounts."
+   }
   },
   {
    "id": "cap-e-atlantic",
    "when": "1500s–1860s",
-   "text": "The Atlantic slave trade carries about 12.5 million enslaved Africans onto ships; about 10.7 million survive the crossing. Their forced labor grows sugar, tobacco and cotton for world markets.",
+   "text": "The Atlantic slave trade carries about 12.5 million enslaved Africans onto ships; about 10.7 million survive the crossing, so close to 2 million die at sea. Their forced labor grows sugar, tobacco and cotton for world markets.",
    "conf": "Established",
    "sources": [
     {
-     "cite": "SlaveVoyages, Trans-Atlantic Slave Trade estimates",
-     "url": "https://www.slavevoyages.org/assessment/estimates"
+     "cite": "SlaveVoyages, Methodology of the Trans-Atlantic Slave Trade database",
+     "url": "https://legacy.slavevoyages.org/blog/methodology-trans-atlantic"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened SlaveVoyages methodology essay (legacy site): 12.52 million departed, about 10.7 million disembarked, 1514–1866 Corrected after this check: Figures confirmed; original estimates-page URL could not be opened, so replaced with the SlaveVoyages page I opened. Added the deaths at sea plainly rather than leaving readers to subtract."
+   }
   },
   {
    "id": "cap-e-eic",
@@ -37,11 +47,16 @@
    "conf": "Established",
    "sources": [
     {
-     "cite": "Britannica, East India Company",
-     "url": "https://www.britannica.com/topic/East-India-Company"
+     "cite": "Wikipedia, East India Company (Wikipedia used because the Britannica page could not be opened; swap for a scholarly source when possible)",
+     "url": "https://en.wikipedia.org/wiki/East_India_Company"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened Wikipedia, East India Company: charter of 31 Dec 1600, joint-stock company, armies of about 260,000 at peak, ruled much of India until 1858 Corrected after this check: Text accurate; Britannica URL could not be opened, source replaced."
+   }
   },
   {
    "id": "cap-e-voc",
@@ -50,11 +65,16 @@
    "conf": "Established",
    "sources": [
     {
-     "cite": "Britannica, Dutch East India Company",
-     "url": "https://www.britannica.com/topic/Dutch-East-India-Company"
+     "cite": "Wikipedia, Dutch East India Company (Wikipedia used because the Britannica page could not be opened; swap for a scholarly source when possible)",
+     "url": "https://en.wikipedia.org/wiki/Dutch_East_India_Company"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened Wikipedia, Dutch East India Company: founded 20 March 1602, shares traded in markets that became the Amsterdam Stock Exchange, one of the first joint-stock companies Corrected after this check: Text accurate; Britannica URL could not be opened, source replaced."
+   }
   },
   {
    "id": "cap-e-banda",
@@ -63,37 +83,56 @@
    "conf": "Strong",
    "sources": [
     {
-     "cite": "Britannica, Banda Islands",
-     "url": "https://www.britannica.com/place/Banda-Islands"
+     "cite": "Wikipedia, Dutch conquest of the Banda Islands (cites Loth, Corn and Lape)",
+     "url": "https://en.wikipedia.org/wiki/Dutch_conquest_of_the_Banda_Islands"
+    },
+    {
+     "cite": "Cambridge World History of Genocide, Genocide in the Spice Islands",
+     "url": "https://www.cambridge.org/core/books/abs/cambridge-world-history-of-genocide/genocide-in-the-spice-islands/FB91452701BB794181164C59D08C659C"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened Wikipedia, Dutch conquest of the Banda Islands: pre-conquest population about 15,000; about 2,800 killed, 1,700 enslaved, 1,000 deported in 1621 under Coen; Lape estimates 90% killed, enslaved or deported. Cambridge chapter seen in search results only Corrected after this check: Text accurate; Britannica URL could not be opened, sources replaced. Conf Strong is right (population estimates are approximate)."
+   }
   },
   {
    "id": "cap-e-tulip",
    "when": "1636–1637",
-   "text": "Tulip bulb prices in the Dutch Republic soar and then collapse. Historian Anne Goldgar found the damage to the wider economy was far smaller than later legends claim.",
-   "conf": "Contested",
+   "text": "Tulip bulb prices in the Dutch Republic soar and then collapse in early 1637. Historian Anne Goldgar found few bankruptcies and far less damage to the wider economy than the later legend claims.",
+   "conf": "Strong",
    "sources": [
     {
-     "cite": "Goldgar, Tulipmania (University of Chicago Press, 2007)",
-     "url": "https://press.uchicago.edu/ucp/books/book/chicago/T/bo5474656.html"
+     "cite": "Reviews in History (Institute of Historical Research), review of Goldgar, Tulipmania (2008)",
+     "url": "https://reviews.history.ac.uk/review/666"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened Reviews in History review 666 of Goldgar’s Tulipmania: peak Feb 1637, collapse March 1637, few bankruptcies, legend based on a few pamphlets Corrected after this check: UChicago Press URL could not be opened; replaced with a scholarly review I opened. The modest-damage view is now the mainstream among historians of the episode, so Strong fits better than Contested."
+   }
   },
   {
    "id": "cap-e-boe",
    "when": "1694",
-   "text": "The Bank of England is founded as a private company to lend money to the government for war. Central banking grows out of arrangements like this.",
+   "text": "The Bank of England is founded as a company owned by private investors, set up to lend money to King William III’s government for its war with France. Central banking grows out of arrangements like this.",
    "conf": "Established",
    "sources": [
     {
-     "cite": "Bank of England, Our history",
-     "url": "https://www.bankofengland.co.uk/about/history"
+     "cite": "Bank of England Museum, Why was the Bank of England founded?",
+     "url": "https://www.bankofengland.co.uk/museum/online-collections/blog/why-was-the-bank-of-england-founded"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened Bank of England Museum blog: Royal Charter 27 July 1694, raised £1.2 million from 1,268 investors for William III’s wars against France Corrected after this check: Original /about/history URL could not be opened; replaced. Clarified ownership (a joint-stock company of private investors, nationalised only in 1946) and which war."
+   }
   },
   {
    "id": "cap-e-bubble",
@@ -102,50 +141,74 @@
    "conf": "Established",
    "sources": [
     {
-     "cite": "Britannica, South Sea Bubble",
-     "url": "https://www.britannica.com/event/South-Sea-Bubble"
+     "cite": "EBSCO Research Starters, Collapse of the South Sea Bubble",
+     "url": "https://www.ebsco.com/research-starters/history/collapse-south-sea-bubble"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened EBSCO Research Starters on the South Sea Bubble: share price from £128.5 to £1,000 and back to £135 by Sept 1720, thousands bankrupted; Mississippi scheme mentioned Corrected after this check: Text accurate; Britannica URL could not be opened, source replaced."
+   }
   },
   {
    "id": "cap-e-enclosure",
    "when": "1700s–1800s",
-   "text": "Parliamentary enclosure in England turns shared village land into private farms. Output rises, but many rural families lose access to common land and move to towns for wage work.",
+   "text": "Over 5,000 Acts of Parliament enclose open fields and shared village land in England, turning them into private farms. Farm output rises, but many poor families lose rights to graze animals or gather fuel; historians still debate how far this pushed people into towns and factory work.",
    "conf": "Strong",
    "sources": [
     {
-     "cite": "UK Parliament, Enclosing the land",
+     "cite": "UK Parliament, Enclosing the land (same page opened on Parliament’s webtest mirror)",
      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/landscape/overview/enclosingland/"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened UK Parliament Living Heritage, Enclosing the land (webtest.parliament.uk copy of the same path): over 5,200 enclosure bills 1604–1914, productivity gains, historians divided on whether it drove labourers off the land Corrected after this check: The record stated as fact that families moved to towns; Parliament’s own page says historians are divided on this. Rewrote so the migration effect is shown as debated, while keeping the loss of common rights."
+   }
   },
   {
    "id": "cap-e-diwani",
    "when": "1757–1765",
-   "text": "After the Battle of Plassey (1757), the East India Company wins the right to collect Bengal’s land revenue (1765), turning a trading company into a government.",
+   "text": "After winning the Battle of Plassey (1757), the East India Company is granted the diwani, the right to collect Bengal’s land revenue, by the Mughal emperor in 1765. A trading company becomes a government.",
    "conf": "Established",
    "sources": [
     {
-     "cite": "Britannica, Battle of Plassey",
-     "url": "https://www.britannica.com/event/Battle-of-Plassey"
+     "cite": "Wikipedia, Company rule in India",
+     "url": "https://en.wikipedia.org/wiki/Company_rule_in_India"
+    },
+    {
+     "cite": "Wikipedia, Treaty of Allahabad",
+     "url": "https://en.wikipedia.org/wiki/Treaty_of_Allahabad"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened Wikipedia, Battle of Plassey (23 June 1757), Company rule in India (diwani of Bengal and Bihar granted 1765) and Treaty of Allahabad (granted by Shah Alam II) Corrected after this check: Facts correct; Britannica URL could not be opened. Added who granted the diwani (it followed the 1764 Battle of Buxar as well as Plassey)."
+   }
   },
   {
    "id": "cap-e-bengal1770",
    "when": "1769–1770",
-   "text": "Famine kills millions in Bengal; contemporary and later estimates range up to about a third of the population. Historians debate how much Company tax collection and policy worsened a drought-driven crisis.",
+   "text": "Famine kills at least a million people in Bengal. The Company’s own 1770 estimate was a third of the population (about 10 million), while some modern historians put it near 1.2 million; they also debate how much Company tax collection and grain dealing worsened a drought-driven crisis.",
    "conf": "Contested",
    "sources": [
     {
-     "cite": "Britannica, Bengal famine of 1770",
-     "url": "https://www.britannica.com/event/Bengal-famine-of-1770"
+     "cite": "Wikipedia, Great Bengal famine of 1770 (summarizes Datta, Dyson, Roy)",
+     "url": "https://en.wikipedia.org/wiki/Great_Bengal_famine_of_1770"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened Wikipedia, Great Bengal famine of 1770: Court of Directors 1770 estimate one-third (10 million), Datta about 1.2 million, Dyson calls 10 million barely credible; debate on drought vs Company policy Corrected after this check: ‘Kills millions’ overstated the lower end of modern estimates. Now gives the range, who made each estimate, and the causal debate."
+   }
   },
   {
    "id": "cap-e-wealth",
@@ -158,20 +221,30 @@
      "url": "https://oll.libertyfund.org/titles/smith-an-inquiry-into-the-nature-and-causes-of-the-wealth-of-nations-cannan-ed-vol-1"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Saw the Online Library of Liberty title page for the Cannan edition vol. 1 in search results (URL confirmed to exist); content checked from general knowledge of the text (Book I on division of labor; Book I ch. 10 on merchants conspiring)"
+   }
   },
   {
    "id": "cap-e-industrial",
    "when": "c. 1760–1840",
-   "text": "The Industrial Revolution begins in Britain: machines, factories and coal-powered steam engines multiply output, first in cotton textiles.",
+   "text": "The Industrial Revolution begins in Britain: machines, factories and coal-powered steam engines multiply output, first in cotton textiles. Historians still debate how quickly ordinary workers’ living standards rose in its early decades.",
    "conf": "Established",
    "sources": [
     {
-     "cite": "Britannica, Industrial Revolution",
-     "url": "https://www.britannica.com/event/Industrial-Revolution"
+     "cite": "World History Encyclopedia, British Industrial Revolution",
+     "url": "https://worldhistory.org/British_Industrial_Revolution"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened World History Encyclopedia, British Industrial Revolution: dated 1760–1840, cotton, coal, Watt engine, 2,500 steam engines by 1800 Corrected after this check: Britannica URL could not be opened, source replaced. Added the long-running ‘standard of living debate’ (optimists vs pessimists), which a fair historian on either side would mention."
+   }
   },
   {
    "id": "cap-e-gin",
@@ -184,24 +257,34 @@
      "url": "https://www.archives.gov/education/lessons/cotton-gin-patent"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened National Archives, Eli Whitney’s Patent for the Cotton Gin (the record URL): patent 1794, inland sticky-seed cotton, growth of slavery called the most significant effect, slave states 6 to 15"
+   }
   },
   {
    "id": "cap-e-domestic",
-   "when": "1790–1860",
+   "when": "1810–1860",
    "text": "About one million enslaved people in the United States are forcibly moved from the upper South to the cotton frontier, many sold away from their families.",
    "conf": "Strong",
    "sources": [
     {
-     "cite": "Olmstead & Rhode, Explorations in Economic History (2018)",
-     "url": "https://doi.org/10.1016/j.eeh.2017.12.002"
+     "cite": "Equal Justice Initiative, The Domestic Slave Trade",
+     "url": "https://eji.org/history-racial-injustice-domestic-slave-trade"
     },
     {
-     "cite": "Gilder Lehrman Institute, The domestic slave trade",
-     "url": "https://www.gilderlehrman.org/history-resources/teaching-resource/historical-context-facts-about-slave-trade-and-slavery"
+     "cite": "Smithsonian Magazine, Retracing Slavery’s Trail of Tears (2015)",
+     "url": "https://www.smithsonianmag.com/history/slavery-trail-of-tears-180956968"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened EJI, The Domestic Slave Trade (about one million moved 1810–1860; family separation) and Smithsonian, Retracing Slavery’s Trail of Tears (about a million in the 50 years before the Civil War); opened the EconPapers entry for Olmstead and Rhode 2018 Corrected after this check: Olmstead and Rhode (2018) is a critique of the ‘New History of Capitalism’ and does not support the one-million figure; Gilder Lehrman URL could not be opened. Replaced with two sources I opened and matched the dates they give (1810–1860)."
+   }
   },
   {
    "id": "cap-e-ricardo",
@@ -225,22 +308,40 @@
     {
      "cite": "UK Parliament, The 1833 Factory Act",
      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/factoryact/"
+    },
+    {
+     "cite": "The National Archives, 1833 Factory Act (education resource)",
+     "url": "https://www.nationalarchives.gov.uk/education/resources/1833-factory-act/"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened The National Archives, 1833 Factory Act: no workers under nine, 9 hours for ages 9–13, 12 for 13–18, four inspectors, textiles; Parliament page exists (seen on webtest mirror)"
+   }
   },
   {
    "id": "cap-e-abolition",
    "when": "1833–1838",
-   "text": "Britain abolishes slavery in most of its colonies and pays £20 million in compensation, to slave owners, not to the enslaved, who were also forced into years of unpaid “apprenticeship”.",
+   "text": "Britain abolishes slavery in most of its colonies (not in Company-ruled India) and pays £20 million, about 40% of that year’s government spending, to slave owners. The enslaved get nothing and are forced into years of unpaid “apprenticeship” until 1838.",
    "conf": "Established",
    "sources": [
     {
      "cite": "UCL Centre for the Study of the Legacies of British Slavery",
      "url": "https://www.ucl.ac.uk/lbs/"
+    },
+    {
+     "cite": "Full Fact, What we know about the government loan to pay slave owners (2018)",
+     "url": "https://fullfact.org/economy/slavery-abolition-act-loan/"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened Full Fact on the Slavery Abolition Act loan: £20 million to owners, about 40% of spending, exceptions such as India, unpaid apprenticeship, no compensation for the freed. UCL LBS page could not be opened Corrected after this check: Facts right; added the scale of the payment and the India exception, and a source I could open alongside UCL."
+   }
   },
   {
    "id": "cap-e-ireland",
@@ -249,11 +350,16 @@
    "conf": "Strong",
    "sources": [
     {
-     "cite": "Britannica, Great Famine",
-     "url": "https://www.britannica.com/event/Great-Famine-Irish-history"
+     "cite": "UK Parliament, The Great Famine (Parliament and Ireland)",
+     "url": "https://webtest.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliamentandireland/overview/the-great-famine"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened UK Parliament Living Heritage, The Great Famine (webtest mirror): 1845–1852, about 1,000,000 deaths, Trevelyan limited aid on laissez-faire principles, food exports continued Corrected after this check: Text accurate and fairly balanced; Britannica URL could not be opened, source replaced (this is Parliament’s own page, served from its webtest host; the www.parliament.uk path is very likely the same)."
+   }
   },
   {
    "id": "cap-e-cornlaws",
@@ -262,16 +368,21 @@
    "conf": "Established",
    "sources": [
     {
-     "cite": "UK Parliament, The repeal of the Corn Laws",
-     "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/collections/the-corn-laws/repeal-of-the-corn-laws/"
+     "cite": "EBSCO Research Starters, British Parliament Repeals the Corn Laws",
+     "url": "https://www.ebsco.com/research-starters/history/british-parliament-repeals-corn-laws"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened EBSCO Research Starters, British Parliament Repeals the Corn Laws: grain tariffs kept prices high for landowners; 1846 repeal under Peel was the first step to free trade Corrected after this check: Text accurate; original Parliament URL could not be opened, source replaced."
+   }
   },
   {
    "id": "cap-e-manifesto",
    "when": "1848",
-   "text": "Marx and Engels publish The Communist Manifesto, the most influential critique of capitalism (see the Marxism–Leninism deep dive).",
+   "text": "Marx and Engels publish The Communist Manifesto, one of the most influential critiques of capitalism ever written (see the Marxism–Leninism deep dive).",
    "conf": "Established",
    "sources": [
     {
@@ -284,33 +395,51 @@
   {
    "id": "cap-e-limited",
    "when": "1855–1862",
-   "text": "British laws let ordinary companies offer limited liability: investors can lose only what they put in. This makes it easier to raise money from many small shareholders.",
+   "text": "British laws of 1855–1862 let ordinary companies offer limited liability: investors can lose only what they put in. This makes it easier to raise money from many small shareholders, though critics then and now warn it lets owners push losses onto creditors.",
    "conf": "Established",
    "sources": [
     {
-     "cite": "Britannica, Limited liability",
-     "url": "https://www.britannica.com/topic/limited-liability"
+     "cite": "Wikipedia, Limited Liability Act 1855",
+     "url": "https://en.wikipedia.org/wiki/Limited_Liability_Act_1855"
+    },
+    {
+     "cite": "Wikipedia, Limited liability",
+     "url": "https://en.wikipedia.org/wiki/Limited_liability"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened Wikipedia, Limited Liability Act 1855 and Limited liability: 1855 act first general grant (more than 25 members), 1856 Act cut to seven members, 1862 Act extended to insurers Corrected after this check: Facts right; Britannica URL could not be opened. Added the standard objection (moral hazard) so both sides appear."
+   }
   },
   {
    "id": "cap-e-meiji",
    "when": "1868",
-   "text": "Japan’s Meiji Restoration begins state-led industrialization: the government builds railways, mills and banks, then sells many to private firms that grow into the zaibatsu.",
+   "text": "Japan’s Meiji Restoration begins state-led industrialization: the government builds model factories, mines, railways and shipyards. In the 1880s it sells most of its factories and mines, often cheaply, to investors with close government ties, and some grow into the zaibatsu.",
    "conf": "Established",
    "sources": [
     {
-     "cite": "Britannica, Meiji Restoration",
-     "url": "https://www.britannica.com/event/Meiji-Restoration"
+     "cite": "Britannica, Empire of Japan: The emergence of modern Japan",
+     "url": "https://www.britannica.com/place/Empire-of-Japan/The-emergence-of-modern-Japan"
+    },
+    {
+     "cite": "Shippensburg University course page, Meiji Economic Development",
+     "url": "https://webspace.ship.edu/jkskaf/Mod.%20Japan/a11EconomicTrans.html"
     }
    ],
-   "status": "drafted"
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-13",
+    "method": "Opened Britannica, Empire of Japan: The emergence of modern Japan (pilot factories sold in the 1880s to investors close to officials, who became the zaibatsu) and a Shippensburg course page (railways later nationalized in 1907, Mitsubishi got Nagasaki shipyard 1883, Mitsui got Miike mine 1888) Corrected after this check: Railways and banks were not generally sold to the zaibatsu (main railways were nationalized in 1906–07). Corrected what was sold and added the political-connections point."
+   }
   },
   {
    "id": "cap-e-gold",
    "when": "1870s–1914",
-   "text": "Under the classical gold standard and falling transport costs, trade and capital flows reach levels the world would not see again until the 1990s.",
+   "text": "During the era of the classical gold standard, with steamships, railways and telegraphs cutting costs, world trade and cross-border investment rise to levels not seen again until the late 20th century. This ‘first globalization’ also coincides with the height of European empire.",
    "conf": "Strong",
    "sources": [
     {
@@ -323,8 +452,8 @@
   {
    "id": "cap-e-panic1873",
    "when": "1873",
-   "text": "A financial panic in Vienna and New York starts a long slump in Europe and North America, later called the Long Depression.",
-   "conf": "Strong",
+   "text": "A financial panic in Vienna (May 1873) and New York (September 1873) starts a long period of falling prices and slow growth in Europe and North America, later called the Long Depression; historians debate how deep it really was.",
+   "conf": "Established",
    "sources": [
     {
      "cite": "Britannica, Panic of 1873",
@@ -336,8 +465,8 @@
   {
    "id": "cap-e-congo",
    "when": "1885–1908",
-   "text": "In the Congo Free State, owned personally by King Leopold II of Belgium, forced rubber collection enforced by hostage-taking, mutilation and killing causes mass death. Estimates of the toll range from about 1 to 10 million and are disputed.",
-   "conf": "Contested",
+   "text": "In the Congo Free State, owned personally by King Leopold II of Belgium, forced rubber collection enforced by hostage-taking, mutilation and killing causes mass death. Because no census was taken, estimates of the toll range widely, from about 1 million to 10 million or more.",
+   "conf": "Established",
    "sources": [
     {
      "cite": "Britannica, Congo Free State",
@@ -349,7 +478,7 @@
   {
    "id": "cap-e-sherman",
    "when": "1890",
-   "text": "The US Sherman Antitrust Act outlaws monopolies and cartels that restrain trade.",
+   "text": "The US Sherman Antitrust Act outlaws agreements that restrain trade, such as cartels, and attempts to monopolize a market.",
    "conf": "Established",
    "sources": [
     {
@@ -388,7 +517,7 @@
   {
    "id": "cap-e-ford",
    "when": "1913–1914",
-   "text": "Ford introduces the moving assembly line and then the five-dollar day, cutting the price of a car and roughly doubling the usual pay for factory work.",
+   "text": "Ford introduces the moving assembly line (1913) and then the five-dollar day (1914), cutting the price of a car and roughly doubling usual factory pay. The high wage was partly meant to stop workers quitting the fast, repetitive line, and to qualify, workers had to meet company rules on their home lives.",
    "conf": "Established",
    "sources": [
     {
@@ -414,7 +543,7 @@
   {
    "id": "cap-e-pigou",
    "when": "1920",
-   "text": "Arthur Pigou’s Economics of Welfare explains externalities, costs such as pollution that fall on people outside a deal, and proposes taxing them.",
+   "text": "Arthur Pigou’s Economics of Welfare explains what are now called externalities, costs such as pollution that fall on people outside a deal, and proposes taxing them.",
    "conf": "Established",
    "sources": [
     {
@@ -457,7 +586,7 @@
   {
    "id": "cap-e-dustbowl",
    "when": "1930s",
-   "text": "Drought and years of plowing up native grassland bring the Dust Bowl to the southern Great Plains, driving hundreds of thousands of families off the land.",
+   "text": "Drought and years of plowing up native grassland for wheat bring the Dust Bowl to the southern Great Plains, driving hundreds of thousands of people off the land.",
    "conf": "Established",
    "sources": [
     {
@@ -470,7 +599,7 @@
   {
    "id": "cap-e-newdeal",
    "when": "1933–1938",
-   "text": "Roosevelt’s New Deal adds bank deposit insurance, the separation of commercial and investment banking (Glass–Steagall), Social Security, minimum wages and the legal right to join a union.",
+   "text": "Roosevelt’s New Deal adds bank deposit insurance, the separation of commercial and investment banking (Glass–Steagall), Social Security, minimum wages and the legal right to join a union. Supporters credit it with stability; critics argue some policies slowed recovery, and many farm and domestic workers, often Black, were left out at first.",
    "conf": "Established",
    "sources": [
     {
@@ -509,7 +638,7 @@
   {
    "id": "cap-e-schumpeter",
    "when": "1942",
-   "text": "Joseph Schumpeter describes “creative destruction”: new firms and technologies destroy old ones. He also predicted that capitalism would gradually give way to socialism.",
+   "text": "Joseph Schumpeter describes “creative destruction”: new firms and technologies destroy old ones. He also predicted that capitalism would slowly give way to socialism, not because it failed but because its success would weaken the institutions and attitudes that support it.",
    "conf": "Established",
    "sources": [
     {
@@ -548,7 +677,7 @@
   {
    "id": "cap-e-erhard",
    "when": "1948",
-   "text": "West Germany’s currency reform and Ludwig Erhard’s lifting of price controls start the “social market economy”, combining markets with strong unions and welfare. Rapid growth follows.",
+   "text": "West Germany’s 1948 currency reform, organized by the Western Allies, and Ludwig Erhard’s lifting of most price controls start the “social market economy”, combining competitive markets with social insurance and, later, a strong role for unions. Rapid growth (the “economic miracle”) follows; economists debate how much came from the reforms and how much from postwar rebuilding and Marshall aid.",
    "conf": "Strong",
    "sources": [
     {
@@ -574,7 +703,7 @@
   {
    "id": "cap-e-korea",
    "when": "1961–1979",
-   "text": "Under Park Chung-hee’s military government, South Korea grows rapidly through state-directed, export-led industrialization: cheap credit for chosen firms (the chaebol), strict export targets, and suppressed labor unions.",
+   "text": "Under Park Chung-hee, who took power in a 1961 military coup and ruled until 1979, South Korea grows rapidly through state-directed, export-led industrialization: cheap credit for chosen firms (the chaebol), strict export targets, and suppressed labor unions. Incomes rise fast, while political opponents are jailed.",
    "conf": "Strong",
    "sources": [
     {
@@ -600,7 +729,7 @@
   {
    "id": "cap-e-nixon",
    "when": "1971",
-   "text": "President Nixon ends the dollar’s convertibility into gold, ending the Bretton Woods system.",
+   "text": "President Nixon ends the dollar’s convertibility into gold (August 1971), and by 1973 the Bretton Woods system of fixed exchange rates has collapsed.",
    "conf": "Established",
    "sources": [
     {
@@ -626,7 +755,7 @@
   {
    "id": "cap-e-chile",
    "when": "1973–1990",
-   "text": "After the 1973 military coup in Chile, economists trained in Chicago (the “Chicago Boys”) privatize, cut tariffs and create private pensions. Growth and poverty reduction follow, along with a 1982 crash, high inequality, and a dictatorship that killed and tortured thousands.",
+   "text": "After the 1973 military coup in Chile, economists trained in Chicago (the “Chicago Boys”) privatize, cut tariffs and create private pensions; there was a deep crash in 1982, and fast growth and big falls in poverty came mainly from the late 1980s and after democracy returned in 1990. The dictatorship killed or disappeared more than 3,000 people and tortured tens of thousands.",
    "conf": "Strong",
    "sources": [
     {
@@ -643,7 +772,7 @@
   {
    "id": "cap-e-china1978",
    "when": "1978",
-   "text": "China begins “reform and opening up”: farm families may sell surplus crops, special economic zones welcome foreign firms, and markets slowly spread under Communist Party rule.",
+   "text": "China begins “reform and opening up”: farm families may sell surplus crops, special economic zones welcome foreign firms, and markets slowly spread under Communist Party rule. Over the next four decades, by World Bank figures, about 800 million people in China leave extreme poverty.",
    "conf": "Established",
    "sources": [
     {
@@ -708,7 +837,7 @@
   {
    "id": "cap-e-asia1997",
    "when": "1997",
-   "text": "The Asian financial crisis hits Thailand, Indonesia and South Korea after a rush of short-term foreign money reverses.",
+   "text": "The Asian financial crisis hits Thailand, Indonesia and South Korea when a rush of short-term foreign money reverses, exposing fixed currency pegs and weak banks. Economists still argue over the blame: footloose capital and IMF austerity, or crony lending and poor regulation.",
    "conf": "Established",
    "sources": [
     {
@@ -721,7 +850,7 @@
   {
    "id": "cap-e-wto",
    "when": "2001",
-   "text": "China joins the World Trade Organization. Research later finds the resulting surge of imports explains about a quarter of the fall in US manufacturing jobs from 1990 to 2007, with lasting local damage.",
+   "text": "China joins the World Trade Organization. Research later finds that the surge of Chinese imports, which accelerated after it joined, explains about a quarter of the fall in US manufacturing jobs from 1990 to 2007, with lasting damage in hard-hit towns, while lowering prices for consumers.",
    "conf": "Strong",
    "sources": [
     {
@@ -747,7 +876,7 @@
   {
    "id": "cap-e-rana",
    "when": "2013",
-   "text": "The Rana Plaza garment factory building collapses in Bangladesh, killing 1,134 workers who made clothes for global brands. It leads to a binding safety accord.",
+   "text": "The Rana Plaza garment factory building collapses in Bangladesh, killing more than 1,130 workers who made clothes for global brands and injuring over 2,500. It leads to a binding safety accord between brands and unions.",
    "conf": "Established",
    "sources": [
     {
@@ -773,7 +902,7 @@
   {
    "id": "cap-e-brt",
    "when": "2019",
-   "text": "The US Business Roundtable says companies should serve customers, workers, suppliers and communities as well as shareholders, a shift away from the Friedman view. Critics doubt behavior changed.",
+   "text": "The US Business Roundtable says companies should serve customers, workers, suppliers and communities as well as shareholders, a shift away from the Friedman view. Some critics doubt behavior changed; others warn that managers answerable to everyone are answerable to no one.",
    "conf": "Established",
    "sources": [
     {
@@ -803,7 +932,7 @@
   {
    "id": "cap-e-poverty2025",
    "when": "2025",
-   "text": "The World Bank raises its extreme-poverty line to $3.00 a day. By that measure about 830 million people remain extremely poor, down from about 2.3 billion in 1990.",
+   "text": "The World Bank raises its extreme-poverty line to $3.00 a day. By that measure roughly 800 million people remain extremely poor, compared with about 2 billion or more in 1990.",
    "conf": "Strong",
    "sources": [
     {
@@ -885,7 +1014,7 @@
    "name": "Adam Smith",
    "years": "1723–1790",
    "region": "Scotland",
-   "text": "Explained the division of labor and the “invisible hand” of markets, but also attacked monopolies and cared about the poor.",
+   "text": "Explained the division of labor and used the image of an “invisible hand” for how self-interest can serve others in markets, but also attacked monopolies and argued that no society can flourish when most of its members are poor.",
    "sources": [
     {
      "cite": "Stanford Encyclopedia of Philosophy",
@@ -924,7 +1053,7 @@
    "name": "Karl Marx",
    "years": "1818–1883",
    "region": "Germany and Britain",
-   "text": "The most influential critic of capitalism; argued that profit comes from unpaid labor and that the system would end in crisis.",
+   "text": "The most influential critic of capitalism; argued that profit comes from labor that workers are not paid for, and that capitalism’s recurring crises would lead workers to overthrow it.",
    "sources": [
     {
      "cite": "Stanford Encyclopedia of Philosophy",
@@ -937,7 +1066,7 @@
    "name": "Andrew Carnegie",
    "years": "1835–1919",
    "region": "Scotland and the United States",
-   "text": "Built a steel empire through ruthless cost-cutting and fought unions (the 1892 Homestead strike), then gave away most of his fortune to libraries and universities.",
+   "text": "Built a steel empire through relentless cost-cutting and fought unions (his company broke the 1892 Homestead strike, in which workers and Pinkerton guards were killed), then gave away most of his fortune, especially to libraries and universities.",
    "sources": [
     {
      "cite": "Britannica",
@@ -1027,7 +1156,7 @@
    "id": "cap-p-polanyi",
    "name": "Karl Polanyi",
    "years": "1886–1964",
-   "region": "Hungary, Britain and Canada",
+   "region": "Austria-Hungary, Britain, the United States and Canada",
    "text": "Argued that turning land, labor and money into market goods provokes society to protect itself.",
    "sources": [
     {
@@ -1040,7 +1169,7 @@
    "id": "cap-p-hayek",
    "name": "Friedrich Hayek",
    "years": "1899–1992",
-   "region": "Austria and Britain",
+   "region": "Austria, Britain, the United States and Germany",
    "text": "Argued that prices carry knowledge no planner could gather; Nobel Prize 1974.",
    "sources": [
     {
@@ -1080,7 +1209,7 @@
    "name": "Milton Friedman",
    "years": "1912–2006",
    "region": "United States",
-   "text": "Argued for free markets and steady money growth; Nobel Prize 1976. His students advised Chile’s military government.",
+   "text": "Argued for free markets and steady money growth; Nobel Prize 1976. Chilean economists trained in Chicago advised the Pinochet dictatorship, and his 1975 meeting with Pinochet drew lasting criticism; he replied that he gave similar advice to communist governments.",
    "sources": [
     {
      "cite": "Nobel Prize in Economic Sciences 1976",
@@ -1144,7 +1273,7 @@
    "id": "cap-p-sen",
    "name": "Amartya Sen",
    "years": "born 1933",
-   "region": "India and the United States",
+   "region": "India, Britain and the United States",
    "text": "Showed that famines come from people losing the means to buy food, not only from shortage; Nobel Prize 1998.",
    "sources": [
     {
@@ -1213,7 +1342,7 @@
    "text": "Argues that the great enrichment came mostly from new respect for ordinary business people and innovation, not from trade or exploitation.",
    "sources": [
     {
-     "cite": "University of Illinois Chicago, Deirdre McCloskey",
+     "cite": "Deirdre McCloskey, official website",
      "url": "https://www.deirdremccloskey.com/"
     }
    ]
