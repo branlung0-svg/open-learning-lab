@@ -379,5 +379,665 @@
   "q": "March on Washington 1963",
   "cap": "Archival film: the March on Washington for Jobs and Freedom, 1963.",
   "kind": "video"
+ },
+ {
+  "k": "c:emp-federation-map",
+  "q": "Imperial Federation map of the world 1886 British Empire",
+  "cap": "The British Empire in 1886, from the Imperial Federation map: territories coloured pink.",
+  "kind": "image"
+ },
+ {
+  "k": "c:emp-dreadnought",
+  "q": "HMS Dreadnought 1906 battleship",
+  "cap": "HMS Dreadnought (1906), symbol of British naval supremacy before the First World War.",
+  "kind": "image"
+ },
+ {
+  "k": "c:emp-bank-england",
+  "q": "Bank of England Threadneedle Street 1800s engraving",
+  "cap": "The Bank of England: London was the centre of world finance before 1914.",
+  "kind": "image"
+ },
+ {
+  "k": "c:emp-marshall-poster",
+  "q": "Marshall Plan poster European Recovery Program",
+  "cap": "A Marshall Plan poster: US aid helped rebuild Western Europe after 1948.",
+  "kind": "image"
+ },
+ {
+  "k": "c:emp-india-1947",
+  "q": "Indian independence day 15 August 1947 crowd Delhi",
+  "cap": "Celebrations of Indian independence, 15 August 1947.",
+  "kind": "image"
+ },
+ {
+  "k": "c:emp-partition-train",
+  "q": "Partition of India 1947 refugees train",
+  "cap": "Refugees during the Partition of India, 1947: up to 15 million people were displaced.",
+  "kind": "image"
+ },
+ {
+  "k": "c:emp-suez-1956",
+  "q": "Suez Crisis 1956 Port Said",
+  "cap": "Port Said during the Suez Crisis, 1956.",
+  "kind": "image"
+ },
+ {
+  "k": "c:emp-singapore-1942",
+  "q": "fall of Singapore 1942 British surrender",
+  "cap": "The fall of Singapore, February 1942: Britain’s greatest military defeat in Asia.",
+  "kind": "image"
+ },
+ {
+  "k": "c:emp-windrush",
+  "q": "Empire Windrush 1948 Tilbury",
+  "cap": "HMT Empire Windrush, which brought Caribbean migrants to Britain in 1948.",
+  "kind": "image"
+ },
+ {
+  "k": "c:emp-un-hq",
+  "q": "United Nations headquarters New York",
+  "cap": "United Nations headquarters, New York: the postwar order was built largely on American terms.",
+  "kind": "image"
+ },
+ {
+  "k": "c:emp-hongkong-1997",
+  "q": "Hong Kong handover ceremony 1997",
+  "cap": "The handover of Hong Kong to China, 1997, often called the end of the British Empire.",
+  "kind": "image"
+ },
+ {
+  "k": "c:emp-diego-garcia",
+  "q": "Diego Garcia aerial view",
+  "cap": "Diego Garcia, a British territory leased to the US as a military base; its Chagossian inhabitants were expelled in 1967–73.",
+  "kind": "image"
+ },
+ {
+  "k": "c:emp-lend-lease",
+  "q": "Lend-Lease shipment 1941 tanks",
+  "cap": "Lend-Lease supplies, 1941: the US armed Britain, but at a price.",
+  "kind": "image"
+ },
+ {
+  "k": "c:emp-fed",
+  "q": "Marriner S. Eccles Federal Reserve Board Building",
+  "cap": "The Federal Reserve in Washington: the dollar replaced the pound as the world’s reserve currency.",
+  "kind": "image"
+ },
+ {
+  "k": "c:math-plimpton-322",
+  "q": "Plimpton 322 tablet",
+  "cap": "Plimpton 322, a Babylonian clay tablet (about 1800 BCE) listing Pythagorean triples.",
+  "kind": "image"
+ },
+ {
+  "k": "c:math-rhind",
+  "q": "Rhind Mathematical Papyrus",
+  "cap": "The Rhind Mathematical Papyrus, Egypt, about 1550 BCE.",
+  "kind": "image"
+ },
+ {
+  "k": "c:math-euclid",
+  "q": "Oxyrhynchus papyrus Euclid Elements",
+  "cap": "One of the oldest surviving fragments of Euclid’s Elements, from Oxyrhynchus, Egypt.",
+  "kind": "image"
+ },
+ {
+  "k": "c:math-enigma",
+  "q": "Enigma machine",
+  "cap": "An Enigma cipher machine: breaking its code was a triumph of mathematics in the Second World War.",
+  "kind": "image"
+ },
+ {
+  "k": "c:statistics-nightingale",
+  "q": "Nightingale mortality rose diagram 1858",
+  "cap": "Florence Nightingale’s “rose” diagram (1858) showed most soldiers died of preventable disease, not wounds.",
+  "kind": "image"
+ },
+ {
+  "k": "c:statistics-minard",
+  "q": "Minard map Napoleon Russian campaign 1812",
+  "cap": "Charles Minard’s 1869 graphic of Napoleon’s army shrinking in Russia, often called the best statistical graphic ever drawn.",
+  "kind": "image"
+ },
+ {
+  "k": "c:statistics-snow-map",
+  "q": "John Snow cholera map 1854",
+  "cap": "John Snow’s 1854 map tracing cholera deaths to the Broad Street water pump.",
+  "kind": "image"
+ },
+ {
+  "k": "c:statistics-galton-board",
+  "q": "Galton board quincunx",
+  "cap": "A Galton board: falling balls form a bell curve.",
+  "kind": "image"
+ },
+ {
+  "k": "c:logic-llull",
+  "q": "Ramon Llull Ars Magna wheel",
+  "cap": "Ramon Llull’s logical wheels (about 1300), an early attempt to mechanize reasoning.",
+  "kind": "image"
+ },
+ {
+  "k": "c:logic-leibniz-reckoner",
+  "q": "Leibniz stepped reckoner",
+  "cap": "Leibniz’s stepped reckoner, a 17th-century calculating machine.",
+  "kind": "image"
+ },
+ {
+  "k": "c:logic-boole",
+  "q": "Boole Laws of Thought 1854 title page",
+  "cap": "George Boole’s Laws of Thought (1854), the algebra behind all digital circuits.",
+  "kind": "image"
+ },
+ {
+  "k": "c:logic-organon",
+  "q": "Aristotle Organon manuscript",
+  "cap": "A medieval manuscript of Aristotle’s logic, the Organon.",
+  "kind": "image"
+ },
+ {
+  "k": "c:computing-eniac",
+  "q": "ENIAC 1946",
+  "cap": "ENIAC (1946), one of the first general-purpose electronic computers; its programmers were mostly women.",
+  "kind": "image"
+ },
+ {
+  "k": "c:computing-colossus",
+  "q": "Colossus computer Bletchley Park",
+  "cap": "Colossus at Bletchley Park (1944), built to break German codes.",
+  "kind": "image"
+ },
+ {
+  "k": "c:computing-difference-engine",
+  "q": "Babbage Difference Engine Science Museum",
+  "cap": "Babbage’s Difference Engine No. 2, built to his design by the Science Museum in 1991.",
+  "kind": "image"
+ },
+ {
+  "k": "c:computing-agc",
+  "q": "Apollo Guidance Computer",
+  "cap": "The Apollo Guidance Computer, which flew astronauts to the Moon.",
+  "kind": "image"
+ },
+ {
+  "k": "c:physics-lhc",
+  "q": "Large Hadron Collider tunnel",
+  "cap": "The Large Hadron Collider tunnel at CERN.",
+  "kind": "image"
+ },
+ {
+  "k": "c:physics-ligo",
+  "q": "LIGO Hanford observatory aerial",
+  "cap": "The LIGO detector at Hanford, Washington: arms 4 km long.",
+  "kind": "image"
+ },
+ {
+  "k": "c:physics-trinity",
+  "q": "Trinity test 1945 fireball",
+  "cap": "The Trinity test, 16 July 1945: the first nuclear explosion.",
+  "kind": "image"
+ },
+ {
+  "k": "c:physics-principia",
+  "q": "Newton Principia first edition title page",
+  "cap": "The first edition of Newton’s Principia (1687).",
+  "kind": "image"
+ },
+ {
+  "k": "c:chemistry-lavoisier-lab",
+  "q": "Lavoisier laboratory instruments Musée des Arts et Métiers",
+  "cap": "Lavoisier’s laboratory instruments.",
+  "kind": "image"
+ },
+ {
+  "k": "c:chemistry-mendeleev-table",
+  "q": "Mendeleev 1869 periodic table",
+  "cap": "Mendeleev’s 1869 periodic table, with gaps for undiscovered elements.",
+  "kind": "image"
+ },
+ {
+  "k": "c:chemistry-alchemist",
+  "q": "Wright of Derby The Alchemist discovering phosphorus",
+  "cap": "Joseph Wright of Derby, The Alchemist Discovering Phosphorus (1771).",
+  "kind": "image"
+ },
+ {
+  "k": "c:chemistry-bhopal",
+  "q": "Union Carbide factory Bhopal",
+  "cap": "The abandoned Union Carbide plant in Bhopal, India.",
+  "kind": "image"
+ },
+ {
+  "k": "c:biology-darwin-finches",
+  "q": "Darwin finches Gould Journal of Researches",
+  "cap": "Darwin’s finches, drawn by John Gould: beaks shaped by diet.",
+  "kind": "image"
+ },
+ {
+  "k": "c:biology-micrographia",
+  "q": "Hooke Micrographia flea",
+  "cap": "A flea from Robert Hooke’s Micrographia (1665), one of the first books of microscope drawings.",
+  "kind": "image"
+ },
+ {
+  "k": "c:biology-beagle",
+  "q": "HMS Beagle painting",
+  "cap": "HMS Beagle, the ship of Darwin’s voyage (1831–36).",
+  "kind": "image"
+ },
+ {
+  "k": "c:biology-galapagos-tortoise",
+  "q": "Galapagos giant tortoise",
+  "cap": "A Galápagos giant tortoise.",
+  "kind": "image"
+ },
+ {
+  "k": "c:earthspace-earthrise",
+  "q": "Earthrise Apollo 8",
+  "cap": "Earthrise, photographed from Apollo 8 in 1968.",
+  "kind": "image"
+ },
+ {
+  "k": "c:earthspace-pale-blue-dot",
+  "q": "Pale Blue Dot Voyager 1",
+  "cap": "The Pale Blue Dot: Earth from Voyager 1, 6 billion km away (1990).",
+  "kind": "image"
+ },
+ {
+  "k": "c:earthspace-hubble-deep-field",
+  "q": "Hubble Ultra Deep Field",
+  "cap": "The Hubble Ultra Deep Field: about 10,000 galaxies in a tiny patch of sky.",
+  "kind": "image"
+ },
+ {
+  "k": "c:earthspace-st-helens",
+  "q": "Mount St Helens eruption 1980",
+  "cap": "Mount St Helens erupting, 18 May 1980.",
+  "kind": "image"
+ },
+ {
+  "k": "c:economics-amsterdam-exchange",
+  "q": "Berckheyde Amsterdam stock exchange painting",
+  "cap": "The Amsterdam exchange, painted by Job Berckheyde (about 1670): the first modern stock market.",
+  "kind": "image"
+ },
+ {
+  "k": "c:economics-tulip-mania",
+  "q": "Brueghel satire tulip mania",
+  "cap": "A satire of the 1637 tulip mania by Jan Brueghel the Younger.",
+  "kind": "image"
+ },
+ {
+  "k": "c:economics-weimar-money",
+  "q": "Weimar hyperinflation banknotes 1923",
+  "cap": "German banknotes during the 1923 hyperinflation.",
+  "kind": "image"
+ },
+ {
+  "k": "c:economics-suez-canal-ships",
+  "q": "container ships Suez Canal",
+  "cap": "Ships in the Suez Canal, a lifeline of world trade.",
+  "kind": "image"
+ },
+ {
+  "k": "c:politics-magna-carta",
+  "q": "Magna Carta 1215 British Library",
+  "cap": "Magna Carta (1215), which put the king under the law.",
+  "kind": "image"
+ },
+ {
+  "k": "c:politics-declaration-trumbull",
+  "q": "Trumbull Declaration of Independence painting",
+  "cap": "John Trumbull’s painting of the presentation of the Declaration of Independence (1776).",
+  "kind": "image"
+ },
+ {
+  "k": "c:politics-ostraka",
+  "q": "ostraka Athens Agora ostracism",
+  "cap": "Ostraka: Athenians scratched names on pottery to vote someone into exile.",
+  "kind": "image"
+ },
+ {
+  "k": "c:politics-udhr",
+  "q": "Universal Declaration of Human Rights 1948",
+  "cap": "The Universal Declaration of Human Rights (1948).",
+  "kind": "image"
+ },
+ {
+  "k": "c:geopolitics-congress-vienna",
+  "q": "Congress of Vienna 1815 painting",
+  "cap": "The Congress of Vienna (1814–15), which redrew Europe after Napoleon.",
+  "kind": "image"
+ },
+ {
+  "k": "c:geopolitics-panama-canal",
+  "q": "Panama Canal construction Culebra Cut",
+  "cap": "Digging the Culebra Cut of the Panama Canal (about 1910).",
+  "kind": "image"
+ },
+ {
+  "k": "c:geopolitics-berlin-conference",
+  "q": "Berlin Conference 1884 Africa",
+  "cap": "The Berlin Conference of 1884–85, where European powers set rules for dividing Africa.",
+  "kind": "image"
+ },
+ {
+  "k": "c:geopolitics-strait-hormuz",
+  "q": "Strait of Hormuz satellite",
+  "cap": "The Strait of Hormuz: about a fifth of the world’s oil passes through it.",
+  "kind": "image"
+ },
+ {
+  "k": "c:psychology-wundt-lab",
+  "q": "Wundt laboratory Leipzig",
+  "cap": "Wilhelm Wundt’s laboratory in Leipzig, the first psychology lab (1879).",
+  "kind": "image"
+ },
+ {
+  "k": "c:psychology-rorschach",
+  "q": "Rorschach inkblot card",
+  "cap": "A Rorschach inkblot card (1921); its scientific value is disputed.",
+  "kind": "image"
+ },
+ {
+  "k": "c:psychology-bethlem",
+  "q": "Bethlem Royal Hospital 18th century",
+  "cap": "Bethlem (“Bedlam”) hospital, London: how mental illness was once treated.",
+  "kind": "image"
+ },
+ {
+  "k": "c:psychology-pavlov-museum",
+  "q": "Pavlov dog museum",
+  "cap": "A preserved dog from Ivan Pavlov’s conditioning experiments.",
+  "kind": "image"
+ },
+ {
+  "k": "c:sociology-hull-house",
+  "q": "Hull House Chicago",
+  "cap": "Hull House in Chicago (1889), a settlement house where Jane Addams and others studied and served the poor.",
+  "kind": "image"
+ },
+ {
+  "k": "c:sociology-riis-tenement",
+  "q": "Jacob Riis How the Other Half Lives tenement",
+  "cap": "A New York tenement photographed by Jacob Riis (1890).",
+  "kind": "image"
+ },
+ {
+  "k": "c:sociology-booth-map",
+  "q": "Charles Booth poverty map London",
+  "cap": "Charles Booth’s poverty map of London (1889), coloured street by street.",
+  "kind": "image"
+ },
+ {
+  "k": "c:sociology-levittown",
+  "q": "Levittown aerial 1950s",
+  "cap": "Levittown, New York: mass suburban housing after 1945.",
+  "kind": "image"
+ },
+ {
+  "k": "c:anthropology-lascaux",
+  "q": "Lascaux cave painting",
+  "cap": "Lascaux cave paintings, France, about 17,000 years old.",
+  "kind": "image"
+ },
+ {
+  "k": "c:anthropology-gobekli-tepe",
+  "q": "Göbekli Tepe pillars",
+  "cap": "Göbekli Tepe, Turkey: monumental pillars about 11,000 years old.",
+  "kind": "image"
+ },
+ {
+  "k": "c:anthropology-laetoli",
+  "q": "Laetoli footprints",
+  "cap": "The Laetoli footprints, Tanzania: made by human ancestors 3.7 million years ago.",
+  "kind": "image"
+ },
+ {
+  "k": "c:anthropology-lucy",
+  "q": "Lucy Australopithecus skeleton cast",
+  "cap": "A cast of “Lucy”, an Australopithecus skeleton about 3.2 million years old.",
+  "kind": "image"
+ },
+ {
+  "k": "c:law-hammurabi",
+  "q": "Code of Hammurabi stele Louvre",
+  "cap": "The Code of Hammurabi (about 1754 BCE), carved on a basalt stele.",
+  "kind": "image"
+ },
+ {
+  "k": "c:law-old-bailey",
+  "q": "Old Bailey Central Criminal Court",
+  "cap": "The Old Bailey, London’s central criminal court.",
+  "kind": "image"
+ },
+ {
+  "k": "c:law-justinian",
+  "q": "Corpus Juris Civilis manuscript",
+  "cap": "A manuscript of Justinian’s law code, basis of civil law across Europe.",
+  "kind": "image"
+ },
+ {
+  "k": "c:law-icj",
+  "q": "Peace Palace The Hague",
+  "cap": "The Peace Palace in The Hague, seat of the International Court of Justice.",
+  "kind": "image"
+ },
+ {
+  "k": "c:history-rosetta",
+  "q": "Rosetta Stone British Museum",
+  "cap": "The Rosetta Stone (196 BCE), the key to reading Egyptian hieroglyphs.",
+  "kind": "image"
+ },
+ {
+  "k": "c:history-bayeux",
+  "q": "Bayeux Tapestry",
+  "cap": "The Bayeux Tapestry, telling the Norman conquest of England (1066).",
+  "kind": "image"
+ },
+ {
+  "k": "c:history-domesday",
+  "q": "Domesday Book",
+  "cap": "Domesday Book (1086), England’s great survey of land and people.",
+  "kind": "image"
+ },
+ {
+  "k": "c:history-pompeii",
+  "q": "Pompeii Forum ruins",
+  "cap": "Pompeii, buried by Vesuvius in 79 CE.",
+  "kind": "image"
+ },
+ {
+  "k": "c:philosophy-school-athens",
+  "q": "School of Athens Raphael",
+  "cap": "Raphael’s School of Athens (1509–11).",
+  "kind": "image"
+ },
+ {
+  "k": "c:philosophy-death-socrates",
+  "q": "Death of Socrates David",
+  "cap": "Jacques-Louis David, The Death of Socrates (1787).",
+  "kind": "image"
+ },
+ {
+  "k": "c:philosophy-stoa",
+  "q": "Stoa of Attalos Athens",
+  "cap": "The Stoa of Attalos in Athens; the Stoics took their name from a stoa (porch).",
+  "kind": "image"
+ },
+ {
+  "k": "c:philosophy-nalanda",
+  "q": "Nalanda university ruins",
+  "cap": "The ruins of Nalanda, India, a great Buddhist centre of learning.",
+  "kind": "image"
+ },
+ {
+  "k": "c:religion-dead-sea-scrolls",
+  "q": "Dead Sea Scrolls Isaiah scroll",
+  "cap": "The Great Isaiah Scroll, one of the Dead Sea Scrolls (about 125 BCE).",
+  "kind": "image"
+ },
+ {
+  "k": "c:religion-hagia-sophia",
+  "q": "Hagia Sophia interior",
+  "cap": "Hagia Sophia, Istanbul: church, mosque, museum, and mosque again.",
+  "kind": "image"
+ },
+ {
+  "k": "c:religion-borobudur",
+  "q": "Borobudur temple",
+  "cap": "Borobudur, Java, the largest Buddhist temple in the world.",
+  "kind": "image"
+ },
+ {
+  "k": "c:religion-golden-temple",
+  "q": "Golden Temple Amritsar",
+  "cap": "The Golden Temple (Harmandir Sahib), Amritsar, the holiest site of Sikhism.",
+  "kind": "image"
+ },
+ {
+  "k": "c:linguistics-linear-b",
+  "q": "Linear B tablet",
+  "cap": "A Linear B tablet: the earliest written Greek, deciphered in 1952.",
+  "kind": "image"
+ },
+ {
+  "k": "c:linguistics-cuneiform",
+  "q": "cuneiform tablet",
+  "cap": "A cuneiform tablet from Mesopotamia, one of the first writing systems.",
+  "kind": "image"
+ },
+ {
+  "k": "c:linguistics-hunminjeongeum",
+  "q": "Hunminjeongeum Haerye",
+  "cap": "The Hunminjeongeum (1446), which introduced the Korean alphabet, Hangul.",
+  "kind": "image"
+ },
+ {
+  "k": "c:linguistics-voynich",
+  "q": "Voynich manuscript",
+  "cap": "The Voynich manuscript: still undeciphered.",
+  "kind": "image"
+ },
+ {
+  "k": "c:literature-gutenberg-bible",
+  "q": "Gutenberg Bible",
+  "cap": "The Gutenberg Bible (about 1455), the first major book printed with movable type in Europe.",
+  "kind": "image"
+ },
+ {
+  "k": "c:literature-gilgamesh",
+  "q": "Epic of Gilgamesh flood tablet",
+  "cap": "A tablet of the Epic of Gilgamesh, one of the oldest stories ever written.",
+  "kind": "image"
+ },
+ {
+  "k": "c:literature-first-folio",
+  "q": "Shakespeare First Folio 1623",
+  "cap": "Shakespeare’s First Folio (1623), which preserved 18 plays that might otherwise have been lost.",
+  "kind": "image"
+ },
+ {
+  "k": "c:literature-genji-scroll",
+  "q": "Tale of Genji emaki scroll",
+  "cap": "A 12th-century illustrated scroll of The Tale of Genji.",
+  "kind": "image"
+ },
+ {
+  "k": "c:arts-great-wave",
+  "q": "Hokusai Great Wave off Kanagawa",
+  "cap": "Hokusai, The Great Wave off Kanagawa (about 1831).",
+  "kind": "image"
+ },
+ {
+  "k": "c:arts-starry-night",
+  "q": "Starry Night Van Gogh",
+  "cap": "Vincent van Gogh, The Starry Night (1889).",
+  "kind": "image"
+ },
+ {
+  "k": "c:arts-parthenon",
+  "q": "Parthenon Athens",
+  "cap": "The Parthenon, Athens (447–432 BCE).",
+  "kind": "image"
+ },
+ {
+  "k": "c:arts-mona-lisa",
+  "q": "Mona Lisa Louvre",
+  "cap": "Leonardo da Vinci, Mona Lisa (about 1503–19).",
+  "kind": "image"
+ },
+ {
+  "k": "c:medicine-edwin-smith",
+  "q": "Edwin Smith Papyrus",
+  "cap": "The Edwin Smith Papyrus, an Egyptian surgical text (about 1600 BCE).",
+  "kind": "image"
+ },
+ {
+  "k": "c:medicine-jenner",
+  "q": "Jenner vaccination painting",
+  "cap": "Edward Jenner vaccinating against smallpox, 1796, as later imagined by an artist.",
+  "kind": "image"
+ },
+ {
+  "k": "c:medicine-rontgen-hand",
+  "q": "first X-ray hand Röntgen 1895",
+  "cap": "The first X-ray of a human hand, Anna Bertha Röntgen’s, 1895.",
+  "kind": "image"
+ },
+ {
+  "k": "c:medicine-scutari",
+  "q": "Scutari hospital Crimean War",
+  "cap": "The hospital at Scutari during the Crimean War, where Florence Nightingale worked.",
+  "kind": "image"
+ },
+ {
+  "k": "c:engineering-pont-du-gard",
+  "q": "Pont du Gard aqueduct",
+  "cap": "The Pont du Gard, a Roman aqueduct bridge (1st century CE).",
+  "kind": "image"
+ },
+ {
+  "k": "c:engineering-brooklyn-bridge",
+  "q": "Brooklyn Bridge construction 1870s",
+  "cap": "Building the Brooklyn Bridge (1870–83).",
+  "kind": "image"
+ },
+ {
+  "k": "c:engineering-hoover-dam",
+  "q": "Hoover Dam construction 1930s",
+  "cap": "Building the Hoover Dam (1931–36).",
+  "kind": "image"
+ },
+ {
+  "k": "c:engineering-iron-bridge",
+  "q": "Iron Bridge Coalbrookdale",
+  "cap": "The Iron Bridge (1779), the first major bridge made of cast iron.",
+  "kind": "image"
+ },
+ {
+  "k": "c:ethics-am-i-not",
+  "q": "Wedgwood anti-slavery medallion Am I Not a Man and a Brother",
+  "cap": "The Wedgwood anti-slavery medallion (1787): an early moral campaign image.",
+  "kind": "image"
+ },
+ {
+  "k": "c:ethics-hippocratic",
+  "q": "Hippocratic Oath manuscript",
+  "cap": "A manuscript of the Hippocratic Oath, the oldest code of medical ethics.",
+  "kind": "image"
+ },
+ {
+  "k": "c:ethics-nuremberg-doctors",
+  "q": "Nuremberg Doctors Trial 1947",
+  "cap": "The Nuremberg Doctors’ Trial (1946–47), which produced the Nuremberg Code on human experiments.",
+  "kind": "image"
+ },
+ {
+  "k": "c:ethics-triangle-memorial",
+  "q": "Triangle Shirtwaist fire memorial",
+  "cap": "A memorial to the 146 workers killed in the Triangle Shirtwaist fire (1911).",
+  "kind": "image"
  }
 ]
