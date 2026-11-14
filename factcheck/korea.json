@@ -1,0 +1,66 @@
+[
+ {
+  "file": "js/power-data.js",
+  "old": "expanded the Congress presidium to 39 members",
+  "new": "named a 39-member congress presidium (the same size as in 2021, with 23 new faces)",
+  "problem": "The 9th Congress presidium was not expanded: it had 39 members, the same number as at the 8th Congress in 2021, with 23 seats changing hands.",
+  "severity": "error",
+  "sources": [
+   "https://www.asianews.it/en/east-asia/north-korea/at-ninth-party-congress-in-pyongyang-sees-kim-reshuffle-its-leadership-boosting-his-power",
+   "https://www.dailynk.com/english/north-korea-ninth-party-congress/"
+  ]
+ },
+ {
+  "file": "js/power-data.js",
+  "old": "Kim’s possible successor is debated; his daughter (named Ju Ae by South Korean intelligence) appears often in state media.",
+  "new": "No successor has been officially named. His daughter (believed to be named Ju Ae) appears often in state media; in February 2026 South Korea’s spy agency said she was at the stage of being internally designated successor, though outside analysts still debate it.",
+  "problem": "Outdated: in February 2026 South Korea’s NIS upgraded its assessment, telling lawmakers Ju Ae was at the stage of being internally designated successor.",
+  "severity": "outdated",
+  "sources": [
+   "https://www.dawn.com/news/1972876",
+   "https://www.dailynk.com/english/north-korea-ninth-party-congress/"
+  ]
+ },
+ {
+  "file": "js/power-data.js",
+  "old": "A small party founded in 1945, originally for businessmen and Christians in the North. It accepts WPK leadership and holds a few seats in the parliament.",
+  "new": "A small party founded in 1945, originally for businessmen and Christians in the North. It accepts WPK leadership and holds a fixed share of seats in the parliament (50 of 687 in 2019).",
+  "problem": "The KSDP held 50 of 687 SPA seats in the 2019 election (Chondoists 22), more than ‘a few’; the seats are allotted, not won.",
+  "severity": "error",
+  "sources": [
+   "https://www.indexmundi.com/north_korea/legislative_branch.html (CIA World Factbook data, 2019 SPA election)"
+  ]
+ },
+ {
+  "file": "js/power-data.js",
+  "old": "In April 2026 the National Assembly elected General Secretary To Lam as State President too (495 of 495 votes), echoing China’s model.",
+  "new": "In April 2026 the National Assembly elected General Secretary To Lam as State President too (495 of 495 votes), echoing China’s model. It was not the first time: Nguyen Phu Trong held both posts in 2018–21, and To Lam himself briefly in 2024.",
+  "problem": "Omits that the party chief has held the presidency twice before (Nguyen Phu Trong 2018–21; To Lam Aug–Oct 2024), so the 2026 merger is presented as more unprecedented than it is.",
+  "severity": "framing",
+  "sources": [
+   "https://www.wsls.com/news/world/2026/04/07/vietnam-elects-communist-party-chief-as-president-echoing-chinas-power-structure/",
+   "https://thediplomat.com/2018/10/meet-vietnams-new-president-the-communist-party-chief"
+  ]
+ },
+ {
+  "file": "js/power-data.js",
+  "old": "'Two 5-year terms (2019 constitution)', 'Informal',",
+  "new": "'Two 5-year terms (2019 constitution)', 'Presidency limited to two terms (2015 constitution)',",
+  "problem": "Laos’s 2015 constitutional amendment set a formal limit of two consecutive terms for the president (who is also the party chief), so ‘Informal’ is wrong.",
+  "severity": "error",
+  "sources": [
+   "https://jclao.com/?p=14924"
+  ]
+ },
+ {
+  "file": "js/korea-data.js",
+  "old": "(survivors say about 300;",
+  "new": "(survivors say about 400, including about 100 killed in an air attack; a Seoul government committee in 2005 confirmed 163 dead or missing by name;",
+  "problem": "Survivors generally put the No Gun Ri toll at about 400 (including ~100 in the initial air attack), not 300; the 2005 South Korean committee certified 163 dead or missing.",
+  "severity": "error",
+  "sources": [
+   "https://en.wikipedia.org/wiki/No_Gun_Ri_massacre (citing AP 1999 and the 2005 ROK committee)",
+   "https://apjjf.org/wp-content/uploads/2023/11/article-1929.pdf"
+  ]
+ }
+]

@@ -1,0 +1,108 @@
+[
+ {
+  "file": "js/usp-data.js",
+  "old": "President Reagan then made Chun the first foreign leader he hosted (1981).",
+  "new": "President Reagan then made Chun one of the first foreign leaders he hosted (February 1981).",
+  "problem": "Chun visited on February 2, 1981; Jamaica’s Edward Seaga was the first foreign leader Reagan hosted (January 27–29, 1981).",
+  "severity": "error",
+  "sources": [
+   "https://history.state.gov/departmenthistory/visits/jamaica",
+   "https://www.csmonitor.com/1981/0128/012852.html"
+  ]
+ },
+ {
+  "file": "js/usp-data.js",
+  "old": "the Senate investigated the “merchants of death” in the 1930s (the Nye Committee) and the revolving door in 1959.",
+  "new": "the Senate investigated the “merchants of death” in the 1930s (the Nye Committee), and a House Armed Services subcommittee investigated the revolving door in 1959.",
+  "problem": "The 1959 hearings on retired officers hired by defense contractors were held by the House Armed Services Subcommittee for Special Investigations (Hébert), not the Senate.",
+  "severity": "error",
+  "sources": [
+   "https://onlinebooks.library.upenn.edu/webbin/who/United%20States%2e%20Congress%2e%20House%2e%20Committee%20on%20Armed%20Services%2e%20Subcommittee%20for%20Special%20Investigations",
+   "House Armed Services Committee, Subcommittee for Special Investigations, Employment of Retired Military and Civilian Personnel by Defense Industries: Hearings (1959)"
+  ]
+ },
+ {
+  "file": "js/usp-data.js",
+  "old": "Congress passed short extensions in April 2026 amid disputes over adding a warrant requirement for searches of Americans’ data; a secret court opinion found compliance problems.",
+  "new": "Congress passed short extensions in April 2026 amid disputes over adding a warrant requirement for searches of Americans’ data, then let the law lapse on June 12, 2026; collection continues under existing court certifications, which run to March 2027, and no renewal had passed by late October. A secret court opinion found compliance problems.",
+  "problem": "Outdated: after the April stopgaps Section 702 lapsed on June 12, 2026 and had not been reauthorized as of late October 2026, with collection continuing under certifications until March 2027.",
+  "severity": "outdated",
+  "sources": [
+   "https://www.opb.org/article/2026/06/13/fisa-702-a-key-u-s-spy-tool-has-lapsed-now-what",
+   "https://www.deseret.com/politics/2026/07/29/clayton-nomination-mean-for-fisa-authorization/",
+   "https://www.brennancenter.org/our-work/research-reports/section-702-foreign-intelligence-surveillance-act-fisa-2026-resource-page"
+  ]
+ },
+ {
+  "file": "js/usp-data.js",
+  "old": "Counts of bases vary wildly by definition: about 128 major bases in about 49 countries,",
+  "new": "Counts of bases vary wildly by definition: at least 128 bases in at least 51 countries (a Congressional Research Service count),",
+  "problem": "The CRS count is “at least 128 overseas bases in at least 51 countries” (68 persistent bases and 60 other sites), not 128 “major” bases in 49 countries.",
+  "severity": "error",
+  "sources": [
+   "https://www.everycrsreport.com/files/2024-07-10_R48123_44023b7587a1d5980af3e288bb50f6be16480a0d.html"
+  ]
+ },
+ {
+  "file": "js/usp-data2.js",
+  "old": "which is why base counts range from about 128 major bases to around 750 sites",
+  "new": "which is why base counts range from at least 128 bases (a CRS count) to around 750 sites",
+  "problem": "CRS counts at least 128 overseas bases, of which only 68 are persistent bases; calling all 128 “major” misstates the source.",
+  "severity": "error",
+  "sources": [
+   "https://www.everycrsreport.com/files/2024-07-10_R48123_44023b7587a1d5980af3e288bb50f6be16480a0d.html"
+  ]
+ },
+ {
+  "file": "js/usp-data.js",
+  "old": "Israel is the largest cumulative recipient of US military aid since WWII (over $300 billion adjusted for inflation, by CRS counts)",
+  "new": "Israel is the largest cumulative recipient of US aid since WWII, most of it military (about $300 billion adjusted for inflation, by CRS counts)",
+  "problem": "CRS gives about $298 billion in constant 2024 dollars for all US aid to Israel in 1946–2024 ($174 billion in current dollars), a figure for total aid, not military aid alone, and not “over $300 billion.”",
+  "severity": "error",
+  "sources": [
+   "https://www.everycrsreport.com/files/2025-05-28_RL33222_5306b5d4e077538d2db80d05cd10ca8c08501669.html"
+  ]
+ },
+ {
+  "file": "js/usp-data2.js",
+  "old": "'Over $300 billion, inflation-adjusted (CRS), the most of any country'",
+  "new": "'About $300 billion, inflation-adjusted (CRS), the most of any country'",
+  "problem": "CRS estimates about $298 billion (constant 2024 dollars) for 1946–2024, not over $300 billion.",
+  "severity": "error",
+  "sources": [
+   "https://www.everycrsreport.com/files/2025-05-28_RL33222_5306b5d4e077538d2db80d05cd10ca8c08501669.html"
+  ]
+ },
+ {
+  "file": "js/usp-data2.js",
+  "old": "These are permanently assigned personnel (military plus Defense Department civilians) from the Pentagon’s own June 2025 count.",
+  "new": "These are permanently assigned active-duty military personnel from the Pentagon’s own June 2025 count.",
+  "problem": "The figures (Japan 53,912, Germany 35,989) match DMDC active-duty counts; with civilians included, Japan is over 60,000 and Germany nearly 50,000.",
+  "severity": "error",
+  "sources": [
+   "https://www.fox4news.com/news/u-s-troop-counts-country-how-pulling-5000-from-germany-impacts-europe-global-presence",
+   "https://statista.com/chart/36174/us-military-presence-in-europe-permanent-troops-stationed-by-country/"
+  ]
+ },
+ {
+  "file": "js/usp-data2.js",
+  "old": "'Stationed in five allied countries (Belgium, Germany, Italy, the Netherlands, Turkey)'",
+  "new": "'Stationed in five allied countries (Belgium, Germany, Italy, the Netherlands, Turkey), and reportedly in Britain again since 2025'",
+  "problem": "Since July 2025, nuclear watchdogs and the press have reported that B61-12 bombs were redeployed to RAF Lakenheath in the UK; this is not officially confirmed, but the flat five-country list leaves it out.",
+  "severity": "outdated",
+  "sources": [
+   "https://ukdefencejournal.org.uk/us-nukes-deployed-to-england-for-first-time-in-over-a-decade/",
+   "https://fas.org/publication/potential-return-of-the-us-nuclear-mission-to-raf-lakenheath"
+  ]
+ },
+ {
+  "file": "js/usp-data.js",
+  "old": "'The Guardian and Washington Post'",
+  "new": "'The Guardian and Washington Post; the Merkel story by Der Spiegel (October 2013)'",
+  "problem": "The monitoring of Merkel’s phone was revealed by Der Spiegel in October 2013, not by the Guardian or the Washington Post in June.",
+  "severity": "error",
+  "sources": [
+   "Der Spiegel, October 23–27, 2013 reporting on NSA monitoring of Chancellor Merkel’s phone"
+  ]
+ }
+]

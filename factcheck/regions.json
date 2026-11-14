@@ -1,0 +1,32 @@
+[
+ {
+  "file": "js/africa-data.js",
+  "old": "Estimates are around 6 million or more, much less documented than the Atlantic trade.",
+  "new": "Paul Lovejoy’s widely cited estimates total roughly 11 million (about 7.4 million across the Sahara and 3–4 million via the Red Sea and East Africa); others are lower. It is much less documented than the Atlantic trade.",
+  "problem": "The item cites Lovejoy, whose estimates total about 10.7–11.5 million (7.42 million trans-Saharan plus 3.3–4.0 million Red Sea/East Africa), so ‘around 6 million or more’ badly understates the cited scholarship.",
+  "severity": "error",
+  "sources": [
+   "Boston University African Studies Center, Slave Trade Tables (from Lovejoy, Transformations in Slavery, 3rd ed. 2012): https://www.bu.edu/africa/files/2023/11/Slave-Trade-Tables.docx.pdf"
+  ]
+ },
+ {
+  "file": "js/africa-data.js",
+  "old": "In 1994 extremists killed an estimated 500,000–800,000 people, mostly Tutsi,",
+  "new": "In 1994 extremists killed an estimated 500,000 to about 1 million people (the UN and Rwanda’s government say about 1 million), mostly Tutsi,",
+  "problem": "The range stops at 800,000 while citing the UN, which (like Rwanda’s government census) puts the toll at about 1 million; the low-end scholarly range is presented as the whole picture.",
+  "severity": "framing",
+  "sources": [
+   "UN Secretary-General message, 7 April 2024: ‘Over the course of 100 days, 1 million people were killed.’ https://press.un.org/en/2024/sgsm22184.doc.htm"
+  ]
+ },
+ {
+  "file": "js/americas-data.js",
+  "old": "became a decade of civil war that killed up to about a million people.",
+  "new": "became a decade of civil war that caused over a million deaths (demographer Robert McCaa estimates about 1.4 million excess deaths).",
+  "problem": "‘Up to about a million’ presents a ceiling that is below the leading demographic estimate (McCaa 2003: about 1.4 million excess deaths, 2.1 million total population loss).",
+  "severity": "error",
+  "sources": [
+   "Robert McCaa, ‘Missing millions: the demographic costs of the Mexican Revolution’, Mexican Studies/Estudios Mexicanos 19:2 (2003): https://users.pop.umn.edu/~rmccaa/missmill/abstract.htm"
+  ]
+ }
+]

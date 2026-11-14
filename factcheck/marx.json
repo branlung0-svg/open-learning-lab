@@ -1,0 +1,120 @@
+[
+ {
+  "file": "js/marx-data.js",
+  "old": "China’s own party judged him 70% right, 30% wrong (1981).",
+  "new": "China’s own party judged his merits primary and his errors secondary (1981), often summarized as 70% right, 30% wrong.",
+  "problem": "The 1981 Resolution does not contain the 70/30 formula; it says Mao’s merits are primary and his errors secondary, and 70/30 is a later popular shorthand (associated with Deng).",
+  "severity": "error",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Resolution_on_Certain_Questions_in_the_History_of_Our_Party_since_the_Founding_of_the_People%27s_Republic_of_China",
+   "1981 Resolution text, para. 27: “his merits are primary and his errors secondary”"
+  ]
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "The party’s Resolution on History: Mao 70% right, 30% wrong; the Cultural Revolution was a catastrophe.",
+  "new": "The party’s Resolution on History: Mao’s merits primary, his errors secondary (popularly “70% right, 30% wrong”); the Cultural Revolution was a catastrophe.",
+  "problem": "Attributes the 70/30 formula to the 1981 Resolution, which does not use it.",
+  "severity": "error",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Resolution_on_Certain_Questions_in_the_History_of_Our_Party_since_the_Founding_of_the_People%27s_Republic_of_China"
+  ]
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "The 1981 Resolution and the 2021 Resolution both call it a serious error, though without a death toll.",
+  "new": "The 1981 Resolution calls it a serious error and the 2021 Resolution lists it among the party’s mistakes, both without a death toll.",
+  "problem": "The 2021 Resolution only says “mistakes were made such as the Great Leap Forward” and is notably softer than 1981’s “serious mistakes” language.",
+  "severity": "error",
+  "sources": [
+   "https://interpret.csis.org/translations/resolution-of-the-ccp-central-committee-on-the-major-achievements-and-historical-experience-of-the-party-over-the-past-century/",
+   "https://www.prcleader.org/post/a-tale-of-three-resolutions-a-close-reading-of-xi-jinping-s-version-of-ccp-history"
+  ]
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "female genital cutting and forced marriage outlawed.",
+  "new": "campaigns against female genital cutting and forced marriage (female genital cutting was made a crime only in 1996).",
+  "problem": "Sankara’s government campaigned against these practices, but FGM was criminalized only by Law 43/96/ADP (1996, in force 1997), long after his death.",
+  "severity": "error",
+  "sources": [
+   "https://www.futurepolicy.org/rightsofchildren/burkina-faso-fgm-c/",
+   "https://www.unfpa.org/resources/burkina-faso-has-strong-law-against-fgmcbut-winning-hearts-and-minds-remains-crucial"
+  ]
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "Cuban troops in Angola help defeat South African forces (Cuito Cuanavale, 1988).",
+  "new": "Cuban troops in Angola fight South African forces; both sides claim victory at Cuito Cuanavale (1988), which is followed by talks on Namibian independence.",
+  "problem": "States a contested outcome as settled: both Cuba/Angola and South Africa claim victory at Cuito Cuanavale, and historians still dispute it.",
+  "severity": "framing",
+  "sources": [
+   "https://www.historytoday.com/archive/replaying-cuito-cuanavale",
+   "https://en.wikipedia.org/wiki/Battle_of_Cuito_Cuanavale"
+  ]
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "brings island-wide blackouts (March, July).",
+  "new": "brings repeated island-wide blackouts (at least six by September).",
+  "problem": "Out of date: Cuba had at least six nationwide grid collapses in 2026, the latest on September 18.",
+  "severity": "outdated",
+  "sources": [
+   "https://www.aljazeera.com/news/2026/9/19/cuba-works-to-restore-power-after-another-major-nationwide-blackout",
+   "https://www.internazionale.it/ultime-notizie-reuters/2026/09/18/cuba-energy-grid-suffers-nationwide-collapse"
+  ]
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "calling for urgent market reforms. (developing)",
+  "new": "calling for urgent market reforms; on June 18 the National Assembly approves more than 175 of them. (developing)",
+  "problem": "Omits that the reforms were actually adopted: the National Assembly unanimously approved a package of 175+ market measures on June 18, 2026.",
+  "severity": "outdated",
+  "sources": [
+   "https://www.geo.tv/latest/669401-cuban-lawmakers-approve-sweeping-reforms-to-socialist-model-amid-us-pressure",
+   "https://www.euronews.com/2026/06/12/cuban-president-announces-economic-reforms-to-liberalise-the-embargo-hit-and-blockaded-isl"
+  ]
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "The party is debating opening to private business on the China and Vietnam model.",
+  "new": "In June the National Assembly approved more than 175 market reforms, including larger private firms and private banks, while leaders insist Cuba is not giving up socialism.",
+  "problem": "Out of date: the opening is no longer just under debate; reforms allowing firms over 100 staff, private banks and sales of state property were approved in June 2026 and are being implemented.",
+  "severity": "outdated",
+  "sources": [
+   "https://www.geo.tv/latest/669401-cuban-lawmakers-approve-sweeping-reforms-to-socialist-model-amid-us-pressure",
+   "https://www.intellinews.com/cuba-approves-sweeping-market-reforms-as-economic-crisis-and-us-pressure-mount-449782/"
+  ]
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "China, Vietnam, Laos; Cuba is now debating it",
+  "new": "China, Vietnam, Laos; Cuba began adopting parts of it in 2026",
+  "problem": "Out of date: Cuba’s National Assembly approved a large market-reform package in June 2026.",
+  "severity": "outdated",
+  "sources": [
+   "https://www.geo.tv/latest/669401-cuban-lawmakers-approve-sweeping-reforms-to-socialist-model-amid-us-pressure"
+  ]
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "Mesa-Lago, Cuba’s Aborted Reform (2014)",
+  "new": "Mesa-Lago & Pérez-López, Cuba’s Aborted Reform (2005)",
+  "problem": "Wrong date and missing co-author: Cuba’s Aborted Reform by Carmelo Mesa-Lago and Jorge Pérez-López was published by University Press of Florida in 2005.",
+  "severity": "error",
+  "sources": [
+   "https://www.schweitzer-online.de/en/buch/Mesa-Lago/Cubas-Aborted-Reform/9780813028682/A3845159/",
+   "Cambridge Core review: Latin American Politics and Society, Mesa-Lago and Pérez-López, Cuba’s Aborted Reform (Gainesville: University Press of Florida, 2005)"
+  ]
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "now: 'Seven successor states.'",
+  "new": "now: 'Six UN-member successor states, plus Kosovo, whose independence Serbia does not recognize.'",
+  "problem": "Counting Kosovo as a successor state without qualification states a contested sovereignty question as settled.",
+  "severity": "framing",
+  "sources": [
+   "https://en.wikipedia.org/wiki/International_recognition_of_Kosovo"
+  ]
+ }
+]

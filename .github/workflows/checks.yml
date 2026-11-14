@@ -13,6 +13,12 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: '22' }
       - run: python3 tools/validate.py
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install playwright && python3 -m playwright install --with-deps chromium
+      - run: python3 tools/smoke.py
   links:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest

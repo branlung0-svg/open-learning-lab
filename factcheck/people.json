@@ -1,0 +1,86 @@
+[
+ {
+  "file": "js/modern-j.js",
+  "old": "(“history will be kind to me, for I intend to write it”)",
+  "new": "(he told Parliament in 1948 that he proposed “to write that history myself”; the popular line “history will be kind to me, for I intend to write it” is a misquotation)",
+  "problem": "The famous line is a misquotation; Churchill’s documented 1948 Commons remark was that he proposed “to write that history myself”.",
+  "severity": "error",
+  "sources": [
+   "https://winstonchurchill.org/resources/quotes/quotes-falsely-attributed/"
+  ]
+ },
+ {
+  "file": "js/modern-j.js",
+  "old": "and quickly backed the 1973 junta, though declassified files show no direct US role in the coup itself and Pakistan during the 1971 Bangladesh genocide;",
+  "new": "and quickly backed the 1973 junta, though declassified files have not shown a direct US role in the coup itself; backed Pakistan during the 1971 Bangladesh genocide;",
+  "problem": "Garbled sentence makes it read as if files show no US role regarding Pakistan; Nixon and Kissinger backed Pakistan in 1971 (Bass, The Blood Telegram), and ‘show no role’ overstates what the records prove.",
+  "severity": "error",
+  "sources": [
+   "Gary J. Bass, The Blood Telegram (2013)",
+   "CIA Activities in Chile (Hinchey Report), 2000: https://www.cia.gov/readingroom/document/0000105716"
+  ]
+ },
+ {
+  "file": "js/modern-j.js",
+  "old": "Edwin Moise estimates about 15,000",
+  "new": "Edwin Moise now estimates on the rough order of 10,000",
+  "problem": "Moise’s own published revision puts executions at ‘perhaps on the rough order of 10,000’ (up from about 5,000), not 15,000.",
+  "severity": "error",
+  "sources": [
+   "https://edmoise.sites.clemson.edu/landbook.html"
+  ]
+ },
+ {
+  "file": "js/modern-j.js",
+  "old": "abdicated November 9, 1918;",
+  "new": "abdication announced November 9, 1918 (he formally signed it on November 28);",
+  "problem": "Prince Max von Baden announced the abdication on November 9 without Wilhelm’s consent; Wilhelm signed his formal abdication on November 28, 1918.",
+  "severity": "error",
+  "sources": [
+   "John Röhl, Wilhelm II: Into the Abyss of War and Exile (2014)",
+   "https://www.britannica.com/biography/William-II-emperor-of-Germany"
+  ]
+ },
+ {
+  "file": "js/modern-c.js",
+  "old": "The postwar claim that the bombs saved “a million” American lives comes mainly from a 1947 article by former War Secretary Henry Stimson written to answer critics; 1945 planning estimates varied widely, from tens of thousands to several hundred thousand casualties.",
+  "new": "The postwar claim that the bombs saved “a million” American lives comes mainly from a 1947 article by former War Secretary Henry Stimson written to answer critics (he actually wrote of “over a million casualties”, which counts the wounded); 1945 estimates varied widely, from tens of thousands of casualties in some military plans to over a million in others (a study for Stimson’s staff projected 1.7–4 million).",
+  "problem": "Stimson wrote ‘casualties’, not lives, and 1945 estimates were not capped at several hundred thousand: the Joint Chiefs’ April 1945 figure for both invasions was about 1.2 million casualties and the Shockley memo projected 1.7–4 million.",
+  "severity": "framing",
+  "sources": [
+   "https://ahf.nuclearmuseum.org/ahf/key-documents/stimson-bomb/",
+   "D. M. Giangreco, Hell to Pay (2009); summarized at https://en.wikipedia.org/wiki/Operation_Downfall#Estimated_casualties"
+  ]
+ },
+ {
+  "file": "js/modern-c.js",
+  "old": "US diplomats handed over lists of communist names (US cables declassified in 2017)",
+  "new": "US diplomats handed over lists of communist names (first reported in 1990), and US embassy cables declassified in 2017 show officials followed the killings in detail",
+  "problem": "The name lists were revealed by Kathy Kadane’s 1990 reporting, not by the 2017 cable release, which documented US officials’ detailed knowledge of the killings.",
+  "severity": "error",
+  "sources": [
+   "https://adst.org/2016/05/naming-names-u-s-embassy-jakarta-indonesian-purges-1965-1966/",
+   "https://www.hrw.org/news/2017/10/18/indonesia-us-documents-released-1965-66-massacres"
+  ]
+ },
+ {
+  "file": "js/modern-c.js",
+  "old": "helped by about $11 billion of US and British Lend-Lease supplies",
+  "new": "helped by about $11 billion of US Lend-Lease supplies plus British aid",
+  "problem": "The roughly $11.3 billion figure is US Lend-Lease to the USSR alone; British aid was additional.",
+  "severity": "error",
+  "sources": [
+   "https://www.rferl.org/a/did-us-lend-lease-aid-tip-the-balance-in-soviet-fight-against-nazi-germany/30599486.html"
+  ]
+ },
+ {
+  "file": "js/modern-c.js",
+  "old": "'Ahmed Sukarno'",
+  "new": "'Sukarno'",
+  "problem": "Sukarno had a single name; ‘Ahmed/Achmed’ was a foreign press invention (the file elsewhere uses ‘Sukarno’).",
+  "severity": "error",
+  "sources": [
+   "https://www.britannica.com/biography/Sukarno"
+  ]
+ }
+]

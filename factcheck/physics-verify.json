@@ -1,0 +1,333 @@
+[
+ {
+  "id": "phy-e-eratosthenes",
+  "verdict": "fix",
+  "when": "3rd century BCE (often given as c. 240 BCE)",
+  "sources": [
+   {
+    "cite": "APS News, This Month in Physics History: June, ca. 240 B.C., Eratosthenes measures the Earth",
+    "url": "https://aps.org/publications/apsnews/200606/history.cfm"
+   },
+   {
+    "cite": "Linda Hall Library, Scientist of the Day: Eratosthenes of Cyrene",
+    "url": "https://www.lindahall.org/about/news/scientist-of-the-day/eratosthenes-of-cyrene"
+   }
+  ],
+  "method": "Cited APS page (old URL still loads) plus Linda Hall Library Scientist of the Day",
+  "problem": "The exact year is not known. APS gives about 240 BCE; Linda Hall Library gives about 220 BCE. A range is safer than one year."
+ },
+ {
+  "id": "phy-e-archimedes",
+  "verdict": "fix",
+  "when": "3rd century BCE",
+  "method": "Britannica blocked; checked Wikipedia On Floating Bodies and standard life dates (c. 287–212 BCE)",
+  "problem": "The text is right, but the works cannot be dated to one year. On Floating Bodies is thought to come from late in his life (he died in 212 BCE), so c. 250 BCE may be too early."
+ },
+ {
+  "id": "phy-e-alhaytham",
+  "verdict": "fix",
+  "when": "early 1000s (often dated 1011–1021; some historians say 1028–1038)",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, Ibn al-Haytham",
+    "url": "https://www.britannica.com/biography/Ibn-al-Haytham"
+   },
+   {
+    "cite": "Charles Burnett, Ibn al-Haytham’s Optics, Muslim Heritage",
+    "url": "https://muslimheritage.com/ibn-al-haythams-optics/"
+   }
+  ],
+  "method": "Britannica blocked; checked Muslim Heritage (Charles Burnett), St Andrews copy of Dictionary of Scientific Biography entry, Wikipedia mirror (notes El-Bizri 1028–1038)",
+  "problem": "The date is debated. The common range is 1011–1021, but historians such as Charles Burnett date the writing to 1028–1038 in Cairo, and the book appears in a list of his works that runs to 1038."
+ },
+ {
+  "id": "phy-e-copernicus",
+  "verdict": "supported",
+  "method": "Standard reference facts; 1543 publication of De revolutionibus is undisputed (strictly, his Sun sits near the center, which is fine at this level)"
+ },
+ {
+  "id": "phy-e-kepler",
+  "verdict": "supported",
+  "method": "Smithsonian How Things Fly: first two laws in Astronomia nova (1609), third law in Harmonices Mundi (1619)"
+ },
+ {
+  "id": "phy-e-galileo",
+  "verdict": "supported",
+  "method": "Standard reference facts; Sidereus Nuncius published March 1610 reporting four Jovian moons"
+ },
+ {
+  "id": "phy-e-principia",
+  "verdict": "supported",
+  "method": "Standard reference facts; Principia published 1687"
+ },
+ {
+  "id": "phy-e-volta",
+  "verdict": "supported",
+  "method": "IEEE Spectrum / APS search results: pile built 1799, announced in a letter to the Royal Society dated 20 March 1800"
+ },
+ {
+  "id": "phy-e-carnot",
+  "verdict": "fix",
+  "text": "Sadi Carnot works out the limits on how well heat engines can turn heat into work, laying the groundwork for thermodynamics.",
+  "method": "Encyclopedia.com biography of Carnot (calls the 1824 work the beginning of thermodynamics)",
+  "problem": "“Founding thermodynamics” overstates. Carnot’s 1824 book is usually called the beginning of the subject, but it used the wrong caloric theory of heat and the science was built later by Clapeyron, Kelvin and Clausius."
+ },
+ {
+  "id": "phy-e-faraday",
+  "verdict": "supported",
+  "method": "Standard reference facts; Faraday’s induction experiments of August–November 1831 (Joseph Henry found it independently)"
+ },
+ {
+  "id": "phy-e-energy",
+  "verdict": "fix",
+  "text": "Mayer (1842), Joule’s experiments and Helmholtz’s 1847 essay together establish the conservation of energy.",
+  "method": "History-of-science text on conservation of energy (Mayer 1842, Joule 1843, Helmholtz 1847)",
+  "problem": "Credit is incomplete. Julius Robert Mayer stated the idea in 1842, before Joule’s 1843 results and Helmholtz’s 1847 essay; histories usually name all three."
+ },
+ {
+  "id": "phy-e-maxwell",
+  "verdict": "supported",
+  "method": "DOI resolves to the 1865 Phil. Trans. paper (Royal Society Making Science record and search results)"
+ },
+ {
+  "id": "phy-e-michelson",
+  "verdict": "supported",
+  "method": "Standard reference facts; 1887 null result for ether drift"
+ },
+ {
+  "id": "phy-e-xrays",
+  "verdict": "supported",
+  "method": "Nobel 1901 facts page (via search); Röntgen’s discovery of 8 November 1895 is standard"
+ },
+ {
+  "id": "phy-e-radioactivity",
+  "verdict": "supported",
+  "method": "Nobel 1903 summary; Becquerel 1896, polonium and radium announced July and December 1898"
+ },
+ {
+  "id": "phy-e-electron",
+  "verdict": "supported",
+  "method": "Nobel 1906 facts page; 1897 discovery is standard"
+ },
+ {
+  "id": "phy-e-planck",
+  "verdict": "supported",
+  "method": "Nobel 1918 facts page; Planck’s December 1900 quantum hypothesis is standard"
+ },
+ {
+  "id": "phy-e-1905",
+  "verdict": "supported",
+  "sources": [
+   {
+    "cite": "Nobel Prize in Physics 1921, Albert Einstein",
+    "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/facts/"
+   },
+   {
+    "cite": "Physics World, Five papers that shook the world",
+    "url": "https://physicsworld.com/a/five-papers-that-shook-the-world/"
+   }
+  ],
+  "method": "Physics World “Five papers that shook the world” lists all four topics; the cited Nobel page only covers the photoelectric effect, so a second source is added"
+ },
+ {
+  "id": "phy-e-nucleus",
+  "verdict": "supported",
+  "method": "Standard reference facts; Rutherford’s 1911 paper interpreting the Geiger–Marsden scattering results"
+ },
+ {
+  "id": "phy-e-gr",
+  "verdict": "supported",
+  "method": "Standard reference facts; field equations presented November 1915"
+ },
+ {
+  "id": "phy-e-eclipse",
+  "verdict": "fix",
+  "text": "Two British eclipse expeditions, organized by Frank Dyson and Arthur Eddington, measure starlight bending around the Sun. Eddington’s team observed from Príncipe and another team from Sobral, Brazil. The results support general relativity.",
+  "method": "Wikipedia (Eddington experiment, via mirror); DOI checked via ADS/Zenodo records of the 1920 paper",
+  "problem": "Dyson did not lead an expedition. As Astronomer Royal he organized the project with Eddington. Eddington and Cottingham went to Príncipe; Crommelin and Davidson went to Sobral, Brazil."
+ },
+ {
+  "id": "phy-e-qm",
+  "verdict": "supported",
+  "method": "Nobel 1932 facts page; 1925–1927 development of matrix and wave mechanics and the 1927 uncertainty principle are standard"
+ },
+ {
+  "id": "phy-e-hubble",
+  "verdict": "fix",
+  "text": "Hubble shows that more distant galaxies are moving away faster, using many speeds measured by Vesto Slipher. Georges Lemaître had predicted this in 1927. It is evidence that the universe is expanding.",
+  "sources": [
+   {
+    "cite": "Hubble, Proceedings of the National Academy of Sciences 15 (1929)",
+    "url": "https://doi.org/10.1073/pnas.15.3.168"
+   },
+   {
+    "cite": "Cambridge University Press, Renaming Hubble’s Law to the Hubble-Lemaître Law",
+    "url": "https://www.cambridge.org/core/resources/the-cosmos-5/2019/08/03/renaming-hubbles-law-to-the-hubble-lemaitre-law"
+   }
+  ],
+  "method": "DOI checked via ADS/PMC record; arXiv 1809.02557 and Cambridge University Press article on the IAU 2018 resolution",
+  "problem": "Credit is incomplete. Georges Lemaître predicted and estimated this relation in 1927, and many of the speeds came from Vesto Slipher’s measurements. The IAU in 2018 recommended the name Hubble–Lemaître law."
+ },
+ {
+  "id": "phy-e-neutron",
+  "verdict": "supported",
+  "method": "Nobel 1935 facts page; February 1932 discovery is standard"
+ },
+ {
+  "id": "phy-e-fission",
+  "verdict": "supported",
+  "method": "Atomic Heritage Foundation profile: Hahn and Strassmann’s barium finding (Dec 1938), Meitner and Frisch’s explanation and the word “fission” (Nature, Feb 1939). Credit split is fair."
+ },
+ {
+  "id": "phy-e-trinity",
+  "verdict": "supported",
+  "method": "Search results from OSTI Manhattan Project history, NPS Trinity Site, Air Force Nuclear Weapons Center: 16 July 1945; Hiroshima 6 Aug, Nagasaki 9 Aug"
+ },
+ {
+  "id": "phy-e-transistor",
+  "verdict": "fix",
+  "text": "John Bardeen and Walter Brattain build the first transistor at Bell Labs, in a group led by William Shockley, who soon designed an improved version. All three share the 1956 Nobel Prize. Transistors are the basis of modern electronics.",
+  "sources": [
+   {
+    "cite": "Nobel Prize in Physics 1956",
+    "url": "https://www.nobelprize.org/prizes/physics/1956/summary/"
+   },
+   {
+    "cite": "Computer History Museum, 1947: Invention of the Point-Contact Transistor",
+    "url": "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/"
+   }
+  ],
+  "method": "Computer History Museum Silicon Engine timeline (1947 point-contact transistor; 1948 junction transistor)",
+  "problem": "The first transistor (December 1947) was built by Bardeen and Brattain. Shockley led the group and invented the junction transistor soon after (1948). All three shared the 1956 Nobel."
+ },
+ {
+  "id": "phy-e-parity",
+  "verdict": "supported",
+  "method": "Wikipedia Wu experiment (mirror) and APS Lee–Yang history: asymmetry seen December 1956, published 1957; Lee and Yang proposed the test (could be mentioned)"
+ },
+ {
+  "id": "phy-e-cmb",
+  "verdict": "supported",
+  "method": "Nobel 1978 summary and search results: detected 1964, published 1965; Big Bang interpretation by Dicke, Peebles and colleagues"
+ },
+ {
+  "id": "phy-e-pulsar",
+  "verdict": "supported",
+  "method": "Linda Hall Library: first pulsar confirmed 28 November 1967 while she was a Cambridge graduate student (in Antony Hewish’s group)"
+ },
+ {
+  "id": "phy-e-darkenergy",
+  "verdict": "supported",
+  "method": "Nobel 2011 press materials (via search): two teams, results in 1998"
+ },
+ {
+  "id": "phy-e-higgs",
+  "verdict": "fix",
+  "text": "The ATLAS and CMS experiments at CERN announce a new particle (4 July). By March 2013 more data confirm it is a Higgs boson.",
+  "sources": [
+   {
+    "cite": "CERN, The Higgs boson",
+    "url": "https://home.cern/science/physics/higgs-boson"
+   },
+   {
+    "cite": "CERN, The birth of the Higgs boson",
+    "url": "https://home.web.cern.ch/news/news/physics/birth-higgs-boson"
+   }
+  ],
+  "method": "CERN page “The birth of the Higgs boson” (cited CERN page not reachable)",
+  "problem": "Slight overstatement. On 4 July 2012 the experiments announced a new particle that looked like the Higgs boson; CERN says it was confirmed as a Higgs boson in March 2013."
+ },
+ {
+  "id": "phy-e-gw",
+  "verdict": "supported",
+  "method": "LIGO press release: detected 14 September 2015 (09:51 UTC), announced 11 February 2016, Physical Review Letters"
+ },
+ {
+  "id": "phy-e-eht",
+  "verdict": "supported",
+  "method": "DOI matches EHT Paper I, The Shadow of the Supermassive Black Hole (Chalmers/MIT repository records); released April 2019"
+ },
+ {
+  "id": "phy-e-ignition",
+  "verdict": "fix",
+  "text": "The US National Ignition Facility achieves fusion ignition (5 December, announced 13 December): the fuel gives off more energy (3.15 MJ) than the laser light that hit it (2.05 MJ). The lasers themselves used far more electricity than that, so it is not yet a power source.",
+  "sources": [
+   {
+    "cite": "US Department of Energy announcement, December 2022",
+    "url": "https://www.energy.gov/articles/doe-national-laboratory-makes-history-achieving-fusion-ignition"
+   },
+   {
+    "cite": "Physics Today, National Ignition Facility surpasses long-awaited fusion milestone",
+    "url": "https://physicstoday.aip.org/news/national-ignition-facility-surpasses-long-awaited-fusion-milestone"
+   }
+  ],
+  "method": "University of California / LLNL release (DOE text) and Physics Today news story (300 MJ grid figure)",
+  "problem": "“More energy than the lasers put in” is misleading. The shot made 3.15 MJ of fusion energy from 2.05 MJ of laser light reaching the target, but the lasers drew about 300 MJ from the power grid. Also note the result was announced 13 December."
+ },
+ {
+  "id": "phy-e-nobel2025",
+  "verdict": "supported",
+  "method": "Prize motivation via Physics Today; “big enough to be held in the hand” is the Academy’s own phrase (via Lindau and Scroll). Experiments were done in 1984–85, which could be added."
+ },
+ {
+  "id": "phy-p-alhaytham",
+  "verdict": "supported",
+  "method": "St Andrews DSB entry (b. 965, d. Cairo c. 1040) and Wikipedia mirror (born Basra)"
+ },
+ {
+  "id": "phy-p-shenkuo",
+  "verdict": "fix",
+  "text": "Gave the first clear description of the magnetic compass needle and noticed that it does not point exactly north–south (magnetic declination).",
+  "method": "Wikipedia Shen Kuo (1031–1095; Dream Pool Essays 1088) and AAAS Scientia article",
+  "problem": "Small precision fix. Shen Kuo wrote that the needle points south but is always a little east of due south. Saying it does not point exactly north–south matches his words and is still correct."
+ },
+ {
+  "id": "phy-p-noether",
+  "verdict": "fix",
+  "text": "Proved that every continuous symmetry of nature corresponds to a conserved quantity (Noether’s theorem).",
+  "region": "Germany and the United States",
+  "method": "Colloquium “A Century of Noether’s Theorem” (arXiv 1902.01989); years from standard references",
+  "problem": "Overstates: the theorem covers continuous symmetries (like shifting in time or space), not every symmetry. Also she worked in the United States from 1933 until her death."
+ },
+ {
+  "id": "phy-p-meitner",
+  "verdict": "fix",
+  "region": "Austria, Germany and Sweden",
+  "method": "Atomic Heritage Foundation profile (b. 7 Nov 1878 Vienna; d. 27 Oct 1968 Cambridge)",
+  "problem": "Region leaves out Germany, where she did her main work (Berlin, 1907–1938) before fleeing to Sweden. Years and text are correct."
+ },
+ {
+  "id": "phy-p-raman",
+  "verdict": "fix",
+  "text": "Discovered that when light scatters off molecules, a tiny part of it changes color (the Raman effect); Nobel Prize 1930.",
+  "method": "Nobel 1930 facts page (via search) and standard references",
+  "problem": "Slight overstatement: only a tiny part of the scattered light changes color (wavelength)."
+ },
+ {
+  "id": "phy-p-bose",
+  "verdict": "supported",
+  "method": "Wikipedia mirror: 1 Jan 1894–4 Feb 1974; 1924 derivation of Planck’s law, translated by Einstein; Dirac named bosons after him"
+ },
+ {
+  "id": "phy-p-yukawa",
+  "verdict": "supported",
+  "method": "Nobel 1949 biography and search results: 1907–1981, meson theory 1935, first Japanese laureate"
+ },
+ {
+  "id": "phy-p-wu",
+  "verdict": "supported",
+  "method": "Standard reference facts (1912–1997) and Wu experiment page"
+ },
+ {
+  "id": "phy-p-salam",
+  "verdict": "fix",
+  "region": "Pakistan, Britain and Italy",
+  "method": "ICTP Abdus Salam timeline (29 Jan 1926 Jhang – 21 Nov 1996 Oxford; shared 1979 Nobel with Glashow and Weinberg)",
+  "problem": "Region is incomplete. He was born in what is now Pakistan but did most of his work in Britain (Imperial College) and Italy (he founded and led ICTP in Trieste)."
+ },
+ {
+  "id": "phy-p-bellburnell",
+  "verdict": "supported",
+  "method": "Linda Hall Library (born 15 July 1943; first pulsar 1967 as Cambridge graduate student)"
+ }
+]
