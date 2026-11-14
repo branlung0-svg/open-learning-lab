@@ -49,7 +49,7 @@ Lab.page('home', {
     const fac = h('div', { class: 'stack' }, Lab.FACULTIES.map((F) => h('div', null,
       h('div', { class: 'row', style: { margin: '18px 0 10px', gap: '10px' } }, h('span', { style: { width: '34px', height: '34px', borderRadius: '10px', display: 'grid', placeItems: 'center', background: F.c, color: '#fff', fontWeight: 800, fontSize: '18px' } }, F.e), h('div', null, h('h2', { style: { margin: 0 } }, F.name), h('div', { class: 'small muted' }, F.sub))),
       h('div', { class: 'grid g4' }, Lab.DISC.filter((d) => d.fac === F.id).map((d) => h('a', { class: 'subj', href: '#d-' + d.id, style: { '--c': d.c, minHeight: '150px' } },
-        h('div', { class: 'e' }, d.e), h('h3', null, d.name), h('p', null, d.what.split('. ')[0].replace(/\.$/, '') + '.'),
+        h('div', { class: 'e' }, d.e), h('h3', null, d.name), (Lab.DISCDIVES || {})[d.id] ? h('span', { class: 'tag', style: { '--c': d.c, alignSelf: 'flex-start', fontSize: '11px' } }, 'Deep dive ready') : null, h('p', null, d.what.split('. ')[0].replace(/\.$/, '') + '.'),
         h('div', { style: { height: '14px' } }),
         h('div', { class: 'meter', title: Lab.isDone('disc:' + d.id) ? 'Visited' : 'Not visited yet' }, h('i', { style: { width: (Lab.isDone('disc:' + d.id) ? 100 : 4) + '%' } }))))))));
     const grid = h('div', { class: 'grid g4' }, Lab.subjects.map((s) => {
