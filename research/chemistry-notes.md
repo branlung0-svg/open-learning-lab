@@ -1,0 +1,15 @@
+# Chemistry claim file: notes from the drafting agent (2026-11-14)
+- **2025 Nobel Prize in Chemistry:** Kitagawa, Robson and Yaghi, for metal–organic frameworks. Confirmed on nobelprize.org.
+- **Contested:** the authorship of the Jabir corpus (Kraus); credit for discovering oxygen (Scheele, Priestley, Lavoisier). Kekulé's dream and the "vitalism" story after Wöhler are flagged in the text.
+- **Dropped because no source could be confirmed:** Leloir and Cornforth (no page found before the search limit); Arrhenius's 1896 date (the NASA page redirects); the 1044 gunpowder formula; Scheele's exact year; Midgley's 1929 Freon story; Asima Chatterjee's vinca alkaloids and Science Congress presidency (her official memoir doesn't support them).
+- **Sources seen only in search results, to open during the independent check:**
+  - the ACS landmark pages for Carothers, penicillin and Staudinger
+  - the ACS pages on Alice Ball and Percy Julian
+  - the ACS 12 Principles of Green Chemistry
+  - Smithsonian on Egyptian blue
+  - Science History Institute, "Secrets of Alchemy"
+  - Britannica, "New System"
+  - Nobel's Pauling biography
+  - the 2020 Nobel press release
+  - Nature on Franklin
+- **Gap:** no South American chemist yet.

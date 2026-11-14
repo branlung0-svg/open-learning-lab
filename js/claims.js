@@ -3,7 +3,7 @@
   const { h } = Lab;
   const cache = {};
   Lab.CLAIMS = {};
-  Lab.CLAIM_DISCS = ['physics'];
+  Lab.CLAIM_DISCS = ['physics', 'chemistry'];
   Lab.claims = (disc) => (cache[disc] ||= fetch(`data/claims/${disc}.json`).then((r) => (r.ok ? r.json() : null)).then((d) => { if (d) Lab.CLAIMS[disc] = d; return d; }).catch(() => null));
   setTimeout(() => Lab.CLAIM_DISCS.forEach((d) => Lab.claims(d)), 1500);
   const STATUS = {

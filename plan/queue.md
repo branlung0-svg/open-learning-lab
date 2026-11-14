@@ -32,7 +32,7 @@ Each unit is about one run (1–2 hours). A deep dive is split into 7 parts: eng
 - [ ] **CAP-7 Final check.** Run the full fact-check and the balance check, run one agent arguing as a pro-market reviewer and one as a critical reviewer, and apply the fixes. Update `hub.js` ("Coming next" → live) and the learning paths.
 - [ ] **DES-1 Design system.** Write `plan/DESIGN.md` covering type scale, spacing, color tokens, components and tone. Apply it to the top bar, home, hub and discipline pages. The aim is calmer and professional: fewer emoji, consistent cards, better hierarchy, and dark mode checked. Take before and after screenshots on a phone and a desktop.
 - [ ] **DES-2 Home and onboarding.** First-visit tour (30 seconds); "Start here" paths by age band; a search box across every page title and claim.
-- [~] (2026-11-14, live session: loop skip) **SCI-CHEM Chemistry claim file.** 35 or more events and 10 or more people worldwide, checked independently, shown on the chemistry page.
+- [~] (2026-11-14, live session: loop skip) **SCI-CHEM Chemistry claim file.** Drafted and live (45 events, 14 people, all "Sources linked"). Still open: an independent check with `tools/apply_verify.py`, a South American chemist, and confirming the 9 sources found only in search results (see `research/chemistry-notes.md`). 35 or more events and 10 or more people worldwide, checked independently, shown on the chemistry page.
 
 ## Phase 2: rotation
 

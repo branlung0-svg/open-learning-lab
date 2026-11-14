@@ -1,0 +1,947 @@
+{
+ "disc": "chemistry",
+ "schema": 1,
+ "updated": "2026-11-14",
+ "note": "Claim records for chemistry. status: drafted = written with sources linked; verified = an independent check confirmed the source supports the claim; reviewed = a named human expert signed off. All records here are drafted and await independent checking.",
+ "events": [
+  {
+   "id": "chem-e-egyptian-blue",
+   "when": "c. 3100 BCE (as a glaze); used as a paint pigment by c. 2500 BCE",
+   "text": "Egyptian craftworkers heat sand, a calcium source such as limestone, and copper together to make Egyptian blue, the oldest known human-made pigment. It was first used as a pottery glaze and later as paint on sculptures and beads.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Royal Society of Chemistry, Education in Chemistry: Egyptian blue",
+     "url": "https://edu.rsc.org/resources/egyptian-blue/1625.article"
+    },
+    {
+     "cite": "Smithsonian Magazine, Archaeologists Are Recreating the Long-Lost Recipe for Egyptian Blue",
+     "url": "https://www.smithsonianmag.com/smart-news/researchers-are-recreating-the-long-lost-recipe-for-egyptian-blue-the-worlds-oldest-known-synthetic-pigment-180986778/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-bronze",
+   "when": "c. 3000–2500 BCE",
+   "text": "Metalworkers around the Tigris and Euphrates rivers in Mesopotamia begin mixing copper with tin to make bronze, a harder metal than copper alone. Copper axes had already been cast in the Balkans in the 4th millennium BCE.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Encyclopaedia Britannica, Metallurgy",
+     "url": "https://www.britannica.com/science/metallurgy"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-glass",
+   "when": "at least 4,000 years ago (c. 2000 BCE or earlier)",
+   "text": "People in western Asia, probably in Mesopotamia, learn to fuse sand with an alkali to make true glass, likely growing out of older work with glazed faience beads. Nobody knows exactly how the first glass was made.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Corning Museum of Glass, Ask a Glass Question: How was the first glass made?",
+     "url": "https://libanswers.cmog.org/faq/143701"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-shang-bronze",
+   "when": "c. 1600–1046 BCE (Shang dynasty)",
+   "text": "In Shang dynasty China, bronze casters pour metal into clay molds made of many fitted pieces. Carving patterns into the inside of the mold lets them make ritual vessels with very sharp, detailed decoration.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "The Metropolitan Museum of Art, Shang and Zhou Dynasties: The Bronze Age of China",
+     "url": "https://www.metmuseum.org/essays/shang-and-zhou-dynasties-the-bronze-age-of-china"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-alexandria",
+   "when": "1st–3rd century CE",
+   "text": "In Roman-era Alexandria, Egypt, alchemists such as Maria the Jewess are credited with lab tools like the water bath and early stills for distilling liquids. Her own books are lost, so we know her mainly through later writers such as Zosimos.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Jewish Women’s Archive Encyclopedia, Maria the Jewess",
+     "url": "https://jwa.org/encyclopedia/article/maria-jewess"
+    },
+    {
+     "cite": "Science History Institute, The Secrets of Alchemy",
+     "url": "https://www.sciencehistory.org/stories/magazine/the-secrets-of-alchemy/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-jabir",
+   "when": "8th–10th century CE",
+   "text": "A huge collection of Arabic alchemy writings is credited to Jabir ibn Hayyan; it describes purifying and testing metals, distillation, and making sal ammoniac. Historians disagree about who wrote it: many think the texts came from several authors in the 9th and 10th centuries rather than from one man.",
+   "conf": "Contested",
+   "sources": [
+    {
+     "cite": "Encyclopaedia Britannica, Abu Musa Jabir ibn Hayyan",
+     "url": "https://www.britannica.com/biography/Abu-Musa-Jabir-ibn-Hayyan"
+    },
+    {
+     "cite": "Muslim Heritage, Jabir ibn Hayyan",
+     "url": "https://muslimheritage.com/people/scholars/jabir-ibn-hayyan/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-razi",
+   "when": "c. 900 CE",
+   "text": "The Persian doctor and chemist al-Razi, in his Book of Secrets, sorts natural substances into earthy, plant and animal groups. He also describes more than twenty pieces of lab equipment and methods such as distillation and crystallisation, leaving out the secret symbols of older alchemy.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Muslim Heritage, The Advent of Scientific Chemistry",
+     "url": "https://muslimheritage.com/advent-scientific-chemistry/"
+    },
+    {
+     "cite": "Science History Institute, Al-Kimiya: Notes on Arabic Alchemy",
+     "url": "https://www.sciencehistory.org/stories/magazine/al-kimiya-notes-on-arabic-alchemy/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-distillation",
+   "when": "9th–12th century CE",
+   "text": "Chemists in the Islamic world improve distillation and use it to make rose water, perfumes, purer alcohol, lamp oil from crude oil, and stronger acids. The English word alembic, a kind of still, comes from the Arabic al-inbiq.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Muslim Heritage, Distillation in Muslim Civilisation",
+     "url": "https://muslimheritage.com/distillation/"
+    },
+    {
+     "cite": "Science History Institute, Al-Kimiya: Notes on Arabic Alchemy",
+     "url": "https://www.sciencehistory.org/stories/magazine/al-kimiya-notes-on-arabic-alchemy/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-gunpowder",
+   "when": "9th century CE",
+   "text": "Chinese alchemists searching for medicines and an elixir of long life find that saltpetre, sulfur and charcoal mixed together burn explosively. Gunpowder was used in China for rockets and early guns and later spread west, probably through the Mongols, changing warfare.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Encyclopaedia Britannica, Military technology: The gunpowder revolution",
+     "url": "https://www.britannica.com/technology/military-technology/The-gunpowder-revolution-c-1300-1650"
+    },
+    {
+     "cite": "Royal Society of Chemistry, Education in Chemistry: Fire and light in the sky",
+     "url": "https://edu.rsc.org/feature/fire-and-light-in-the-sky/2020143.article"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-zawar-zinc",
+   "when": "14th–16th century (Zawar furnaces); described in Indian texts from the early first millennium CE",
+   "text": "At Zawar in Rajasthan, India, metalworkers make zinc by downward distillation: ore is heated in clay retorts and the zinc vapour runs down into cooled pots below. A single 14th-century furnace block fired 252 retorts at once, an early chemical industry.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Chemistry World, How excavations in India have changed our view on industrialisation",
+     "url": "https://chemistryworld.com/opinion/the-origins-of-chemical-industry/3008292.article"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-paracelsus",
+   "when": "early 1500s (Paracelsus lived 1493–1541)",
+   "text": "The Swiss doctor Paracelsus rejects blind trust in ancient authorities and pushes doctors to use chemical medicines made with substances such as mercury, sulfur and iron. His work helped bring chemistry and medicine together.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Encyclopaedia Britannica, What were Paracelsus’s accomplishments?",
+     "url": "https://www.britannica.com/question/What-were-Paracelsuss-accomplishments"
+    },
+    {
+     "cite": "Encyclopaedia Britannica, Paracelsus summary",
+     "url": "https://www.britannica.com/summary/Paracelsus"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-boyle",
+   "when": "1661–1662",
+   "text": "Robert Boyle’s book The Sceptical Chymist challenges older Aristotelian and Paracelsian ideas about what matter is made of. With Robert Hooke he also shows that when you squeeze a gas, its volume shrinks as the pressure rises, now called Boyle’s law.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Encyclopaedia Britannica, Robert Boyle",
+     "url": "https://www.britannica.com/biography/Robert-Boyle"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-black-co2",
+   "when": "1754–1756",
+   "text": "Joseph Black weighs his materials at every step and shows that fixed air (carbon dioxide) is a separate substance, not a kind of ordinary air. This was the first proof that different gases are different chemicals.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Encyclopaedia Britannica, Joseph Black",
+     "url": "https://www.britannica.com/biography/Joseph-Black"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-oxygen",
+   "when": "1770s (Priestley’s experiment: 1 August 1774; Scheele’s book: 1777)",
+   "text": "Carl Wilhelm Scheele in Sweden and Joseph Priestley in England each make oxygen by heating mercury oxide, and Antoine Lavoisier explains what it does in burning and gives it its name. Who deserves to be called its discoverer is still argued over.",
+   "conf": "Contested",
+   "sources": [
+    {
+     "cite": "Science History Institute, Joseph Priestley",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/joseph-priestley/"
+    },
+    {
+     "cite": "Encyclopaedia Britannica, Carl Wilhelm Scheele",
+     "url": "https://www.britannica.com/biography/Carl-Wilhelm-Scheele"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-lavoisier",
+   "when": "1789",
+   "text": "Lavoisier’s Elementary Treatise of Chemistry, illustrated by his wife and fellow researcher Marie-Anne Paulze Lavoisier, shows that matter is not lost or created in reactions and lists 33 substances he counted as elements. In 1794, during the French Revolution, he was guillotined, partly because he had worked for an unpopular private tax-collecting company.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Science History Institute, Antoine-Laurent Lavoisier",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/antoine-laurent-lavoisier/"
+    },
+    {
+     "cite": "Encyclopaedia Britannica, Antoine Lavoisier",
+     "url": "https://www.britannica.com/biography/Antoine-Lavoisier"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-dalton",
+   "when": "1808 (first part of A New System of Chemical Philosophy)",
+   "text": "John Dalton, a Quaker teacher in Manchester, proposes that each element is made of its own kind of atom with its own weight. He works out atomic weights from how much of each element is in a compound.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Science History Institute, John Dalton",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/john-dalton/"
+    },
+    {
+     "cite": "Encyclopaedia Britannica, New System of Chemical Philosophy",
+     "url": "https://www.britannica.com/topic/New-System-of-Chemical-Philosophy"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-avogadro",
+   "when": "1811",
+   "text": "Amedeo Avogadro suggests that equal volumes of different gases, at the same temperature and pressure, contain the same number of molecules. Most chemists ignored the idea for decades until Stanislao Cannizzaro showed how useful it was, especially at the 1860 Karlsruhe Congress.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Encyclopaedia Britannica, Amedeo Avogadro",
+     "url": "https://www.britannica.com/biography/Amedeo-Avogadro"
+    },
+    {
+     "cite": "Science History Institute, Julius Lothar Meyer and Dmitri Ivanovich Mendeleev",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/julius-lothar-meyer-and-dmitri-ivanovich-mendeleev/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-wohler-urea",
+   "when": "1828",
+   "text": "Friedrich Wöhler makes urea, a substance found in urine, from non-living starting chemicals. This challenged the belief that chemicals from living things need a special life force, though that belief faded gradually rather than all at once.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Chemistry World, Urea (Compound Interest podcast)",
+     "url": "https://www.chemistryworld.com/podcasts/urea/3005986.article"
+    },
+    {
+     "cite": "Encyclopaedia Britannica, Vital force",
+     "url": "https://www.britannica.com/science/vital-force"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-perkin-mauve",
+   "when": "1856",
+   "text": "Eighteen-year-old William Perkin, trying to make the malaria drug quinine, makes mauve instead, the first synthetic dye sold commercially. It launched the synthetic dye industry, which later helped give rise to the modern drug industry.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Science History Institute, William Henry Perkin",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/william-henry-perkin/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-benzene",
+   "when": "1865",
+   "text": "August Kekulé proposes that the six carbon atoms of benzene are joined in a ring, an idea that was never replaced by a better one. His famous story of dreaming of a snake biting its tail was told 25 years later, and whether the dream happened is disputed.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Encyclopaedia Britannica, August Kekulé von Stradonitz",
+     "url": "https://www.britannica.com/biography/August-Kekule-von-Stradonitz"
+    },
+    {
+     "cite": "Science History Institute, August Kekulé and Archibald Scott Couper",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/august-kekule-and-archibald-scott-couper/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-periodic-table",
+   "when": "1869 (Meyer’s tables: 1864 and 1870)",
+   "text": "Dmitri Mendeleev arranges all known elements into a periodic table and predicts missing ones, later found as gallium, scandium and germanium. Lothar Meyer in Germany built similar tables on his own, and the two argued for years over who came first.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Science History Institute, Julius Lothar Meyer and Dmitri Ivanovich Mendeleev",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/julius-lothar-meyer-and-dmitri-ivanovich-mendeleev/"
+    },
+    {
+     "cite": "Encyclopaedia Britannica, Periodic table: The first periodic table",
+     "url": "https://www.britannica.com/science/periodic-table/The-first-periodic-table"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-arrhenius-ions",
+   "when": "1883–1903",
+   "text": "Svante Arrhenius proposes that acids, bases and salts split into electrically charged particles called ions when they dissolve in water; his university first received the idea coolly, but it won him the 1903 Nobel Prize. He was also one of the first to predict that more carbon dioxide in the air would raise temperatures.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Science History Institute, Svante August Arrhenius",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/svante-august-arrhenius/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-curies-radium",
+   "when": "1898–1911",
+   "text": "Marie and Pierre Curie announce two new radioactive elements, polonium and radium, after processing tons of uranium ore for a tiny amount of radium. Marie Curie won Nobel Prizes in physics (1903) and chemistry (1911), and long exposure to radiation later caused her death.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Science History Institute, Marie Sklodowska Curie",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/marie-sklodowska-curie/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-haber-bosch",
+   "when": "1908–1913",
+   "text": "Fritz Haber finds a way to turn nitrogen from the air into ammonia, and Carl Bosch’s team at BASF scales it up to a factory process, opening the first plant at Oppau in 1913. It made cheap fertilizer possible, and in the First World War it kept Germany supplied with fertilizer and munitions after a British blockade cut off nitrates from Chile.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "BASF, 1913: First ammonia synthesis plant",
+     "url": "https://www.basf.com/global/en/who-we-are/history/chronology/1902-1924/1913"
+    },
+    {
+     "cite": "Science History Institute, Fritz Haber",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/fritz-haber/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-chlorine-ypres",
+   "when": "22 April 1915",
+   "text": "At Ypres in Belgium the German army releases about 170 tonnes of chlorine gas, the first large-scale chemical attack, in an effort supervised by Fritz Haber; more than 1,100 people were killed. By the end of the war, poison gases had caused about 1.3 million casualties, including 90,000 to 100,000 deaths.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Science History Institute, A Brief History of Chemical War",
+     "url": "https://www.sciencehistory.org/stories/magazine/a-brief-history-of-chemical-war/"
+    },
+    {
+     "cite": "Science History Institute, Fritz Haber",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/fritz-haber/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-lewis-bond",
+   "when": "1916",
+   "text": "Gilbert N. Lewis proposes that two atoms can be held together by sharing a pair of electrons, the idea behind what we now call a covalent bond. He was nominated for the Nobel Prize 35 times but never won.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Science History Institute, Gilbert Newton Lewis",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/gilbert-newton-lewis/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-staudinger-polymers",
+   "when": "early 1920s",
+   "text": "Hermann Staudinger argues that polymers are giant molecules, which he calls macromolecules, made of many small units held by strong chemical bonds. Many chemists rejected this for years, but it won him the 1953 Nobel Prize and became the foundation of modern polymer science.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Science History Institute, Hermann Staudinger",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/hermann-staudinger/"
+    },
+    {
+     "cite": "American Chemical Society, National Historic Chemical Landmark: Hermann Staudinger, Foundation of Polymer Science",
+     "url": "https://www.acs.org/education/whatischemistry/landmarks/staudingerpolymerscience.html"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-leaded-petrol",
+   "when": "1921–2021",
+   "text": "Thomas Midgley finds that adding tetraethyl lead to petrol stops engine knocking, and leaded fuel spreads worldwide even though lead was long known to be poisonous and factory workers died of it. Later research linked children’s lead exposure to lower IQ scores, and the last leaded petrol for cars was used up in Algeria in July 2021.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Chemistry World, Thomas Midgley and the toxic legacy of leaded fuel",
+     "url": "https://www.chemistryworld.com/features/thomas-midgley-and-the-toxic-legacy-of-leaded-fuel/4014684.article"
+    },
+    {
+     "cite": "Smithsonian Magazine, Leaded Gasoline Use in Vehicles Has Now Officially Ended Worldwide",
+     "url": "https://www.smithsonianmag.com/smart-news/worldwide-use-leaded-gasoline-vehicles-now-completely-phased-out-180978549/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-cfcs-freon",
+   "when": "c. 1930",
+   "text": "Midgley develops a CFC sold as Freon to replace toxic or flammable refrigerator gases such as ammonia and sulfur dioxide, and in 1930 shows it is safe by breathing it in. Decades later, scientists found that CFCs damage the ozone layer.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Smithsonian Magazine, One Man Invented Two of the Deadliest Substances of the 20th Century",
+     "url": "https://www.smithsonianmag.com/smart-news/one-man-two-deadly-substances-20th-century-180963269/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-nylon",
+   "when": "1935",
+   "text": "Wallace Carothers’ team at the DuPont company makes nylon, a strong synthetic fibre built from very long chain molecules called polyamides. Nylon stockings went on sale around 1939–1940.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "American Chemical Society, National Historic Chemical Landmark: Wallace Carothers and the Development of Nylon",
+     "url": "https://www.acs.org/education/whatischemistry/landmarks/carotherspolymers.html"
+    },
+    {
+     "cite": "Encyclopaedia Britannica, Nylon",
+     "url": "https://www.britannica.com/science/nylon"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-pauling-bond",
+   "when": "1939",
+   "text": "Linus Pauling’s book The Nature of the Chemical Bond uses quantum physics to explain how atoms bond, with ideas such as electronegativity, resonance and hybridization. He later won the 1954 Nobel Prize in Chemistry and the Nobel Peace Prize for 1962.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Science History Institute, Linus Carl Pauling",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/linus-carl-pauling/"
+    },
+    {
+     "cite": "NobelPrize.org, Linus Pauling, Biographical",
+     "url": "https://www.nobelprize.org/prizes/chemistry/1954/pauling/biographical/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-penicillin-production",
+   "when": "1942–1945",
+   "text": "In the United States, scientists and companies such as Pfizer learn to grow penicillin mould in huge deep tanks, turning a lab discovery into a mass-produced medicine during the Second World War. A mould strain from a cantaloupe, found by Mary Hunt in Peoria in 1943, made about 200 times more penicillin than Fleming’s original.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "American Chemical Society, National Historic Chemical Landmark: Penicillin Production through Deep-tank Fermentation",
+     "url": "https://www.acs.org/education/whatischemistry/landmarks/penicillin.html"
+    },
+    {
+     "cite": "Science History Institute, The Forgotten Mother of Penicillin",
+     "url": "https://www.sciencehistory.org/stories/disappearing-pod/the-forgotten-mother-of-penicillin/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-ddt",
+   "when": "1940s (Nobel Prize 1948)",
+   "text": "Swiss chemist Paul Müller finds that DDT kills insects on contact; in 1944 it was dusted on people in Naples to head off a typhus epidemic, and it was also sprayed against malaria-carrying mosquitoes. Müller received the 1948 Nobel Prize in Physiology or Medicine.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "NobelPrize.org, Paul Müller, Facts",
+     "url": "https://www.nobelprize.org/prizes/medicine/1948/muller/facts/"
+    },
+    {
+     "cite": "Science History Institute, Beyond Silent Spring: An Alternate History of DDT",
+     "url": "https://www.sciencehistory.org/stories/magazine/beyond-silent-spring-an-alternate-history-of-ddt/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-silent-spring",
+   "when": "1962–1972",
+   "text": "Rachel Carson’s book Silent Spring warns that DDT and other pesticides harm wildlife and people, and pesticide makers attack her as emotional and unscientific. The book helped start the modern environmental movement, and the US banned nearly all uses of DDT in 1972, though people still debate using it against malaria in poorer countries.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Science History Institute, Rachel Carson",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/rachel-carson/"
+    },
+    {
+     "cite": "Science History Institute, Beyond Silent Spring: An Alternate History of DDT",
+     "url": "https://www.sciencehistory.org/stories/magazine/beyond-silent-spring-an-alternate-history-of-ddt/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-molina-rowland",
+   "when": "1974",
+   "text": "Mario Molina and Sherwood Rowland warn that CFCs drift up to the ozone layer, where sunlight frees chlorine atoms that destroy ozone. Their claim was disputed at first but proved right, and they shared the 1995 Nobel Prize in Chemistry with Paul Crutzen.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "NobelPrize.org, Press release: The 1995 Nobel Prize in Chemistry",
+     "url": "https://www.nobelprize.org/prizes/chemistry/1995/press-release/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-bhopal",
+   "when": "3 December 1984",
+   "text": "About 45 tons of the poisonous gas methyl isocyanate leak from a pesticide plant owned by the Indian branch of Union Carbide in Bhopal, India, killing thousands of people as they slept or fled. Britannica gives a final death toll of 15,000 to 20,000, and about half a million survivors suffered lasting injuries.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Encyclopaedia Britannica, Bhopal disaster",
+     "url": "https://www.britannica.com/event/Bhopal-disaster"
+    },
+    {
+     "cite": "Chemistry World, Forty years on from the Bhopal disaster: what lessons have been learnt?",
+     "url": "https://www.chemistryworld.com/news/forty-years-on-from-the-bhopal-disaster-what-lessons-have-been-learnt/4020632.article"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-ozone-hole",
+   "when": "1985",
+   "text": "Scientists report the ozone hole, a deep thinning of the ozone layer over Antarctica each spring. Research quickly links it to chlorine and bromine chemicals released by people, especially CFCs.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "UNEP Ozone Secretariat, 20 Questions and Answers about the Ozone Layer",
+     "url": "https://ozone.unep.org/20-questions-and-answers"
+    },
+    {
+     "cite": "NobelPrize.org, Press release: The 1995 Nobel Prize in Chemistry",
+     "url": "https://www.nobelprize.org/prizes/chemistry/1995/press-release/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-buckyballs",
+   "when": "1985",
+   "text": "Robert Curl, Harold Kroto and Richard Smalley, with their students, find C60, a hollow ball of 60 carbon atoms with the same pattern as a football, by blasting carbon with a laser. This new form of carbon, named buckminsterfullerene, won them the 1996 Nobel Prize in Chemistry.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "NobelPrize.org, Press release: The 1996 Nobel Prize in Chemistry",
+     "url": "https://www.nobelprize.org/prizes/chemistry/1996/press-release/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-montreal-protocol",
+   "when": "16 September 1987",
+   "text": "Countries sign the Montreal Protocol to phase out CFCs and other ozone-destroying chemicals; every country has now joined, and about 99% of these chemicals have been phased out. If countries keep to it, the ozone layer should be back to 1980 levels around 2040 over most of the world and around 2066 over Antarctica.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "UNEP Ozone Secretariat, 20 Questions and Answers about the Ozone Layer",
+     "url": "https://ozone.unep.org/20-questions-and-answers"
+    },
+    {
+     "cite": "UNEP Ozone Secretariat, Facts and figures on ozone protection",
+     "url": "https://ozone.unep.org/facts-and-figures-ozone-protection"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-green-chemistry",
+   "when": "1991–1998",
+   "text": "Paul Anastas at the US Environmental Protection Agency coins the term green chemistry: designing chemicals and processes so they avoid pollution from the start. In 1998 he and John Warner publish 12 principles, such as using safer solvents and making chemicals that break down after use.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Science History Institute, The Greening of Chemistry",
+     "url": "https://www.sciencehistory.org/stories/magazine/the-greening-of-chemistry/"
+    },
+    {
+     "cite": "American Chemical Society, 12 Principles of Green Chemistry",
+     "url": "https://www.acs.org/green-chemistry-sustainability/principles/12-principles-of-green-chemistry.html"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-chemical-weapons-convention",
+   "when": "1993–1997",
+   "text": "The Chemical Weapons Convention, signed in 1993 and in force from 29 April 1997, bans making, storing and using chemical weapons, going further than the 1925 Geneva Protocol, which banned only their use in war. Its watchdog, the OPCW, says every declared stockpile has been destroyed, and it won the 2013 Nobel Peace Prize.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Organisation for the Prohibition of Chemical Weapons, History",
+     "url": "https://www.opcw.org/about-us/history"
+    },
+    {
+     "cite": "Science History Institute, A Brief History of Chemical War",
+     "url": "https://www.sciencehistory.org/stories/magazine/a-brief-history-of-chemical-war/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-haber-bosch-food",
+   "when": "2008 (estimate)",
+   "text": "Researchers estimate that by 2008, nitrogen fertilizer made with the Haber–Bosch process was supporting about 48% of the world’s population.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Erisman et al., How a century of ammonia synthesis changed the world, Nature Geoscience (2008)",
+     "url": "https://doi.org/10.1038/ngeo325"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-crispr",
+   "when": "2012 (Nobel Prize 2020)",
+   "text": "Emmanuelle Charpentier and Jennifer Doudna show that the CRISPR/Cas9 system can act as genetic scissors that cut DNA at a chosen spot, and they win the 2020 Nobel Prize in Chemistry. It is now used in research, crop breeding and medical trials, and it raises hard questions, such as whether inherited human genes should ever be changed.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "NobelPrize.org, The Nobel Prize in Chemistry 2020, Popular information",
+     "url": "https://www.nobelprize.org/prizes/chemistry/2020/popular-information/"
+    },
+    {
+     "cite": "NobelPrize.org, Press release: The Nobel Prize in Chemistry 2020",
+     "url": "https://www.nobelprize.org/prizes/chemistry/2020/press-release/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-click-chemistry",
+   "when": "2022 (work from about 2000 onward)",
+   "text": "K. Barry Sharpless proposes click chemistry, a way to snap molecular building blocks together quickly and cleanly, and he and Morten Meldal each find the copper-based reaction at its heart; Carolyn Bertozzi adapts such reactions to work inside living cells without disturbing them. The three share the 2022 Nobel Prize in Chemistry.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "NobelPrize.org, Press release: The Nobel Prize in Chemistry 2022",
+     "url": "https://www.nobelprize.org/prizes/chemistry/2022/press-release/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-e-mofs",
+   "when": "2025 (Nobel Prize)",
+   "text": "Susumu Kitagawa, Richard Robson and Omar Yaghi, working in Japan, Australia and the United States, win the 2025 Nobel Prize in Chemistry for metal–organic frameworks: crystals built from metal ions and carbon-based links, full of tiny open spaces. These materials can be designed for jobs such as pulling water from desert air or capturing carbon dioxide.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "NobelPrize.org, Press release: The Nobel Prize in Chemistry 2025",
+     "url": "https://www.nobelprize.org/prizes/chemistry/2025/press-release/"
+    },
+    {
+     "cite": "NobelPrize.org, The Nobel Prize in Chemistry 2025, Popular information",
+     "url": "https://www.nobelprize.org/prizes/chemistry/2025/popular-information/"
+    }
+   ],
+   "status": "drafted"
+  }
+ ],
+ "people": [
+  {
+   "id": "chem-p-tapputi",
+   "name": "Tapputi-Belatekallim",
+   "years": "lived c. 1230 BCE",
+   "region": "Assyria (Mesopotamia, today’s Iraq)",
+   "text": "A head perfumer named on cuneiform tablets, she led a group of women perfume makers whose recipes describe heating, extracting and filtering plant materials. She is often called the earliest chemist known by name.",
+   "sources": [
+    {
+     "cite": "Chemistry World, Chemistry’s history through the feminist lens",
+     "url": "https://www.chemistryworld.com/opinion/chemistrys-history-through-the-feminist-lens/4017252.article"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-p-maria",
+   "name": "Maria the Jewess (Mary the Prophetess)",
+   "years": "1st–3rd century CE (uncertain)",
+   "region": "Alexandria, Egypt",
+   "text": "An alchemist credited with the water bath (still called a bain-marie) and early stills and extractors. Her own writings are lost; we know her through later authors such as Zosimos.",
+   "sources": [
+    {
+     "cite": "Jewish Women’s Archive Encyclopedia, Maria the Jewess",
+     "url": "https://jwa.org/encyclopedia/article/maria-jewess"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-p-jabir",
+   "name": "Jabir ibn Hayyan (Latin: Geber)",
+   "years": "traditionally c. 721–c. 815",
+   "region": "Kufa, Iraq (traditional account)",
+   "text": "The name attached to thousands of Arabic works on alchemy, metals and distillation. Since Paul Kraus’s studies in the 1940s, many historians think the works came from several later authors, and whether one historical Jabir wrote them is debated.",
+   "sources": [
+    {
+     "cite": "Encyclopaedia Britannica, Abu Musa Jabir ibn Hayyan",
+     "url": "https://www.britannica.com/biography/Abu-Musa-Jabir-ibn-Hayyan"
+    },
+    {
+     "cite": "Muslim Heritage, Jabir ibn Hayyan",
+     "url": "https://muslimheritage.com/people/scholars/jabir-ibn-hayyan/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-p-razi",
+   "name": "Abu Bakr al-Razi (Latin: Rhazes)",
+   "years": "c. 864–c. 932",
+   "region": "Rayy (Iran) and Baghdad",
+   "text": "A doctor and chemist who classified natural substances, described more than twenty lab instruments, and relied on experiment rather than secret symbols.",
+   "sources": [
+    {
+     "cite": "Muslim Heritage, The Advent of Scientific Chemistry",
+     "url": "https://muslimheritage.com/advent-scientific-chemistry/"
+    },
+    {
+     "cite": "Muslim Heritage, Distillation in Muslim Civilisation",
+     "url": "https://muslimheritage.com/distillation/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-p-mendeleev",
+   "name": "Dmitri Mendeleev",
+   "years": "1834–1907",
+   "region": "Tobolsk (Siberia) and St Petersburg, Russia",
+   "text": "Built the 1869 periodic table, left gaps for undiscovered elements and predicted their properties.",
+   "sources": [
+    {
+     "cite": "Science History Institute, Julius Lothar Meyer and Dmitri Ivanovich Mendeleev",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/julius-lothar-meyer-and-dmitri-ivanovich-mendeleev/"
+    },
+    {
+     "cite": "Encyclopaedia Britannica, Periodic table: The first periodic table",
+     "url": "https://www.britannica.com/science/periodic-table/The-first-periodic-table"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-p-curie",
+   "name": "Marie Skłodowska Curie",
+   "years": "1867–1934",
+   "region": "Poland and Paris, France",
+   "text": "Co-discovered polonium and radium, coined the word radioactive, and was the first person to win two Nobel Prizes. During the First World War she organised portable X-ray units for wounded soldiers.",
+   "sources": [
+    {
+     "cite": "Science History Institute, Marie Sklodowska Curie",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/marie-sklodowska-curie/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-p-ball",
+   "name": "Alice Augusta Ball",
+   "years": "1892–1916",
+   "region": "Seattle and Honolulu, USA",
+   "text": "Found a way to make chaulmoogra oil injectable, one of the main leprosy treatments until the 1940s, and was the first woman and first African American to earn a master’s degree at the University of Hawaiʻi. She died at 24, and another chemist published her method under his own name.",
+   "sources": [
+    {
+     "cite": "Smithsonian Magazine, The Trailblazing Black Woman Chemist Who Discovered a Treatment for Leprosy",
+     "url": "https://www.smithsonianmag.com/history/the-trailblazing-black-woman-chemist-who-discovered-a-treatment-for-leprosy-180979772/"
+    },
+    {
+     "cite": "American Chemical Society, Alice Ball",
+     "url": "https://www.acs.org/education/whatischemistry/landmarks/alice-ball.html"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-p-julian",
+   "name": "Percy Lavon Julian",
+   "years": "1899–1975",
+   "region": "Alabama and Chicago, USA",
+   "text": "Synthesised the glaucoma drug physostigmine and led work that allowed mass production of hormone medicines such as cortisone and progesterone from soybeans. He faced racism throughout his career, and his home was firebombed after he moved to a white suburb.",
+   "sources": [
+    {
+     "cite": "Encyclopaedia Britannica, Percy Julian",
+     "url": "https://www.britannica.com/biography/Percy-Julian"
+    },
+    {
+     "cite": "American Chemical Society, Percy Lavon Julian",
+     "url": "https://www.acs.org/explore/african-americans-in-sciences/percy-lavon-julian.html"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-p-hodgkin",
+   "name": "Dorothy Crowfoot Hodgkin",
+   "years": "1910–1994",
+   "region": "born in Cairo, Egypt; worked in Oxford, England",
+   "text": "Used X-ray crystallography to work out the structures of penicillin (1945), vitamin B12 and insulin, winning the 1964 Nobel Prize in Chemistry. She later chaired the Pugwash movement for peace.",
+   "sources": [
+    {
+     "cite": "Science History Institute, Dorothy Crowfoot Hodgkin",
+     "url": "https://www.sciencehistory.org/education/scientific-biographies/dorothy-crowfoot-hodgkin/"
+    },
+    {
+     "cite": "NobelPrize.org, The Nobel Prize in Chemistry 1964, Speed read: An eye for structure",
+     "url": "https://www.nobelprize.org/prizes/chemistry/1964/speedread/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-p-chatterjee",
+   "name": "Asima Chatterjee",
+   "years": "1917–2006",
+   "region": "Kolkata (Calcutta), India",
+   "text": "The first woman to earn a Doctor of Science from an Indian university (1944), she studied medicinal plant compounds and developed the anti-epileptic Ayush-56 and the antimalarial Ayush-64. She was General President of the Indian Science Congress in 1975.",
+   "sources": [
+    {
+     "cite": "Indian National Science Academy, Biographical Memoir: Asima Chatterjee",
+     "url": "https://insaindia.res.in/BM/BM32_0709.pdf"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-p-franklin",
+   "name": "Rosalind Franklin",
+   "years": "1920–1958",
+   "region": "London, England",
+   "text": "A chemist whose X-ray image of DNA, Photo 51, was shown to James Watson without her knowledge and helped Watson and Crick build their double-helix model. She also studied coal and virus structure, and died of cancer at 37.",
+   "sources": [
+    {
+     "cite": "Nature Education Scitable, Rosalind Franklin: A Crucial Contribution",
+     "url": "https://www.nature.com/scitable/topicpage/rosalind-franklin-a-crucial-contribution-6538012/"
+    },
+    {
+     "cite": "Nature, Rosalind Franklin was so much more than the ‘wronged heroine’ of DNA",
+     "url": "https://www.nature.com/articles/d41586-020-02144-4"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-p-tu",
+   "name": "Tu Youyou",
+   "years": "born 1930",
+   "region": "Ningbo and Beijing, China",
+   "text": "Led a team that used an ancient Chinese medical text to isolate artemisinin from sweet wormwood in 1972, now a front-line malaria drug. She won the 2015 Nobel Prize in Physiology or Medicine without a doctorate or training abroad.",
+   "sources": [
+    {
+     "cite": "NobelPrize.org, Tu Youyou, Women who changed science",
+     "url": "https://www.nobelprize.org/stories/women-who-changed-science/tu-youyou/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-p-zewail",
+   "name": "Ahmed Zewail",
+   "years": "1946–2016",
+   "region": "Damanhur, Egypt, and Pasadena, USA",
+   "text": "Used laser flashes lasting femtoseconds to watch atoms move as chemical bonds break and form, winning the 1999 Nobel Prize in Chemistry.",
+   "sources": [
+    {
+     "cite": "NobelPrize.org, Ahmed Zewail, Facts",
+     "url": "https://www.nobelprize.org/prizes/chemistry/1999/zewail/facts/"
+    },
+    {
+     "cite": "NobelPrize.org, Press release: The 1999 Nobel Prize in Chemistry",
+     "url": "https://www.nobelprize.org/prizes/chemistry/1999/press-release/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "chem-p-robson",
+   "name": "Richard Robson",
+   "years": "born 1937",
+   "region": "born in Glusburn, England; works in Melbourne, Australia",
+   "text": "In 1989 he linked copper ions with four-armed molecules into a crystal full of large cavities, a starting point for metal–organic frameworks. He shared the 2025 Nobel Prize in Chemistry.",
+   "sources": [
+    {
+     "cite": "NobelPrize.org, The Nobel Prize in Chemistry 2025, Popular information",
+     "url": "https://www.nobelprize.org/prizes/chemistry/2025/popular-information/"
+    },
+    {
+     "cite": "NobelPrize.org, Press release: The Nobel Prize in Chemistry 2025",
+     "url": "https://www.nobelprize.org/prizes/chemistry/2025/press-release/"
+    }
+   ],
+   "status": "drafted"
+  }
+ ]
+}
