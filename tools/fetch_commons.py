@@ -72,8 +72,8 @@ def main():
               m = ii.get('extmetadata', {}); k2 = kk
               slug = re.sub(r'[^a-z0-9]+', '-', k2.split(':', 1)[1].lower()).strip('-')
               r = s.get(ii.get('thumburl') or ii['url'], timeout=60); r.raise_for_status()
-              im = Image.open(io.BytesIO(r.content)).convert('RGB'); im.thumbnail((1100, 1100))
-              im.save(f'img/c/{slug}.jpg', quality=80, optimize=True, progressive=True)
+              im = Image.open(io.BytesIO(r.content)).convert('RGB'); im.thumbnail((1000, 1000))
+              im.save(f'img/c/{slug}.jpg', quality=72, optimize=True, progressive=True)
               out[k2] = {'f': f'img/c/{slug}.jpg', 'kind': kind, 'title': t[5:], 'cap': w.get('cap', '') if want == 1 else '',
                         'desc': clean(m.get('ImageDescription', {}).get('value'))[:400], 'artist': clean(m.get('Artist', {}).get('value'))[:120],
                         'license': lic, 'date': clean(m.get('DateTimeOriginal', {}).get('value'))[:40], 'page': ii.get('descriptionurl'),
