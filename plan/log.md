@@ -57,3 +57,11 @@ Open: the first loop run starts with CAP-0.
 - Hard truths module (js/truths-data.js, js/truths.js, #history-modern-truths).
 - Readiness: og/twitter tags + img/share.jpg, 404.html, robots.txt, Report a mistake link.
 - Pending: custom domain (Owen to buy; then CNAME + DNS), more discipline dives, country studies.
+
+## 2026-11-14 (evening): honest costs for capitalism
+- Owen: the USA case listed harms without numbers while the USSR case had Gulag figures. Fixed: every capitalism case now has sourced numbers for its costs (slavery, Native removal and the California genocide, Cold War coups and massacres, Vietnam, opioids, Bhopal, Chile's victims, Sweden's sterilizations, Nazi-era forced labor in West German firms, Kenya camps, Indian famines).
+- New case: "The colonized world" (1600–1960s) with timeline, three tellings (defenders of empire, anti-colonial historians, institutional economists).
+- Tolls table: +10 rows with ranges and attribution notes; tollsNote now answers "can it add up to billions?" (no scholarly estimate does; few hundred million at the very most, mostly from baseline-sensitive excess-death methods).
+- Immigration line rewritten with Pew survey data plus the push side (Central America, Vietnam); new claims ("billions", "most immigrants fled Western damage") and debates (colonialism and poverty; why people migrate).
+- USSR costs given famine and Terror numbers too, for symmetry.
+- Archive: dropped two off-topic picks (tiger hunt in famine topic, 1931 Indochinese flag in Indonesia 1965). The e84362a media run added nothing new.
