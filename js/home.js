@@ -122,6 +122,7 @@ Lab.page('home', {
       ['dives', 'Deep dives', () => [dives, regions]],
       ['labs', 'Labs & tools', () => [arcade, ...H2('Hands-on labs & tools', 'Maps, models, simulations, full texts, exam practice and the weekly news.'), grid]],
       ['paths', 'Connections & paths', () => [doors, mapEl, ...pathEls]],
+      ['archive', 'The Archive', () => [h('a', { href: '#archive', class: 'card', style: { display: 'block', textDecoration: 'none', color: 'inherit', borderTop: '5px solid #92400E', padding: '20px 22px' } }, h('h2', { style: { margin: '0 0 6px' } }, 'The Archive'), h('p', { style: { margin: '0 0 10px' } }, 'Hundreds of real photographs, paintings, posters, documents and films: enslaved people and abolitionists, peasants and workers, revolutions, wars, empires, cities, rights movements and the treasures of every discipline. Filter by topic and scroll.'), h('span', { class: 'btn primary' }, 'Open the Archive →'))]],
       ['truth', 'Truth & sources', () => [truth]],
       ['you', 'Your progress', () => [stats, how]],
     ];

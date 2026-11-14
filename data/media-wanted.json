@@ -1551,5 +1551,923 @@
   ],
   "graphic": false,
   "cap": ""
+ },
+ {
+  "k": "c:a-indigenous-curtis",
+  "q": "Edward Curtis Native American photograph",
+  "n": 8,
+  "tags": [
+   "indigenous"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-indigenous-trail-of-tears",
+  "q": "Trail of Tears painting",
+  "n": 8,
+  "tags": [
+   "indigenous"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-indigenous-carlisle",
+  "q": "Carlisle Indian Industrial School students",
+  "n": 8,
+  "tags": [
+   "indigenous"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-indigenous-aboriginal",
+  "q": "Aboriginal Australians 1900s photograph",
+  "n": 8,
+  "tags": [
+   "indigenous"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-indigenous-maori",
+  "q": "Maori 19th century photograph",
+  "n": 8,
+  "tags": [
+   "indigenous"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-indigenous-inuit",
+  "q": "Inuit 1900s photograph",
+  "n": 8,
+  "tags": [
+   "indigenous"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-indigenous-sami",
+  "q": "Sami people 1900s photograph",
+  "n": 8,
+  "tags": [
+   "indigenous"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-indigenous-mapuche",
+  "q": "Mapuche 19th century photograph",
+  "n": 8,
+  "tags": [
+   "indigenous"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-indigenous-amazon",
+  "q": "indigenous Amazon 1900s photograph",
+  "n": 8,
+  "tags": [
+   "indigenous"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-indigenous-wounded-knee",
+  "q": "Wounded Knee 1890",
+  "n": 8,
+  "tags": [
+   "indigenous"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-indigenous-reservation",
+  "q": "Indian reservation 1900s photograph",
+  "n": 8,
+  "tags": [
+   "indigenous"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-indigenous-first-nations",
+  "q": "First Nations Canada 1900s",
+  "n": 8,
+  "tags": [
+   "indigenous"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-colonialism-congo-rubber",
+  "q": "Congo Free State rubber",
+  "n": 8,
+  "tags": [
+   "colonialism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-colonialism-herero",
+  "q": "Herero 1904",
+  "n": 8,
+  "tags": [
+   "colonialism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-colonialism-algeria",
+  "q": "Algerian War 1950s",
+  "n": 8,
+  "tags": [
+   "colonialism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-colonialism-mau-mau",
+  "q": "Mau Mau Kenya 1950s",
+  "n": 8,
+  "tags": [
+   "colonialism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-colonialism-belgian-congo",
+  "q": "Belgian Congo 1920s photograph",
+  "n": 8,
+  "tags": [
+   "colonialism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-colonialism-dutch-indies",
+  "q": "Dutch East Indies 1900s photograph",
+  "n": 8,
+  "tags": [
+   "colonialism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-colonialism-french-indochina",
+  "q": "French Indochina 1900s photograph",
+  "n": 8,
+  "tags": [
+   "colonialism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-colonialism-famine-india",
+  "q": "Indian famine 1876",
+  "n": 8,
+  "tags": [
+   "colonialism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-colonialism-bengal-1943",
+  "q": "Bengal famine 1943",
+  "n": 8,
+  "tags": [
+   "colonialism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-colonialism-partition",
+  "q": "Partition of India refugees 1947",
+  "n": 8,
+  "tags": [
+   "colonialism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-colonialism-scramble-africa",
+  "q": "Scramble for Africa cartoon",
+  "n": 8,
+  "tags": [
+   "colonialism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-colonialism-opium-den",
+  "q": "opium China 19th century",
+  "n": 8,
+  "tags": [
+   "colonialism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-propaganda-ww1-poster",
+  "q": "World War I propaganda poster",
+  "n": 8,
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-propaganda-ww2-us-poster",
+  "q": "World War II American propaganda poster",
+  "n": 8,
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-propaganda-ww2-uk-poster",
+  "q": "British World War II poster",
+  "n": 8,
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-propaganda-soviet-poster-ww2",
+  "q": "Soviet World War II poster",
+  "n": 8,
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-propaganda-chinese-poster",
+  "q": "Chinese propaganda poster 1950s",
+  "n": 8,
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-propaganda-cold-war-poster",
+  "q": "Cold War propaganda poster",
+  "n": 8,
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-propaganda-recruitment",
+  "q": "army recruitment poster 1917",
+  "n": 8,
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-propaganda-temperance",
+  "q": "temperance poster",
+  "n": 8,
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-news-armistice",
+  "q": "newspaper front page armistice 1918",
+  "n": 8,
+  "tags": [
+   "news"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-news-crash-1929",
+  "q": "newspaper headline 1929 stock crash",
+  "n": 8,
+  "tags": [
+   "news"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-news-titanic",
+  "q": "newspaper Titanic 1912 front page",
+  "n": 8,
+  "tags": [
+   "news"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-news-newsroom",
+  "q": "newspaper printing press 1900s",
+  "n": 8,
+  "tags": [
+   "news"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-news-suffrage-news",
+  "q": "newspaper women vote 1920",
+  "n": 8,
+  "tags": [
+   "news"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-news-hiroshima-news",
+  "q": "newspaper atomic bomb 1945 front page",
+  "n": 8,
+  "tags": [
+   "news"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-science-lab-19c",
+  "q": "chemistry laboratory 19th century",
+  "n": 8,
+  "tags": [
+   "science"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-science-observatory",
+  "q": "observatory telescope 19th century",
+  "n": 8,
+  "tags": [
+   "science"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-science-nebula",
+  "q": "Hubble Space Telescope nebula",
+  "n": 8,
+  "tags": [
+   "science"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-science-apollo11",
+  "q": "Apollo 11 lunar surface",
+  "n": 8,
+  "tags": [
+   "science"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-science-mars",
+  "q": "Mars rover surface image",
+  "n": 8,
+  "tags": [
+   "science"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-science-microscope-history",
+  "q": "antique microscope",
+  "n": 8,
+  "tags": [
+   "science"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-science-dna-model",
+  "q": "DNA model 1953",
+  "n": 8,
+  "tags": [
+   "science"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-science-cern",
+  "q": "CERN detector",
+  "n": 8,
+  "tags": [
+   "science"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-science-webb",
+  "q": "James Webb Space Telescope image",
+  "n": 8,
+  "tags": [
+   "science"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-science-fossil",
+  "q": "dinosaur fossil skeleton museum",
+  "n": 8,
+  "tags": [
+   "science"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-medicine-ward-1900",
+  "q": "hospital ward 1900s photograph",
+  "n": 8,
+  "tags": [
+   "medicine"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-medicine-iron-lung",
+  "q": "iron lung polio",
+  "n": 8,
+  "tags": [
+   "medicine"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-medicine-smallpox-vax",
+  "q": "smallpox vaccination 1900s",
+  "n": 8,
+  "tags": [
+   "medicine"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-medicine-flu-1918",
+  "q": "1918 influenza hospital",
+  "n": 8,
+  "tags": [
+   "medicine"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-medicine-nursing",
+  "q": "nurses 1910s photograph",
+  "n": 8,
+  "tags": [
+   "medicine"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-medicine-surgery-19c",
+  "q": "surgery 19th century photograph",
+  "n": 8,
+  "tags": [
+   "medicine"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ethics-tuskegee",
+  "q": "Tuskegee syphilis study",
+  "n": 8,
+  "tags": [
+   "ethics"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ethics-doctors-trial",
+  "q": "Nuremberg Doctors Trial",
+  "n": 8,
+  "tags": [
+   "ethics"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ethics-radium-girls",
+  "q": "radium dial painters",
+  "n": 8,
+  "tags": [
+   "ethics"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ethics-thalidomide",
+  "q": "thalidomide",
+  "n": 8,
+  "tags": [
+   "ethics"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ethics-child-labor-ethics",
+  "q": "child labor 1910s Hine",
+  "n": 8,
+  "tags": [
+   "ethics"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-covert-iran-1953",
+  "q": "1953 Iranian coup Tehran",
+  "n": 8,
+  "tags": [
+   "covert"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-covert-guatemala-1954",
+  "q": "1954 Guatemalan coup",
+  "n": 8,
+  "tags": [
+   "covert"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-covert-bay-of-pigs",
+  "q": "Bay of Pigs invasion 1961",
+  "n": 8,
+  "tags": [
+   "covert"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-covert-chile-1973",
+  "q": "1973 Chilean coup",
+  "n": 8,
+  "tags": [
+   "covert"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-covert-indonesia-1965",
+  "q": "Indonesia 1965 anti-communist",
+  "n": 8,
+  "tags": [
+   "covert"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-covert-contra",
+  "q": "Contras Nicaragua 1980s",
+  "n": 8,
+  "tags": [
+   "covert"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-companies-united-fruit",
+  "q": "United Fruit Company plantation",
+  "n": 8,
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-companies-standard-oil",
+  "q": "Standard Oil refinery 1900s",
+  "n": 8,
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-companies-triangle-fire",
+  "q": "Triangle Shirtwaist Factory fire",
+  "n": 8,
+  "tags": [
+   "companies"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-companies-minamata",
+  "q": "Minamata disease",
+  "n": 8,
+  "tags": [
+   "companies"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-companies-exxon-valdez",
+  "q": "Exxon Valdez oil spill",
+  "n": 8,
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-companies-love-canal",
+  "q": "Love Canal",
+  "n": 8,
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-companies-company-town",
+  "q": "company town 1900s",
+  "n": 8,
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-companies-sweatshop",
+  "q": "sweatshop 1900s photograph",
+  "n": 8,
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-vietnam",
+  "q": "Vietnam War 1968",
+  "n": 8,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-hiroshima-ruins",
+  "q": "Hiroshima 1945 ruins",
+  "n": 8,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-spanish-civil-war",
+  "q": "Spanish Civil War 1937",
+  "n": 8,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-rwanda-memorial",
+  "q": "Rwanda genocide memorial",
+  "n": 8,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-srebrenica",
+  "q": "Srebrenica memorial",
+  "n": 8,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-choeung-ek",
+  "q": "Choeung Ek memorial",
+  "n": 8,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-dresden-1945",
+  "q": "Dresden 1945",
+  "n": 8,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-stalingrad",
+  "q": "Stalingrad 1942",
+  "n": 8,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-d-day",
+  "q": "Normandy landings 1944",
+  "n": 8,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-liberation",
+  "q": "liberation of concentration camps 1945",
+  "n": 8,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "v:a-film-newsreel-1930s",
+  "q": "newsreel 1930s",
+  "n": 5,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:a-film-ww2-newsreel",
+  "q": "World War II newsreel",
+  "n": 5,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "v:a-film-apollo-film",
+  "q": "Apollo 11 film",
+  "n": 5,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:a-film-civil-rights-film",
+  "q": "civil rights 1960s film",
+  "n": 5,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:a-film-factory-film",
+  "q": "factory 1900s film",
+  "n": 5,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:a-film-city-film",
+  "q": "city street 1900s film",
+  "n": 5,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:a-film-science-film",
+  "q": "science educational film 1950s",
+  "n": 5,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:a-film-suffrage-film",
+  "q": "suffragette film 1910s",
+  "n": 5,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
  }
 ]

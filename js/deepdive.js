@@ -180,7 +180,7 @@ R.locker = (p, nav, arg, D, embed) => {
 
 R.gallery = (p, nav, arg, D) => {
   (D.data.gallery || []).forEach(([t, intro, keys]) => p.append(card(h('h2', { style: { marginTop: 0 } }, t), intro ? h('p', { class: 'small muted' }, intro) : null, Lab.cgrid(keys))));
-  p.append(card(h('p', { class: 'tiny muted', style: { margin: 0 } }, 'Pictures and film are from Wikimedia Commons and are public domain or Creative Commons licensed; tap any one to enlarge it and see its author, licence and original page. Some show violence or its aftermath and are described factually.')));
+  p.append(card(h('a', { class: 'btn sm primary', href: '#archive', style: { marginBottom: '8px', display: 'inline-block' } }, 'See hundreds more in the Archive →'), h('p', { class: 'tiny muted', style: { margin: 0 } }, 'Pictures and film are from Wikimedia Commons and are public domain or Creative Commons licensed; tap any one to enlarge it and see its author, licence and original page. Some show violence or its aftermath and are described factually.')));
 };
 
 R.labs = (p, nav, arg, D) => {
