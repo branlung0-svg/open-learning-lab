@@ -1,0 +1,1248 @@
+{
+ "disc": "capitalism",
+ "schema": 1,
+ "updated": "2026-11-14",
+ "note": "Claim records for the capitalism deep dive. status: drafted = written with sources linked; verified = an independent AI check confirmed the source supports the claim.",
+ "events": [
+  {
+   "id": "cap-e-pacioli",
+   "when": "1494",
+   "text": "Luca Pacioli publishes the first printed account of double-entry bookkeeping, the accounting method Italian merchants and bankers had developed. Firms still use it today.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Britannica, Luca Pacioli",
+     "url": "https://www.britannica.com/biography/Luca-Pacioli"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-atlantic",
+   "when": "1500s–1860s",
+   "text": "The Atlantic slave trade carries about 12.5 million enslaved Africans onto ships; about 10.7 million survive the crossing. Their forced labor grows sugar, tobacco and cotton for world markets.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "SlaveVoyages, Trans-Atlantic Slave Trade estimates",
+     "url": "https://www.slavevoyages.org/assessment/estimates"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-eic",
+   "when": "1600",
+   "text": "England charters the East India Company, a trading firm owned by shareholders that later rules much of India with its own army.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Britannica, East India Company",
+     "url": "https://www.britannica.com/topic/East-India-Company"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-voc",
+   "when": "1602",
+   "text": "The Dutch East India Company (VOC) is founded. It sells shares that can be traded on the Amsterdam exchange, an early model of the modern company and stock market.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Britannica, Dutch East India Company",
+     "url": "https://www.britannica.com/topic/Dutch-East-India-Company"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-banda",
+   "when": "1621",
+   "text": "To control the nutmeg trade, VOC forces under Jan Pieterszoon Coen conquer the Banda Islands; most of the roughly 15,000 inhabitants are killed, enslaved or driven out.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Britannica, Banda Islands",
+     "url": "https://www.britannica.com/place/Banda-Islands"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-tulip",
+   "when": "1636–1637",
+   "text": "Tulip bulb prices in the Dutch Republic soar and then collapse. Historian Anne Goldgar found the damage to the wider economy was far smaller than later legends claim.",
+   "conf": "Contested",
+   "sources": [
+    {
+     "cite": "Goldgar, Tulipmania (University of Chicago Press, 2007)",
+     "url": "https://press.uchicago.edu/ucp/books/book/chicago/T/bo5474656.html"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-boe",
+   "when": "1694",
+   "text": "The Bank of England is founded as a private company to lend money to the government for war. Central banking grows out of arrangements like this.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Bank of England, Our history",
+     "url": "https://www.bankofengland.co.uk/about/history"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-bubble",
+   "when": "1720",
+   "text": "The South Sea Bubble in Britain and the Mississippi Bubble in France burst after wild speculation in company shares, ruining many investors.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Britannica, South Sea Bubble",
+     "url": "https://www.britannica.com/event/South-Sea-Bubble"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-enclosure",
+   "when": "1700s–1800s",
+   "text": "Parliamentary enclosure in England turns shared village land into private farms. Output rises, but many rural families lose access to common land and move to towns for wage work.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "UK Parliament, Enclosing the land",
+     "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/landscape/overview/enclosingland/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-diwani",
+   "when": "1757–1765",
+   "text": "After the Battle of Plassey (1757), the East India Company wins the right to collect Bengal’s land revenue (1765), turning a trading company into a government.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Britannica, Battle of Plassey",
+     "url": "https://www.britannica.com/event/Battle-of-Plassey"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-bengal1770",
+   "when": "1769–1770",
+   "text": "Famine kills millions in Bengal; contemporary and later estimates range up to about a third of the population. Historians debate how much Company tax collection and policy worsened a drought-driven crisis.",
+   "conf": "Contested",
+   "sources": [
+    {
+     "cite": "Britannica, Bengal famine of 1770",
+     "url": "https://www.britannica.com/event/Bengal-famine-of-1770"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-wealth",
+   "when": "1776",
+   "text": "Adam Smith publishes The Wealth of Nations, arguing that the division of labor and free exchange make nations richer, while warning about monopolies and merchants who conspire against the public.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Online Library of Liberty, The Wealth of Nations",
+     "url": "https://oll.libertyfund.org/titles/smith-an-inquiry-into-the-nature-and-causes-of-the-wealth-of-nations-cannan-ed-vol-1"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-industrial",
+   "when": "c. 1760–1840",
+   "text": "The Industrial Revolution begins in Britain: machines, factories and coal-powered steam engines multiply output, first in cotton textiles.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Britannica, Industrial Revolution",
+     "url": "https://www.britannica.com/event/Industrial-Revolution"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-gin",
+   "when": "1793",
+   "text": "Eli Whitney’s cotton gin makes it far cheaper to clean short-staple cotton, and slavery spreads rapidly across the US South to grow it.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "National Archives, Eli Whitney’s patent for the cotton gin",
+     "url": "https://www.archives.gov/education/lessons/cotton-gin-patent"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-domestic",
+   "when": "1790–1860",
+   "text": "About one million enslaved people in the United States are forcibly moved from the upper South to the cotton frontier, many sold away from their families.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Olmstead & Rhode, Explorations in Economic History (2018)",
+     "url": "https://doi.org/10.1016/j.eeh.2017.12.002"
+    },
+    {
+     "cite": "Gilder Lehrman Institute, The domestic slave trade",
+     "url": "https://www.gilderlehrman.org/history-resources/teaching-resource/historical-context-facts-about-slave-trade-and-slavery"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-ricardo",
+   "when": "1817",
+   "text": "David Ricardo explains comparative advantage: two countries can both gain from trade even if one is better at making everything.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Online Library of Liberty, Ricardo, Principles",
+     "url": "https://oll.libertyfund.org/titles/ricardo-the-works-and-correspondence-of-david-ricardo-vol-1-principles-of-political-economy-and-taxation"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-factory",
+   "when": "1833",
+   "text": "Britain’s Factory Act bans textile-mill work for children under nine, limits hours for older children, and creates the first factory inspectors.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "UK Parliament, The 1833 Factory Act",
+     "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/factoryact/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-abolition",
+   "when": "1833–1838",
+   "text": "Britain abolishes slavery in most of its colonies and pays £20 million in compensation, to slave owners, not to the enslaved, who were also forced into years of unpaid “apprenticeship”.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "UCL Centre for the Study of the Legacies of British Slavery",
+     "url": "https://www.ucl.ac.uk/lbs/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-ireland",
+   "when": "1845–1852",
+   "text": "About a million people die in the Irish famine and over a million emigrate. Food exports from Ireland continue, and historians debate how far the British government’s free-market relief policy deepened the disaster.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Britannica, Great Famine",
+     "url": "https://www.britannica.com/event/Great-Famine-Irish-history"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-cornlaws",
+   "when": "1846",
+   "text": "Britain repeals the Corn Laws, which had protected landowners with grain tariffs, a turning point toward free trade.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "UK Parliament, The repeal of the Corn Laws",
+     "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/collections/the-corn-laws/repeal-of-the-corn-laws/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-manifesto",
+   "when": "1848",
+   "text": "Marx and Engels publish The Communist Manifesto, the most influential critique of capitalism (see the Marxism–Leninism deep dive).",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Marxists Internet Archive, Manifesto of the Communist Party",
+     "url": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-limited",
+   "when": "1855–1862",
+   "text": "British laws let ordinary companies offer limited liability: investors can lose only what they put in. This makes it easier to raise money from many small shareholders.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Britannica, Limited liability",
+     "url": "https://www.britannica.com/topic/limited-liability"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-meiji",
+   "when": "1868",
+   "text": "Japan’s Meiji Restoration begins state-led industrialization: the government builds railways, mills and banks, then sells many to private firms that grow into the zaibatsu.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Britannica, Meiji Restoration",
+     "url": "https://www.britannica.com/event/Meiji-Restoration"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-gold",
+   "when": "1870s–1914",
+   "text": "Under the classical gold standard and falling transport costs, trade and capital flows reach levels the world would not see again until the 1990s.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Britannica, Gold standard",
+     "url": "https://www.britannica.com/topic/gold-standard"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-panic1873",
+   "when": "1873",
+   "text": "A financial panic in Vienna and New York starts a long slump in Europe and North America, later called the Long Depression.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Britannica, Panic of 1873",
+     "url": "https://www.britannica.com/event/Panic-of-1873"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-congo",
+   "when": "1885–1908",
+   "text": "In the Congo Free State, owned personally by King Leopold II of Belgium, forced rubber collection enforced by hostage-taking, mutilation and killing causes mass death. Estimates of the toll range from about 1 to 10 million and are disputed.",
+   "conf": "Contested",
+   "sources": [
+    {
+     "cite": "Britannica, Congo Free State",
+     "url": "https://www.britannica.com/place/Congo-Free-State"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-sherman",
+   "when": "1890",
+   "text": "The US Sherman Antitrust Act outlaws monopolies and cartels that restrain trade.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "National Archives, Sherman Anti-Trust Act",
+     "url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-weber",
+   "when": "1905",
+   "text": "Max Weber’s The Protestant Ethic and the Spirit of Capitalism argues that religious ideas about work and saving helped shape modern capitalism. The thesis is still debated.",
+   "conf": "Contested",
+   "sources": [
+    {
+     "cite": "Britannica, Max Weber",
+     "url": "https://www.britannica.com/biography/Max-Weber-German-sociologist"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-triangle",
+   "when": "1911",
+   "text": "The Triangle Shirtwaist Factory fire in New York kills 146 garment workers, mostly young immigrant women, behind locked doors. It leads to new safety and labor laws.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Cornell ILR, The Triangle Factory Fire",
+     "url": "https://trianglefire.ilr.cornell.edu/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-ford",
+   "when": "1913–1914",
+   "text": "Ford introduces the moving assembly line and then the five-dollar day, cutting the price of a car and roughly doubling the usual pay for factory work.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "The Henry Ford, Moving assembly line",
+     "url": "https://www.thehenryford.org/collections-and-research/digital-resources/popular-topics/assembly-line/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-fed",
+   "when": "1913",
+   "text": "The US creates the Federal Reserve after repeated bank panics.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Federal Reserve History, Federal Reserve Act",
+     "url": "https://www.federalreservehistory.org/essays/federal-reserve-act-signed"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-pigou",
+   "when": "1920",
+   "text": "Arthur Pigou’s Economics of Welfare explains externalities, costs such as pollution that fall on people outside a deal, and proposes taxing them.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Britannica, Arthur Cecil Pigou",
+     "url": "https://www.britannica.com/biography/Arthur-Cecil-Pigou"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-crash",
+   "when": "1929–1933",
+   "text": "After the Wall Street crash of October 1929, US output collapses and unemployment rises from about 3% to about 25% in 1933. Thousands of banks fail.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Lebergott, NBER (1957)",
+     "url": "https://www.nber.org/chapters/c2644.pdf"
+    },
+    {
+     "cite": "Federal Reserve History, The Great Depression",
+     "url": "https://www.federalreservehistory.org/essays/great-depression"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-smoot",
+   "when": "1930",
+   "text": "The US Smoot–Hawley Tariff raises import duties; other countries retaliate and world trade shrinks. Economists still debate how much it deepened the Depression.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "US Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1921-1936/protectionism"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-dustbowl",
+   "when": "1930s",
+   "text": "Drought and years of plowing up native grassland bring the Dust Bowl to the southern Great Plains, driving hundreds of thousands of families off the land.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Library of Congress, Dust Bowl migration",
+     "url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/great-depression-and-world-war-ii-1929-1945/dust-bowl-migration/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-newdeal",
+   "when": "1933–1938",
+   "text": "Roosevelt’s New Deal adds bank deposit insurance, the separation of commercial and investment banking (Glass–Steagall), Social Security, minimum wages and the legal right to join a union.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "National Archives, Social Security Act",
+     "url": "https://www.archives.gov/milestone-documents/social-security-act"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-keynes",
+   "when": "1936",
+   "text": "Keynes’s General Theory argues that economies can stay stuck with high unemployment and that government spending can lift demand.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Britannica, John Maynard Keynes",
+     "url": "https://www.britannica.com/money/John-Maynard-Keynes"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-coase",
+   "when": "1937",
+   "text": "Ronald Coase asks why firms exist at all, and answers that markets have costs (finding partners, making contracts), so some work is cheaper to organize inside a company.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Nobel Prize in Economic Sciences 1991",
+     "url": "https://www.nobelprize.org/prizes/economic-sciences/1991/coase/facts/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-schumpeter",
+   "when": "1942",
+   "text": "Joseph Schumpeter describes “creative destruction”: new firms and technologies destroy old ones. He also predicted that capitalism would gradually give way to socialism.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Britannica, Joseph Schumpeter",
+     "url": "https://www.britannica.com/money/Joseph-Schumpeter"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-1944books",
+   "when": "1944",
+   "text": "Two rival classics appear: Hayek’s The Road to Serfdom warns that central planning leads to tyranny, and Polanyi’s The Great Transformation argues that unregulated markets tear societies apart.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Nobel Prize in Economic Sciences 1974 (Hayek)",
+     "url": "https://www.nobelprize.org/prizes/economic-sciences/1974/hayek/facts/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-bretton",
+   "when": "1944",
+   "text": "At Bretton Woods, 44 Allied nations set up the IMF and the World Bank and a system of fixed exchange rates tied to the US dollar and gold.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "US Department of State, Office of the Historian",
+     "url": "https://history.state.gov/milestones/1937-1945/bretton-woods"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-erhard",
+   "when": "1948",
+   "text": "West Germany’s currency reform and Ludwig Erhard’s lifting of price controls start the “social market economy”, combining markets with strong unions and welfare. Rapid growth follows.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Konrad Adenauer Stiftung, Ludwig Erhard",
+     "url": "https://www.kas.de/en/web/geschichte-der-cdu/biogramm-detail/-/content/ludwig-erhard"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-rehn",
+   "when": "1951",
+   "text": "Swedish union economists Gösta Rehn and Rudolf Meidner propose the model behind Sweden’s system: equal pay for equal work across firms, active job retraining and a large welfare state alongside private ownership.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Britannica, Sweden: economy",
+     "url": "https://www.britannica.com/place/Sweden/Economy"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-korea",
+   "when": "1961–1979",
+   "text": "Under Park Chung-hee’s military government, South Korea grows rapidly through state-directed, export-led industrialization: cheap credit for chosen firms (the chaebol), strict export targets, and suppressed labor unions.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Britannica, Park Chung-hee",
+     "url": "https://www.britannica.com/biography/Park-Chung-hee"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-friedman1970",
+   "when": "1970",
+   "text": "Milton Friedman’s New York Times essay argues that a company’s social responsibility is to increase its profits within the rules of the game.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "New York Times archive, 13 September 1970",
+     "url": "https://www.nytimes.com/1970/09/13/archives/a-friedman-doctrine-the-social-responsibility-of-business-is-to.html"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-nixon",
+   "when": "1971",
+   "text": "President Nixon ends the dollar’s convertibility into gold, ending the Bretton Woods system.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Federal Reserve History, Nixon ends convertibility",
+     "url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-oil",
+   "when": "1973–1979",
+   "text": "Two oil shocks and “stagflation” (high inflation with high unemployment) undermine faith in Keynesian management and open the way for market-oriented reforms.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Federal Reserve History, The Great Inflation",
+     "url": "https://www.federalreservehistory.org/essays/great-inflation"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-chile",
+   "when": "1973–1990",
+   "text": "After the 1973 military coup in Chile, economists trained in Chicago (the “Chicago Boys”) privatize, cut tariffs and create private pensions. Growth and poverty reduction follow, along with a 1982 crash, high inequality, and a dictatorship that killed and tortured thousands.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Cato Journal, The Fall of Chile (2020)",
+     "url": "https://www.cato.org/cato-journal/fall-2020/fall-chile"
+    },
+    {
+     "cite": "Museo de la Memoria y los Derechos Humanos (Chile)",
+     "url": "https://web.museodelamemoria.cl/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-china1978",
+   "when": "1978",
+   "text": "China begins “reform and opening up”: farm families may sell surplus crops, special economic zones welcome foreign firms, and markets slowly spread under Communist Party rule.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Britannica, Deng Xiaoping",
+     "url": "https://www.britannica.com/biography/Deng-Xiaoping"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-thatcher",
+   "when": "1979–1990",
+   "text": "Britain under Margaret Thatcher and the US under Ronald Reagan cut top tax rates, curb union power and (in Britain) privatize state industries.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Margaret Thatcher Foundation archive",
+     "url": "https://www.margaretthatcher.org/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-consensus",
+   "when": "1989",
+   "text": "Economist John Williamson names the “Washington Consensus”: ten market-oriented policies promoted by the IMF, World Bank and US Treasury.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Peterson Institute, What Washington Means by Policy Reform",
+     "url": "https://www.piie.com/commentary/speeches-papers/what-washington-means-policy-reform"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-india1991",
+   "when": "1991",
+   "text": "Facing a balance-of-payments crisis, India’s Finance Minister Manmohan Singh abolishes most industrial licensing, cuts tariffs and opens to foreign investment.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Britannica, Manmohan Singh",
+     "url": "https://www.britannica.com/biography/Manmohan-Singh"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-russia",
+   "when": "1992–1998",
+   "text": "Russia’s rapid transition (“shock therapy”, voucher privatization, the 1995 loans-for-shares deals that created billionaire oligarchs) coincides with a deep slump, a 1998 default and a sharp fall in male life expectancy. Causes of the death spike are debated.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Brainerd & Cutler, Journal of Economic Perspectives (2005)",
+     "url": "https://web.williams.edu/Economics/brainerd/papers/jep05.pdf"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-asia1997",
+   "when": "1997",
+   "text": "The Asian financial crisis hits Thailand, Indonesia and South Korea after a rush of short-term foreign money reverses.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Federal Reserve History, Asian financial crisis",
+     "url": "https://www.federalreservehistory.org/essays/asian-financial-crisis"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-wto",
+   "when": "2001",
+   "text": "China joins the World Trade Organization. Research later finds the resulting surge of imports explains about a quarter of the fall in US manufacturing jobs from 1990 to 2007, with lasting local damage.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Autor, Dorn & Hanson, American Economic Review (2013)",
+     "url": "https://doi.org/10.1257/aer.103.6.2121"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-gfc",
+   "when": "2007–2009",
+   "text": "The US housing bubble bursts; Lehman Brothers fails on 15 September 2008 and a global financial crisis follows. The official US inquiry (2011) concluded the crisis was avoidable, but its members split over the causes.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Financial Crisis Inquiry Commission, Conclusions",
+     "url": "https://fcic.law.stanford.edu/report/conclusions"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-rana",
+   "when": "2013",
+   "text": "The Rana Plaza garment factory building collapses in Bangladesh, killing 1,134 workers who made clothes for global brands. It leads to a binding safety accord.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "International Labour Organization, The Rana Plaza accident and its aftermath",
+     "url": "https://www.ilo.org/resource/rana-plaza-accident-and-its-aftermath"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-piketty",
+   "when": "2013–2014",
+   "text": "Thomas Piketty’s Capital in the Twenty-First Century argues that wealth tends to concentrate when returns on capital outpace growth. Other economists dispute the data and the theory.",
+   "conf": "Contested",
+   "sources": [
+    {
+     "cite": "Harvard University Press, Capital in the Twenty-First Century",
+     "url": "https://www.hup.harvard.edu/books/9780674430006"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-brt",
+   "when": "2019",
+   "text": "The US Business Roundtable says companies should serve customers, workers, suppliers and communities as well as shareholders, a shift away from the Friedman view. Critics doubt behavior changed.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Business Roundtable, Statement on the Purpose of a Corporation",
+     "url": "https://www.businessroundtable.org/business-roundtable-redefines-the-purpose-of-a-corporation-to-promote-an-economy-that-serves-all-americans"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-povdebate",
+   "when": "2022–2024",
+   "text": "A sharp scholarly dispute: Sullivan and Hickel argue that the rise of capitalism made welfare worse for centuries; Rutar and others reply that poverty was common before capitalism and that colonialism is not the same thing as capitalism.",
+   "conf": "Contested",
+   "sources": [
+    {
+     "cite": "Sullivan & Hickel, World Development 161 (2023)",
+     "url": "https://doi.org/10.1016/j.worlddev.2022.106026"
+    },
+    {
+     "cite": "Rutar, International Review of Sociology (2024)",
+     "url": "https://doi.org/10.1080/03906701.2024.2380314"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-poverty2025",
+   "when": "2025",
+   "text": "The World Bank raises its extreme-poverty line to $3.00 a day. By that measure about 830 million people remain extremely poor, down from about 2.3 billion in 1990.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "World Bank, June 2025 update to global poverty lines",
+     "url": "https://www.worldbank.org/en/news/factsheet/2025/06/05/june-2025-update-to-global-poverty-lines"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-wir2026",
+   "when": "2025",
+   "text": "The World Inequality Report 2026 estimates that the richest 10% own about three-quarters of the world’s wealth and the poorest half about 2%.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "World Inequality Report 2026",
+     "url": "https://wir2026.wid.world/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-nobel2024",
+   "when": "2024",
+   "text": "The economics Nobel goes to Acemoglu, Johnson and Robinson for research on how institutions shaped by colonization explain why some nations are richer than others.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Nobel Prize in Economic Sciences 2024",
+     "url": "https://www.nobelprize.org/prizes/economic-sciences/2024/summary/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-nobel2025",
+   "when": "2025",
+   "text": "The economics Nobel goes to Joel Mokyr, Philippe Aghion and Peter Howitt for explaining growth driven by innovation and creative destruction.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Nobel Prize in Economic Sciences 2025",
+     "url": "https://www.nobelprize.org/prizes/economic-sciences/2025/summary/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "cap-e-survival",
+   "when": "1994–2025",
+   "text": "US government data show that about one in five new business establishments closes within its first year and about half within five years.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "US Bureau of Labor Statistics, The Economics Daily",
+     "url": "https://www.bls.gov/opub/ted/2024/34-7-percent-of-business-establishments-born-in-2013-were-still-operating-in-2023.htm"
+    }
+   ],
+   "status": "drafted"
+  }
+ ],
+ "people": [
+  {
+   "id": "cap-p-khaldun",
+   "name": "Ibn Khaldun",
+   "years": "1332–1406",
+   "region": "North Africa",
+   "text": "Argued in the Muqaddimah that high taxes eventually shrink the economy and that labor creates value, ideas later economists rediscovered.",
+   "sources": [
+    {
+     "cite": "Britannica",
+     "url": "https://www.britannica.com/biography/Ibn-Khaldun"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-smith",
+   "name": "Adam Smith",
+   "years": "1723–1790",
+   "region": "Scotland",
+   "text": "Explained the division of labor and the “invisible hand” of markets, but also attacked monopolies and cared about the poor.",
+   "sources": [
+    {
+     "cite": "Stanford Encyclopedia of Philosophy",
+     "url": "https://plato.stanford.edu/entries/smith-moral-political/"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-ricardo",
+   "name": "David Ricardo",
+   "years": "1772–1823",
+   "region": "Britain",
+   "text": "Showed how countries gain from trade through comparative advantage; a successful stockbroker and member of Parliament.",
+   "sources": [
+    {
+     "cite": "Britannica",
+     "url": "https://www.britannica.com/money/David-Ricardo"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-mill",
+   "name": "John Stuart Mill",
+   "years": "1806–1873",
+   "region": "Britain",
+   "text": "Defended free markets and liberty but supported worker cooperatives, inheritance taxes and women’s rights.",
+   "sources": [
+    {
+     "cite": "Stanford Encyclopedia of Philosophy",
+     "url": "https://plato.stanford.edu/entries/mill/"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-marx",
+   "name": "Karl Marx",
+   "years": "1818–1883",
+   "region": "Germany and Britain",
+   "text": "The most influential critic of capitalism; argued that profit comes from unpaid labor and that the system would end in crisis.",
+   "sources": [
+    {
+     "cite": "Stanford Encyclopedia of Philosophy",
+     "url": "https://plato.stanford.edu/entries/marx/"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-carnegie",
+   "name": "Andrew Carnegie",
+   "years": "1835–1919",
+   "region": "Scotland and the United States",
+   "text": "Built a steel empire through ruthless cost-cutting and fought unions (the 1892 Homestead strike), then gave away most of his fortune to libraries and universities.",
+   "sources": [
+    {
+     "cite": "Britannica",
+     "url": "https://www.britannica.com/money/Andrew-Carnegie"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-motherjones",
+   "name": "Mary Harris Jones (“Mother Jones”)",
+   "years": "1837–1930",
+   "region": "Ireland and the United States",
+   "text": "Labor organizer for miners and child workers; the nickname came from the workers she organized, who called her “mother”.",
+   "sources": [
+    {
+     "cite": "AFL-CIO, Mother Jones",
+     "url": "https://aflcio.org/about/history/labor-history-people/mother-jones"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-weber",
+   "name": "Max Weber",
+   "years": "1864–1920",
+   "region": "Germany",
+   "text": "Linked the spirit of capitalism to Protestant ideas about work and saving, and studied bureaucracy and the modern state.",
+   "sources": [
+    {
+     "cite": "Stanford Encyclopedia of Philosophy",
+     "url": "https://plato.stanford.edu/entries/weber/"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-ford",
+   "name": "Henry Ford",
+   "years": "1863–1947",
+   "region": "United States",
+   "text": "Made cars affordable with the moving assembly line and high wages; also published antisemitic propaganda in his newspaper.",
+   "sources": [
+    {
+     "cite": "Britannica",
+     "url": "https://www.britannica.com/money/Henry-Ford"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-perkins",
+   "name": "Frances Perkins",
+   "years": "1880–1965",
+   "region": "United States",
+   "text": "First woman in a US cabinet; as Labor Secretary she shaped Social Security, the minimum wage and limits on child labor.",
+   "sources": [
+    {
+     "cite": "US Department of Labor, Frances Perkins",
+     "url": "https://www.dol.gov/general/aboutdol/history/perkins"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-keynes",
+   "name": "John Maynard Keynes",
+   "years": "1883–1946",
+   "region": "Britain",
+   "text": "Argued that governments must manage demand to avoid mass unemployment; helped design the Bretton Woods system.",
+   "sources": [
+    {
+     "cite": "Britannica",
+     "url": "https://www.britannica.com/money/John-Maynard-Keynes"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-schumpeter",
+   "name": "Joseph Schumpeter",
+   "years": "1883–1950",
+   "region": "Austria and the United States",
+   "text": "Described entrepreneurs and “creative destruction” as the engine of capitalism.",
+   "sources": [
+    {
+     "cite": "Britannica",
+     "url": "https://www.britannica.com/money/Joseph-Schumpeter"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-polanyi",
+   "name": "Karl Polanyi",
+   "years": "1886–1964",
+   "region": "Hungary, Britain and Canada",
+   "text": "Argued that turning land, labor and money into market goods provokes society to protect itself.",
+   "sources": [
+    {
+     "cite": "Britannica",
+     "url": "https://www.britannica.com/biography/Karl-Polanyi"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-hayek",
+   "name": "Friedrich Hayek",
+   "years": "1899–1992",
+   "region": "Austria and Britain",
+   "text": "Argued that prices carry knowledge no planner could gather; Nobel Prize 1974.",
+   "sources": [
+    {
+     "cite": "Nobel Prize in Economic Sciences 1974",
+     "url": "https://www.nobelprize.org/prizes/economic-sciences/1974/hayek/facts/"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-prebisch",
+   "name": "Raúl Prebisch",
+   "years": "1901–1986",
+   "region": "Argentina",
+   "text": "Argued that poorer countries exporting raw materials lose out in trade with industrial countries, inspiring import-substitution policies across Latin America.",
+   "sources": [
+    {
+     "cite": "Britannica",
+     "url": "https://www.britannica.com/biography/Raul-Prebisch"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-erhard",
+   "name": "Ludwig Erhard",
+   "years": "1897–1977",
+   "region": "Germany",
+   "text": "Launched West Germany’s social market economy in 1948 and later became chancellor.",
+   "sources": [
+    {
+     "cite": "Konrad Adenauer Stiftung",
+     "url": "https://www.kas.de/en/web/geschichte-der-cdu/biogramm-detail/-/content/ludwig-erhard"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-friedman",
+   "name": "Milton Friedman",
+   "years": "1912–2006",
+   "region": "United States",
+   "text": "Argued for free markets and steady money growth; Nobel Prize 1976. His students advised Chile’s military government.",
+   "sources": [
+    {
+     "cite": "Nobel Prize in Economic Sciences 1976",
+     "url": "https://www.nobelprize.org/prizes/economic-sciences/1976/friedman/facts/"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-coase",
+   "name": "Ronald Coase",
+   "years": "1910–2013",
+   "region": "Britain and the United States",
+   "text": "Explained why firms exist and how property rights can settle conflicts like pollution; Nobel Prize 1991.",
+   "sources": [
+    {
+     "cite": "Nobel Prize in Economic Sciences 1991",
+     "url": "https://www.nobelprize.org/prizes/economic-sciences/1991/coase/facts/"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-park",
+   "name": "Park Chung-hee",
+   "years": "1917–1979",
+   "region": "South Korea",
+   "text": "Military ruler who drove export-led industrialization while repressing opposition and unions.",
+   "sources": [
+    {
+     "cite": "Britannica",
+     "url": "https://www.britannica.com/biography/Park-Chung-hee"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-deng",
+   "name": "Deng Xiaoping",
+   "years": "1904–1997",
+   "region": "China",
+   "text": "Led China’s market reforms after 1978 while keeping one-party rule; ordered the 1989 Tiananmen crackdown.",
+   "sources": [
+    {
+     "cite": "Britannica",
+     "url": "https://www.britannica.com/biography/Deng-Xiaoping"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-ostrom",
+   "name": "Elinor Ostrom",
+   "years": "1933–2012",
+   "region": "United States",
+   "text": "Showed that communities often manage shared resources well without either state control or privatization; Nobel Prize 2009.",
+   "sources": [
+    {
+     "cite": "Nobel Prize in Economic Sciences 2009",
+     "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-sen",
+   "name": "Amartya Sen",
+   "years": "born 1933",
+   "region": "India and the United States",
+   "text": "Showed that famines come from people losing the means to buy food, not only from shortage; Nobel Prize 1998.",
+   "sources": [
+    {
+     "cite": "Nobel Prize in Economic Sciences 1998",
+     "url": "https://www.nobelprize.org/prizes/economic-sciences/1998/sen/facts/"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-yunus",
+   "name": "Muhammad Yunus",
+   "years": "born 1940",
+   "region": "Bangladesh",
+   "text": "Founded Grameen Bank to make small loans to poor borrowers, mostly women; Nobel Peace Prize 2006. The results of microcredit are debated.",
+   "sources": [
+    {
+     "cite": "Nobel Peace Prize 2006",
+     "url": "https://www.nobelprize.org/prizes/peace/2006/yunus/facts/"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-singh",
+   "name": "Manmohan Singh",
+   "years": "1932–2024",
+   "region": "India",
+   "text": "As finance minister in 1991 he opened India’s economy; later prime minister from 2004 to 2014.",
+   "sources": [
+    {
+     "cite": "Britannica",
+     "url": "https://www.britannica.com/biography/Manmohan-Singh"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-rodney",
+   "name": "Walter Rodney",
+   "years": "1942–1980",
+   "region": "Guyana and Tanzania",
+   "text": "Argued in How Europe Underdeveloped Africa that colonial capitalism drained Africa’s wealth; assassinated in Guyana in 1980.",
+   "sources": [
+    {
+     "cite": "Britannica",
+     "url": "https://www.britannica.com/biography/Walter-Rodney"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-desoto",
+   "name": "Hernando de Soto",
+   "years": "born 1941",
+   "region": "Peru",
+   "text": "Argued that the poor hold vast assets they cannot use as capital because they lack legal property titles.",
+   "sources": [
+    {
+     "cite": "Institute for Liberty and Democracy",
+     "url": "https://www.ild.org.pe/"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-mccloskey",
+   "name": "Deirdre McCloskey",
+   "years": "born 1942",
+   "region": "United States",
+   "text": "Argues that the great enrichment came mostly from new respect for ordinary business people and innovation, not from trade or exploitation.",
+   "sources": [
+    {
+     "cite": "University of Illinois Chicago, Deirdre McCloskey",
+     "url": "https://www.deirdremccloskey.com/"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-chang",
+   "name": "Ha-Joon Chang",
+   "years": "born 1963",
+   "region": "South Korea and Britain",
+   "text": "Argues that rich countries grew rich using protection and state support, then told poorer countries not to.",
+   "sources": [
+    {
+     "cite": "SOAS University of London, Ha-Joon Chang",
+     "url": "https://www.soas.ac.uk/about/ha-joon-chang"
+    }
+   ]
+  },
+  {
+   "id": "cap-p-piketty",
+   "name": "Thomas Piketty",
+   "years": "born 1971",
+   "region": "France",
+   "text": "Built long-run data on income and wealth inequality and argues for global wealth taxes.",
+   "sources": [
+    {
+     "cite": "Paris School of Economics, Thomas Piketty",
+     "url": "https://www.parisschoolofeconomics.eu/en/piketty-thomas/"
+    }
+   ]
+  }
+ ]
+}
