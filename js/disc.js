@@ -36,7 +36,8 @@ Lab.pack = (id) => packs[id] || (packs[id] = fetch(`img/pk/${id}.jpg`).then((r) 
 Lab.packUrl = (id, buf, [o, n]) => { const k = id + ':' + o; return urls[k] || (urls[k] = URL.createObjectURL(new Blob([buf.slice(o, o + n)], { type: 'image/jpeg' }))); };
 
 // ---------- discipline page ----------
-Lab.routes.d = function (app, [id, part]) {
+Lab.routes.d = function (app, [id, ...partArr]) {
+  const part = partArr.join("-");
   const D = Lab.disc(id);
   if (!D) { location.hash = 'home'; return; }
   const F = Lab.FACULTIES.find((f) => f.id === D.fac);
@@ -44,15 +45,13 @@ Lab.routes.d = function (app, [id, part]) {
   Lab.setContext(`${D.name}: ${D.what}`);
   Lab.markDone('disc:' + D.id, 10, D.name);
   const sec = {};
-  const navItems = [['why', 'Why it exists'], ['people', 'People'], ['time', 'Timeline'], ['archive', 'Pictures'], ['film', 'Film'], ['books', 'Library'], ['docs', 'Documents'], ['data', 'Real data'], ['papers', 'Papers'], ['watch', 'Lectures'], ['labs', 'Hands-on'], ['news', 'News'], ['quiz', 'Quiz'], ['debate', 'Debate']];
   const hero = h('section', { class: 'hero' },
     h('a', { class: 'crumb', href: '#home' }, '← All disciplines'), h('span', { class: 'crumb', style: { opacity: 0.7 } }, '  ·  ' + F.name),
     h('div', { class: 'emoji', style: { marginTop: '10px' } }, D.e), h('h1', null, D.name), h('p', null, D.what),
     h('div', { class: 'row', style: { marginTop: '8px' } }, h('a', { class: 'btn sm primary', href: '#notebook', style: { textDecoration: 'none' } }, '📓 Research Notebook'),
       ['history', 'politics', 'economics', 'geopolitics', 'philosophy', 'sociology'].includes(D.id) ? h('a', { class: 'btn sm primary', href: '#history-modern', style: { textDecoration: 'none' } }, '🌐 Modern world 1700–2026 through the spectrum') : null));
-  const nav = h('div', { class: 'tabs', style: { position: 'sticky', top: '58px', zIndex: 20, background: 'color-mix(in srgb, var(--bg) 88%, transparent)', backdropFilter: 'blur(10px)', padding: '8px 0' } },
-    navItems.map(([k, n]) => h('button', { class: 'tab', onclick: () => sec[k] && sec[k].scrollIntoView({ behavior: 'smooth', block: 'start' }) }, n)));
   const body = h('div', { class: 'stack' });
+  const nav = h('div', { class: 'tabs disc-nav', style: { position: 'sticky', top: '58px', zIndex: 20, background: 'color-mix(in srgb, var(--bg) 92%, transparent)', backdropFilter: 'blur(10px)', padding: '8px 0', flexWrap: 'nowrap', overflowX: 'auto', whiteSpace: 'nowrap', scrollbarWidth: 'thin' } });
   app.append(hero, nav, body);
   const card = (k, title, ...kids) => { const c = h('div', { class: 'card', style: { scrollMarginTop: '120px' } }, h('h2', { style: { marginTop: 0 } }, title), ...kids); sec[k] = c; return c; };
 
@@ -113,6 +112,34 @@ Lab.routes.d = function (app, [id, part]) {
     h('div', { class: 'card', style: { boxShadow: 'none', background: 'var(--card2)' } }, h('span', { class: 'tag', style: { '--c': '#DC2626' } }, 'The other side'), h('p', { class: 'small' }, D.debate.b))),
     h('div', { class: 'row', style: { marginTop: '8px' } }, h('span', { class: 'small muted' }, 'Where the evidence stands:'), Lab.conf(D.debate.conf), h('span', { class: 'sp' }), h('button', { class: 'btn sm primary', onclick: () => Lab.ask(`Give me the strongest evidence on each side of: ${D.debate.q} Then say what would settle it.`, `${D.name} debate`) }, '✦ Dig into the evidence'))));
   else sec.debate = sec.labs;
+
+  // ---------- chapters: one part of the page at a time instead of one endless scroll ----------
+  const CH = [['overview', 'Overview', 'Why the field exists, the big questions, what it is good for and how it connects to the others.'],
+    ['deep', 'Deep dive', 'The field in depth: big ideas and how we know them, branches, methods, landmark cases, open debates and myths.'],
+    ['story', 'Story & people', `How the field unfolded, ${D.tl.length}+ dated events, and the ${D.people.length} people who built it.`],
+    ['evidence', 'Evidence', 'Real pictures, film, primary documents, datasets and the papers that changed the field.'],
+    ['library', 'Library', 'The essential books, a full shelf from both sides of every dispute, and complete texts to read here.'],
+    ['labs', 'Hands-on labs', `${arc.length} labs and explorers where you work on real problems with real data.`],
+    ['debate', 'Debates & news', 'Open questions with both sides, and this week’s research news with sources.'],
+    ['learn', 'Lectures & quiz', 'Free university lectures and a quick quiz on what you learned.']].filter(([k]) => k !== 'deep' || (Lab.DISCDIVES || {})[D.id]);
+  const SEC2CH = { why: 'overview', people: 'story', time: 'story', archive: 'evidence', film: 'evidence', docs: 'evidence', data: 'evidence', papers: 'evidence', books: 'library', labs: 'labs', news: 'debate', debate: 'debate', watch: 'learn', quiz: 'learn' };
+  const chEl = Object.fromEntries(CH.map(([k]) => [k, h('div', { class: 'stack', 'data-ch': k, style: { display: 'none' } })]));
+  const evNav = h('div', { class: 'row', style: { gap: '6px', flexWrap: 'wrap' } }); const EV = [['archive', 'Pictures'], ['film', 'Film'], ['docs', 'Documents'], ['data', 'Real data'], ['papers', 'Research papers']];
+  [...body.children].forEach((node) => { const k = Object.keys(sec).find((x) => sec[x] === node || node.contains(sec[x])); const c = SEC2CH[k] || 'overview'; chEl[c].append(node); });
+  const showEv = (k) => { EV.forEach(([x]) => { if (sec[x]) sec[x].style.display = x === k ? '' : 'none'; }); evNav.querySelectorAll('.chip').forEach((b) => b.classList.toggle('on', b.dataset.k === k)); };
+  EV.forEach(([k, n]) => evNav.append(h('span', { class: 'chip', 'data-k': k, onclick: () => showEv(k) }, n)));
+  chEl.evidence.prepend(h('div', { class: 'card', style: { padding: '10px 12px' } }, h('div', { class: 'tiny muted', style: { marginBottom: '6px' } }, 'Choose a kind of evidence'), evNav)); showEv('archive');
+  const dir = h('div', { class: 'grid g3' }, CH.filter(([k]) => k !== 'overview').map(([k, n, d]) => h('button', { class: 'card', style: { textAlign: 'left', cursor: 'pointer', borderTop: `4px solid ${D.c}`, display: 'flex', flexDirection: 'column', gap: '6px' }, onclick: () => showCh(k, true) },
+    h('b', { style: { fontSize: '17px' } }, n), h('span', { class: 'small muted', style: { lineHeight: 1.5 } }, d), h('span', { class: 'small', style: { color: D.c, fontWeight: 700, marginTop: 'auto' } }, 'Open →'))));
+  chEl.overview.prepend(h('div', null, h('div', { class: 'tiny', style: { letterSpacing: '.12em', textTransform: 'uppercase', fontWeight: 700, color: 'var(--muted)', margin: '4px 0 8px' } }, 'What’s inside'), dir));
+  body.replaceChildren(...CH.map(([k]) => chEl[k]));
+  function showCh(k, scroll) { if (!chEl[k]) k = 'overview'; CH.forEach(([x]) => { chEl[x].style.display = x === k ? '' : 'none'; }); nav.querySelectorAll('.tab').forEach((b) => b.classList.toggle('on', b.dataset.k === k));
+    history.replaceState(null, '', '#d-' + D.id + (k === 'overview' ? '' : '-' + k)); if (k === 'deep' && Lab.DISCDIVES[D.id] && !chEl.deep.dataset.done) { chEl.deep.dataset.done = 1; Lab.DISCDIVES[D.id].mount(chEl.deep, (part || '').replace(/^deep-?/, '')); }
+    if (scroll) window.scrollTo({ top: nav.getBoundingClientRect().top + window.scrollY - 62, behavior: 'smooth' }); }
+  CH.forEach(([k, n]) => nav.append(h('button', { class: 'tab', 'data-k': k, onclick: () => showCh(k, true) }, n)));
+  Lab.discShow = showCh; Lab.discChapter = (k) => chEl[k];
+  const legacy = { why: 'overview', people: 'story', time: 'story', archive: 'evidence', film: 'evidence', docs: 'evidence', data: 'evidence', papers: 'evidence', books: 'library', watch: 'learn', quiz: 'learn', news: 'debate' };
+  const first = (part || '').split('-')[0]; showCh(legacy[first] || first || 'overview', false); if (EV.some(([x]) => x === first)) showEv(first);
 
   // fill images once media is loaded
   Promise.all([Lab.mediaReady, Lab.loadDeep(), Lab.pack(D.id).catch(() => null)]).then(([, X, buf]) => {

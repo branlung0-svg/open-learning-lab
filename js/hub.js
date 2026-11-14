@@ -115,7 +115,7 @@ if (baseD) Lab.routes.d = (app, args) => {
       h('div', { class: 'row', style: { gap: '4px', marginBottom: '8px' } }, Object.entries(partners).sort((a, b) => b[1] - a[1]).map(([x]) => Lab.discChip(x))),
       h('div', { class: 'grid g3' }, C.map((c) => h('a', { href: '#connect-' + c.id, class: 'card', style: { boxShadow: 'none', background: 'var(--card2)', textDecoration: 'none', color: 'inherit' } }, h('b', null, c.e + ' ' + c.t), h('div', { class: 'tiny muted' }, c.q)))),
       paths.length ? h('p', { class: 'small', style: { marginBottom: 0 } }, 'Part of the learning paths: ', ...paths.map((p) => h('a', { href: '#home', style: { marginRight: '8px' } }, p.e + ' ' + p.t))) : null);
-    const hero = app.querySelector('.hero'); if (hero) hero.after(box); else app.prepend(box);
+    const ov = app.querySelector('[data-ch="overview"]'); if (ov) ov.append(box); else { const hero = app.querySelector('.hero'); if (hero) hero.after(box); else app.prepend(box); }
   }
   return r;
 };
@@ -134,5 +134,5 @@ const baseD2 = Lab.routes.d;
 if (baseD2 && Lab.SKILLS) Lab.routes.d = (app, args) => { const r = baseD2(app, args); const id = args && args[0];
   const own = Lab.SKILLS.filter((s) => s[3] === id); const borrowFrom = (Lab.FOUND || []).filter(([, b]) => b === id).map(([a]) => a); const borrowed = Lab.SKILLS.filter((s) => borrowFrom.includes(s[3])).slice(0, 6);
   const boxes = [own.length ? HUB.toolkit(own.map((s) => [s[0], '']), '🎁 Skills this field gives the others') : null, borrowed.length ? HUB.toolkit(borrowed.map((s) => [s[0], '']), '🧰 Skills this field borrows from its foundations') : null].filter(Boolean);
-  const anchor = app.querySelector('.hero'); if (anchor) { let after = anchor.nextSibling; boxes.forEach((b) => app.insertBefore(b, after)); }
+  const ov = app.querySelector('[data-ch="overview"]'); if (ov) boxes.forEach((b) => ov.append(b)); else { const anchor = app.querySelector('.hero'); if (anchor) { let after = anchor.nextSibling; boxes.forEach((b) => app.insertBefore(b, after)); } }
   return r; };
