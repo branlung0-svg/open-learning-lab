@@ -87,3 +87,9 @@ Open: the first loop run starts with CAP-0.
 - Offline: sw.js (registered only on github.io): HTML network-first, versioned assets cache-first, pictures/data cached (900-picture cap).
 - Media: country batch reviewed (57 dropped); worldwide places batch (~710 fetched, 98 dropped). Archive chips: India, Japan, Korea, Middle East, Africa, Latin America, Europe, Australia & Pacific, Architecture, Nature & geography.
 - Not done: true second reading level for all text (only tutor "explain simply"), Spanish, outside expert reviews (needs people).
+
+## 2026-11-14 (late night): countries, My Lab, translation
+- Countries (js/countries.js): #countries atlas of 196 countries (region tabs, search by name/capital/language, sort by people/area/saved); #country-<iso3> with tabs Overview (facts, neighbours, pictures), History (Lab cases + Modern timeline events mentioning it + tutor studies by period), Life in numbers (12 long-run series since 1800, compare with any country), Government & power, Places & pictures, Go deeper & sources. Data: tools/build_countries.py → data/countries.json + data/cs/<id>.json (mledoze/countries ODbL + Maddison, Gapminder, V-Dem, World Bank, UNDP, OWID).
+- Charts now use a proportional time axis (Lab.chartSVG).
+- My Lab (js/me.js, #me): saved items (☆ Save on dive sections and countries), recent pages, deep-dive progress, For you, text size / tutor depth / graphic pictures / language. Translation via Google Translate (page and picture captions).
+- Media: 853 country searches queued (capital, landscape, village, history; extra cities for big countries); new pictures saved at 1000 px q72 to keep the Pages site under 1 GB (now ~610 MB).

@@ -41,7 +41,7 @@
 
   const DOORS = [['History & power', 'Empires, revolutions, ideologies and how governments really work.', '#history-modern', ['revolutions', 'c:revolutions'], '#B91C1C'], ['The Archive', 'Hundreds of real photographs, posters, documents and films.', '#archive', ['workers'], '#92400E'],
     ['Science & space', 'From atoms to galaxies, with the experiments that proved it.', '#d-physics', ['c:earthspace-hubble-deep-field', 'c:earthspace-earthrise'], '#1D4ED8'], ['Life & medicine', 'Cells, evolution, germs, vaccines and the ethics of experiments.', '#d-biology', ['c:biology-micrographia'], '#16A34A'],
-    ['Mind & society', 'Psychology, sociology, anthropology, law.', '#d-sociology', ['c:sociology-booth-map'], '#7C3AED'], ['Arts & ideas', 'Philosophy, religion, literature, art and language.', '#d-arts', ['c:arts-great-wave'], '#CA8A04']];
+    ['Every country', 'All 196 countries: land, history, government and life in real data.', '#countries', ['c:a-nature-himalaya-everest-1', 'nature', 'cities'], '#0F766E'], ['Mind & society', 'Psychology, sociology, anthropology, law.', '#d-sociology', ['c:sociology-booth-map'], '#7C3AED'], ['Arts & ideas', 'Philosophy, religion, literature, art and language.', '#d-arts', ['c:arts-great-wave'], '#CA8A04']];
   Lab.homeDoors = () => { const g = h('div', { class: 'hw-doors' });
     Lab.commons().then((C) => { const P = pool(C); DOORS.forEach(([t, d, href, keys, c]) => { let m = null; for (const k of keys) { m = C[k] || (P.find(([kk, mm]) => (mm.tags || []).includes(k)) || [])[1]; if (m) break; }
       g.append(h('a', { class: 'hw-door', href, style: { '--c': c } }, m ? h('img', { src: Lab.mediaUrl(m.t || m.f), alt: '', loading: 'lazy' }) : null, h('div', { class: 'hw-door-shade' }), h('div', { class: 'hw-door-txt' }, h('b', null, t), h('span', null, d)))); }); });
@@ -63,7 +63,7 @@
       if (ks.length > n) { const tick = setInterval(() => { if (!document.body.contains(mosaic)) return clearInterval(tick); const im = tiles[Math.floor(Math.random() * tiles.length)]; const k = ks[i++ % ks.length];
         urlOf(k, C).then((u) => { if (!u) return; im.style.opacity = 0; setTimeout(() => { im.src = u; im.onload = () => { im.style.opacity = 1; }; }, 600); }); }, 3200); } });
     return el; };
-  Lab.enhanceHeroes = (sid, eid) => document.querySelectorAll('#app section.hero:not(.hero-photo)').forEach((el) => {
+  Lab.enhanceHeroes = (sid, eid) => document.querySelectorAll('#app section.hero:not(.hero-photo):not([data-own])').forEach((el) => {
     if (sid === 'd' && eid) return Lab.photoize(el, { prefix: 'c:' + eid + '-', tags: ['science'] });
     Lab.photoize(el, { tags: ROUTE_TAGS[sid] || SAFE }); });
   // a row of captioned photos; tap to enlarge

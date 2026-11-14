@@ -222,3 +222,18 @@ a:hover{text-decoration-thickness:2px}
 .search-hit{display:flex;flex-direction:column;gap:2px;padding:8px 10px;border-radius:10px;border:1px solid var(--line);text-decoration:none!important;color:inherit!important;line-height:1.35}
 .search-hit:hover{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 6%,transparent)}
 .search-hit .tiny{text-transform:none}
+
+/* countries */
+.ctry-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
+.ctry-card{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--card);text-decoration:none!important;color:inherit!important;min-width:0}
+.ctry-card:hover{border-color:var(--accent)}
+.ctry-flag{font-size:28px;line-height:1;flex:none}
+.ctry-txt{display:flex;flex-direction:column;min-width:0;flex:1}
+.ctry-txt b{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ctry-pop{flex:none;text-align:right}
+.ctry-facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.ctry-fact{display:flex;flex-direction:column;gap:2px;padding:8px 10px;border-radius:10px;background:var(--card2)}
+/* My Lab */
+.me-set{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding:10px 0;border-bottom:1px solid var(--line)}
+.me-set select{max-width:100%}
+.save-btn.on{color:#B45309;border-color:#F59E0B}

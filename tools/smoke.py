@@ -15,7 +15,7 @@ try:
         errs = []; pg.on('pageerror', lambda e: errs.append(str(e)[:200]))
         pg.route('**/*', lambda r: r.abort() if not r.request.url.startswith(base) else r.continue_())  # offline: test our code, not archives
         pg.goto(base + '#home'); pg.wait_for_timeout(2500)
-        routes = ['home', 'review', 'notes', 'about', 'privacy', 'changes', 'settings', 'learn', 'arcade']
+        routes = ['home', 'review', 'notes', 'about', 'privacy', 'changes', 'settings', 'learn', 'arcade', 'search-congo', 'reviewers', 'me', 'countries', 'country-usa', 'country-nga-data', 'country-chn-history', 'country-bra-power', 'country-fji-places', 'country-tuv-sources', 'archive-countries']
         routes += ['d-' + d for d in pg.evaluate("(Lab.DISC||[]).map(d=>d.id)")]
         routes += ['history-modern-' + k for k in pg.evaluate("((Lab.MODERN||{}).SUBS||[]).map(s=>s[0])")]
         # every section and case study of every deep dive

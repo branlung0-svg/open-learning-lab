@@ -11,7 +11,7 @@
       h('div', { style: { maxWidth: '1100px', width: '100%', color: '#fff' } },
         m.video ? h('video', { src: m.video, poster: Lab.mediaUrl(m.f), controls: true, autoplay: true, style: { width: '100%', maxHeight: '75vh', background: '#000' } }) : h('img', { src: Lab.mediaUrl(m.f), alt: m.cap || m.title, style: { width: '100%', maxHeight: '75vh', objectFit: 'contain' } }),
         h('p', { style: { margin: '10px 0 4px' } }, m.cap || m.title), m.desc ? h('p', { class: 'small', style: { opacity: 0.75, margin: '0 0 4px' } }, m.desc) : null,
-        h('div', { class: 'small', style: { opacity: 0.8 } }, [m.artist, m.license, m.date].filter(Boolean).join(' · '), ' · ', h('a', { href: m.page, target: '_blank', rel: 'noopener', style: { color: '#93C5FD' } }, 'Source and licence ↗')),
+        h('div', { class: 'small', style: { opacity: 0.8 } }, [m.artist, m.license, m.date].filter(Boolean).join(' · '), ' · ', h('a', { href: m.page, target: '_blank', rel: 'noopener', style: { color: '#93C5FD' } }, 'Source and licence ↗'), Lab.translateText ? [' · ', h('a', { href: Lab.translateText([m.cap || m.title, m.desc].filter(Boolean).join('\n\n')), target: '_blank', rel: 'noopener', style: { color: '#93C5FD' } }, 'Translate caption ↗')] : null),
         h('button', { class: 'btn sm', style: { marginTop: '10px' }, onclick: () => ov.remove() }, 'Close')));
     document.body.append(ov); const esc = (e) => { if (e.key === 'Escape') { ov.remove(); removeEventListener('keydown', esc); } }; addEventListener('keydown', esc);
   };
@@ -36,7 +36,8 @@
     Lab.commons().then(async (C) => {
       const gm = Lab.graphicMode ? Lab.graphicMode() : 'show';
       let ks = (keys || []).filter(Boolean);
-      if (opts.words && opts.words.length) { const re = new RegExp('\\b(' + opts.words.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'i');
+      if (opts.prefix) ks = ks.concat(Object.keys(C).filter((k) => k.startsWith(opts.prefix)).sort(() => Math.random() - 0.5));
+      if (opts.words && opts.words.length) { const re = new RegExp('\\b(' + opts.words.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')\\b', 'i');
         const yr = (m) => { const y = String(m.date || '').match(/\b(1[0-9]{3}|20[0-9]{2})\b/) || String(m.title || '').match(/\b(1[0-9]{3}|20[0-9]{2})\b/); return y ? +y[1] : null; };
         const hit = Object.entries(C).filter(([k, m]) => !ks.includes(k) && !k.includes('-x-') && re.test([m.title, m.cap].join(' ')) && !LEADERS.test(m.title + ' ' + (m.cap || '')) && !(opts.since && yr(m) && yr(m) < opts.since - 5) && !(opts.until && yr(m) && yr(m) > opts.until + 5)).map(([k]) => k);
         ks = ks.concat(hit.sort((a, b) => (b.startsWith('c:a-') - a.startsWith('c:a-')))); }
