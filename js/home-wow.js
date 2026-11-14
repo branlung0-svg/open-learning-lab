@@ -20,9 +20,9 @@
     Promise.all([Lab.commons(), Lab.MODERN && Lab.MODERN.imgIndex ? Lab.MODERN.imgIndex() : {}]).then(([C, M]) => {
       N[3][0] = Object.keys(C).length + Object.keys(M || {}).length; N.forEach(([n, , s], i) => count(els[i], n, s));
       const P = shuffle(pool(C)); let i = 0; const tiles = [];
-      for (let j = 0; j < 12; j++) { const im = h('img', { alt: '', loading: j < 6 ? 'eager' : 'lazy', src: (P[i++] || [, {}])[1].f || '' }); tiles.push(im); mosaic.append(h('div', null, im)); }
+      for (let j = 0; j < 12; j++) { const im = h('img', { alt: '', loading: j < 6 ? 'eager' : 'lazy', src: ((P[i++] || [, {}])[1].t || '') }); tiles.push(im); mosaic.append(h('div', null, im)); }
       const tick = setInterval(() => { if (!document.body.contains(mosaic)) return clearInterval(tick); const im = tiles[Math.floor(Math.random() * tiles.length)]; const m = (P[i++ % P.length] || [, {}])[1]; if (!m.f) return;
-        im.style.opacity = 0; setTimeout(() => { im.src = m.f; im.onload = () => { im.style.opacity = 1; }; }, 700); }, 2600);
+        im.style.opacity = 0; setTimeout(() => { im.src = m.t || m.f; im.onload = () => { im.style.opacity = 1; }; }, 700); }, 2600);
     });
     return hero;
   };
@@ -44,10 +44,10 @@
     ['Mind & society', 'Psychology, sociology, anthropology, law.', '#d-sociology', ['c:sociology-booth-map'], '#7C3AED'], ['Arts & ideas', 'Philosophy, religion, literature, art and language.', '#d-arts', ['c:arts-great-wave'], '#CA8A04']];
   Lab.homeDoors = () => { const g = h('div', { class: 'hw-doors' });
     Lab.commons().then((C) => { const P = pool(C); DOORS.forEach(([t, d, href, keys, c]) => { let m = null; for (const k of keys) { m = C[k] || (P.find(([kk, mm]) => (mm.tags || []).includes(k)) || [])[1]; if (m) break; }
-      g.append(h('a', { class: 'hw-door', href, style: { '--c': c } }, m ? h('img', { src: m.f, alt: '', loading: 'lazy' }) : null, h('div', { class: 'hw-door-shade' }), h('div', { class: 'hw-door-txt' }, h('b', null, t), h('span', null, d)))); }); });
+      g.append(h('a', { class: 'hw-door', href, style: { '--c': c } }, m ? h('img', { src: m.t || m.f, alt: '', loading: 'lazy' }) : null, h('div', { class: 'hw-door-shade' }), h('div', { class: 'hw-door-txt' }, h('b', null, t), h('span', null, d)))); }); });
     return g; };
 
   // photo headers on discipline cards
   Lab.homeSubjectPhotos = (root) => Lab.commons().then((C) => root.querySelectorAll('a.subj[href^="#d-"]').forEach((a) => { const id = a.getAttribute('href').slice(3); const k = Object.keys(C).find((x) => x.startsWith('c:' + id + '-') && !C[x].graphic); if (!k || a.querySelector('.subj-photo')) return;
-    a.prepend(h('div', { class: 'subj-photo', style: { backgroundImage: `url("${C[k].f}")` } })); }));
+    a.prepend(h('div', { class: 'subj-photo', style: { backgroundImage: `url("${C[k].t || C[k].f}")` } })); }));
 })();
