@@ -1,0 +1,440 @@
+[
+ {
+  "k": "c:petrograd-july-1917",
+  "q": "July Days 1917 Petrograd Nevsky Prospekt demonstration",
+  "cap": "Petrograd, July 1917: soldiers fire on a demonstration on Nevsky Prospekt during the “July Days”.",
+  "kind": "image"
+ },
+ {
+  "k": "c:soviet-5yr-poster",
+  "q": "Soviet poster five-year plan 1929",
+  "cap": "A Soviet poster promoting the first Five-Year Plan (1928–32).",
+  "kind": "image"
+ },
+ {
+  "k": "c:magnitogorsk",
+  "q": "Magnitogorsk construction 1930s",
+  "cap": "Magnitogorsk steel works under construction in the 1930s, a showcase of Stalin’s industrialization.",
+  "kind": "image"
+ },
+ {
+  "k": "c:belomorkanal",
+  "q": "White Sea Baltic Canal construction 1932",
+  "cap": "Building the White Sea–Baltic Canal (1931–33), dug largely by Gulag prisoners.",
+  "kind": "image"
+ },
+ {
+  "k": "c:holodomor-memorial",
+  "q": "Holodomor memorial Kyiv",
+  "cap": "The Holodomor memorial in Kyiv, remembering the 1932–33 famine in Ukraine.",
+  "kind": "image"
+ },
+ {
+  "k": "c:budapest-1956",
+  "q": "Hungarian Revolution 1956 Budapest",
+  "cap": "Budapest, 1956: the Hungarian uprising against Soviet-backed rule, crushed by Soviet tanks.",
+  "kind": "image"
+ },
+ {
+  "k": "c:prague-1968",
+  "q": "Prague 1968 Warsaw Pact invasion tanks",
+  "cap": "Prague, August 1968: Warsaw Pact troops end the “Prague Spring” reforms.",
+  "kind": "image"
+ },
+ {
+  "k": "c:berlin-wall-1961",
+  "q": "Berlin Wall construction 1961",
+  "cap": "Building the Berlin Wall, 1961.",
+  "kind": "image"
+ },
+ {
+  "k": "c:berlin-wall-1989",
+  "q": "Fall of the Berlin Wall 1989 crowd",
+  "cap": "The Berlin Wall opens, November 1989.",
+  "kind": "image"
+ },
+ {
+  "k": "c:tiananmen-1989",
+  "q": "Tiananmen Square protests 1989 students",
+  "cap": "Students in Tiananmen Square, Beijing, spring 1989.",
+  "kind": "image"
+ },
+ {
+  "k": "c:cultural-revolution-poster",
+  "q": "Cultural Revolution propaganda poster",
+  "cap": "A propaganda poster from China’s Cultural Revolution (1966–76).",
+  "kind": "image"
+ },
+ {
+  "k": "c:havana-1959",
+  "q": "Cuban Revolution 1959 Havana celebration",
+  "cap": "Havana, January 1959: crowds celebrate the revolution’s victory.",
+  "kind": "image"
+ },
+ {
+  "k": "c:mass-games",
+  "q": "Arirang Mass Games Pyongyang",
+  "cap": "The mass games in Pyongyang, North Korea: tens of thousands perform in perfect unison.",
+  "kind": "image"
+ },
+ {
+  "k": "c:soviet-queue",
+  "q": "Soviet Union 1990 empty store shelves queue",
+  "cap": "Empty shelves in a Soviet shop near the end of the USSR, 1990.",
+  "kind": "image"
+ },
+ {
+  "k": "c:solidarity-gdansk",
+  "q": "Solidarity strike Gdańsk shipyard 1980",
+  "cap": "The Gdańsk shipyard strike of August 1980, which created Solidarity, the first independent trade union in the Soviet bloc.",
+  "kind": "image"
+ },
+ {
+  "k": "c:cotton-mill-engraving",
+  "q": "cotton factory power loom weaving 1835 engraving",
+  "cap": "Power-loom weaving in a British cotton mill, an engraving from 1835.",
+  "kind": "image"
+ },
+ {
+  "k": "c:child-labor-hine",
+  "q": "Lewis Hine child labor cotton mill spinner",
+  "cap": "A child spinner in a US cotton mill, photographed by Lewis Hine for the campaign against child labour (c. 1908–12).",
+  "kind": "image"
+ },
+ {
+  "k": "c:brookes-slave-ship",
+  "q": "Brookes slave ship diagram 1788",
+  "cap": "The Brookes diagram (1788): how enslaved Africans were packed on a British slave ship. Abolitionists used it as evidence.",
+  "kind": "image"
+ },
+ {
+  "k": "c:east-india-house",
+  "q": "East India House London Leadenhall Street",
+  "cap": "East India House in London, headquarters of the East India Company.",
+  "kind": "image"
+ },
+ {
+  "k": "c:ford-assembly",
+  "q": "Ford assembly line 1913 Highland Park",
+  "cap": "Ford’s moving assembly line at Highland Park, Michigan, around 1913.",
+  "kind": "image"
+ },
+ {
+  "k": "c:nyse-1929",
+  "q": "crowd Wall Street 1929 stock market crash",
+  "cap": "Crowds on Wall Street during the 1929 crash.",
+  "kind": "image"
+ },
+ {
+  "k": "c:breadline",
+  "q": "Great Depression breadline 1930s",
+  "cap": "A breadline during the Great Depression.",
+  "kind": "image"
+ },
+ {
+  "k": "c:dust-bowl",
+  "q": "Dust Bowl dust storm 1935 farm",
+  "cap": "A dust storm engulfs a farm during the Dust Bowl, 1930s.",
+  "kind": "image"
+ },
+ {
+  "k": "c:bretton-woods",
+  "q": "Bretton Woods conference 1944 Mount Washington Hotel",
+  "cap": "The Bretton Woods conference (1944), which designed the postwar money system and created the IMF and World Bank.",
+  "kind": "image"
+ },
+ {
+  "k": "c:la-moneda-1973",
+  "q": "La Moneda bombing 11 September 1973",
+  "cap": "La Moneda palace in Santiago under attack during the military coup of 11 September 1973.",
+  "kind": "image"
+ },
+ {
+  "k": "c:lehman-2008",
+  "q": "Lehman Brothers headquarters 2008",
+  "cap": "Lehman Brothers headquarters, New York, around its collapse in September 2008.",
+  "kind": "image"
+ },
+ {
+  "k": "c:container-port",
+  "q": "container ship port cranes",
+  "cap": "A container port: shipping containers made world trade cheap after the 1960s.",
+  "kind": "image"
+ },
+ {
+  "k": "c:rana-plaza",
+  "q": "Rana Plaza collapse Savar 2013",
+  "cap": "The Rana Plaza factory building in Bangladesh after its collapse in April 2013.",
+  "kind": "image"
+ },
+ {
+  "k": "c:seoul-skyline",
+  "q": "Seoul skyline Han River",
+  "cap": "Seoul today: South Korea went from one of the poorest countries to a rich one in two generations.",
+  "kind": "image"
+ },
+ {
+  "k": "c:march-on-rome",
+  "q": "March on Rome 1922 blackshirts",
+  "cap": "Fascist Blackshirts during the March on Rome, October 1922.",
+  "kind": "image"
+ },
+ {
+  "k": "c:reichstag-fire",
+  "q": "Reichstag fire 1933",
+  "cap": "The Reichstag building burning, 27 February 1933. The Nazis used the fire to suspend civil rights.",
+  "kind": "image"
+ },
+ {
+  "k": "c:book-burning-1933",
+  "q": "Bücherverbrennung Berlin 1933 Opernplatz",
+  "cap": "Book burning in Berlin, May 1933: students burn works by Jewish, socialist and liberal authors.",
+  "kind": "image"
+ },
+ {
+  "k": "c:kristallnacht-shop",
+  "q": "Kristallnacht 1938 destroyed Jewish shop window Magdeburg",
+  "cap": "A Jewish-owned shop destroyed in the November 1938 pogrom (Kristallnacht).",
+  "kind": "image"
+ },
+ {
+  "k": "c:nuremberg-rally-grounds",
+  "q": "Zeppelinfeld Nuremberg rally grounds tribune",
+  "cap": "The Zeppelin Field tribune at the former Nazi party rally grounds in Nuremberg, now a documentation site.",
+  "kind": "image"
+ },
+ {
+  "k": "c:guernica-ruins",
+  "q": "Gernika ruins 1937 bombing",
+  "cap": "Guernica after the German and Italian bombing of 26 April 1937.",
+  "kind": "image"
+ },
+ {
+  "k": "c:warsaw-ghetto-wall",
+  "q": "Warsaw Ghetto wall",
+  "cap": "A surviving section of the Warsaw Ghetto wall.",
+  "kind": "image"
+ },
+ {
+  "k": "c:birkenau-gate",
+  "q": "Auschwitz Birkenau gate railway",
+  "cap": "The gate and railway at Auschwitz-Birkenau, the largest Nazi death camp.",
+  "kind": "image"
+ },
+ {
+  "k": "c:nuremberg-courtroom",
+  "q": "Nuremberg trials courtroom 600 1946",
+  "cap": "The Nuremberg trials, 1945–46: Nazi leaders tried before an international tribunal.",
+  "kind": "image"
+ },
+ {
+  "k": "c:jasenovac-flower",
+  "q": "Jasenovac Stone Flower memorial",
+  "cap": "The Stone Flower memorial at Jasenovac, Croatia.",
+  "kind": "image"
+ },
+ {
+  "k": "c:carnation-revolution",
+  "q": "Carnation Revolution 25 April 1974 Lisbon",
+  "cap": "Lisbon, 25 April 1974: the Carnation Revolution ends Portugal’s dictatorship.",
+  "kind": "image"
+ },
+ {
+  "k": "c:stolpersteine",
+  "q": "Stolpersteine Berlin",
+  "cap": "Stolpersteine (“stumbling stones”): small brass plaques outside the homes of people murdered by the Nazis.",
+  "kind": "image"
+ },
+ {
+  "k": "c:nanjing-memorial",
+  "q": "Nanjing Massacre Memorial Hall",
+  "cap": "The Memorial Hall of the Victims in the Nanjing Massacre.",
+  "kind": "image"
+ },
+ {
+  "k": "c:yekatit-monument",
+  "q": "Yekatit 12 monument Addis Ababa",
+  "cap": "The Yekatit 12 monument in Addis Ababa, remembering the 1937 massacre by Italian forces.",
+  "kind": "image"
+ },
+ {
+  "k": "c:cuelgamuros",
+  "q": "Valle de Cuelgamuros basilica cross",
+  "cap": "The Valley of Cuelgamuros (formerly Valley of the Fallen), Franco’s monument, built partly by political prisoners.",
+  "kind": "image"
+ },
+ {
+  "k": "c:us-capitol",
+  "q": "United States Capitol west front",
+  "cap": "The US Capitol, home of Congress (the Senate and the House of Representatives).",
+  "kind": "image"
+ },
+ {
+  "k": "c:us-senate-chamber",
+  "q": "United States Senate chamber",
+  "cap": "The US Senate chamber: 100 senators, two from each state.",
+  "kind": "image"
+ },
+ {
+  "k": "c:us-house-chamber",
+  "q": "United States House of Representatives chamber",
+  "cap": "The US House chamber: 435 voting members elected every two years.",
+  "kind": "image"
+ },
+ {
+  "k": "c:scotus-building",
+  "q": "Supreme Court of the United States building",
+  "cap": "The US Supreme Court building in Washington, DC.",
+  "kind": "image"
+ },
+ {
+  "k": "c:white-house",
+  "q": "White House north facade",
+  "cap": "The White House, residence and office of the US president.",
+  "kind": "image"
+ },
+ {
+  "k": "c:westminster",
+  "q": "Palace of Westminster River Thames",
+  "cap": "The Palace of Westminster in London, home of the UK Parliament.",
+  "kind": "image"
+ },
+ {
+  "k": "c:commons-chamber",
+  "q": "House of Commons chamber United Kingdom",
+  "cap": "The House of Commons chamber: government and opposition face each other.",
+  "kind": "image"
+ },
+ {
+  "k": "c:great-hall-people",
+  "q": "Great Hall of the People Beijing",
+  "cap": "The Great Hall of the People, Beijing, where China’s National People’s Congress meets.",
+  "kind": "image"
+ },
+ {
+  "k": "c:kremlin-senate",
+  "q": "Kremlin Senate building Moscow",
+  "cap": "The Senate building inside the Moscow Kremlin, seat of Soviet and now Russian leaders.",
+  "kind": "image"
+ },
+ {
+  "k": "c:mansudae-hall",
+  "q": "Mansudae Assembly Hall Pyongyang",
+  "cap": "The Mansudae Assembly Hall in Pyongyang, where North Korea’s Supreme People’s Assembly meets.",
+  "kind": "image"
+ },
+ {
+  "k": "c:capitolio-havana",
+  "q": "Capitolio Havana",
+  "cap": "The Capitolio in Havana, Cuba’s former parliament building.",
+  "kind": "image"
+ },
+ {
+  "k": "c:reichstag-dome",
+  "q": "Reichstag building dome Bundestag",
+  "cap": "The Reichstag building in Berlin, home of Germany’s Bundestag since 1999; the glass dome lets citizens look down on parliament.",
+  "kind": "image"
+ },
+ {
+  "k": "c:riksdag",
+  "q": "Riksdag building Stockholm Helgeandsholmen",
+  "cap": "The Riksdag building in Stockholm, Sweden’s parliament.",
+  "kind": "image"
+ },
+ {
+  "k": "c:ballot-box",
+  "q": "ballot box voting election polling station",
+  "cap": "Voting at a polling station.",
+  "kind": "image"
+ },
+ {
+  "k": "c:suffrage-1913",
+  "q": "woman suffrage procession 1913 Washington",
+  "cap": "The Woman Suffrage Procession in Washington, DC, 3 March 1913.",
+  "kind": "image"
+ },
+ {
+  "k": "c:lawrence-strike",
+  "q": "Lawrence textile strike 1912",
+  "cap": "The Lawrence textile strike of 1912 (“Bread and Roses”), Massachusetts.",
+  "kind": "image"
+ },
+ {
+  "k": "c:flint-sitdown",
+  "q": "Flint sit-down strike 1937",
+  "cap": "The Flint sit-down strike, 1936–37, which won union recognition at General Motors.",
+  "kind": "image"
+ },
+ {
+  "k": "c:selma-march",
+  "q": "Selma to Montgomery march 1965",
+  "cap": "The Selma to Montgomery marches for voting rights, 1965.",
+  "kind": "image"
+ },
+ {
+  "k": "c:montgomery-bus",
+  "q": "Montgomery bus boycott 1956 empty bus",
+  "cap": "The Montgomery bus boycott (1955–56).",
+  "kind": "image"
+ },
+ {
+  "k": "c:miners-strike-1984",
+  "q": "UK miners strike 1984 picket",
+  "cap": "The UK miners’ strike of 1984–85.",
+  "kind": "image"
+ },
+ {
+  "k": "c:salt-march",
+  "q": "Salt March 1930 Gandhi Dandi",
+  "cap": "The Salt March (1930), a mass campaign of civil disobedience against British rule in India.",
+  "kind": "image"
+ },
+ {
+  "k": "c:mutual-aid",
+  "q": "food bank volunteers",
+  "cap": "Volunteers at a food bank: mutual aid and community service.",
+  "kind": "image"
+ },
+ {
+  "k": "c:town-meeting",
+  "q": "New England town meeting",
+  "cap": "A New England town meeting, one of the oldest forms of direct democracy in the US.",
+  "kind": "image"
+ },
+ {
+  "k": "v:berlin-wall-film",
+  "q": "Berlin Wall 1989 opening",
+  "cap": "Archival film: the Berlin Wall opens, 1989.",
+  "kind": "video"
+ },
+ {
+  "k": "v:depression-film",
+  "q": "Great Depression 1930s unemployed newsreel",
+  "cap": "Archival film from the Great Depression.",
+  "kind": "video"
+ },
+ {
+  "k": "v:ford-film",
+  "q": "Ford Model T assembly line 1913 film",
+  "cap": "Archival film: early assembly-line production.",
+  "kind": "video"
+ },
+ {
+  "k": "v:nuremberg-trials-film",
+  "q": "Nuremberg trials 1945 film",
+  "cap": "Archival film of the Nuremberg trials.",
+  "kind": "video"
+ },
+ {
+  "k": "v:hungary-1956-film",
+  "q": "Hungarian Revolution 1956 film Budapest",
+  "cap": "Archival film: Budapest, 1956.",
+  "kind": "video"
+ },
+ {
+  "k": "v:march-washington-film",
+  "q": "March on Washington 1963 film",
+  "cap": "Archival film: the March on Washington for Jobs and Freedom, 1963.",
+  "kind": "video"
+ }
+]
