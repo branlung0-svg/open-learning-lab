@@ -2,6 +2,11 @@
 
 Newest first. Every run adds one entry at the top.
 
+## 2026-11-14 02:28 UTC · CAP-0
+Done: New `js/deepdive.js` renders any ideology deep dive from a data object (`Lab.deepdive.register`, registry `Lab.DEEPDIVES`); Marxism–Leninism now goes through it, with its page text moved to `Lab.MARX.ui`. Before/after HTML of all 15 Marxism routes on desktop and phone is byte-identical apart from the nav group (now "📚 Deep dives") and the new tab. New tab "Ideologies side by side" (`#history-modern-dives`): the same 8 questions per dive, a one-question filter, stacked layout on phones, planned dives with links to their short overviews, discipline links, review cards (`dv:*`) and archive seeds. Smoke test now opens every dive section and case study. How to add a dive: `research/cap-0.md`.
+Checks: fact-check 1 fix (all 8 entries confirmed against opened sources; figures recorded as verified in `data/claims/marxism-side.json`); balance 7 framing fixes (one figure aligned with the dive's own table); validate/smoke pass on the merged tree; Actions pass.
+Open: the side-by-side summaries draw on the dive's existing content, which a live session was also editing today; merged cleanly. Capitalism (CAP-2+) should register through the engine.
+
 ## 2026-11-14 04:30 UTC · LAB-1 (part 1, live session) and CAP-1 (in progress)
 Done: Rebuilt six of the most static labs as real-world missions, each with a goal, choices, a verdict and a sourced "reality check", in `js/arcade-real.js`, replacing the old versions by id:
 - battery vs fuel by vehicle
