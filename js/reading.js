@@ -91,7 +91,7 @@ const packOf = (g) => ((Lab.LIB || []).find((b) => b.g === g) || {}).pk;
 async function libText(g) {
   const pk = packOf(g);
   const b64 = pk != null ? (await (bookPacks[pk] ||= fetch(`data/bk/${pk}.txt`).then((r) => r.json())))[g].replace(/\s+/g, '')
-    : (await (await fetch(`data/lib/${g}.txt`)).text()).replace(/\s+/g, '');
+    : (await (await fetch(`data/lib/${g}.txt`).then((r) => (r.ok ? r : fetch('https://branlung0-svg.github.io/open-learning-lab/data/lib/' + g + '.txt')))).text()).replace(/\s+/g, '');
   const bin = atob(b64); const bytes = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
   let t = bytes[0] === 0x1f && bytes[1] === 0x8b ? await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text() : new TextDecoder().decode(bytes);
   const st = t.search(/\*\*\* ?START OF (THE|THIS) PROJECT GUTENBERG[^\n]*\n/i); if (st >= 0) t = t.slice(t.indexOf('\n', st) + 1);
