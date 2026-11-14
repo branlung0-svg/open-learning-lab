@@ -110,22 +110,37 @@ R.machine = (p, nav, arg, D) => {
 };
 
 R.cases = (p, nav, arg, D) => {
-  const X = D.data, U = D.ui;
-  let key = X.cases[arg] ? arg : X.caseOrder[0]; const box = h('div'); const chips = h('div', { class: 'row', style: { gap: '6px' } });
-  const draw = () => { chips.innerHTML = ''; X.caseOrder.forEach((k) => chips.append(h('span', { class: 'chip' + (k === key ? ' on' : ''), onclick: () => { key = k; history.replaceState(null, '', '#' + D.base + '-' + k); draw(); } }, X.cases[k].flag + ' ' + X.cases[k].n)));
+  const X = D.data, U = D.ui, L = U.lbl || {};
+  let key = X.cases[arg] ? arg : X.caseOrder[0]; const box = h('div'); const chips = h('div', { class: 'row', style: { gap: '6px', flexWrap: 'nowrap', overflowX: 'auto', paddingBottom: '2px' } });
+  const TABS = [['overview', '🖼️ Overview'], ['timeline', '📅 Timeline'], ['record', '⚖️ ' + ((L.gains || 'Achievements').replace(/^\W+\s*/, '')) + ' & ' + ((L.costs || 'costs').replace(/^\W+\s*/, '').toLowerCase())], ['tellings', '🗣️ Each side'], ['now', '🔴 Today & sources'], ['all', '☰ Show all']];
+  const SK = 'lab.casetab.' + D.base; let tab = 'overview'; try { tab = sessionStorage.getItem(SK) || 'overview'; } catch (e) {}
+  const pickCase = (k, scroll) => { key = k; history.replaceState(null, '', '#' + D.base + '-' + k); draw(); if (scroll) box.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
+  const draw = () => { chips.innerHTML = ''; X.caseOrder.forEach((k) => chips.append(h('span', { class: 'chip' + (k === key ? ' on' : ''), style: { flex: 'none', whiteSpace: 'nowrap' }, onclick: () => pickCase(k) }, X.cases[k].flag + ' ' + X.cases[k].n)));
+    const on = chips.querySelector('.chip.on'); if (on) on.scrollIntoView({ block: 'nearest', inline: 'center' });
     const c = X.cases[key]; box.innerHTML = '';
     const tl = h('div');
     c.tl.forEach(([y, t, cf]) => tl.append(h('div', { class: 'row', style: { flexWrap: 'nowrap', gap: '10px', alignItems: 'flex-start', padding: '7px 4px', borderBottom: '1px solid var(--line)' } }, h('b', { class: 'small', style: { width: '74px', flex: 'none' } }, y), h('span', { class: 'small', style: { flex: 1 } }, t), Lab.conf(CONF[cf] || cf))));
     const links = (U.caseLinks || []).filter(([, , only]) => !only || only.includes(key)).map(btn);
-    box.append(card(h('div', { class: 'row' }, h('span', { style: { fontSize: '30px' } }, c.flag), h('h2', { style: { margin: 0 } }, c.n), h('span', { class: 'tag', style: { '--c': '#475569' } }, c.years)), h('p', null, c.sum),
-      h('div', { class: 'grid g2' }, fig(c.img, '360px'), fig(c.img2, '360px'))),
-      card(h('h3', { style: { marginTop: 0 } }, '📅 Timeline'), tl),
-      card(h('h3', { style: { marginTop: 0 } }, (U.lbl || {}).power || '🏛️ Who holds power'), h('p', { class: 'small' }, c.power), h('div', { class: 'row', style: { gap: '6px' } }, links)),
-      h('div', { class: 'grid g2' }, card(h('h3', { style: { marginTop: 0, color: '#15803D' } }, (U.lbl || {}).gains || '📈 Achievements'), h('ul', { class: 'small' }, c.gains.map((g) => h('li', { style: { margin: '4px 0' } }, g)))), card(h('h3', { style: { marginTop: 0, color: '#DC2626' } }, (U.lbl || {}).costs || '📉 Costs'), h('ul', { class: 'small' }, c.costs.map((g) => h('li', { style: { margin: '4px 0' } }, g))))),
-      card(h('h3', { style: { marginTop: 0 } }, (U.lbl || {}).tellings || '🗣️ How each side tells it'), h('div', { class: 'grid g2' }, c.tellings.map(([w, v, m]) => sub(h('b', null, w), h('p', { class: 'small', style: { margin: '4px 0' } }, v), m ? h('p', { class: 'tiny', style: { color: '#B45309', margin: 0 } }, h('b', null, (U.lbl || {}).leaves || 'Leaves out: '), m) : null)))),
-      card(h('h3', { style: { marginTop: 0 } }, (U.lbl || {}).now || '🔴 Now'), h('p', { class: 'small' }, c.now), Lab.source(c.src),
-        h('button', { class: 'btn sm primary', style: { marginTop: '8px' }, onclick: () => Lab.ask(fill(U.caseAsk, { n: c.n }), c.n) }, '✦ Go deeper with the tutor'))); };
-  p.append(card(chips), box); draw();
+    const words = (X.caseWords || {})[key];
+    const parts = {
+      overview: () => [card(h('p', { style: { marginTop: 0 } }, c.sum), Lab.carousel([c.img, c.img2, ...(c.more || [])], { words, max: 24, since: +((String(c.years).match(/\d{4}/) || [])[0]) || null, until: /today|present|now/i.test(c.years) ? null : +((String(c.years).match(/(\d{4})\D*$/) || [])[1]) || null })),
+        card(h('h3', { style: { marginTop: 0 } }, L.power || '🏛️ Who holds power'), h('p', { class: 'small' }, c.power), h('div', { class: 'row', style: { gap: '6px' } }, links))],
+      timeline: () => [card(h('h3', { style: { marginTop: 0 } }, '📅 Timeline'), tl)],
+      record: () => [h('div', { class: 'grid g2' }, card(h('h3', { style: { marginTop: 0, color: '#15803D' } }, L.gains || '📈 Achievements'), h('ul', { class: 'small' }, c.gains.map((g) => h('li', { style: { margin: '4px 0' } }, g)))), card(h('h3', { style: { marginTop: 0, color: '#DC2626' } }, L.costs || '📉 Costs'), h('ul', { class: 'small' }, c.costs.map((g) => h('li', { style: { margin: '4px 0' } }, g)))))],
+      tellings: () => [card(h('h3', { style: { marginTop: 0 } }, L.tellings || '🗣️ How each side tells it'), h('div', { class: 'grid g2' }, c.tellings.map(([w, v, m]) => sub(h('b', null, w), h('p', { class: 'small', style: { margin: '4px 0' } }, v), m ? h('p', { class: 'tiny', style: { color: '#B45309', margin: 0 } }, h('b', null, L.leaves || 'Leaves out: '), m) : null))))],
+      now: () => [card(h('h3', { style: { marginTop: 0 } }, L.now || '🔴 Now'), h('p', { class: 'small' }, c.now), Lab.source(c.src),
+        h('button', { class: 'btn sm primary', style: { marginTop: '8px' }, onclick: () => Lab.ask(fill(U.caseAsk, { n: c.n }), c.n) }, '✦ Go deeper with the tutor'))],
+    };
+    const body = h('div', { class: 'stack' });
+    const bar = h('div', { class: 'subtabs', role: 'tablist' });
+    const showTab = (t) => { tab = parts[t] || t === 'all' ? t : 'overview'; try { sessionStorage.setItem(SK, tab); } catch (e) {} bar.querySelectorAll('button').forEach((b) => b.classList.toggle('on', b.dataset.t === tab));
+      body.replaceChildren(...(tab === 'all' ? Object.values(parts).flatMap((f) => f()) : parts[tab]())); };
+    TABS.forEach(([t, n]) => bar.append(h('button', { 'data-t': t, role: 'tab', onclick: () => showTab(t) }, n)));
+    const idx = X.caseOrder.indexOf(key), prev = X.caseOrder[idx - 1], next = X.caseOrder[idx + 1];
+    box.append(card(h('div', { class: 'row' }, h('span', { style: { fontSize: '30px' } }, c.flag), h('h2', { style: { margin: 0 } }, c.n), h('span', { class: 'tag', style: { '--c': '#475569' } }, c.years)), bar), body,
+      h('div', { class: 'case-nav' }, prev ? h('button', { class: 'btn sm', onclick: () => pickCase(prev, true) }, '← ' + X.cases[prev].flag + ' ' + X.cases[prev].n) : h('span'), next ? h('button', { class: 'btn sm primary', onclick: () => pickCase(next, true) }, X.cases[next].flag + ' ' + X.cases[next].n + ' →') : h('span')));
+    showTab(tab); };
+  p.append(card(h('div', { class: 'tiny muted', style: { marginBottom: '6px' } }, `${X.caseOrder.length} ${D.caseLabel || 'case studies'} · tap one`), chips), box); draw();
 };
 
 R.compare = (p, nav, arg, D) => { const X = D.data; p.append(card(h('h2', { style: { marginTop: 0 } }, D.ui.compareTitle), h('div', { style: { overflowX: 'auto' } }, h('table', { class: 'small', style: { borderCollapse: 'collapse', minWidth: '980px' } }, h('tr', null, h('th', { style: { textAlign: 'left', padding: '6px' } }, 'Question'), ...X.compareCols.map((c) => h('th', { style: { textAlign: 'left', padding: '6px', borderBottom: '2px solid var(--line)' } }, c))), X.compare.map((r) => h('tr', null, r.map((c, j) => h('td', { style: { padding: '6px', borderBottom: '1px solid var(--line)', verticalAlign: 'top', fontWeight: j ? 400 : 600, background: j && /^No\b/.test(c) ? 'rgba(220,38,38,.13)' : j && /^Yes/.test(c) ? 'rgba(22,163,74,.13)' : '' } }, c)))))), h('p', { class: 'small', style: { marginTop: '8px' } }, X.compareNote))); };
@@ -165,7 +180,7 @@ R.lineage = (p, nav, arg, D) => {
   const draw = () => { const i = ids.indexOf(cur), s = L.steps[i]; detail.innerHTML = '';
     detail.append(card(
       h('div', { class: 'tiny', style: { letterSpacing: '.12em', textTransform: 'uppercase', fontWeight: 700, color: D.color } }, `Step ${i + 1} of ${ids.length} · ${s.yrs} · ${s.where}`),
-      h('h2', { style: { margin: '6px 0 4px' } }, s.who), pickImgs(s.img, 2),
+      h('h2', { style: { margin: '6px 0 4px' } }, s.who), Lab.carousel(s.img, { words: s.words, max: 12 }),
       h('div', { style: { padding: '12px 14px', borderRadius: '12px', background: 'color-mix(in srgb, #F59E0B 12%, transparent)', margin: '8px 0 12px' } }, h('b', null, '🌍 The material conditions: '), h('span', { class: 'small' }, s.cond)),
       h('div', { style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '10px' } }, list('＋ What they added', MK.a[1], s.added), list('≈ What they changed', MK.c[1], s.changed), list('✓ What they kept', MK.k[1], s.kept)),
       h('p', { style: { marginTop: '12px' } }, h('b', null, 'What happened: '), s.result),
@@ -224,7 +239,11 @@ R.locker = (p, nav, arg, D, embed) => {
 };
 
 R.gallery = (p, nav, arg, D) => {
-  (D.data.gallery || []).forEach(([t, intro, keys]) => p.append(card(h('h2', { style: { marginTop: 0 } }, t), intro ? h('p', { class: 'small muted' }, intro) : null, Lab.cgrid(keys))));
+  const G = D.data.gallery || []; let gi = 0, grid = false; const bar = h('div', { class: 'subtabs' }); const body = h('div');
+  const mode = h('button', { class: 'btn sm', onclick: () => { grid = !grid; draw(); } });
+  const draw = () => { const [t, intro, keys] = G[gi]; bar.querySelectorAll('button').forEach((b, n) => b.classList.toggle('on', n === gi)); mode.textContent = grid ? '◀▶ One at a time' : '▦ See all as a grid';
+    body.replaceChildren(h('div', { class: 'row', style: { justifyContent: 'space-between', alignItems: 'baseline', gap: '8px' } }, h('h2', { style: { margin: '4px 0' } }, t), mode), intro ? h('p', { class: 'small muted' }, intro) : null, grid ? Lab.cgrid(keys) : Lab.carousel(keys, { max: 80 })); };
+  if (G.length) { G.forEach(([t], n) => bar.append(h('button', { onclick: () => { gi = n; draw(); } }, t))); p.append(card(h('div', { class: 'tiny muted' }, `${G.length} collections · ${G.reduce((a, g) => a + g[2].length, 0)} pictures and films`), bar, body)); draw(); }
   p.append(card(h('a', { class: 'btn sm primary', href: '#archive', style: { marginBottom: '8px', display: 'inline-block' } }, 'See hundreds more in the Archive →'), h('p', { class: 'tiny muted', style: { margin: 0 } }, 'Pictures and film are from Wikimedia Commons and are public domain or Creative Commons licensed; tap any one to enlarge it and see its author, licence and original page. Some show violence or its aftermath and are described factually.')));
 };
 

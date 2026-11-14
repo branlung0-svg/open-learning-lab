@@ -26,6 +26,50 @@
       box.append(media, h('figcaption', { class: 'small', style: { marginTop: '6px' } }, (opts.cap || m.cap || m.desc || m.title.replace(/\.[a-z0-9]+$/i, '')).slice(0, 220)), credit(m)); });
     return box;
   };
+
+  // A swipeable picture carousel: arrows, swipe, keyboard, counter, thumbnails; tap the picture to enlarge.
+  // keys: c:/v: archive keys or modern-pack keys (ev:, ml:, sys:). opts.words: also pull archive pictures whose
+  // title or description mentions any of these words. opts.max: cap on pictures (default 24).
+  const LEADERS = /\b(lenin|stalin|trotsky|hitler|mussolini|franco|mao zedong|castro|guevara|kim il|kim jong|tito|pinochet|allende|salazar|p[eé]tain|gandhi|nasser|sukarno|suharto|yeltsin|reagan|thatcher|churchill|roosevelt|truman|kennedy|nixon|ho chi minh|deng xiaoping|xi jinping|putin|leopold ii|portrait)\b/i;
+  Lab.carousel = (keys, opts = {}) => {
+    const root = h('div', { class: 'car', tabindex: '0' });
+    Lab.commons().then(async (C) => {
+      const gm = Lab.graphicMode ? Lab.graphicMode() : 'show';
+      let ks = (keys || []).filter(Boolean);
+      if (opts.words && opts.words.length) { const re = new RegExp('\\b(' + opts.words.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'i');
+        const yr = (m) => { const y = String(m.date || '').match(/\b(1[0-9]{3}|20[0-9]{2})\b/) || String(m.title || '').match(/\b(1[0-9]{3}|20[0-9]{2})\b/); return y ? +y[1] : null; };
+        const hit = Object.entries(C).filter(([k, m]) => !ks.includes(k) && !k.includes('-x-') && re.test([m.title, m.cap].join(' ')) && !LEADERS.test(m.title + ' ' + (m.cap || '')) && !(opts.since && yr(m) && yr(m) < opts.since - 5) && !(opts.until && yr(m) && yr(m) > opts.until + 5)).map(([k]) => k);
+        ks = ks.concat(hit.sort((a, b) => (b.startsWith('c:a-') - a.startsWith('c:a-')))); }
+      const items = [];
+      for (const k of [...new Set(ks)]) { if (items.length >= (opts.max || 24)) break;
+        if (/^[cv]:/.test(k)) { const m = C[k]; if (!m || (m.graphic && gm === 'hide')) continue; items.push({ k, m, src: Lab.mediaUrl(innerWidth < 760 ? (m.t || m.f) : m.f), thumb: Lab.mediaUrl(m.t || m.f), cap: (opts.caps && opts.caps[k]) || m.cap || m.desc || (m.title || '').replace(/\.[a-z0-9]+$/i, ''), graphic: m.graphic && gm === 'blur' }); }
+        else if (Lab.MODERN && Lab.MODERN.img) { const r = await Lab.MODERN.img(k); if (r) items.push({ k, src: r.url, thumb: r.url, cap: r.t, credit: r.c }); } }
+      if (!items.length) { root.remove(); return; }
+      let i = 0; const seen = new Set();
+      const img = h('img', { alt: '' }); const veil = h('button', { class: 'car-veil' }, '⚠️ War or violence: tap to view');
+      const count = h('span', { class: 'car-count' }); const cap = h('div', { class: 'small car-cap' }); const cred = h('div', { class: 'tiny muted' });
+      const thumbs = h('div', { class: 'car-thumbs' });
+      const frame = h('div', { class: 'car-frame' }, img, veil, count, h('span', { class: 'car-zoom' }, '⤢'));
+      const go = (j) => { i = (j + items.length) % items.length; const it = items[i]; img.src = it.src; img.alt = (it.cap || '').slice(0, 120);
+        const hidden = !!(it.graphic && !seen.has(i)); img.classList.toggle('blur', hidden); veil.style.display = hidden ? '' : 'none';
+        count.textContent = `${i + 1} / ${items.length}`; cap.textContent = (it.cap || '').slice(0, 260);
+        cred.replaceChildren(it.m ? credit(it.m) : h('span', null, it.credit || ''));
+        thumbs.querySelectorAll('button').forEach((b, n) => b.classList.toggle('on', n === i)); const tb = thumbs.children[i]; if (tb) tb.scrollIntoView({ block: 'nearest', inline: 'center' });
+        const nx = items[(i + 1) % items.length]; if (nx) { const pre = new Image(); pre.src = nx.src; } };
+      veil.onclick = (e) => { e.stopPropagation(); seen.add(i); go(i); };
+      img.onclick = () => { const it = items[i]; if (it.m) Lab.lightbox(Object.assign({}, it.m, { cap: it.cap })); else window.open(it.src, '_blank'); };
+      img.onerror = () => { const it = items[i]; if (it.m && !img.dataset.r) { img.dataset.r = 1; img.src = SITE + it.m.f; } };
+      img.onload = () => { img.dataset.r = ''; };
+      const many = items.length > 1;
+      if (many) { frame.append(h('button', { class: 'car-btn prev', 'aria-label': 'Previous picture', onclick: (e) => { e.stopPropagation(); go(i - 1); } }, '‹'), h('button', { class: 'car-btn next', 'aria-label': 'Next picture', onclick: (e) => { e.stopPropagation(); go(i + 1); } }, '›'));
+        items.forEach((it, n) => thumbs.append(h('button', { 'aria-label': 'Picture ' + (n + 1), onclick: () => go(n) }, h('img', { src: it.thumb, alt: '', loading: 'lazy', class: it.graphic ? 'blur' : '' }))));
+        let x0 = null; frame.addEventListener('touchstart', (e) => { x0 = e.touches[0].clientX; }, { passive: true });
+        frame.addEventListener('touchend', (e) => { if (x0 === null) return; const dx = e.changedTouches[0].clientX - x0; x0 = null; if (Math.abs(dx) > 40) go(i + (dx < 0 ? 1 : -1)); });
+        root.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight') go(i + 1); if (e.key === 'ArrowLeft') go(i - 1); }); }
+      root.append(opts.label !== false ? h('div', { class: 'tiny muted car-label' }, `📷 ${items.length} picture${many ? 's' : ''}${many ? ' · swipe or use the arrows · tap to enlarge' : ' · tap to enlarge'}`) : null, frame, cap, cred, many ? thumbs : null);
+      go(0); });
+    return root;
+  };
   // A grid of figures: keys = ['c:x', 'v:y', ...]
   Lab.cgrid = (keys, opts = {}) => h('div', { style: { display: 'grid', gridTemplateColumns: `repeat(auto-fill, minmax(${opts.min || '240px'}, 1fr))`, gap: '14px' } }, keys.map((k) => Lab.cfig(k, { max: opts.max || '200px' })));
 })();

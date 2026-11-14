@@ -73,3 +73,8 @@ Open: the first loop run starts with CAP-0.
 - Photo heroes on every page with a section.hero (Lab.photoize via Lab.enhanceHeroes in the router); deep dives get photo heroes; photo strips on discipline chapters and dive sections (Lab.photoStrip).
 - Media: +315 fetched, 27 dropped after contact-sheet review (portraits, modern politicians, off-topic), smallpox photos flagged graphic. Commons now 1,179 items.
 - Deep-dive routes now pass sub-arguments (#…-lineage-kim opens that step).
+
+## 2026-11-14 (evening 2): carousels and case sub-tabs
+- Lab.carousel (media.js): one picture at a time with arrows, swipe, keyboard, counter, thumbnails, tap to enlarge, graphic blur; pulls extra archive pictures by case words (js/case-words.js), matched on title/caption only, within the case's years, never leader portraits.
+- Case studies: sub-tabs (Overview with carousel, Timeline, Achievements & costs, Each side, Today & sources, Show all), remembered per dive; previous/next case buttons.
+- Lineage steps and dive galleries now use carousels (galleries: one tab per collection, with a grid toggle).

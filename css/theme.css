@@ -166,3 +166,27 @@ a:hover{text-decoration-thickness:2px}
 .pstrip-item.blur img{filter:blur(18px)}
 .pstrip-item.blur::after{content:"Tap to view";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:700}
 @media (max-width:700px){.pstrip{grid-template-columns:repeat(2,1fr)}}
+
+/* picture carousel (Lab.carousel) */
+.car{outline:none;margin:4px 0 10px}
+.car-label{margin-bottom:6px}
+.car-frame{position:relative;border-radius:14px;overflow:hidden;background:#0B0F17;aspect-ratio:16/10;max-height:460px;width:100%;user-select:none}
+.car-frame img{width:100%;height:100%;object-fit:contain;display:block;cursor:zoom-in;transition:filter .3s}
+.car-frame img.blur,.car-thumbs img.blur{filter:blur(22px) grayscale(.6)}
+.car-veil{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;padding:8px 14px;border-radius:999px;border:0;background:#fff;color:#111;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+.car-btn{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:42px;height:42px;border-radius:50%;border:0;background:rgba(15,23,42,.62);color:#fff;font-size:28px;line-height:40px;cursor:pointer;backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;padding:0 0 4px}
+.car-btn:hover{background:rgba(15,23,42,.85)}
+.car-btn.prev{left:10px}.car-btn.next{right:10px}
+.car-count{position:absolute;top:10px;right:10px;z-index:2;padding:3px 9px;border-radius:999px;background:rgba(15,23,42,.65);color:#fff;font-size:12px;font-weight:600}
+.car-zoom{position:absolute;bottom:10px;right:10px;z-index:2;padding:2px 8px;border-radius:8px;background:rgba(15,23,42,.6);color:#fff;font-size:14px;pointer-events:none}
+.car-cap{margin-top:8px;line-height:1.45}
+.car-thumbs{display:flex;gap:6px;overflow-x:auto;margin-top:8px;padding-bottom:4px;scrollbar-width:thin}
+.car-thumbs button{flex:none;width:64px;height:48px;padding:0;border-radius:8px;overflow:hidden;border:2px solid transparent;background:var(--card2);cursor:pointer;opacity:.65}
+.car-thumbs button.on{border-color:var(--accent);opacity:1}
+.car-thumbs img{width:100%;height:100%;object-fit:cover;display:block}
+@media (max-width:700px){.car-frame{aspect-ratio:4/3}.car-btn{width:38px;height:38px;font-size:24px}}
+/* sub-tabs inside a case study */
+.subtabs{display:flex;gap:6px;overflow-x:auto;padding:2px 0 4px;margin:10px 0 2px;scrollbar-width:thin}
+.subtabs button{flex:none;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:inherit;font:inherit;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.subtabs button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.case-nav{display:flex;justify-content:space-between;gap:8px;margin-top:4px}
