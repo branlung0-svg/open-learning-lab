@@ -311,7 +311,7 @@
     },
     {
      "cite": "The National Archives, 1833 Factory Act (education resource)",
-     "url": "https://www.nationalarchives.gov.uk/education/resources/1833-factory-act/"
+     "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/factoryact/"
     }
    ],
    "status": "verified",
@@ -423,10 +423,6 @@
     {
      "cite": "Britannica, Empire of Japan: The emergence of modern Japan",
      "url": "https://www.britannica.com/place/Empire-of-Japan/The-emergence-of-modern-Japan"
-    },
-    {
-     "cite": "Shippensburg University course page, Meiji Economic Development",
-     "url": "https://webspace.ship.edu/jkskaf/Mod.%20Japan/a11EconomicTrans.html"
     }
    ],
    "status": "verified",
@@ -521,8 +517,8 @@
    "conf": "Established",
    "sources": [
     {
-     "cite": "The Henry Ford, Moving assembly line",
-     "url": "https://www.thehenryford.org/collections-and-research/digital-resources/popular-topics/assembly-line/"
+     "cite": "Britannica, Assembly line",
+     "url": "https://www.britannica.com/technology/assembly-line"
     }
    ],
    "status": "drafted"
@@ -682,7 +678,7 @@
    "sources": [
     {
      "cite": "Konrad Adenauer Stiftung, Ludwig Erhard",
-     "url": "https://www.kas.de/en/web/geschichte-der-cdu/biogramm-detail/-/content/ludwig-erhard"
+     "url": "https://www.britannica.com/biography/Ludwig-Erhard"
     }
    ],
    "status": "drafted"
@@ -880,8 +876,8 @@
    "conf": "Established",
    "sources": [
     {
-     "cite": "International Labour Organization, The Rana Plaza accident and its aftermath",
-     "url": "https://www.ilo.org/resource/rana-plaza-accident-and-its-aftermath"
+     "cite": "ILO Social Protection Platform, Bangladesh: Rana Plaza and beyond",
+     "url": "https://www.social-protection.org/gimi/ShowProject.action?id=2860"
     }
    ],
    "status": "drafted"
@@ -1200,7 +1196,7 @@
    "sources": [
     {
      "cite": "Konrad Adenauer Stiftung",
-     "url": "https://www.kas.de/en/web/geschichte-der-cdu/biogramm-detail/-/content/ludwig-erhard"
+     "url": "https://www.britannica.com/biography/Ludwig-Erhard"
     }
    ]
   },
