@@ -50,7 +50,7 @@ def main():
         k, kind = w['k'], w.get('kind', 'image')
         if k in out and not w.get('force'): continue
         try:
-            titles = [w['file']] if w.get('file') else candidates(w['q'], kind)
+            titles = ([w['file']] if w.get('file') else []) + (candidates(w['q'], kind) if w.get('q') else [])
             if not titles: print('NONE', k); continue
             I = info(titles[:15], 1100)
             pick = None

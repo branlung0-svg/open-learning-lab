@@ -13,9 +13,10 @@
  },
  {
   "k": "c:magnitogorsk",
-  "q": "Magnitogorsk construction 1930s",
+  "q": "Magnitogorsk 1930",
   "cap": "Magnitogorsk steel works under construction in the 1930s, a showcase of Stalin’s industrialization.",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:belomorkanal",
@@ -25,9 +26,10 @@
  },
  {
   "k": "c:holodomor-memorial",
-  "q": "Holodomor memorial Kyiv",
+  "q": "Holodomor victims memorial Kyiv statue girl",
   "cap": "The Holodomor memorial in Kyiv, remembering the 1932–33 famine in Ukraine.",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:budapest-1956",
@@ -55,21 +57,24 @@
  },
  {
   "k": "c:tiananmen-1989",
-  "q": "Tiananmen Square protests 1989 students",
+  "q": "1989 Beijing student protest Tiananmen hunger strike",
   "cap": "Students in Tiananmen Square, Beijing, spring 1989.",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:cultural-revolution-poster",
-  "q": "Cultural Revolution propaganda poster",
+  "q": "dazibao big-character poster Cultural Revolution wall",
   "cap": "A propaganda poster from China’s Cultural Revolution (1966–76).",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:havana-1959",
-  "q": "Cuban Revolution 1959 Havana celebration",
+  "q": "Havana 1959",
   "cap": "Havana, January 1959: crowds celebrate the revolution’s victory.",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:mass-games",
@@ -79,9 +84,10 @@
  },
  {
   "k": "c:soviet-queue",
-  "q": "Soviet Union 1990 empty store shelves queue",
+  "q": "queue Moscow shop 1990",
   "cap": "Empty shelves in a Soviet shop near the end of the USSR, 1990.",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:solidarity-gdansk",
@@ -91,9 +97,10 @@
  },
  {
   "k": "c:cotton-mill-engraving",
-  "q": "cotton factory power loom weaving 1835 engraving",
+  "q": "power loom weaving Baines 1835",
   "cap": "Power-loom weaving in a British cotton mill, an engraving from 1835.",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:child-labor-hine",
@@ -103,9 +110,11 @@
  },
  {
   "k": "c:brookes-slave-ship",
-  "q": "Brookes slave ship diagram 1788",
+  "q": "Brookes slave ship plan stowage",
   "cap": "The Brookes diagram (1788): how enslaved Africans were packed on a British slave ship. Abolitionists used it as evidence.",
-  "kind": "image"
+  "kind": "image",
+  "force": true,
+  "file": "File:Slaveshipposter.jpg"
  },
  {
   "k": "c:east-india-house",
@@ -127,15 +136,17 @@
  },
  {
   "k": "c:breadline",
-  "q": "Great Depression breadline 1930s",
+  "q": "breadline 1930s New York unemployed",
   "cap": "A breadline during the Great Depression.",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:dust-bowl",
-  "q": "Dust Bowl dust storm 1935 farm",
+  "q": "dust storm 1935 Texas",
   "cap": "A dust storm engulfs a farm during the Dust Bowl, 1930s.",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:bretton-woods",
@@ -175,9 +186,10 @@
  },
  {
   "k": "c:march-on-rome",
-  "q": "March on Rome 1922 blackshirts",
+  "q": "Marcia su Roma 1922",
   "cap": "Fascist Blackshirts during the March on Rome, October 1922.",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:reichstag-fire",
@@ -193,9 +205,10 @@
  },
  {
   "k": "c:kristallnacht-shop",
-  "q": "Kristallnacht 1938 destroyed Jewish shop window Magdeburg",
+  "q": "Novemberpogrome 1938 Magdeburg",
   "cap": "A Jewish-owned shop destroyed in the November 1938 pogrom (Kristallnacht).",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:nuremberg-rally-grounds",
@@ -211,9 +224,10 @@
  },
  {
   "k": "c:warsaw-ghetto-wall",
-  "q": "Warsaw Ghetto wall",
+  "q": "fragment Warsaw ghetto wall Sienna street",
   "cap": "A surviving section of the Warsaw Ghetto wall.",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:birkenau-gate",
@@ -265,9 +279,11 @@
  },
  {
   "k": "c:us-capitol",
-  "q": "United States Capitol west front",
+  "q": "United States Capitol building Washington DC dome",
   "cap": "The US Capitol, home of Congress (the Senate and the House of Representatives).",
-  "kind": "image"
+  "kind": "image",
+  "force": true,
+  "file": "File:United States Capitol west front edit2.jpg"
  },
  {
   "k": "c:us-senate-chamber",
@@ -289,9 +305,11 @@
  },
  {
   "k": "c:white-house",
-  "q": "White House north facade",
+  "q": "White House Washington DC North Portico",
   "cap": "The White House, residence and office of the US president.",
-  "kind": "image"
+  "kind": "image",
+  "force": true,
+  "file": "File:White House north and south sides.jpg"
  },
  {
   "k": "c:westminster",
@@ -373,15 +391,17 @@
  },
  {
   "k": "c:montgomery-bus",
-  "q": "Montgomery bus boycott 1956 empty bus",
+  "q": "Montgomery Alabama bus boycott 1956",
   "cap": "The Montgomery bus boycott (1955–56).",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:miners-strike-1984",
-  "q": "UK miners strike 1984 picket",
+  "q": "miners strike 1984 picket",
   "cap": "The UK miners’ strike of 1984–85.",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:salt-march",
@@ -391,9 +411,10 @@
  },
  {
   "k": "c:mutual-aid",
-  "q": "food bank volunteers",
+  "q": "food bank volunteers sorting donated food",
   "cap": "Volunteers at a food bank: mutual aid and community service.",
-  "kind": "image"
+  "kind": "image",
+  "force": true
  },
  {
   "k": "c:town-meeting",
@@ -403,21 +424,24 @@
  },
  {
   "k": "v:berlin-wall-film",
-  "q": "Berlin Wall 1989 opening",
+  "q": "Berlin Wall 1989",
   "cap": "Archival film: the Berlin Wall opens, 1989.",
-  "kind": "video"
+  "kind": "video",
+  "force": true
  },
  {
   "k": "v:depression-film",
-  "q": "Great Depression 1930s unemployed newsreel",
+  "q": "unemployed 1930s",
   "cap": "Archival film from the Great Depression.",
-  "kind": "video"
+  "kind": "video",
+  "force": true
  },
  {
   "k": "v:ford-film",
-  "q": "Ford Model T assembly line 1913 film",
+  "q": "Ford factory 1920s",
   "cap": "Archival film: early assembly-line production.",
-  "kind": "video"
+  "kind": "video",
+  "force": true
  },
  {
   "k": "v:nuremberg-trials-film",
@@ -427,14 +451,16 @@
  },
  {
   "k": "v:hungary-1956-film",
-  "q": "Hungarian Revolution 1956 film Budapest",
+  "q": "Hungarian Revolution 1956",
   "cap": "Archival film: Budapest, 1956.",
-  "kind": "video"
+  "kind": "video",
+  "force": true
  },
  {
   "k": "v:march-washington-film",
-  "q": "March on Washington 1963 film",
+  "q": "March on Washington 1963",
   "cap": "Archival film: the March on Washington for Jobs and Freedom, 1963.",
-  "kind": "video"
+  "kind": "video",
+  "force": true
  }
 ]
