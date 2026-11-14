@@ -202,7 +202,15 @@
 
   // ---------- router ----------
   let cleanup = null;
+  // remember where you were on each page, so Back returns you to the same spot
+  let lastHash = null; const scrollMem = (() => { try { return JSON.parse(sessionStorage.getItem('lab-scroll') || '{}'); } catch (e) { return {}; } })();
+  let curY = 0;
+  const saveScroll = () => { if (lastHash) { scrollMem[lastHash] = curY; try { sessionStorage.setItem('lab-scroll', JSON.stringify(scrollMem)); } catch (e) {} } };
+  window.addEventListener('scroll', () => { if ((location.hash || '#home') === lastHash) curY = window.scrollY; }, { passive: true });
+  window.addEventListener('beforeunload', saveScroll);
+  { const H = window.history; const rs = H.replaceState.bind(H); H.replaceState = (...x) => { rs(...x); lastHash = location.hash || '#home'; }; }
   function route() {
+    saveScroll();
     if (cleanup) { try { cleanup(); } catch (e) {} cleanup = null; }
     Lab.stopSpeaking();
     const app = $('#app');
@@ -210,6 +218,9 @@
     const [sid, eid, ...rest] = raw.split('-');
     app.innerHTML = '';
     window.scrollTo(0, 0);
+    const want = scrollMem[location.hash || '#home'];
+    if (want > 0) { let tries = 0; const go = () => { if (document.body.scrollHeight >= want + innerHeight * 0.5 || tries > 12) { window.scrollTo(0, want); curY = window.scrollY; } else { tries++; setTimeout(go, 120); } }; setTimeout(go, 60); }
+    lastHash = location.hash || '#home'; curY = 0;
     if (Lab.routes[sid]) {
       document.documentElement.style.setProperty('--accent', '#3B82F6');
       try { cleanup = Lab.routes[sid](app, [eid, ...rest].filter(Boolean)) || null; }

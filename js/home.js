@@ -114,7 +114,24 @@ Lab.page('home', {
           h('h3', { style: { margin: 0, fontSize: '24px' } }, t), h('p', { class: 'small', style: { margin: 0, flex: 1, lineHeight: 1.55 } }, d),
           meta ? h('div', { class: 'tiny muted' }, meta) : null, h('span', { class: 'small', style: { fontWeight: 700, color: c } }, 'Start the deep dive →')); })),
       h('p', { class: 'tiny muted', style: { marginTop: '10px' } }, 'Each one uses the same sections, the same evidence standard and the same death-toll and gains tables, so you can compare them fairly. More are being built: liberalism, conservatism, socialism and social democracy, anarchism, nationalism, and “why does this happen?” investigations into racism, war, slavery, famine and financial crashes.'));
-    app.append(hero, finder, dives, ...(Lab.HUB ? Lab.HUB.top().flatMap((x) => [h('div', { style: { height: '14px' } }), x]) : []), h('div', { style: { height: '14px' } }), mission, review, arcade, truth, h('h2', { style: { margin: '30px 0 0', fontSize: '28px' } }, 'The disciplines'), h('p', { class: 'muted', style: { margin: '4px 0 0' } }, 'Every major field of human knowledge, each with its history, people, real documents and images, books, lectures, hands-on labs and a quiz.'), fac,
-      h('h2', { style: { margin: '30px 0 4px', fontSize: '28px' } }, 'Hands-on labs & tools'), h('p', { class: 'muted', style: { margin: '0 0 12px' } }, 'Maps, models, simulations, full texts, exam practice and the weekly news.'), grid, h('div', { style: { height: '14px' } }), stats, h('div', { style: { height: '14px' } }), how);
+    const top = Lab.HUB ? Lab.HUB.top() : []; const [journey, cont, doors, regions, mapEl, ...pathEls] = top;
+    const H2 = (t, d) => [h('h2', { style: { margin: '6px 0 4px', fontSize: '28px' } }, t), d ? h('p', { class: 'muted', style: { margin: '0 0 12px' } }, d) : null];
+    const TABS = [
+      ['start', 'Start here', () => [journey, cont, mission, review]],
+      ['subjects', 'All subjects', () => [...H2('The disciplines', 'Every major field of human knowledge, each with its history, people, real documents and images, books, lectures, hands-on labs and a quiz.'), fac]],
+      ['dives', 'Deep dives', () => [dives, regions]],
+      ['labs', 'Labs & tools', () => [arcade, ...H2('Hands-on labs & tools', 'Maps, models, simulations, full texts, exam practice and the weekly news.'), grid]],
+      ['paths', 'Connections & paths', () => [doors, mapEl, ...pathEls]],
+      ['truth', 'Truth & sources', () => [truth]],
+      ['you', 'Your progress', () => [stats, how]],
+    ];
+    const bar = h('div', { class: 'tabs home-tabs', style: { position: 'sticky', top: '58px', zIndex: 20, background: 'color-mix(in srgb, var(--bg) 92%, transparent)', backdropFilter: 'blur(10px)', padding: '8px 0', margin: '14px 0 10px', flexWrap: 'nowrap', overflowX: 'auto', whiteSpace: 'nowrap' } });
+    const panel = h('div', { class: 'stack' });
+    const want = (location.hash.match(/^#home-([a-z]+)/) || [])[1];
+    let cur = TABS.some(([k]) => k === want) ? want : (() => { try { return sessionStorage.getItem('lab-home-tab') || 'start'; } catch (e) { return 'start'; } })();
+    const show = (k, user) => { cur = k; bar.querySelectorAll('.tab').forEach((b) => b.classList.toggle('on', b.dataset.k === k)); panel.replaceChildren(...TABS.find((t) => t[0] === k)[2]().filter(Boolean));
+      try { sessionStorage.setItem('lab-home-tab', k); } catch (e) {} history.replaceState(null, '', '#home-' + k); if (user) window.scrollTo({ top: Math.min(window.scrollY, bar.getBoundingClientRect().top + window.scrollY - 60) }); };
+    TABS.forEach(([k, n]) => bar.append(h('button', { class: 'tab', 'data-k': k, onclick: () => show(k, true) }, n)));
+    app.append(hero, finder, bar, panel); show(TABS.some(([k]) => k === cur) ? cur : 'start');
   },
 });
