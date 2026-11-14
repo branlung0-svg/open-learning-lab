@@ -1,6 +1,6 @@
 # Build loop runbook
 
-A scheduled task runs this four times a day. Each run is a **fresh session with no memory**: this file, `plan/STANDARDS.md`, `plan/queue.md` and `plan/log.md` are its memory. Owen chose **automatic publishing**, so nothing waits for human review. That makes the checks below the only safety net: never skip them.
+A scheduled task runs this every hour. Each run is a **fresh session with no memory**: this file, `plan/STANDARDS.md`, `plan/queue.md` and `plan/log.md` are its memory. Owen chose **automatic publishing**, so nothing waits for human review. That makes the checks below the only safety net: never skip them.
 
 ## 0. Setup (about 5 minutes)
 1. Attach the repository with push access: `add_repo` with owner `branlung0-svg`, repo `open-learning-lab`, access `push`. Clone it as the tool instructs and work inside the clone. The Pages site is served from the `main` branch.
@@ -11,6 +11,8 @@ A scheduled task runs this four times a day. Each run is a **fresh session with 
 ## 1. Claim a unit
 - Open `plan/queue.md`. Take the first unit marked `[ ]`, or continue one marked `[~]` (in progress) by reading its notes in the log. **Skip any unit marked "live session: loop skip"**: a live chat session with Owen owns it. If such a unit has been marked that way for more than 3 days with nothing in the log, treat it as `[ ]`.
 - Mark it `[~]` with today's date, then commit and push right away ("claim <ID>"), so an overlapping run won't take it.
+- **Overlap:** runs start every hour, so another run may still be working. Skip any unit claimed `[~]` within the last 3 hours (check `git log` for the claim commit) and take the next free one.
+- **Visible first:** Owen judges progress by what he can see on the site. Every run must ship something visible: new pages, sections, labs or design changes. Research-only work goes alongside a visible result, never instead of one.
 - A unit should take about 1–2 hours. If one is clearly bigger, split it into parts in the queue and do part 1.
 
 ## 2. Research
