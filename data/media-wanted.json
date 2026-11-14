@@ -991,5 +991,565 @@
   "q": "Triangle Shirtwaist fire memorial",
   "cap": "A memorial to the 146 workers killed in the Triangle Shirtwaist fire (1911).",
   "kind": "image"
+ },
+ {
+  "k": "c:a-slavery-slave-market",
+  "q": "slave market auction 19th century engraving",
+  "n": 6,
+  "tags": [
+   "slavery"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-slavery-cotton-field-1860s",
+  "q": "enslaved people cotton field 1860s photograph",
+  "n": 6,
+  "tags": [
+   "slavery"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-slavery-brazil-slavery",
+  "q": "Marc Ferrez slaves coffee Brazil",
+  "n": 6,
+  "tags": [
+   "slavery"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-slavery-freedpeople",
+  "q": "freedmen 1865 photograph",
+  "n": 6,
+  "tags": [
+   "slavery"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-slavery-underground-railroad",
+  "q": "Underground Railroad abolitionist",
+  "n": 6,
+  "tags": [
+   "slavery"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-slavery-emancipation",
+  "q": "Emancipation Day celebration 1905",
+  "n": 6,
+  "tags": [
+   "slavery"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-peasants-prokudin",
+  "q": "Prokudin-Gorsky peasants",
+  "n": 6,
+  "tags": [
+   "peasants"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-peasants-russian-peasants",
+  "q": "Russian peasants 1900s photograph",
+  "n": 6,
+  "tags": [
+   "peasants"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-peasants-chinese-farmers",
+  "q": "Chinese farmers 1900s photograph",
+  "n": 6,
+  "tags": [
+   "peasants"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-peasants-irish-famine",
+  "q": "Irish famine 1847 illustration",
+  "n": 6,
+  "tags": [
+   "peasants"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-peasants-sharecroppers",
+  "q": "sharecroppers 1930s Farm Security Administration",
+  "n": 6,
+  "tags": [
+   "peasants"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-peasants-indian-villagers",
+  "q": "Indian village 19th century photograph",
+  "n": 6,
+  "tags": [
+   "peasants"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-workers-coal-miners",
+  "q": "coal miners 1900s photograph",
+  "n": 6,
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-workers-breaker-boys",
+  "q": "breaker boys coal Hine",
+  "n": 6,
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-workers-mill-girls",
+  "q": "textile mill workers 1910s photograph",
+  "n": 6,
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-workers-steelworkers",
+  "q": "steel workers 1930s photograph",
+  "n": 6,
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-workers-dockers",
+  "q": "dock workers 1900s photograph",
+  "n": 6,
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-workers-newsboys",
+  "q": "newsboys Hine 1910",
+  "n": 6,
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-revolutions-bastille",
+  "q": "storming of the Bastille painting",
+  "n": 6,
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-revolutions-barricade-1848",
+  "q": "1848 revolution barricade",
+  "n": 6,
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-revolutions-paris-commune",
+  "q": "Paris Commune 1871 barricade photograph",
+  "n": 6,
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-revolutions-mexican-revolution",
+  "q": "Mexican Revolution 1910s soldiers",
+  "n": 6,
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-revolutions-petrograd-1917",
+  "q": "Petrograd 1917 demonstration",
+  "n": 6,
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-revolutions-1989-revolutions",
+  "q": "1989 Prague Velvet Revolution crowd",
+  "n": 6,
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-ww1-trenches",
+  "q": "World War I trenches photograph",
+  "n": 6,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-ww2-ruins",
+  "q": "city ruins 1945 photograph",
+  "n": 6,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-korean-refugees",
+  "q": "Korean War refugees 1950",
+  "n": 6,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-blitz",
+  "q": "London Blitz 1940 photograph",
+  "n": 6,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-civil-war",
+  "q": "American Civil War camp photograph",
+  "n": 6,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-war-verdun",
+  "q": "Verdun 1916 battlefield",
+  "n": 6,
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-depression-fsa",
+  "q": "Farm Security Administration 1936 family",
+  "n": 6,
+  "tags": [
+   "depression"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-depression-hooverville",
+  "q": "Hooverville 1930s",
+  "n": 6,
+  "tags": [
+   "depression"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-depression-soup-kitchen",
+  "q": "soup kitchen 1930s",
+  "n": 6,
+  "tags": [
+   "depression"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-depression-dust-bowl-farm",
+  "q": "Dust Bowl farm 1936",
+  "n": 6,
+  "tags": [
+   "depression"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-empire-british-india",
+  "q": "British India 19th century photograph",
+  "n": 6,
+  "tags": [
+   "empire"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-empire-colonial-africa",
+  "q": "colonial Africa 1900s photograph",
+  "n": 6,
+  "tags": [
+   "empire"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-empire-opium-war",
+  "q": "Opium War painting",
+  "n": 6,
+  "tags": [
+   "empire"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-empire-indian-independence",
+  "q": "Indian independence movement 1930s protest",
+  "n": 6,
+  "tags": [
+   "empire"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-cities-victorian-slum",
+  "q": "Victorian London slum photograph",
+  "n": 6,
+  "tags": [
+   "cities"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-cities-tenement",
+  "q": "New York tenement 1900s",
+  "n": 6,
+  "tags": [
+   "cities"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-cities-ellis-island",
+  "q": "Ellis Island immigrants",
+  "n": 6,
+  "tags": [
+   "cities"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-cities-soviet-street",
+  "q": "Soviet Union 1950s street photograph",
+  "n": 6,
+  "tags": [
+   "cities"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-cities-shanghai-1930s",
+  "q": "Shanghai 1930s street",
+  "n": 6,
+  "tags": [
+   "cities"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-cities-havana-1950s",
+  "q": "Havana 1950s street",
+  "n": 6,
+  "tags": [
+   "cities"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-rights-suffragettes",
+  "q": "suffragettes 1910s march",
+  "n": 6,
+  "tags": [
+   "rights"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-rights-civil-rights",
+  "q": "civil rights movement 1960s march",
+  "n": 6,
+  "tags": [
+   "rights"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-rights-labor-march",
+  "q": "labor union march 1910s",
+  "n": 6,
+  "tags": [
+   "rights"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-rights-anti-apartheid",
+  "q": "anti-apartheid protest",
+  "n": 6,
+  "tags": [
+   "rights"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-soviet-life-kolkhoz",
+  "q": "kolkhoz 1930s photograph",
+  "n": 6,
+  "tags": [
+   "soviet-life"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-soviet-life-soviet-factory",
+  "q": "Soviet factory workers 1930s",
+  "n": 6,
+  "tags": [
+   "soviet-life"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-soviet-life-soviet-poster",
+  "q": "Soviet propaganda poster 1920s",
+  "n": 6,
+  "tags": [
+   "soviet-life"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-soviet-life-gulag",
+  "q": "Gulag camp barracks",
+  "n": 6,
+  "tags": [
+   "soviet-life"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-china-great-leap",
+  "q": "Great Leap Forward 1958",
+  "n": 6,
+  "tags": [
+   "china"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-china-china-commune",
+  "q": "people's commune China 1959",
+  "n": 6,
+  "tags": [
+   "china"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-china-red-guards",
+  "q": "Red Guards 1966",
+  "n": 6,
+  "tags": [
+   "china"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-china-china-reform",
+  "q": "Shenzhen 1980s",
+  "n": 6,
+  "tags": [
+   "china"
+  ],
+  "graphic": false,
+  "cap": ""
  }
 ]

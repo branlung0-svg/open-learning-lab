@@ -4,6 +4,30 @@
 (function () {
   const MIA = 'https://www.marxists.org';
   Lab.MARX = {
+  locker: {
+    docs: [
+      ['Marx and Engels, The Communist Manifesto', '1848', 'The founding text, short enough to read in an hour.', 'https://www.marxists.org/archive/marx/works/1848/communist-manifesto/'],
+      ['Lenin, The State and Revolution', '1917', 'Lenin’s plan for the state after revolution, written months before taking power.', 'https://www.marxists.org/archive/lenin/works/1917/staterev/'],
+      ['Khrushchev’s “Secret Speech”', '1956', 'The Soviet leader’s denunciation of Stalin’s crimes to the Party congress.', 'https://digitalarchive.wilsoncenter.org/document/khrushchevs-secret-speech-cult-personality-and-its-consequences-delivered-twentieth-party-congress'],
+      ['Mao Zedong, Quotations (the “Little Red Book”)', '1964', 'The most printed political book of the Cultural Revolution.', 'https://www.marxists.org/reference/archive/mao/works/red-book/'],
+      ['Wilson Center Cold War International History Project', '1917–1991', 'Thousands of translated documents from Soviet, Chinese, Cuban, North Korean and East European archives.', 'https://digitalarchive.wilsoncenter.org/'],
+      ['UN Commission of Inquiry on North Korea', '2014', 'The UN’s report documenting crimes against humanity in the DPRK, based on testimony.', 'https://www.ohchr.org/en/hr-bodies/hrc/co-idprk/reportofthecommissionofinquirydprk'],
+      ['Constitution of Cuba', '2019', 'The current constitution, naming the Communist Party the leading force of society and the state.', 'https://www.constituteproject.org/constitution/Cuba_2019'],
+    ],
+    data: [
+      ['Maddison Project Database', 'Income per person for communist and capitalist countries side by side, over two centuries.', 'https://www.rug.nl/ggdc/historicaldevelopment/maddison/'],
+      ['V-Dem (Varieties of Democracy)', 'Expert-coded measures of freedom of speech, elections and repression for every country since 1789.', 'https://v-dem.net/'],
+      ['Our World in Data: famines', 'Famine deaths worldwide with sources and ranges, including the Soviet and Chinese famines.', 'https://ourworldindata.org/famines'],
+      ['Our World in Data: life expectancy', 'Compare life expectancy in the USSR, China, Cuba and other countries over time.', 'https://ourworldindata.org/life-expectancy'],
+    ],
+    papers: [
+      ['The institutional causes of China’s Great Famine, 1959–1961', 'Meng, Qian and Yared, Review of Economic Studies', 2015, 'Rigid grain procurement left rural areas that produced the most food starving; policy, not just weather, caused the famine.', 'https://doi.org/10.1093/restud/rdv016'],
+      ['Stalin and the Soviet famine of 1932–33 revisited', 'Ellman, Europe-Asia Studies', 2007, 'Weighs the evidence on intent and estimates the death toll; argues Stalin’s policies turned a crisis into mass death.', 'https://doi.org/10.1080/09668130701291899'],
+      ['Allocation under dictatorship: research in Stalin’s archives', 'Gregory and Harrison, Journal of Economic Literature', 2005, 'What the opened Soviet archives reveal about how planning really worked: bargaining, hidden reserves and fear.', 'https://doi.org/10.1257/0022051054661477'],
+      ['Good-bye Lenin (or not?): the effect of communism on people’s preferences', 'Alesina and Fuchs-Schündeln, American Economic Review', 2007, 'Former East Germans favour state provision more than West Germans: living under communism shaped attitudes for decades.', 'https://doi.org/10.1257/aer.97.4.1507'],
+    ],
+  },
+  
   gallery: [
     ['Revolution and the Soviet state', 'Real photographs and posters from the Russian Revolution to the end of the USSR.', ['c:petrograd-july-1917', 'c:soviet-5yr-poster', 'c:belomorkanal', 'c:holodomor-memorial', 'c:kremlin-senate', 'c:solidarity-gdansk']],
     ['The Cold War divide', 'Walls, invasions and the end of the Soviet bloc.', ['c:berlin-wall-1961', 'c:prague-1968', 'c:berlin-wall-1989', 'v:berlin-wall-film']],

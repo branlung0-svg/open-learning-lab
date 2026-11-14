@@ -11,6 +11,8 @@ API = 'https://commons.wikimedia.org/w/api.php'
 UA = {'User-Agent': 'OpenLearningLab/1.0 (https://branlung0-svg.github.io/open-learning-lab/; educational, non-commercial)'}
 OK_LIC = re.compile(r'^(public domain|pd|cc0|cc[ -]by(-sa)?[ -]?\d|cc by(-sa)? \d)', re.I)
 s = requests.Session(); s.headers.update(UA)
+# skip pictures centred on named political figures (the Lab shows places, events and ordinary people)
+NAMES = re.compile(r'\b(lenin|stalin|trotsky|hitler|mussolini|franco|mao|zedong|castro|guevara|kim il|kim jong|roosevelt|churchill|truman|eisenhower|kennedy|nixon|reagan|thatcher|obama|trump|biden|putin|xi jinping|gandhi|nehru|mountbatten|pope|queen|king |prince|princess|president|portrait|selfie|ambassador|secretary|senator|minister)\b', re.I)
 
 def clean(x):
     x = re.sub(r'<[^>]+>', '', html.unescape(x or '')); return re.sub(r'\s+', ' ', x).strip()
@@ -53,23 +55,28 @@ def main():
             titles = ([w['file']] if w.get('file') else []) + (candidates(w['q'], kind) if w.get('q') else [])
             if not titles: print('NONE', k); continue
             I = info(titles[:15], 1100)
-            pick = None
+            picks = []; want = int(w.get('n', 1))
             for t in titles:
                 ii = I.get(t)
-                if ii and (lic := acceptable(ii, kind)): pick = (t, ii, lic); break
-            if not pick: print('NOFREE', k, titles[:3]); continue
-            t, ii, lic = pick; m = ii.get('extmetadata', {})
-            slug = re.sub(r'[^a-z0-9]+', '-', k.split(':', 1)[1].lower()).strip('-')
-            r = s.get(ii.get('thumburl') or ii['url'], timeout=60); r.raise_for_status()
-            im = Image.open(io.BytesIO(r.content)).convert('RGB'); im.thumbnail((1100, 1100))
-            im.save(f'img/c/{slug}.jpg', quality=80, optimize=True, progressive=True)
-            out[k] = {'f': f'img/c/{slug}.jpg', 'kind': kind, 'title': t[5:], 'cap': w.get('cap', ''),
-                      'desc': clean(m.get('ImageDescription', {}).get('value'))[:400], 'artist': clean(m.get('Artist', {}).get('value'))[:120],
-                      'license': lic, 'date': clean(m.get('DateTimeOriginal', {}).get('value'))[:40], 'page': ii.get('descriptionurl'),
-                      'w': im.width, 'h': im.height}
-            if kind == 'video': out[k]['video'] = ii['url']
-            n += 1; print('OK', k, '->', t, '|', lic)
-            time.sleep(0.5)
+                if not ii or (want > 1 and NAMES.search(t)): continue
+                if (lic := acceptable(ii, kind)): picks.append((t, ii, lic))
+                if len(picks) >= want: break
+            if not picks: print('NOFREE', k, titles[:3]); continue
+            for j, (t, ii, lic) in enumerate(picks):
+              kk = k if want == 1 else f'{k}-{j + 1}'
+              if kk in out and not w.get('force'): continue
+              m = ii.get('extmetadata', {}); k2 = kk
+              slug = re.sub(r'[^a-z0-9]+', '-', k2.split(':', 1)[1].lower()).strip('-')
+              r = s.get(ii.get('thumburl') or ii['url'], timeout=60); r.raise_for_status()
+              im = Image.open(io.BytesIO(r.content)).convert('RGB'); im.thumbnail((1100, 1100))
+              im.save(f'img/c/{slug}.jpg', quality=80, optimize=True, progressive=True)
+              out[k2] = {'f': f'img/c/{slug}.jpg', 'kind': kind, 'title': t[5:], 'cap': w.get('cap', '') if want == 1 else '',
+                        'desc': clean(m.get('ImageDescription', {}).get('value'))[:400], 'artist': clean(m.get('Artist', {}).get('value'))[:120],
+                        'license': lic, 'date': clean(m.get('DateTimeOriginal', {}).get('value'))[:40], 'page': ii.get('descriptionurl'),
+                        'w': im.width, 'h': im.height, 'tags': w.get('tags', []), 'graphic': bool(w.get('graphic'))}
+              if kind == 'video': out[k2]['video'] = ii['url']
+              n += 1; print('OK', k2, '->', t, '|', lic)
+              time.sleep(0.5)
         except Exception as e:
             print('ERR', k, e)
     json.dump(out, open('data/commons.json', 'w'), ensure_ascii=False, indent=1, sort_keys=True)

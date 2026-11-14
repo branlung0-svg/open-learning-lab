@@ -2,6 +2,12 @@
 // Figures come from data/claims/capitalism.json (independently checked) and research/capitalism.md (sourced brief).
 // Standard (plan/STANDARDS.md): every side at its strongest, settled facts stated plainly, no verdict from the site.
 Lab.CAP = {
+  charts: [
+    ['The Great Depression: US unemployment, 1929–1942', 'Share of the civilian labour force out of work. It peaked near 25% in 1933 and only fell below 5% with wartime mobilization.', [['Unemployment rate (%)', '#DC2626', [[1929, 3.2], [1930, 8.7], [1931, 15.9], [1932, 23.6], [1933, 24.9], [1934, 21.7], [1935, 20.1], [1936, 16.9], [1937, 14.3], [1938, 19.0], [1939, 17.2], [1940, 14.6], [1941, 9.9], [1942, 4.7]]]], 'Source: Stanley Lebergott’s estimates, Historical Statistics of the United States (US Census Bureau).', { unit: '%' }],
+    ['World life expectancy at birth, 1950–2023', 'Average years a newborn could expect to live, worldwide (rounded). The dip around 1960 is China’s Great Leap famine; the 2021 dip is COVID-19.', [['Life expectancy (years)', '#16A34A', [[1950, 46], [1960, 48], [1970, 57], [1980, 61], [1990, 64], [2000, 67], [2010, 70], [2019, 73], [2021, 71], [2023, 73]]]], 'Source: UN World Population Prospects, via <a href="https://ourworldindata.org/life-expectancy" target="_blank" rel="noopener">Our World in Data</a> (rounded).', {}],
+    ['US union membership, 1983–2024', 'Share of wage and salary workers who belong to a union. Membership halved in four decades.', [['Union members (%)', '#1D4ED8', [[1983, 20.1], [1990, 16.1], [2000, 13.4], [2010, 11.9], [2015, 11.1], [2020, 10.8], [2024, 9.9]]]], 'Source: <a href="https://www.bls.gov/news.release/union2.nr0.htm" target="_blank" rel="noopener">US Bureau of Labor Statistics</a>.', { unit: '%' }],
+  ],
+  
   locker: {
     docs: [
       ['Adam Smith, The Wealth of Nations', '1776', 'The founding text of market economics, including its warnings about monopoly and merchants.', 'https://oll.libertyfund.org/titles/smith-an-inquiry-into-the-nature-and-causes-of-the-wealth-of-nations-cannan-ed-vol-1'],
@@ -237,7 +243,7 @@ Lab.CAP = {
     machineTitle: 'How the machine works', machineIntro: 'The main institutions of a capitalist economy, each described as its defenders say it should work and as critics and evidence show it often does.',
     gapTitle: 'Promises and reality', toolsTitle: 'Tools from other disciplines',
     caseLinks: [['history-modern-marxism', 'Compare with Marxism–Leninism']], caseAsk: 'Explain the case of {n} under capitalism from several perspectives, with the evidence each side relies on.',
-    compareTitle: 'Comparing capitalist countries', gainsTitle: 'Gains: what the numbers show', gainsLinks: [['play-compound', 'Lab: compound growth']], tollsTitle: 'Costs and death tolls linked to capitalist economies and empires', tollsLinks: [['history-modern-marxism-evidence', 'Same table for Marxism–Leninism']],
+    compareTitle: 'Comparing capitalist countries', gainsTitle: 'Gains: what the numbers show', gainsFig: ['c:container-port', '260px'], gainsLinks: [['play-compound', 'Lab: compound growth']], tollsTitle: 'Costs and death tolls linked to capitalist economies and empires', tollsFig: ['c:child-labor-hine', '300px'], tollsLinks: [['history-modern-marxism-evidence', 'Same table for Marxism–Leninism']],
     predTitle: 'Predictions scorecard', labsToolsIntro: 'Skills from math, statistics and other fields that help you judge claims about capitalism.',
     debateAsk: 'Argue both sides of this question with evidence: {q}', claimsIntro: 'Decide whether each statement is true, false, misleading or contested, then read the evidence.',
     readingIntro: 'The most influential books for and against capitalism. Free full texts are linked where they are legally available.', readingLinks: [['history-modern-marxism-reading', 'Marxism–Leninism reading room']],

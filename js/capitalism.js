@@ -17,7 +17,7 @@ Lab.deepdive.register('capitalism', {
   years: 'From the 1500s; industrial capitalism from about 1760',
   data: X, claimsId: 'capitalism',
   labs: ['gdppower', 'lln', 'compound', 'sourcedetective'],
-  sections: [['start', 'Start'], ['locker', 'Evidence'], ['ideas', 'Big ideas'], ['tree', 'Family tree'], ['machine', 'How the machine works'], ['cases', 'Case studies'], ['gallery', 'Pictures & film'], ['timeline', 'Timeline & people'], ['compare', 'Compare'], ['evidence', 'Gains & costs'], ['labs', 'Labs & tools'], ['debates', 'Debates'], ['claims', 'Test the claims'], ['reading', 'Reading room']],
+  sections: [['start', 'Start'], ['ideas', 'Big ideas'], ['tree', 'Family tree'], ['machine', 'How the machine works'], ['cases', 'Case studies'], ['gallery', 'Pictures & film'], ['timeline', 'Timeline & people'], ['compare', 'Compare'], ['evidence', 'Evidence'], ['labs', 'Labs & tools'], ['debates', 'Debates'], ['claims', 'Test the claims'], ['reading', 'Reading room']],
   custom: { timeline },
   ui: X.ui,
   side: X.side,

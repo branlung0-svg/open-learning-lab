@@ -55,7 +55,7 @@ const discName = (d) => ((Lab.DISC || []).find((x) => x.id === d) || {}).name ||
 const R = {};
 R.start = (p, nav, arg, D) => {
   const X = D.data, U = D.ui;
-  const path = D.sections.some(([k]) => k === 'locker') && !U.path.some(([k]) => k === 'locker') ? [['locker', 'All the evidence in one place: original documents, data, research papers, pictures and film'], ...U.path] : U.path;
+  const path = D.sections.some(([k]) => k === 'evidence') && !U.path.some(([k]) => k === 'evidence') ? [['evidence', 'The evidence: numbers, charts, photographs, documents, data and research'], ...U.path] : U.path;
   const dir = h('div', { class: 'grid g3' }, path.map(([k, t]) => { const s = D.sections.find((x) => x[0] === k); if (!s) return null;
     return h('button', { class: 'card', style: { textAlign: 'left', cursor: 'pointer', borderTop: `4px solid ${D.color}`, display: 'flex', flexDirection: 'column', gap: '6px', boxShadow: 'none' }, onclick: () => nav(k) },
       h('b', { style: { fontSize: '16px' } }, s[1]), h('span', { class: 'small muted', style: { lineHeight: 1.5 } }, t), h('span', { class: 'small', style: { color: D.color, fontWeight: 700, marginTop: 'auto' } }, 'Open →')); }).filter(Boolean));
@@ -127,16 +127,31 @@ R.cases = (p, nav, arg, D) => {
 
 R.compare = (p, nav, arg, D) => { const X = D.data; p.append(card(h('h2', { style: { marginTop: 0 } }, D.ui.compareTitle), h('div', { style: { overflowX: 'auto' } }, h('table', { class: 'small', style: { borderCollapse: 'collapse', minWidth: '980px' } }, h('tr', null, h('th', { style: { textAlign: 'left', padding: '6px' } }, 'Question'), ...X.compareCols.map((c) => h('th', { style: { textAlign: 'left', padding: '6px', borderBottom: '2px solid var(--line)' } }, c))), X.compare.map((r) => h('tr', null, r.map((c, j) => h('td', { style: { padding: '6px', borderBottom: '1px solid var(--line)', verticalAlign: 'top', fontWeight: j ? 400 : 600, background: j && /^No\b/.test(c) ? 'rgba(220,38,38,.13)' : j && /^Yes/.test(c) ? 'rgba(22,163,74,.13)' : '' } }, c)))))), h('p', { class: 'small', style: { marginTop: '8px' } }, X.compareNote))); };
 
+// Simple line/bar chart. series: [[name, color, [[x, y], ...]]]; opts: { unit, bar }
+const chartSVG = (series, opts = {}) => { const W = 640, H = 260, L = 46, R = 14, T = 14, B = 34; const pts = series.flatMap(([, , d]) => d);
+  const num = pts.every((p) => typeof p[0] === 'number'); const xs = num ? [...new Set(pts.map((p) => p[0]))].sort((a, b) => a - b) : [...new Set(pts.map((p) => p[0]))]; const ymax = Math.max(...pts.map((p) => p[1])) * 1.1 || 1;
+  const X = (x) => L + (xs.length > 1 ? (xs.indexOf(x) / (xs.length - 1)) : 0.5) * (W - L - R); const Y = (y) => T + (1 - y / ymax) * (H - T - B);
+  const ns = 'http://www.w3.org/2000/svg'; const svg = document.createElementNS(ns, 'svg'); svg.setAttribute('viewBox', `0 0 ${W} ${H}`); svg.setAttribute('style', 'width:100%;height:auto;font:11px system-ui,sans-serif'); let g = '';
+  for (let i = 0; i <= 4; i++) { const v = ymax * i / 4; g += `<line x1="${L}" x2="${W - R}" y1="${Y(v)}" y2="${Y(v)}" stroke="#94A3B8" stroke-opacity=".25"/><text x="${L - 6}" y="${Y(v) + 4}" text-anchor="end" fill="#64748B">${v >= 10 ? Math.round(v) : v.toFixed(1)}</text>`; }
+  const step = Math.ceil(xs.length / 12); xs.forEach((x, i) => { if (i % step === 0 || i === xs.length - 1) g += `<text x="${X(x)}" y="${H - 12}" text-anchor="middle" fill="#64748B">${x}</text>`; });
+  series.forEach(([n, c, d]) => { if (opts.bar) { const bw = Math.max(4, (W - L - R) / xs.length * 0.6 / series.length); d.forEach(([x, y]) => { g += `<rect x="${X(x) - bw / 2}" y="${Y(y)}" width="${bw}" height="${H - B - Y(y)}" fill="${c}" opacity=".85"><title>${n} ${x}: ${y}${opts.unit || ''}</title></rect>`; }); }
+    else { g += `<polyline fill="none" stroke="${c}" stroke-width="2.5" points="${d.map(([x, y]) => X(x) + ',' + Y(y)).join(' ')}"/>`; d.forEach(([x, y]) => { g += `<circle cx="${X(x)}" cy="${Y(y)}" r="3.5" fill="${c}"><title>${n} ${x}: ${y}${opts.unit || ''}</title></circle>`; }); } });
+  svg.innerHTML = g; return svg; };
+const chartCard = ([t, cap, series, src, opts]) => card(h('h3', { style: { marginTop: 0 } }, '📈 ' + t), h('p', { class: 'small muted' }, cap), chartSVG(series, opts || {}),
+  h('div', { class: 'row', style: { gap: '12px', flexWrap: 'wrap', marginTop: '4px' } }, series.map(([n, c]) => h('span', { class: 'tiny' }, h('span', { style: { display: 'inline-block', width: '10px', height: '10px', background: c, borderRadius: '2px', marginRight: '4px' } }), n))), Lab.source(src));
+
 R.evidence = (p, nav, arg, D) => {
   const X = D.data, U = D.ui;
+  if (X.charts && X.charts.length) p.append(card(h('h2', { style: { marginTop: 0 } }, 'The numbers, charted'), h('p', { class: 'small muted' }, 'Hover or tap a point to see its value. Every chart lists its source.')), ...X.charts.map(chartCard));
   const tbl = (head, rows) => h('div', { style: { overflowX: 'auto' } }, h('table', { class: 'small', style: { borderCollapse: 'collapse', minWidth: '640px', width: '100%' } }, h('tr', null, ...head.map((t) => h('th', { style: { textAlign: 'left', padding: '6px', borderBottom: '2px solid var(--line)' } }, t))), rows.map((r) => h('tr', null, r.map((c, j) => h('td', { style: { padding: '6px', borderBottom: '1px solid var(--line)', verticalAlign: 'top', fontWeight: j === 1 ? 700 : j ? 400 : 600 } }, c))))));
-  if (X.gains) p.append(card(h('h2', { style: { marginTop: 0 } }, U.gainsTitle), tbl((U.lbl || {}).gainsCols || ['Measure', 'Change', 'Source', 'Caveat'], X.gains), h('div', { class: 'row', style: { gap: '6px', marginTop: '8px' } }, (U.gainsLinks || []).map(btn))));
+  if (X.gains) p.append(card(h('h2', { style: { marginTop: 0 } }, U.gainsTitle), figOf(U.gainsFig), tbl((U.lbl || {}).gainsCols || ['Measure', 'Change', 'Source', 'Caveat'], X.gains), h('div', { class: 'row', style: { gap: '6px', marginTop: '8px' } }, (U.gainsLinks || []).map(btn))));
   if (X.tolls) p.append(card(h('h2', { style: { marginTop: 0 } }, U.tollsTitle), figOf(U.tollsFig), tbl((U.lbl || {}).tollsCols || ['Event', 'Estimate', 'Main sources', 'Notes'], X.tolls), h('p', { class: 'small', style: { marginTop: '8px' } }, X.tollsNote), h('div', { class: 'row', style: { gap: '6px' } }, (U.tollsLinks || []).map(btn))));
   if (X.predictions) p.append(card(h('h2', { style: { marginTop: 0 } }, U.predTitle), h('div', { class: 'stack', style: { gap: '6px' } }, X.predictions.map(([c, v, n]) => h('div', { class: 'row', style: { flexWrap: 'nowrap', gap: '10px', alignItems: 'flex-start' } }, h('span', { class: 'tag', style: { '--c': vcol(v), flex: 'none', minWidth: '84px', textAlign: 'center' } }, v), h('div', null, h('b', { class: 'small' }, c), h('div', { class: 'small muted' }, n)))))));
+  R.locker(p, nav, arg, D, true);
 };
 
 // ---------- Evidence: primary documents, data, research, pictures and sourced claims, one kind at a time ----------
-R.locker = (p, nav, arg, D) => {
+R.locker = (p, nav, arg, D, embed) => {
   const X = D.data, L = X.locker || {};
   const fromReading = (X.reading || []).flatMap(([, it]) => it.filter((x) => x[1]).map(([t, u]) => [t, '', '', u]));
   const docs = L.docs || fromReading; const data = L.data || []; const papers = L.papers || [];
@@ -159,7 +174,7 @@ R.locker = (p, nav, arg, D) => {
           D.sections.some(([s]) => s === 'timeline') ? h('button', { class: 'btn sm primary', onclick: () => nav('timeline') }, 'Read every record with its sources →') : null); }); }
   };
   tabs.forEach(([k, n]) => chips.append(h('span', { class: 'chip', 'data-k': k, style: { flex: 'none', whiteSpace: 'nowrap' }, onclick: () => show(k) }, n)));
-  p.append(card(h('h2', { style: { marginTop: 0 } }, 'Evidence'), h('p', { class: 'small' }, 'Everything on these pages should be checkable. Here is the evidence in one place: the original documents, the data, the research, the pictures and the sourced records. Choose a kind of evidence.'), chips), box);
+  p.append(card(h('h2', { style: { marginTop: 0 } }, embed ? 'Check it yourself' : 'Evidence'), h('p', { class: 'small' }, 'Everything on these pages should be checkable: the original documents, the data, the research, the pictures and the sourced records. Choose a kind of evidence.'), chips), box);
   if (tabs.length) show(tabs[0][0]);
 };
 
@@ -223,7 +238,7 @@ Lab.deepdive = {
         h('div', { class: 'row', style: { gap: '22px', flexWrap: 'wrap' } }, facts.map(([n, l]) => h('div', null, h('div', { style: { fontFamily: 'var(--serif, Georgia, serif)', fontSize: '26px', fontWeight: 700, lineHeight: 1 } }, String(n)), h('div', { class: 'tiny muted' }, l)))));
       const navCard = h('div', { class: 'card dive-nav', style: { position: 'sticky', top: D.host === 'disc' ? '116px' : '58px', zIndex: 6, padding: '8px 10px' } }, nav);
       el.append(hero, navCard, panel);
-      const a = (arg || '').split('-')[0];
+      let a = (arg || '').split('-')[0]; if (a === 'locker') a = 'evidence';
       if (D.data.cases && D.data.cases[a]) show('cases', a); else show(D.sections.some(([k]) => k === a) ? a : 'start');
     };
     if (D.host === 'disc') { Lab.DISCDIVES = Lab.DISCDIVES || {}; Lab.DISCDIVES[D.disc] = { D, mount }; } else M.render[id] = mount;

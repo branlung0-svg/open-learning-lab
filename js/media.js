@@ -19,7 +19,7 @@
       const media = h('div', { style: { position: 'relative', cursor: 'zoom-in' }, onclick: () => Lab.lightbox(Object.assign({}, m, opts.cap ? { cap: opts.cap } : {})) },
         h('img', { src: m.f, alt: opts.cap || m.cap || m.title, loading: 'lazy', onerror: (e) => { const im = e.target; if (!im.dataset.r) { im.dataset.r = 1; im.src = SITE + m.f; } else box.style.display = 'none'; }, style: { width: '100%', height: opts.max || '300px', objectFit: opts.fit || 'cover', borderRadius: '10px', display: 'block', background: '#111' } }),
         m.video ? h('span', { style: { position: 'absolute', inset: 0, display: 'grid', placeItems: 'center', fontSize: '46px', color: '#fff', textShadow: '0 2px 10px #000' } }, '▶') : null);
-      box.append(media, h('figcaption', { class: 'small', style: { marginTop: '6px' } }, opts.cap || m.cap || m.title), credit(m)); });
+      box.append(media, h('figcaption', { class: 'small', style: { marginTop: '6px' } }, (opts.cap || m.cap || m.desc || m.title.replace(/\.[a-z0-9]+$/i, '')).slice(0, 220)), credit(m)); });
     return box;
   };
   // A grid of figures: keys = ['c:x', 'v:y', ...]
