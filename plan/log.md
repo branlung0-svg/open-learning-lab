@@ -38,3 +38,12 @@ Open: the first loop run starts with CAP-0.
 - deepdive.js: `host: 'disc'` dives mount in the discipline "Deep dive" chapter (#d-<id>-deep-<section>); label overrides via ui.lbl; start page is a section directory.
 - Discipline deep dives done: physics (js/disc-physics.js), chemistry (js/disc-chemistry.js), biology (js/disc-biology.js); registered in js/disc-dives.js.
 - Remaining discipline dives, in order: mathematics, statistics, computing, economics, psychology, earthspace, medicine, logic, politics, sociology, anthropology, law, philosophy, religion, linguistics, literature, arts, engineering, ethics, geopolitics (history already deep).
+
+## 2026-11-14 (live session, part 3)
+- Home page in tabs; Back restores scroll on every page (core.js scrollMem).
+- Media pipeline: tools/fetch_commons.py runs in GitHub Actions (media.yml) from data/media-wanted.json → img/c + data/commons.json (credits). Front end: js/media.js (Lab.cfig, Lab.cgrid, Lab.lightbox). Review picks with a contact sheet; drop off-target or public-figure-centred picks.
+- How power works (js/govern-data.js, js/govern.js): 9 governments as diagrams, freedom compared, citizen's toolkit (#history-modern-govern).
+- Pictures & film sections in the three ideology dives; case photos.
+- Lab: sourcedetective (js/arcade-evidence.js).
+- Artifact is at its 256 MB cap: publish code only; pictures load from the public site.
+- Next: more Commons media per dive and per discipline; UK→US empire module; more picture-based labs; remaining discipline dives.

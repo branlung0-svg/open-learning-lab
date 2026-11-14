@@ -23,7 +23,7 @@ Lab.deepdive.register('fascism', {
   color: '#7F1D1D',
   years: '1919–1945, and its legacy',
   data: X,
-  labs: ['reichstag', 'confint'],
+  labs: ['reichstag', 'confint', 'sourcedetective'],
   sections: [['start', 'Start'], ['ideas', 'Big ideas'], ['tree', 'Family tree'], ['machine', 'How it worked'], ['cases', 'Case studies'], ['gallery', 'Pictures & film'], ['timeline', 'Timeline & people'], ['compare', 'Compare'], ['evidence', 'Claims & costs'], ['resist', 'Resistance & collaboration'], ['labs', 'Labs & tools'], ['debates', 'Debates'], ['words', 'The words'], ['denial', 'Denial is not a side'], ['claims', 'Test the claims'], ['reading', 'Reading room']],
   custom: { timeline, resist, words, denial },
   ui: X.ui,
