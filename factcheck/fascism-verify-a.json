@@ -1,0 +1,372 @@
+[
+ {
+  "id": "fas-e-mussolini-1914",
+  "verdict": "fix",
+  "text": "Benito Mussolini, editor of the Italian Socialist Party’s newspaper Avanti!, breaks with the party by calling for Italy to enter the First World War, starts his own paper and is expelled. This turn from socialism to nationalism set him on the road to Fascism.",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, Benito Mussolini",
+    "url": "https://www.britannica.com/biography/Benito-Mussolini"
+   },
+   {
+    "cite": "World War I Document Archive (Brigham Young University Library), Benito Mussolini biography",
+    "url": "https://net.lib.byu.edu/~rdh7/wwi/bio/m/mussol.htm"
+   }
+  ],
+  "method": "Opened Britannica, Benito Mussolini; BYU WWI Document Archive biography of Mussolini",
+  "problem": "Core facts supported, but calling the 1914 break ‘usually treated as the starting point of Fascism’ overstates it (Fascism is usually dated from the 1919 founding). Softened; added his new paper; added a second source."
+ },
+ {
+  "id": "fas-e-fasci-1919",
+  "verdict": "fix",
+  "text": "Mussolini founds the Fasci Italiani di Combattimento (Italian Combat Leagues) in Milan with about a hundred followers, among them war veterans and former shock troops, Futurist artists and ex-socialists. The name comes from the fasces, the bundle of rods that stood for authority in ancient Rome, and gives the movement the word fascism.",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, fasci di combattimento",
+    "url": "https://www.britannica.com/topic/fasci-di-combattimento"
+   },
+   {
+    "cite": "AGI, Nicola Graziani, Cento anni fa nasceva il fascismo (23 March 2019)",
+    "url": "https://www.agi.it/politica/anniversario_fascismo-5162157/news/2019-03-19/"
+   }
+  ],
+  "method": "Opened Britannica, fasci di combattimento (March 1919, Milan, name from Roman fasces); AGI, Nicola Graziani, 23 March 2019 (date, Piazza San Sepolcro, about 100 founders)",
+  "problem": "‘Mostly war veterans and nationalists’ is not supported: the founders were about a hundred arditi (ex-shock troops), Futurists and ex-socialists. Britannica gives only ‘March 1919’, so added AGI for the exact date."
+ },
+ {
+  "id": "fas-e-nsdap-program",
+  "verdict": "supported",
+  "method": "Opened German History in Documents and Images, NSDAP Party Program (1920): Munich, 24 Feb 1920, DAP renamed NSDAP, Greater Germany, Versailles, German blood, nationalization of trusts"
+ },
+ {
+  "id": "fas-e-march-on-rome",
+  "verdict": "supported",
+  "method": "Opened Britannica, March on Rome: king refused to sign Facta’s state-of-siege decree, asked Mussolini to form a cabinet on 29 Oct. Britannica dates the march 28–30 Oct; 27–31 Oct (mobilization to Rome parade) is a common wider span and acceptable"
+ },
+ {
+  "id": "fas-e-beer-hall-putsch",
+  "verdict": "supported",
+  "method": "Opened USHMM, Beer Hall Putsch: 8–9 Nov 1923, clash with police at Odeonsplatz, treason conviction, Landsberg, dictated Mein Kampf vol. 1"
+ },
+ {
+  "id": "fas-e-matteotti",
+  "verdict": "supported",
+  "method": "Opened Britannica, Matteotti Crisis: June 1924 murder by Fascist thugs after denouncing election violence; 3 Jan 1925 speech accepting responsibility; move to dictatorship"
+ },
+ {
+  "id": "fas-e-election-1928",
+  "verdict": "supported",
+  "method": "Opened USHMM, The Nazi Rise to Power: 20 May 1928, 2.6 percent"
+ },
+ {
+  "id": "fas-e-libya-camps",
+  "verdict": "fix",
+  "text": "To crush resistance in Cyrenaica (eastern Libya), Italian forces deport 100,000–110,000 people, mostly women, children and the elderly, with their herds into desert concentration camps. Historian Ali Abdullatif Ahmida says about two-thirds of them died there; Italian historian Emilio Gentile counts about 50,000 deaths in the repression, and the exact toll is uncertain.",
+  "sources": [
+   {
+    "cite": "MERIP, Genocide, historical amnesia and Italian settler colonialism in Libya: an interview with Ali Abdullatif Ahmida (2022)",
+    "url": "https://www.merip.org/2022/05/genocide-historical-amnesia-and-italian-settler-colonialism-in-libya-an-interview-with-ali-abdullatif-ahmida/"
+   },
+   {
+    "cite": "Wikipedia, Italian concentration camps in Libya (secondary)",
+    "url": "https://en.wikipedia.org/wiki/Italian_concentration_camps_in_Libya"
+   }
+  ],
+  "method": "Opened MERIP interview with Ahmida (100,000–110,000 deported with herds; two-thirds perished); Wikipedia, Italian concentration camps in Libya (1929–1934; mostly women, children, elderly; Gentile about 50,000)",
+  "problem": "The ‘40,000 to 70,000’ range is unattributed and its low end was not found on any opened page (Wikipedia gives 50,000–70,000, unsourced). Replaced with named estimates. Wikipedia remains a secondary placeholder; Ahmida’s 2020 book is still the better replacement."
+ },
+ {
+  "id": "fas-e-election-1930",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Nazi Rise to Power",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power"
+   },
+   {
+    "cite": "Deutscher Bundestag, Kalenderblatt: Reichstagswahl 5 March 1933 (2023)",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2023/kw09-kalenderblatt-wahlen33-544990"
+   }
+  ],
+  "method": "Opened USHMM, The Nazi Rise to Power (18 percent); Bundestag Kalenderblatt 2023 (18.3 percent)",
+  "problem": "Source addition only: the official 18.3 figure is not on the USHMM page; added the Bundestag page that gives it."
+ },
+ {
+  "id": "fas-e-mukden",
+  "verdict": "supported",
+  "method": "Opened Britannica, Mukden Incident: 18 Sept 1931, railway explosion staged by Kwantung Army officers as pretext, Manchukuo set up (the 1932 date is not on the page but is standard)"
+ },
+ {
+  "id": "fas-e-election-july-1932",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Nazi Rise to Power",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power"
+   },
+   {
+    "cite": "Deutscher Bundestag, Kalenderblatt: Reichstagswahl 5 March 1933 (2023)",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2023/kw09-kalenderblatt-wahlen33-544990"
+   },
+   {
+    "cite": "Deutsches Historisches Museum, LeMO: Reichstagswahl 1933",
+    "url": "https://www.dhm.de/lemo/kapitel/ns-regime/etablierung-der-ns-herrschaft/reichstagswahl-1933.html"
+   }
+  ],
+  "method": "Opened USHMM, The Nazi Rise to Power (37 percent; no party ever won an absolute majority); Bundestag Kalenderblatt 2023 (37.3 percent); DHM LeMO (Nov 1932 was the last free Reichstag election)",
+  "problem": "Source addition only: the official 37.3 figure and ‘last free election’ framing come from the added Bundestag and DHM pages, not USHMM."
+ },
+ {
+  "id": "fas-e-election-nov-1932",
+  "verdict": "supported",
+  "method": "Opened USHMM, The Nazi Rise to Power: 33 percent, 4 points lower than July (consistent with 37.3 minus 4.2 = 33.1); the exact 33.1 was not found on an opened page"
+ },
+ {
+  "id": "fas-e-hitler-appointed",
+  "verdict": "supported",
+  "method": "Opened USHMM, The Nazi Rise to Power: Hindenburg appointed Hitler 30 Jan 1933 heading a coalition with the DNVP, Papen vice chancellor"
+ },
+ {
+  "id": "fas-e-reichstag-fire",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Reichstag Fire",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-reichstag-fire"
+   },
+   {
+    "cite": "USHMM Holocaust Encyclopedia, Reichstag Fire Decree",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/reichstag-fire-decree"
+   },
+   {
+    "cite": "Bundeszentrale für politische Bildung (bpb), Reichstagsbrand: auf dem Weg in die Diktatur",
+    "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/265402/reichstagsbrand-auf-dem-weg-in-die-diktatur/"
+   }
+  ],
+  "method": "Opened USHMM, The Reichstag Fire and Reichstag Fire Decree (rights suspended, mass arrest of Communists, no numbers); bpb, Reichstagsbrand: auf dem Weg in die Diktatur (several thousand arrested within hours, mostly Communists)",
+  "problem": "Source addition only: ‘thousands’ arrested is not on either USHMM page; bpb supports it."
+ },
+ {
+  "id": "fas-e-election-1933",
+  "verdict": "fix",
+  "text": "In the last German election with more than one party for 16 years, held amid arrests and intimidation after the Reichstag fire, the Nazis win almost 44 percent (43.9 in the official count). They reach a majority only together with their conservative nationalist partners.",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Nazi Rise to Power",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power"
+   },
+   {
+    "cite": "Deutscher Bundestag, Kalenderblatt: Reichstagswahl 5 March 1933 (2023)",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2023/kw09-kalenderblatt-wahlen33-544990"
+   },
+   {
+    "cite": "Deutsches Historisches Museum, LeMO: Reichstagswahl 1933",
+    "url": "https://www.dhm.de/lemo/kapitel/ns-regime/etablierung-der-ns-herrschaft/reichstagswahl-1933.html"
+   }
+  ],
+  "method": "Opened USHMM, The Nazi Rise to Power (almost 44 percent); Bundestag Kalenderblatt 2023 (43.9 percent; last vote with more than one party competing for 16 years; NSDAP depended on the DNVP); DHM LeMO (terror, KPD driven underground; majority only with the Kampffront Schwarz-Weiß-Rot)",
+  "problem": "‘Last multi-party election before the war’ is wrong in framing: it was the last multi-party national election in Germany for 16 years (until 1949), not just before the war. ‘Coalition passes 50 percent’ kept in substance as ‘majority only with partners’ (the exact combined share was not on an opened page). Added sources."
+ },
+ {
+  "id": "fas-e-enabling-act",
+  "verdict": "fix",
+  "text": "The Reichstag passes the Enabling Act, letting the government make laws without parliament. It wins the two-thirds majority it needs after all 81 Communist deputies and 26 Social Democrats are kept from their seats and SA and SS men fill the hall; only the Social Democrats vote against.",
+  "method": "Opened USHMM, The Enabling Act: 23 March 1933; 81 Communists and 26 of 120 Social Democrats kept from their seats; SA and SS in the chamber; only SPD voted no",
+  "problem": "‘The rules were manipulated’ is not on the cited page, and ‘passes only because’ is a stronger causal claim than the source makes. Rewritten to the facts USHMM gives."
+ },
+ {
+  "id": "fas-e-nuremberg-laws",
+  "verdict": "fix",
+  "text": "The Nuremberg Laws strip German Jews of citizenship rights and ban marriage and sexual relations between Jews and other Germans. Nazi rules defined a Jew by ancestry, for example having three or more grandparents born into the Jewish community, whatever the person’s own faith.",
+  "method": "Opened USHMM, Nuremberg Laws: 15 Sept 1935; Reich Citizenship Law; marriage and sex ban; Jews defined by ancestry (three or more grandparents born into the Jewish religious community), not by their own faith",
+  "problem": "‘Defining Jews by their grandparents’ religion’ is a loose shorthand: the laws defined Jews by supposed race and ancestry, using the grandparents’ membership of the Jewish community, regardless of the person’s own religion."
+ },
+ {
+  "id": "fas-e-ethiopia",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, Italo-Ethiopian War",
+    "url": "https://www.britannica.com/print/article/297461"
+   },
+   {
+    "cite": "Rainer Baudendistel, Force versus law: the ICRC and chemical warfare in the Italo-Ethiopian war, 1935–1936, International Review of the Red Cross (1998)",
+    "url": "https://www.cambridge.org/core/journals/international-review-of-the-red-cross-1961-1997/article/force-versus-law-the-international-committee-of-the-red-cross-and-chemical-warfare-in-the-italoethiopian-war-19351936/364DE165BB03641DE46708B573B0A966"
+   },
+   {
+    "cite": "Lina Grip and John Hart, The use of chemical weapons in the 1935–36 Italo-Ethiopian War, SIPRI (2009)",
+    "url": "https://www.sipri.org/sites/default/files/Italo-Ethiopian-war.pdf"
+   }
+  ],
+  "method": "Opened Britannica, Italo-Ethiopian War (3 Oct 1935; Addis Ababa 5 May 1936; sanctions ineffective); IRRC, Baudendistel 1998 (mustard gas bombs); SIPRI, Grip and Hart 2009 (air bombs then aerial spray tanks; both states parties to the 1925 Geneva Protocol)",
+  "problem": "Source addition only: neither cited page says the gas was sprayed from aircraft or that Italy was bound by the 1925 Protocol; SIPRI does."
+ },
+ {
+  "id": "fas-e-unit731",
+  "verdict": "fix",
+  "text": "A secret Japanese army unit in Manchuria carries out lethal human experiments from 1933; officially set up in 1936 and later known as Unit 731, it also developed biological weapons. Specialists widely accept that about 3,000 prisoners were killed at its Pingfang base near Harbin.",
+  "method": "Opened Tsuneishi Keiichi, Asia-Pacific Journal: Japan Focus (2005): experiments from autumn 1933 at Beiyinhe; officially set up 1936 as the Epidemic Prevention and Water Supply Department; Pingfan completed autumn 1939; about 3,000 killed there, ‘widely accepted among specialists’",
+  "problem": "‘Known from 1936 as Unit 731’ is inaccurate: in 1936 it was officially set up under another name (Epidemic Prevention and Water Supply Department); the Unit 731 designation came later."
+ },
+ {
+  "id": "fas-e-spain-war-begins",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, Spain: The Civil War",
+    "url": "https://www.britannica.com/place/Spain/The-Civil-War"
+   },
+   {
+    "cite": "Encyclopaedia Britannica, Spanish Civil War (summary)",
+    "url": "https://www.britannica.com/summary/Spanish-Civil-War"
+   }
+  ],
+  "method": "Opened Britannica, Spain: The Civil War (rising began in Morocco 17 July 1936 and spread to the mainland; Franco led the Army of Africa; German, Italian and Soviet aid); Britannica summary (Popular Front government; foreign aid)",
+  "problem": "Source addition only: the summary page gives no July date; the full Britannica Spain history section does."
+ },
+ {
+  "id": "fas-e-yekatit-12",
+  "verdict": "fix",
+  "text": "After a grenade attack on Viceroy Rodolfo Graziani, Italian forces and Fascist militia kill residents across Addis Ababa for three days. Estimates of the dead range from about 3,000 (historians Angelo Del Boca and Anthony Mockler) to about 19,000 (Ian Campbell, 2017) and 30,000 (Ethiopian sources).",
+  "method": "Opened History Today review by R. J. B. Bosworth (19–21 Feb 1937; Campbell about 19,000); Wikipedia, Yekatit 12 (Del Boca and Mockler about 3,000; Campbell about 19,200; Ethiopian sources 30,000)",
+  "problem": "Anthony Mockler is a British writer, not an Italian historian; only Angelo Del Boca is Italian."
+ },
+ {
+  "id": "fas-e-guernica",
+  "verdict": "fix",
+  "text": "Aircraft of the German Condor Legion, joined by Italian planes, bomb the Basque town of Guernica (Gernika), killing many civilians. The toll is disputed: the Basque government recorded 1,654 deaths in 1937 and historian Xabier Irujo argues for 2,000 or more, while Spanish air force general Jesús Salas put it at about 120 and many accounts give 120 to 300.",
+  "sources": [
+   {
+    "cite": "Xabier Irujo, The nature and rationale of the Gernika bombing, The Volunteer (ALBA), 2013",
+    "url": "https://albavolunteer.org/2013/12/the-nature-and-military-rationale-of-the-bombing-of-gernika/"
+   },
+   {
+    "cite": "Euskal Kazeta, Bombing of Guernica: the number of dead revised (interview with Xabier Irujo, 2024)",
+    "url": "https://euskalkazeta.com/bombing-of-guernica-the-number-of-dead-revised"
+   },
+   {
+    "cite": "European Network Remembrance and Solidarity, Bombing of Guernica",
+    "url": "https://enrs.eu/news/bombing-of-guernica"
+   }
+  ],
+  "method": "Opened ALBA Volunteer, Xabier Irujo 2013 (Condor Legion with Italian planes; Basque government 1,654; Jesús Salas about 120; many accounts 120–250); Euskal Kazeta 2024 interview with Irujo (at least 2,000; common range 100–300); ENRS page (hundreds killed, no figures)",
+  "problem": "‘Killing hundreds’ conflicts with the low estimates the record itself quotes, and the estimates are not attributed. Named who made each figure."
+ },
+ {
+  "id": "fas-e-nanjing",
+  "verdict": "fix",
+  "text": "After capturing Nanjing on 13 December 1937, Japanese troops kill surrendered soldiers and civilians on a mass scale, with widespread rape, looting and arson. Estimates of the dead depend on the area, period and victims counted: China’s government gives 300,000 or more, the postwar Tokyo tribunal more than 100,000 (in its verdict on General Matsui), and Japanese historians from about 40,000 (Hata Ikuhiko) to 160,000–170,000 (Kasahara Tokushi).",
+  "method": "Opened Britannica, Nanjing Massacre (13 Dec 1937 capture; surrendered soldiers and civilians killed; tens of thousands of rapes; looting and arson; most estimates 100,000 to over 300,000); Wikipedia, Death toll of the Nanjing Massacre (estimates by who and on what scope)",
+  "problem": "Standards require naming who made each estimate; the record gives an unattributed range and omits serious lower scholarly estimates (for example Hata Ikuhiko about 40,000)."
+ },
+ {
+  "id": "fas-e-anschluss",
+  "verdict": "supported",
+  "method": "Opened USHMM timeline, German annexation of Austria: 11–13 March 1938; anti-Jewish violence across Vienna and other cities followed"
+ },
+ {
+  "id": "fas-e-munich",
+  "verdict": "supported",
+  "method": "Opened USHMM timeline, Munich Agreement: 29–30 Sept 1938; Germany, Italy, Britain, France; Czechoslovakia not a party"
+ },
+ {
+  "id": "fas-e-italy-racial-laws",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "Simon Wiesenthal Center Annual, vol. 4, Refuge and Persecution in Italy, 1933–1945",
+    "url": "https://museumoftolerance.com/education/archives-and-reference-library/online-resources/simon-wiesenthal-center-annual-volume-4/annual-4-chapter-1.html"
+   },
+   {
+    "cite": "USHMM Holocaust Encyclopedia, Italia (Italian edition)",
+    "url": "https://encyclopedia.ushmm.org/content/it/article/italy"
+   }
+  ],
+  "method": "Opened Simon Wiesenthal Center Annual vol. 4, Refuge and Persecution in Italy, 1933–1945 (decree of 17 Nov 1938 barred Jews from public service, state schools and universities, and civil marriage with ‘Aryans’; September 1938 decrees); USHMM Italian edition (discharge from armed forces, marriage ban)",
+  "problem": "Source fix: Wikipedia placeholder replaced with the SWC Annual. Note the USHMM Italian page wrongly dates the laws to ‘early 1938’; text dates are correct."
+ },
+ {
+  "id": "fas-e-kristallnacht",
+  "verdict": "supported",
+  "method": "Opened USHMM, Kristallnacht: 9–10 Nov 1938; Germany incl. Austria and Sudetenland; more than 1,400 synagogues; thousands of businesses; hundreds died; about 26,000 men to camps"
+ },
+ {
+  "id": "fas-e-spain-war-ends",
+  "verdict": "fix",
+  "text": "Madrid falls on 28 March 1939 and Franco declares the war over on 1 April; Britannica puts the war’s dead at about 500,000. Estimates of killings by Nationalists and the Franco regime during and after the war range from about 80,000 by 1943 (a conservative figure cited by Britannica) to about 150,000 (Paul Preston), against about 50,000 killings in the Republican zone.",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, Spanish Civil War (summary)",
+    "url": "https://www.britannica.com/summary/Spanish-Civil-War"
+   },
+   {
+    "cite": "Encyclopaedia Britannica, Spain: The Civil War",
+    "url": "https://www.britannica.com/place/Spain/The-Civil-War"
+   },
+   {
+    "cite": "Maclean’s, review of Paul Preston, The Spanish Holocaust",
+    "url": "https://cms.macleans.ca/culture/books/review-the-spanish-holocaust-inquisition-and-extermination-in-twentieth-century-spain/"
+   }
+  ],
+  "method": "Opened Britannica summary (Madrid fell 28 March 1939; about 500,000 died); Britannica, Spain: The Civil War (conservative estimates about 80,000 Nationalist political killings to 1943; terror continued after the war); Maclean’s review of Preston (about 50,000 Republican-zone victims; Nationalist killings probably three times as many)",
+  "problem": "The 130,000–150,000 range is unattributed and omits the lower conservative estimate (about 80,000) that Britannica cites. Named the estimators. The 1 April declaration is standard but was not on an opened page."
+ },
+ {
+  "id": "fas-e-poland",
+  "verdict": "supported",
+  "method": "Opened USHMM timeline, German invasion of Poland: 1 Sept 1939; Britain and France declared war 3 Sept"
+ },
+ {
+  "id": "fas-e-t4",
+  "verdict": "supported",
+  "method": "Opened USHMM, Euthanasia Program: secret order autumn 1939 backdated to 1 Sept 1939; T4 count 70,273 in six gassing centers Jan 1940–Aug 1941; about 250,000 victims in all phases"
+ },
+ {
+  "id": "fas-e-auschwitz-opens",
+  "verdict": "supported",
+  "method": "Opened USHMM, Auschwitz: set up spring 1940; first Polish political prisoners June 1940; about 1.1 million killed, about 1 million Jews (page calls it the largest Nazi camp; 1.1 million is the highest toll of any killing site)"
+ },
+ {
+  "id": "fas-e-vichy-statute",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, France",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/france"
+   },
+   {
+    "cite": "Yad Vashem, Shoah Resource Center, Statut des Juifs (Jewish Law)",
+    "url": "https://wwv.yadvashem.org/odot_pdf/Microsoft%20Word%20-%206045.pdf"
+   }
+  ],
+  "method": "Opened USHMM, France (July 1940 vote placing Vichy under Pétain; statute in two parts Oct 1940 and June 1941; exclusions); Yad Vashem Shoah Resource Center, Statut des Juifs (3 Oct 1940; ‘purely on the initiative of the French government’; 2 June 1941 statute)",
+  "problem": "Source fix: neither cited page supports ‘on its own initiative’ or the 3 October date (the Britannica summary does not mention the statute). Replaced the Britannica summary with Yad Vashem. Note the Yad Vashem PDF is served from the ‘wwv.yadvashem.org’ host exactly as search returned it."
+ },
+ {
+  "id": "fas-e-iron-guard-revolt",
+  "verdict": "fix",
+  "text": "Romania’s Iron Guard rises against its partner in government, General Ion Antonescu. Antonescu crushes the revolt with German army support, and during the three days of violence Guardists murder 127 Jews in Bucharest, according to Yad Vashem.",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, Romania",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/romania"
+   },
+   {
+    "cite": "Yad Vashem, This Month in Holocaust History: January 1941",
+    "url": "https://www.yadvashem.org/holocaust/this-month/january/1941.html"
+   }
+  ],
+  "method": "Opened USHMM, Romania (21 Jan 1941, three days, Antonescu won with German army support, ‘dozens’ murdered at the Bucharest slaughterhouse); Yad Vashem, This Month in Holocaust History, January 1941 (127 Jews murdered in the three-day riots)",
+  "problem": "‘Dozens of Jews’ understates the pogrom: USHMM’s ‘dozens’ refers only to the slaughterhouse killings; Yad Vashem gives 127 Jews murdered in all."
+ },
+ {
+  "id": "fas-e-ndh",
+  "verdict": "supported",
+  "method": "Opened Britannica, Ante Pavelić (installed after Axis conquest April 1941; oppression of Orthodox Serbs and Jews); Wikipedia, The Holocaust in the NDH (proclaimed 10 April 1941; Roma victims, with USHMM figures). Consider adding USHMM’s estimates (320,000–340,000 Serbs, about 32,000 Jews, at least 25,000 Roma)"
+ },
+ {
+  "id": "fas-e-barbarossa",
+  "verdict": "supported",
+  "method": "Opened USHMM, Invasion of the Soviet Union, June 1941: 22 June 1941; Finland, Romania and others; Einsatzgruppen mass shootings; army cooperation; local auxiliaries"
+ }
+]

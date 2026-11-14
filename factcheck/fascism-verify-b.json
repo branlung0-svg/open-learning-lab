@@ -1,0 +1,473 @@
+[
+ {
+  "id": "fas-e-iasi",
+  "verdict": "supported",
+  "method": "Opened USHMM Romania: pogrom within days of the June 1941 invasion, at least 4,000 Jews murdered, thousands sent in freight trains to Calarasi and Podul Iloaei, many died en route."
+ },
+ {
+  "id": "fas-e-soviet-pows",
+  "verdict": "fix",
+  "text": "Of about 5.7 million Soviet soldiers captured by Germany, about 3.3 million (57 percent) die, mostly from deliberate starvation, disease, exposure and shootings. By comparison, about 3.6 percent of British and American prisoners died in German custody.",
+  "method": "Opened USHMM Nazi Persecution of Soviet Prisoners of War.",
+  "problem": "USHMM page confirms 5.7 million, 3.3 million (57 percent) and 3.6 percent for British and American POWs, and calls the deaths deliberate policy; it names starvation, disease and shootings, so disease (a major killer) should be listed."
+ },
+ {
+  "id": "fas-e-jasenovac",
+  "verdict": "supported",
+  "method": "Opened USHMM Jasenovac (77,000–99,000 and all four sub-ranges match; camp set up from August 1941, evacuated April 1945) and the CORE abstract, which says estimates range from minimalist to wildly inflated and are distorted by nationalists on both sides."
+ },
+ {
+  "id": "fas-e-babi-yar",
+  "verdict": "supported",
+  "method": "Opened USHMM Kiev and Babi Yar: 29–30 September 1941, 33,771 per reports to Einsatzgruppen HQ, SS and police under guidance of Einsatzgruppe C (Sonderkommando 4a), Soviet 1943 estimate of some 100,000 Jews and non-Jews."
+ },
+ {
+  "id": "fas-e-wannsee",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Wannsee Conference and the Final Solution",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-wannsee-conference-and-the-final-solution"
+   },
+   {
+    "cite": "USHMM Holocaust Encyclopedia, Wannsee Protocol",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/wannsee-protocol"
+   },
+   {
+    "cite": "House of the Wannsee Conference, Protocol and documents",
+    "url": "https://www.ghwk.de/en/conference/protocol-and-documents"
+   }
+  ],
+  "method": "Opened USHMM The Wannsee Conference and the Final Solution (date, Wannsee villa, Heydrich, 15 officials), the House of the Wannsee Conference protocol page (original in Foreign Office archive) and USHMM Wannsee Protocol (Eichmann compiled the minutes).",
+  "problem": "Text is accurate, but neither cited page says who prepared the minutes; the USHMM Wannsee Protocol article says Eichmann compiled and heavily edited them, and only one copy (Martin Luther’s, Foreign Office) survived."
+ },
+ {
+  "id": "fas-e-reinhard",
+  "verdict": "fix",
+  "text": "In Operation Reinhard the SS murders about 1.5 million Jews, most of them from occupied Poland, in three killing centers: about 925,000 at Treblinka, at least 434,508 at Belzec and at least 167,000 at Sobibor (USHMM estimates).",
+  "method": "Opened USHMM Operation Reinhard (Belzec at least 434,508, Sobibor at least 167,000, Treblinka about 925,000, about 1.5 million total) and USHMM Documenting Numbers of Victims.",
+  "problem": "USHMM gives Belzec as at least 434,508 (a minimum, not an exact count) and a total of about 1.5 million in the three centers; victims were mostly but not only Polish Jews."
+ },
+ {
+  "id": "fas-e-generalplan-ost",
+  "verdict": "supported",
+  "method": "Opened the Yad Vashem Shoah Resource Center PDF: plan of 1941–42, about 31 million mostly Slavic people to be expelled to western Siberia, about 10 million Germans to be settled, Zamość expulsions November 1942 – August 1943."
+ },
+ {
+  "id": "fas-e-vel-dhiv",
+  "verdict": "supported",
+  "method": "Opened USHMM Vél d’Hiv Roundup: 16–17 July 1942, French police, about 13,000 arrested including about 4,000 children, about 7,000 held at the Vélodrome, most deported to Auschwitz via Drancy and other camps."
+ },
+ {
+  "id": "fas-e-white-rose",
+  "verdict": "supported",
+  "method": "Opened USHMM White Rose: Munich leaflets, betrayed by a janitor in February 1943, Hans and Sophie Scholl and Christoph Probst executed 22 February 1943."
+ },
+ {
+  "id": "fas-e-warsaw-uprising",
+  "verdict": "supported",
+  "method": "Opened USHMM Warsaw Ghetto Uprising: 19 April – 16 May 1943, largest Jewish uprising of the war, ghetto burned and razed block by block."
+ },
+ {
+  "id": "fas-e-mussolini-deposed",
+  "verdict": "supported",
+  "method": "Opened Britannica Benito Mussolini: Grand Council vote 25 July 1943, King had him arrested, German commandos freed him that September, he led the Italian Social Republic at Salò."
+ },
+ {
+  "id": "fas-e-hungary-deportations",
+  "verdict": "supported",
+  "method": "Opened USHMM timeline Deportation of Hungarian Jews: 15 May – 9 July 1944, about 440,000, Hungarian gendarmes under SS guidance, most to Auschwitz-Birkenau, majority gassed."
+ },
+ {
+  "id": "fas-e-july-plot",
+  "verdict": "supported",
+  "method": "Opened USHMM July 20, 1944 Plot: Stauffenberg’s briefcase bomb at the Wolf’s Lair in East Prussia, Hitler survived, more than 7,000 arrested and 4,980 executed afterward (USHMM figure)."
+ },
+ {
+  "id": "fas-e-arrow-cross",
+  "verdict": "supported",
+  "method": "Opened Britannica Arrow Cross Party (German-backed takeover October 1944, Szálasi prime minister then national leader, Red Army took Budapest February 1945) and USHMM Wallenberg article (tens of thousands of Budapest Jews forced to march toward the Austrian border). The Arrow Cross killings in Budapest are not detailed on these pages but are well established."
+ },
+ {
+  "id": "fas-e-auschwitz-liberated",
+  "verdict": "supported",
+  "method": "Opened USHMM Auschwitz (about 7,000 prisoners liberated 27 January 1945; evacuation and death marches began 17 January) and USHMM Liberation of Nazi Camps."
+ },
+ {
+  "id": "fas-e-mussolini-killed",
+  "verdict": "fix",
+  "text": "Italian partisans capture Mussolini near Dongo on Lake Como as he tries to flee, and shoot him at nearby Giulino di Mezzegra.",
+  "method": "Opened Britannica Benito Mussolini (captured and shot 28 April 1945 near Dongo or Giulino di Mezzegra on Lake Como).",
+  "problem": "Britannica places the shooting near Dongo or at Giulino di Mezzegra; most accounts say he was caught at Dongo and shot at nearby Giulino di Mezzegra, so the text should not place the shooting at Dongo itself."
+ },
+ {
+  "id": "fas-e-hitler-death",
+  "verdict": "fix",
+  "text": "Hitler kills himself in his Berlin bunker on 30 April. German forces surrender unconditionally on 7–9 May 1945, and 8 May is celebrated as Victory in Europe Day.",
+  "when": "30 April – 9 May 1945",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, German Forces Surrender to the Allies (timeline)",
+    "url": "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/german-forces-surrender-to-the-allies"
+   }
+  ],
+  "method": "Opened USHMM Adolf Hitler (no death or surrender details) and USHMM timeline German Forces Surrender to the Allies (30 April suicide; surrender 7 May west, 9 May east; V-E Day 8 May).",
+  "problem": "The cited USHMM Adolf Hitler article ends in 1934 and gives neither date. USHMM’s surrender timeline confirms the 30 April suicide and says German forces surrendered unconditionally in the west on 7 May and in the east on 9 May, with 8 May proclaimed V-E Day; the text should match."
+ },
+ {
+  "id": "fas-e-nuremberg-imt",
+  "verdict": "supported",
+  "method": "Opened USHMM IMT at Nuremberg (20 November 1945 start, 1 October 1946 verdict, 22 tried including Bormann in absentia, four counts, 19 convicted, 12 death sentences, 3 acquitted) and the Avalon Project index (Blue Set, judgment)."
+ },
+ {
+  "id": "fas-e-tokyo-trial",
+  "verdict": "supported",
+  "method": "Opened National WWII Museum Tokyo War Crimes Trial (3 May 1946 – 12 November 1948, seven sentenced to hang, Tōjō hanged 23 December 1948, Pal voted to acquit all) and Britannica IMTFE. Hirohito’s non-indictment is only implied on the museum page (judges noted his absence) but is well established."
+ },
+ {
+  "id": "fas-e-antonescu-executed",
+  "verdict": "supported",
+  "method": "Opened USHMM Romania: Antonescu returned by the Soviets in 1946, found guilty of war crimes, executed 1 June 1946. The page does not name the court; the Bucharest People’s Tribunal is general knowledge."
+ },
+ {
+  "id": "fas-e-msi",
+  "verdict": "supported",
+  "method": "Opened The Week on Brothers of Italy: MSI formed after the war by members of Mussolini’s party, Rome office set up 1946, FdI its direct political descendant. The exact founding date (26 December 1946) is general knowledge."
+ },
+ {
+  "id": "fas-e-genocide-convention",
+  "verdict": "supported",
+  "method": "Opened USHMM Lemkin narrative (coined genocide in 1944, lobbied the UN, convention approved 9 December 1948). The UN fact-sheet PDF failed to load; consider checking that link."
+ },
+ {
+  "id": "fas-e-khabarovsk",
+  "verdict": "supported",
+  "method": "Opened Tsuneishi Keiichi, Japan Focus (2005): Soviet trial at Khabarovsk in December 1949 of 12 Unit 731 members held as prisoners of war; no Unit 731 members in Japan were tried; US granted immunity in exchange for research data."
+ },
+ {
+  "id": "fas-e-eichmann-trial",
+  "verdict": "supported",
+  "method": "Opened USHMM Eichmann Trial: seized 20 May 1960 by Mossad, trial opened 11 April 1961, convicted 11–12 December, sentenced to death 15 December, survivors at center stage, hanged 1 June 1962."
+ },
+ {
+  "id": "fas-e-frankfurt-trial",
+  "verdict": "supported",
+  "method": "Opened National Library of Israel blog (1963–65, 19 tried, 17 convicted, six life sentences, Fritz Bauer as Hesse chief prosecutor, landmark in public reckoning) and the Fritz Bauer Institut tape-recording page."
+ },
+ {
+  "id": "fas-e-carnation",
+  "verdict": "supported",
+  "method": "Opened The Conversation: 25 April 1974 uprising by part of the armed forces ended the Estado Novo and led to independence for the colonies. The page does not discuss casualties; ‘largely bloodless’ matches general knowledge (a handful of people were shot by the secret police)."
+ },
+ {
+  "id": "fas-e-franco-death",
+  "verdict": "supported",
+  "method": "Opened Britannica Francisco Franco (died 20 November 1975, head of state until death) and JusticeInfo.net (1977 Amnesty Law still shields perpetrators). German and Italian help and the transition under Juan Carlos are general knowledge."
+ },
+ {
+  "id": "fas-e-historikerstreit",
+  "verdict": "supported",
+  "method": "Opened German History Intersections (Habermas, Die Zeit, 11 July 1986, answering Nolte’s FAZ article that called the Nazi crimes a reaction or distorted copy of Bolshevik terror) and the bpb APuZ article by Helmut Fleischer (1988) on the 1986–87 dispute."
+ },
+ {
+  "id": "fas-e-un-remembrance",
+  "verdict": "supported",
+  "method": "Opened UN Digital Library record for A/RES/60/7 (adopted 1 November 2005, designates 27 January, rejects any denial of the Holocaust) and USHMM International Holocaust Remembrance Day."
+ },
+ {
+  "id": "fas-e-mein-kampf-edition",
+  "verdict": "supported",
+  "method": "Opened Institut für Zeitgeschichte page: copyright expired end of 2015, critical edition published January 2016 with more than 3,500 annotations correcting and contextualizing the text."
+ },
+ {
+  "id": "fas-e-franco-exhumed",
+  "verdict": "supported",
+  "method": "Opened PBS NewsHour: exhumed 24 October 2019 from the Valley of the Fallen, reburied at Mingorrubio cemetery beside his wife, after the family’s legal bid failed at the Supreme Court."
+ },
+ {
+  "id": "fas-e-memory-law",
+  "verdict": "supported",
+  "method": "Opened JusticeInfo.net: law in force 21 October 2022, state responsible for searches and exhumations, PP opposes and promises repeal, 1977 Amnesty Law still shields perpetrators."
+ },
+ {
+  "id": "fas-e-meloni",
+  "verdict": "supported",
+  "method": "Opened ANSA (sworn in 22 October 2022, first woman premier, MSI youth activist) and The Week (FdI direct descendant of MSI; Meloni said fascism ‘consigned to history’ and called the 1938 racial laws the worst moment in Italian history; critics cite roots and salutes)."
+ },
+ {
+  "id": "fas-e-afd-classification",
+  "verdict": "fix",
+  "text": "In May 2025 Germany’s domestic intelligence agency (BfV) classifies the AfD as a confirmed right-wing extremist organization, citing what it calls an ethnic idea of who belongs to the German people; the AfD calls this unjustified defamation and sues, and the agency suspends the label while the court decides. In February 2026 a Cologne court rules in an urgent procedure that the label cannot be used for now, the government decides not to appeal, and the AfD stays under watch as a suspected case while the main case continues.",
+  "when": "2 May 2025 – March 2026 (main case ongoing)",
+  "conf": "Developing",
+  "sources": [
+   {
+    "cite": "beck-aktuell, Verfassungsschutz gibt Stillhaltezusage fürs Eilverfahren ab (8 May 2025)",
+    "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsgeschehen/afd-rechtsextrem-einstufung-verfassungsschutz-stillhaltezusage-eilverfahren-2025-05-08"
+   },
+   {
+    "cite": "Legal Tribune Online, VG Köln stoppt Hochstufung (26 February 2026)",
+    "url": "https://www.lto.de/recht/nachrichten/n/13l110925-vg-koeln-stoppt-hochstufung-afd-als-gesichert-rechtsextrem"
+   },
+   {
+    "cite": "The Local Germany, German court rules intelligence service may not label AfD extremist for now (27 February 2026)",
+    "url": "https://www.thelocal.de/20260227/german-court-rules-intelligence-service-may-not-label-afd-extremist-for-now"
+   },
+   {
+    "cite": "beck-aktuell, AfD bleibt Verdachtsfall: Bundesinnenministerium verzichtet auf Beschwerde (3 March 2026)",
+    "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsprechung/vg-koeln-afd-verdachtsfall-einstufung-beschwerde-eilverfahren-2026-03-03"
+   }
+  ],
+  "method": "Opened beck-aktuell 8 May 2025 (classification 2 May; BfV reasons; standstill pledge; Weidel’s response), LTO 26 February 2026 (VG Köln 13 L 1109/25 interim ruling), The Local 27 February 2026 (Weidel and Dobrindt reactions) and beck-aktuell 3 March 2026 (ministry will not appeal; main proceedings pending).",
+  "problem": "Status changed after the cited LTO article: on 3 March 2026 the interior ministry said it would not appeal the Cologne interim ruling, so it stands while the main case continues; the AfD remains under watch as a suspected case. The record should also state both sides’ positions neutrally. No main-case ruling found as of November 2026; keep Developing."
+ },
+ {
+  "id": "fas-p-mussolini",
+  "verdict": "supported",
+  "method": "Opened Britannica Benito Mussolini: 1883–1945, Avanti! editor, Fasci di Combattimento 1919, prime minister 1922, dictatorship by 1925, deposed 1943, shot by partisans 28 April 1945."
+ },
+ {
+  "id": "fas-p-hitler",
+  "verdict": "supported",
+  "method": "Opened USHMM Adolf Hitler (born 1889, absolute party leader by 1921, chancellor 30 January 1933, Führer after August 1934; aim of eliminating European Jews). The page stops in 1934; his starting the war in Europe and driving the Holocaust are settled facts (see USHMM surrender timeline for 1945)."
+ },
+ {
+  "id": "fas-p-franco",
+  "verdict": "supported",
+  "method": "Opened Britannica Francisco Franco (1892–1975, led Nationalists, El Caudillo, head of state until death). German and Italian help and the fascist-or-authoritarian debate are general knowledge not shown in the extract."
+ },
+ {
+  "id": "fas-p-antonescu",
+  "verdict": "fix",
+  "text": "General who ruled Romania as dictator from 1940 to 1944 in alliance with Nazi Germany. His regime murdered hundreds of thousands of Jews, mainly in Bessarabia, Bukovina and Transnistria, and deported about 25,000 Roma to Transnistria, where at least 11,000 died; he was executed in 1946.",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, Romania",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/romania"
+   },
+   {
+    "cite": "USHMM Holocaust Encyclopedia, Transnistria",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/transnistria-governorate"
+   }
+  ],
+  "method": "Opened USHMM Romania (ruled 1940–44, 150,000–250,000 Jews killed in Transnistria, executed 1 June 1946) and USHMM Transnistria (25,000 Roma deported, at least 11,000 died; 280,000–380,000 Jews murdered there).",
+  "problem": "‘Many Roma’ was unsourced; USHMM’s Transnistria article gives about 25,000 Roma deported and at least 11,000 dead. USHMM gives 150,000–250,000 Jewish deaths in Transnistria on one page and 280,000–380,000 on another (counting differently), so ‘hundreds of thousands’ is right but the Roma figure should be added with its source."
+ },
+ {
+  "id": "fas-p-pavelic",
+  "verdict": "supported",
+  "method": "Opened Britannica Ante Pavelić: 1889–1959, organized the Ustaše, poglavnik of the Independent State of Croatia 1941–45, persecution of Serbs and Jews, to Argentina 1948, died in Madrid. Roma victims are supported by the USHMM Jasenovac page. Note he was born in Bosnia."
+ },
+ {
+  "id": "fas-p-tojo",
+  "verdict": "supported",
+  "method": "Opened Britannica Tojo Hideki: 1884–1948, prime minister 18 October 1941 – July 1944, led the war after Pearl Harbor, convicted by the IMTFE and hanged 1948."
+ },
+ {
+  "id": "fas-p-gentile",
+  "verdict": "fix",
+  "text": "Idealist philosopher who served as Mussolini’s education minister and drafted The Doctrine of Fascism (1932), which Mussolini reworked and published under his own name. He was killed by anti-fascist partisans in Florence in 1944.",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, Giovanni Gentile",
+    "url": "https://britannica.com/biography/Giovanni-Gentile"
+   },
+   {
+    "cite": "Maurice Cranston, Fascism, Encyclopedia of Philosophy (via Encyclopedia.com)",
+    "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/fascism"
+   }
+  ],
+  "method": "Opened Britannica Giovanni Gentile and Encyclopedia of Philosophy ‘Fascism’ (Maurice Cranston) on Encyclopedia.com (Gentile’s draft rewritten by Mussolini, published 1932 in the Enciclopedia italiana).",
+  "problem": "Britannica confirms his dates, idealism, education ministry (1922–24) and killing in Florence by anti-fascists, but does not mention The Doctrine of Fascism. A philosophy encyclopedia says Gentile drafted the text and Mussolini rewrote it before it appeared in 1932, so ‘wrote the philosophical section’ overstates what can be sourced."
+ },
+ {
+  "id": "fas-p-rosenberg",
+  "verdict": "supported",
+  "method": "Opened USHMM Alfred Rosenberg: 1893–1946, Nazi ideologue, Myth of the Twentieth Century (1930), minister for occupied eastern territories 1941, convicted on all four counts and hanged 16 October 1946. Birth in Reval (Tallinn) is general knowledge."
+ },
+ {
+  "id": "fas-p-goebbels",
+  "verdict": "supported",
+  "method": "Opened USHMM Joseph Goebbels: propaganda minister from 13 March 1933, control of film, radio, press, chief instigator of Kristallnacht, he and Magda had their six children poisoned and killed themselves 1 May 1945."
+ },
+ {
+  "id": "fas-p-himmler",
+  "verdict": "supported",
+  "method": "Opened USHMM Heinrich Himmler: Reichsführer-SS January 1929, chief of German police June 1936, ran camp system, oversaw the Final Solution, cyanide suicide in British custody 23 May 1945."
+ },
+ {
+  "id": "fas-p-heydrich",
+  "verdict": "supported",
+  "method": "Opened USHMM Reinhard Heydrich In Depth: RSHA chief from 1939, created Einsatzgruppen, presented Final Solution plans at Wannsee, attacked by Czech parachutists 27 May 1942, died 4 June 1942, Lidice reprisals."
+ },
+ {
+  "id": "fas-p-eichmann",
+  "verdict": "supported",
+  "method": "Opened USHMM Eichmann Trial: organized deportation of more than 1.5 million Jews, seized in Argentina 1960, tried in Jerusalem, hanged 1962. Birth year 1906 is general knowledge."
+ },
+ {
+  "id": "fas-p-codreanu",
+  "verdict": "fix",
+  "text": "Founder in 1927 of the antisemitic Legion of the Archangel Michael, later known as the Iron Guard, which mixed nationalism with Christian religious mysticism. Jailed during King Carol II’s crackdown, he was killed in custody with 13 followers in 1938; officials claimed they were shot while trying to escape.",
+  "method": "Opened Britannica Corneliu Codreanu (born 1899, founded Legion 1927, Iron Guard from 1930, killed 30 November 1938) and Britannica Iron Guard (antisemitism and mystical nationalism).",
+  "problem": "Britannica says he and 13 associates were garroted and shot while being moved between prisons, supposedly while trying to escape, but neither cited page says who ordered it. Also ‘Orthodox’ is not on the pages (Britannica says Christian and mystical nationalism)."
+ },
+ {
+  "id": "fas-p-szalasi",
+  "verdict": "supported",
+  "method": "Opened Britannica Arrow Cross Party (founded the party 1935, installed with German backing in October 1944, prime minister then national leader). His militias’ murders in Budapest and his 1946 execution are well established but not on the opened page; USHMM’s Wallenberg article covers the forced marches."
+ },
+ {
+  "id": "fas-p-petain",
+  "verdict": "supported",
+  "method": "Opened Britannica Philippe Pétain summary: Verdun hero, led Vichy 1940–44, condemned to death 1945, commuted to life, died imprisoned on Île d’Yeu 1951."
+ },
+ {
+  "id": "fas-p-salazar",
+  "verdict": "fix",
+  "text": "Economist who ruled Portugal as prime minister from 1932 to 1968 and built the authoritarian, Catholic and corporatist Estado Novo, with a political police and censorship. Historians debate whether his regime was fascist; in the mid-1930s he suppressed Portugal’s own fascist movement, the National Syndicalists (Blue Shirts).",
+  "conf": "Established",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, António de Oliveira Salazar",
+    "url": "https://www.britannica.com/print/article/518989"
+   },
+   {
+    "cite": "Encyclopaedia Britannica, Estado Novo (Portuguese history)",
+    "url": "https://www.britannica.com/topic/Estado-Novo-Portuguese-history"
+   },
+   {
+    "cite": "António Costa Pinto, The Blue Shirts: Portuguese Fascists and the New State (2000), EUI repository record",
+    "url": "https://cadmus.eui.eu/handle/1814/61624"
+   }
+  ],
+  "method": "Opened Britannica Salazar (print article), Britannica Estado Novo and the EUI record for António Costa Pinto, The Blue Shirts: Portuguese Fascists and the New State (2000).",
+  "problem": "Britannica confirms the dates, economist career, 1932–68 premiership, authoritarian corporatist system with Catholic influences and military police, but neither cited page covers the fascism debate or the suppression of the National Syndicalists. Costa Pinto’s study covers Salazar’s defeat of that movement. Conf should be Established, because the core facts are settled and the debate is already flagged in the text (as in the Franco record)."
+ },
+ {
+  "id": "fas-p-matteotti",
+  "verdict": "supported",
+  "method": "Opened Britannica Giacomo Matteotti: socialist deputy, denounced the Fascists in the Chamber on 30 May 1924, kidnapped and murdered by six squadristi on 10 June 1924. The electoral-fraud charge is general knowledge, not on the page."
+ },
+ {
+  "id": "fas-p-scholl",
+  "verdict": "supported",
+  "method": "Opened USHMM White Rose: Munich leaflets, betrayed and arrested in February 1943, executed 22 February 1943."
+ },
+ {
+  "id": "fas-p-stauffenberg",
+  "verdict": "supported",
+  "method": "Opened Britannica (1907–1944, chief conspirator, died Berlin 20 July 1944) and USHMM July 20 Plot (executed by firing squad at the Bendlerblock the same day)."
+ },
+ {
+  "id": "fas-p-pilecki",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "Smithsonian Magazine, The Daring Polish Resistance Fighter Who Volunteered to Be Sent to Auschwitz",
+    "url": "https://www.smithsonianmag.com/history/the-daring-polish-resistance-fighter-who-volunteered-to-be-sent-to-auschwitz-so-he-could-sabotage-the-nazi-death-camp-from-the-inside-180986559/"
+   },
+   {
+    "cite": "Institute of National Remembrance, Report W: KL Auschwitz 1940–1943 by Captain Witold Pilecki is now available for download (2024)",
+    "url": "https://eng.ipn.gov.pl/en/news/10984,Report-W-KL-AUSCHWITZ-1940-1943-by-Captain-Witold-Pilecki-is-now-available-for-d.html"
+   }
+  ],
+  "method": "Opened Smithsonian Magazine (arrested 19 September 1940, reports from October 1940, escaped 26 April 1943, executed 25 May 1948, exonerated 1990) and IPN news page on Report W (the cited IPN PDF URL redirects).",
+  "problem": "The IPN PDF link redirects to the IPN home page (dead link). Replace it with IPN’s announcement page for Report W, which confirms the September 1940 arrest and April 1943 escape. Text is accurate."
+ },
+ {
+  "id": "fas-p-sendler",
+  "verdict": "supported",
+  "method": "Opened Yad Vashem Righteous Women exhibition page (welfare social worker, smuggled Jews out of the ghetto, head of Żegota’s children’s department from September 1943, exact number saved unknown, arrested October 1943, sentenced to death, freed by bribes February 1944, recognized 19 October 1965). The Righteous database page loaded no readable text."
+ },
+ {
+  "id": "fas-p-wallenberg",
+  "verdict": "supported",
+  "method": "Opened USHMM Wallenberg article: born 1912, arrived Budapest July 1944, protective passes and more than 30 safe houses, saved thousands, last seen with Soviet officials 17 January 1945, declared legally dead by Sweden in October 2016."
+ },
+ {
+  "id": "fas-p-sugihara",
+  "verdict": "supported",
+  "method": "Opened Yad Vashem Visas to Japan: consul in Kovno, visas issued summer 1940, between 2,100 and 3,500 transit visas, recognized 4 October 1984."
+ },
+ {
+  "id": "fas-p-ringelblum",
+  "verdict": "supported",
+  "method": "Opened USHMM Ringelblum and Oneg Shabbat (1900–1944, archive buried, milk can unearthed 1950, family found in hiding March 1944 and killed) and Jewish Historical Institute (parts found 1946 and 1950, third part never found)."
+ },
+ {
+  "id": "fas-p-levi",
+  "verdict": "supported",
+  "method": "Opened Britannica Primo Levi: 1919–1987, chemistry graduate, joined resistance in 1943, captured and sent to Auschwitz, If This Is a Man (1947), The Drowned and the Saved (1986). The 1944 deportation year is general knowledge."
+ },
+ {
+  "id": "fas-p-frank",
+  "verdict": "fix",
+  "text": "German-born Jewish girl who hid with her family in Amsterdam from July 1942 and kept a diary. Arrested in August 1944 (how the hiding place was found is still unknown), she died of typhus in the Bergen-Belsen camp in February or March 1945; her father had her diary published in 1947.",
+  "method": "Opened USHMM Anne Frank Biography (born Frankfurt 1929, hiding from July 1942, arrested 4 August 1944, betrayal not established, died of typhus at Bergen-Belsen February or March 1945). The 1947 diary publication is general knowledge.",
+  "problem": "‘Betrayed’ is stated as fact, but USHMM says the long-held betrayal theory is unproven and a newer theory holds the hiding place was found by chance; how the Franks were discovered is unknown. USHMM also gives February or March 1945 and typhus."
+ },
+ {
+  "id": "fas-p-lemkin",
+  "verdict": "supported",
+  "method": "Opened USHMM Lemkin narrative: born 1900, coined genocide in Axis Rule in Occupied Europe (1944), lobbied for the convention approved 9 December 1948, learned that 49 relatives died in the Holocaust, died 1959."
+ },
+ {
+  "id": "fas-p-arendt",
+  "verdict": "fix",
+  "text": "German-Jewish political theorist who fled Nazi Germany and wrote The Origins of Totalitarianism (1951) and Eichmann in Jerusalem (1963), which introduced the phrase the banality of evil. Later historians such as David Cesarani and Bettina Stangneth argued Eichmann was a committed antisemite rather than a mere functionary; defenders reply that Arendt never denied his antisemitism.",
+  "sources": [
+   {
+    "cite": "Stanford Encyclopedia of Philosophy, Hannah Arendt",
+    "url": "https://plato.stanford.edu/archives/fall2023/entries/arendt/"
+   },
+   {
+    "cite": "Corey Robin, The Trials of Hannah Arendt, The Nation (2015)",
+    "url": "https://www.thenation.com/article/archive/trials-hannah-arendt/"
+   }
+  ],
+  "method": "Opened Stanford Encyclopedia of Philosophy, Hannah Arendt (1906–1975, fled 1933, Origins 1951, Eichmann in Jerusalem 1963 with subtitle A Report on the Banality of Evil) and Corey Robin, The Trials of Hannah Arendt, The Nation (2015) (Stangneth and Cesarani’s argument and the reply).",
+  "problem": "The cited Stanford Encyclopedia entry confirms her life and books but does not name Cesarani or Stangneth; add a source for that debate and, to be even-handed, the reply that Arendt never denied Eichmann’s antisemitism."
+ },
+ {
+  "id": "fas-p-hilberg",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "New York Sun, obituary: Raul Hilberg, 81, Scholar of Holocaust",
+    "url": "https://www.nysun.com/article/obituaries-raul-hilberg-81-scholar-of-holocaust"
+   },
+   {
+    "cite": "History News Network, Raul Hilberg: Holocaust scholar, was 81",
+    "url": "https://historynewsnetwork.org/article/41574"
+   },
+   {
+    "cite": "Encyclopedia.com, Hilberg, Raul",
+    "url": "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hilberg-raul"
+   }
+  ],
+  "method": "Opened New York Sun obituary (preeminent Holocaust scholar, first comprehensive study, 1961), History News Network (left Austria 1938, University of Vermont) and Encyclopedia.com entry on Hilberg (born Vienna 1926, political science at Vermont, Nuremberg German documents, bureaucratic process, start of Holocaust studies).",
+  "problem": "Text is accurate, but neither cited obituary gives his birthplace, field, use of German documents or the bureaucratic-process thesis; add a reference source that does."
+ },
+ {
+  "id": "fas-p-paxton",
+  "verdict": "fix",
+  "text": "Columbia University historian whose Vichy France (1972) showed that Vichy collaborated actively and on its own initiative, and whose The Anatomy of Fascism (2004) argues fascism is best understood by what its movements did, tracing five stages from founding to radicalization.",
+  "sources": [
+   {
+    "cite": "Columbia University Department of History, Robert O. Paxton",
+    "url": "https://history.columbia.edu/faculty/paxton-robert-o"
+   },
+   {
+    "cite": "The Spectator archive, Ian Garrick Mason, The five stages of a downhill descent (22 May 2004)",
+    "url": "https://archive.spectator.co.uk/article/22nd-may-2004/46/the-five-stages-of-a-downhill-descent"
+   },
+   {
+    "cite": "Not Even Past, The Anatomy of Fascism by Robert Paxton (2004)",
+    "url": "https://notevenpast.org/the-anatomy-of-fascism-by-robert-paxton-2004/"
+   }
+  ],
+  "method": "Opened Columbia History faculty page, Ian Garrick Mason’s review in The Spectator archive (22 May 2004; five stages from movement to radicalization) and Not Even Past review (fascism understood through what fascists did).",
+  "problem": "The Columbia page lists both books and credits him with establishing Vichy’s active collaboration, but does not describe The Anatomy of Fascism or give his birth year (1932, general knowledge). Add a review that sets out the five-stage model, and smooth the wording."
+ }
+]

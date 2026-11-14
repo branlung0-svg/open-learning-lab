@@ -1,0 +1,926 @@
+[
+ {
+  "id": "fas-e-mussolini-1914",
+  "verdict": "fix",
+  "text": "Benito Mussolini, editor of the Italian Socialist Party’s newspaper Avanti!, breaks with the party by calling for Italy to enter the First World War, starts his own paper and is expelled. This turn from socialism to nationalism set him on the road to Fascism.",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, Benito Mussolini",
+    "url": "https://www.britannica.com/biography/Benito-Mussolini"
+   },
+   {
+    "cite": "World War I Document Archive (Brigham Young University Library), Benito Mussolini biography",
+    "url": "https://net.lib.byu.edu/~rdh7/wwi/bio/m/mussol.htm"
+   }
+  ],
+  "method": "Opened Britannica, Benito Mussolini; BYU WWI Document Archive biography of Mussolini",
+  "problem": "Core facts supported, but calling the 1914 break ‘usually treated as the starting point of Fascism’ overstates it (Fascism is usually dated from the 1919 founding). Softened; added his new paper; added a second source."
+ },
+ {
+  "id": "fas-e-fasci-1919",
+  "verdict": "fix",
+  "text": "Mussolini founds the Fasci Italiani di Combattimento (Italian Combat Leagues) in Milan with about a hundred followers: war veterans and former shock troops, Futurist artists and ex-socialists. Its first program (June 1919) mixed nationalism with radical demands such as votes for women, an eight-hour day and a heavy tax on capital, most of which it dropped as it moved right in 1920–21. The name recalls the Roman fasces, a bundle of rods carried as a sign of authority, and gives us the word fascism.",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, fasci di combattimento",
+    "url": "https://www.britannica.com/topic/fasci-di-combattimento"
+   },
+   {
+    "cite": "AGI, Nicola Graziani, Cento anni fa nasceva il fascismo (23 March 2019)",
+    "url": "https://www.agi.it/politica/anniversario_fascismo-5162157/news/2019-03-19/"
+   }
+  ],
+  "method": "Opened Britannica, fasci di combattimento (March 1919, Milan, name from Roman fasces); AGI, Nicola Graziani, 23 March 2019 (date, Piazza San Sepolcro, about 100 founders) Merged with balance review; added context not separately source-checked.",
+  "problem": "‘Mostly war veterans and nationalists’ is not supported: the founders were about a hundred arditi (ex-shock troops), Futurists and ex-socialists. Britannica gives only ‘March 1919’, so added AGI for the exact date."
+ },
+ {
+  "id": "fas-e-nsdap-program",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened German History in Documents and Images, NSDAP Party Program (1920): Munich, 24 Feb 1920, DAP renamed NSDAP, Greater Germany, Versailles, German blood, nationalization of trusts",
+  "text": "In Munich the German Workers’ Party, soon renamed the National Socialist German Workers’ Party (NSDAP), announces its 25-point program. It demands a Greater Germany, the overturning of the Versailles treaty, and citizenship only for people of ‘German blood’, stating outright that no Jew can belong to the nation. Its economic points include nationalizing trusts, profit-sharing in large firms and land reform; in 1928 Hitler stated that the land point was aimed only at Jewish speculators. Historians still argue over how seriously the economic points were meant (debate 3B).",
+  "problem": "Balance: The original omits the program's explicit exclusion of Jews (point 4), which is a settled fact and should be stated plainly. It also lists only one economic demand, so neither side of debate 3B gets its evidence: the 'socialist' reading relies on these points, and the 'right' reading relies on Hitler's 1928 reinterpretation and on the points being dropped in power. New facts (point 4 wording in paraphrase, profit-sharing, land reform, the 1928 clarification of point 17) are all in the GHDI program text and standard histories (Evans 2003). Add GHDI as a source."
+ },
+ {
+  "id": "fas-e-march-on-rome",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened Britannica, March on Rome: king refused to sign Facta’s state-of-siege decree, asked Mussolini to form a cabinet on 29 Oct. Britannica dates the march 28–30 Oct; 27–31 Oct (mobilization to Rome parade) is a common wider span and acceptable",
+  "text": "Fascist squads converge on Rome. King Victor Emmanuel III declines to sign a martial-law decree that the army was ready to enforce, and appoints Mussolini prime minister of a coalition government. Historians debate why: fear of civil war, doubts about the army’s loyalty, and pressure from nationalists, business leaders and conservatives who saw Mussolini as a barrier to socialism are all cited. In form the appointment was legal; in practice it followed a threat of force and two years of squad violence against socialists, unions and local councils.",
+  "problem": "Balance: The original reads as a neutral handover and does not explain why. The causes (elite choice, fear of the left, squad violence across 1920–22) are central to Paxton's 'stage three' and to the 'coup or not?' true/false card, which should not be answered with a flat 'false' (see .md, section 4). New facts need a source, e.g. Bosworth, Mussolini's Italy (2005) or Paxton (2004)."
+ },
+ {
+  "id": "fas-e-beer-hall-putsch",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM, Beer Hall Putsch: 8–9 Nov 1923, clash with police at Odeonsplatz, treason conviction, Landsberg, dictated Mein Kampf vol. 1",
+  "text": "Hitler and the Nazis try to seize power in Munich. Bavarian police stop the march with gunfire; four policemen and fourteen putschists die, and the putsch fails. Hitler is tried for treason. The court gives him the minimum sentence of five years and he is released after about nine months, during which he writes the first volume of Mein Kampf. The Nazis later honoured their dead from the putsch as martyrs.",
+  "problem": "Balance: Adds the 'why': a lenient, sympathetic court is a standard example of how Weimar justice treated the nationalist right far more mildly than the left. It also explains the later 'martyr' cult instead of leaving it unexplained. Death toll and sentence details need a source (Britannica, Beer Hall Putsch; Kershaw, Hitler vol. 1). The original's 'Police stop the march' is kept."
+ },
+ {
+  "id": "fas-e-matteotti",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened Britannica, Matteotti Crisis: June 1924 murder by Fascist thugs after denouncing election violence; 3 Jan 1925 speech accepting responsibility; move to dictatorship",
+  "text": "A squad of Fascist militants led by Amerigo Dumini kidnaps and murders the Socialist deputy Giacomo Matteotti after he denounces Fascist violence and fraud in the 1924 election. In the crisis that follows, opposition deputies walk out of parliament (the ‘Aventine secession’), but the King does not act. In January 1925 Mussolini tells parliament he takes responsibility for what happened and then builds an open dictatorship over the next two years.",
+  "problem": "Balance: 'Fascist thugs' is a loaded label (STANDARDS §1); name the group and its leader instead. Adds the opposition's response and the King's inaction, which explain why the crisis ended in dictatorship. Dumini and the Aventine secession need a source (Britannica, Giacomo Matteotti)."
+ },
+ {
+  "id": "fas-e-election-1928",
+  "verdict": "supported",
+  "method": "Opened USHMM, The Nazi Rise to Power: 20 May 1928, 2.6 percent"
+ },
+ {
+  "id": "fas-e-libya-camps",
+  "verdict": "fix",
+  "text": "To crush armed resistance in Cyrenaica (eastern Libya) led by Omar al-Mukhtar, Italian forces deport 100,000–110,000 people, mostly women, children and the elderly, with their herds into desert concentration camps; the regime called it “pacification”. Historian Ali Abdullatif Ahmida says about two-thirds of them died; Italian historian Emilio Gentile counts about 50,000 deaths in the repression, and the exact toll is uncertain. Ahmida argues it was genocide; other historians call it an extreme colonial counter-insurgency.",
+  "sources": [
+   {
+    "cite": "MERIP, Genocide, historical amnesia and Italian settler colonialism in Libya: an interview with Ali Abdullatif Ahmida (2022)",
+    "url": "https://www.merip.org/2022/05/genocide-historical-amnesia-and-italian-settler-colonialism-in-libya-an-interview-with-ali-abdullatif-ahmida/"
+   },
+   {
+    "cite": "Wikipedia, Italian concentration camps in Libya (secondary)",
+    "url": "https://en.wikipedia.org/wiki/Italian_concentration_camps_in_Libya"
+   }
+  ],
+  "method": "Opened MERIP interview with Ahmida (100,000–110,000 deported with herds; two-thirds perished); Wikipedia, Italian concentration camps in Libya (1929–1934; mostly women, children, elderly; Gentile about 50,000) Merged with balance review; added context not separately source-checked.",
+  "problem": "The ‘40,000 to 70,000’ range is unattributed and its low end was not found on any opened page (Wikipedia gives 50,000–70,000, unsourced). Replaced with named estimates. Wikipedia remains a secondary placeholder; Ahmida’s 2020 book is still the better replacement."
+ },
+ {
+  "id": "fas-e-election-1930",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Nazi Rise to Power",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power"
+   },
+   {
+    "cite": "Deutscher Bundestag, Kalenderblatt: Reichstagswahl 5 March 1933 (2023)",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2023/kw09-kalenderblatt-wahlen33-544990"
+   }
+  ],
+  "method": "Opened USHMM, The Nazi Rise to Power (18 percent); Bundestag Kalenderblatt 2023 (18.3 percent)",
+  "problem": "Source addition only: the official 18.3 figure is not on the USHMM page; added the Bundestag page that gives it."
+ },
+ {
+  "id": "fas-e-mukden",
+  "verdict": "supported",
+  "method": "Opened Britannica, Mukden Incident: 18 Sept 1931, railway explosion staged by Kwantung Army officers as pretext, Manchukuo set up (the 1932 date is not on the page but is standard)"
+ },
+ {
+  "id": "fas-e-election-july-1932",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Nazi Rise to Power",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power"
+   },
+   {
+    "cite": "Deutscher Bundestag, Kalenderblatt: Reichstagswahl 5 March 1933 (2023)",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2023/kw09-kalenderblatt-wahlen33-544990"
+   },
+   {
+    "cite": "Deutsches Historisches Museum, LeMO: Reichstagswahl 1933",
+    "url": "https://www.dhm.de/lemo/kapitel/ns-regime/etablierung-der-ns-herrschaft/reichstagswahl-1933.html"
+   }
+  ],
+  "method": "Opened USHMM, The Nazi Rise to Power (37 percent; no party ever won an absolute majority); Bundestag Kalenderblatt 2023 (37.3 percent); DHM LeMO (Nov 1932 was the last free Reichstag election)",
+  "problem": "Source addition only: the official 37.3 figure and ‘last free election’ framing come from the added Bundestag and DHM pages, not USHMM."
+ },
+ {
+  "id": "fas-e-election-nov-1932",
+  "verdict": "supported",
+  "method": "Opened USHMM, The Nazi Rise to Power: 33 percent, 4 points lower than July (consistent with 37.3 minus 4.2 = 33.1); the exact 33.1 was not found on an opened page"
+ },
+ {
+  "id": "fas-e-hitler-appointed",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM, The Nazi Rise to Power: Hindenburg appointed Hitler 30 Jan 1933 heading a coalition with the DNVP, Papen vice chancellor",
+  "text": "President Paul von Hindenburg appoints Hitler chancellor at the head of a coalition with the conservative German National People’s Party, with Franz von Papen as vice chancellor. Nazis hold only three of the eleven cabinet posts, and Papen and his conservative allies believed they could control Hitler. Within months the Nazis had pushed them aside.",
+  "problem": "Balance: The record needs the 'why': conservative elites chose Hitler believing they could contain him (Paxton's stage three; debate 3E 'elite decisions'). Three of eleven posts (Hitler, Frick, Göring) is standard (Evans 2003; USHMM)."
+ },
+ {
+  "id": "fas-e-reichstag-fire",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Reichstag Fire",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-reichstag-fire"
+   },
+   {
+    "cite": "USHMM Holocaust Encyclopedia, Reichstag Fire Decree",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/reichstag-fire-decree"
+   },
+   {
+    "cite": "Bundeszentrale für politische Bildung (bpb), Reichstagsbrand: auf dem Weg in die Diktatur",
+    "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/265402/reichstagsbrand-auf-dem-weg-in-die-diktatur/"
+   }
+  ],
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM, The Reichstag Fire and Reichstag Fire Decree (rights suspended, mass arrest of Communists, no numbers); bpb, Reichstagsbrand: auf dem Weg in die Diktatur (several thousand arrested within hours, mostly Communists)",
+  "problem": "Source addition only: ‘thousands’ arrested is not on either USHMM page; bpb supports it. Balance: Who set the fire is a genuinely open historical question and should be presented with both schools named; the original is silent on it, which leaves readers to fill the gap with myths from either side. The Nazi claim of a Communist uprising is the propaganda use that needs context. Sources: USHMM 'Reichstag Fire'; Hett, Burning the Reichstag (2014); Tobias (1962).",
+  "text": "The Reichstag building burns. A young Dutch former Communist, Marinus van der Lubbe, is arrested at the scene and later executed. The Nazis claim it is the signal for a Communist uprising, and the next day an emergency decree suspends basic civil rights; the regime uses it to arrest thousands of Communists and other opponents. Whether van der Lubbe acted alone (Fritz Tobias, Hans Mommsen) or Nazis were involved (Benjamin Carter Hett, 2014) is still debated by historians."
+ },
+ {
+  "id": "fas-e-election-1933",
+  "verdict": "fix",
+  "text": "In the last German election with more than one party for 16 years, held amid arrests and intimidation of opponents after the Reichstag fire, the Nazis win almost 44 percent (43.9 in the official count). They pass 50 percent only together with their conservative nationalist partners.",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Nazi Rise to Power",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power"
+   },
+   {
+    "cite": "Deutscher Bundestag, Kalenderblatt: Reichstagswahl 5 March 1933 (2023)",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2023/kw09-kalenderblatt-wahlen33-544990"
+   },
+   {
+    "cite": "Deutsches Historisches Museum, LeMO: Reichstagswahl 1933",
+    "url": "https://www.dhm.de/lemo/kapitel/ns-regime/etablierung-der-ns-herrschaft/reichstagswahl-1933.html"
+   }
+  ],
+  "method": "Opened USHMM, The Nazi Rise to Power (almost 44 percent); Bundestag Kalenderblatt 2023 (43.9 percent; last vote with more than one party competing for 16 years; NSDAP depended on the DNVP); DHM LeMO (terror, KPD driven underground; majority only with the Kampffront Schwarz-Weiß-Rot) Merged with balance review; added context not separately source-checked.",
+  "problem": "‘Last multi-party election before the war’ is wrong in framing: it was the last multi-party national election in Germany for 16 years (until 1949), not just before the war. ‘Coalition passes 50 percent’ kept in substance as ‘majority only with partners’ (the exact combined share was not on an opened page). Added sources."
+ },
+ {
+  "id": "fas-e-enabling-act",
+  "verdict": "fix",
+  "text": "The Reichstag passes the Enabling Act by 444 votes to 94, letting the government make laws without parliament. It reaches the two-thirds majority after all 81 Communist deputies and 26 Social Democrats are kept from their seats and armed SA and SS men fill the hall; the Catholic Centre Party and other non-socialist parties vote yes after promises from Hitler, and only the Social Democrats vote no.",
+  "method": "Opened USHMM, The Enabling Act: 23 March 1933; 81 Communists and 26 of 120 Social Democrats kept from their seats; SA and SS in the chamber; only SPD voted no Merged with balance review; added context not separately source-checked.",
+  "problem": "‘The rules were manipulated’ is not on the cited page, and ‘passes only because’ is a stronger causal claim than the source makes. Rewritten to the facts USHMM gives."
+ },
+ {
+  "id": "fas-e-nuremberg-laws",
+  "verdict": "fix",
+  "text": "The Nuremberg Laws strip German Jews of citizenship rights and ban marriage and sexual relations between Jews and other Germans. Nazi rules defined a Jew by ancestry, for example having three or more grandparents born into the Jewish community, whatever the person’s own faith.",
+  "method": "Opened USHMM, Nuremberg Laws: 15 Sept 1935; Reich Citizenship Law; marriage and sex ban; Jews defined by ancestry (three or more grandparents born into the Jewish religious community), not by their own faith",
+  "problem": "‘Defining Jews by their grandparents’ religion’ is a loose shorthand: the laws defined Jews by supposed race and ancestry, using the grandparents’ membership of the Jewish community, regardless of the person’s own religion."
+ },
+ {
+  "id": "fas-e-ethiopia",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, Italo-Ethiopian War",
+    "url": "https://www.britannica.com/print/article/297461"
+   },
+   {
+    "cite": "Rainer Baudendistel, Force versus law: the ICRC and chemical warfare in the Italo-Ethiopian war, 1935–1936, International Review of the Red Cross (1998)",
+    "url": "https://www.cambridge.org/core/journals/international-review-of-the-red-cross-1961-1997/article/force-versus-law-the-international-committee-of-the-red-cross-and-chemical-warfare-in-the-italoethiopian-war-19351936/364DE165BB03641DE46708B573B0A966"
+   },
+   {
+    "cite": "Lina Grip and John Hart, The use of chemical weapons in the 1935–36 Italo-Ethiopian War, SIPRI (2009)",
+    "url": "https://www.sipri.org/sites/default/files/Italo-Ethiopian-war.pdf"
+   }
+  ],
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened Britannica, Italo-Ethiopian War (3 Oct 1935; Addis Ababa 5 May 1936; sanctions ineffective); IRRC, Baudendistel 1998 (mustard gas bombs); SIPRI, Grip and Hart 2009 (air bombs then aerial spray tanks; both states parties to the 1925 Geneva Protocol)",
+  "problem": "Source addition only: neither cited page says the gas was sprayed from aircraft or that Italy was bound by the 1925 Protocol; SIPRI does. Balance: The original has no Ethiopian actors, no resistance and no 'why' for Italian support. Adds the regime's justifications (with who said them) and the late admission. New facts need sources: Britannica Italo-Ethiopian War (League appeal, 1941); Del Boca for the 1995–96 admission (already a to-fetch item in the brief).",
+  "text": "Italy invades Ethiopia, a fellow member of the League of Nations, and takes Addis Ababa on 5 May 1936; League sanctions fail. Italian forces use chemical weapons, chiefly mustard gas dropped and sprayed from aircraft, in breach of the 1925 Geneva Protocol. Emperor Haile Selassie appeals to the League in person in June 1936; Ethiopian fighters (the Arbegnoch, or patriots) keep up resistance until British and Ethiopian forces drive Italy out in 1941. The war was popular in Italy, where the regime presented it as winning a place in the sun and avenging the defeat at Adwa (1896). Italy officially admitted using gas only in the mid-1990s."
+ },
+ {
+  "id": "fas-e-unit731",
+  "verdict": "fix",
+  "text": "A secret Japanese army unit in Manchuria carries out lethal human experiments from 1933; officially set up in 1936 and later known as Unit 731, it also developed biological weapons. Specialists widely accept that about 3,000 prisoners were killed at its Pingfang base near Harbin.",
+  "method": "Opened Tsuneishi Keiichi, Asia-Pacific Journal: Japan Focus (2005): experiments from autumn 1933 at Beiyinhe; officially set up 1936 as the Epidemic Prevention and Water Supply Department; Pingfan completed autumn 1939; about 3,000 killed there, ‘widely accepted among specialists’",
+  "problem": "‘Known from 1936 as Unit 731’ is inaccurate: in 1936 it was officially set up under another name (Epidemic Prevention and Water Supply Department); the Unit 731 designation came later."
+ },
+ {
+  "id": "fas-e-spain-war-begins",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, Spain: The Civil War",
+    "url": "https://www.britannica.com/place/Spain/The-Civil-War"
+   },
+   {
+    "cite": "Encyclopaedia Britannica, Spanish Civil War (summary)",
+    "url": "https://www.britannica.com/summary/Spanish-Civil-War"
+   }
+  ],
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened Britannica, Spain: The Civil War (rising began in Morocco 17 July 1936 and spread to the mainland; Franco led the Army of Africa; German, Italian and Soviet aid); Britannica summary (Popular Front government; foreign aid)",
+  "problem": "Source addition only: the summary page gives no July date; the full Britannica Spain history section does. Balance: Why the war began is one of the most contested questions in Spanish history (Payne and Álvarez Tardío vs Preston, Casanova and Viñas). The original gives only the Republic's framing. Each side's case is now given in its own terms without the site ruling. Calvo Sotelo killing and non-intervention: Britannica 'Spanish Civil War'; Payne, The Collapse of the Spanish Republic (2006); Preston, The Spanish Civil War (2006).",
+  "text": "Army officers including Francisco Franco rise against Spain’s elected Popular Front government, starting the Spanish Civil War. The rebels said they were acting to stop disorder, attacks on the Catholic Church and a feared revolution, pointing to the murder of the monarchist leader José Calvo Sotelo by Republican police and militants on 13 July. Defenders of the Republic answer that it was a lawful, elected government and that the coup itself set off the revolution and the war. Germany and Italy send troops, aircraft and tanks to the Nationalists; the Soviet Union supplies the Republic, and Britain and France adopt non-intervention."
+ },
+ {
+  "id": "fas-e-yekatit-12",
+  "verdict": "fix",
+  "text": "After a grenade attack on Viceroy Rodolfo Graziani by two young Eritreans, Italian soldiers, Fascist Blackshirt militia and Italian civilians kill residents across Addis Ababa for three days. Estimates of the dead range from about 3,000 (Italian historian Angelo Del Boca and British writer Anthony Mockler) to about 19,000 (Ian Campbell, 2017) and 30,000 (Ethiopian sources). In May 1937 Italian forces also shot the monks of the Debre Libanos monastery.",
+  "method": "Opened History Today review by R. J. B. Bosworth (19–21 Feb 1937; Campbell about 19,000); Wikipedia, Yekatit 12 (Del Boca and Mockler about 3,000; Campbell about 19,200; Ethiopian sources 30,000) Merged with balance review; added context not separately source-checked.",
+  "problem": "Anthony Mockler is a British writer, not an Italian historian; only Angelo Del Boca is Italian."
+ },
+ {
+  "id": "fas-e-guernica",
+  "verdict": "fix",
+  "text": "Aircraft of the German Condor Legion, joined by Italian planes, bomb the Basque town of Guernica (Gernika) on a market day, killing many civilians. The toll is disputed: the Basque government recorded 1,654 deaths in 1937 and historian Xabier Irujo argues for 2,000 or more, while Spanish air force general Jesús Salas put it at about 120, and many accounts give 120 to 300. Franco’s side claimed retreating Republicans had burned the town; Picasso’s painting made Guernica a worldwide symbol.",
+  "sources": [
+   {
+    "cite": "Xabier Irujo, The nature and rationale of the Gernika bombing, The Volunteer (ALBA), 2013",
+    "url": "https://albavolunteer.org/2013/12/the-nature-and-military-rationale-of-the-bombing-of-gernika/"
+   },
+   {
+    "cite": "Euskal Kazeta, Bombing of Guernica: the number of dead revised (interview with Xabier Irujo, 2024)",
+    "url": "https://euskalkazeta.com/bombing-of-guernica-the-number-of-dead-revised"
+   },
+   {
+    "cite": "European Network Remembrance and Solidarity, Bombing of Guernica",
+    "url": "https://enrs.eu/news/bombing-of-guernica"
+   }
+  ],
+  "method": "Opened ALBA Volunteer, Xabier Irujo 2013 (Condor Legion with Italian planes; Basque government 1,654; Jesús Salas about 120; many accounts 120–250); Euskal Kazeta 2024 interview with Irujo (at least 2,000; common range 100–300); ENRS page (hundreds killed, no figures) Merged with balance review; added context not separately source-checked.",
+  "problem": "‘Killing hundreds’ conflicts with the low estimates the record itself quotes, and the estimates are not attributed. Named who made each figure."
+ },
+ {
+  "id": "fas-e-nanjing",
+  "verdict": "fix",
+  "text": "After capturing Nanjing on 13 December 1937, Japanese troops kill surrendered soldiers and civilians on a mass scale, with widespread sexual violence against women and girls, looting and arson. Estimates depend on the area, period and victims counted: China’s government gives 300,000 or more, the postwar Tokyo tribunal more than 100,000 (in its verdict on General Matsui), and Japanese historians from about 40,000 (Hata Ikuhiko) to 160,000–170,000 (Kasahara Tokushi). Foreign residents led by John Rabe ran a Safety Zone that sheltered over 200,000 civilians; denial of the massacre is not a scholarly side.",
+  "method": "Opened Britannica, Nanjing Massacre (13 Dec 1937 capture; surrendered soldiers and civilians killed; tens of thousands of rapes; looting and arson; most estimates 100,000 to over 300,000); Wikipedia, Death toll of the Nanjing Massacre (estimates by who and on what scope) Merged with balance review; added context not separately source-checked.",
+  "problem": "Standards require naming who made each estimate; the record gives an unattributed range and omits serious lower scholarly estimates (for example Hata Ikuhiko about 40,000)."
+ },
+ {
+  "id": "fas-e-anschluss",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM timeline, German annexation of Austria: 11–13 March 1938; anti-Jewish violence across Vienna and other cities followed",
+  "text": "German troops enter Austria unopposed and large crowds welcome Hitler in Vienna; Germany annexes the country (the Anschluss). Violence against Austrian Jews, including forced public humiliation, beatings and looting, follows at once. A plebiscite in April 1938, held under heavy pressure and with Jews and opponents excluded, reports 99.7 percent approval. After 1945 Austria long described itself as Hitler’s ‘first victim’; in 1991 Chancellor Franz Vranitzky acknowledged that Austrians also shared responsibility for Nazi crimes.",
+  "problem": "Balance: The original omits both the popular welcome (a key 'why' fact) and Austria's postwar 'first victim' narrative, a label that needs context and is part of the memory-politics sub-tab every case should have. Sources: USHMM 'Austria'; Vranitzky statement of 8 July 1991."
+ },
+ {
+  "id": "fas-e-munich",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM timeline, Munich Agreement: 29–30 Sept 1938; Germany, Italy, Britain, France; Czechoslovakia not a party",
+  "text": "Britain, France, Germany and Italy agree at Munich that Czechoslovakia must cede the Sudetenland to Germany; Czechoslovakia is not party to the decision, nor is the Soviet Union. British Prime Minister Neville Chamberlain says it means ‘peace for our time’. Poland and Hungary also take Czechoslovak territory in the following weeks. Whether appeasement was a grave mistake or a rational way to buy time to rearm is still debated (debate F).",
+  "problem": "Balance: Link to the appeasement debate without the site deciding it; adds Poland's and Hungary's gains (same standard for every country). Sources: Britannica 'Munich Agreement'; Evans's summary of the historiography."
+ },
+ {
+  "id": "fas-e-italy-racial-laws",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "Simon Wiesenthal Center Annual, vol. 4, Refuge and Persecution in Italy, 1933–1945",
+    "url": "https://museumoftolerance.com/education/archives-and-reference-library/online-resources/simon-wiesenthal-center-annual-volume-4/annual-4-chapter-1.html"
+   },
+   {
+    "cite": "USHMM Holocaust Encyclopedia, Italia (Italian edition)",
+    "url": "https://encyclopedia.ushmm.org/content/it/article/italy"
+   }
+  ],
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened Simon Wiesenthal Center Annual vol. 4, Refuge and Persecution in Italy, 1933–1945 (decree of 17 Nov 1938 barred Jews from public service, state schools and universities, and civil marriage with ‘Aryans’; September 1938 decrees); USHMM Italian edition (discharge from armed forces, marriage ban)",
+  "problem": "Source fix: Wikipedia placeholder replaced with the SWC Annual. Note the USHMM Italian page wrongly dates the laws to ‘early 1938’; text dates are correct. Balance: The origin of the 1938 laws is a real debate (De Felice vs Sarfatti and others) that bears on the 'Italian Fascism was mild' myth. Both views now shown. Sources: Sarfatti, The Jews in Mussolini's Italy (2006); De Felice, Storia degli ebrei italiani sotto il fascismo (1961).",
+  "text": "Fascist Italy passes racial laws that expel Jews from schools, universities, the civil service and the armed forces and ban marriages between Jews and other Italians. Many Italian Jews had been Fascist party members, and the laws shocked them. Historians once tended to see the laws as Mussolini copying Hitler to please his ally (Renzo De Felice); later research, notably Michele Sarfatti’s, stresses the Fascist regime’s own racist and antisemitic motives, already visible in its colonial laws."
+ },
+ {
+  "id": "fas-e-kristallnacht",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM, Kristallnacht: 9–10 Nov 1938; Germany incl. Austria and Sudetenland; more than 1,400 synagogues; thousands of businesses; hundreds died; about 26,000 men to camps",
+  "text": "Using the shooting of the German diplomat Ernst vom Rath in Paris by Herschel Grynszpan, a young Polish Jew whose family had just been expelled from Germany, as a pretext, the regime organizes a pogrom across Germany, Austria and the Sudetenland. Propaganda presented it as spontaneous popular anger; in fact party and SA leaders, urged on by Goebbels, organized it. More than 1,400 synagogues are burned or destroyed, thousands of Jewish businesses are wrecked, at least 91 Jews are killed and hundreds more die after arrest or by suicide, and about 26,000–30,000 Jewish men are sent to concentration camps. The state then fines German Jews one billion Reichsmarks. Many historians now prefer the name ‘November pogrom’, because ‘Kristallnacht’ (night of broken glass) makes it sound as if only property was damaged.",
+  "problem": "Balance: The label 'Kristallnacht' needs context (§1). The regime's 'spontaneous' framing is propaganda that must be shown with what the evidence shows. 'Hundreds of Jews die' should give the documented figure (USHMM: at least 91 killed during the pogrom). Grynszpan's motive (the Polenaktion expulsions) is part of the 'why'. Sources: USHMM 'Kristallnacht'."
+ },
+ {
+  "id": "fas-e-spain-war-ends",
+  "verdict": "fix",
+  "text": "Madrid falls on 28 March 1939 and Franco declares the war over on 1 April; Britannica puts the war’s dead at about 500,000. Killings behind the lines happened on both sides: about 50,000 in the Republican zone, mostly by militias in the first months, including about 6,800 clergy and the prisoners shot at Paracuellos in 1936; on the Nationalist side killing was ordered policy, with estimates from about 80,000 by 1943 (a conservative figure cited by Britannica) to about 150,000 (Paul Preston), and executions went on for years after 1939. About 450,000 Spaniards fled to France in early 1939.",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, Spanish Civil War (summary)",
+    "url": "https://www.britannica.com/summary/Spanish-Civil-War"
+   },
+   {
+    "cite": "Encyclopaedia Britannica, Spain: The Civil War",
+    "url": "https://www.britannica.com/place/Spain/The-Civil-War"
+   },
+   {
+    "cite": "Maclean’s, review of Paul Preston, The Spanish Holocaust",
+    "url": "https://cms.macleans.ca/culture/books/review-the-spanish-holocaust-inquisition-and-extermination-in-twentieth-century-spain/"
+   }
+  ],
+  "method": "Opened Britannica summary (Madrid fell 28 March 1939; about 500,000 died); Britannica, Spain: The Civil War (conservative estimates about 80,000 Nationalist political killings to 1943; terror continued after the war); Maclean’s review of Preston (about 50,000 Republican-zone victims; Nationalist killings probably three times as many) Merged with balance review; added context not separately source-checked.",
+  "problem": "The 130,000–150,000 range is unattributed and omits the lower conservative estimate (about 80,000) that Britannica cites. Named the estimators. The 1 April declaration is standard but was not on an opened page."
+ },
+ {
+  "id": "fas-e-poland",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM timeline, German invasion of Poland: 1 Sept 1939; Britain and France declared war 3 Sept",
+  "text": "Germany invades Poland, starting the Second World War in Europe; Britain and France declare war on 3 September. Under a secret protocol of the Nazi–Soviet Pact of 23 August 1939, the Soviet Union invades eastern Poland on 17 September, and the two powers divide the country.",
+  "problem": "Balance: Same standard for every side (§1): the Soviet invasion under the secret protocol belongs in the same record. Sources: Britannica 'German-Soviet Nonaggression Pact'; Avalon Project text of the secret protocol."
+ },
+ {
+  "id": "fas-e-t4",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM, Euthanasia Program: secret order autumn 1939 backdated to 1 Sept 1939; T4 count 70,273 in six gassing centers Jan 1940–Aug 1941; about 250,000 victims in all phases",
+  "text": "Hitler secretly authorizes the murder of institutionalized disabled people, backdating the order to 1 September 1939. The regime called it ‘euthanasia’ (mercy killing), but the victims were not dying and did not consent; they were killed because the regime judged their lives ‘unworthy of life’. T4’s own count is 70,273 people gassed in six centers by August 1941. After public protests, including a sermon by Bishop Clemens August von Galen of Münster in August 1941, the gassing in those centers was stopped, but killing by starvation, drugs and shooting went on; historians estimate about 250,000 victims across all phases.",
+  "problem": "Balance: 'Euthanasia' is the perpetrators' euphemism and must not stand without context (§1). Galen's protest is a key example of resistance that had an effect, and of what was learned about public pressure. Sources: USHMM 'Euthanasia Program'; USHMM on Galen."
+ },
+ {
+  "id": "fas-e-auschwitz-opens",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM, Auschwitz: set up spring 1940; first Polish political prisoners June 1940; about 1.1 million killed, about 1 million Jews (page calls it the largest Nazi camp; 1.1 million is the highest toll of any killing site)",
+  "text": "The first Polish prisoners arrive at Auschwitz, a camp the SS set up that spring. Auschwitz grew into the largest killing site of the Holocaust, where about 1.1 million people were killed: about 1 million Jews, and also about 70,000–75,000 non-Jewish Poles, about 21,000 Roma and Sinti, about 15,000 Soviet prisoners of war and some 10,000–15,000 others.",
+  "problem": "Balance: Names the non-Jewish victim groups of Auschwitz, which the original's 'about 1 million of them Jews' leaves anonymous. Figures are the Auschwitz-Birkenau State Museum / Franciszek Piper estimates; add that source."
+ },
+ {
+  "id": "fas-e-vichy-statute",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, France",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/france"
+   },
+   {
+    "cite": "Yad Vashem, Shoah Resource Center, Statut des Juifs (Jewish Law)",
+    "url": "https://wwv.yadvashem.org/odot_pdf/Microsoft%20Word%20-%206045.pdf"
+   }
+  ],
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM, France (July 1940 vote placing Vichy under Pétain; statute in two parts Oct 1940 and June 1941; exclusions); Yad Vashem Shoah Resource Center, Statut des Juifs (3 Oct 1940; ‘purely on the initiative of the French government’; 2 June 1941 statute)",
+  "problem": "Source fix: neither cited page supports ‘on its own initiative’ or the 3 October date (the Britannica summary does not mention the statute). Replaced the Britannica summary with Yad Vashem. Note the Yad Vashem PDF is served from the ‘wwv.yadvashem.org’ host exactly as search returned it. Balance: Adds why many French people supported Vichy (defeat trauma, Pétain's prestige) and gives its slogans with context, as §1 requires for labels. The 569–80 vote shows the Republic's own parliament ended it. Sources: Paxton, Vichy France (1972); Britannica 'Vichy France'.",
+  "text": "After France’s defeat, parliament votes 569 to 80 to give Marshal Philippe Pétain, the most admired French commander of the First World War, full powers, and the Vichy regime replaces the Republic. Pétain promised a ‘National Revolution’ under the motto ‘Work, Family, Fatherland’, and many French people, shocked by defeat, at first trusted him. In October 1940 Vichy issues, on its own initiative, a Statute on Jews excluding them from public service and many professions, extended in June 1941."
+ },
+ {
+  "id": "fas-e-iron-guard-revolt",
+  "verdict": "fix",
+  "text": "Romania’s Iron Guard rises against its partner in government, General Ion Antonescu. Antonescu crushes the revolt with German army support; during the three days of violence Guardists carry out a pogrom in Bucharest that murders 127 Jews, according to Yad Vashem.",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, Romania",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/romania"
+   },
+   {
+    "cite": "Yad Vashem, This Month in Holocaust History: January 1941",
+    "url": "https://www.yadvashem.org/holocaust/this-month/january/1941.html"
+   }
+  ],
+  "method": "Opened USHMM, Romania (21 Jan 1941, three days, Antonescu won with German army support, ‘dozens’ murdered at the Bucharest slaughterhouse); Yad Vashem, This Month in Holocaust History, January 1941 (127 Jews murdered in the three-day riots) Merged with balance review; added context not separately source-checked.",
+  "problem": "‘Dozens of Jews’ understates the pogrom: USHMM’s ‘dozens’ refers only to the slaughterhouse killings; Yad Vashem gives 127 Jews murdered in all."
+ },
+ {
+  "id": "fas-e-ndh",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened Britannica, Ante Pavelić (installed after Axis conquest April 1941; oppression of Orthodox Serbs and Jews); Wikipedia, The Holocaust in the NDH (proclaimed 10 April 1941; Roma victims, with USHMM figures). Consider adding USHMM’s estimates (320,000–340,000 Serbs, about 32,000 Jews, at least 25,000 Roma)",
+  "text": "After the Axis invasion of Yugoslavia, Germany and Italy set up the Independent State of Croatia with Ante Pavelić and the Ustaše in power. Some Croats at first welcomed independence after two decades in a Serb-dominated kingdom; the Ustaše regime then persecuted and murdered Serbs, Jews and Roma, and also killed Croat and Muslim opponents, while also forcing many Serbs to convert to Catholicism.",
+  "problem": "Balance: Adds the 'why' (interwar grievances), the Axis sponsors, and the regime's Croat and Muslim victims and forced conversions. The wider Yugoslav war also included mass killings of Muslims and Croats by Serbian Chetniks and postwar killings by Tito's Partisans (Bleiburg); these need their own records (see .md gaps). Sources: Tomasevich (2001); USHMM 'Croatia'."
+ },
+ {
+  "id": "fas-e-barbarossa",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM, Invasion of the Soviet Union, June 1941: 22 June 1941; Finland, Romania and others; Einsatzgruppen mass shootings; army cooperation; local auxiliaries",
+  "text": "Germany and its allies invade the Soviet Union in a war the regime planned as a war of annihilation. SS and police units (Einsatzgruppen), with army support and local auxiliaries, begin mass shootings of Jews behind the front, and army orders such as the Commissar Order told troops to shoot Soviet political officers on capture.",
+  "problem": "Balance: Adds the army's role. The postwar claim of a 'clean Wehrmacht' that took no part in crimes was widely believed in West Germany and was overturned by research and the 1995 Wehrmacht exhibition; the record should not leave room for it. Source: USHMM 'Operation Barbarossa' or Bundesarchiv; Hamburg Institute exhibition catalogue."
+ },
+ {
+  "id": "fas-e-iasi",
+  "verdict": "supported",
+  "method": "Opened USHMM Romania: pogrom within days of the June 1941 invasion, at least 4,000 Jews murdered, thousands sent in freight trains to Calarasi and Podul Iloaei, many died en route."
+ },
+ {
+  "id": "fas-e-soviet-pows",
+  "verdict": "fix",
+  "text": "Of about 5.7 million Soviet soldiers captured by Germany, about 3.3 million (57 percent) die, mostly from deliberate starvation, disease, exposure and shootings. By comparison, about 3.6 percent of British and American prisoners died in German custody.",
+  "method": "Opened USHMM Nazi Persecution of Soviet Prisoners of War.",
+  "problem": "USHMM page confirms 5.7 million, 3.3 million (57 percent) and 3.6 percent for British and American POWs, and calls the deaths deliberate policy; it names starvation, disease and shootings, so disease (a major killer) should be listed."
+ },
+ {
+  "id": "fas-e-jasenovac",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM Jasenovac (77,000–99,000 and all four sub-ranges match; camp set up from August 1941, evacuated April 1945) and the CORE abstract, which says estimates range from minimalist to wildly inflated and are distorted by nationalists on both sides.",
+  "text": "The Ustaše run the Jasenovac camp complex, where USHMM estimates 77,000–99,000 people were murdered: 45,000–52,000 Serbs, 12,000–20,000 Jews, 15,000–20,000 Roma and 5,000–12,000 Croat and Muslim opponents. The Jasenovac Memorial Site’s list of named victims supports this order of magnitude. Postwar Yugoslav and later Serbian nationalist figures of 500,000–700,000 or more, and Croatian nationalist claims that minimize or deny the killing, are both rejected by researchers using name lists.",
+  "problem": "Balance: The original 'much higher and much lower figures circulate for political reasons' asserts a motive without saying who or what. Naming each claim and the method that tests it is fairer and more instructive. Minimization that denies the killing is denial and is not presented as a side. Source for the name list to fetch (brief task 5)."
+ },
+ {
+  "id": "fas-e-babi-yar",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM Kiev and Babi Yar: 29–30 September 1941, 33,771 per reports to Einsatzgruppen HQ, SS and police under guidance of Einsatzgruppe C (Sonderkommando 4a), Soviet 1943 estimate of some 100,000 Jews and non-Jews.",
+  "text": "At the Babi Yar (Babyn Yar) ravine outside Kyiv, SS and police units, guided by Einsatzgruppe C and helped by Ukrainian auxiliary police, shoot 33,771 Jews in two days, according to their own reports. In the months that followed Roma, Soviet prisoners of war, psychiatric patients and others were also killed there; Soviet investigators later estimated about 100,000 people were killed at the site. Soviet memorials long avoided saying that most victims were Jews.",
+  "problem": "Balance: Adds the local auxiliaries (equal rigor on collaborators across nations), the other victim groups, and Soviet memory politics. Sources: USHMM 'Kiev and Babi Yar'; Babyn Yar Holocaust Memorial Center."
+ },
+ {
+  "id": "fas-e-wannsee",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Wannsee Conference and the Final Solution",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-wannsee-conference-and-the-final-solution"
+   },
+   {
+    "cite": "USHMM Holocaust Encyclopedia, Wannsee Protocol",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/wannsee-protocol"
+   },
+   {
+    "cite": "House of the Wannsee Conference, Protocol and documents",
+    "url": "https://www.ghwk.de/en/conference/protocol-and-documents"
+   }
+  ],
+  "method": "Opened USHMM The Wannsee Conference and the Final Solution (date, Wannsee villa, Heydrich, 15 officials), the House of the Wannsee Conference protocol page (original in Foreign Office archive) and USHMM Wannsee Protocol (Eichmann compiled the minutes).",
+  "problem": "Text is accurate, but neither cited page says who prepared the minutes; the USHMM Wannsee Protocol article says Eichmann compiled and heavily edited them, and only one copy (Martin Luther’s, Foreign Office) survived."
+ },
+ {
+  "id": "fas-e-reinhard",
+  "verdict": "fix",
+  "text": "In Operation Reinhard, named after Reinhard Heydrich, the SS murders about 1.5 million Jews, most from occupied Poland, in three killing centers: about 925,000 at Treblinka, at least 434,508 at Belzec and at least 167,000 at Sobibor (USHMM estimates). Prisoners revolted at Treblinka in August 1943 and at Sobibor in October 1943; some hundreds escaped, and only a few dozen from each camp survived the war.",
+  "method": "Opened USHMM Operation Reinhard (Belzec at least 434,508, Sobibor at least 167,000, Treblinka about 925,000, about 1.5 million total) and USHMM Documenting Numbers of Victims. Merged with balance review; added context not separately source-checked.",
+  "problem": "USHMM gives Belzec as at least 434,508 (a minimum, not an exact count) and a total of about 1.5 million in the three centers; victims were mostly but not only Polish Jews."
+ },
+ {
+  "id": "fas-e-generalplan-ost",
+  "verdict": "supported",
+  "method": "Opened the Yad Vashem Shoah Resource Center PDF: plan of 1941–42, about 31 million mostly Slavic people to be expelled to western Siberia, about 10 million Germans to be settled, Zamość expulsions November 1942 – August 1943."
+ },
+ {
+  "id": "fas-e-vel-dhiv",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM Vél d’Hiv Roundup: 16–17 July 1942, French police, about 13,000 arrested including about 4,000 children, about 7,000 held at the Vélodrome, most deported to Auschwitz via Drancy and other camps.",
+  "text": "French police arrest about 13,000 Jews in Paris, about 4,000 of them children, and hold many in the Vélodrome d’Hiver before deportation to Auschwitz; very few survived. The police had planned to arrest about 27,000; many others escaped after warnings, some of them from police officers and neighbours. In 1995 President Jacques Chirac acknowledged the French state’s responsibility.",
+  "problem": "Balance: Adds the warnings and escape (ordinary people's choices) and France's later acknowledgment (memory). Sources: USHMM 'Vél d'Hiv'; Chirac speech of 16 July 1995."
+ },
+ {
+  "id": "fas-e-white-rose",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM White Rose: Munich leaflets, betrayed by a janitor in February 1943, Hans and Sophie Scholl and Christoph Probst executed 22 February 1943.",
+  "text": "Hans Scholl, Sophie Scholl and Christoph Probst of the White Rose, a student resistance group in Munich that distributed anti-Nazi leaflets, are executed days after their arrest. Other German resistance came from Communists, Social Democrats and trade unionists, who filled the first camps in 1933, from church members, and from individuals such as Georg Elser, who tried to kill Hitler with a bomb in November 1939.",
+  "problem": "Balance: The record set has no record of left-wing or working-class German resistance, which was the largest early resistance and the first target of terror; the only German resistance records are students and officers. Either broaden this record or add separate records (see .md). Sources: German Resistance Memorial Center (Gedenkstätte Deutscher Widerstand)."
+ },
+ {
+  "id": "fas-e-warsaw-uprising",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM Warsaw Ghetto Uprising: 19 April – 16 May 1943, largest Jewish uprising of the war, ghetto burned and razed block by block.",
+  "text": "Jewish fighters of the Jewish Combat Organization (ŻOB), led by Mordechai Anielewicz, and the Jewish Military Union (ŻZW) resist the final deportations from the Warsaw ghetto for nearly a month, the largest Jewish uprising of the war. German forces burn the ghetto block by block; the SS commander Jürgen Stroop reported more than 56,000 Jews captured, and most survivors were deported to Treblinka and other camps.",
+  "problem": "Balance: Names the fighters and both organizations (victims and resisters named where known, §4). Stroop's report figure needs a source (USHMM 'Warsaw Ghetto Uprising'). The Stroop Report photos are perpetrator-made: show only with context (see .md)."
+ },
+ {
+  "id": "fas-e-mussolini-deposed",
+  "verdict": "supported",
+  "method": "Opened Britannica Benito Mussolini: Grand Council vote 25 July 1943, King had him arrested, German commandos freed him that September, he led the Italian Social Republic at Salò."
+ },
+ {
+  "id": "fas-e-hungary-deportations",
+  "verdict": "supported",
+  "method": "Opened USHMM timeline Deportation of Hungarian Jews: 15 May – 9 July 1944, about 440,000, Hungarian gendarmes under SS guidance, most to Auschwitz-Birkenau, majority gassed."
+ },
+ {
+  "id": "fas-e-july-plot",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM July 20, 1944 Plot: Stauffenberg’s briefcase bomb at the Wolf’s Lair in East Prussia, Hitler survived, more than 7,000 arrested and 4,980 executed afterward (USHMM figure).",
+  "text": "Colonel Claus von Stauffenberg sets off a bomb at Hitler’s headquarters in East Prussia; Hitler survives, the coup fails, and the regime executes many of the conspirators and arrests thousands of suspects. The plotters were mostly conservative and nationalist officers and officials; some had served the regime for years. Historians debate the mix of motives: moral revulsion at its crimes, the wish to save Germany from total defeat, or both.",
+  "problem": "Balance: The record says nothing about who the plotters were or why. Their motives are debated (e.g. Hans Mommsen, Peter Hoffmann, Christian Gerlach on some plotters' roles in the East). Presenting the debate avoids both hero-worship and dismissal. Sources: German Resistance Memorial Center; Hoffmann, The History of the German Resistance."
+ },
+ {
+  "id": "fas-e-arrow-cross",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened Britannica Arrow Cross Party (German-backed takeover October 1944, Szálasi prime minister then national leader, Red Army took Budapest February 1945) and USHMM Wallenberg article (tens of thousands of Budapest Jews forced to march toward the Austrian border). The Arrow Cross killings in Budapest are not detailed on these pages but are well established.",
+  "text": "With German backing, the Arrow Cross under Ferenc Szálasi takes power in Hungary. Arrow Cross militias murder thousands of Jews in Budapest, many shot on the banks of the Danube, and force tens of thousands on marches toward the Austrian border. Diplomats including Raoul Wallenberg, Carl Lutz of Switzerland and Giorgio Perlasca issued protective papers to save as many as they could.",
+  "problem": "Balance: Adds rescuers alongside perpetrators. Victim figures (often given as 10,000–15,000 or more killed in Budapest by Arrow Cross men) need a source (USHMM 'Hungary after the German Occupation'). The Shoes on the Danube Bank memorial is a good archive seed."
+ },
+ {
+  "id": "fas-e-auschwitz-liberated",
+  "verdict": "supported",
+  "method": "Opened USHMM Auschwitz (about 7,000 prisoners liberated 27 January 1945; evacuation and death marches began 17 January) and USHMM Liberation of Nazi Camps."
+ },
+ {
+  "id": "fas-e-mussolini-killed",
+  "verdict": "fix",
+  "text": "Italian partisans capture Mussolini near Dongo on Lake Como as he tries to flee to Switzerland in German uniform, and shoot him and Clara Petacci at nearby Giulino di Mezzegra. Their bodies are hung in Milan’s Piazzale Loreto, where Fascist forces had displayed 15 executed partisans in August 1944. In the weeks after the war thousands of Fascists and suspected collaborators were also killed; the number is debated.",
+  "method": "Opened Britannica Benito Mussolini (captured and shot 28 April 1945 near Dongo or Giulino di Mezzegra on Lake Como). Merged with balance review; added context not separately source-checked.",
+  "problem": "Britannica places the shooting near Dongo or at Giulino di Mezzegra; most accounts say he was caught at Dongo and shot at nearby Giulino di Mezzegra, so the text should not place the shooting at Dongo itself."
+ },
+ {
+  "id": "fas-e-hitler-death",
+  "verdict": "fix",
+  "text": "Hitler kills himself in his Berlin bunker on 30 April. German forces surrender unconditionally on 7–9 May 1945, and 8 May is celebrated as Victory in Europe Day.",
+  "when": "30 April – 9 May 1945",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, German Forces Surrender to the Allies (timeline)",
+    "url": "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/german-forces-surrender-to-the-allies"
+   }
+  ],
+  "method": "Opened USHMM Adolf Hitler (no death or surrender details) and USHMM timeline German Forces Surrender to the Allies (30 April suicide; surrender 7 May west, 9 May east; V-E Day 8 May).",
+  "problem": "The cited USHMM Adolf Hitler article ends in 1934 and gives neither date. USHMM’s surrender timeline confirms the 30 April suicide and says German forces surrendered unconditionally in the west on 7 May and in the east on 9 May, with 8 May proclaimed V-E Day; the text should match."
+ },
+ {
+  "id": "fas-e-nuremberg-imt",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM IMT at Nuremberg (20 November 1945 start, 1 October 1946 verdict, 22 tried including Bormann in absentia, four counts, 19 convicted, 12 death sentences, 3 acquitted) and the Avalon Project index (Blue Set, judgment).",
+  "text": "The International Military Tribunal at Nuremberg tries 22 leading Nazis on four counts, including crimes against peace, war crimes and crimes against humanity. Nineteen are convicted, 12 of them sentenced to death, and three are acquitted. Critics then and since have called it victors’ justice: Allied conduct was not judged, and the Soviet prosecutors even charged Germany with the Katyn massacre of Polish officers, which Soviet forces had carried out. Defenders point to the mass of documentary evidence, the defense lawyers and the acquittals, and to the trial’s lasting role in international law.",
+  "problem": "Balance: Critics of the trial are not given at all; the 'victors' justice' critique (including from some Allied lawyers and judges) is a serious position and should be shown with its defenders' answer. The Katyn charge is a documented fact (dropped from the judgment). Sources: Avalon Project IMT records; Britannica 'Nürnberg trials'; for Katyn, USHMM or the IMT record."
+ },
+ {
+  "id": "fas-e-tokyo-trial",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened National WWII Museum Tokyo War Crimes Trial (3 May 1946 – 12 November 1948, seven sentenced to hang, Tōjō hanged 23 December 1948, Pal voted to acquit all) and Britannica IMTFE. Hirohito’s non-indictment is only implied on the museum page (judges noted his absence) but is well established.",
+  "text": "The International Military Tribunal for the Far East tries Japanese wartime leaders; seven, including Tōjō Hideki, are hanged on 23 December 1948. The United States decided not to indict Emperor Hirohito; how much responsibility he bore is debated (Herbert Bix argues a great deal; others stress the military’s control). The Indian judge Radhabinod Pal dissented, voting to acquit all defendants: he accepted that atrocities such as those at Nanjing happened, but argued that the charge of aggressive war was retroactive law and that the Western powers were judging others for what they had done in their own empires. His dissent is still cited by Japanese nationalists and criticized by many historians.",
+  "problem": "Balance: Pal's dissent is mentioned without its reasoning, which invites misreading in both directions (it is widely quoted as if Pal denied the atrocities). Hirohito's responsibility is a real debate. Sources: Pal's dissenting judgment; Bix, Hirohito and the Making of Modern Japan (2000); a counter-view (e.g. Peter Wetzler or Noriko Kawamura)."
+ },
+ {
+  "id": "fas-e-antonescu-executed",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM Romania: Antonescu returned by the Soviets in 1946, found guilty of war crimes, executed 1 June 1946. The page does not name the court; the Bucharest People’s Tribunal is general knowledge.",
+  "text": "Ion Antonescu, Romania’s wartime dictator, is executed after a trial by a Romanian people’s tribunal for war crimes, including the murder of Jews. The tribunal sat under Soviet occupation and growing Communist control, which later critics used to question its fairness. In the 1990s some Romanian nationalists tried to rehabilitate Antonescu; in 2004 the international Wiesel Commission, set up by the Romanian state, confirmed his regime’s responsibility for the deaths of hundreds of thousands of Jews and Roma.",
+  "problem": "Balance: Adds context on the tribunal (critics' point stated) and on postwar memory, without casting doubt on the crimes. Sources: Wiesel Commission Final Report (2004); USHMM 'Romania'."
+ },
+ {
+  "id": "fas-e-msi",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened The Week on Brothers of Italy: MSI formed after the war by members of Mussolini’s party, Rome office set up 1946, FdI its direct political descendant. The exact founding date (26 December 1946) is general knowledge.",
+  "text": "Former members of Mussolini’s movement, among them officials of the Salò Republic such as Giorgio Almirante, found the Italian Social Movement (MSI), postwar Italy’s main neo-fascist party. In 1995 its successor, National Alliance, formally renounced fascism. Brothers of Italy, founded in 2012 by former National Alliance members, describes itself as a conservative party; critics point to its roots in the MSI and to the tricolour flame it kept in its logo.",
+  "problem": "Balance: 'Today's Brothers of Italy descends from it' is lineage, but presented alone it reads as a label. STANDARDS rule for modern parties: their own statements plus their critics'. Sources: Britannica 'Italian Social Movement'; FdI statute/party site for its self-description; a critic (e.g. a journalist or historian) for the flame symbol."
+ },
+ {
+  "id": "fas-e-genocide-convention",
+  "verdict": "supported",
+  "method": "Opened USHMM Lemkin narrative (coined genocide in 1944, lobbied the UN, convention approved 9 December 1948). The UN fact-sheet PDF failed to load; consider checking that link."
+ },
+ {
+  "id": "fas-e-khabarovsk",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened Tsuneishi Keiichi, Japan Focus (2005): Soviet trial at Khabarovsk in December 1949 of 12 Unit 731 members held as prisoners of war; no Unit 731 members in Japan were tried; US granted immunity in exchange for research data.",
+  "text": "A Soviet court at Khabarovsk tries 12 former members of Japan’s Kwantung Army and Unit 731 for biological warfare. Western governments dismissed the trial at the time as Soviet propaganda; later research confirmed much of its evidence. Unit members who had returned to Japan were never prosecuted; US investigators had obtained their data in exchange for immunity.",
+  "problem": "Balance: Adds how the trial was received and how its evidence fared, a source-criticism lesson (Clouded at the time, Strong now). Source: Tsuneishi (2005) already cited; Harris, Factories of Death."
+ },
+ {
+  "id": "fas-e-eichmann-trial",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM Eichmann Trial: seized 20 May 1960 by Mossad, trial opened 11 April 1961, convicted 11–12 December, sentenced to death 15 December, survivors at center stage, hanged 1 June 1962.",
+  "text": "Adolf Eichmann, captured in Argentina by Israeli agents in May 1960, is tried in Jerusalem, where survivor testimony is central. Argentina protested that the capture broke its sovereignty, and the UN Security Council asked Israel to make reparation. He is convicted and sentenced to death, and is hanged on 1 June 1962.",
+  "problem": "Balance: Adds Argentina's protest and UN Security Council resolution 138 (1960), so the legal controversy is shown factually. Source: UN Security Council resolution 138."
+ },
+ {
+  "id": "fas-e-frankfurt-trial",
+  "verdict": "supported",
+  "method": "Opened National Library of Israel blog (1963–65, 19 tried, 17 convicted, six life sentences, Fritz Bauer as Hesse chief prosecutor, landmark in public reckoning) and the Fritz Bauer Institut tape-recording page."
+ },
+ {
+  "id": "fas-e-carnation",
+  "verdict": "supported",
+  "method": "Opened The Conversation: 25 April 1974 uprising by part of the armed forces ended the Estado Novo and led to independence for the colonies. The page does not discuss casualties; ‘largely bloodless’ matches general knowledge (a handful of people were shot by the secret police)."
+ },
+ {
+  "id": "fas-e-franco-death",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened Britannica Francisco Franco (died 20 November 1975, head of state until death) and JusticeInfo.net (1977 Amnesty Law still shields perpetrators). German and Italian help and the transition under Juan Carlos are general knowledge.",
+  "text": "Francisco Franco dies in office after 36 years of rule. Spain moves to democracy under King Juan Carlos. A 1977 amnesty law, demanded at the time by the left to free political prisoners and passed by a large majority, also shields crimes of the dictatorship from prosecution; United Nations human rights bodies have since said it should not cover crimes against humanity, while its defenders say it was the foundation of a peaceful transition.",
+  "problem": "Balance: The 1977 law is presented only as shielding crimes. Its history (freeing anti-Franco prisoners, broad support including the Communist Party) and the present debate need both sides. Sources: text of Ley 46/1977; UN Human Rights Committee or Special Rapporteur reports on Spain."
+ },
+ {
+  "id": "fas-e-historikerstreit",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened German History Intersections (Habermas, Die Zeit, 11 July 1986, answering Nolte’s FAZ article that called the Nazi crimes a reaction or distorted copy of Bolshevik terror) and the bpb APuZ article by Helmut Fleischer (1988) on the 1986–87 dispute.",
+  "text": "The historians’ dispute (Historikerstreit) breaks out in West Germany after Ernst Nolte suggests that Nazi crimes were in part a reaction to Bolshevik terror, which he called their precedent. Nolte and some defenders said Nazism must be historicized and compared like any other past. Jürgen Habermas and most historians rejected his causal claim as relativizing the Holocaust; comparison of Nazi and Soviet crimes nonetheless became normal scholarship.",
+  "problem": "Balance: Gives Nolte's position in his own terms and the outcome, as the brief does, instead of only the rejection."
+ },
+ {
+  "id": "fas-e-un-remembrance",
+  "verdict": "supported",
+  "method": "Opened UN Digital Library record for A/RES/60/7 (adopted 1 November 2005, designates 27 January, rejects any denial of the Holocaust) and USHMM International Holocaust Remembrance Day."
+ },
+ {
+  "id": "fas-e-mein-kampf-edition",
+  "verdict": "supported",
+  "method": "Opened Institut für Zeitgeschichte page: copyright expired end of 2015, critical edition published January 2016 with more than 3,500 annotations correcting and contextualizing the text."
+ },
+ {
+  "id": "fas-e-franco-exhumed",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened PBS NewsHour: exhumed 24 October 2019 from the Valley of the Fallen, reburied at Mingorrubio cemetery beside his wife, after the family’s legal bid failed at the Supreme Court.",
+  "text": "Spain’s government exhumes Franco’s remains from the state mausoleum at the Valley of the Fallen, built in part with the labour of Republican political prisoners and renamed the Valley of Cuelgamuros in 2022, and reburies them in a family plot after a long legal fight with his descendants. Supporters said a democracy should not honour a dictator in a state monument; opponents, including his family and some conservatives, said it reopened old wounds.",
+  "problem": "Balance: 'Valley of the Fallen' is the Francoist name; give its context and the current name. Both sides' reasons stated. Sources: Spanish Democratic Memory Law (renaming); Britannica or a major newspaper on the exhumation and the forced-labour history."
+ },
+ {
+  "id": "fas-e-memory-law",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened JusticeInfo.net: law in force 21 October 2022, state responsible for searches and exhumations, PP opposes and promises repeal, 1977 Amnesty Law still shields perpetrators.",
+  "text": "Spain’s Democratic Memory Law comes into force, making the state responsible for searching for and exhuming people who disappeared in the Civil War and under Franco. Supporters say families have a right to find and bury their dead. The People’s Party and Vox oppose it, saying it reopens old wounds, breaks the spirit of the 1977 reconciliation and treats history one-sidedly; the 1977 amnesty law still blocks prosecutions.",
+  "problem": "Balance: 'Conservative parties oppose it' gives no reasons; §1 requires their reasoning in their own terms, and supporters' reasons too."
+ },
+ {
+  "id": "fas-e-meloni",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened ANSA (sworn in 22 October 2022, first woman premier, MSI youth activist) and The Week (FdI direct descendant of MSI; Meloni said fascism ‘consigned to history’ and called the 1938 racial laws the worst moment in Italian history; critics cite roots and salutes).",
+  "text": "Giorgia Meloni of Brothers of Italy, a party whose roots go back through National Alliance to the neo-fascist MSI, is sworn in as Italy’s first woman prime minister. She describes her party as conservative, has said fascism belongs to history, and has called the 1938 racial laws the low point of Italian history. Critics point to the party’s roots and symbols and to her refusal to describe herself as anti-fascist.",
+  "problem": "Balance: Already follows the rule (own statements plus critics'). Small changes: lineage stated precisely, the party's self-description added, the critics' points made specific. The critics' last point needs a source."
+ },
+ {
+  "id": "fas-e-afd-classification",
+  "verdict": "fix",
+  "text": "In May 2025 Germany’s domestic intelligence agency (BfV) classifies the AfD as a confirmed right-wing extremist organization, citing what it calls an ethnic idea of who belongs to the German people; the AfD calls itself a democratic, patriotic party, calls the label politically motivated defamation and sues, and the agency suspends the label while the court decides. In February 2026 a Cologne court rules in an urgent procedure that the label cannot be used for now; the main case continues. “Extremist” here is a category in German constitutional law, not the same as calling a party fascist.",
+  "when": "2 May 2025 – March 2026 (main case ongoing)",
+  "conf": "Developing",
+  "sources": [
+   {
+    "cite": "beck-aktuell, Verfassungsschutz gibt Stillhaltezusage fürs Eilverfahren ab (8 May 2025)",
+    "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsgeschehen/afd-rechtsextrem-einstufung-verfassungsschutz-stillhaltezusage-eilverfahren-2025-05-08"
+   },
+   {
+    "cite": "Legal Tribune Online, VG Köln stoppt Hochstufung (26 February 2026)",
+    "url": "https://www.lto.de/recht/nachrichten/n/13l110925-vg-koeln-stoppt-hochstufung-afd-als-gesichert-rechtsextrem"
+   },
+   {
+    "cite": "The Local Germany, German court rules intelligence service may not label AfD extremist for now (27 February 2026)",
+    "url": "https://www.thelocal.de/20260227/german-court-rules-intelligence-service-may-not-label-afd-extremist-for-now"
+   },
+   {
+    "cite": "beck-aktuell, AfD bleibt Verdachtsfall: Bundesinnenministerium verzichtet auf Beschwerde (3 March 2026)",
+    "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsprechung/vg-koeln-afd-verdachtsfall-einstufung-beschwerde-eilverfahren-2026-03-03"
+   }
+  ],
+  "method": "Opened beck-aktuell 8 May 2025 (classification 2 May; BfV reasons; standstill pledge; Weidel’s response), LTO 26 February 2026 (VG Köln 13 L 1109/25 interim ruling), The Local 27 February 2026 (Weidel and Dobrindt reactions) and beck-aktuell 3 March 2026 (ministry will not appeal; main proceedings pending). Merged with balance review; added context not separately source-checked.",
+  "problem": "Status changed after the cited LTO article: on 3 March 2026 the interior ministry said it would not appeal the Cologne interim ruling, so it stands while the main case continues; the AfD remains under watch as a suspected case. The record should also state both sides’ positions neutrally. No main-case ruling found as of November 2026; keep Developing."
+ },
+ {
+  "id": "fas-p-mussolini",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened Britannica Benito Mussolini: 1883–1945, Avanti! editor, Fasci di Combattimento 1919, prime minister 1922, dictatorship by 1925, deposed 1943, shot by partisans 28 April 1945.",
+  "text": "Former socialist editor who founded Fascism in 1919, became prime minister in 1922 and dictator by 1925, and allied Italy with Nazi Germany. He was called Il Duce (‘the leader’, from the Latin dux), the title at the centre of a personality cult built by the regime; supporters at home and some admirers abroad praised him in the 1920s for restoring order, while opponents were beaten, jailed, exiled to remote islands or killed. Deposed in 1943, he was shot by partisans in April 1945.",
+  "problem": "Balance: 'Il Duce' is the textbook example of a label that must not appear without context (§1). Adds what the title meant to supporters and what critics and evidence show. Sources: Bosworth (2005); Britannica."
+ },
+ {
+  "id": "fas-p-hitler",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM Adolf Hitler (born 1889, absolute party leader by 1921, chancellor 30 January 1933, Führer after August 1934; aim of eliminating European Jews). The page stops in 1934; his starting the war in Europe and driving the Holocaust are settled facts (see USHMM surrender timeline for 1945).",
+  "text": "Leader of the Nazi Party from 1921 and dictator of Germany from 1933 to 1945. After President Hindenburg died in August 1934 he merged the offices of chancellor and president and took the title Führer (‘leader’), to whom soldiers and officials swore personal oaths; the regime’s propaganda presented him as the nation’s saviour. He started the Second World War in Europe and drove the genocide of European Jews and other mass murders.",
+  "problem": "Balance: 'Führer' appears in the brief and on the site; give it context once, in the person record (§1)."
+ },
+ {
+  "id": "fas-p-franco",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened Britannica Francisco Franco (1892–1975, led Nationalists, El Caudillo, head of state until death). German and Italian help and the fascist-or-authoritarian debate are general knowledge not shown in the extract.",
+  "text": "General who led the Nationalist side in the Spanish Civil War with German and Italian help and ruled Spain as dictator from 1939 until his death, with the title Caudillo (‘leader’), which his regime used to present him as the saviour of Catholic Spain. Supporters credit him with keeping Spain out of the Second World War and with the economic growth of the 1960s; critics point to mass executions, prisons and labour camps, and decades of repression. Whether his regime was fascist or authoritarian-conservative is debated.",
+  "problem": "Balance: '(Caudillo)' is an unexplained honorific (§1). Supporters' and critics' cases added in their own terms. Note for the fact-checker: Spain was neutral/'non-belligerent', but sent the Blue Division to fight the Soviet Union (1941–43); add that to keep the 'kept Spain out' claim honest. Sources: Payne (1987); Preston, Franco (1993)."
+ },
+ {
+  "id": "fas-p-antonescu",
+  "verdict": "fix",
+  "text": "General who ruled Romania as dictator from 1940 to 1944 in alliance with Nazi Germany. His regime murdered hundreds of thousands of Jews, mainly in Bessarabia, Bukovina and Transnistria, and deported about 25,000 Roma to Transnistria, where at least 11,000 died; he was executed in 1946.",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, Romania",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/romania"
+   },
+   {
+    "cite": "USHMM Holocaust Encyclopedia, Transnistria",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/transnistria-governorate"
+   }
+  ],
+  "method": "Opened USHMM Romania (ruled 1940–44, 150,000–250,000 Jews killed in Transnistria, executed 1 June 1946) and USHMM Transnistria (25,000 Roma deported, at least 11,000 died; 280,000–380,000 Jews murdered there).",
+  "problem": "‘Many Roma’ was unsourced; USHMM’s Transnistria article gives about 25,000 Roma deported and at least 11,000 dead. USHMM gives 150,000–250,000 Jewish deaths in Transnistria on one page and 280,000–380,000 on another (counting differently), so ‘hundreds of thousands’ is right but the Roma figure should be added with its source."
+ },
+ {
+  "id": "fas-p-pavelic",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened Britannica Ante Pavelić: 1889–1959, organized the Ustaše, poglavnik of the Independent State of Croatia 1941–45, persecution of Serbs and Jews, to Argentina 1948, died in Madrid. Roma victims are supported by the USHMM Jasenovac page. Note he was born in Bosnia.",
+  "text": "Founder of the Ustaše movement and head of the Independent State of Croatia from 1941 to 1945, with the title Poglavnik (‘leader’). His regime murdered Serbs, Jews and Roma as well as Croat and Muslim opponents. He escaped in 1948 to Argentina through the ‘ratlines’, escape routes run with help from some Catholic clergy in Rome, and died in Madrid in 1959.",
+  "problem": "Balance: '(Poglavnik)' is an unexplained title; 'ratlines' and the clergy's role are factual context (Phayer, Pius XII, the Holocaust, and the Cold War, 2008; Tomasevich 2001)."
+ },
+ {
+  "id": "fas-p-tojo",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened Britannica Tojo Hideki: 1884–1948, prime minister 18 October 1941 – July 1944, led the war after Pearl Harbor, convicted by the IMTFE and hanged 1948.",
+  "text": "Army general and prime minister of Japan from October 1941 to July 1944, who led the country into war with the United States and Britain. He was convicted by the Tokyo tribunal and hanged in 1948. In 1978 he and other convicted leaders were enshrined at the Yasukuni Shrine in Tokyo, so visits there by Japanese prime ministers draw protests from China and South Korea; visitors say they honour all of Japan’s war dead.",
+  "problem": "Balance: Adds memory politics with both sides' statements (the Japan case needs the same 'how it is remembered' sub-tab as the others). Source: Britannica 'Yasukuni Shrine'."
+ },
+ {
+  "id": "fas-p-gentile",
+  "verdict": "fix",
+  "text": "Idealist philosopher who served as Mussolini’s education minister and drafted The Doctrine of Fascism (1932), which Mussolini reworked and published under his own name. He supported the German-backed Salò Republic and was killed in Florence in April 1944 by a communist partisan unit; the killing was debated even within the Resistance.",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, Giovanni Gentile",
+    "url": "https://britannica.com/biography/Giovanni-Gentile"
+   },
+   {
+    "cite": "Maurice Cranston, Fascism, Encyclopedia of Philosophy (via Encyclopedia.com)",
+    "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/fascism"
+   }
+  ],
+  "method": "Opened Britannica Giovanni Gentile and Encyclopedia of Philosophy ‘Fascism’ (Maurice Cranston) on Encyclopedia.com (Gentile’s draft rewritten by Mussolini, published 1932 in the Enciclopedia italiana). Merged with balance review; added context not separately source-checked.",
+  "problem": "Britannica confirms his dates, idealism, education ministry (1922–24) and killing in Florence by anti-fascists, but does not mention The Doctrine of Fascism. A philosophy encyclopedia says Gentile drafted the text and Mussolini rewrote it before it appeared in 1932, so ‘wrote the philosophical section’ overstates what can be sourced."
+ },
+ {
+  "id": "fas-p-rosenberg",
+  "verdict": "supported",
+  "method": "Opened USHMM Alfred Rosenberg: 1893–1946, Nazi ideologue, Myth of the Twentieth Century (1930), minister for occupied eastern territories 1941, convicted on all four counts and hanged 16 October 1946. Birth in Reval (Tallinn) is general knowledge."
+ },
+ {
+  "id": "fas-p-goebbels",
+  "verdict": "supported",
+  "method": "Opened USHMM Joseph Goebbels: propaganda minister from 13 March 1933, control of film, radio, press, chief instigator of Kristallnacht, he and Magda had their six children poisoned and killed themselves 1 May 1945."
+ },
+ {
+  "id": "fas-p-himmler",
+  "verdict": "supported",
+  "method": "Opened USHMM Heinrich Himmler: Reichsführer-SS January 1929, chief of German police June 1936, ran camp system, oversaw the Final Solution, cyanide suicide in British custody 23 May 1945."
+ },
+ {
+  "id": "fas-p-heydrich",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM Reinhard Heydrich In Depth: RSHA chief from 1939, created Einsatzgruppen, presented Final Solution plans at Wannsee, attacked by Czech parachutists 27 May 1942, died 4 June 1942, Lidice reprisals.",
+  "text": "Chief of the Reich Security Main Office who organized the Einsatzgruppen and chaired the Wannsee Conference; he was a main architect of what the Nazis called the ‘Final Solution of the Jewish Question’, their euphemism for the murder of Europe’s Jews. Czechoslovak parachutists attacked him in Prague and he died in June 1942; German reprisals included the destruction of the village of Lidice, where the men were shot and most of the children murdered.",
+  "problem": "Balance: 'Final Solution' is a perpetrator euphemism and must be explained the first time it appears (§1); the Lidice victims are named as a group. Sources: USHMM 'Lidice'; USHMM 'Final Solution'."
+ },
+ {
+  "id": "fas-p-eichmann",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened USHMM Eichmann Trial: organized deportation of more than 1.5 million Jews, seized in Argentina 1960, tried in Jerusalem, hanged 1962. Birth year 1906 is general knowledge.",
+  "text": "SS officer who organized the deportation of Jews from across Europe to ghettos and killing centers. Seized in Argentina in 1960, he was tried in Jerusalem and hanged in 1962. Hannah Arendt’s report on the trial described him as a thoughtless functionary and coined the phrase ‘the banality of evil’; later research using his own writings and interviews in Argentina (Bettina Stangneth, David Cesarani) showed him to be a convinced antisemite.",
+  "problem": "Balance: The 'banality of evil' phrase is a famous one-liner; it appears in the Arendt record but should be linked here too, with the evidence that challenged it."
+ },
+ {
+  "id": "fas-p-codreanu",
+  "verdict": "fix",
+  "text": "Founder in 1927 of the antisemitic Legion of the Archangel Michael, later the Iron Guard, which mixed nationalism with Orthodox Christian mysticism and political murder, including the assassination of Prime Minister Ion Duca in 1933. It drew real support from students, priests and peasants, winning about 16 percent in 1937. Jailed during King Carol II’s crackdown, he was killed in custody with 13 followers in 1938; officials claimed they were shot while trying to escape.",
+  "method": "Opened Britannica Corneliu Codreanu (born 1899, founded Legion 1927, Iron Guard from 1930, killed 30 November 1938) and Britannica Iron Guard (antisemitism and mystical nationalism). Merged with balance review; added context not separately source-checked.",
+  "problem": "Britannica says he and 13 associates were garroted and shot while being moved between prisons, supposedly while trying to escape, but neither cited page says who ordered it. Also ‘Orthodox’ is not on the pages (Britannica says Christian and mystical nationalism)."
+ },
+ {
+  "id": "fas-p-szalasi",
+  "verdict": "supported",
+  "method": "Opened Britannica Arrow Cross Party (founded the party 1935, installed with German backing in October 1944, prime minister then national leader). His militias’ murders in Budapest and his 1946 execution are well established but not on the opened page; USHMM’s Wallenberg article covers the forced marches."
+ },
+ {
+  "id": "fas-p-petain",
+  "verdict": "fix",
+  "method": "General knowledge: balance additions pending source check. Earlier fact-check: Opened Britannica Philippe Pétain summary: Verdun hero, led Vichy 1940–44, condemned to death 1945, commuted to life, died imprisoned on Île d’Yeu 1951.",
+  "text": "First World War commander, celebrated as the victor of Verdun (1916), who headed the collaborationist Vichy regime from 1940 to 1944. Sentenced to death in 1945, he had the sentence commuted by de Gaulle to life imprisonment because of his age, and died in prison.",
+  "problem": "Balance: Verdun explains why many French people trusted him in 1940 (§2)."
+ },
+ {
+  "id": "fas-p-salazar",
+  "verdict": "fix",
+  "text": "Economist who ruled Portugal as prime minister from 1932 to 1968 and built the authoritarian, Catholic and corporatist Estado Novo. Supporters credit him with stabilizing public finances and keeping Portugal neutral in the Second World War; critics point to the PIDE political police, censorship, the Tarrafal prison camp, poverty and colonial wars in Africa from 1961. Historians debate whether his regime was fascist; in the mid-1930s he suppressed Portugal’s own fascist movement, the National Syndicalists (Blue Shirts).",
+  "conf": "Established",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, António de Oliveira Salazar",
+    "url": "https://www.britannica.com/print/article/518989"
+   },
+   {
+    "cite": "Encyclopaedia Britannica, Estado Novo (Portuguese history)",
+    "url": "https://www.britannica.com/topic/Estado-Novo-Portuguese-history"
+   },
+   {
+    "cite": "António Costa Pinto, The Blue Shirts: Portuguese Fascists and the New State (2000), EUI repository record",
+    "url": "https://cadmus.eui.eu/handle/1814/61624"
+   }
+  ],
+  "method": "Opened Britannica Salazar (print article), Britannica Estado Novo and the EUI record for António Costa Pinto, The Blue Shirts: Portuguese Fascists and the New State (2000). Merged with balance review; added context not separately source-checked.",
+  "problem": "Britannica confirms the dates, economist career, 1932–68 premiership, authoritarian corporatist system with Catholic influences and military police, but neither cited page covers the fascism debate or the suppression of the National Syndicalists. Costa Pinto’s study covers Salazar’s defeat of that movement. Conf should be Established, because the core facts are settled and the debate is already flagged in the text (as in the Franco record)."
+ },
+ {
+  "id": "fas-p-matteotti",
+  "verdict": "supported",
+  "method": "Opened Britannica Giacomo Matteotti: socialist deputy, denounced the Fascists in the Chamber on 30 May 1924, kidnapped and murdered by six squadristi on 10 June 1924. The electoral-fraud charge is general knowledge, not on the page."
+ },
+ {
+  "id": "fas-p-scholl",
+  "verdict": "supported",
+  "method": "Opened USHMM White Rose: Munich leaflets, betrayed and arrested in February 1943, executed 22 February 1943."
+ },
+ {
+  "id": "fas-p-stauffenberg",
+  "verdict": "supported",
+  "method": "Opened Britannica (1907–1944, chief conspirator, died Berlin 20 July 1944) and USHMM July 20 Plot (executed by firing squad at the Bendlerblock the same day)."
+ },
+ {
+  "id": "fas-p-pilecki",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "Smithsonian Magazine, The Daring Polish Resistance Fighter Who Volunteered to Be Sent to Auschwitz",
+    "url": "https://www.smithsonianmag.com/history/the-daring-polish-resistance-fighter-who-volunteered-to-be-sent-to-auschwitz-so-he-could-sabotage-the-nazi-death-camp-from-the-inside-180986559/"
+   },
+   {
+    "cite": "Institute of National Remembrance, Report W: KL Auschwitz 1940–1943 by Captain Witold Pilecki is now available for download (2024)",
+    "url": "https://eng.ipn.gov.pl/en/news/10984,Report-W-KL-AUSCHWITZ-1940-1943-by-Captain-Witold-Pilecki-is-now-available-for-d.html"
+   }
+  ],
+  "method": "Opened Smithsonian Magazine (arrested 19 September 1940, reports from October 1940, escaped 26 April 1943, executed 25 May 1948, exonerated 1990) and IPN news page on Report W (the cited IPN PDF URL redirects).",
+  "problem": "The IPN PDF link redirects to the IPN home page (dead link). Replace it with IPN’s announcement page for Report W, which confirms the September 1940 arrest and April 1943 escape. Text is accurate."
+ },
+ {
+  "id": "fas-p-sendler",
+  "verdict": "supported",
+  "method": "Opened Yad Vashem Righteous Women exhibition page (welfare social worker, smuggled Jews out of the ghetto, head of Żegota’s children’s department from September 1943, exact number saved unknown, arrested October 1943, sentenced to death, freed by bribes February 1944, recognized 19 October 1965). The Righteous database page loaded no readable text."
+ },
+ {
+  "id": "fas-p-wallenberg",
+  "verdict": "supported",
+  "method": "Opened USHMM Wallenberg article: born 1912, arrived Budapest July 1944, protective passes and more than 30 safe houses, saved thousands, last seen with Soviet officials 17 January 1945, declared legally dead by Sweden in October 2016."
+ },
+ {
+  "id": "fas-p-sugihara",
+  "verdict": "supported",
+  "method": "Opened Yad Vashem Visas to Japan: consul in Kovno, visas issued summer 1940, between 2,100 and 3,500 transit visas, recognized 4 October 1984."
+ },
+ {
+  "id": "fas-p-ringelblum",
+  "verdict": "supported",
+  "method": "Opened USHMM Ringelblum and Oneg Shabbat (1900–1944, archive buried, milk can unearthed 1950, family found in hiding March 1944 and killed) and Jewish Historical Institute (parts found 1946 and 1950, third part never found)."
+ },
+ {
+  "id": "fas-p-levi",
+  "verdict": "supported",
+  "method": "Opened Britannica Primo Levi: 1919–1987, chemistry graduate, joined resistance in 1943, captured and sent to Auschwitz, If This Is a Man (1947), The Drowned and the Saved (1986). The 1944 deportation year is general knowledge."
+ },
+ {
+  "id": "fas-p-frank",
+  "verdict": "fix",
+  "text": "German-born Jewish girl who hid with her family in Amsterdam from July 1942 and kept a diary. Arrested in August 1944 (how the hiding place was found is still unknown), she died of typhus in the Bergen-Belsen camp in February or March 1945; her father had her diary published in 1947. The helpers who hid the family, including Miep Gies, were later honoured for it.",
+  "method": "Opened USHMM Anne Frank Biography (born Frankfurt 1929, hiding from July 1942, arrested 4 August 1944, betrayal not established, died of typhus at Bergen-Belsen February or March 1945). The 1947 diary publication is general knowledge. Merged with balance review; added context not separately source-checked.",
+  "problem": "‘Betrayed’ is stated as fact, but USHMM says the long-held betrayal theory is unproven and a newer theory holds the hiding place was found by chance; how the Franks were discovered is unknown. USHMM also gives February or March 1945 and typhus."
+ },
+ {
+  "id": "fas-p-lemkin",
+  "verdict": "supported",
+  "method": "Opened USHMM Lemkin narrative: born 1900, coined genocide in Axis Rule in Occupied Europe (1944), lobbied for the convention approved 9 December 1948, learned that 49 relatives died in the Holocaust, died 1959."
+ },
+ {
+  "id": "fas-p-arendt",
+  "verdict": "fix",
+  "text": "German-Jewish political theorist who fled Nazi Germany and wrote The Origins of Totalitarianism (1951) and Eichmann in Jerusalem (1963), which introduced the phrase the banality of evil. Later historians such as David Cesarani and Bettina Stangneth argued Eichmann was a committed antisemite rather than a mere functionary; defenders reply that Arendt never denied his antisemitism.",
+  "sources": [
+   {
+    "cite": "Stanford Encyclopedia of Philosophy, Hannah Arendt",
+    "url": "https://plato.stanford.edu/archives/fall2023/entries/arendt/"
+   },
+   {
+    "cite": "Corey Robin, The Trials of Hannah Arendt, The Nation (2015)",
+    "url": "https://www.thenation.com/article/archive/trials-hannah-arendt/"
+   }
+  ],
+  "method": "Opened Stanford Encyclopedia of Philosophy, Hannah Arendt (1906–1975, fled 1933, Origins 1951, Eichmann in Jerusalem 1963 with subtitle A Report on the Banality of Evil) and Corey Robin, The Trials of Hannah Arendt, The Nation (2015) (Stangneth and Cesarani’s argument and the reply).",
+  "problem": "The cited Stanford Encyclopedia entry confirms her life and books but does not name Cesarani or Stangneth; add a source for that debate and, to be even-handed, the reply that Arendt never denied Eichmann’s antisemitism."
+ },
+ {
+  "id": "fas-p-hilberg",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "New York Sun, obituary: Raul Hilberg, 81, Scholar of Holocaust",
+    "url": "https://www.nysun.com/article/obituaries-raul-hilberg-81-scholar-of-holocaust"
+   },
+   {
+    "cite": "History News Network, Raul Hilberg: Holocaust scholar, was 81",
+    "url": "https://historynewsnetwork.org/article/41574"
+   },
+   {
+    "cite": "Encyclopedia.com, Hilberg, Raul",
+    "url": "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hilberg-raul"
+   }
+  ],
+  "method": "Opened New York Sun obituary (preeminent Holocaust scholar, first comprehensive study, 1961), History News Network (left Austria 1938, University of Vermont) and Encyclopedia.com entry on Hilberg (born Vienna 1926, political science at Vermont, Nuremberg German documents, bureaucratic process, start of Holocaust studies).",
+  "problem": "Text is accurate, but neither cited obituary gives his birthplace, field, use of German documents or the bureaucratic-process thesis; add a reference source that does."
+ },
+ {
+  "id": "fas-p-paxton",
+  "verdict": "fix",
+  "text": "Columbia University historian whose Vichy France (1972) showed that Vichy collaborated actively and on its own initiative, and whose The Anatomy of Fascism (2004) argues fascism is best understood by what its movements did, tracing five stages from founding to radicalization.",
+  "sources": [
+   {
+    "cite": "Columbia University Department of History, Robert O. Paxton",
+    "url": "https://history.columbia.edu/faculty/paxton-robert-o"
+   },
+   {
+    "cite": "The Spectator archive, Ian Garrick Mason, The five stages of a downhill descent (22 May 2004)",
+    "url": "https://archive.spectator.co.uk/article/22nd-may-2004/46/the-five-stages-of-a-downhill-descent"
+   },
+   {
+    "cite": "Not Even Past, The Anatomy of Fascism by Robert Paxton (2004)",
+    "url": "https://notevenpast.org/the-anatomy-of-fascism-by-robert-paxton-2004/"
+   }
+  ],
+  "method": "Opened Columbia History faculty page, Ian Garrick Mason’s review in The Spectator archive (22 May 2004; five stages from movement to radicalization) and Not Even Past review (fascism understood through what fascists did).",
+  "problem": "The Columbia page lists both books and credits him with establishing Vichy’s active collaboration, but does not describe The Anatomy of Fascism or give his birth year (1932, general knowledge). Add a review that sets out the five-stage model, and smooth the wording."
+ }
+]
