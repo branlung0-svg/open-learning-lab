@@ -74,7 +74,7 @@ R.ideas = (p, nav, arg, D) => {
       h('p', null, plain), h('p', { class: 'small' }, h('b', null, 'Example: '), ex),
       labs ? h('div', { class: 'row', style: { gap: '6px' } }, labs.map(btn)) : null,
       figOf((U.ideaFigs || {})[id]),
-      h('div', { class: 'grid g3', style: { marginTop: '8px' } }, sub(h('b', null, '🧪 Does it hold up?'), h('p', { class: 'small' }, test)), sub(h('b', { style: { color: '#15803D' } }, '👍 Why defenders value it'), h('p', { class: 'small' }, pro)), sub(h('b', { style: { color: '#DC2626' } }, '👎 What critics say'), h('p', { class: 'small' }, con))),
+      h('div', { class: 'grid g3', style: { marginTop: '8px' } }, sub(h('b', null, '🧪 Does it hold up?'), h('p', { class: 'small' }, test)), sub(h('b', { style: { color: '#15803D' } }, U.ideaPro || '👍 Why defenders value it'), h('p', { class: 'small' }, pro)), sub(h('b', { style: { color: '#DC2626' } }, U.ideaCon || '👎 What critics say'), h('p', { class: 'small' }, con))),
       h('div', { style: { marginTop: '8px' } }, link(txt)),
       h('div', { class: 'row', style: { gap: '6px', marginTop: '8px' } }, h('button', { class: 'btn sm', disabled: i === 0, onclick: () => { i--; draw(); } }, '← Previous'), h('button', { class: 'btn sm primary', disabled: i === X.ideas.length - 1, onclick: () => { i++; draw(); } }, 'Next idea →'), h('span', { class: 'sp' }), h('button', { class: 'btn sm', onclick: () => Lab.ask(fill(U.ideaAsk, { n }), n) }, '✦ Discuss with the tutor')))); };
   p.append(card(chips), box); draw();
