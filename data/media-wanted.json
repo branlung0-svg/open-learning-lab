@@ -2469,5 +2469,1789 @@
   ],
   "graphic": false,
   "cap": ""
+ },
+ {
+  "k": "c:math-x-babylonian-mathematical-clay-tablet",
+  "q": "Babylonian mathematical clay tablet",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:math-x-euclid-elements-medieval-manuscript",
+  "q": "Euclid Elements medieval manuscript",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:math-x-abacus-counting-board-historical",
+  "q": "abacus counting board historical",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:math-x-women-human-computers-calculating-1940s",
+  "q": "women human computers calculating 1940s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:math-x-astrolabe-islamic-brass",
+  "q": "astrolabe Islamic brass",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:logic-x-aristotle-organon-manuscript",
+  "q": "Aristotle Organon manuscript",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:logic-x-boole-laws-of-thought-1854-title-page",
+  "q": "Boole Laws of Thought 1854 title page",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:logic-x-leibniz-stepped-reckoner-calculating-mac",
+  "q": "Leibniz stepped reckoner calculating machine",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:logic-x-venn-diagram-1881",
+  "q": "Venn diagram 1881",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:logic-x-jevons-logic-piano-machine",
+  "q": "Jevons logic piano machine",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:computing-x-eniac-programmers-1946",
+  "q": "ENIAC programmers 1946",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:computing-x-hollerith-tabulating-machine-census",
+  "q": "Hollerith tabulating machine census",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:computing-x-colossus-computer-bletchley-park",
+  "q": "Colossus computer Bletchley Park",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:computing-x-ibm-mainframe-computer-room-1960s",
+  "q": "IBM mainframe computer room 1960s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:computing-x-integrated-circuit-silicon-wafer",
+  "q": "integrated circuit silicon wafer",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:statistics-x-census-enumerator-1900s",
+  "q": "census enumerator 1900s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:statistics-x-nightingale-rose-diagram-mortality",
+  "q": "Nightingale rose diagram mortality",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:statistics-x-galton-board-quincunx",
+  "q": "Galton board quincunx",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:statistics-x-snow-cholera-map-1854",
+  "q": "Snow cholera map 1854",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:statistics-x-halley-life-table-breslau",
+  "q": "Halley life table Breslau",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:physics-x-foucault-pendulum-pantheon-paris",
+  "q": "Foucault pendulum Pantheon Paris",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:physics-x-cloud-chamber-particle-tracks",
+  "q": "cloud chamber particle tracks",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:physics-x-cyclotron-1930s-berkeley",
+  "q": "cyclotron 1930s Berkeley",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:physics-x-cavendish-laboratory-historical-apparatu",
+  "q": "Cavendish laboratory historical apparatus",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:physics-x-trinity-test-1945-fireball",
+  "q": "Trinity test 1945 fireball",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:chemistry-x-alchemist-laboratory-painting",
+  "q": "alchemist laboratory painting",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:chemistry-x-lavoisier-laboratory-instruments",
+  "q": "Lavoisier laboratory instruments",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:chemistry-x-mendeleev-periodic-table-1869-manuscript",
+  "q": "Mendeleev periodic table 1869 manuscript",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:chemistry-x-haber-bosch-ammonia-plant-oppau",
+  "q": "Haber Bosch ammonia plant Oppau",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:chemistry-x-chemistry-laboratory-women-students-1900",
+  "q": "chemistry laboratory women students 1900s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:biology-x-darwin-finches-galapagos-specimens",
+  "q": "Darwin finches Galapagos specimens",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:biology-x-hooke-micrographia-flea",
+  "q": "Hooke Micrographia flea",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:biology-x-leeuwenhoek-microscope-replica",
+  "q": "Leeuwenhoek microscope replica",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:biology-x-mendel-garden-brno-monastery",
+  "q": "Mendel garden Brno monastery",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:biology-x-photo-51-dna-x-ray-diffraction",
+  "q": "Photo 51 DNA X-ray diffraction",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:earthspace-x-earthrise-apollo-8",
+  "q": "Earthrise Apollo 8",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:earthspace-x-hubble-ultra-deep-field",
+  "q": "Hubble Ultra Deep Field",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:earthspace-x-mount-st-helens-eruption-1980",
+  "q": "Mount St. Helens eruption 1980",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:earthspace-x-galileo-telescopes-florence-museum",
+  "q": "Galileo telescopes Florence museum",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:earthspace-x-weather-balloon-radiosonde-launch-1950s",
+  "q": "weather balloon radiosonde launch 1950s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:economics-x-stock-exchange-trading-floor-1900s",
+  "q": "stock exchange trading floor 1900s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:economics-x-ration-book-world-war-ii",
+  "q": "ration book World War II",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:economics-x-great-depression-bread-line",
+  "q": "Great Depression bread line",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:economics-x-lancashire-cotton-mill-weavers",
+  "q": "Lancashire cotton mill weavers",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:economics-x-covered-market-bazaar-19th-century-photo",
+  "q": "covered market bazaar 19th century photograph",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:politics-x-polling-station-voters-1900s",
+  "q": "polling station voters 1900s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:politics-x-suffragette-parade-1913",
+  "q": "suffragette parade 1913",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:politics-x-new-england-town-meeting",
+  "q": "New England town meeting",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:politics-x-election-campaign-poster-1920s",
+  "q": "election campaign poster 1920s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:politics-x-parliament-debate-chamber-historical-eng",
+  "q": "parliament debate chamber historical engraving",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:geopolitics-x-berlin-airlift-1948-plane",
+  "q": "Berlin airlift 1948 plane",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:geopolitics-x-suez-canal-ships-1869",
+  "q": "Suez Canal ships 1869",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:geopolitics-x-panama-canal-construction-culebra-cut",
+  "q": "Panama Canal construction Culebra Cut",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:geopolitics-x-hall-of-mirrors-versailles-1919-signing",
+  "q": "Hall of Mirrors Versailles 1919 signing",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:geopolitics-x-strait-of-malacca-ships",
+  "q": "Strait of Malacca ships",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:psychology-x-wundt-psychology-laboratory-leipzig",
+  "q": "Wundt psychology laboratory Leipzig",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:psychology-x-pavlov-laboratory-dog",
+  "q": "Pavlov laboratory dog",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:psychology-x-rorschach-inkblot-card",
+  "q": "Rorschach inkblot card",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:psychology-x-bethlem-asylum-historical",
+  "q": "Bethlem asylum historical",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:psychology-x-psychology-experiment-apparatus-1900s",
+  "q": "psychology experiment apparatus 1900s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:sociology-x-hull-house-chicago",
+  "q": "Hull House Chicago",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:sociology-x-jacob-riis-tenement-mulberry-bend",
+  "q": "Jacob Riis tenement Mulberry Bend",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:sociology-x-lewis-hine-child-laborers-mill",
+  "q": "Lewis Hine child laborers mill",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:sociology-x-dorothea-lange-migrant-workers",
+  "q": "Dorothea Lange migrant workers",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:sociology-x-booth-poverty-map-london",
+  "q": "Booth poverty map London",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:anthropology-x-lascaux-cave-painting",
+  "q": "Lascaux cave painting",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:anthropology-x-olduvai-gorge-tanzania",
+  "q": "Olduvai Gorge Tanzania",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:anthropology-x-kula-ring-canoe-trobriand",
+  "q": "kula ring canoe Trobriand",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:anthropology-x-lucy-australopithecus-skeleton",
+  "q": "Lucy Australopithecus skeleton",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:anthropology-x-neanderthal-skull-la-chapelle",
+  "q": "Neanderthal skull La Chapelle",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:law-x-code-of-hammurabi-stele-louvre",
+  "q": "Code of Hammurabi stele Louvre",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:law-x-magna-carta-1215-british-library",
+  "q": "Magna Carta 1215 British Library",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:law-x-nuremberg-trials-courtroom-600",
+  "q": "Nuremberg trials courtroom 600",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:law-x-jury-trial-19th-century-engraving",
+  "q": "jury trial 19th century engraving",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:law-x-twelve-tables-roman-law",
+  "q": "Twelve Tables Roman law",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:history-x-rosetta-stone-british-museum",
+  "q": "Rosetta Stone British Museum",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:history-x-bayeux-tapestry",
+  "q": "Bayeux Tapestry",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:history-x-domesday-book",
+  "q": "Domesday Book",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:history-x-oxyrhynchus-papyrus-herodotus",
+  "q": "Oxyrhynchus papyrus Herodotus",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:history-x-gutenberg-printing-press-workshop",
+  "q": "Gutenberg printing press workshop",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:philosophy-x-school-of-athens-fresco",
+  "q": "School of Athens fresco",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:philosophy-x-encyclopedie-diderot-plate",
+  "q": "Encyclopedie Diderot plate",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:philosophy-x-confucius-temple-qufu",
+  "q": "Confucius temple Qufu",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:philosophy-x-nalanda-university-ruins",
+  "q": "Nalanda university ruins",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:philosophy-x-stoa-of-attalos-athens",
+  "q": "Stoa of Attalos Athens",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:religion-x-dead-sea-scrolls",
+  "q": "Dead Sea Scrolls",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:religion-x-ajanta-caves-painting",
+  "q": "Ajanta caves painting",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:religion-x-hagia-sophia-interior",
+  "q": "Hagia Sophia interior",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:religion-x-gutenberg-bible",
+  "q": "Gutenberg Bible",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:religion-x-borobudur-stupa-relief",
+  "q": "Borobudur stupa relief",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:linguistics-x-cuneiform-tablet",
+  "q": "cuneiform tablet",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:linguistics-x-linear-b-tablet-knossos",
+  "q": "Linear B tablet Knossos",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:linguistics-x-phoenician-alphabet-inscription",
+  "q": "Phoenician alphabet inscription",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:linguistics-x-hunminjeongeum-haerye",
+  "q": "Hunminjeongeum Haerye",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:linguistics-x-mesha-stele",
+  "q": "Mesha stele",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:literature-x-book-of-kells",
+  "q": "Book of Kells",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:literature-x-tale-of-genji-emaki-scroll",
+  "q": "Tale of Genji emaki scroll",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:literature-x-shakespeare-first-folio",
+  "q": "Shakespeare First Folio",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:literature-x-epic-of-gilgamesh-tablet-flood",
+  "q": "Epic of Gilgamesh tablet flood",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:literature-x-diamond-sutra-dunhuang-printed",
+  "q": "Diamond Sutra Dunhuang printed",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:arts-x-hokusai-great-wave",
+  "q": "Hokusai Great Wave",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:arts-x-parthenon-frieze-british-museum",
+  "q": "Parthenon frieze British Museum",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:arts-x-bauhaus-dessau-building",
+  "q": "Bauhaus Dessau building",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:arts-x-benin-bronze-plaque",
+  "q": "Benin bronze plaque",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:arts-x-altamira-bison-painting",
+  "q": "Altamira bison painting",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:engineering-x-pont-du-gard-aqueduct",
+  "q": "Pont du Gard aqueduct",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:engineering-x-brooklyn-bridge-construction-1870s",
+  "q": "Brooklyn Bridge construction 1870s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:engineering-x-hoover-dam-construction",
+  "q": "Hoover Dam construction",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:engineering-x-eiffel-tower-construction-1888",
+  "q": "Eiffel Tower construction 1888",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:engineering-x-transcontinental-railroad-1869-promontor",
+  "q": "transcontinental railroad 1869 Promontory",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:medicine-x-smallpox-vaccination-19th-century",
+  "q": "smallpox vaccination 19th century",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:medicine-x-scutari-hospital-crimean-war",
+  "q": "Scutari hospital Crimean War",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:medicine-x-penicillin-production-1940s",
+  "q": "penicillin production 1940s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:medicine-x-iron-lung-polio-ward",
+  "q": "iron lung polio ward",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:medicine-x-operating-theatre-1890s-surgery",
+  "q": "operating theatre 1890s surgery",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ethics-x-hippocratic-oath-byzantine-manuscript",
+  "q": "Hippocratic oath Byzantine manuscript",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ethics-x-anti-vivisection-poster",
+  "q": "anti-vivisection poster",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ethics-x-tuskegee-study-national-archives",
+  "q": "Tuskegee study National Archives",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ethics-x-universal-declaration-of-human-rights-19",
+  "q": "Universal Declaration of Human Rights 1948 Eleanor",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ethics-x-am-i-not-a-man-and-a-brother-medallion",
+  "q": "Am I not a man and a brother medallion",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-marx-1",
+  "q": "Chartist meeting Kennington Common 1848",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-marx-2",
+  "q": "Paris Commune barricade 1871",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-second-1",
+  "q": "May Day demonstration 1890s",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-second-2",
+  "q": "Second International congress socialist",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-lenin-1",
+  "q": "Petrograd 1917 demonstration",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-lenin-2",
+  "q": "Kronstadt 1921 sailors",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-stalin-1",
+  "q": "Magnitogorsk construction 1930s",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "soviet-life"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-stalin-2",
+  "q": "Soviet collective farm 1930s",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "soviet-life"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-trotsky-1",
+  "q": "Red Army 1919 armoured train",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-trotsky-2",
+  "q": "Fourth International",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-mao-1",
+  "q": "Yan an caves Shaanxi",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "china"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-mao-2",
+  "q": "Great Leap Forward commune 1958",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "china"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-tito-1",
+  "q": "Yugoslav Partisans 1944",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-tito-2",
+  "q": "Yugoslavia factory workers 1950s",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-kim-1",
+  "q": "Pyongyang reconstruction 1950s",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-kim-2",
+  "q": "Juche Tower Pyongyang",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-ho-1",
+  "q": "Dien Bien Phu 1954 Viet Minh",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-ho-2",
+  "q": "Hanoi 1945 independence",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-castro-1",
+  "q": "Cuban literacy campaign 1961",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-castro-2",
+  "q": "Havana January 1959",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "revolutions"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-deng-1",
+  "q": "Shenzhen 1980s construction",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "china"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-deng-2",
+  "q": "Xiaogang village Anhui",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "china"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-euro-1",
+  "q": "Italian Communist Party rally 1970s",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-euro-2",
+  "q": "Festa de l Unita",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-smith-1",
+  "q": "Wealth of Nations 1776 first edition",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-smith-2",
+  "q": "Glasgow tobacco merchants 18th century",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-ricardo-1",
+  "q": "Anti-Corn Law League meeting",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-ricardo-2",
+  "q": "Manchester cotton mills 1830s",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-list-1",
+  "q": "Lowell mill girls",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-list-2",
+  "q": "Zollverein 1834",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-bismarck-1",
+  "q": "Krupp Essen works 1880s",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-bismarck-2",
+  "q": "German accident insurance 1884",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-progressive-1",
+  "q": "Standard Oil octopus cartoon",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-progressive-2",
+  "q": "Triangle Shirtwaist fire 1911",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-keynes-1",
+  "q": "Bretton Woods conference 1944",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "depression"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-keynes-2",
+  "q": "Works Progress Administration poster",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "depression"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-ordo-1",
+  "q": "Volkswagen Wolfsburg 1950s Beetle",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-ordo-2",
+  "q": "Wirtschaftswunder 1950s Germany",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-nordic-1",
+  "q": "Saltsjobaden 1938",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-nordic-2",
+  "q": "Swedish million programme housing",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-developmental-1",
+  "q": "Shinkansen 1964",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-developmental-2",
+  "q": "Pohang steel works POSCO",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "workers"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-neolib-1",
+  "q": "miners strike 1984 picket",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-neolib-2",
+  "q": "Chicago Mercantile Exchange trading pit",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-wash-1",
+  "q": "WTO protest Seattle 1999",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-wash-2",
+  "q": "container ship port",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-state-1",
+  "q": "Shenzhen skyline",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-state-2",
+  "q": "Lehman Brothers 2008",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "companies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-roots-1",
+  "q": "Fiume 1919 Arditi",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-roots-2",
+  "q": "Futurism Marinetti manifesto",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-mussolini-1",
+  "q": "March on Rome 1922",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-mussolini-2",
+  "q": "Italian fascist propaganda poster",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-hitler-1",
+  "q": "Nuremberg rally 1934",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-hitler-2",
+  "q": "Nazi propaganda poster",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-franco-1",
+  "q": "Spanish Civil War Madrid 1936",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-franco-2",
+  "q": "Falange poster",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-salazar-1",
+  "q": "Estado Novo Portugal poster",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-salazar-2",
+  "q": "Portuguese colonial war 1960s",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-ironguard-1",
+  "q": "Iron Guard legionnaires 1940",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-ironguard-2",
+  "q": "Bucharest 1941",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-japan-1",
+  "q": "Manchukuo 1932",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-japan-2",
+  "q": "Imperial Japanese Army 1937",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "war"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-neo-1",
+  "q": "Movimento Sociale Italiano",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ln-neo-2",
+  "q": "Predappio",
+  "n": 1,
+  "kind": "image",
+  "tags": [
+   "propaganda"
+  ],
+  "graphic": false,
+  "cap": ""
  }
 ]
