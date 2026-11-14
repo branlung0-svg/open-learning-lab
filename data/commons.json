@@ -90,6 +90,19 @@
   "title": "The Gold Room - Bretton Woods Mount Washington Hotel.jpg",
   "w": 1100
  },
+ "c:brookes-slave-ship": {
+  "artist": "Plymouth Chapter of the Society for Effecting the Abolition of the Slave Trade",
+  "cap": "The Brookes diagram (1788): how enslaved Africans were packed on a British slave ship. Abolitionists used it as evidence.",
+  "date": "1788-12",
+  "desc": "Stowage of the British slave ship Brookes under the regulated slave trade act of 1788.",
+  "f": "img/c/brookes-slave-ship.jpg",
+  "h": 1100,
+  "kind": "image",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Slaveshipposter.jpg",
+  "title": "Slaveshipposter.jpg",
+  "w": 931
+ },
  "c:budapest-1956": {
   "artist": "Главцентроархив",
   "cap": "Budapest, 1956: the Hungarian uprising against Soviet-backed rule, crushed by Soviet tanks.",
@@ -168,6 +181,19 @@
   "title": "Container ship NYK Themis at the Port of Los Angeles.jpg",
   "w": 1100
  },
+ "c:cotton-mill-engraving": {
+  "artist": "Baines",
+  "cap": "Power-loom weaving in a British cotton mill, an engraving from 1835.",
+  "date": "Published 1835",
+  "desc": "Weaving Shed: Capture from Baines 1835, Illustrations from the History of the Cotton Manufacture in Great Britain .Pub H. Fisher, R. Fisher, and P. Jackson",
+  "f": "img/c/cotton-mill-engraving.jpg",
+  "h": 536,
+  "kind": "image",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Baines_1835-Weaving_Shed.png",
+  "title": "Baines 1835-Weaving Shed.png",
+  "w": 765
+ },
  "c:cuelgamuros": {
   "artist": "Godot13",
   "cap": "The Valley of Cuelgamuros (formerly Valley of the Fallen), Franco’s monument, built partly by political prisoners.",
@@ -193,6 +219,19 @@
   "page": "https://commons.wikimedia.org/wiki/File:Mao_Zedong_Cultural_Revolution_Propaganda_Poster_(cropped).jpg",
   "title": "Mao Zedong Cultural Revolution Propaganda Poster (cropped).jpg",
   "w": 1039
+ },
+ "c:dust-bowl": {
+  "artist": "George Everett Marsh Jr.",
+  "cap": "A dust storm engulfs a farm during the Dust Bowl, 1930s.",
+  "date": "1935-04-14[1]",
+  "desc": "Dust storm approaching Stratford, Texas.",
+  "f": "img/c/dust-bowl.jpg",
+  "h": 687,
+  "kind": "image",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Dust_storm_approaching_Stratford,_Texas.jpg",
+  "title": "Dust storm approaching Stratford, Texas.jpg",
+  "w": 1100
  },
  "c:east-india-house": {
   "artist": "anonymous",
@@ -259,17 +298,30 @@
   "title": "Bundesarchiv Bild 183-H25224, Guernica, Ruinen.jpg",
   "w": 798
  },
- "c:holodomor-memorial": {
-  "artist": "U.S. Embassy Kyiv Ukraine",
-  "cap": "The Holodomor memorial in Kyiv, remembering the 1932–33 famine in Ukraine.",
-  "date": "2022-06-01 11:37",
-  "desc": "On her third day in Ukraine, Ambassador Brink visited the Holodomor museum to remember the millions of Ukrainians killed as a result of Stalin’s brutal policies and deliberate acts. In the context of Russia’s war, she reaffirmed U.S. commitment to a sovereign, independent, and democratic Ukraine. Russia is blocking Ukraine’s ports and reportedly stealing Ukrainian grain, exacerbating a global food",
-  "f": "img/c/holodomor-memorial.jpg",
-  "h": 867,
+ "c:havana-1959": {
+  "artist": "Desconhecido",
+  "cap": "Havana, January 1959: crowds celebrate the revolution’s victory.",
+  "date": "1959-01-08",
+  "desc": "Fidel Castro's entry into Havana, on January 8, 1959.",
+  "f": "img/c/havana-1959.jpg",
+  "h": 768,
   "kind": "image",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:U.S._Ambassador_Brink_visits_Holodomor_Memorial_in_Kyiv,_June_1,_2022_(52113767752).jpg",
-  "title": "U.S. Ambassador Brink visits Holodomor Memorial in Kyiv, June 1, 2022 (52113767752).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fidel_Castro%27s_entry_into_Havana,_1959.jpg",
+  "title": "Fidel Castro's entry into Havana, 1959.jpg",
+  "w": 1024
+ },
+ "c:holodomor-memorial": {
+  "artist": "Jorge Láscar from Australia",
+  "cap": "The Holodomor memorial in Kyiv, remembering the 1932–33 famine in Ukraine.",
+  "date": "2012-08-04 13:26",
+  "desc": "During the whole period of existence of soviet regime, Ukrainian people went through the terrible tragedies - the famines of 1921-1922, 1932-1933, and 1946-1947. They murdered millions of Ukrainians. The most horrible humanitarian catastrophe of Ukraine of the XXth century was the starvation of 1932-1933, artificially created by Stalin’s regime, that resulted into 3 million 941 thousand deaths. Ta",
+  "f": "img/c/holodomor-memorial.jpg",
+  "h": 730,
+  "kind": "image",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:%22The_Memory_Candle%22_monument_to_the_victims_of_Holodomor_-_%E2%80%9CThe_Memorial_in_Commemoration_of_Famines%E2%80%99_Victims_in_Ukraine%E2%80%9D_museum_(8601805294).jpg",
+  "title": "\"The Memory Candle\" monument to the victims of Holodomor - “The Memorial in Commemoration of Famines’ Victims in Ukraine” museum (8601805294).jpg",
   "w": 1100
  },
  "c:jasenovac-flower": {
@@ -337,6 +389,19 @@
   "title": "Lehman Brothers Times Square by David Shankbone.jpg",
   "w": 825
  },
+ "c:magnitogorsk": {
+  "artist": "G.oorthuys",
+  "cap": "Magnitogorsk steel works under construction in the 1930s, a showcase of Stalin’s industrialization.",
+  "date": "Taken on 14 February 1985",
+  "desc": "Mart Stam participated in planning and designing the socialist (linear) city Magnitogorsk (around 1930).",
+  "f": "img/c/magnitogorsk.jpg",
+  "h": 1100,
+  "kind": "image",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mart_Stam-Magnitogorsk_2.tif",
+  "title": "Mart Stam-Magnitogorsk 2.tif",
+  "w": 743
+ },
  "c:mansudae-hall": {
   "artist": "Nicor",
   "cap": "The Mansudae Assembly Hall in Pyongyang, where North Korea’s Supreme People’s Assembly meets.",
@@ -349,6 +414,19 @@
   "page": "https://commons.wikimedia.org/wiki/File:Mansudae_Assembly_Hall.JPG",
   "title": "Mansudae Assembly Hall.JPG",
   "w": 1100
+ },
+ "c:march-on-rome": {
+  "artist": "Attilio Tonolo",
+  "cap": "Fascist Blackshirts during the March on Rome, October 1922.",
+  "date": "2024-06-13",
+  "desc": "In secondo piano sulla sinistra Giuseppe Mastromattei",
+  "f": "img/c/march-on-rome.jpg",
+  "h": 671,
+  "kind": "image",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Balla_%22Marcia_su_Roma%22.webp",
+  "title": "Balla \"Marcia su Roma\".webp",
+  "w": 864
  },
  "c:mass-games": {
   "artist": "Kok Leng Yeo from Singapore, Singapore",
@@ -363,17 +441,43 @@
   "title": "North Korea-Pyongyang-Arirang Mass Games-01 (1).jpg",
   "w": 1100
  },
- "c:mutual-aid": {
-  "artist": "United States Senate - The Office of Mazie Hirono",
-  "cap": "Volunteers at a food bank: mutual aid and community service.",
-  "date": "2019-01-19",
-  "desc": "Mahalo to the staff and volunteers at @hawaiifoodbank for your efforts to support our federal workers and contractors during the government shutdown. Your work this morning demonstrated once again how Hawaii comes together to help those in need.",
-  "f": "img/c/mutual-aid.jpg",
-  "h": 825,
+ "c:miners-strike-1984": {
+  "artist": "Virgil Lucky",
+  "cap": "The UK miners’ strike of 1984–85.",
+  "date": "1984",
+  "desc": "The Flying Pickets supporting the miner's strike, Drax Power Station, 1984",
+  "f": "img/c/miners-strike-1984.jpg",
+  "h": 699,
+  "kind": "image",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:THE_FLYING_PICKETS_1984_DRAX_POWER_STATION.jpg",
+  "title": "THE FLYING PICKETS 1984 DRAX POWER STATION.jpg",
+  "w": 1100
+ },
+ "c:montgomery-bus": {
+  "artist": "Gene Herrick for the Associated Press; restored by Adam Cuerden",
+  "cap": "The Montgomery bus boycott (1955–56).",
+  "date": "1956-02-22",
+  "desc": "Rosa Parks being fingerprinted on February 22, 1956, by Lieutenant D.H. Lackey as one of the people indicted as leaders of the Montgomery bus boycott. She was one of 73 people rounded up by deputies that day after a grand jury charged 113 African Americans for organizing the boycott. This was a few months after her arrest on December 1, 1955, for refusing to give up her seat to a white passenger o",
+  "f": "img/c/montgomery-bus.jpg",
+  "h": 871,
   "kind": "image",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Mazie_Hirono_with_Hawaii_Food_Bank_volunteers.jpg",
-  "title": "Mazie Hirono with Hawaii Food Bank volunteers.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rosa_Parks_being_fingerprinted_by_Deputy_Sheriff_D.H._Lackey_after_being_arrested_on_February_22,_1956,_during_the_Montgomery_bus_boycott.jpg",
+  "title": "Rosa Parks being fingerprinted by Deputy Sheriff D.H. Lackey after being arrested on February 22, 1956, during the Montgomery bus boycott.jpg",
+  "w": 1100
+ },
+ "c:mutual-aid": {
+  "artist": "DHSgov",
+  "cap": "Volunteers at a food bank: mutual aid and community service.",
+  "date": "Taken on 23 November 2022, 13:51:11",
+  "desc": "WASHINGTON (November 23, 2022) Homeland Security Secretary Alejandro Mayorkas receives a tour of the Capital Area Food Bank and helps to sort and pack donated food into boxes for distribution ahead of the holidays. (DHS Photo by Sydney Phoenix)",
+  "f": "img/c/mutual-aid.jpg",
+  "h": 734,
+  "kind": "image",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:DHS_Secretary_Alejandro_Mayorkas_Volunteers_at_Capital_Area_Food_Bank_(52520007464).jpg",
+  "title": "DHS Secretary Alejandro Mayorkas Volunteers at Capital Area Food Bank (52520007464).jpg",
   "w": 1100
  },
  "c:nanjing-memorial": {
@@ -637,17 +741,17 @@
   "w": 1100
  },
  "c:us-capitol": {
-  "artist": "Acroterion",
+  "artist": "United_States_Capitol_-_west_front.jpg: Architect of the Capitol derivative work: O.J.",
   "cap": "The US Capitol, home of Congress (the Senate and the House of Representatives).",
-  "date": "2024-09-12",
-  "desc": "The west side of the Pennsylvania State Capitol, Harrisburg, Pennsylvania, USA",
+  "date": "1997",
+  "desc": "The western front of the United States Capitol. The Neoclassical style building is located in Washington, D.C., on top of Capitol Hill at the east end of the National Mall. The Capitol was designated a National Historic Landmark in 1960.",
   "f": "img/c/us-capitol.jpg",
-  "h": 1100,
+  "h": 570,
   "kind": "image",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Pennsylvania_State_Capitol_west_front_PA1.jpg",
-  "title": "Pennsylvania State Capitol west front PA1.jpg",
-  "w": 696
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_west_front_edit2.jpg",
+  "title": "United States Capitol west front edit2.jpg",
+  "w": 1100
  },
  "c:us-house-chamber": {
   "artist": "United States House of Representatives or Office of the Speaker of the House",
@@ -676,16 +780,16 @@
   "w": 946
  },
  "c:warsaw-ghetto-wall": {
-  "artist": "Unknown authorUnknown author (Franz Konrad confessed to taking some of the photographs, the rest was probably taken by p",
+  "artist": "Saifunny",
   "cap": "A surviving section of the Warsaw Ghetto wall.",
-  "date": "between 19 April 1943 and 16 May 1943dat",
-  "desc": "Original or archival image caption, which may be erroneous, biased, obsolete or politically extreme.German: Nach dem UmschlagplatzTo the transhipping placetitle QS:P1476,de:\"Nach dem Umschlagplatz\"label QS:Lde,\"Nach dem Umschlagplatz\"label QS:Lfr,\"Vers l'Umschlagplatz\"label QS:Lpl,\"Na plac przeładunkowy\"label QS:Len,\"To the transhipping place\"label QS:Leo,\"Al transmetejo\"label QS:Lcs,\"Na překladiš",
+  "date": "2014-10-21 17:02:32",
+  "desc": "שרידי חומת גטו ורשה ברחוב Sienna 55",
   "f": "img/c/warsaw-ghetto-wall.jpg",
-  "h": 759,
+  "h": 736,
   "kind": "image",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Stroop_Report_-_Warsaw_Ghetto_Uprising_10.jpg",
-  "title": "Stroop Report - Warsaw Ghetto Uprising 10.jpg",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Fragments_ghetto_walls_Warsaw.jpg",
+  "title": "Fragments ghetto walls Warsaw.jpg",
   "w": 1100
  },
  "c:westminster": {
@@ -702,17 +806,17 @@
   "w": 1100
  },
  "c:white-house": {
-  "artist": "Tomascastelazo",
+  "artist": "(top)Cezary p(bottom)MattWade",
   "cap": "The White House, residence and office of the US president.",
-  "date": "Taken on 20 May 2018, 05:00:31",
-  "desc": "Relief over the central entrance at the north façade of the Edificio Grassy, built 1916–1917, 1 Gran Vía, Madrid.",
+  "date": "(top)July 17, 2008(bottom)May 26, 2006",
+  "desc": "The north (top) and south (bottom) sides of the White House in Washington, D.C.",
   "f": "img/c/white-house.jpg",
-  "h": 541,
+  "h": 1100,
   "kind": "image",
   "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Madrid_-_Edificio_Grassy_(Gran_V%C3%ADa_1)_-_north_facade_-_relief_over_entrance.jpg",
-  "title": "Madrid - Edificio Grassy (Gran Vía 1) - north facade - relief over entrance.jpg",
-  "w": 1100
+  "page": "https://commons.wikimedia.org/wiki/File:White_House_north_and_south_sides.jpg",
+  "title": "White House north and south sides.jpg",
+  "w": 961
  },
  "c:yekatit-monument": {
   "artist": "Radosław Botev",
@@ -726,6 +830,20 @@
   "page": "https://commons.wikimedia.org/wiki/File:Yekatit_12_Monument_Addis_Ababa.jpg",
   "title": "Yekatit 12 Monument Addis Ababa.jpg",
   "w": 825
+ },
+ "v:berlin-wall-film": {
+  "artist": "Ikusgela",
+  "cap": "Archival film: the Berlin Wall opens, 1989.",
+  "date": "2024-12-05",
+  "desc": "Berlingo Harresiaren historia azaltzen duen bideoa. • Erabilitako irudiak eta erreferentziak: Ikusgela - Berlingo Harresia",
+  "f": "img/c/berlin-wall-film.jpg",
+  "h": 619,
+  "kind": "video",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Ikusgela-Berlingo_Harresia.webm",
+  "title": "Ikusgela-Berlingo Harresia.webm",
+  "video": "https://upload.wikimedia.org/wikipedia/commons/1/12/Ikusgela-Berlingo_Harresia.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 1100
  },
  "v:hungary-1956-film": {
   "artist": "Universal",
@@ -742,18 +860,18 @@
   "w": 330
  },
  "v:march-washington-film": {
-  "artist": "USMC",
+  "artist": "U.S. Information Agency",
   "cap": "Archival film: the March on Washington for Jobs and Freedom, 1963.",
-  "date": "1963",
-  "desc": "This color Marine Corps recruiting film is about the Marine Parade on Friday evenings at the Marine Barracks in Washington, D.C. aka \"8th & I.\" Copyright is 1963. The Marine Barracks Washington, D.C., also known by its location at the corner of \"8th & I,\" is the oldest active post in the Marine Corps. It was founded by President Thomas Jefferson and Lt. Col. William Ward Burrows, the second comman",
+  "date": "1963-08-28",
+  "desc": "Footage of the 1963 Civil Rights March on Washington, DC.",
   "f": "img/c/march-washington-film.jpg",
-  "h": 284,
+  "h": 247,
   "kind": "video",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:%22_THE_HERITAGE_OF_THE_CORPS_%22_1963_U.S._MARINE_CORPS_FILM_8TH_%26_I_USMC_BARRACKS_WASHINGTON.webm",
-  "title": "\" THE HERITAGE OF THE CORPS \" 1963 U.S. MARINE CORPS FILM 8TH & I USMC BARRACKS WASHINGTON.webm",
-  "video": "https://upload.wikimedia.org/wikipedia/commons/5/5c/%22_THE_HERITAGE_OF_THE_CORPS_%22_1963_U.S._MARINE_CORPS_FILM_8TH_%26_I_USMC_BARRACKS_WASHINGTON.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "w": 500
+  "page": "https://commons.wikimedia.org/wiki/File:March_on_washington.ogv",
+  "title": "March on washington.ogv",
+  "video": "https://upload.wikimedia.org/wikipedia/commons/0/07/March_on_washington.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "w": 330
  },
  "v:nuremberg-trials-film": {
   "artist": "Department of the Army. Office of the Chief Signal Officer",
