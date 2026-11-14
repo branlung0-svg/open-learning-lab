@@ -24,3 +24,11 @@ Open: the capitalism verification needs applying; the chemistry claims (SCI-CHEM
 Done: Built the loop. Added the runbook (`plan/LOOP.md`), the content standards (`plan/STANDARDS.md`) and the work queue (`plan/queue.md`). The repo is now self-contained: the fact-check files are in `factcheck/`, and `tools/apply_fixes.py`, `tools/mkchanges.py`, `tools/stamp.py` and `tools/smoke.py` (a 67-page browser test) are in `tools/`. GitHub Actions now runs validate and smoke on every push.
 State at start: physics claim file (46 records, 38 checked); 52 public corrections; capitalism research brief v0.1 in `research/capitalism.md`; Marxism–Leninism is the only deep dive.
 Open: the first loop run starts with CAP-0.
+
+## 2026-11-14 (live session, after the loop was cancelled)
+- Capitalism deep dive live (js/capitalism-data.js, js/capitalism.js): 12 sections, 9 cases, sourced timeline from data/claims/capitalism.json.
+- Fascism deep dive live (js/fascism-data.js, js/fascism.js): 15 sections incl. resistance and collaboration, the words, denial is not a side; 9 cases; timeline from data/claims/fascism.json.
+- New lab `reichstag` (js/arcade-history.js): real Reichstag seats 1928–33, the negative majority.
+- Design: deep-dive hero + sticky chapter bar; History menu collapses to a breadcrumb; home features the three deep dives.
+- Link check: 11 dead links fixed.
+- Next: liberalism, conservatism, socialism/social democracy, anarchism, nationalism dives; "why does this happen" investigations; discipline-page redesign.
