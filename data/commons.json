@@ -155,19 +155,6 @@
   "title": "RIAN archive 475738 Berlin Wall.jpg",
   "w": 678
  },
- "c:biology-beagle": {
-  "artist": "Tomlin, Harold William John",
-  "cap": "HMS Beagle, the ship of Darwin’s voyage (1831–36).",
-  "date": "1941-07-01",
-  "desc": "HMS BEAGLE, BRITISH B CLASS DESTROYER. JULY 1941.",
-  "f": "img/c/biology-beagle.jpg",
-  "h": 611,
-  "kind": "image",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:HMS_BEAGLE,_BRITISH_B_CLASS_DESTROYER._JULY_1941.jpg",
-  "title": "HMS BEAGLE, BRITISH B CLASS DESTROYER. JULY 1941.jpg",
-  "w": 800
- },
  "c:biology-darwin-finches": {
   "artist": "John Gould (14.Sep.1804 - 3.Feb.1881)",
   "cap": "Darwin’s finches, drawn by John Gould: beaks shaped by diet.",
@@ -350,19 +337,6 @@
   "title": "House of Commons Chamber 1.png",
   "w": 1100
  },
- "c:computing-agc": {
-  "artist": "Adam Cuerden",
-  "cap": "The Apollo Guidance Computer, which flew astronauts to the Moon.",
-  "date": "1969-01-01",
-  "desc": "Margaret Hamilton standing next to listings of the software that she and her MIT team produced for the Apollo Project.",
-  "f": "img/c/computing-agc.jpg",
-  "h": 1100,
-  "kind": "image",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Margaret_Hamilton_-_restoration.jpg",
-  "title": "Margaret Hamilton - restoration.jpg",
-  "w": 884
- },
  "c:computing-colossus": {
   "artist": "Ian Petticrew",
   "cap": "Colossus at Bletchley Park (1944), built to break German codes.",
@@ -534,7 +508,7 @@
  },
  "c:economics-suez-canal-ships": {
   "artist": "Contains modified Copernicus Sentinel data [2021], processed by Pierre Markuse",
-  "cap": "Ships in the Suez Canal, a lifeline of world trade.",
+  "cap": "The container ship Ever Given stuck in the Suez Canal (March 2021): it blocked about 12% of world trade for six days.",
   "date": "2021-03-25 15:35",
   "desc": "Container Ship 'Ever Given' stuck in the Suez Canal, Egypt - March 24th, 2021. Image is about 2.64 kilometers wide.",
   "f": "img/c/economics-suez-canal-ships.jpg",
@@ -636,19 +610,6 @@
   "title": "Golden Bauhinia Square. Hong Kong. (16034131277).jpg",
   "w": 1100
  },
- "c:emp-india-1947": {
-  "artist": "Unknown authorUnknown author",
-  "cap": "Celebrations of Indian independence, 15 August 1947.",
-  "date": "1947-08-15",
-  "desc": "This rare 1947 photograph provided by the Ministry of Defence shows Lord Mountbatten, Edwina Mountbatten and Jawaharlal Nehru at the first Independence Day celebrations in New Delhi. A report in the Fauji Akhbar stated that Mountbatten and Nehru rescued children lost in the crowds by making them board the state coach.",
-  "f": "img/c/emp-india-1947.jpg",
-  "h": 484,
-  "kind": "image",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Lord_Mountbatten,_Edwina_Mountbatten_and_Jawaharlal_Nehru_at_the_first_Independence_Day_celebrations_in_New_Delhi.jpg",
-  "title": "Lord Mountbatten, Edwina Mountbatten and Jawaharlal Nehru at the first Independence Day celebrations in New Delhi.jpg",
-  "w": 700
- },
  "c:emp-lend-lease": {
   "artist": "Unknown authorUnknown author or not provided",
   "cap": "Lend-Lease supplies, 1941: the US armed Britain, but at a price.",
@@ -660,32 +621,6 @@
   "license": "Public domain",
   "page": "https://commons.wikimedia.org/wiki/File:Fitters_are_at_work_assembling_an_American_light_tank_which_has_just_arrived_at_an_English_ordnance_depot_from_the_US..._-_NARA_-_196324.jpg",
   "title": "Fitters are at work assembling an American light tank which has just arrived at an English ordnance depot from the US... - NARA - 196324.jpg",
-  "w": 1100
- },
- "c:emp-partition-train": {
-  "artist": "Captain AmericanBurger1775",
-  "cap": "Refugees during the Partition of India, 1947: up to 15 million people were displaced.",
-  "date": "1947",
-  "desc": "Clockwise from top left: Muslims refugees load onto trains in New Delhi, Sept 1947; Nehru, Mountbatten, and Jinnah during negotiations in New Delhi, June 1947; Refugees in a water queue in New Delhi, 1947; An Indian soldier guarding a crossroad in Paharganj Bazaar, New Delhi on Sept 16 1947 after rioting destroyed most Muslim properties in the district.",
-  "f": "img/c/emp-partition-train.jpg",
-  "h": 1100,
-  "kind": "image",
-  "license": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:Partition_of_India_Collage.jpg",
-  "title": "Partition of India Collage.jpg",
-  "w": 1100
- },
- "c:emp-singapore-1942": {
-  "artist": "影山光洋",
-  "cap": "The fall of Singapore, February 1942: Britain’s greatest military defeat in Asia.",
-  "date": "1942-02-15",
-  "desc": "シンガポール攻略でのイギリス軍降伏会議",
-  "f": "img/c/emp-singapore-1942.jpg",
-  "h": 805,
-  "kind": "image",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Conference_on_the_surrender_of_the_British_forces,_Singapore,_1942.jpg",
-  "title": "Conference on the surrender of the British forces, Singapore, 1942.jpg",
   "w": 1100
  },
  "c:emp-suez-1956": {
@@ -716,7 +651,7 @@
  },
  "c:emp-windrush": {
   "artist": "Tek monde",
-  "cap": "HMT Empire Windrush, which brought Caribbean migrants to Britain in 1948.",
+  "cap": "The passenger list of HMT Empire Windrush, Tilbury, June 1948, which brought Caribbean migrants to Britain.",
   "date": "2023-04-20",
   "desc": "M.V. \"Empire Windrush\" passenger list header at Tilbury June 1948",
   "f": "img/c/emp-windrush.jpg",
@@ -869,19 +804,6 @@
   "page": "https://commons.wikimedia.org/wiki/File:Cartoon_depicting_Leopold_2_and_other_emperial_powers_at_Berlin_conference_1884.jpg",
   "title": "Cartoon depicting Leopold 2 and other emperial powers at Berlin conference 1884.jpg",
   "w": 987
- },
- "c:geopolitics-congress-vienna": {
-  "artist": "Vicente López Portaña",
-  "cap": "The Congress of Vienna (1814–15), which redrew Europe after Napoleon.",
-  "date": "from 1833 until 1834date QS:P,+1833-00-0",
-  "desc": "Retrato del aristócrata y diplomático español Pedro Gómez Labrador (1772-1850), que fue el primer marqués de Labrador y el embajador del reino de España durante el Congreso de Viena de 1815, reunido tras la derrota definitiva del emperador Napoleón en la batalla de Waterloo.",
-  "f": "img/c/geopolitics-congress-vienna.jpg",
-  "h": 1100,
-  "kind": "image",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Vicente_L%C3%B3pez_Porta%C3%B1a_-_Portrait_of_the_Marquis_of_Labrador,_Spanish_Ambassador_to_the_Congress_of_Vienna_of_1815_-_Google_Art_Project.jpg",
-  "title": "Vicente López Portaña - Portrait of the Marquis of Labrador, Spanish Ambassador to the Congress of Vienna of 1815 - Google Art Project.jpg",
-  "w": 836
  },
  "c:geopolitics-panama-canal": {
   "artist": "Unknown authorUnknown author",
@@ -1156,19 +1078,6 @@
   "title": "Voynich Manuscript (32).jpg",
   "w": 819
  },
- "c:literature-first-folio": {
-  "artist": "Martin Droeshout",
-  "cap": "Shakespeare’s First Folio (1623), which preserved 18 plays that might otherwise have been lost.",
-  "date": "1623date QS:P571,+1623-00-00T00:00:00Z/9",
-  "desc": "The Droeshout portrait of William Shakespeare",
-  "f": "img/c/literature-first-folio.jpg",
-  "h": 1100,
-  "kind": "image",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Shakespeare_Droeshout_1623.jpg",
-  "title": "Shakespeare Droeshout 1623.jpg",
-  "w": 1100
- },
  "c:literature-genji-scroll": {
   "artist": "Imperial Palace Kyoto",
   "cap": "A 12th-century illustrated scroll of The Tale of Genji.",
@@ -1327,7 +1236,7 @@
  },
  "c:medicine-jenner": {
   "artist": "",
-  "cap": "Edward Jenner vaccinating against smallpox, 1796, as later imagined by an artist.",
+  "cap": "The cottage where Edward Jenner first tested vaccination against smallpox (1796).",
   "date": "",
   "desc": "Cottage where Jenner first tried vaccination; foreground: trees, pond with ducks, bridge and path with man and child walking. Watercolour by F. Pick, 1865. Iconographic Collections Keywords: F. Pick; Edward Jenner",
   "f": "img/c/medicine-jenner.jpg",
@@ -1583,19 +1492,6 @@
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Ostraka_for_Ostracism_-_Museum_of_the_Ancient_Agora_-_Joy_of_Museum.jpg",
   "title": "Ostraka for Ostracism - Museum of the Ancient Agora - Joy of Museum.jpg",
-  "w": 1100
- },
- "c:politics-udhr": {
-  "artist": "FDR Presidential Library & Museum",
-  "cap": "The Universal Declaration of Human Rights (1948).",
-  "date": "2008-02-28 04:10:36",
-  "desc": "Eleanor Roosevelt holding poster of the Universal Declaration of Human Rights (in English), Lake Success, New York. November 1949.",
-  "f": "img/c/politics-udhr.jpg",
-  "h": 864,
-  "kind": "image",
-  "license": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_UDHR.jpg",
-  "title": "Eleanor Roosevelt UDHR.jpg",
   "w": 1100
  },
  "c:prague-1968": {

@@ -176,7 +176,7 @@ Lab.deepdive = {
     const D = Object.assign({ id, custom: {}, ui: {}, side: {}, labs: [], host: 'history' }, cfg);
     D.base = D.host === 'disc' ? 'd-' + D.disc + '-deep' : 'history-modern-' + id;
     if (D.host === 'history') {
-      Lab.DEEPDIVES[id] = D;
+      if (D.inCompare !== false) Lab.DEEPDIVES[id] = D;
       if (!M.SUBS.some(([k]) => k === id)) M.SUBS.push([id, D.tab]);
       M.GROUPS && M.GROUPS.forEach((g) => { if (g[1] !== 'Deep dives') g[2] = g[2].filter((k) => k !== id); });
       const g = ensureGroup(); if (g && !g[2].includes(id)) g[2].push(id);

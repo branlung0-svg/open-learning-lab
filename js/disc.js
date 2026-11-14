@@ -75,6 +75,8 @@ Lab.routes.d = function (app, [id, ...partArr]) {
   const agrid = h('div', { class: 'grid g3' });
   const gmore = h('div', { class: 'row', style: { marginTop: '10px' } });
   body.append(card('archive', 'Pictures, documents & artifacts', h('p', { class: 'small muted' }, 'Real photographs, manuscripts, maps, instruments and artworks, old and new. Tap any picture to enlarge it; each one links to its source and license.'), agrid, gmore));
+  Lab.commons && Lab.commons().then((C) => { const ks = Object.keys(C).filter((k) => k.startsWith('c:' + D.id + '-')); if (!ks.length || !sec.archive) return;
+    sec.archive.insertBefore(h('div', { style: { marginBottom: '16px' } }, h('h3', { style: { marginTop: 0 } }, 'Treasures of the field'), h('p', { class: 'small muted' }, 'Landmark objects, documents and places. Tap to enlarge and see the credit.'), Lab.cgrid(ks, { max: '190px' })), agrid); });
   // Film
   const fbox = h('div');
   body.append(card('film', 'Real film & footage', fbox));

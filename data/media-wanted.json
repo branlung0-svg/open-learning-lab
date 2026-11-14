@@ -405,33 +405,15 @@
   "kind": "image"
  },
  {
-  "k": "c:emp-india-1947",
-  "q": "Indian independence day 15 August 1947 crowd Delhi",
-  "cap": "Celebrations of Indian independence, 15 August 1947.",
-  "kind": "image"
- },
- {
-  "k": "c:emp-partition-train",
-  "q": "Partition of India 1947 refugees train",
-  "cap": "Refugees during the Partition of India, 1947: up to 15 million people were displaced.",
-  "kind": "image"
- },
- {
   "k": "c:emp-suez-1956",
   "q": "Suez Crisis 1956 Port Said",
   "cap": "Port Said during the Suez Crisis, 1956.",
   "kind": "image"
  },
  {
-  "k": "c:emp-singapore-1942",
-  "q": "fall of Singapore 1942 British surrender",
-  "cap": "The fall of Singapore, February 1942: Britain’s greatest military defeat in Asia.",
-  "kind": "image"
- },
- {
   "k": "c:emp-windrush",
   "q": "Empire Windrush 1948 Tilbury",
-  "cap": "HMT Empire Windrush, which brought Caribbean migrants to Britain in 1948.",
+  "cap": "The passenger list of HMT Empire Windrush, Tilbury, June 1948, which brought Caribbean migrants to Britain.",
   "kind": "image"
  },
  {
@@ -555,12 +537,6 @@
   "kind": "image"
  },
  {
-  "k": "c:computing-agc",
-  "q": "Apollo Guidance Computer",
-  "cap": "The Apollo Guidance Computer, which flew astronauts to the Moon.",
-  "kind": "image"
- },
- {
   "k": "c:physics-lhc",
   "q": "Large Hadron Collider tunnel",
   "cap": "The Large Hadron Collider tunnel at CERN.",
@@ -621,12 +597,6 @@
   "kind": "image"
  },
  {
-  "k": "c:biology-beagle",
-  "q": "HMS Beagle painting",
-  "cap": "HMS Beagle, the ship of Darwin’s voyage (1831–36).",
-  "kind": "image"
- },
- {
   "k": "c:biology-galapagos-tortoise",
   "q": "Galapagos giant tortoise",
   "cap": "A Galápagos giant tortoise.",
@@ -677,7 +647,7 @@
  {
   "k": "c:economics-suez-canal-ships",
   "q": "container ships Suez Canal",
-  "cap": "Ships in the Suez Canal, a lifeline of world trade.",
+  "cap": "The container ship Ever Given stuck in the Suez Canal (March 2021): it blocked about 12% of world trade for six days.",
   "kind": "image"
  },
  {
@@ -696,18 +666,6 @@
   "k": "c:politics-ostraka",
   "q": "ostraka Athens Agora ostracism",
   "cap": "Ostraka: Athenians scratched names on pottery to vote someone into exile.",
-  "kind": "image"
- },
- {
-  "k": "c:politics-udhr",
-  "q": "Universal Declaration of Human Rights 1948",
-  "cap": "The Universal Declaration of Human Rights (1948).",
-  "kind": "image"
- },
- {
-  "k": "c:geopolitics-congress-vienna",
-  "q": "Congress of Vienna 1815 painting",
-  "cap": "The Congress of Vienna (1814–15), which redrew Europe after Napoleon.",
   "kind": "image"
  },
  {
@@ -933,12 +891,6 @@
   "kind": "image"
  },
  {
-  "k": "c:literature-first-folio",
-  "q": "Shakespeare First Folio 1623",
-  "cap": "Shakespeare’s First Folio (1623), which preserved 18 plays that might otherwise have been lost.",
-  "kind": "image"
- },
- {
   "k": "c:literature-genji-scroll",
   "q": "Tale of Genji emaki scroll",
   "cap": "A 12th-century illustrated scroll of The Tale of Genji.",
@@ -977,7 +929,7 @@
  {
   "k": "c:medicine-jenner",
   "q": "Jenner vaccination painting",
-  "cap": "Edward Jenner vaccinating against smallpox, 1796, as later imagined by an artist.",
+  "cap": "The cottage where Edward Jenner first tested vaccination against smallpox (1796).",
   "kind": "image"
  },
  {
