@@ -47,3 +47,4 @@ Open: the first loop run starts with CAP-0.
 - Lab: sourcedetective (js/arcade-evidence.js).
 - Artifact is at its 256 MB cap: publish code only; pictures load from the public site.
 - Next: more Commons media per dive and per discipline; UK→US empire module; more picture-based labs; remaining discipline dives.
+- Part 4: empire module (js/empire-data.js, js/empire.js, #history-modern-empire); "Treasures of the field" Commons pictures on all 24 discipline pages (keys c:<disc>-<slug>); lab `graphics` (js/arcade-graphics.js). Next: country studies (USSR, DPRK, China, Cuba, USA), more picture labs, discipline dives.
