@@ -1,0 +1,187 @@
+[
+ {
+  "id": "fas-e-election-1928",
+  "verdict": "supported",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Nazi Rise to Power",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power"
+   },
+   {
+    "cite": "Deutscher Bundestag, Textarchiv, Kalenderblatt: Reichstagswahl vom 5. März 1933 (Laura Heyer, 2023), gives NSDAP results 1928, 1930, July 1932 and March 1933",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2023/kw09-kalenderblatt-wahlen33-544990"
+   }
+  ],
+  "method": "Opened Bundestag Kalenderblatt page: NSDAP 2.6 percent and 12 seats in 1928. (sourcing pass)"
+ },
+ {
+  "id": "fas-e-election-1930",
+  "verdict": "supported",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Nazi Rise to Power",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power"
+   },
+   {
+    "cite": "Deutscher Bundestag, Kalenderblatt: Reichstagswahl 5 March 1933 (2023)",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2023/kw09-kalenderblatt-wahlen33-544990"
+   }
+  ],
+  "method": "Opened Bundestag Kalenderblatt page: NSDAP 18.3 percent in 1930. (sourcing pass)"
+ },
+ {
+  "id": "fas-e-election-july-1932",
+  "verdict": "supported",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Nazi Rise to Power",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power"
+   },
+   {
+    "cite": "Deutscher Bundestag, Kalenderblatt: Reichstagswahl 5 March 1933 (2023)",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2023/kw09-kalenderblatt-wahlen33-544990"
+   },
+   {
+    "cite": "Deutsches Historisches Museum, LeMO: Reichstagswahl 1933",
+    "url": "https://www.dhm.de/lemo/kapitel/ns-regime/etablierung-der-ns-herrschaft/reichstagswahl-1933.html"
+   }
+  ],
+  "method": "Opened Bundestag Kalenderblatt page: NSDAP 37.3 percent on 31 July 1932. (sourcing pass)"
+ },
+ {
+  "id": "fas-e-election-nov-1932",
+  "verdict": "supported",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Nazi Rise to Power",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power"
+   },
+   {
+    "cite": "Deutsches Historisches Museum, LeMO, Reichstagswahl 1933 (Burkhard Asmuss, 2015), gives November 1932 and March 1933 results",
+    "url": "https://www.dhm.de/lemo/kapitel/ns-regime/etablierung-der-ns-herrschaft/reichstagswahl-1933"
+   }
+  ],
+  "method": "Opened DHM LeMO page: NSDAP 33.1, SPD 20.4, KPD 16.9 percent on 6 November 1932. (sourcing pass)"
+ },
+ {
+  "id": "fas-e-election-1933",
+  "verdict": "supported",
+  "sources": [
+   {
+    "cite": "USHMM Holocaust Encyclopedia, The Nazi Rise to Power",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power"
+   },
+   {
+    "cite": "Deutscher Bundestag, Kalenderblatt: Reichstagswahl 5 March 1933 (2023)",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2023/kw09-kalenderblatt-wahlen33-544990"
+   },
+   {
+    "cite": "Deutsches Historisches Museum, LeMO: Reichstagswahl 1933",
+    "url": "https://www.dhm.de/lemo/kapitel/ns-regime/etablierung-der-ns-herrschaft/reichstagswahl-1933.html"
+   },
+   {
+    "cite": "Deutsches Historisches Museum, LeMO, Reichstagswahl 1933 (Burkhard Asmuss, 2015), gives November 1932 and March 1933 results",
+    "url": "https://www.dhm.de/lemo/kapitel/ns-regime/etablierung-der-ns-herrschaft/reichstagswahl-1933"
+   }
+  ],
+  "method": "Opened both pages: NSDAP 43.9 percent on 5 March 1933 (DHM also gives SPD 18.3, KPD 12.3); Bundestag page says turnout was nearly 90 percent and describes SA intimidation after the Reichstag Fire Decree. (sourcing pass)"
+ },
+ {
+  "id": "fas-e-yekatit-12",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "History Today, review by R. J. B. Bosworth of Ian Campbell, The Addis Ababa Massacre",
+    "url": "https://www.historytoday.com/reviews/addis-ababa-massacre"
+   },
+   {
+    "cite": "Wikipedia, Yekatit 12 (secondary)",
+    "url": "https://en.wikipedia.org/wiki/Yekatit_12"
+   },
+   {
+    "cite": "Hurst Publishers, Ian Campbell, The Addis Ababa Massacre: Italy’s National Shame (book page)",
+    "url": "https://hurstpublishers.com/?p=14383"
+   },
+   {
+    "cite": "Tsega Andualem Gelaye, Reparation for historical injustices committed during the Italian occupation of Ethiopia from 1935 to 1941, African Human Rights Yearbook 9 (2025) 340–356",
+    "url": "https://www.ahry.up.ac.za/images/ahry/volume9/Article_Gelaye_AHRY_2025.pdf"
+   }
+  ],
+  "method": "Opened History Today review (Campbell about 19,000; method; Pankhurst would reduce to about 10,000), Hurst book page (19,000; 19–20 percent of the capital’s population) and Gelaye 2025 (nearly 20,000 to 30,000). (sourcing pass)",
+  "text": "After a grenade attack on Viceroy Rodolfo Graziani by two young Eritreans, Italian soldiers, Fascist Blackshirt militia and Italian civilians kill residents across Addis Ababa for three days. Ian Campbell (2017), checking Ethiopian testimony against foreign diplomats’ reports, estimates about 19,000 dead, close to a fifth of the city; historian Richard Pankhurst thought it nearer 10,000, and some writers give up to 30,000. In May 1937 Italian forces also shot the monks of the Debre Libanos monastery.",
+  "problem": "Sources upgraded and estimates attributed by name; unsupported low figure dropped."
+ },
+ {
+  "id": "fas-e-nanjing",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, Nanjing Massacre",
+    "url": "https://www.britannica.com/event/Nanjing-Massacre"
+   },
+   {
+    "cite": "Wikipedia, Death toll of the Nanjing Massacre (secondary)",
+    "url": "https://en.wikipedia.org/wiki/Death_toll_of_the_Nanjing_Massacre"
+   },
+   {
+    "cite": "David Askew, New Research on the Nanjing Incident, Asia-Pacific Journal: Japan Focus (2004)",
+    "url": "https://apjjf.org/?p=13736"
+   },
+   {
+    "cite": "Ministry of Foreign Affairs of Japan, Q&A: Issues regarding History",
+    "url": "https://www.mofa.go.jp/policy/q_a/faq16.html"
+   }
+  ],
+  "method": "Opened Askew 2004 (survey of Japanese schools of estimates and why they differ) and the MOFA Q&A page; Britannica kept from the existing record. (sourcing pass)",
+  "text": "After capturing Nanjing on 13 December 1937, Japanese troops kill prisoners of war and civilians on a mass scale, with widespread sexual violence, looting and arson; Japan’s Foreign Ministry says the killing of civilians cannot be denied. Estimates depend on the area, period and victims counted: China’s official figure is 300,000, the postwar Tokyo tribunal found more than 100,000 (in its verdict on General Matsui), Kasahara Tokushi estimates over 100,000 and perhaps nearly 200,000, and the more cautious Hata Ikuhiko about 38,000–42,000. Foreign residents led by John Rabe ran a Safety Zone that sheltered over 200,000 civilians.",
+  "problem": "Sources upgraded and estimates attributed by name; unsupported low figure dropped."
+ },
+ {
+  "id": "fas-e-spain-war-ends",
+  "verdict": "supported",
+  "sources": [
+   {
+    "cite": "Encyclopaedia Britannica, Spanish Civil War (summary)",
+    "url": "https://www.britannica.com/summary/Spanish-Civil-War"
+   },
+   {
+    "cite": "Encyclopaedia Britannica, Spain: The Civil War",
+    "url": "https://www.britannica.com/place/Spain/The-Civil-War"
+   },
+   {
+    "cite": "Maclean’s, review of Paul Preston, The Spanish Holocaust",
+    "url": "https://cms.macleans.ca/culture/books/review-the-spanish-holocaust-inquisition-and-extermination-in-twentieth-century-spain/"
+   },
+   {
+    "cite": "The National, Matthew Price, review of Paul Preston, The Spanish Holocaust (7 July 2012)",
+    "url": "https://www.thenationalnews.com/arts-culture/books/spanish-civil-war-analysis-opens-debate-on-forgotten-atrocities-1.394088"
+   }
+  ],
+  "method": "Opened The National review (Preston: some 150,000 killed by the military rebels; records destroyed and many graves unexamined) and the government exhumation report (785 graves opened 2000–2019, 9,698 people recovered; 2,457 graves mapped by 2017, map called incomplete). (sourcing pass)"
+ },
+ {
+  "id": "fas-e-libya-camps",
+  "verdict": "fix",
+  "sources": [
+   {
+    "cite": "MERIP, Genocide, historical amnesia and Italian settler colonialism in Libya: an interview with Ali Abdullatif Ahmida (2022)",
+    "url": "https://www.merip.org/2022/05/genocide-historical-amnesia-and-italian-settler-colonialism-in-libya-an-interview-with-ali-abdullatif-ahmida/"
+   },
+   {
+    "cite": "Wikipedia, Italian concentration camps in Libya (secondary)",
+    "url": "https://en.wikipedia.org/wiki/Italian_concentration_camps_in_Libya"
+   },
+   {
+    "cite": "MERIP, Genocide, Historical Amnesia and Italian Settler Colonialism in Libya: An Interview with Ali Abdullatif Ahmida (Jacob Mundy, 4 May 2022)",
+    "url": "https://www.merip.org/2022/05/genocide-historical-amnesia-and-italian-settler-colonialism-in-libya-an-interview-with-ali-abdullatif-ahmida.md"
+   },
+   {
+    "cite": "Ouissal Harize, review of Ali Abdullatif Ahmida, Genocide in Libya: Shar, a Hidden Colonial History, Lamma: A Journal of Libyan Studies 2 (2022)",
+    "url": "https://escholarship.org/content/qt0s84b75q/qt0s84b75q.pdf?t=rwngtp"
+   }
+  ],
+  "method": "Opened MERIP interview (100,000–110,000 moved; ‘two-thirds of them perished’; oral history method; restricted archives) and the Lamma review (16 camps). (sourcing pass)",
+  "text": "To crush armed resistance in Cyrenaica (eastern Libya) led by Omar al-Mukhtar, Italian forces drive 100,000–110,000 people, mostly civilians, with their herds into 16 desert concentration camps; the regime called it “pacification”. Historian Ali Abdullatif Ahmida, who interviewed survivors for a decade, says about two-thirds of them died; Italian historian Emilio Gentile counts about 50,000 deaths, and exact totals are uncertain because Italian records are incomplete. Ahmida argues it was genocide; other historians call it an extreme colonial counter-insurgency.",
+  "problem": "Sources upgraded and estimates attributed by name; unsupported low figure dropped."
+ }
+]

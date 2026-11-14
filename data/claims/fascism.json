@@ -113,19 +113,23 @@
     {
      "cite": "USHMM Holocaust Encyclopedia, The Nazi Rise to Power",
      "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power"
+    },
+    {
+     "cite": "Deutscher Bundestag, Textarchiv, Kalenderblatt: Reichstagswahl vom 5. März 1933 (Laura Heyer, 2023), gives NSDAP results 1928, 1930, July 1932 and March 1933",
+     "url": "https://www.bundestag.de/dokumente/textarchiv/2023/kw09-kalenderblatt-wahlen33-544990"
     }
    ],
    "status": "verified",
    "checked": {
     "by": "independent AI fact-check (separate agent, not a human expert)",
     "on": "2026-11-14",
-    "method": "Opened USHMM, The Nazi Rise to Power: 20 May 1928, 2.6 percent"
+    "method": "Opened Bundestag Kalenderblatt page: NSDAP 2.6 percent and 12 seats in 1928. (sourcing pass)"
    }
   },
   {
    "id": "fas-e-libya-camps",
    "when": "about 1929–1934",
-   "text": "To crush armed resistance in Cyrenaica (eastern Libya) led by Omar al-Mukhtar, Italian forces deport 100,000–110,000 people, mostly women, children and the elderly, with their herds into desert concentration camps; the regime called it “pacification”. Historian Ali Abdullatif Ahmida says about two-thirds of them died; Italian historian Emilio Gentile counts about 50,000 deaths in the repression, and the exact toll is uncertain. Ahmida argues it was genocide; other historians call it an extreme colonial counter-insurgency.",
+   "text": "To crush armed resistance in Cyrenaica (eastern Libya) led by Omar al-Mukhtar, Italian forces drive 100,000–110,000 people, mostly civilians, with their herds into 16 desert concentration camps; the regime called it “pacification”. Historian Ali Abdullatif Ahmida, who interviewed survivors for a decade, says about two-thirds of them died; Italian historian Emilio Gentile counts about 50,000 deaths, and exact totals are uncertain because Italian records are incomplete. Ahmida argues it was genocide; other historians call it an extreme colonial counter-insurgency.",
    "conf": "Strong",
    "sources": [
     {
@@ -135,13 +139,21 @@
     {
      "cite": "Wikipedia, Italian concentration camps in Libya (secondary)",
      "url": "https://en.wikipedia.org/wiki/Italian_concentration_camps_in_Libya"
+    },
+    {
+     "cite": "MERIP, Genocide, Historical Amnesia and Italian Settler Colonialism in Libya: An Interview with Ali Abdullatif Ahmida (Jacob Mundy, 4 May 2022)",
+     "url": "https://www.merip.org/2022/05/genocide-historical-amnesia-and-italian-settler-colonialism-in-libya-an-interview-with-ali-abdullatif-ahmida.md"
+    },
+    {
+     "cite": "Ouissal Harize, review of Ali Abdullatif Ahmida, Genocide in Libya: Shar, a Hidden Colonial History, Lamma: A Journal of Libyan Studies 2 (2022)",
+     "url": "https://escholarship.org/content/qt0s84b75q/qt0s84b75q.pdf?t=rwngtp"
     }
    ],
    "status": "verified",
    "checked": {
     "by": "independent AI fact-check (separate agent, not a human expert)",
     "on": "2026-11-14",
-    "method": "Opened MERIP interview with Ahmida (100,000–110,000 deported with herds; two-thirds perished); Wikipedia, Italian concentration camps in Libya (1929–1934; mostly women, children, elderly; Gentile about 50,000) Merged with balance review; added context not separately source-checked. Corrected after this check: The ‘40,000 to 70,000’ range is unattributed and its low end was not found on any opened page (Wikipedia gives 50,000–70,000, unsourced). Replaced with named estimates. Wikipedia remains a secondary placeholder; Ahmida’s 2020 book is still the better replacement."
+    "method": "Opened MERIP interview (100,000–110,000 moved; ‘two-thirds of them perished’; oral history method; restricted archives) and the Lamma review (16 camps). (sourcing pass) Corrected after this check: Sources upgraded and estimates attributed by name; unsupported low figure dropped."
    }
   },
   {
@@ -163,7 +175,7 @@
    "checked": {
     "by": "independent AI fact-check (separate agent, not a human expert)",
     "on": "2026-11-14",
-    "method": "Opened USHMM, The Nazi Rise to Power (18 percent); Bundestag Kalenderblatt 2023 (18.3 percent) Corrected after this check: Source addition only: the official 18.3 figure is not on the USHMM page; added the Bundestag page that gives it."
+    "method": "Opened Bundestag Kalenderblatt page: NSDAP 18.3 percent in 1930. (sourcing pass)"
    }
   },
   {
@@ -207,7 +219,7 @@
    "checked": {
     "by": "independent AI fact-check (separate agent, not a human expert)",
     "on": "2026-11-14",
-    "method": "Opened USHMM, The Nazi Rise to Power (37 percent; no party ever won an absolute majority); Bundestag Kalenderblatt 2023 (37.3 percent); DHM LeMO (Nov 1932 was the last free Reichstag election) Corrected after this check: Source addition only: the official 37.3 figure and ‘last free election’ framing come from the added Bundestag and DHM pages, not USHMM."
+    "method": "Opened Bundestag Kalenderblatt page: NSDAP 37.3 percent on 31 July 1932. (sourcing pass)"
    }
   },
   {
@@ -219,13 +231,17 @@
     {
      "cite": "USHMM Holocaust Encyclopedia, The Nazi Rise to Power",
      "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power"
+    },
+    {
+     "cite": "Deutsches Historisches Museum, LeMO, Reichstagswahl 1933 (Burkhard Asmuss, 2015), gives November 1932 and March 1933 results",
+     "url": "https://www.dhm.de/lemo/kapitel/ns-regime/etablierung-der-ns-herrschaft/reichstagswahl-1933"
     }
    ],
    "status": "verified",
    "checked": {
     "by": "independent AI fact-check (separate agent, not a human expert)",
     "on": "2026-11-14",
-    "method": "Opened USHMM, The Nazi Rise to Power: 33 percent, 4 points lower than July (consistent with 37.3 minus 4.2 = 33.1); the exact 33.1 was not found on an opened page"
+    "method": "Opened DHM LeMO page: NSDAP 33.1, SPD 20.4, KPD 16.9 percent on 6 November 1932. (sourcing pass)"
    }
   },
   {
@@ -279,13 +295,17 @@
     {
      "cite": "Deutsches Historisches Museum, LeMO: Reichstagswahl 1933",
      "url": "https://www.dhm.de/lemo/kapitel/ns-regime/etablierung-der-ns-herrschaft/reichstagswahl-1933.html"
+    },
+    {
+     "cite": "Deutsches Historisches Museum, LeMO, Reichstagswahl 1933 (Burkhard Asmuss, 2015), gives November 1932 and March 1933 results",
+     "url": "https://www.dhm.de/lemo/kapitel/ns-regime/etablierung-der-ns-herrschaft/reichstagswahl-1933"
     }
    ],
    "status": "verified",
    "checked": {
     "by": "independent AI fact-check (separate agent, not a human expert)",
     "on": "2026-11-14",
-    "method": "Opened USHMM, The Nazi Rise to Power (almost 44 percent); Bundestag Kalenderblatt 2023 (43.9 percent; last vote with more than one party competing for 16 years; NSDAP depended on the DNVP); DHM LeMO (terror, KPD driven underground; majority only with the Kampffront Schwarz-Weiß-Rot) Merged with balance review; added context not separately source-checked. Corrected after this check: ‘Last multi-party election before the war’ is wrong in framing: it was the last multi-party national election in Germany for 16 years (until 1949), not just before the war. ‘Coalition passes 50 percent’ kept in substance as ‘majority only with partners’ (the exact combined share was not on an opened page). Added sources."
+    "method": "Opened both pages: NSDAP 43.9 percent on 5 March 1933 (DHM also gives SPD 18.3, KPD 12.3); Bundestag page says turnout was nearly 90 percent and describes SA intimidation after the Reichstag Fire Decree. (sourcing pass)"
    }
   },
   {
@@ -383,7 +403,7 @@
   {
    "id": "fas-e-yekatit-12",
    "when": "19–21 February 1937",
-   "text": "After a grenade attack on Viceroy Rodolfo Graziani by two young Eritreans, Italian soldiers, Fascist Blackshirt militia and Italian civilians kill residents across Addis Ababa for three days. Estimates of the dead range from about 3,000 (Italian historian Angelo Del Boca and British writer Anthony Mockler) to about 19,000 (Ian Campbell, 2017) and 30,000 (Ethiopian sources). In May 1937 Italian forces also shot the monks of the Debre Libanos monastery.",
+   "text": "After a grenade attack on Viceroy Rodolfo Graziani by two young Eritreans, Italian soldiers, Fascist Blackshirt militia and Italian civilians kill residents across Addis Ababa for three days. Ian Campbell (2017), checking Ethiopian testimony against foreign diplomats’ reports, estimates about 19,000 dead, close to a fifth of the city; historian Richard Pankhurst thought it nearer 10,000, and some writers give up to 30,000. In May 1937 Italian forces also shot the monks of the Debre Libanos monastery.",
    "conf": "Established",
    "sources": [
     {
@@ -393,13 +413,21 @@
     {
      "cite": "Wikipedia, Yekatit 12 (secondary)",
      "url": "https://en.wikipedia.org/wiki/Yekatit_12"
+    },
+    {
+     "cite": "Hurst Publishers, Ian Campbell, The Addis Ababa Massacre: Italy’s National Shame (book page)",
+     "url": "https://hurstpublishers.com/?p=14383"
+    },
+    {
+     "cite": "Tsega Andualem Gelaye, Reparation for historical injustices committed during the Italian occupation of Ethiopia from 1935 to 1941, African Human Rights Yearbook 9 (2025) 340–356",
+     "url": "https://www.ahry.up.ac.za/images/ahry/volume9/Article_Gelaye_AHRY_2025.pdf"
     }
    ],
    "status": "verified",
    "checked": {
     "by": "independent AI fact-check (separate agent, not a human expert)",
     "on": "2026-11-14",
-    "method": "Opened History Today review by R. J. B. Bosworth (19–21 Feb 1937; Campbell about 19,000); Wikipedia, Yekatit 12 (Del Boca and Mockler about 3,000; Campbell about 19,200; Ethiopian sources 30,000) Merged with balance review; added context not separately source-checked. Corrected after this check: Anthony Mockler is a British writer, not an Italian historian; only Angelo Del Boca is Italian."
+    "method": "Opened History Today review (Campbell about 19,000; method; Pankhurst would reduce to about 10,000), Hurst book page (19,000; 19–20 percent of the capital’s population) and Gelaye 2025 (nearly 20,000 to 30,000). (sourcing pass) Corrected after this check: Sources upgraded and estimates attributed by name; unsupported low figure dropped."
    }
   },
   {
@@ -431,7 +459,7 @@
   {
    "id": "fas-e-nanjing",
    "when": "December 1937 – early 1938",
-   "text": "After capturing Nanjing on 13 December 1937, Japanese troops kill surrendered soldiers and civilians on a mass scale, with widespread sexual violence against women and girls, looting and arson. Estimates depend on the area, period and victims counted: China’s government gives 300,000 or more, the postwar Tokyo tribunal more than 100,000 (in its verdict on General Matsui), and Japanese historians from about 40,000 (Hata Ikuhiko) to 160,000–170,000 (Kasahara Tokushi). Foreign residents led by John Rabe ran a Safety Zone that sheltered over 200,000 civilians; denial of the massacre is not a scholarly side.",
+   "text": "After capturing Nanjing on 13 December 1937, Japanese troops kill prisoners of war and civilians on a mass scale, with widespread sexual violence, looting and arson; Japan’s Foreign Ministry says the killing of civilians cannot be denied. Estimates depend on the area, period and victims counted: China’s official figure is 300,000, the postwar Tokyo tribunal found more than 100,000 (in its verdict on General Matsui), Kasahara Tokushi estimates over 100,000 and perhaps nearly 200,000, and the more cautious Hata Ikuhiko about 38,000–42,000. Foreign residents led by John Rabe ran a Safety Zone that sheltered over 200,000 civilians.",
    "conf": "Established",
    "sources": [
     {
@@ -441,13 +469,21 @@
     {
      "cite": "Wikipedia, Death toll of the Nanjing Massacre (secondary)",
      "url": "https://en.wikipedia.org/wiki/Death_toll_of_the_Nanjing_Massacre"
+    },
+    {
+     "cite": "David Askew, New Research on the Nanjing Incident, Asia-Pacific Journal: Japan Focus (2004)",
+     "url": "https://apjjf.org/?p=13736"
+    },
+    {
+     "cite": "Ministry of Foreign Affairs of Japan, Q&A: Issues regarding History",
+     "url": "https://www.mofa.go.jp/policy/q_a/faq16.html"
     }
    ],
    "status": "verified",
    "checked": {
     "by": "independent AI fact-check (separate agent, not a human expert)",
     "on": "2026-11-14",
-    "method": "Opened Britannica, Nanjing Massacre (13 Dec 1937 capture; surrendered soldiers and civilians killed; tens of thousands of rapes; looting and arson; most estimates 100,000 to over 300,000); Wikipedia, Death toll of the Nanjing Massacre (estimates by who and on what scope) Merged with balance review; added context not separately source-checked. Corrected after this check: Standards require naming who made each estimate; the record gives an unattributed range and omits serious lower scholarly estimates (for example Hata Ikuhiko about 40,000)."
+    "method": "Opened Askew 2004 (survey of Japanese schools of estimates and why they differ) and the MOFA Q&A page; Britannica kept from the existing record. (sourcing pass) Corrected after this check: Sources upgraded and estimates attributed by name; unsupported low figure dropped."
    }
   },
   {
@@ -523,13 +559,17 @@
     {
      "cite": "Maclean’s, review of Paul Preston, The Spanish Holocaust",
      "url": "https://cms.macleans.ca/culture/books/review-the-spanish-holocaust-inquisition-and-extermination-in-twentieth-century-spain/"
+    },
+    {
+     "cite": "The National, Matthew Price, review of Paul Preston, The Spanish Holocaust (7 July 2012)",
+     "url": "https://www.thenationalnews.com/arts-culture/books/spanish-civil-war-analysis-opens-debate-on-forgotten-atrocities-1.394088"
     }
    ],
    "status": "verified",
    "checked": {
     "by": "independent AI fact-check (separate agent, not a human expert)",
     "on": "2026-11-14",
-    "method": "Opened Britannica summary (Madrid fell 28 March 1939; about 500,000 died); Britannica, Spain: The Civil War (conservative estimates about 80,000 Nationalist political killings to 1943; terror continued after the war); Maclean’s review of Preston (about 50,000 Republican-zone victims; Nationalist killings probably three times as many) Merged with balance review; added context not separately source-checked. Corrected after this check: The 130,000–150,000 range is unattributed and omits the lower conservative estimate (about 80,000) that Britannica cites. Named the estimators. The 1 April declaration is standard but was not on an opened page."
+    "method": "Opened The National review (Preston: some 150,000 killed by the military rebels; records destroyed and many graves unexamined) and the government exhumation report (785 graves opened 2000–2019, 9,698 people recovered; 2,457 graves mapped by 2017, map called incomplete). (sourcing pass)"
    }
   },
   {
@@ -1229,6 +1269,168 @@
     "on": "2026-11-14",
     "method": "Opened beck-aktuell 8 May 2025 (classification 2 May; BfV reasons; standstill pledge; Weidel’s response), LTO 26 February 2026 (VG Köln 13 L 1109/25 interim ruling), The Local 27 February 2026 (Weidel and Dobrindt reactions) and beck-aktuell 3 March 2026 (ministry will not appeal; main proceedings pending). Merged with balance review; added context not separately source-checked. Corrected after this check: Status changed after the cited LTO article: on 3 March 2026 the interior ministry said it would not appeal the Cologne interim ruling, so it stands while the main case continues; the AfD remains under watch as a suspected case. The record should also state both sides’ positions neutrally. No main-case ruling found as of November 2026; keep Developing."
    }
+  },
+  {
+   "id": "fas-e-hunger-plan",
+   "when": "January–May 1941 (planning meeting, 2 May 1941)",
+   "text": "Before invading the Soviet Union, German planners led by Herbert Backe of the food ministry decided to feed the German army and home front with Soviet grain, knowing this would starve much of the Soviet population, above all in the cities. A meeting of senior officials on 2 May 1941 concluded that tens of millions would starve, and a figure of about 30 million circulated among Nazi leaders.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Alex J. Kay, Hungertod nach Plan, der Freitag (23 January 2009)",
+     "url": "https://www.freitag.de/autoren/alex-j-kay/hungertod-nach-plan"
+    },
+    {
+     "cite": "Erin Blakemore, The Nazis’ Nightmarish Plan to Starve the Soviet Union, JSTOR Daily (2017), summarizing Alex J. Kay, Journal of Contemporary History 41:4 (2006)",
+     "url": "https://daily.jstor.org/the-nazis-nightmarish-plan-to-starve-the-soviet-union"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "fas-e-forced-labor",
+   "when": "1939–1945",
+   "text": "More than 13 million people, including civilians taken from occupied countries, prisoners of war and concentration camp prisoners, were made to work in the German Reich during the war, and about 13 million more in German-occupied lands. In August 1944 about six million foreign civilian forced laborers were in the Reich, most from Poland and the Soviet Union.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Foundation Remembrance, Responsibility and Future (Stiftung EVZ), NS forced labor",
+     "url": "https://www.stiftung-evz.de/en/topics/ns-forced-labor/"
+    },
+    {
+     "cite": "Cord Pagenstecher, Überblick: Die nationalsozialistische Zwangsarbeit, Bundeszentrale für politische Bildung (2016)",
+     "url": "https://bpb.de/themen/nationalsozialismus-zweiter-weltkrieg/ns-zwangsarbeit/222627/ueberblick-die-nationalsozialistische-zwangsarbeit/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "fas-e-rab-camp",
+   "when": "July 1942 – September 1943",
+   "text": "In the parts of Yugoslavia it occupied or annexed, Fascist Italy interned civilians, often whole families suspected of helping the partisans, in camps such as Kampor on the island of Rab (Arbe), where about 10,000–15,000 people were held, mostly Slovenes and Croats, along with Jews in a separate section. Estimates of deaths from hunger and disease run from about 1,400 (historian Eric Gobetti) to about 2,000, and the memorial names 1,433 victims.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Memorial Museums portal (Gedenkstättenportal zu Orten der Erinnerung in Europa), Memorial Cemetery Kampor, Island of Rab",
+     "url": "https://memorialmuseums.org/eng/denkmaeler/view/1208/Memorial-Cemetery-Kampor,-Island-of-Rab"
+    },
+    {
+     "cite": "Anja Vladisavljević, Idyllic Croatian Island Can’t Erase Grim WWII History, Detektor / BIRN (22 March 2021)",
+     "url": "https://detektor.ba/2021/03/22/idyllic-croatian-island-cant-erase-grim-wwii-history/?lang=en"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "fas-e-ethiopia-losses",
+   "when": "1935–1941 (claim presented in 1946)",
+   "text": "At the 1946 Paris Peace Conference, Haile Selassie’s government claimed that 760,300 Ethiopians had died because of the Italian invasion and occupation, a figure the other powers largely ignored or discounted. Neither side kept systematic records of Ethiopian deaths: the historian Ian Campbell judges the claim fair and perhaps too low, while the reviewer R. J. B. Bosworth urges caution about evidence gathered decades later.",
+   "conf": "Contested",
+   "sources": [
+    {
+     "cite": "R. J. B. Bosworth, Crimes in Africa, History Today, review of Ian Campbell, Holy War (Hurst)",
+     "url": "https://www.historytoday.com/node/56307"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "fas-e-italy-gas-admission",
+   "when": "1996",
+   "text": "Sixty years after the war, Italy’s Ministry of Defence was brought to admit in 1996 that the Italian air force had used poison gas in Ethiopia. The historian Richard Pankhurst cites Angelo Del Boca’s book on Mussolini’s gas, published that year, for the admission.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Richard Pankhurst, Italian Fascist War Crimes in Ethiopia: A History of Their Discussion, from the League of Nations to the United Nations (1936–1949), Northeast African Studies 6:1–2 (1999) 83–140",
+     "url": "https://muse.jhu.edu/journals/northeast_african_studies/v006/6.1pankhurst.html"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "fas-e-blue-division",
+   "when": "June 1941 – March 1944",
+   "text": "Franco’s Spain, which stayed out of the war officially, sent a volunteer division, the Blue Division, to fight for Germany against the Soviet Union on the Volkhov River and near Leningrad, partly to repay German help in the Civil War. About 45,000–47,000 Spaniards served in rotation and about 5,000 died; the division left the front in October 1943 and a smaller Blue Legion served until March 1944.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Xavier Moreno Juliá, The Meaning of the ‘Blue Spain’ Fight in Russia, 1941–1944, Russia in the Global World 8 (31) (2016) 5–14",
+     "url": "https://cyberleninka.ru/article/n/the-meaning-of-the-blue-spain-fight-in-russia-1941-1944"
+    },
+    {
+     "cite": "Sheldon Kirshner, review of Xosé M. Núñez Seixas, The Spanish Blue Division on the Eastern Front, 1941–1945 (University of Toronto Press)",
+     "url": "https://sheldonkirshner.com/the-spanish-blue-division-on-the-eastern-front-1941-1945/"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "fas-e-murayama",
+   "when": "15 August 1995",
+   "text": "On the 50th anniversary of the war’s end, Japanese Prime Minister Tomiichi Murayama stated that Japan, through colonial rule and aggression, had caused tremendous damage and suffering to many nations, especially in Asia. He expressed deep remorse and a heartfelt apology.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Ministry of Foreign Affairs of Japan, Statement by Prime Minister Tomiichi Murayama, On the occasion of the 50th anniversary of the war’s end (15 August 1995)",
+     "url": "https://www.mofa.go.jp/announce/press/pm/murayama/9508.html"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "fas-e-kitterman-refusals",
+   "when": "1988 (study of 1939–1945)",
+   "text": "The historian David Kitterman examined about 85 documented cases in which Germans refused orders to kill civilians or prisoners and found no proof that anyone was executed for refusing; by 1995 he had gathered 135 cases with the same result. Some refusers were demoted, jailed or sent to the front, but most suffered no serious punishment.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "David H. Kitterman, Those Who Said ‘No!’: Germans Who Refused to Execute Civilians during World War II, German Studies Review (1988) 241–254 (copy read at gwern.net; link the publisher or JSTOR record before publishing)",
+     "url": "https://www.Gwern.net/doc/history/1988-kitterman.pdf"
+    },
+    {
+     "cite": "Sharon M. Haddock, Holocaust: Those who defied orders to kill Jews did not die, researcher says at BYU, Deseret News (9 March 1995)",
+     "url": "https://www.deseret.com/1995/3/9/19163367/holocaust-those-who-defied-orders-to-kill-jews-did-not-die-researcher-says-at-byu"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "fas-e-who-voted-nazi",
+   "when": "2008 (study of Reichstag elections 1924–1933)",
+   "text": "A statistical study by Gary King, Ori Rosen, Martin Tanner and Alexander Wagner (2008) found that the Nazis’ extra gains came mostly from the ‘working poor’ hurt by the Depression but at little risk of losing a job, such as shopkeepers, artisans, small farmers, professionals and domestic workers, above all in Protestant areas. The unemployed went mainly to the Communists and many Catholics stayed with the Centre Party, though the authors stress that estimating individual votes from district totals is uncertain.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Gary King, Ori Rosen, Martin Tanner and Alexander F. Wagner, Ordinary Economic Voting Behavior in the Extraordinary Election of Adolf Hitler, Journal of Economic History 68:4 (2008) 951–996 (author’s PDF)",
+     "url": "https://gking.harvard.edu/files/nazivp.pdf"
+    },
+    {
+     "cite": "Gary King, publication page with abstract and replication data",
+     "url": "https://gking.harvard.edu/publication/ordinary-economic-voting-behavior-in-the-extraordinary-election-of-adolf-hitler/"
+    },
+    {
+     "cite": "The Wilson Quarterly, Who Voted for Hitler? (Summer 2009)",
+     "url": "https://www.wilsonquarterly.com/quarterly/summer-2009-thrift-the-double-edged-virtue/who-voted-for-hitler"
+    }
+   ],
+   "status": "drafted"
+  },
+  {
+   "id": "fas-e-trains-on-time",
+   "when": "1924 onward (the slogan)",
+   "text": "The claim that Mussolini ‘made the trains run on time’ was spread by Fascist propaganda, notably a 1924 campaign by communications minister Costanzo Ciano, after the regime had sacked more than 50,000 railway workers, many of them socialists and communists. The railway historian Stefano Maggi (2023) gives no punctuality figures for the period; a 1928 Baedeker guide did call trains generally punctual, but many improvements, such as electrification of mountain lines, had begun before 1922.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Stefano Maggi (University of Siena), The State Railways (Ferrovie dello Stato) in Italy: 1905–1985, IX Railway History Conference, Asociación Ibérica de Historia Ferroviaria (2023)",
+     "url": "https://asihf.org/wp-content/uploads/2023/09/Maggi.pdf"
+    },
+    {
+     "cite": "BBC World Service, More or Less, Did Mussolini make the trains run on time? (21 December 2024), with historian Ruth Ben-Ghiat (episode page)",
+     "url": "https://zeno.fm/podcast/more-or-less-behind-the-stats/episodes/did-mussolini-make-the-trains-run-on-time"
+    }
+   ],
+   "status": "drafted"
   }
  ],
  "people": [
