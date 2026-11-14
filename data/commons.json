@@ -103,19 +103,6 @@
   "title": "Slaveshipposter.jpg",
   "w": 931
  },
- "c:budapest-1956": {
-  "artist": "Главцентроархив",
-  "cap": "Budapest, 1956: the Hungarian uprising against Soviet-backed rule, crushed by Soviet tanks.",
-  "date": "2024-12-25",
-  "desc": "Hungarian Revolution of 1956 collage: The flag of the rebels was the flag of Hungary colors with the coat of arms of the Hungarian People's Republic cut out of it. A revolutionary speaker addresses to a crowd from an abandoned Soviet tank. A caricature poster on the wall of a freight car: Mátyás Rákosi with suitcases of \"Stalin's dogmas\" and \"violations of the law\" goes to the Soviet border Excava",
-  "f": "img/c/budapest-1956.jpg",
-  "h": 1100,
-  "kind": "image",
-  "license": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:Hungarian_Revolution_of_1956_collage.jpg",
-  "title": "Hungarian Revolution of 1956 collage.jpg",
-  "w": 824
- },
  "c:capitolio-havana": {
   "artist": "Nigel Pacquette",
   "cap": "The Capitolio in Havana, Cuba’s former parliament building.",
@@ -207,19 +194,6 @@
   "title": "SPA-2014-San Lorenzo de El Escorial-Valley of the Fallen (Valle de los Caídos).jpg",
   "w": 1100
  },
- "c:cultural-revolution-poster": {
-  "artist": "Harald Groven from Tromsø, Norway",
-  "cap": "A propaganda poster from China’s Cultural Revolution (1966–76).",
-  "date": "2005-10-05 12:54",
-  "desc": "Cultural revolution poster at the Propaganda art museum in Shanghai",
-  "f": "img/c/cultural-revolution-poster.jpg",
-  "h": 1100,
-  "kind": "image",
-  "license": "CC BY-SA 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Mao_Zedong_Cultural_Revolution_Propaganda_Poster_(cropped).jpg",
-  "title": "Mao Zedong Cultural Revolution Propaganda Poster (cropped).jpg",
-  "w": 1039
- },
  "c:dust-bowl": {
   "artist": "George Everett Marsh Jr.",
   "cap": "A dust storm engulfs a farm during the Dust Bowl, 1930s.",
@@ -298,19 +272,6 @@
   "title": "Bundesarchiv Bild 183-H25224, Guernica, Ruinen.jpg",
   "w": 798
  },
- "c:havana-1959": {
-  "artist": "Desconhecido",
-  "cap": "Havana, January 1959: crowds celebrate the revolution’s victory.",
-  "date": "1959-01-08",
-  "desc": "Fidel Castro's entry into Havana, on January 8, 1959.",
-  "f": "img/c/havana-1959.jpg",
-  "h": 768,
-  "kind": "image",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Fidel_Castro%27s_entry_into_Havana,_1959.jpg",
-  "title": "Fidel Castro's entry into Havana, 1959.jpg",
-  "w": 1024
- },
  "c:holodomor-memorial": {
   "artist": "Jorge Láscar from Australia",
   "cap": "The Holodomor memorial in Kyiv, remembering the 1932–33 famine in Ukraine.",
@@ -322,19 +283,6 @@
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:%22The_Memory_Candle%22_monument_to_the_victims_of_Holodomor_-_%E2%80%9CThe_Memorial_in_Commemoration_of_Famines%E2%80%99_Victims_in_Ukraine%E2%80%9D_museum_(8601805294).jpg",
   "title": "\"The Memory Candle\" monument to the victims of Holodomor - “The Memorial in Commemoration of Famines’ Victims in Ukraine” museum (8601805294).jpg",
-  "w": 1100
- },
- "c:jasenovac-flower": {
-  "artist": "Яна Сычикова, Сергей Ковачев",
-  "cap": "The Stone Flower memorial at Jasenovac, Croatia.",
-  "date": "2015-04-05 22:03:35",
-  "desc": "Image of indium phosphide nanocrystalline surface obtained by electrochemical etching. On the surface, crystals of indium oxide formed, which have a flowery structure. Photos of nanostructures were obtained with the scanning electron microscope JSM-6490 by the researchers of Berdiansk State Pedagogical University. 100x magnification. These structures can be used in the manufacture of laser technol",
-  "f": "img/c/jasenovac-flower.jpg",
-  "h": 786,
-  "kind": "image",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Stone_Flower_(%D0%9A%D0%B0%D0%BC%E2%80%99%D1%8F%D0%BD%D0%B0_%D0%BA%D0%B2%D1%96%D1%82%D0%BA%D0%B0).jpg",
-  "title": "Stone Flower (Кам’яна квітка).jpg",
   "w": 1100
  },
  "c:kremlin-senate": {
@@ -389,19 +337,6 @@
   "title": "Lehman Brothers Times Square by David Shankbone.jpg",
   "w": 825
  },
- "c:magnitogorsk": {
-  "artist": "G.oorthuys",
-  "cap": "Magnitogorsk steel works under construction in the 1930s, a showcase of Stalin’s industrialization.",
-  "date": "Taken on 14 February 1985",
-  "desc": "Mart Stam participated in planning and designing the socialist (linear) city Magnitogorsk (around 1930).",
-  "f": "img/c/magnitogorsk.jpg",
-  "h": 1100,
-  "kind": "image",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Mart_Stam-Magnitogorsk_2.tif",
-  "title": "Mart Stam-Magnitogorsk 2.tif",
-  "w": 743
- },
  "c:mansudae-hall": {
   "artist": "Nicor",
   "cap": "The Mansudae Assembly Hall in Pyongyang, where North Korea’s Supreme People’s Assembly meets.",
@@ -414,19 +349,6 @@
   "page": "https://commons.wikimedia.org/wiki/File:Mansudae_Assembly_Hall.JPG",
   "title": "Mansudae Assembly Hall.JPG",
   "w": 1100
- },
- "c:march-on-rome": {
-  "artist": "Attilio Tonolo",
-  "cap": "Fascist Blackshirts during the March on Rome, October 1922.",
-  "date": "2024-06-13",
-  "desc": "In secondo piano sulla sinistra Giuseppe Mastromattei",
-  "f": "img/c/march-on-rome.jpg",
-  "h": 671,
-  "kind": "image",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Balla_%22Marcia_su_Roma%22.webp",
-  "title": "Balla \"Marcia su Roma\".webp",
-  "w": 864
  },
  "c:mass-games": {
   "artist": "Kok Leng Yeo from Singapore, Singapore",
@@ -452,32 +374,6 @@
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:THE_FLYING_PICKETS_1984_DRAX_POWER_STATION.jpg",
   "title": "THE FLYING PICKETS 1984 DRAX POWER STATION.jpg",
-  "w": 1100
- },
- "c:montgomery-bus": {
-  "artist": "Gene Herrick for the Associated Press; restored by Adam Cuerden",
-  "cap": "The Montgomery bus boycott (1955–56).",
-  "date": "1956-02-22",
-  "desc": "Rosa Parks being fingerprinted on February 22, 1956, by Lieutenant D.H. Lackey as one of the people indicted as leaders of the Montgomery bus boycott. She was one of 73 people rounded up by deputies that day after a grand jury charged 113 African Americans for organizing the boycott. This was a few months after her arrest on December 1, 1955, for refusing to give up her seat to a white passenger o",
-  "f": "img/c/montgomery-bus.jpg",
-  "h": 871,
-  "kind": "image",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Rosa_Parks_being_fingerprinted_by_Deputy_Sheriff_D.H._Lackey_after_being_arrested_on_February_22,_1956,_during_the_Montgomery_bus_boycott.jpg",
-  "title": "Rosa Parks being fingerprinted by Deputy Sheriff D.H. Lackey after being arrested on February 22, 1956, during the Montgomery bus boycott.jpg",
-  "w": 1100
- },
- "c:mutual-aid": {
-  "artist": "DHSgov",
-  "cap": "Volunteers at a food bank: mutual aid and community service.",
-  "date": "Taken on 23 November 2022, 13:51:11",
-  "desc": "WASHINGTON (November 23, 2022) Homeland Security Secretary Alejandro Mayorkas receives a tour of the Capital Area Food Bank and helps to sort and pack donated food into boxes for distribution ahead of the holidays. (DHS Photo by Sydney Phoenix)",
-  "f": "img/c/mutual-aid.jpg",
-  "h": 734,
-  "kind": "image",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:DHS_Secretary_Alejandro_Mayorkas_Volunteers_at_Capital_Area_Food_Bank_(52520007464).jpg",
-  "title": "DHS Secretary Alejandro Mayorkas Volunteers at Capital Area Food Bank (52520007464).jpg",
   "w": 1100
  },
  "c:nanjing-memorial": {
@@ -547,7 +443,7 @@
  },
  "c:prague-1968": {
   "artist": "Adam Jones, Ph.D.",
-  "cap": "Prague, August 1968: Warsaw Pact troops end the “Prague Spring” reforms.",
+  "cap": "A street display in Prague recalling the 1968 Soviet-led invasion that crushed the “Prague Spring” reforms.",
   "date": "2009-11-07 00:30:55",
   "desc": "Street Scene with Poster of 1968 Soviet Invasion - Prague - Czech Republic",
   "f": "img/c/prague-1968.jpg",
@@ -714,19 +610,6 @@
   "title": "Official Program Woman Suffrage Procession - March 3, 1913.jpg",
   "w": 1100
  },
- "c:tiananmen-1989": {
-  "artist": "Pithawat Vachiramon",
-  "cap": "Students in Tiananmen Square, Beijing, spring 1989.",
-  "date": "2008-06-04 18:17:22",
-  "desc": "19th anniversary of Tiananmen Square protest in Oxford, England",
-  "f": "img/c/tiananmen-1989.jpg",
-  "h": 683,
-  "kind": "image",
-  "license": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:19th_anniversary_of_Tiananmen_protest_in_Oxford.jpg",
-  "title": "19th anniversary of Tiananmen protest in Oxford.jpg",
-  "w": 1024
- },
  "c:town-meeting": {
   "artist": "The original uploader was TimothyDexter at English Wikipedia.",
   "cap": "A New England town meeting, one of the oldest forms of direct democracy in the US.",
@@ -844,20 +727,6 @@
   "title": "Ikusgela-Berlingo Harresia.webm",
   "video": "https://upload.wikimedia.org/wikipedia/commons/1/12/Ikusgela-Berlingo_Harresia.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
   "w": 1100
- },
- "v:hungary-1956-film": {
-  "artist": "Universal",
-  "cap": "Archival film: Budapest, 1956.",
-  "date": "1956-11-01",
-  "desc": "(1) Suez Canal and Nasser pictures; French troops embark from Marseilles; naval forces in eastern Mediterraean, British bombers attack; Ike and Dulles at White House; Ike speaks, wants it brought before the UN General Assembly; quick pics of UN and Mideast (2) \"Hungary Free But Faces Threat Of New Red Invasion\" - the end of a 6-day fight, Hungary was free, scenes of Budapest; funeral (3) student d",
-  "f": "img/c/hungary-1956-film.jpg",
-  "h": 247,
-  "kind": "video",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:1956-11-01_War_in_Egypt.ogv",
-  "title": "1956-11-01 War in Egypt.ogv",
-  "video": "https://upload.wikimedia.org/wikipedia/commons/4/43/1956-11-01_War_in_Egypt.ogv?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "w": 330
  },
  "v:march-washington-film": {
   "artist": "U.S. Information Agency",

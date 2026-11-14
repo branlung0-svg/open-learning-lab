@@ -4,6 +4,12 @@
 (function () {
   const MIA = 'https://www.marxists.org';
   Lab.MARX = {
+  gallery: [
+    ['Revolution and the Soviet state', 'Real photographs and posters from the Russian Revolution to the end of the USSR.', ['c:petrograd-july-1917', 'c:soviet-5yr-poster', 'c:belomorkanal', 'c:holodomor-memorial', 'c:kremlin-senate', 'c:solidarity-gdansk']],
+    ['The Cold War divide', 'Walls, invasions and the end of the Soviet bloc.', ['c:berlin-wall-1961', 'c:prague-1968', 'c:berlin-wall-1989', 'v:berlin-wall-film']],
+    ['Communist states today', 'Where Marxist–Leninist parties still rule.', ['c:great-hall-people', 'c:mansudae-hall', 'c:mass-games', 'c:capitolio-havana']],
+  ],
+  
     intro: [
       'Marxism is three things at once: a theory of history (how societies change), an economic theory (how capitalism works and why it has crises) and a political program (workers should take power and abolish private ownership of the means of production). Marxism–Leninism is one branch: Lenin’s idea of a disciplined vanguard party that takes state power, later codified under Stalin and adapted by Mao, Ho Chi Minh, Castro and Kim Il Sung.',
       'About a third of humanity lived under governments calling themselves Marxist–Leninist in the early 1980s. Today five states are ruled by communist parties: China, Vietnam, Laos, Cuba and North Korea (which replaced Marxism–Leninism with its own “Juche” ideology in its constitution). Their record includes some of the fastest industrializations, literacy and health gains in history, and some of the worst famines and political killings of the 20th century. Both are true, and a serious student has to hold both.',

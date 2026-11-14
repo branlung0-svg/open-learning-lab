@@ -12,13 +12,6 @@
   "kind": "image"
  },
  {
-  "k": "c:magnitogorsk",
-  "q": "Magnitogorsk 1930",
-  "cap": "Magnitogorsk steel works under construction in the 1930s, a showcase of Stalin’s industrialization.",
-  "kind": "image",
-  "force": true
- },
- {
   "k": "c:belomorkanal",
   "q": "White Sea Baltic Canal construction 1932",
   "cap": "Building the White Sea–Baltic Canal (1931–33), dug largely by Gulag prisoners.",
@@ -28,19 +21,12 @@
   "k": "c:holodomor-memorial",
   "q": "Holodomor victims memorial Kyiv statue girl",
   "cap": "The Holodomor memorial in Kyiv, remembering the 1932–33 famine in Ukraine.",
-  "kind": "image",
-  "force": true
- },
- {
-  "k": "c:budapest-1956",
-  "q": "Hungarian Revolution 1956 Budapest",
-  "cap": "Budapest, 1956: the Hungarian uprising against Soviet-backed rule, crushed by Soviet tanks.",
   "kind": "image"
  },
  {
   "k": "c:prague-1968",
   "q": "Prague 1968 Warsaw Pact invasion tanks",
-  "cap": "Prague, August 1968: Warsaw Pact troops end the “Prague Spring” reforms.",
+  "cap": "A street display in Prague recalling the 1968 Soviet-led invasion that crushed the “Prague Spring” reforms.",
   "kind": "image"
  },
  {
@@ -56,27 +42,6 @@
   "kind": "image"
  },
  {
-  "k": "c:tiananmen-1989",
-  "q": "1989 Beijing student protest Tiananmen hunger strike",
-  "cap": "Students in Tiananmen Square, Beijing, spring 1989.",
-  "kind": "image",
-  "force": true
- },
- {
-  "k": "c:cultural-revolution-poster",
-  "q": "dazibao big-character poster Cultural Revolution wall",
-  "cap": "A propaganda poster from China’s Cultural Revolution (1966–76).",
-  "kind": "image",
-  "force": true
- },
- {
-  "k": "c:havana-1959",
-  "q": "Havana 1959",
-  "cap": "Havana, January 1959: crowds celebrate the revolution’s victory.",
-  "kind": "image",
-  "force": true
- },
- {
   "k": "c:mass-games",
   "q": "Arirang Mass Games Pyongyang",
   "cap": "The mass games in Pyongyang, North Korea: tens of thousands perform in perfect unison.",
@@ -86,8 +51,7 @@
   "k": "c:soviet-queue",
   "q": "queue Moscow shop 1990",
   "cap": "Empty shelves in a Soviet shop near the end of the USSR, 1990.",
-  "kind": "image",
-  "force": true
+  "kind": "image"
  },
  {
   "k": "c:solidarity-gdansk",
@@ -99,8 +63,7 @@
   "k": "c:cotton-mill-engraving",
   "q": "power loom weaving Baines 1835",
   "cap": "Power-loom weaving in a British cotton mill, an engraving from 1835.",
-  "kind": "image",
-  "force": true
+  "kind": "image"
  },
  {
   "k": "c:child-labor-hine",
@@ -113,7 +76,6 @@
   "q": "Brookes slave ship plan stowage",
   "cap": "The Brookes diagram (1788): how enslaved Africans were packed on a British slave ship. Abolitionists used it as evidence.",
   "kind": "image",
-  "force": true,
   "file": "File:Slaveshipposter.jpg"
  },
  {
@@ -138,15 +100,13 @@
   "k": "c:breadline",
   "q": "breadline 1930s New York unemployed",
   "cap": "A breadline during the Great Depression.",
-  "kind": "image",
-  "force": true
+  "kind": "image"
  },
  {
   "k": "c:dust-bowl",
   "q": "dust storm 1935 Texas",
   "cap": "A dust storm engulfs a farm during the Dust Bowl, 1930s.",
-  "kind": "image",
-  "force": true
+  "kind": "image"
  },
  {
   "k": "c:bretton-woods",
@@ -185,13 +145,6 @@
   "kind": "image"
  },
  {
-  "k": "c:march-on-rome",
-  "q": "Marcia su Roma 1922",
-  "cap": "Fascist Blackshirts during the March on Rome, October 1922.",
-  "kind": "image",
-  "force": true
- },
- {
   "k": "c:reichstag-fire",
   "q": "Reichstag fire 1933",
   "cap": "The Reichstag building burning, 27 February 1933. The Nazis used the fire to suspend civil rights.",
@@ -207,8 +160,7 @@
   "k": "c:kristallnacht-shop",
   "q": "Novemberpogrome 1938 Magdeburg",
   "cap": "A Jewish-owned shop destroyed in the November 1938 pogrom (Kristallnacht).",
-  "kind": "image",
-  "force": true
+  "kind": "image"
  },
  {
   "k": "c:nuremberg-rally-grounds",
@@ -226,8 +178,7 @@
   "k": "c:warsaw-ghetto-wall",
   "q": "fragment Warsaw ghetto wall Sienna street",
   "cap": "A surviving section of the Warsaw Ghetto wall.",
-  "kind": "image",
-  "force": true
+  "kind": "image"
  },
  {
   "k": "c:birkenau-gate",
@@ -239,12 +190,6 @@
   "k": "c:nuremberg-courtroom",
   "q": "Nuremberg trials courtroom 600 1946",
   "cap": "The Nuremberg trials, 1945–46: Nazi leaders tried before an international tribunal.",
-  "kind": "image"
- },
- {
-  "k": "c:jasenovac-flower",
-  "q": "Jasenovac Stone Flower memorial",
-  "cap": "The Stone Flower memorial at Jasenovac, Croatia.",
   "kind": "image"
  },
  {
@@ -282,7 +227,6 @@
   "q": "United States Capitol building Washington DC dome",
   "cap": "The US Capitol, home of Congress (the Senate and the House of Representatives).",
   "kind": "image",
-  "force": true,
   "file": "File:United States Capitol west front edit2.jpg"
  },
  {
@@ -308,7 +252,6 @@
   "q": "White House Washington DC North Portico",
   "cap": "The White House, residence and office of the US president.",
   "kind": "image",
-  "force": true,
   "file": "File:White House north and south sides.jpg"
  },
  {
@@ -390,31 +333,16 @@
   "kind": "image"
  },
  {
-  "k": "c:montgomery-bus",
-  "q": "Montgomery Alabama bus boycott 1956",
-  "cap": "The Montgomery bus boycott (1955–56).",
-  "kind": "image",
-  "force": true
- },
- {
   "k": "c:miners-strike-1984",
   "q": "miners strike 1984 picket",
   "cap": "The UK miners’ strike of 1984–85.",
-  "kind": "image",
-  "force": true
+  "kind": "image"
  },
  {
   "k": "c:salt-march",
   "q": "Salt March 1930 Gandhi Dandi",
   "cap": "The Salt March (1930), a mass campaign of civil disobedience against British rule in India.",
   "kind": "image"
- },
- {
-  "k": "c:mutual-aid",
-  "q": "food bank volunteers sorting donated food",
-  "cap": "Volunteers at a food bank: mutual aid and community service.",
-  "kind": "image",
-  "force": true
  },
  {
   "k": "c:town-meeting",
@@ -426,22 +354,19 @@
   "k": "v:berlin-wall-film",
   "q": "Berlin Wall 1989",
   "cap": "Archival film: the Berlin Wall opens, 1989.",
-  "kind": "video",
-  "force": true
+  "kind": "video"
  },
  {
   "k": "v:depression-film",
   "q": "unemployed 1930s",
   "cap": "Archival film from the Great Depression.",
-  "kind": "video",
-  "force": true
+  "kind": "video"
  },
  {
   "k": "v:ford-film",
   "q": "Ford factory 1920s",
   "cap": "Archival film: early assembly-line production.",
-  "kind": "video",
-  "force": true
+  "kind": "video"
  },
  {
   "k": "v:nuremberg-trials-film",
@@ -450,17 +375,9 @@
   "kind": "video"
  },
  {
-  "k": "v:hungary-1956-film",
-  "q": "Hungarian Revolution 1956",
-  "cap": "Archival film: Budapest, 1956.",
-  "kind": "video",
-  "force": true
- },
- {
   "k": "v:march-washington-film",
   "q": "March on Washington 1963",
   "cap": "Archival film: the March on Washington for Jobs and Freedom, 1963.",
-  "kind": "video",
-  "force": true
+  "kind": "video"
  }
 ]
