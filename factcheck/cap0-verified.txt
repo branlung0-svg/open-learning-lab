@@ -1,0 +1,33 @@
+cap0 fact-check: js/marx-data.js side{} block + two js/deepdive.js paragraphs
+
+ideas: CONFIRMED. Britannica covers class struggle and stages of history, surplus value (workers paid less than the value they create), and Lenin's vanguard party.
+  https://www.britannica.com/topic/communism
+
+who: CONFIRMED (general history; Britannica covers Lenin's party and the spread to peasant and anti-colonial movements).
+  https://www.britannica.com/topic/communism
+
+promised: CONFIRMED. The State and Revolution, ch. 3: officials elected, subject to recall, paid "workmen's wages"; the state withers away.
+  https://www.marxists.org/archive/lenin/works/1917/staterev/ch03.htm
+
+tried: CONFIRMED, with one framing fix (European regimes: "All", not "Most"). Britannica: "about one-third of the world's population" lived under communist regimes for much of the 20th century. It lists five remaining states: China, North Korea, Laos, Cuba, Vietnam.
+  https://www.britannica.com/topic/communism
+  https://www.Britannica.com/question/Which-countries-are-communist
+
+gains: CONFIRMED. Russian Empire 1896–97 life expectancy: males 30.9, females 33.0 (Max Planck Institute). Russia 1965: males 64.3, females 73.4, so about 68–69 for both sexes (National Academies). World Bank: people below $1.90/day in China "fallen by close to 800 million" over 40 years.
+  https://www.demogr.mpg.de/books/drm/009/part1.pdf
+  https://www.nationalacademies.org/read/5530/chapter/3
+  https://www.worldbank.org/en/news/press-release/2022/04/01/lifting-800-million-people-out-of-poverty-new-report-looks-at-lessons-from-china-s-experience
+
+costs: CONFIRMED. Soviet famine: Wikipedia lead gives 5.7–8.7 million; its Harrison (2005) citation gives Davies and Wheatcroft's 5.5–6.5 million, so the 5.5–8.7 million range holds. Great Chinese Famine: 15–55 million, with newer estimates concentrated around 30–46 million. Khmer Rouge: Britannica gives 1.5 million, possibly 2 million.
+  https://en.wikipedia.org/wiki/Soviet_famine_of_1930%E2%80%931933
+  https://en.wikipedia.org/wiki/Great_Famine_(China)
+  https://www.britannica.com/topic/Khmer-Rouge
+
+pro: CONFIRMED (describes the positions defenders take; no figures).
+  https://www.britannica.com/topic/communism
+
+con: CONFIRMED. Mises (1920) argued that without market prices planners cannot allocate resources rationally, and Hayek added the knowledge problem.
+  https://faculty.fortlewis.edu/walker_d/econ_307_-_calculation_debate_-_hayek_and_keynes.htm
+
+deepdive.js "Every deep dive in the Lab answers the same eight questions": CONFIRMED internally. The side{} block has exactly 8 entries, and the paragraph names them in order.
+deepdive.js "Comparing ideologies draws on...": no factual claims needing a source. OK.

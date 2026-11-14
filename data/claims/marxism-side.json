@@ -1,0 +1,157 @@
+{
+ "disc": "marxism",
+ "schema": 1,
+ "updated": "2026-11-14",
+ "note": "Figures used in the Marxism–Leninism column of Ideologies side by side (CAP-0).",
+ "events": [
+  {
+   "id": "mx-side-e-third",
+   "when": "20th century (peak around 1980)",
+   "text": "About a third of the world’s population lived under communist-ruled states for much of the 20th century.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Encyclopaedia Britannica, Communism",
+     "url": "https://www.britannica.com/topic/communism"
+    }
+   ],
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-14",
+    "method": "opened the listed sources and compared the figures (factcheck/cap0-verified.txt)"
+   }
+  },
+  {
+   "id": "mx-side-e-five",
+   "when": "2026",
+   "text": "Five states are ruled by communist parties: China, Vietnam, Laos, Cuba and North Korea.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Britannica, Which countries are communist?",
+     "url": "https://www.britannica.com/question/Which-countries-are-communist"
+    }
+   ],
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-14",
+    "method": "opened the listed sources and compared the figures (factcheck/cap0-verified.txt)"
+   }
+  },
+  {
+   "id": "mx-side-e-staterev",
+   "when": "1917",
+   "text": "Lenin’s The State and Revolution proposed elected, recallable officials paid workers’ wages, and a state that would wither away.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Lenin, The State and Revolution, ch. 3 (Marxists Internet Archive)",
+     "url": "https://www.marxists.org/archive/lenin/works/1917/staterev/ch03.htm"
+    }
+   ],
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-14",
+    "method": "opened the listed sources and compared the figures (factcheck/cap0-verified.txt)"
+   }
+  },
+  {
+   "id": "mx-side-e-ussr-le",
+   "when": "1896–1965",
+   "text": "Life expectancy in the Russian Empire was about 31–33 years in 1896–97; in Russia in 1965 it was about 64 for men and 73 for women.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Max Planck Institute for Demographic Research, Russian mortality data",
+     "url": "https://www.demogr.mpg.de/books/drm/009/part1.pdf"
+    },
+    {
+     "cite": "National Academies, Premature Death in the New Independent States, ch. 3",
+     "url": "https://www.nationalacademies.org/read/5530/chapter/3"
+    }
+   ],
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-14",
+    "method": "opened the listed sources and compared the figures (factcheck/cap0-verified.txt)"
+   }
+  },
+  {
+   "id": "mx-side-e-china-pov",
+   "when": "1980s–2020s",
+   "text": "The World Bank estimates that the number of people in extreme poverty in China fell by close to 800 million over 40 years.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "World Bank press release, 1 April 2022",
+     "url": "https://www.worldbank.org/en/news/press-release/2022/04/01/lifting-800-million-people-out-of-poverty-new-report-looks-at-lessons-from-china-s-experience"
+    }
+   ],
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-14",
+    "method": "opened the listed sources and compared the figures (factcheck/cap0-verified.txt)"
+   }
+  },
+  {
+   "id": "mx-side-e-sov-famine",
+   "when": "1930–1933",
+   "text": "Estimates of deaths in the Soviet famine of 1930–33 range from about 5.5 million (Davies and Wheatcroft) to about 8.7 million.",
+   "conf": "Strong",
+   "sources": [
+    {
+     "cite": "Wikipedia, Soviet famine of 1930–1933 (with citations to Davies & Wheatcroft and others)",
+     "url": "https://en.wikipedia.org/wiki/Soviet_famine_of_1930%E2%80%931933"
+    }
+   ],
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-14",
+    "method": "opened the listed sources and compared the figures (factcheck/cap0-verified.txt)"
+   }
+  },
+  {
+   "id": "mx-side-e-glf",
+   "when": "1959–1961",
+   "text": "Estimates of excess deaths in China’s Great Leap famine range from 15 to 55 million, with most recent estimates around 30–46 million.",
+   "conf": "Contested",
+   "sources": [
+    {
+     "cite": "Wikipedia, Great Chinese Famine (survey of demographic estimates)",
+     "url": "https://en.wikipedia.org/wiki/Great_Famine_(China)"
+    }
+   ],
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-14",
+    "method": "opened the listed sources and compared the figures (factcheck/cap0-verified.txt)"
+   }
+  },
+  {
+   "id": "mx-side-e-khmer",
+   "when": "1975–1979",
+   "text": "About 1.5 million and possibly up to 2 million people died under the Khmer Rouge in Cambodia.",
+   "conf": "Established",
+   "sources": [
+    {
+     "cite": "Encyclopaedia Britannica, Khmer Rouge",
+     "url": "https://www.britannica.com/topic/Khmer-Rouge"
+    }
+   ],
+   "status": "verified",
+   "checked": {
+    "by": "independent AI fact-check (separate agent, not a human expert)",
+    "on": "2026-11-14",
+    "method": "opened the listed sources and compared the figures (factcheck/cap0-verified.txt)"
+   }
+  }
+ ],
+ "people": []
+}

@@ -38,6 +38,7 @@
       X.claims.forEach((x, i) => C.push({ id: 'mx:c:' + i, page: 'history-modern-marxism-claims', kind: 'verdict', topic: 'Marxism', front: x[0], back: x[2], answer: x[1], opts: ['True', 'False', 'Misleading', 'Contested'] }));
       X.predictions.forEach((x, i) => C.push({ id: 'mx:p:' + i, page: 'history-modern-marxism-evidence', kind: 'verdict', topic: 'Marxism', front: 'Marx predicted: ' + x[0] + '. How did it turn out?', back: x[2], answer: x[1], opts: ['Hit', 'Miss', 'Mostly miss', 'Contested', 'Hit (but reformist)'] }));
     }
+    Object.values(Lab.DEEPDIVES || {}).forEach((D) => (Lab.DIVE_HEADINGS || []).forEach(([k, n]) => { const s = D.side && D.side[k]; if (s) C.push({ id: `dv:${D.id}:${k}`, page: 'history-modern-dives', kind: 'explain', topic: 'Ideologies side by side', front: (Lab.DIVE_QS[k] || n).replace('{t}', D.title) + ' Answer in two or three sentences.', back: s[0] }); }));
     Object.values(Lab.CLAIMS || {}).forEach((F) => { const d = (Lab.DISC || []).find((x) => x.id === F.disc); if (!d) return; const page = 'd-' + d.id;
       (F.events || []).forEach((c) => C.push({ id: 'cl:' + c.id, page, kind: 'recall', topic: d.name, front: `${d.e} ${d.name}: when did this happen?\n\n“${c.text}”`, back: c.when + (c.sources && c.sources[0] ? `\n\nSource: ${c.sources[0].cite}` : '') }));
       (F.people || []).forEach((c) => C.push({ id: 'cl:' + c.id, page, kind: 'recall', topic: d.name, front: `${d.e} ${d.name}: who is this?\n\n${c.text}`, back: `${c.name} (${c.years}, ${c.region})` })); });

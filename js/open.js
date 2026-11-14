@@ -199,7 +199,7 @@
   // Add the panel to discipline pages, modern-world tabs and case studies automatically (public site).
   const autoQuery = () => { const raw = (location.hash || '').slice(1); const [a, b, c, d] = raw.split('-');
     if (a === 'd' && b) { const D = (Lab.DISC || []).find((x) => x.id === b); if (!D) return null; return { q: D.name, seeds: [...(D.people || []).map((p) => p[1]), ...(D.archive || []).map((x) => x[0]), ...(D.books || []).slice(0, 3).map((x) => x[0])] }; }
-    if (a === 'history' && b === 'modern' && c) { if (c === 'marxism' && d && Lab.MARX && Lab.MARX.cases[d]) { const C = Lab.MARX.cases[d]; return { q: C.n, seeds: (Lab.MARX.seeds || {})[d] || [] }; } const S = Lab.MODERN && Lab.MODERN.SUBS.find((x) => x[0] === c); return S ? { q: S[1], seeds: [] } : null; }
+    if (a === 'history' && b === 'modern' && c) { const DV = (Lab.DEEPDIVES || {})[c]; if (DV && d && DV.data.cases && DV.data.cases[d]) { const C = DV.data.cases[d]; return { q: C.n, seeds: (DV.data.seeds || {})[d] || [] }; } if (c === 'dives') return { q: 'political ideologies', seeds: Object.values(Lab.DEEPDIVES || {}).flatMap((x) => x.seeds || []) }; const S = Lab.MODERN && Lab.MODERN.SUBS.find((x) => x[0] === c); return S ? { q: S[1], seeds: [] } : null; }
     if (a === 'connect' && b && Lab.CONNECT) { const C = Lab.CONNECT.find((x) => x.id === b); return C ? { q: C.t, seeds: [] } : null; }
     return null; };
   let evTimer;

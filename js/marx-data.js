@@ -269,6 +269,54 @@
       ['Critics from the left', [['Luxemburg, The Russian Revolution (1918)', MIA + '/archive/luxemburg/1918/russian-revolution/index.htm'], ['Kautsky, The Dictatorship of the Proletariat (1918)', MIA + '/archive/kautsky/1918/dictprole/index.htm'], ['Bernstein, Evolutionary Socialism (1899)', MIA + '/reference/archive/bernstein/works/1899/evsoc/'], ['Trotsky, The Revolution Betrayed (1936)', MIA + '/archive/trotsky/1936/revbet/']]],
       ['Critics from liberal and free-market traditions', [['Mises, Economic Calculation in the Socialist Commonwealth (1920)', 'https://mises.org/library/book/economic-calculation-socialist-commonwealth'], ['Hayek, The Use of Knowledge in Society (1945)', 'https://www.econlib.org/library/Essays/hykKnw.html'], ['Books (library or bookstore): Popper, The Open Society and Its Enemies (1945); Djilas, The New Class (1957); Kołakowski, Main Currents of Marxism (1976–78); Kornai, The Socialist System (1992); Orwell, Animal Farm (1945)', '']]],
       ['Modern scholarship (books)', [['Gareth Stedman Jones, Karl Marx: Greatness and Illusion (2016), a biography placing Marx in his time', ''], ['Stephen Kotkin, Stalin (2014–17); Sheila Fitzpatrick, Everyday Stalinism (1999)', ''], ['Frank Dikötter, Mao’s Great Famine (2010); Yang Jisheng, Tombstone (2008), by a Chinese journalist and party member', ''], ['Andrew Walder, China Under Mao (2015); Ezra Vogel, Deng Xiaoping (2011)', ''], ['Christopher Goscha, Vietnam: A New History (2016)', ''], ['Louis A. Pérez and Carmelo Mesa-Lago on Cuba; Andrei Lankov, The Real North Korea (2013)', ''], ['Ernest Harsch, Thomas Sankara (2014)', ''], ['Steven Levitsky & Lucan Way, Revolution and Dictatorship (2022)', ''], ['Primary-source archive: Wilson Center Digital Archive (declassified communist-bloc documents)', 'https://digitalarchive.wilsoncenter.org/']]]
-    ]
+    ],
+
+    // ---------- page text for the deep-dive engine (deepdive.js) ----------
+    ui: {
+      startTitle: 'Marxism–Leninism: the ideas, the states, the evidence',
+      startFig: ['ml:manifesto', '260px'],
+      pathTitle: 'A suggested path (about 6–10 hours, spread out)',
+      path: [['ideas', 'Read the 12 core ideas, then the Manifesto (about an hour).'], ['labs', 'Run the surplus value machine and plan vs market labs.'], ['lenin', 'See how Lenin turned theory into a party, and what he warned about at the end.'], ['tree', 'Meet the branches: social democrats, Trotskyists, Maoists, Juche, market socialism.'], ['machine', 'Learn the party-state machine: once you know it, you can read China, Vietnam or Cuba news.'], ['cases', 'Work through the eight case studies, China first.'], ['evidence', 'Weigh achievements and costs with the same yardstick.'], ['debates', 'Argue every side of five live debates, then test yourself on the claims.']],
+      startLinks: [['history-modern-ideologies', '💡 All ideologies compared'], ['history-modern-anatomy', '🫀 Anatomy of power (all nations)'], ['history-modern-power', '🏛️ Who really rules?'], ['d-economics', '💰 Economics'], ['d-philosophy', '🤔 Philosophy']],
+      ideaLabs: { ltv: [['play-surplusvalue', '⚒️ Try it: surplus value machine']], crisis: [['play-surplusvalue', '⚒️ Try it: surplus value machine']] },
+      ideaFigs: { dotp: ['ev:commune', '360px'], ltv: ['sci:marx', '220px'] },
+      ideaAsk: 'Explain Marx’s idea of “{n}” to me with a modern example, then give the strongest case for it, the strongest case against it, and what the evidence says. Quote the original text briefly and cite sources from Marxist and non-Marxist scholars.',
+      leninIntro: 'Marx wrote little about how to organize a revolution or run a socialist state. Lenin (1870–1924) filled the gap with a theory of the party, of imperialism and of the state, and then had to govern a ruined country in civil war. Most of what people mean by “communist states” comes from his choices between 1902 and 1923.',
+      treeTitle: 'The family tree: one Marx, many Marxisms',
+      treeIntro: 'After Marx died (1883), his followers split over two questions: reform or revolution, and who leads (the class, the party or the leader). Tap a branch.',
+      machineTitle: 'How a Leninist party-state works',
+      machineIntro: 'Every communist-ruled state built roughly the same machine: a party that sits above and inside the state, the army and society. The key rule is the nomenklatura: the party appoints people to every important job. Learn these twelve parts and you can read news from Beijing, Hanoi, Havana or Pyongyang. Tap a part.',
+      machineChain: [['b', 'Chain of command (formal → real): '], 'Party Congress → Central Committee → Politburo → Standing Committee → ', ['b', 'General Secretary'], '. In practice the arrows also run backwards: the leader and the Organization Department pick who sits in the bodies that “elect” them.'],
+      machineFigs: { plan: ['ml:gosplan', '300px'] },
+      gapTitle: 'Theory vs practice: the founders’ promises',
+      toolsTitle: 'Why does it always end up this way? Tools from other disciplines',
+      toolsSlice: [3, 7],
+      caseLinks: [['history-modern-marxism-machine', '🏛️ The party-state machine'], ['history-modern-power', 'More in “Who really rules?”', ['dprk', 'vietnam']], ['history-modern-anatomy', '🫀 China in Anatomy of power', ['china']], ['history-modern-koreawar', '🇰🇷 The Korean War', ['dprk']], ['history-modern-africa', '🌍 Africa in depth', ['burkina']], ['history-modern-americas', '🌎 The Americas in depth', ['cuba']]],
+      caseAsk: 'Give me a deep, balanced study session on {n} under communist rule: how the party took and held power, how its power structure works, its economic record with data, the human costs with estimate ranges, and how the party, its critics and independent historians each tell the story. Mark anything from 2025–2026 as developing and cite sources.',
+      compareTitle: 'Same questions, nine regimes',
+      gainsTitle: '📈 Gains, with the same scrutiny',
+      gainsLinks: [['economy-divergence', '📊 North vs South Korea chart'], ['connect-lights', '🛰️ Checking official GDP from space']],
+      tollsTitle: '📉 Famines and political killings: estimates with ranges',
+      tollsFig: ['ml:furnace', '320px'],
+      tollsLinks: [['history-modern-ledger', '📒 The ledger: all systems’ death tolls']],
+      predTitle: '🎯 Marx’s predictions: a scorecard',
+      labsToolsIntro: 'Communist systems are a superb place to practice ideas from statistics, game theory, economics and sociology, and those same ideas apply to companies, democracies and your own life.',
+      debateAsk: 'Debate with me: {q} Take the side I disagree with after I tell you my view, use real evidence and sources from each side, and point out weak spots in my reasoning.',
+      claimsIntro: 'Claims you will meet online and in books, from supporters and opponents.',
+      readingIntro: 'Primary texts link to the Marxists Internet Archive, a free volunteer library (it is sympathetic to Marxism, but the texts are the originals). Critics and scholars are listed alongside, because you should read both. Books without links are in most libraries.',
+      readingLinks: [['reading-library-manifesto', '📖 Read the Manifesto in the Lab’s reader']]
+    },
+
+    // ---------- answers to the shared questions on "Ideologies side by side" ----------
+    side: {
+      ideas: ['Marx and Engels argued that history is driven by struggles between classes over who owns the means of production; that capitalism profits by paying workers less than the value they create (surplus value) and is prone to crises; and that it would give way to socialism and then a classless, stateless communism. Lenin added a disciplined vanguard party to lead the revolution and hold power.', 'ideas'],
+      who: ['First industrial workers and radical intellectuals in 19th-century Europe; later peasant armies and anti-colonial movements in Asia, Africa and Latin America, drawn by poverty, war, foreign rule and the promise of equality and fast modernization. Lenin, Mao, Ho Chi Minh and Castro won power by revolution; in Eastern Europe and North Korea, communists took power mainly with Soviet army backing.', 'tree'],
+      promised: ['An end to exploitation and class rule; land for peasants and freedom from foreign rule; production for human need instead of profit; equality; and, in time, the “withering away” of the state. Lenin’s The State and Revolution (1917) promised a state of elected officials paid workers’ wages.', 'machine'],
+      tried: ['From 1917 in Russia, then after 1945 in Eastern Europe, China, North Korea, Vietnam, Cuba and elsewhere: one-party states with mostly planned economies. In the early 1980s about a third of humanity lived under them. All the European ones fell in 1989–91; five communist parties still rule: China, Vietnam, Laos, Cuba and North Korea.', 'cases'],
+      gains: ['Fast industrialization; near-universal literacy; large rises in life expectancy (in the USSR from about 30 around 1900 to about 68–69 by the 1960s); free healthcare, guaranteed jobs and cheap housing; rights for women; and a leading part in defeating Nazi Germany. In China after the 1978 market reforms, the World Bank estimates close to 800 million people left extreme poverty.', 'evidence'],
+      costs: ['Famines and political killings on a vast scale, among them the Soviet famine of 1930–33 (5.5–8.7 million deaths), the Great Terror and the Gulag, China’s Great Leap famine (estimates 15–55 million, most 30–45 million), the Cultural Revolution (about 1–2 million) and Cambodia under the Khmer Rouge (1.5–2 million). None of these states allowed competitive elections or a free press, and many stopped people from leaving.', 'evidence'],
+      pro: ['Defenders say Marx’s critique of capitalism (inequality, crises, alienated work) still holds; that these states made poor, war-torn countries literate and industrial under outside pressure; that capitalism and colonialism also caused famines that are rarely counted the same way; and that the crimes came from particular leaders or betrayals of Marx, not socialism itself. China’s and Vietnam’s parties say their systems brought growth and stability.', 'debates'],
+      con: ['Critics say one-party rule and the abolition of markets predictably concentrate power, silence bad news and make rational planning impossible without prices (the “calculation problem” of Mises and Hayek); that terror began under Lenin and recurred across countries, so the system, not a few leaders, caused it; that the famines followed from policy; and that China boomed only after bringing back markets, while South Korea far outgrew North Korea.', 'debates']
+    }
   };
 })();

@@ -1,0 +1,58 @@
+[
+ {
+  "file": "js/marx-data.js",
+  "old": "Parties led by Lenin, Mao, Ho Chi Minh, Castro and Kim Il Sung took power.",
+  "new": "Lenin, Mao, Ho Chi Minh and Castro won power by revolution; in Eastern Europe and North Korea, communists took power mainly with Soviet army backing.",
+  "problem": "Lumps all takeovers together; omits the settled fact that Eastern European and North Korean regimes were installed largely under Soviet occupation, while others came from home-grown revolutions (a point both sides use).",
+  "severity": "framing",
+  "sources": []
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "An end to exploitation and class rule; production for human need",
+  "new": "An end to exploitation and class rule; land for peasants and freedom from foreign rule; production for human need",
+  "problem": "Leaves out the promises that won most actual followers (land reform, national independence), which supporters stress.",
+  "severity": "framing",
+  "sources": []
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "guaranteed jobs and cheap housing. In China",
+  "new": "free healthcare, guaranteed jobs and cheap housing; rights for women; and a leading part in defeating Nazi Germany. In China",
+  "problem": "Gains list is thinner than the costs list; omits the gains defenders cite most (universal healthcare, women’s legal and work rights, the Soviet role in defeating Nazism).",
+  "severity": "framing",
+  "sources": []
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "China’s Great Leap famine (estimates 15–55 million, most 30–45 million) and Cambodia",
+  "new": "China’s Great Leap famine (estimates 15–55 million, most 30–45 million), the Cultural Revolution (about 1–2 million) and Cambodia",
+  "problem": "Omits a major, well-documented episode critics always cite. Figure aligned with the deep dive’s own sourced table (Walder & Su 2003; MacFarquhar).",
+  "severity": "framing",
+  "sources": []
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "Most of these states had no free elections or free press, and many stopped people from leaving.",
+  "new": "None of these states allowed competitive elections or a free press, and many stopped people from leaving.",
+  "problem": "Hedges a settled fact: all were one-party states with state-controlled media; “most” understates it.",
+  "severity": "framing",
+  "sources": []
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "Defenders say Marx’s critique of capitalism (inequality, crises, alienated work) still holds; that these states lifted poor countries quickly while under war and outside pressure; and that their crimes came from particular leaders, war or departures from Marx rather than from socialism itself. China’s party argues its system has delivered growth and stability.",
+  "new": "Defenders say Marx’s critique of capitalism (inequality, crises, alienated work) still holds; that these states made poor, war-torn countries literate and industrial under outside pressure; that capitalism and colonialism also caused famines that are rarely counted the same way; and that the crimes came from particular leaders or betrayals of Marx, not socialism itself. China’s and Vietnam’s parties say their systems brought growth and stability.",
+  "problem": "Weaker than its best defenders: misses their main counter-argument (equal counting of deaths under capitalism and colonialism, e.g. Mike Davis, Utsa Patnaik) and states Vietnam’s official position only via China.",
+  "severity": "framing",
+  "sources": []
+ },
+ {
+  "file": "js/marx-data.js",
+  "old": "that the famines followed from policy; and that market economies starting from similar places, such as South Korea next to North Korea, did better.",
+  "new": "that terror began under Lenin and recurred across countries, so the system, not a few leaders, caused it; that the famines followed from policy; and that China boomed only after bringing back markets, while South Korea far outgrew North Korea.",
+  "problem": "Weaker than its best critics: does not answer the defenders’ ‘bad leaders’ claim (Conquest, Applebaum, Courtois: Red Terror and Gulag began under Lenin, pattern repeated across countries), nor the critics’ point that China’s poverty fall came from restoring markets.",
+  "severity": "framing",
+  "sources": []
+ }
+]

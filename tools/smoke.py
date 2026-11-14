@@ -18,6 +18,8 @@ try:
         routes = ['home', 'review', 'notes', 'about', 'privacy', 'changes', 'settings', 'learn', 'arcade']
         routes += ['d-' + d for d in pg.evaluate("(Lab.DISC||[]).map(d=>d.id)")]
         routes += ['history-modern-' + k for k in pg.evaluate("((Lab.MODERN||{}).SUBS||[]).map(s=>s[0])")]
+        # every section and case study of every deep dive
+        routes += pg.evaluate("Object.values(Lab.DEEPDIVES||{}).flatMap(D=>[...D.sections.map(s=>'history-modern-'+D.id+'-'+s[0]), ...(D.data.caseOrder||[]).map(k=>'history-modern-'+D.id+'-'+k)])")
         for r in routes:
             errs.clear(); pg.goto(base + '#' + r); pg.wait_for_timeout(700)
             pg.evaluate("document.querySelectorAll('.modal-bg').forEach(e=>e.remove())")

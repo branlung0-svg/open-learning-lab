@@ -1,0 +1,10 @@
+[
+  {
+    "file": "js/marx-data.js",
+    "old": "Most European ones fell in 1989–91",
+    "new": "All the European ones fell in 1989–91",
+    "problem": "Every communist one-party state in Europe, the USSR included, ended in 1989–91. 'Most' wrongly suggests some European ones survived. Britannica lists the only remaining five as China, North Korea, Laos, Cuba and Vietnam.",
+    "severity": "framing",
+    "sources": ["https://www.Britannica.com/question/Which-countries-are-communist", "https://www.britannica.com/topic/communism"]
+  }
+]
