@@ -48,3 +48,12 @@ Open: the first loop run starts with CAP-0.
 - Artifact is at its 256 MB cap: publish code only; pictures load from the public site.
 - Next: more Commons media per dive and per discipline; UK→US empire module; more picture-based labs; remaining discipline dives.
 - Part 4: empire module (js/empire-data.js, js/empire.js, #history-modern-empire); "Treasures of the field" Commons pictures on all 24 discipline pages (keys c:<disc>-<slug>); lab `graphics` (js/arcade-graphics.js). Next: country studies (USSR, DPRK, China, Cuba, USA), more picture labs, discipline dives.
+
+## 2026-11-14 (afternoon session)
+- Evidence tabs: charts (chartSVG in deepdive.js; X.charts), gainsFig/tollsFig, "Check it yourself" locker embedded (documents, data, papers, pictures, records). Marxism locker added.
+- The Archive (#archive, js/archive.js): ~900 Commons items + 662 modern-history pack images; topic chips, search, infinite scroll; graphic blur via Lab.graphicMode.
+- Media pipeline: multi-result topics (n), name filter, date filter, data/media-skip.json, thumbnails (tools/make_thumbs.py, img/c/t).
+- Home redesign (js/home-wow.js + css): cinematic archive-mosaic hero with live counts, photo doors, picture of the day, subject photo headers.
+- Hard truths module (js/truths-data.js, js/truths.js, #history-modern-truths).
+- Readiness: og/twitter tags + img/share.jpg, 404.html, robots.txt, Report a mistake link.
+- Pending: custom domain (Owen to buy; then CNAME + DNS), more discipline dives, country studies.
