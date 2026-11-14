@@ -44,7 +44,7 @@ const go = (hash) => h('a', { class: 'btn sm', href: '#' + hash, style: { textDe
 const btn = ([hash, label]) => Object.assign(go(hash), { textContent: label });
 const CONF = { high: 'Established', medium: 'Strong', developing: 'Developing' };
 const vcol = (v) => ({ True: '#15803D', False: '#DC2626', Misleading: '#EA580C', Contested: '#7C3AED', Hit: '#15803D', Miss: '#DC2626', 'Mostly miss': '#EA580C', 'Hit (but reformist)': '#0891B2' }[v] || '#475569');
-const fig = (k, max) => (k && M.figure ? M.figure(k, { max: max || '320px' }) : null);
+const fig = (k, max) => (!k ? null : /^[cv]:/.test(k) ? Lab.cfig(k, { max: max || '320px' }) : M.figure ? M.figure(k, { max: max || '320px' }) : null);
 const figOf = (f) => (f ? fig(f[0], f[1]) : null);
 const fill = (tpl, vars) => String(tpl || '').replace(/\{(\w+)\}/g, (_, k) => (vars[k] != null ? vars[k] : ''));
 // Rich text from data: strings stay text, ['b', text] becomes bold.
@@ -132,6 +132,11 @@ R.evidence = (p, nav, arg, D) => {
   if (X.gains) p.append(card(h('h2', { style: { marginTop: 0 } }, U.gainsTitle), tbl((U.lbl || {}).gainsCols || ['Measure', 'Change', 'Source', 'Caveat'], X.gains), h('div', { class: 'row', style: { gap: '6px', marginTop: '8px' } }, (U.gainsLinks || []).map(btn))));
   if (X.tolls) p.append(card(h('h2', { style: { marginTop: 0 } }, U.tollsTitle), figOf(U.tollsFig), tbl((U.lbl || {}).tollsCols || ['Event', 'Estimate', 'Main sources', 'Notes'], X.tolls), h('p', { class: 'small', style: { marginTop: '8px' } }, X.tollsNote), h('div', { class: 'row', style: { gap: '6px' } }, (U.tollsLinks || []).map(btn))));
   if (X.predictions) p.append(card(h('h2', { style: { marginTop: 0 } }, U.predTitle), h('div', { class: 'stack', style: { gap: '6px' } }, X.predictions.map(([c, v, n]) => h('div', { class: 'row', style: { flexWrap: 'nowrap', gap: '10px', alignItems: 'flex-start' } }, h('span', { class: 'tag', style: { '--c': vcol(v), flex: 'none', minWidth: '84px', textAlign: 'center' } }, v), h('div', null, h('b', { class: 'small' }, c), h('div', { class: 'small muted' }, n)))))));
+};
+
+R.gallery = (p, nav, arg, D) => {
+  (D.data.gallery || []).forEach(([t, intro, keys]) => p.append(card(h('h2', { style: { marginTop: 0 } }, t), intro ? h('p', { class: 'small muted' }, intro) : null, Lab.cgrid(keys))));
+  p.append(card(h('p', { class: 'tiny muted', style: { margin: 0 } }, 'Pictures and film are from Wikimedia Commons and are public domain or Creative Commons licensed; tap any one to enlarge it and see its author, licence and original page. Some show violence or its aftermath and are described factually.')));
 };
 
 R.labs = (p, nav, arg, D) => {
