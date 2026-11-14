@@ -368,11 +368,18 @@ Lab.explorer('history', 'modern', {
     function render(a) {
       tabs.innerHTML = ''; body.innerHTML = '';
       const tabBtn = ([k, n]) => h('button', { class: 'tab' + (k === sub ? ' on' : ''), style: { padding: '6px 11px', fontSize: '13px' }, onclick: () => go(k) }, n);
+      const cur = SUBS.find(([k]) => k === sub); const grp = (Lab.MODERN.GROUPS || []).find((g) => g[2].includes(sub));
+      const menu = h('div', { style: { display: sub === 'start' ? 'block' : 'none', marginTop: sub === 'start' ? 0 : '10px' } });
+      if (sub !== 'start') tabs.append(h('div', { class: 'row', style: { gap: '8px', alignItems: 'center', flexWrap: 'wrap' } },
+        h('a', { href: '#history-modern', class: 'tiny', onclick: (e) => { e.preventDefault(); go('start'); } }, 'Modern world'), h('span', { class: 'tiny muted' }, '›'),
+        grp ? h('span', { class: 'tiny muted' }, grp[1]) : null, grp ? h('span', { class: 'tiny muted' }, '›') : null, h('b', { class: 'small' }, cur ? cur[1] : ''),
+        h('span', { class: 'sp' }), h('button', { class: 'btn sm', onclick: (e) => { const open = menu.style.display === 'none'; menu.style.display = open ? 'block' : 'none'; e.target.textContent = open ? 'Hide topics ▴' : 'All topics ▾'; } }, 'All topics ▾')));
+      tabs.append(menu);
       if (Lab.MODERN.GROUPS) {
         const seen = new Set();
-        Lab.MODERN.GROUPS.forEach(([e, g, keys]) => { const items = keys.map((k) => SUBS.find(([x]) => x === k)).filter(Boolean); items.forEach(([k]) => seen.add(k)); tabs.append(h('div', { class: 'row', style: { gap: '6px', alignItems: 'center', marginBottom: '4px', flexWrap: 'wrap' } }, h('span', { class: 'tiny muted', style: { minWidth: '150px', fontWeight: 700 } }, e + ' ' + g), ...items.map(tabBtn))); });
-        const rest = SUBS.filter(([k]) => !seen.has(k)); if (rest.length) tabs.append(h('div', { class: 'row', style: { gap: '6px' } }, ...rest.map(tabBtn)));
-      } else SUBS.forEach((x) => tabs.append(tabBtn(x)));
+        Lab.MODERN.GROUPS.forEach(([e, g, keys]) => { const items = keys.map((k) => SUBS.find(([x]) => x === k)).filter(Boolean); items.forEach(([k]) => seen.add(k)); menu.append(h('div', { class: 'row', style: { gap: '6px', alignItems: 'center', marginBottom: '4px', flexWrap: 'wrap' } }, h('span', { class: 'tiny muted', style: { minWidth: '150px', fontWeight: 700 } }, e + ' ' + g), ...items.map(tabBtn))); });
+        const rest = SUBS.filter(([k]) => !seen.has(k)); if (rest.length) menu.append(h('div', { class: 'row', style: { gap: '6px' } }, ...rest.map(tabBtn)));
+      } else SUBS.forEach((x) => menu.append(tabBtn(x)));
       Lab.setContext(`History → Modern world through the spectrum → ${SUBS.find(([k]) => k === sub)[1]}`);
       ({ start: () => startTab(body, go), timeline: () => timelineTab(body, a), ideologies: () => ideologiesTab(body, a), compare: () => compareTab(body), spectrum: () => spectrumTab(body), claims: () => claimsTab(body), game: () => gameTab(body), people: () => peopleTab(body), sources: () => sourcesTab(body), ...Object.fromEntries(Object.entries(Lab.MODERN.render).map(([k, f]) => [k, () => f(body, a, go)])) })[sub]();
     }

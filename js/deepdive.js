@@ -176,7 +176,15 @@ Lab.deepdive = {
       const panel = h('div', { class: 'stack' }); const nav = h('div', { class: 'row', style: { gap: '6px', flexWrap: 'wrap' } });
       const show = (k, a) => { if (R._stop) { R._stop(); R._stop = null; } nav.querySelectorAll('.chip').forEach((c) => c.classList.toggle('on', c.dataset.k === k)); panel.innerHTML = ''; history.replaceState(null, '', '#history-modern-' + id + (k === 'start' ? '' : '-' + (a || k))); (D.custom[k] || R[k])(panel, show, a, D); };
       D.sections.forEach(([k, n]) => nav.append(h('span', { class: 'chip', 'data-k': k, onclick: () => show(k) }, n)));
-      el.append(card(nav), panel);
+      const X = D.data; const lede = D.lede || (X.intro && X.intro[0] ? X.intro[0].split('. ').slice(0, 2).join('. ').replace(/\.?$/, '.') : '');
+      const facts = [[D.sections.length, 'sections'], [X.cases ? Object.keys(X.cases).length : 0, 'country cases'], [X.debates ? X.debates.length : 0, 'debates'], [X.reading ? X.reading.reduce((a, [, it]) => a + it.length, 0) : 0, 'sources and books'], [(D.labs || []).length, 'labs']].filter(([n]) => n);
+      const hero = h('div', { class: 'card dive-hero', style: { borderTop: `6px solid ${D.color}`, padding: '22px 24px' } },
+        h('div', { class: 'tiny', style: { letterSpacing: '.12em', textTransform: 'uppercase', fontWeight: 700, color: D.color } }, 'Deep dive · ' + (D.years || '')),
+        h('h1', { style: { margin: '6px 0 8px', fontSize: 'clamp(30px,4.4vw,44px)', lineHeight: 1.1 } }, D.title),
+        h('p', { style: { fontSize: '17px', lineHeight: 1.55, maxWidth: '760px', margin: '0 0 14px' } }, lede),
+        h('div', { class: 'row', style: { gap: '22px', flexWrap: 'wrap' } }, facts.map(([n, l]) => h('div', null, h('div', { style: { fontFamily: 'var(--serif, Georgia, serif)', fontSize: '26px', fontWeight: 700, lineHeight: 1 } }, String(n)), h('div', { class: 'tiny muted' }, l)))));
+      const navCard = h('div', { class: 'card dive-nav', style: { position: 'sticky', top: '58px', zIndex: 6, padding: '8px 10px' } }, nav);
+      el.append(hero, navCard, panel);
       const a = (arg || '').split('-')[0];
       if (D.data.cases && D.data.cases[a]) show('cases', a); else show(D.sections.some(([k]) => k === a) ? a : 'start');
     };
