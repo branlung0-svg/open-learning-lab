@@ -84,3 +84,50 @@ a:hover{text-decoration-thickness:2px}
 #app [style*="linear-gradient"]:not(canvas):not(.bar):not(i):not(.hero){background:var(--card)!important;color:var(--ink)!important;border:1px solid var(--line)!important;border-left:4px solid var(--brand)!important;box-shadow:none!important}
 #app [style*="linear-gradient"]:not(.hero) :is(h1,h2,h3,b,p,div,span,small){color:inherit!important;opacity:1!important}
 #app [style*="linear-gradient"] .btn{border:1px solid var(--line)!important}
+
+/* ---------- Home: cinematic hero, picture of the day, photo doors ---------- */
+.hw-hero { position: relative; overflow: hidden; border-radius: 20px; margin: 18px 0 14px; min-height: 540px; background: #0B1220; color: #fff; display: flex; align-items: flex-end; }
+.hw-mosaic { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(3, 1fr); gap: 3px; }
+.hw-mosaic div { overflow: hidden; background: #111827; }
+.hw-mosaic img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(.35) contrast(1.05); transition: opacity .7s ease; animation: hwzoom 22s ease-in-out infinite alternate; }
+@keyframes hwzoom { from { transform: scale(1); } to { transform: scale(1.08); } }
+.hw-shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,18,32,.25) 0%, rgba(11,18,32,.55) 45%, rgba(11,18,32,.95) 100%); }
+.hw-body { position: relative; padding: 40px 44px 34px; max-width: 900px; }
+.hw-kicker { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; color: #FCD34D; margin-bottom: 10px; }
+.hw-kicker.dark { color: #B45309; }
+.hw-title { font-family: var(--serif, Georgia, serif); font-size: clamp(34px, 5.6vw, 64px); line-height: 1.04; margin: 0 0 14px; color: #fff; letter-spacing: -.01em; }
+.hw-sub { font-size: clamp(15px, 1.6vw, 19px); line-height: 1.55; color: rgba(255,255,255,.88); max-width: 720px; margin: 0 0 20px; }
+.hw-cta { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 26px; }
+.hw-btn { font-size: 16px; padding: 12px 20px; }
+.hw-btn2 { background: rgba(255,255,255,.12) !important; color: #fff !important; border: 1px solid rgba(255,255,255,.35) !important; padding: 12px 18px; font-size: 15px; backdrop-filter: blur(6px); }
+.hw-nums { display: flex; gap: 28px; flex-wrap: wrap; border-top: 1px solid rgba(255,255,255,.2); padding-top: 16px; }
+.hw-nums div { display: flex; flex-direction: column; }
+.hw-nums b { font-family: var(--serif, Georgia, serif); font-size: clamp(24px, 3vw, 34px); line-height: 1; }
+.hw-nums span { font-size: 12px; color: rgba(255,255,255,.75); margin-top: 4px; }
+.hw-spot { display: grid; grid-template-columns: 1.1fr 1fr; gap: 0; padding: 0 !important; overflow: hidden; }
+.hw-spot-img { cursor: zoom-in; background: #111; min-height: 280px; }
+.hw-spot-img img { width: 100%; height: 100%; max-height: 420px; object-fit: cover; display: block; }
+.hw-spot-txt { padding: 22px 24px; }
+.hw-spot-txt h2 { margin: 4px 0 8px; font-size: 24px; line-height: 1.25; }
+.hw-doors { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 14px 0; }
+.hw-door { position: relative; height: 210px; border-radius: 16px; overflow: hidden; display: block; color: #fff !important; text-decoration: none !important; background: var(--c); }
+.hw-door img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
+.hw-door:hover img { transform: scale(1.06); }
+.hw-door-shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 25%, rgba(0,0,0,.82) 100%); }
+.hw-door-txt { position: absolute; left: 16px; right: 16px; bottom: 14px; display: flex; flex-direction: column; gap: 4px; }
+.hw-door-txt b { font-family: var(--serif, Georgia, serif); font-size: 22px; }
+.hw-door-txt span { font-size: 13px; opacity: .88; line-height: 1.4; }
+.hw-door::after { content: ''; position: absolute; left: 0; top: 0; right: 0; height: 4px; background: var(--c); }
+.subj-photo { height: 96px; margin: -16px -16px 10px; background-size: cover; background-position: center; border-radius: 12px 12px 0 0; filter: saturate(.9); }
+@media (max-width: 760px) {
+  .hw-hero { min-height: 600px; border-radius: 14px; }
+  .hw-mosaic { grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(4, 1fr); }
+  .hw-body { padding: 26px 20px 22px; }
+  .hw-nums { gap: 16px; }
+  .hw-spot { grid-template-columns: 1fr; }
+  .hw-doors { grid-template-columns: 1fr 1fr; }
+  .hw-door { height: 170px; }
+  .hw-door-txt span { display: none; }
+}
+
+.hw-cta a, .hw-spot a.btn { text-decoration: none !important; }

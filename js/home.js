@@ -23,14 +23,7 @@ Lab.page('home', {
     const nm = Lab.displayName();
     const hr = new Date().getHours();
     const greet = hr < 12 ? 'Good morning' : hr < 18 ? 'Good afternoon' : 'Good evening';
-    const hero = h('section', { class: 'hero', style: { background: 'linear-gradient(120deg,#4F46E5 0%,#7C3AED 35%,#DB2777 70%,#F59E0B 100%)' } },
-      h('div', { class: 'emoji' }, '✦'),
-      h('h1', null, nm ? `${greet}, ${nm}.` : `${greet}! Welcome.`),
-      h('p', null, Lab.isKid() ? 'Explore how the world works: spin planets, build cells, read real history and play with ideas. Pick a mission or wander!' : 'A free lab for going deep on anything: real maps, real data, real texts, real evidence, and things you can spin, run and break. Pick a mission or wander.'),
-      h('div', { class: 'row', style: { marginTop: '12px' } },
-        h('span', { class: 'pill', style: { background: 'rgba(255,255,255,.18)', color: '#fff', borderColor: 'transparent' } }, `Level ${lv.lv}`),
-        h('div', { style: { flex: '1', minWidth: '140px', maxWidth: '260px' } }, h('div', { class: 'bar', style: { background: 'rgba(255,255,255,.25)' } }, h('i', { style: { width: (lv.into / lv.need * 100) + '%', background: '#fff' } }))),
-        h('span', { class: 'small', style: { opacity: .9 } }, `${lv.need - lv.into} XP to level ${lv.lv + 1}`)));
+    const hero = Lab.homeHero({ greet, nm, lv, kid: Lab.isKid() });
 
     const mission = h('div', { class: 'card' },
       h('div', { class: 'row' }, h('h2', { style: { margin: 0 } }, 'Today’s mission'), h('span', { class: 'sp' }), h('span', { class: 'muted small' }, new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' }))),
@@ -117,8 +110,8 @@ Lab.page('home', {
     const top = Lab.HUB ? Lab.HUB.top() : []; const [journey, cont, doors, regions, mapEl, ...pathEls] = top;
     const H2 = (t, d) => [h('h2', { style: { margin: '6px 0 4px', fontSize: '28px' } }, t), d ? h('p', { class: 'muted', style: { margin: '0 0 12px' } }, d) : null];
     const TABS = [
-      ['start', 'Start here', () => [journey, cont, mission, review]],
-      ['subjects', 'All subjects', () => [...H2('The disciplines', 'Every major field of human knowledge, each with its history, people, real documents and images, books, lectures, hands-on labs and a quiz.'), fac]],
+      ['start', 'Start here', () => [Lab.homeDoors(), Lab.homeSpotlight(), journey, cont, mission, review]],
+      ['subjects', 'All subjects', () => { setTimeout(() => Lab.homeSubjectPhotos(panel), 0); return [...H2('The disciplines', 'Every major field of human knowledge, each with its history, people, real documents and images, books, lectures, hands-on labs and a quiz.'), fac]; }],
       ['dives', 'Deep dives', () => [dives, regions]],
       ['labs', 'Labs & tools', () => [arcade, ...H2('Hands-on labs & tools', 'Maps, models, simulations, full texts, exam practice and the weekly news.'), grid]],
       ['paths', 'Connections & paths', () => [doors, mapEl, ...pathEls]],
