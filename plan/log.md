@@ -78,3 +78,12 @@ Open: the first loop run starts with CAP-0.
 - Lab.carousel (media.js): one picture at a time with arrows, swipe, keyboard, counter, thumbnails, tap to enlarge, graphic blur; pulls extra archive pictures by case words (js/case-words.js), matched on title/caption only, within the case's years, never leader portraits.
 - Case studies: sub-tabs (Overview with carousel, Timeline, Achievements & costs, Each side, Today & sources, Show all), remembered per dive; previous/next case buttons.
 - Lineage steps and dive galleries now use carousels (galleries: one tab per collection, with a grid toggle).
+
+## 2026-11-14 (night): study tools, search, review status, offline, places
+- js/study.js wired into every deep dive (Lab.study.after in deepdive.js show): progress bar + "Continue" on Start; per-section tools (listen aloud, explain simply via tutor, text size); "Check yourself" (3 questions built from the section's own data; misses go to Review as spaced cards); "Mark section done"; expert-review status line linking an issue form.
+- #search: one search over deep dives, cases, timelines, lineage, evidence, claims, debates, disciplines, people, books, Modern-world timeline events, plus matching pictures. Home "Find anything" uses it. "Also appears in" panel on each case's Today tab.
+- #reviewers page; .github/ISSUE_TEMPLATE expert-review.yml and mistake.yml.
+- Accessibility: skip link, focus outlines, reduced-motion, top bar fits 380–430 px phones (was overflowing).
+- Offline: sw.js (registered only on github.io): HTML network-first, versioned assets cache-first, pictures/data cached (900-picture cap).
+- Media: country batch reviewed (57 dropped); worldwide places batch (~710 fetched, 98 dropped). Archive chips: India, Japan, Korea, Middle East, Africa, Latin America, Europe, Australia & Pacific, Architecture, Nature & geography.
+- Not done: true second reading level for all text (only tutor "explain simply"), Spanish, outside expert reviews (needs people).

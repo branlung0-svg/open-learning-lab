@@ -129,7 +129,7 @@ R.cases = (p, nav, arg, D) => {
       record: () => [h('div', { class: 'grid g2' }, card(h('h3', { style: { marginTop: 0, color: '#15803D' } }, L.gains || '📈 Achievements'), h('ul', { class: 'small' }, c.gains.map((g) => h('li', { style: { margin: '4px 0' } }, g)))), card(h('h3', { style: { marginTop: 0, color: '#DC2626' } }, L.costs || '📉 Costs'), h('ul', { class: 'small' }, c.costs.map((g) => h('li', { style: { margin: '4px 0' } }, g)))))],
       tellings: () => [card(h('h3', { style: { marginTop: 0 } }, L.tellings || '🗣️ How each side tells it'), h('div', { class: 'grid g2' }, c.tellings.map(([w, v, m]) => sub(h('b', null, w), h('p', { class: 'small', style: { margin: '4px 0' } }, v), m ? h('p', { class: 'tiny', style: { color: '#B45309', margin: 0 } }, h('b', null, L.leaves || 'Leaves out: '), m) : null))))],
       now: () => [card(h('h3', { style: { marginTop: 0 } }, L.now || '🔴 Now'), h('p', { class: 'small' }, c.now), Lab.source(c.src),
-        h('button', { class: 'btn sm primary', style: { marginTop: '8px' }, onclick: () => Lab.ask(fill(U.caseAsk, { n: c.n }), c.n) }, '✦ Go deeper with the tutor'))],
+        h('button', { class: 'btn sm primary', style: { marginTop: '8px' }, onclick: () => Lab.ask(fill(U.caseAsk, { n: c.n }), c.n) }, '✦ Go deeper with the tutor')), Lab.appearsPanel ? Lab.appearsPanel([c.n.replace(/\s*\(.*\)$/, ''), ...(words || []).slice(0, 4)], '#' + D.base + '-' + key) : null].filter(Boolean),
     };
     const body = h('div', { class: 'stack' });
     const bar = h('div', { class: 'subtabs', role: 'tablist' });
@@ -283,6 +283,7 @@ Lab.deepdive = {
   register(id, cfg) {
     const D = Object.assign({ id, custom: {}, ui: {}, side: {}, labs: [], host: 'history' }, cfg);
     D.base = D.host === 'disc' ? 'd-' + D.disc + '-deep' : 'history-modern-' + id;
+    Lab.DIVES_ALL = Lab.DIVES_ALL || {}; Lab.DIVES_ALL[id] = D;
     if (D.host === 'history') {
       if (D.inCompare !== false) Lab.DEEPDIVES[id] = D;
       if (!M.SUBS.some(([k]) => k === id)) M.SUBS.push([id, D.tab]);
@@ -291,7 +292,7 @@ Lab.deepdive = {
     }
     const mount = (el, arg) => {
       const panel = h('div', { class: 'stack' }); const nav = h('div', { class: 'row dive-chips', style: { gap: '6px', flexWrap: 'nowrap', overflowX: 'auto', scrollbarWidth: 'thin', paddingBottom: '2px' } });
-      const show = (k, a) => { if (R._stop) { R._stop(); R._stop = null; } nav.querySelectorAll('.chip').forEach((c) => c.classList.toggle('on', c.dataset.k === k)); panel.innerHTML = ''; history.replaceState(null, '', '#' + D.base + (k === 'start' ? '' : '-' + (k === 'cases' && a ? a : k))); (D.custom[k] || R[k])(panel, show, a, D); if (!STRIP_SKIP.has(k) && Lab.photoStrip && D.photoKeys && D.photoKeys.length > 3) panel.prepend(Lab.photoStrip({ keys: D.photoKeys, n: 4, offset: D.sections.findIndex(([x]) => x === k) })); };
+      const show = (k, a) => { if (R._stop) { R._stop(); R._stop = null; } nav.querySelectorAll('.chip').forEach((c) => c.classList.toggle('on', c.dataset.k === k)); panel.innerHTML = ''; history.replaceState(null, '', '#' + D.base + (k === 'start' ? '' : '-' + (k === 'cases' && a ? a : k))); (D.custom[k] || R[k])(panel, show, a, D); if (Lab.study) { try { Lab.study.after(D, k, panel, ((D.sections.find(([x]) => x === k) || [])[1] || k).replace(/^\W+\s*/, ''), (k2) => { show(k2 || k); window.scrollTo({ top: Math.max(0, navCard.getBoundingClientRect().top + window.scrollY - 70), behavior: 'smooth' }); }); } catch (e) { console.error(e); } } if (!STRIP_SKIP.has(k) && Lab.photoStrip && D.photoKeys && D.photoKeys.length > 3) panel.prepend(Lab.photoStrip({ keys: D.photoKeys, n: 4, offset: D.sections.findIndex(([x]) => x === k) })); };
       D.sections.forEach(([k, n]) => nav.append(h('span', { class: 'chip', 'data-k': k, style: { flex: 'none', whiteSpace: 'nowrap' }, onclick: () => { show(k); const c = nav.querySelector(`[data-k="${k}"]`); if (c) c.scrollIntoView({ block: 'nearest', inline: 'center' }); } }, n)));
       const X = D.data; const lede = D.lede || (X.intro && X.intro[0] ? X.intro[0].split('. ').slice(0, 2).join('. ').replace(/\.?$/, '.') : '');
       const facts = [[D.sections.length, 'sections'], [X.cases ? Object.keys(X.cases).length : 0, D.caseLabel || 'country cases'], [X.debates ? X.debates.length : 0, 'debates'], [X.reading ? X.reading.reduce((a, [, it]) => a + it.length, 0) : 0, 'sources and books'], [(D.labs || []).length, 'labs']].filter(([n]) => n);

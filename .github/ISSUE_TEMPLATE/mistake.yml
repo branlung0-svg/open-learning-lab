@@ -1,0 +1,12 @@
+name: Report a mistake
+description: Something on the site is wrong, broken or unfair.
+title: "Mistake: "
+labels: ["mistake"]
+body:
+  - type: input
+    id: page
+    attributes: { label: Link to the page }
+  - type: textarea
+    id: what
+    attributes: { label: What is wrong?, description: "Quote it if you can, and add a source for the correction." }
+    validations: { required: true }

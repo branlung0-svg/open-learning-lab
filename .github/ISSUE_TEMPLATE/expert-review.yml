@@ -1,0 +1,28 @@
+name: Expert review of a section
+description: Check one section of the Lab for accuracy, balance and missing context.
+title: "Review: "
+labels: ["expert-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing. Please check facts, numbers and dates against the cited sources, and say whether each side's case is put fairly. You can review part of a section.
+  - type: input
+    id: page
+    attributes: { label: Link to the section, placeholder: "https://branlung0-svg.github.io/open-learning-lab/#history-modern-marxism-lineage" }
+    validations: { required: true }
+  - type: input
+    id: who
+    attributes: { label: Your name and field, description: "Shown on the site if the review is accepted, e.g. “Dr A. Example, historian of the USSR”. Leave blank to stay anonymous." }
+  - type: textarea
+    id: errors
+    attributes: { label: Errors of fact, description: "Quote the sentence, give the correction and a source." }
+  - type: textarea
+    id: balance
+    attributes: { label: Balance and missing context, description: "Is any side's strongest case missing or unfair? Anything important left out?" }
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Overall
+      options: ["Accurate as written", "Accurate after the corrections above", "Needs substantial rework"]
+    validations: { required: true }

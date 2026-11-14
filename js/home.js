@@ -63,11 +63,13 @@ Lab.page('home', {
       [...(Lab.GUIDED || []), ...(Lab.LIB || [])].forEach((b) => { if ((b.t + ' ' + b.a).toLowerCase().includes(q)) hits.push(['#reading-library-' + b.id, '📖 ' + b.t + ' — ' + b.a, 'Book']); });
       Lab.subjects.forEach((s) => s.ex.forEach(([e, n]) => { if (n.toLowerCase().includes(q)) hits.push(['#' + s.id + '-' + e, '▶ ' + n, s.name + ' · hands-on']); }));
       if (Lab.HUB) hits.unshift(...Lab.HUB.search(q));
+      if (Lab.searchAll) Lab.searchAll(q, 14).forEach((e) => hits.push([e.href, e.title, e.where]));
       const seen = new Set();
       hits.filter((x) => !seen.has(x[1]) && seen.add(x[1])).slice(0, 20).forEach(([href, t, k]) => results.append(h('a', { href, class: 'row', style: { textDecoration: 'none', color: 'inherit', padding: '8px 10px', border: '1px solid var(--line)', borderRadius: '10px', gap: '10px' } }, h('span', { style: { flex: 1 } }, t), h('span', { class: 'tiny muted' }, k))));
       if (!results.children.length) results.append(h('p', { class: 'small muted' }, 'Nothing found. Try the tutor: it can explain anything.'));
     };
-    const finder = h('div', { class: 'card' }, h('h3', { style: { marginTop: 0 } }, '🔎 Find anything'), search, results);
+    search.onkeydown = (e) => { if (e.key === 'Enter' && search.value.trim()) location.hash = 'search-' + encodeURIComponent(search.value.trim()); };
+    const finder = h('div', { class: 'card' }, h('div', { class: 'row', style: { justifyContent: 'space-between', alignItems: 'baseline' } }, h('h3', { style: { margin: 0 } }, '🔎 Find anything'), h('a', { class: 'small', href: '#search' }, 'Full search with pictures →')), h('div', { style: { height: '8px' } }), search, results);
 
     const ged = st.ged || {};
     const gedRows = ['math', 'science', 'social', 'rla'].map((k) => { const g = ged[k] || { r: 0, t: 0 }; return [k, g.t ? Math.round(g.r / g.t * 100) : null, g.t]; });
