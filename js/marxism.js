@@ -21,7 +21,7 @@ Lab.deepdive.register('marxism', {
   years: 'Marx and Engels from the 1840s; Leninist states from 1917',
   data: X,
   labs: ['surplusvalue', 'planmarket'],
-  sections: [['start', '🧭 Start'], ['ideas', '📖 Marx & Engels'], ['lenin', '🚩 Lenin'], ['tree', '🌳 Family tree'], ['machine', '🏛️ How a party-state works'], ['cases', '🌍 Case studies'], ['gallery', 'Pictures & film'], ['compare', '⚖️ Compare'], ['evidence', '📊 Evidence'], ['labs', '🧪 Labs & tools'], ['debates', '🗣️ Debates'], ['claims', '🔎 Claims'], ['reading', '📚 Reading room']],
+  sections: [['start', '🧭 Start'], ['locker', '🧾 Evidence'], ['ideas', '📖 Marx & Engels'], ['lenin', '🚩 Lenin'], ['tree', '🌳 Family tree'], ['machine', '🏛️ How a party-state works'], ['cases', '🌍 Case studies'], ['gallery', 'Pictures & film'], ['compare', '⚖️ Compare'], ['evidence', '📊 Gains & costs'], ['labs', '🧪 Labs & tools'], ['debates', '🗣️ Debates'], ['claims', '🔎 Claims'], ['reading', '📚 Reading room']],
   custom: { lenin },
   ui: X.ui,
   side: X.side,

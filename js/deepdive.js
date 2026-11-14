@@ -55,7 +55,8 @@ const discName = (d) => ((Lab.DISC || []).find((x) => x.id === d) || {}).name ||
 const R = {};
 R.start = (p, nav, arg, D) => {
   const X = D.data, U = D.ui;
-  const dir = h('div', { class: 'grid g3' }, U.path.map(([k, t]) => { const s = D.sections.find((x) => x[0] === k); if (!s) return null;
+  const path = D.sections.some(([k]) => k === 'locker') && !U.path.some(([k]) => k === 'locker') ? [['locker', 'All the evidence in one place: original documents, data, research papers, pictures and film'], ...U.path] : U.path;
+  const dir = h('div', { class: 'grid g3' }, path.map(([k, t]) => { const s = D.sections.find((x) => x[0] === k); if (!s) return null;
     return h('button', { class: 'card', style: { textAlign: 'left', cursor: 'pointer', borderTop: `4px solid ${D.color}`, display: 'flex', flexDirection: 'column', gap: '6px', boxShadow: 'none' }, onclick: () => nav(k) },
       h('b', { style: { fontSize: '16px' } }, s[1]), h('span', { class: 'small muted', style: { lineHeight: 1.5 } }, t), h('span', { class: 'small', style: { color: D.color, fontWeight: 700, marginTop: 'auto' } }, 'Open →')); }).filter(Boolean));
   p.append(card(h('h2', { style: { marginTop: 0 } }, U.pathTitle), dir, h('div', { class: 'row', style: { gap: '6px', marginTop: '12px' } }, U.startLinks.map(btn))),
@@ -132,6 +133,34 @@ R.evidence = (p, nav, arg, D) => {
   if (X.gains) p.append(card(h('h2', { style: { marginTop: 0 } }, U.gainsTitle), tbl((U.lbl || {}).gainsCols || ['Measure', 'Change', 'Source', 'Caveat'], X.gains), h('div', { class: 'row', style: { gap: '6px', marginTop: '8px' } }, (U.gainsLinks || []).map(btn))));
   if (X.tolls) p.append(card(h('h2', { style: { marginTop: 0 } }, U.tollsTitle), figOf(U.tollsFig), tbl((U.lbl || {}).tollsCols || ['Event', 'Estimate', 'Main sources', 'Notes'], X.tolls), h('p', { class: 'small', style: { marginTop: '8px' } }, X.tollsNote), h('div', { class: 'row', style: { gap: '6px' } }, (U.tollsLinks || []).map(btn))));
   if (X.predictions) p.append(card(h('h2', { style: { marginTop: 0 } }, U.predTitle), h('div', { class: 'stack', style: { gap: '6px' } }, X.predictions.map(([c, v, n]) => h('div', { class: 'row', style: { flexWrap: 'nowrap', gap: '10px', alignItems: 'flex-start' } }, h('span', { class: 'tag', style: { '--c': vcol(v), flex: 'none', minWidth: '84px', textAlign: 'center' } }, v), h('div', null, h('b', { class: 'small' }, c), h('div', { class: 'small muted' }, n)))))));
+};
+
+// ---------- Evidence: primary documents, data, research, pictures and sourced claims, one kind at a time ----------
+R.locker = (p, nav, arg, D) => {
+  const X = D.data, L = X.locker || {};
+  const fromReading = (X.reading || []).flatMap(([, it]) => it.filter((x) => x[1]).map(([t, u]) => [t, '', '', u]));
+  const docs = L.docs || fromReading; const data = L.data || []; const papers = L.papers || [];
+  const pics = (X.gallery || []).flatMap(([, , k]) => k);
+  const tabs = [['docs', `Primary documents (${docs.length})`, docs.length], ['data', `Data you can check (${data.length})`, data.length], ['papers', `Research papers (${papers.length})`, papers.length], ['pics', `Pictures & film (${pics.length})`, pics.length], ['records', 'Sourced records', D.claimsId]].filter((t) => t[2]);
+  const chips = h('div', { class: 'row', style: { gap: '6px', flexWrap: 'nowrap', overflowX: 'auto' } }); const box = h('div');
+  const a = (t, u) => (u ? h('a', { href: u, target: '_blank', rel: 'noopener' }, t + ' ↗') : h('span', null, t));
+  const row = (...k) => h('div', { style: { borderLeft: `3px solid ${D.color}`, padding: '6px 0 6px 12px', margin: '8px 0' } }, ...k);
+  const show = (k) => { chips.querySelectorAll('.chip').forEach((c) => c.classList.toggle('on', c.dataset.k === k)); box.innerHTML = '';
+    if (k === 'docs') box.append(card(h('h3', { style: { marginTop: 0 } }, 'Primary documents'), h('p', { class: 'small muted' }, 'The original texts, laws, records and testimony, so you can read the evidence yourself instead of trusting a summary.'), ...docs.map(([t, y, w, u]) => row(h('b', { class: 'small' }, a(t, u)), y ? h('span', { class: 'tiny muted' }, '  ' + y) : null, w ? h('div', { class: 'small muted' }, w) : null))));
+    if (k === 'data') box.append(card(h('h3', { style: { marginTop: 0 } }, 'Data you can check yourself'), h('p', { class: 'small muted' }, 'Datasets kept by the researchers and institutions who collect them. Open them, pick a country or year, and test the claims on this page.'), ...data.map(([t, w, u]) => row(h('b', { class: 'small' }, a(t, u)), h('div', { class: 'small muted' }, w)))));
+    if (k === 'papers') box.append(card(h('h3', { style: { marginTop: 0 } }, 'Research papers'), h('p', { class: 'small muted' }, 'Peer-reviewed studies behind the debates. Read what each found, and remember that one study is rarely the last word.'), ...papers.map(([t, au, y, f, u]) => row(h('b', { class: 'small' }, a(t, u)), h('div', { class: 'tiny muted' }, au + (y ? ' · ' + y : '')), h('div', { class: 'small' }, h('b', null, 'Finding: '), f)))));
+    if (k === 'pics') box.append(card(h('h3', { style: { marginTop: 0 } }, 'Pictures & film'), h('p', { class: 'small muted' }, 'Photographs, documents and archival film from Wikimedia Commons. Tap to enlarge and see who made each one. Some show violence or its aftermath and are described factually.'), Lab.cgrid(pics)));
+    if (k === 'records') { const c = card(h('h3', { style: { marginTop: 0 } }, 'Sourced records'), h('p', { class: 'small muted' }, 'Every dated event and person in this deep dive is a record with its own sources and a confidence label.')); box.append(c);
+      Lab.claims(D.claimsId).then((C) => { if (!C) return; const all = [...(C.events || []), ...(C.people || [])]; const by = (f) => all.reduce((m, x) => ((m[f(x)] = (m[f(x)] || 0) + 1), m), {});
+        const st = by((x) => x.status || 'drafted'); const cf = (C.events || []).reduce((m, x) => ((m[x.conf || 'Unknown'] = (m[x.conf || 'Unknown'] || 0) + 1), m), {}); const nsrc = all.reduce((n, x) => n + (x.sources || []).length, 0);
+        c.append(h('div', { class: 'row', style: { gap: '22px', flexWrap: 'wrap', margin: '6px 0 12px' } }, [[all.length, 'records'], [nsrc, 'sources linked'], [st.verified || 0, 'checked by a separate AI fact-check'], [st.drafted || 0, 'sources linked, not yet checked']].map(([n, l]) => h('div', null, h('div', { style: { fontFamily: 'var(--serif, Georgia, serif)', fontSize: '26px', fontWeight: 700 } }, String(n)), h('div', { class: 'tiny muted' }, l)))),
+          h('div', { class: 'row', style: { gap: '6px', flexWrap: 'wrap' } }, h('span', { class: 'tiny muted' }, 'Events by confidence:'), ...Object.entries(cf).map(([k2, n]) => h('span', null, Lab.conf(k2), h('span', { class: 'tiny muted' }, ' ' + n)))),
+          h('p', { class: 'small', style: { marginTop: '10px' } }, 'Confidence labels: Established means overwhelming evidence; Strong means good evidence with details debated; Contested means serious experts disagree; Developing means events are still unfolding. No human expert has reviewed these records yet.'),
+          D.sections.some(([s]) => s === 'timeline') ? h('button', { class: 'btn sm primary', onclick: () => nav('timeline') }, 'Read every record with its sources →') : null); }); }
+  };
+  tabs.forEach(([k, n]) => chips.append(h('span', { class: 'chip', 'data-k': k, style: { flex: 'none', whiteSpace: 'nowrap' }, onclick: () => show(k) }, n)));
+  p.append(card(h('h2', { style: { marginTop: 0 } }, 'Evidence'), h('p', { class: 'small' }, 'Everything on these pages should be checkable. Here is the evidence in one place: the original documents, the data, the research, the pictures and the sourced records. Choose a kind of evidence.'), chips), box);
+  if (tabs.length) show(tabs[0][0]);
 };
 
 R.gallery = (p, nav, arg, D) => {

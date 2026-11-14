@@ -3,6 +3,37 @@
 // Rules for this page (plan/STANDARDS.md): settled facts stated plainly; denial is never a side; debates are about
 // interpretation, not whether crimes happened; the site does not label any current party fascist; no images of the dead.
 Lab.FAS = {
+  locker: {
+    docs: [
+      ['NSDAP 25-point program', '1920', 'The Nazi party’s founding program, in English translation.', 'https://germanhistorydocs.org/en/weimar-germany-1918-1933/ghdi:document-4625'],
+      ['Wannsee Protocol', '1942', 'Minutes of the meeting that coordinated the murder of Europe’s Jews, already under way.', 'https://www.ghwk.de/en/conference/protocol-and-documents'],
+      ['Nuremberg trial records (Avalon Project)', '1945–46', 'Charter, indictments, proceedings and judgment of the International Military Tribunal.', 'https://avalon.law.yale.edu/subject_menus/imt.asp'],
+      ['Harvard Law School Nuremberg Trials Project', '1946–49', 'Searchable trial documents, including the Doctors’ Trial.', 'https://nuremberg.law.harvard.edu/'],
+      ['Ringelblum Archive (Oneg Shabbat)', '1940–43', 'The secret archive of the Warsaw ghetto, buried in milk cans and recovered after the war.', 'https://www.jhi.pl/en/articles/ringelblum-archive,180'],
+      ['Witold Pilecki’s Auschwitz report', '1943–45', 'The report of a Polish officer who volunteered to be imprisoned in Auschwitz to document it.', 'https://ipn.gov.pl/en/digital-resources/publications/7837,Report-W-KL-AUSCHWITZ-1940-1943-by-Captain-Witold-Pilecki-Institute-of-National-.pdf'],
+      ['Georgi Dimitrov’s Comintern report on fascism', '1935', 'The communist definition of fascism, in its own words.', 'https://www.marxists.org/reference/archive/dimitrov/works/1935/08_02.htm'],
+      ['Survivor testimony: Yale Fortunoff Archive', '1979–', 'Thousands of video testimonies by Holocaust survivors and witnesses.', 'https://dhlab.yale.edu/projects/let-them-speak'],
+      ['Habermas, “A kind of settlement of damages”', '1986', 'The article that started the German historians’ dispute (Historikerstreit).', 'https://germanhistory-intersections.org/en/knowledge-and-education/ghis:document-151'],
+    ],
+    data: [
+      ['Reichstag election results 1919–1933 (German Bundestag)', 'Official vote shares used in the Reichstag lab.', 'https://webarchiv.bundestag.de/archive/2007/0711/geschichte/infoblatt/wahlen_weimarer_republik.pdf'],
+      ['USHMM: documenting numbers of victims', 'How historians count the victims of the Holocaust and Nazi persecution, and the sources used.', 'https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution'],
+      ['Yad Vashem Central Database of Shoah Victims’ Names', 'Over 4.7 million victims identified by name.', 'https://www.yadvashem.org/collections'],
+      ['Arolsen Archives online', 'Millions of original documents on victims of Nazi persecution: camp records, transport lists, registration cards.', 'https://arolsen-archives.org/en/search-explore/search-online-archive'],
+    ],
+    papers: [
+      ['Ordinary economic voting behavior in the extraordinary election of Adolf Hitler', 'King, Rosen, Tanner and Wagner, Journal of Economic History', 2008, 'The Nazis gained most from the working poor (shopkeepers, artisans, small farmers); the unemployed leaned Communist.', 'https://econpapers.repec.org/RePEc:cup:jechis:v:68:y:2008:i:04:p:951-996_00'],
+      ['Financial crises and political radicalization: how failing banks paved Hitler’s path to power', 'Doerr, Gissler, Peydró and Voth, Journal of Finance', 2022, 'Districts more exposed to the 1931 bank failures swung more to the Nazis.', 'https://econpapers.repec.org/RePEc:bla:jfinan:v:77:y:2022:i:6:p:3339-3372'],
+      ['Austerity and the rise of the Nazi party', 'Galofré-Vilà, Meissner, McKee and Stuckler, Journal of Economic History', 2021, 'Places with deeper spending cuts had higher Nazi vote shares.', 'https://econpapers.repec.org/RePEc:cup:jechis:v:81:y:2021:i:1:p:81-113_3'],
+      ['Bowling for fascism: social capital and the rise of the Nazi party', 'Satyanath, Voigtländer and Voth, Journal of Political Economy', 2017, 'Towns with denser club networks saw faster Nazi party membership growth.', 'https://econpapers.repec.org/RePEc:ucp:jpolec:doi:10.1086/690949'],
+      ['Persecution perpetuated: the medieval origins of anti-Semitic violence in Nazi Germany', 'Voigtländer and Voth, Quarterly Journal of Economics', 2012, 'Towns with medieval pogroms showed more antisemitic violence in the 1920s–30s.', 'https://econpapers.repec.org/RePEc:oup:qjecon:v:127:y:2012:i:3:p:1339-1392'],
+      ['Radio and the rise of the Nazis in prewar Germany', 'Adena, Enikolopov, Petrova, Santarosa and Zhuravskaya, Quarterly Journal of Economics', 2015, 'Nazi radio won support only where antisemitism was already strong, and backfired elsewhere.', 'https://econpapers.repec.org/RePEc:oup:qjecon:v:130:y:2015:i:4:p:1885-1939'],
+      ['Private property and business in the Third Reich', 'Buchheim and Scherner, Journal of Economic History', 2006, 'Firms kept real freedom to refuse state contracts and negotiate terms.', 'https://econpapers.repec.org/RePEc:cup:jechis:v:66:y:2006:i:02:p:390-416_00'],
+      ['Against the mainstream: Nazi privatization in 1930s Germany', 'Bel, Economic History Review', 2010, 'The Nazi regime sold state-owned firms to private owners in the mid-1930s.', 'https://econpapers.repec.org/RePEc:bla:ehsrev:v:63:y:2010:i:1:p:34-55'],
+      ['Working towards the Führer', 'Kershaw, Contemporary European History', 1993, 'Officials radicalized policy by anticipating Hitler’s wishes.', 'https://www.cambridge.org/core/journals/contemporary-european-history/article/abs/working-towards-the-fuhrer-reflections-on-the-nature-of-the-hitler-dictatorship/AA188C6DBB8DAF4682A7093D5895A6C4'],
+    ],
+  },
+  
   gallery: [
     ['The road to dictatorship', 'How democracy was destroyed in Germany in 1933.', ['c:reichstag-fire', 'c:book-burning-1933', 'c:nuremberg-rally-grounds']],
     ['War and genocide', 'Places of the crimes, shown without images of the dead.', ['c:guernica-ruins', 'c:warsaw-ghetto-wall', 'c:birkenau-gate', 'c:nanjing-memorial', 'c:yekatit-monument']],

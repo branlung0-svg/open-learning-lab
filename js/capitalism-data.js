@@ -2,6 +2,37 @@
 // Figures come from data/claims/capitalism.json (independently checked) and research/capitalism.md (sourced brief).
 // Standard (plan/STANDARDS.md): every side at its strongest, settled facts stated plainly, no verdict from the site.
 Lab.CAP = {
+  locker: {
+    docs: [
+      ['Adam Smith, The Wealth of Nations', '1776', 'The founding text of market economics, including its warnings about monopoly and merchants.', 'https://oll.libertyfund.org/titles/smith-an-inquiry-into-the-nature-and-causes-of-the-wealth-of-nations-cannan-ed-vol-1'],
+      ['Karl Marx, Capital, volume 1', '1867', 'The most influential critique, built partly on British government factory inspectors’ reports.', 'https://www.marxists.org/archive/marx/works/1867-c1/'],
+      ['The Factory Act', '1833', 'The first effective British law limiting child labour, with inspectors to enforce it.', 'https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/factoryact/'],
+      ['Legacies of British Slavery database', '1833–', 'Records of the £20 million compensation paid to slave owners, by name.', 'https://www.ucl.ac.uk/lbs/'],
+      ['Sherman Antitrust Act', '1890', 'The first US federal law against monopolies.', 'https://www.archives.gov/milestone-documents/sherman-anti-trust-act'],
+      ['Social Security Act', '1935', 'The New Deal law that created US old-age pensions and unemployment insurance.', 'https://www.archives.gov/milestone-documents/social-security-act'],
+      ['Milton Friedman, “The Social Responsibility of Business Is to Increase Its Profits”', '1970', 'The classic statement of shareholder capitalism.', 'https://www.nytimes.com/1970/09/13/archives/a-friedman-doctrine-the-social-responsibility-of-business-is-to.html'],
+      ['Financial Crisis Inquiry Commission report', '2011', 'The official US inquiry into the 2008 crash, with majority and dissenting views.', 'https://fcic.law.stanford.edu/report/conclusions'],
+      ['Hayek, “The Use of Knowledge in Society”', '1945', 'The case that prices carry knowledge no planner can gather.', 'https://www.econlib.org/library/Essays/hykKnw.html'],
+    ],
+    data: [
+      ['Our World in Data: extreme poverty', 'Poverty since 1820 and today, with the methods explained.', 'https://ourworldindata.org/extreme-poverty-in-brief'],
+      ['World Bank Poverty and Inequality Platform', 'Official poverty and inequality figures for almost every country.', 'https://pip.worldbank.org/'],
+      ['Maddison Project Database', 'Historical income per person back to year 1 for many countries.', 'https://www.rug.nl/ggdc/historicaldevelopment/maddison/'],
+      ['World Inequality Database', 'Income and wealth shares of the top 1% and bottom 50%.', 'https://wid.world/'],
+      ['FRED (Federal Reserve Bank of St. Louis)', 'Hundreds of thousands of US and world economic series: wages, unemployment, GDP, prices.', 'https://fred.stlouisfed.org/'],
+      ['SlaveVoyages', 'Records of about 36,000 slaving voyages.', 'https://www.slavevoyages.org/'],
+      ['US Bureau of Labor Statistics: union membership', 'Who belongs to unions, by year and industry.', 'https://www.bls.gov/news.release/union2.nr0.htm'],
+    ],
+    papers: [
+      ['Capitalism and extreme poverty: a global analysis of real wages, human height, and mortality since the long 16th century', 'Sullivan and Hickel, World Development', 2023, 'Argues welfare fell where capitalism and colonialism spread before the 20th century; challenges GDP-based poverty histories.', 'https://doi.org/10.1016/j.worlddev.2022.106026'],
+      ['The China Shock: learning from labor-market adjustment to large changes in trade', 'Autor, Dorn and Hanson, Annual Review of Economics', 2016, 'Import competition from China cost many US manufacturing jobs, with losses concentrated in particular places and lasting a decade or more.', 'https://doi.org/10.1146/annurev-economics-080315-015041'],
+      ['Income inequality in the United States, 1913–1998', 'Piketty and Saez, Quarterly Journal of Economics', 2003, 'Using tax records, the top income share fell sharply in the 1940s and rose again from the 1980s.', 'https://doi.org/10.1162/00335530360535135'],
+      ['The colonial origins of comparative development', 'Acemoglu, Johnson and Robinson, American Economic Review', 2001, 'Institutions set up by colonizers help explain why some countries are rich and others poor.', 'https://doi.org/10.1257/aer.91.5.1369'],
+      ['Mass privatisation and the post-communist mortality crisis', 'Stuckler, King and McKee, The Lancet', 2009, 'Rapid mass privatization was associated with higher male deaths; others dispute this result.', 'https://doi.org/10.1016/S0140-6736(09)60005-2'],
+      ['Mortality decline in the former Soviet Union', 'Brainerd and Cutler, Journal of Economic Perspectives', 2005, 'Alcohol and stress explain much of Russia’s 1990s mortality crisis.', 'https://web.williams.edu/Economics/brainerd/papers/jep05.pdf'],
+    ],
+  },
+  
   gallery: [
     ['The industrial revolution and empire', 'Mills, child labour, the slave trade and the companies that built empires.', ['c:cotton-mill-engraving', 'c:child-labor-hine', 'c:brookes-slave-ship', 'c:east-india-house', 'c:ford-assembly']],
     ['Crashes, depression and rebuilding', 'From the 1929 crash to Bretton Woods and 2008.', ['c:nyse-1929', 'c:dust-bowl', 'c:bretton-woods', 'c:lehman-2008']],
