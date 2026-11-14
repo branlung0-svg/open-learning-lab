@@ -32,3 +32,9 @@ Open: the first loop run starts with CAP-0.
 - Design: deep-dive hero + sticky chapter bar; History menu collapses to a breadcrumb; home features the three deep dives.
 - Link check: 11 dead links fixed.
 - Next: liberalism, conservatism, socialism/social democracy, anarchism, nationalism dives; "why does this happen" investigations; discipline-page redesign.
+
+## 2026-11-14 (live session, part 2)
+- Discipline pages now use chapters (Overview, Deep dive, Story & people, Evidence, Library, Hands-on labs, Debates & news, Lectures & quiz); #d-<id>-<chapter> links; evidence sub-tabs.
+- deepdive.js: `host: 'disc'` dives mount in the discipline "Deep dive" chapter (#d-<id>-deep-<section>); label overrides via ui.lbl; start page is a section directory.
+- Discipline deep dives done: physics (js/disc-physics.js), chemistry (js/disc-chemistry.js), biology (js/disc-biology.js); registered in js/disc-dives.js.
+- Remaining discipline dives, in order: mathematics, statistics, computing, economics, psychology, earthspace, medicine, logic, politics, sociology, anthropology, law, philosophy, religion, linguistics, literature, arts, engineering, ethics, geopolitics (history already deep).
