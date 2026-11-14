@@ -218,6 +218,7 @@
     const [sid, eid, ...rest] = raw.split('-');
     app.innerHTML = '';
     window.scrollTo(0, 0);
+    const enh = () => Lab.enhanceHeroes && Lab.enhanceHeroes(sid, eid); Promise.resolve().then(enh); setTimeout(enh, 700);
     const want = scrollMem[location.hash || '#home'];
     if (want > 0) { let tries = 0; const go = () => { if (document.body.scrollHeight >= want + innerHeight * 0.5 || tries > 12) { window.scrollTo(0, want); curY = window.scrollY; } else { tries++; setTimeout(go, 120); } }; setTimeout(go, 60); }
     lastHash = location.hash || '#home'; curY = 0;

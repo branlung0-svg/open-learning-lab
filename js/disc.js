@@ -135,6 +135,7 @@ Lab.routes.d = function (app, [id, ...partArr]) {
     h('b', { style: { fontSize: '17px' } }, n), h('span', { class: 'small muted', style: { lineHeight: 1.5 } }, d), h('span', { class: 'small', style: { color: D.c, fontWeight: 700, marginTop: 'auto' } }, 'Open →'))));
   chEl.overview.prepend(h('div', null, h('div', { class: 'tiny', style: { letterSpacing: '.12em', textTransform: 'uppercase', fontWeight: 700, color: 'var(--muted)', margin: '4px 0 8px' } }, 'What’s inside'), dir));
   body.replaceChildren(...CH.map(([k]) => chEl[k]));
+  if (Lab.photoStrip) ['overview', 'story', 'library', 'labs', 'debate', 'learn'].forEach((k, i) => { if (chEl[k]) chEl[k].insertBefore(Lab.photoStrip({ prefix: 'c:' + D.id + '-', n: 4, offset: i }), chEl[k].children[0] || null); });
   function showCh(k, scroll) { if (!chEl[k]) k = 'overview'; CH.forEach(([x]) => { chEl[x].style.display = x === k ? '' : 'none'; }); nav.querySelectorAll('.tab').forEach((b) => b.classList.toggle('on', b.dataset.k === k));
     history.replaceState(null, '', '#d-' + D.id + (k === 'overview' ? '' : '-' + k)); if (k === 'deep' && Lab.DISCDIVES[D.id] && !chEl.deep.dataset.done) { chEl.deep.dataset.done = 1; Lab.DISCDIVES[D.id].mount(chEl.deep, (part || '').replace(/^deep-?/, '')); }
     if (scroll) window.scrollTo({ top: nav.getBoundingClientRect().top + window.scrollY - 62, behavior: 'smooth' }); }

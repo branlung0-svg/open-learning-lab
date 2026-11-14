@@ -47,6 +47,36 @@
       g.append(h('a', { class: 'hw-door', href, style: { '--c': c } }, m ? h('img', { src: Lab.mediaUrl(m.t || m.f), alt: '', loading: 'lazy' }) : null, h('div', { class: 'hw-door-shade' }), h('div', { class: 'hw-door-txt' }, h('b', null, t), h('span', null, d)))); }); });
     return g; };
 
+  // ---- photo heroes and photo strips used across the whole Lab ----
+  const urlOf = (k, C) => (/^[cv]:/.test(k) ? Promise.resolve(C[k] ? Lab.mediaUrl(C[k].t || C[k].f) : null) : (Lab.MODERN && Lab.MODERN.img ? Lab.MODERN.img(k).then((r) => (r ? r.url : null)).catch(() => null) : Promise.resolve(null)));
+  const ROUTE_TAGS = { archive: SAFE, play: ['science', 'workers'], arcade: ['science', 'workers'], labs: ['science'], connect: ['science', 'cities'], learn: SAFE, reading: ['propaganda', 'revolutions', 'rights'], sources: ['propaganda', 'rights', 'revolutions'], history: ['revolutions', 'empire', 'workers', 'cities', 'rights'], review: ['science'], notebook: ['science', 'cities'], settings: ['cities'], ged: ['science', 'cities'] };
+  // keys: preferred image keys; prefix: commons key prefix; tags: archive tags. Fills up to 6 tiles.
+  const poolFor = (C, { keys, prefix, tags }) => { const P = pool(C); let out = (keys || []).filter((k) => !/^[cv]:/.test(k) || (C[k] && !C[k].graphic && !C[k].video));
+    if (prefix) out = out.concat(shuffle(P.filter(([k]) => k.startsWith(prefix)).map(([k]) => k)));
+    if (out.length < 6) { const T = tags && tags.length ? tags : SAFE; out = out.concat(shuffle(P.filter(([k, m]) => T.some((t) => (m.tags || []).includes(t) || k.startsWith('c:a-' + t + '-'))).map(([k]) => k))); }
+    return [...new Set(out)]; };
+  Lab.photoize = (el, opts = {}) => { if (!el || el.classList.contains('hero-photo')) return el; el.classList.add('hero-photo'); if (opts.color) el.style.setProperty('--hp', opts.color);
+    const mosaic = h('div', { class: 'hp-mosaic' }); el.prepend(mosaic, h('div', { class: 'hp-shade' }));
+    Lab.commons().then((C) => { const ks = poolFor(C, opts); const tiles = []; let i = 0; const n = Math.min(6, ks.length);
+      for (let j = 0; j < n; j++) { const im = h('img', { alt: '', loading: j < 3 ? 'eager' : 'lazy' }); tiles.push(im); mosaic.append(h('div', null, im)); urlOf(ks[i++], C).then((u) => { if (u) im.src = u; else im.parentNode.remove(); }); }
+      if (!n) { el.classList.add('hp-empty'); return; }
+      if (ks.length > n) { const tick = setInterval(() => { if (!document.body.contains(mosaic)) return clearInterval(tick); const im = tiles[Math.floor(Math.random() * tiles.length)]; const k = ks[i++ % ks.length];
+        urlOf(k, C).then((u) => { if (!u) return; im.style.opacity = 0; setTimeout(() => { im.src = u; im.onload = () => { im.style.opacity = 1; }; }, 600); }); }, 3200); } });
+    return el; };
+  Lab.enhanceHeroes = (sid, eid) => document.querySelectorAll('#app section.hero:not(.hero-photo)').forEach((el) => {
+    if (sid === 'd' && eid) return Lab.photoize(el, { prefix: 'c:' + eid + '-', tags: ['science'] });
+    Lab.photoize(el, { tags: ROUTE_TAGS[sid] || SAFE }); });
+  // a row of captioned photos; tap to enlarge
+  Lab.photoStrip = (opts = {}) => { const box = h('div', { class: 'pstrip' });
+    Lab.commons().then((C) => { let ks = (opts.keys || []).filter((k) => C[k] && !C[k].video); if (opts.prefix) ks = ks.concat(Object.keys(C).filter((k) => k.startsWith(opts.prefix) && !C[k].video));
+      ks = [...new Set(ks)]; if (ks.length < 2) return box.remove(); const n = Math.min(opts.n || 4, ks.length); const off = ((opts.offset || 0) * n) % ks.length;
+      for (let j = 0; j < n; j++) { const k = ks[(off + j) % ks.length]; const m = C[k]; const cap = (m.cap || m.desc || m.title || '').replace(/\.(jpe?g|png|tiff?)$/i, '').split(/(?<=\.)\s/)[0].slice(0, 90);
+        const blur = m.graphic && Lab.graphicMode && Lab.graphicMode() !== 'show';
+        if (m.graphic && Lab.graphicMode && Lab.graphicMode() === 'hide') continue;
+        box.append(h('button', { class: 'pstrip-item' + (blur ? ' blur' : ''), title: cap, onclick: (e) => { const b = e.currentTarget; if (b.classList.contains('blur')) { b.classList.remove('blur'); return; } Lab.lightbox(m); } }, h('img', { src: Lab.mediaUrl(m.t || m.f), alt: cap, loading: 'lazy' }), h('span', null, cap))); }
+      if (!box.children.length) box.remove(); });
+    return box; };
+
   // photo headers on discipline cards
   Lab.homeSubjectPhotos = (root) => Lab.commons().then((C) => root.querySelectorAll('a.subj[href^="#d-"]').forEach((a) => { const id = a.getAttribute('href').slice(3); const k = Object.keys(C).find((x) => x.startsWith('c:' + id + '-') && !C[x].graphic); if (!k || a.querySelector('.subj-photo')) return;
     a.prepend(h('div', { class: 'subj-photo', style: { backgroundImage: `url("${Lab.mediaUrl(C[k].t || C[k].f)}")` } })); }));

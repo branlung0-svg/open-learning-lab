@@ -46,6 +46,8 @@ const CONF = { high: 'Established', medium: 'Strong', developing: 'Developing' }
 const vcol = (v) => ({ True: '#15803D', False: '#DC2626', Misleading: '#EA580C', Contested: '#7C3AED', Hit: '#15803D', Miss: '#DC2626', 'Mostly miss': '#EA580C', 'Hit (but reformist)': '#0891B2' }[v] || '#475569');
 const fig = (k, max) => (!k ? null : /^[cv]:/.test(k) ? Lab.cfig(k, { max: max || '320px' }) : M.figure ? M.figure(k, { max: max || '320px' }) : null);
 const figOf = (f) => (f ? fig(f[0], f[1]) : null);
+const shuffleKeys = (a) => a.map((x) => [Math.random(), x]).sort((x, y) => x[0] - y[0]).map((x) => x[1]);
+const STRIP_SKIP = new Set(['start', 'gallery', 'evidence', 'cases', 'lineage']);
 const fill = (tpl, vars) => String(tpl || '').replace(/\{(\w+)\}/g, (_, k) => (vars[k] != null ? vars[k] : ''));
 // Rich text from data: strings stay text, ['b', text] becomes bold.
 const rich = (parts) => (Array.isArray(parts) ? parts : [parts]).map((x) => (Array.isArray(x) ? h(x[0], null, x[1]) : x));
@@ -56,7 +58,8 @@ const R = {};
 R.start = (p, nav, arg, D) => {
   const X = D.data, U = D.ui;
   const path = D.sections.some(([k]) => k === 'evidence') && !U.path.some(([k]) => k === 'evidence') ? [['evidence', 'The evidence: numbers, charts, photographs, documents, data and research'], ...U.path] : U.path;
-  const dir = h('div', { class: 'grid g3' }, path.map(([k, t]) => { const s = D.sections.find((x) => x[0] === k); if (!s) return null;
+  const path2 = D.sections.some(([k]) => k === 'lineage') && !path.some(([k]) => k === 'lineage') ? [path[0], ['lineage', 'How the ideas changed as each leader applied them to their own country, step by step'], ...path.slice(1)] : path;
+  const dir = h('div', { class: 'grid g3' }, path2.map(([k, t]) => { const s = D.sections.find((x) => x[0] === k); if (!s) return null;
     return h('button', { class: 'card', style: { textAlign: 'left', cursor: 'pointer', borderTop: `4px solid ${D.color}`, display: 'flex', flexDirection: 'column', gap: '6px', boxShadow: 'none' }, onclick: () => nav(k) },
       h('b', { style: { fontSize: '16px' } }, s[1]), h('span', { class: 'small muted', style: { lineHeight: 1.5 } }, t), h('span', { class: 'small', style: { color: D.color, fontWeight: 700, marginTop: 'auto' } }, 'Open →')); }).filter(Boolean));
   p.append(card(h('h2', { style: { marginTop: 0 } }, U.pathTitle), dir, h('div', { class: 'row', style: { gap: '6px', marginTop: '12px' } }, U.startLinks.map(btn))),
@@ -102,7 +105,7 @@ R.machine = (p, nav, arg, D) => {
     U.machineChain ? h('div', { class: 'small', style: { padding: '10px', borderRadius: '10px', background: 'var(--card2)', margin: '8px 0', lineHeight: 1.7 } }, ...rich(U.machineChain)) : null, grid), detail);
   draw();
   const KEPT = [['No', '#DC2626'], ['Partly', '#EA580C'], ['Yes', '#15803D']];
-  if (X.gap) p.append(card(h('h3', { style: { marginTop: 0 } }, U.gapTitle), h('div', { class: 'stack', style: { gap: '0' } }, X.gap.map(([a, b, c, s]) => h('div', { style: { padding: '8px 0', borderBottom: '1px solid var(--line)' } }, h('div', { class: 'row', style: { flexWrap: 'nowrap', gap: '8px', alignItems: 'flex-start' } }, h('span', { class: 'tag', style: { '--c': KEPT[s][1], flex: 'none', minWidth: '54px', textAlign: 'center' } }, KEPT[s][0]), h('div', null, h('b', { class: 'small' }, a), h('div', { class: 'tiny muted' }, 'Promise from: ' + b), h('div', { class: 'small' }, c)))))), h('p', { class: 'small', style: { marginTop: '8px' } }, X.gapNote)));
+  if (X.gap) p.append(card(h('h3', { style: { marginTop: 0 } }, U.gapTitle), h('div', { class: 'stack', style: { gap: '0' } }, X.gap.map(([a, b, c, s], gi) => h('div', { style: { padding: '8px 0', borderBottom: '1px solid var(--line)' } }, h('div', { class: 'row', style: { flexWrap: 'nowrap', gap: '8px', alignItems: 'flex-start' } }, h('span', { class: 'tag', style: { '--c': KEPT[s][1], flex: 'none', minWidth: '54px', textAlign: 'center' } }, KEPT[s][0]), h('div', null, h('b', { class: 'small' }, a), h('div', { class: 'tiny muted' }, 'Promise from: ' + b), h('div', { class: 'small' }, c), X.gapWhy && X.gapWhy[gi] ? h('details', { class: 'small', style: { marginTop: '4px' } }, h('summary', { style: { cursor: 'pointer', color: 'var(--accent)' } }, 'Why did it change? Both answers'), h('div', { style: { padding: '6px 0 0' } }, h('div', null, h('b', null, '🌍 The conditions argument: '), X.gapWhy[gi][0]), h('div', { style: { marginTop: '4px' } }, h('b', null, '🔎 The reply: '), X.gapWhy[gi][1]))) : null))))), h('p', { class: 'small', style: { marginTop: '8px' } }, X.gapNote)));
   if (X.tools && U.toolsTitle) p.append(card(h('h3', { style: { marginTop: 0 } }, U.toolsTitle), h('div', { class: 'grid g2' }, X.tools.slice(...(U.toolsSlice || [0])).map(([e, t, d, txt, hs]) => sub(h('b', null, e + ' ' + t), h('div', { class: 'tiny muted' }, discName(d)), h('p', { class: 'small' }, txt), h('a', { href: '#' + hs, class: 'small' }, 'Open the related lab or page →'))))));
 };
 
@@ -139,6 +142,48 @@ const chartSVG = (series, opts = {}) => { const W = 640, H = 260, L = 46, R = 14
   svg.innerHTML = g; return svg; };
 const chartCard = ([t, cap, series, src, opts]) => card(h('h3', { style: { marginTop: 0 } }, '📈 ' + t), h('p', { class: 'small muted' }, cap), chartSVG(series, opts || {}),
   h('div', { class: 'row', style: { gap: '12px', flexWrap: 'wrap', marginTop: '4px' } }, series.map(([n, c]) => h('span', { class: 'tiny' }, h('span', { style: { display: 'inline-block', width: '10px', height: '10px', background: c, borderRadius: '2px', marginRight: '4px' } }), n))), Lab.source(src));
+
+// Lineage: how an ideology changed step by step, with the conditions each leader faced and an idea tracker.
+const MK = { k: ['✓', '#15803D', 'kept'], a: ['＋', '#2563EB', 'added'], c: ['≈', '#B45309', 'changed'], d: ['✕', '#B91C1C', 'dropped or rejected'] };
+const shortOf = (s) => s.short || s.who.replace(/^The /, '').split(/:|,| and |’s /)[0];
+const pickImgs = (keys, n) => { const box = h('div', { style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '12px', margin: '10px 0' } });
+  Lab.commons().then((C) => { (keys || []).filter((k) => !/^c:/.test(k) || C[k]).slice(0, n).forEach((k) => { const f = fig(k, '360px'); if (f) box.append(f); }); if (!box.children.length) box.remove(); });
+  return box; };
+R.lineage = (p, nav, arg, D) => {
+  const L = D.data.lineage; if (!L) return;
+  const ids = L.steps.map((s) => s.id); let cur = ids.includes(arg) ? arg : ids[0];
+  p.append(card(h('h2', { style: { marginTop: 0 } }, L.title), h('p', null, L.intro),
+    h('div', { style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '10px' } }, L.readings.map(([e, n, t]) => h('div', { style: { padding: '12px', borderRadius: '12px', border: '1px solid var(--line)' } }, h('div', { style: { fontSize: '22px' } }, e), h('b', null, n), h('p', { class: 'small', style: { margin: '6px 0 0' } }, t)))),
+    h('p', { class: 'small', style: { marginTop: '12px', padding: '10px', borderRadius: '10px', background: 'color-mix(in srgb, var(--accent) 10%, transparent)' } }, h('b', null, 'Test it yourself: '), L.test)));
+  const rail = h('div', { class: 'row', style: { gap: '8px', flexWrap: 'nowrap', overflowX: 'auto', paddingBottom: '4px' } });
+  const railCard = card(h('div', { class: 'tiny muted', style: { marginBottom: '6px' } }, `${L.steps.length} steps · tap one`), rail);
+  const detail = h('div');
+  const go = (id, scroll) => { cur = id; rail.querySelectorAll('.lin-step').forEach((b) => b.classList.toggle('on', b.dataset.id === id)); const b = rail.querySelector(`[data-id="${id}"]`); if (b) b.scrollIntoView({ block: 'nearest', inline: 'center' });
+    history.replaceState(null, '', '#' + D.base + '-lineage-' + id); draw(); if (scroll) railCard.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
+  L.steps.forEach((s, i) => rail.append(h('button', { class: 'lin-step', 'data-id': s.id, onclick: () => go(s.id) }, h('span', { class: 'tiny' }, `${i + 1} · ${s.yrs}`), h('b', null, shortOf(s)))));
+  const list = (title, color, items) => (items && items.length ? h('div', { style: { padding: '12px', borderRadius: '12px', borderTop: `4px solid ${color}`, background: 'var(--card)', boxShadow: '0 0 0 1px var(--line) inset' } }, h('b', { style: { color } }, title), h('ul', { class: 'small', style: { margin: '6px 0 0', paddingLeft: '18px' } }, items.map((t) => h('li', { style: { marginBottom: '4px' } }, t)))) : null);
+  const draw = () => { const i = ids.indexOf(cur), s = L.steps[i]; detail.innerHTML = '';
+    detail.append(card(
+      h('div', { class: 'tiny', style: { letterSpacing: '.12em', textTransform: 'uppercase', fontWeight: 700, color: D.color } }, `Step ${i + 1} of ${ids.length} · ${s.yrs} · ${s.where}`),
+      h('h2', { style: { margin: '6px 0 4px' } }, s.who), pickImgs(s.img, 2),
+      h('div', { style: { padding: '12px 14px', borderRadius: '12px', background: 'color-mix(in srgb, #F59E0B 12%, transparent)', margin: '8px 0 12px' } }, h('b', null, '🌍 The material conditions: '), h('span', { class: 'small' }, s.cond)),
+      h('div', { style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '10px' } }, list('＋ What they added', MK.a[1], s.added), list('≈ What they changed', MK.c[1], s.changed), list('✓ What they kept', MK.k[1], s.kept)),
+      h('p', { style: { marginTop: '12px' } }, h('b', null, 'What happened: '), s.result),
+      h('h3', { style: { margin: '14px 0 6px' } }, 'Three ways to read this step'),
+      h('div', { class: 'stack', style: { gap: '6px' } }, L.readings.map(([e, n], j) => s.views[j] ? h('div', { class: 'small', style: { padding: '8px 10px', borderRadius: '10px', border: '1px solid var(--line)' } }, h('b', null, `${e} ${n}: `), s.views[j]) : null)),
+      s.src && s.src.length ? h('div', { style: { marginTop: '10px' } }, h('div', { class: 'tiny muted' }, 'Read the originals'), s.src.map(([t, u]) => h('a', { class: 'small', href: u, target: '_blank', rel: 'noopener', style: { display: 'block', margin: '3px 0' } }, '📄 ' + t + ' ↗'))) : null,
+      h('div', { class: 'row', style: { justifyContent: 'space-between', marginTop: '14px' } }, i > 0 ? h('button', { class: 'btn sm', onclick: () => go(ids[i - 1], true) }, '← ' + shortOf(L.steps[i - 1])) : h('span'), i < ids.length - 1 ? h('button', { class: 'btn sm primary', onclick: () => go(ids[i + 1], true) }, shortOf(L.steps[i + 1]) + ' →') : h('a', { class: 'btn sm', href: '#' + D.base + '-debates' }, 'On to the debates →')))); };
+  // idea tracker
+  const th = (t, extra) => h('th', Object.assign({ style: { padding: '6px', fontWeight: 600, borderBottom: '1px solid var(--line)', textAlign: 'center', whiteSpace: 'nowrap' } }, extra || {}), t);
+  const table = h('table', { class: 'small lin-matrix', style: { borderCollapse: 'collapse', minWidth: (180 + ids.length * 64) + 'px', width: '100%' } },
+    h('tr', null, th('Idea', { style: { padding: '6px', textAlign: 'left', borderBottom: '1px solid var(--line)' } }), ...L.steps.map((s) => th(h('button', { class: 'linkish', onclick: () => go(s.id, true), title: s.who }, shortOf(s))))),
+    ...L.core.map(([cid, label]) => h('tr', null, h('td', { style: { padding: '6px', borderBottom: '1px solid var(--line)', minWidth: '180px' } }, label),
+      ...L.steps.map((s) => { const m = MK[s.marks[cid]]; return h('td', { title: m ? `${shortOf(s)}: ${m[2]}` : 'not addressed', style: { textAlign: 'center', borderBottom: '1px solid var(--line)', padding: '6px', fontWeight: 700, color: m ? m[1] : 'var(--muted)', background: m ? `color-mix(in srgb, ${m[1]} 10%, transparent)` : 'transparent' } }, m ? m[0] : '·'); }))));
+  p.append(railCard, detail, card(h('h2', { style: { marginTop: 0 } }, '🧬 The idea tracker'), h('p', { class: 'small muted' }, 'Each column is a step, each row an idea. Read across a row to see where an idea survived, changed or vanished. Tap a column name to open that step.'),
+    h('div', { class: 'row', style: { gap: '14px', flexWrap: 'wrap', marginBottom: '8px' } }, Object.values(MK).map(([s, c, n]) => h('span', { class: 'tiny' }, h('b', { style: { color: c } }, s), ' ' + n)), h('span', { class: 'tiny muted' }, '· not addressed')),
+    h('div', { style: { overflowX: 'auto' } }, table)));
+  go(cur);
+};
 
 R.evidence = (p, nav, arg, D) => {
   const X = D.data, U = D.ui;
@@ -227,19 +272,25 @@ Lab.deepdive = {
     }
     const mount = (el, arg) => {
       const panel = h('div', { class: 'stack' }); const nav = h('div', { class: 'row dive-chips', style: { gap: '6px', flexWrap: 'nowrap', overflowX: 'auto', scrollbarWidth: 'thin', paddingBottom: '2px' } });
-      const show = (k, a) => { if (R._stop) { R._stop(); R._stop = null; } nav.querySelectorAll('.chip').forEach((c) => c.classList.toggle('on', c.dataset.k === k)); panel.innerHTML = ''; history.replaceState(null, '', '#' + D.base + (k === 'start' ? '' : '-' + (a || k))); (D.custom[k] || R[k])(panel, show, a, D); };
+      const show = (k, a) => { if (R._stop) { R._stop(); R._stop = null; } nav.querySelectorAll('.chip').forEach((c) => c.classList.toggle('on', c.dataset.k === k)); panel.innerHTML = ''; history.replaceState(null, '', '#' + D.base + (k === 'start' ? '' : '-' + (k === 'cases' && a ? a : k))); (D.custom[k] || R[k])(panel, show, a, D); if (!STRIP_SKIP.has(k) && Lab.photoStrip && D.photoKeys && D.photoKeys.length > 3) panel.prepend(Lab.photoStrip({ keys: D.photoKeys, n: 4, offset: D.sections.findIndex(([x]) => x === k) })); };
       D.sections.forEach(([k, n]) => nav.append(h('span', { class: 'chip', 'data-k': k, style: { flex: 'none', whiteSpace: 'nowrap' }, onclick: () => { show(k); const c = nav.querySelector(`[data-k="${k}"]`); if (c) c.scrollIntoView({ block: 'nearest', inline: 'center' }); } }, n)));
       const X = D.data; const lede = D.lede || (X.intro && X.intro[0] ? X.intro[0].split('. ').slice(0, 2).join('. ').replace(/\.?$/, '.') : '');
       const facts = [[D.sections.length, 'sections'], [X.cases ? Object.keys(X.cases).length : 0, D.caseLabel || 'country cases'], [X.debates ? X.debates.length : 0, 'debates'], [X.reading ? X.reading.reduce((a, [, it]) => a + it.length, 0) : 0, 'sources and books'], [(D.labs || []).length, 'labs']].filter(([n]) => n);
-      const hero = h('div', { class: 'card dive-hero', style: { borderTop: `6px solid ${D.color}`, padding: '22px 24px' } },
+      const diveKeys = [...(X.gallery || []).flatMap(([, , ks]) => ks), ...Object.values(X.cases || {}).flatMap((c) => [c.img, c.img2]), ...((X.lineage && X.lineage.steps) || []).flatMap((s) => s.img || [])].filter((k) => k && /^[cv]:/.test(k));
+      D.photoKeys = [...new Set(diveKeys)];
+      const hero = D.host === 'disc' ? h('div', { class: 'card dive-hero', style: { borderTop: `6px solid ${D.color}`, padding: '22px 24px' } },
         h('div', { class: 'tiny', style: { letterSpacing: '.12em', textTransform: 'uppercase', fontWeight: 700, color: D.color } }, 'Deep dive · ' + (D.years || '')),
         h('h1', { style: { margin: '6px 0 8px', fontSize: 'clamp(30px,4.4vw,44px)', lineHeight: 1.1 } }, D.title),
         h('p', { style: { fontSize: '17px', lineHeight: 1.55, maxWidth: '760px', margin: '0 0 14px' } }, lede),
-        h('div', { class: 'row', style: { gap: '22px', flexWrap: 'wrap' } }, facts.map(([n, l]) => h('div', null, h('div', { style: { fontFamily: 'var(--serif, Georgia, serif)', fontSize: '26px', fontWeight: 700, lineHeight: 1 } }, String(n)), h('div', { class: 'tiny muted' }, l)))));
+        h('div', { class: 'row', style: { gap: '22px', flexWrap: 'wrap' } }, facts.map(([n, l]) => h('div', null, h('div', { style: { fontFamily: 'var(--serif, Georgia, serif)', fontSize: '26px', fontWeight: 700, lineHeight: 1 } }, String(n)), h('div', { class: 'tiny muted' }, l)))))
+        : Lab.photoize(h('section', { class: 'hero dive-photo' },
+          h('div', { class: 'hw-kicker' }, 'Deep dive · ' + (D.years || '')),
+          h('h1', null, D.title), h('p', null, lede),
+          h('div', { class: 'dp-nums' }, facts.map(([n, l]) => h('div', null, h('b', null, String(n)), h('span', null, l))))), { keys: shuffleKeys(D.photoKeys), tags: ['revolutions', 'workers', 'propaganda'] });
       const navCard = h('div', { class: 'card dive-nav', style: { position: 'sticky', top: D.host === 'disc' ? '116px' : '58px', zIndex: 6, padding: '8px 10px' } }, nav);
       el.append(hero, navCard, panel);
-      let a = (arg || '').split('-')[0]; if (a === 'locker') a = 'evidence';
-      if (D.data.cases && D.data.cases[a]) show('cases', a); else show(D.sections.some(([k]) => k === a) ? a : 'start');
+      const parts = (arg || '').split('-'); let a = parts[0]; if (a === 'locker') a = 'evidence'; const sub = parts.slice(1).join('-') || undefined;
+      if (D.data.cases && D.data.cases[a]) show('cases', a); else if (D.sections.some(([k]) => k === a)) show(a, sub); else show('start');
     };
     if (D.host === 'disc') { Lab.DISCDIVES = Lab.DISCDIVES || {}; Lab.DISCDIVES[D.disc] = { D, mount }; } else M.render[id] = mount;
     if (Lab.TABSKILLS && D.skills) Lab.TABSKILLS[id] = D.skills;

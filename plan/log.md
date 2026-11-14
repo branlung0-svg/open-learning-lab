@@ -65,3 +65,11 @@ Open: the first loop run starts with CAP-0.
 - Immigration line rewritten with Pew survey data plus the push side (Central America, Vietnam); new claims ("billions", "most immigrants fled Western damage") and debates (colonialism and poverty; why people migrate).
 - USSR costs given famine and Terror numbers too, for symmetry.
 - Archive: dropped two off-topic picks (tiger hunt in famine topic, 1931 Indochinese flag in Indonesia 1965). The e84362a media run added nothing new.
+
+## 2026-11-14 (late): lineages, achievements, photos everywhere
+- New "How it changed" section (engine: R.lineage) for Marxism (12 steps: Marx → Second International → Lenin → Stalin → Trotsky → Mao → Tito → Juche → Ho → Castro → Deng → Gramsci/Eurocommunism), capitalism (12: Smith → … → state capitalism) and fascism (8). Each step: material conditions, added/changed/kept, three readings (adaptation / revision for power / design flaw), sources, pictures; plus an idea-tracker matrix.
+- Promise scorecards: "Why did it change? Both answers" under every promise (gapWhy); new capitalism and fascism promises.
+- Achievements: +10 Marxism rows, +9 capitalism rows, each with a caveat; USSR and Cuba case achievements deepened.
+- Photo heroes on every page with a section.hero (Lab.photoize via Lab.enhanceHeroes in the router); deep dives get photo heroes; photo strips on discipline chapters and dive sections (Lab.photoStrip).
+- Media: +315 fetched, 27 dropped after contact-sheet review (portraits, modern politicians, off-topic), smallpox photos flagged graphic. Commons now 1,179 items.
+- Deep-dive routes now pass sub-arguments (#…-lineage-kim opens that step).
