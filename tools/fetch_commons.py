@@ -48,6 +48,8 @@ def main():
     wanted = json.load(open('data/media-wanted.json'))
     out = json.load(open('data/commons.json')) if os.path.exists('data/commons.json') else {}
     os.makedirs('img/c', exist_ok=True); n = 0
+    skip = set(json.load(open('data/media-skip.json'))) if os.path.exists('data/media-skip.json') else set()
+    HIST = {'slavery','peasants','workers','revolutions','war','depression','empire','rights','soviet-life','indigenous','colonialism','covert','ethics','propaganda','news','medicine'}
     for w in wanted:
         k, kind = w['k'], w.get('kind', 'image')
         if k in out and not w.get('force'): continue
@@ -64,7 +66,9 @@ def main():
             if not picks: print('NOFREE', k, titles[:3]); continue
             for j, (t, ii, lic) in enumerate(picks):
               kk = k if want == 1 else f'{k}-{j + 1}'
-              if kk in out and not w.get('force'): continue
+              if kk in skip or (kk in out and not w.get('force')): continue
+              ys = [int(y) for y in re.findall(r'\b(1[0-9]{3}|20[0-9]{2})\b', clean(ii.get('extmetadata', {}).get('DateTimeOriginal', {}).get('value')) + ' ' + t)]
+              if (w.get('tags') or [''])[0] in HIST and ys and min(ys) >= 1995: continue
               m = ii.get('extmetadata', {}); k2 = kk
               slug = re.sub(r'[^a-z0-9]+', '-', k2.split(':', 1)[1].lower()).strip('-')
               r = s.get(ii.get('thumburl') or ii['url'], timeout=60); r.raise_for_status()
