@@ -8,7 +8,7 @@
   const last = (arr) => (arr && arr.length ? arr[arr.length - 1] : null);
   const first = (arr) => (arr && arr.length ? arr[0] : null);
   let LIST = null; const load = () => (LIST ||= Lab.json('data/countries.json'));
-  const stats = (id) => Lab.json('data/cs/' + id + '.json').catch(() => ({}));
+  const stats = (id) => Lab.json('data/cs/' + id + '.json').catch(() => Lab.json('data/cs-all.json').then((a) => a[id] || {})).catch(() => ({}));  // cs-all.json: one-file copy used by the chat version
   const REG = [['all', 'All'], ['Africa', 'Africa'], ['Americas', 'Americas'], ['Asia', 'Asia'], ['Europe', 'Europe'], ['Oceania', 'Oceania']];
   const GOVMAP = { usa: 'usa', gbr: 'uk', deu: 'germany', chn: 'china', rus: 'ussr', prk: 'dprk', cub: 'cuba', ita: 'italy' };
   const wiki = (t) => 'https://en.wikipedia.org/wiki/' + encodeURIComponent(t.replace(/ /g, '_'));
