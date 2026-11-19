@@ -21004,5 +21004,1253 @@
   ],
   "graphic": false,
   "cap": ""
+ },
+ {
+  "k": "v:ism-liberalism-revs",
+  "q": "French Revolution film reenactment 1789",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-liberalism-social",
+  "q": "Great Depression breadline 1930s film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-liberalism-order",
+  "q": "United Nations 1945 San Francisco conference film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-liberalism-neo",
+  "q": "Berlin Wall 1989 film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-conservatism-asia",
+  "q": "Meiji Japan 1890s film Tokyo",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-conservatism-cd",
+  "q": "West Germany 1950s newsreel",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-anarchism-spain",
+  "q": "Spanish Civil War 1936 film Barcelona",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-anarchism-mexukr",
+  "q": "Mexican Revolution 1914 film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-authoritarianism-military",
+  "q": "Chile 1973 coup film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-authoritarianism-develop",
+  "q": "Seoul 1960s film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-authoritarianism-qin",
+  "q": "Terracotta Army video",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-imperialism-decol",
+  "q": "India independence 1947 film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-imperialism-decol2",
+  "q": "Algerian War film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-imperialism-new",
+  "q": "Congo Free State film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-imperialism-japan",
+  "q": "Manchukuo 1930s film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-imperialism-neo",
+  "q": "Ghana independence 1957 film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-marxism-ussr",
+  "q": "Soviet newsreel 1930s",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-marxism-china",
+  "q": "China 1950s film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-marxism-vietnam",
+  "q": "Vietnam War film Hanoi",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-marxism-cuba",
+  "q": "Havana 1959 film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-capitalism-industrial",
+  "q": "Ford assembly line 1913 film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-capitalism-crash",
+  "q": "Wall Street 1929 film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-fascism-rome",
+  "q": "Italy 1930s newsreel",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:ism-fascism-nanjing",
+  "q": "Nanjing 1937 film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "ideologies"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-liberalism-00",
+  "q": "Haitian Revolution painting",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-liberalism-01",
+  "q": "Corn Laws repeal 1846 cartoon",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-liberalism-02",
+  "q": "suffragettes London 1910 march",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-liberalism-03",
+  "q": "Meiji Diet building 1890",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-liberalism-04",
+  "q": "Rammohan Roy Brahmo Samaj Kolkata",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-liberalism-05",
+  "q": "Mexico Reform War 1858 painting",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-liberalism-06",
+  "q": "Social Security office 1930s",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-liberalism-07",
+  "q": "Universal Declaration Human Rights 1948 Eleanor",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-liberalism-08",
+  "q": "Thatcher era Britain miners 1984",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-liberalism-09",
+  "q": "Hungary parliament Budapest",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-conservatism-00",
+  "q": "House of Lords chamber",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-conservatism-01",
+  "q": "Congress of Vienna 1815",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-conservatism-02",
+  "q": "Russian Orthodox procession 19th century",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-conservatism-03",
+  "q": "Qing dynasty Self-Strengthening arsenal",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-conservatism-04",
+  "q": "Meiji Restoration ukiyo-e",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-conservatism-05",
+  "q": "Bismarck era Reichstag Berlin",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-conservatism-06",
+  "q": "Adenauer era Bonn 1950s street",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-conservatism-07",
+  "q": "Christian Democracy Italy 1948 election poster",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-conservatism-08",
+  "q": "Reagan era America 1980s street",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-conservatism-09",
+  "q": "Hindu temple festival India crowd",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-anarchism-00",
+  "q": "Paris Commune 1871 barricades",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-anarchism-01",
+  "q": "Haymarket affair 1886 engraving",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-anarchism-02",
+  "q": "IWW strike 1912 Lawrence",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-anarchism-03",
+  "q": "CNT FAI Barcelona 1936 poster",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-anarchism-04",
+  "q": "Spanish Civil War collective farm",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-anarchism-05",
+  "q": "Makhnovshchina Ukraine 1919",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-anarchism-06",
+  "q": "Magonistas Regeneración newspaper",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-anarchism-07",
+  "q": "Zapatista caracol Chiapas",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-anarchism-08",
+  "q": "Rojava women council",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-anarchism-09",
+  "q": "Tokyo 1923 earthquake aftermath",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-authoritarianism-00",
+  "q": "Great Wall of China Qin",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-authoritarianism-01",
+  "q": "Leviathan frontispiece 1651",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-authoritarianism-02",
+  "q": "Napoleon III Paris boulevard",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-authoritarianism-03",
+  "q": "Mothers of Plaza de Mayo march",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-authoritarianism-04",
+  "q": "Estadio Nacional Chile 1973",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-authoritarianism-05",
+  "q": "Park Chung-hee era Seoul factory",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-authoritarianism-06",
+  "q": "Singapore 1960s housing",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-authoritarianism-07",
+  "q": "Taiwan martial law 1970s street",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-authoritarianism-08",
+  "q": "Tahrir Square 2011 protest",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-authoritarianism-09",
+  "q": "CCTV cameras city",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-imperialism-00",
+  "q": "Potosí silver mine colonial",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-imperialism-01",
+  "q": "Tenochtitlan painting conquest",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-imperialism-02",
+  "q": "East India Company ships Bombay",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-imperialism-03",
+  "q": "slave ship diagram Brookes",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-imperialism-04",
+  "q": "Congo Free State rubber 1904",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-imperialism-05",
+  "q": "Herero genocide 1904",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-imperialism-06",
+  "q": "Berlin Conference 1884 map",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-imperialism-07",
+  "q": "Japanese colonial Taipei 1930s",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-imperialism-08",
+  "q": "Partition of India refugees 1947",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-imperialism-09",
+  "q": "Bandung 1955 Gedung Merdeka",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-imperialism-10",
+  "q": "Algiers 1960 demonstration",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-imperialism-11",
+  "q": "Dien Bien Phu 1954",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-marxism-00",
+  "q": "Petrograd 1917 demonstration",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "marxism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-marxism-01",
+  "q": "Soviet collective farm 1930s",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "marxism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-marxism-02",
+  "q": "Yan an caves",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "marxism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-marxism-03",
+  "q": "Great Leap Forward backyard furnace",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "marxism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-marxism-04",
+  "q": "Hanoi 1954 return",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "marxism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-marxism-05",
+  "q": "Havana 1959 revolution crowd",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "marxism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-marxism-06",
+  "q": "Pyongyang 1950s reconstruction",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "marxism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-marxism-07",
+  "q": "Shenzhen 1980s construction",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "marxism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-marxism-08",
+  "q": "Berlin Wall 1961 construction",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "marxism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-marxism-09",
+  "q": "Ouagadougou 1980s",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "marxism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-capitalism-00",
+  "q": "Manchester cotton mill 19th century",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "capitalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-capitalism-01",
+  "q": "child labor Lewis Hine",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "capitalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-capitalism-02",
+  "q": "Ford Highland Park assembly line",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "capitalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-capitalism-03",
+  "q": "Great Depression Dust Bowl farm",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "capitalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-capitalism-04",
+  "q": "Tokyo 1960s economic miracle street",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "capitalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-capitalism-05",
+  "q": "Lagos market crowd",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "capitalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-capitalism-06",
+  "q": "Mumbai Dharavi",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "capitalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-capitalism-07",
+  "q": "Shanghai Pudong skyline",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "capitalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-capitalism-08",
+  "q": "Wall Street New York Stock Exchange floor",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "capitalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-capitalism-09",
+  "q": "Detroit abandoned factory",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "capitalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-fascism-00",
+  "q": "Rome March on Rome 1922",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "fascism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-fascism-01",
+  "q": "Nuremberg rally 1934",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "fascism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-fascism-02",
+  "q": "Kristallnacht 1938 aftermath",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "fascism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-fascism-03",
+  "q": "Auschwitz Birkenau gate",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "fascism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-fascism-04",
+  "q": "Addis Ababa 1936 Italian",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "fascism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-fascism-05",
+  "q": "Guernica bombing 1937 ruins",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "fascism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-fascism-06",
+  "q": "Nanjing 1937 refugees",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "fascism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-fascism-07",
+  "q": "Warsaw Ghetto 1943",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "fascism"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-fascism-08",
+  "q": "Integralismo Brazil 1937",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "fascism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism2-fascism-09",
+  "q": "Ustaše Jasenovac memorial",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "fascism"
+  ],
+  "graphic": true,
+  "cap": ""
  }
 ]

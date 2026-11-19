@@ -26,7 +26,7 @@
   const urlsOf = (D) => { const X = D.data || {}; const out = [];
     (X.reading || []).forEach(([, it]) => it.forEach((x) => x[1] && out.push(x[2] ? x[1] + '#@' + x[2] : x[1])));
     ((X.lineage && X.lineage.steps) || []).forEach((s) => (s.src || []).forEach((x) => x[1] && out.push(x[2] ? x[1] + '#@' + x[2] : x[1])));
-    const L = X.locker || {}; (L.docs || []).forEach((x) => x[3] && out.push(x[3])); (L.data || []).forEach((x) => x[2] && out.push(x[2])); (L.papers || []).forEach((x) => x[4] && out.push(x[4]));
+    const L = X.locker || {}; (L.docs || []).forEach((x) => x[3] && out.push(x[4] ? x[3] + '#@' + x[4] : x[3])); (L.data || []).forEach((x) => x[2] && out.push(x[2])); (L.papers || []).forEach((x) => x[4] && out.push(x[4]));
     (X.ideas || []).forEach((x) => x[5] && x[5][1] && out.push(x[5][1]));
     return [...new Set(out)]; };
   const count = (urls) => { const c = {}; let unk = 0; urls.forEach((u) => { const tag = (u.match(/#@(\w+)$/) || [])[1]; const r = tag || Lab.sourceRegion(u.replace(/#@\w+$/, '')); if (!r) unk++; else { const k = r.replace('?', ''); c[k] = (c[k] || 0) + 1; } }); return [c, unk]; };

@@ -108,3 +108,8 @@ Open: the first loop run starts with CAP-0.
 - Added 70+ sources from Asia, Africa, Latin America, Russia and the Middle East across the nine ideology dives.
 - Legislatures: Laos (2026), Japan (Feb 2026), South Africa (2024).
 - Link check: all 726 linked Commons pictures load. Reviewed 25 contact sheets by eye and removed 171 off-target items (maps, charts, diagrams, portraits of political figures, duplicates, modern scenes for historical searches, objects).
+
+## 2026-11-19 (evening) — Fact-check pass, evidence lockers, film and photo batch
+- Fact-check of the five new dives: corrected or attributed 11 claims (Spanish clergy count 6,832 with both sides' violence; Lenin–Kropotkin; Qin book-burning as traditional account; Americas population fall as a 50–90% range; EIC dating; Cold War coups worded by documented role; "social credit" description; V-Dem 2026 figures with its critics' view; DPRK constitution "socialist/socialism" counted at 42 in the official English translation).
+- Evidence sections (original documents, datasets, peer-reviewed studies) for liberalism, conservatism, anarchism, authoritarianism, imperialism.
+- Queued 106 Commons searches: 24 archival films and 82 photo sets across all eight ideology dives; galleries wired in.
