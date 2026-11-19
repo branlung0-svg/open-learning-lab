@@ -3,7 +3,9 @@ import json, os
 from PIL import Image
 C = json.load(open('data/commons.json')); os.makedirs('img/c/t', exist_ok=True); n = 0
 for k, m in C.items():
-    f = m['f']; t = f.replace('img/c/', 'img/c/t/')
+    f = m['f']
+    if f.startswith('http'): continue  # linked from Wikimedia: it has its own thumbnail
+    t = f.replace('img/c/', 'img/c/t/')
     if not os.path.exists(f): continue
     if not os.path.exists(t):
         im = Image.open(f).convert('RGB'); im.thumbnail((520, 520)); im.save(t, quality=72, optimize=True, progressive=True); n += 1

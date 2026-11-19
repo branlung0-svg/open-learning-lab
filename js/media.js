@@ -20,7 +20,7 @@
     const box = h('figure', { class: 'cfig', style: { margin: opts.margin || '0 0 10px', display: 'none' } });
     Lab.commons().then((C) => { const m = C[key]; if (!m) return; const gm = m.graphic && Lab.graphicMode ? Lab.graphicMode() : 'show'; if (gm === 'hide') return; box.style.display = 'block';
       const media = h('div', { style: { position: 'relative', cursor: 'zoom-in', overflow: 'hidden', borderRadius: '10px' }, onclick: () => Lab.lightbox(Object.assign({}, m, opts.cap ? { cap: opts.cap } : {})) },
-        h('img', { src: Lab.mediaUrl(opts.full ? m.f : m.t || m.f), alt: opts.cap || m.cap || m.title, loading: 'lazy', onerror: (e) => { const im = e.target; if (!im.dataset.r) { im.dataset.r = 1; im.src = SITE + m.f; } else box.style.display = 'none'; }, style: { width: '100%', height: opts.max || '300px', objectFit: opts.fit || 'cover', borderRadius: '10px', display: 'block', background: '#111' } }),
+        h('img', { src: Lab.mediaUrl(opts.full ? m.f : m.t || m.f), alt: opts.cap || m.cap || m.title, loading: 'lazy', onerror: (e) => { const im = e.target; if (!im.dataset.r) { im.dataset.r = 1; im.src = /^https?:/.test(m.f) ? m.f : SITE + m.f; } else box.style.display = 'none'; }, style: { width: '100%', height: opts.max || '300px', objectFit: opts.fit || 'cover', borderRadius: '10px', display: 'block', background: '#111' } }),
         m.video ? h('span', { style: { position: 'absolute', inset: 0, display: 'grid', placeItems: 'center', fontSize: '46px', color: '#fff', textShadow: '0 2px 10px #000' } }, '▶') : null);
       if (gm === 'blur') { const im = media.querySelector('img'); im.style.filter = 'blur(22px) grayscale(.6)'; const cover = h('button', { class: 'btn sm', style: { position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%,-50%)', zIndex: 2 }, onclick: (e) => { e.stopPropagation(); im.style.filter = ''; cover.remove(); } }, '⚠️ War or violence: tap to view'); media.append(cover); }
       box.append(media, h('figcaption', { class: 'small', style: { marginTop: '6px' } }, (opts.cap || m.cap || m.desc || m.title.replace(/\.[a-z0-9]+$/i, '')).slice(0, 220)), credit(m)); });
@@ -59,7 +59,7 @@
         const nx = items[(i + 1) % items.length]; if (nx) { const pre = new Image(); pre.src = nx.src; } };
       veil.onclick = (e) => { e.stopPropagation(); seen.add(i); go(i); };
       img.onclick = () => { const it = items[i]; if (it.m) Lab.lightbox(Object.assign({}, it.m, { cap: it.cap })); else window.open(it.src, '_blank'); };
-      img.onerror = () => { const it = items[i]; if (it.m && !img.dataset.r) { img.dataset.r = 1; img.src = SITE + it.m.f; } };
+      img.onerror = () => { const it = items[i]; if (it.m && !img.dataset.r) { img.dataset.r = 1; img.src = /^https?:/.test(it.m.f) ? it.m.f : SITE + it.m.f; } };
       img.onload = () => { img.dataset.r = ''; };
       const many = items.length > 1;
       if (many) { frame.append(h('button', { class: 'car-btn prev', 'aria-label': 'Previous picture', onclick: (e) => { e.stopPropagation(); go(i - 1); } }, '‹'), h('button', { class: 'car-btn next', 'aria-label': 'Next picture', onclick: (e) => { e.stopPropagation(); go(i + 1); } }, '›'));

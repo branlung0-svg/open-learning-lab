@@ -44,6 +44,9 @@ def acceptable(ii, kind):
     if kind == 'video' and not ii.get('mime', '').startswith(('video/', 'application/ogg')): return None
     return lic
 
+# Link mode (default): pictures are not copied into the repository, which must stay under GitHub Pages' 1 GB limit.
+LINK = os.environ.get('COMMONS_COPY') != '1'
+
 def main():
     wanted = json.load(open('data/media-wanted.json'))
     out = json.load(open('data/commons.json')) if os.path.exists('data/commons.json') else {}
@@ -56,7 +59,7 @@ def main():
         try:
             titles = ([w['file']] if w.get('file') else []) + (candidates(w['q'], kind) if w.get('q') else [])
             if not titles: print('NONE', k); continue
-            I = info(titles[:15], 1100)
+            I = info(titles[:15], 960 if LINK else 1100)
             picks = []; want = int(w.get('n', 1))
             for t in titles:
                 ii = I.get(t)
@@ -71,13 +74,19 @@ def main():
               if (w.get('tags') or [''])[0] in HIST and ys and min(ys) >= 1995: continue
               m = ii.get('extmetadata', {}); k2 = kk
               slug = re.sub(r'[^a-z0-9]+', '-', k2.split(':', 1)[1].lower()).strip('-')
-              r = s.get(ii.get('thumburl') or ii['url'], timeout=60); r.raise_for_status()
-              im = Image.open(io.BytesIO(r.content)).convert('RGB'); im.thumbnail((1000, 1000))
-              im.save(f'img/c/{slug}.jpg', quality=72, optimize=True, progressive=True)
-              out[k2] = {'f': f'img/c/{slug}.jpg', 'kind': kind, 'title': t[5:], 'cap': w.get('cap', '') if want == 1 else '',
+              if LINK:
+                  # link mode: show the picture straight from Wikimedia at its standard thumbnail sizes; store only the credits
+                  full = ii.get('thumburl') or ii['url']; thumb = re.sub(r'/\d+px-', '/500px-', full) if '/thumb/' in full else full
+                  fpath, tpath, W, H = full, thumb, ii.get('thumbwidth') or ii.get('width'), ii.get('thumbheight') or ii.get('height')
+              else:
+                  r = s.get(ii.get('thumburl') or ii['url'], timeout=60); r.raise_for_status()
+                  im = Image.open(io.BytesIO(r.content)).convert('RGB'); im.thumbnail((1000, 1000))
+                  im.save(f'img/c/{slug}.jpg', quality=72, optimize=True, progressive=True); fpath, tpath, W, H = f'img/c/{slug}.jpg', None, im.width, im.height
+              out[k2] = {'f': fpath, 'kind': kind, 'title': t[5:], 'cap': w.get('cap', '') if want == 1 else '',
                         'desc': clean(m.get('ImageDescription', {}).get('value'))[:400], 'artist': clean(m.get('Artist', {}).get('value'))[:120],
                         'license': lic, 'date': clean(m.get('DateTimeOriginal', {}).get('value'))[:40], 'page': ii.get('descriptionurl'),
-                        'w': im.width, 'h': im.height, 'tags': w.get('tags', []), 'graphic': bool(w.get('graphic'))}
+                        'w': W, 'h': H, 'tags': w.get('tags', []), 'graphic': bool(w.get('graphic'))}
+              if tpath: out[k2]['t'] = tpath
               if kind == 'video': out[k2]['video'] = ii['url']
               n += 1; print('OK', k2, '->', t, '|', lic)
               time.sleep(0.5)

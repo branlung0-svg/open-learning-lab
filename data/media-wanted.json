@@ -18108,5 +18108,2469 @@
   ],
   "graphic": false,
   "cap": ""
+ },
+ {
+  "k": "c:math-y-rhind-papyrus",
+  "q": "Rhind papyrus",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:math-y-archimedes-palimpsest",
+  "q": "Archimedes palimpsest",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:math-y-fibonacci-liber-abaci-manuscript",
+  "q": "Fibonacci Liber Abaci manuscript",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:math-y-napier-bones",
+  "q": "Napier bones",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:math-y-slide-rule",
+  "q": "slide rule",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:math-y-bletchley-park-bombe",
+  "q": "Bletchley Park bombe",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:math-y-mandelbrot-set",
+  "q": "Mandelbrot set",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:math-y-ishango-bone",
+  "q": "Ishango bone",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:logic-y-boole-manuscript",
+  "q": "Boole manuscript",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:logic-y-frege-begriffsschrift",
+  "q": "Frege Begriffsschrift",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:logic-y-lewis-carroll-logic-game",
+  "q": "Lewis Carroll logic game",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:logic-y-turing-machine-model",
+  "q": "Turing machine model",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:logic-y-ramon-llull-ars-magna",
+  "q": "Ramon Llull Ars Magna",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:logic-y-jacquard-loom-punched-cards",
+  "q": "Jacquard loom punched cards",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:computing-y-difference-engine-science-museum",
+  "q": "Difference Engine Science Museum",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:computing-y-harvard-mark-i",
+  "q": "Harvard Mark I",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:computing-y-univac",
+  "q": "UNIVAC",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:computing-y-apple-i-computer",
+  "q": "Apple I computer",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:computing-y-first-web-server-cern-next",
+  "q": "first web server CERN NeXT",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:computing-y-punched-card-operators-1950s",
+  "q": "punched card operators 1950s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:computing-y-server-farm-data-center",
+  "q": "server farm data center",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:computing-y-antikythera-mechanism",
+  "q": "Antikythera mechanism",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:statistics-y-census-punch-card-1890",
+  "q": "census punch card 1890",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:statistics-y-gallup-poll-1940s",
+  "q": "Gallup poll 1940s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:statistics-y-actuarial-table-18th-century",
+  "q": "actuarial table 18th century",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:statistics-y-florence-nightingale-statistics",
+  "q": "Florence Nightingale statistics",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:statistics-y-lottery-drawing-machine-historical",
+  "q": "lottery drawing machine historical",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:physics-y-michelson-morley-interferometer",
+  "q": "Michelson Morley interferometer",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:physics-y-faraday-laboratory-royal-institution",
+  "q": "Faraday laboratory Royal Institution",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:physics-y-large-hadron-collider",
+  "q": "Large Hadron Collider",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:physics-y-galileo-inclined-plane",
+  "q": "Galileo inclined plane",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:physics-y-solvay-conference-1927",
+  "q": "Solvay Conference 1927",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:physics-y-volta-pile-battery",
+  "q": "Volta pile battery",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:physics-y-hubble-space-telescope",
+  "q": "Hubble Space Telescope",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:physics-y-fermilab",
+  "q": "Fermilab",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:chemistry-y-priestley-laboratory-apparatus",
+  "q": "Priestley laboratory apparatus",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:chemistry-y-dalton-atomic-symbols",
+  "q": "Dalton atomic symbols",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:chemistry-y-marie-curie-laboratory",
+  "q": "Marie Curie laboratory",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:chemistry-y-chemical-laboratory-19th-century",
+  "q": "chemical laboratory 19th century",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:chemistry-y-periodic-table-1871-mendeleev",
+  "q": "periodic table 1871 Mendeleev",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:chemistry-y-bunsen-burner-historical",
+  "q": "Bunsen burner historical",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:chemistry-y-haber-process-apparatus",
+  "q": "Haber process apparatus",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:chemistry-y-oil-refinery-1920s",
+  "q": "oil refinery 1920s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:biology-y-darwin-down-house-study",
+  "q": "Darwin Down House study",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:biology-y-mendel-pea-plants",
+  "q": "Mendel pea plants",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:biology-y-linnaeus-systema-naturae",
+  "q": "Linnaeus Systema Naturae",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:biology-y-herbarium-specimen-18th-century",
+  "q": "herbarium specimen 18th century",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:biology-y-fossil-archaeopteryx",
+  "q": "fossil Archaeopteryx",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:biology-y-microscope-17th-century",
+  "q": "microscope 17th century",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:biology-y-field-naturalist-expedition-1900s",
+  "q": "field naturalist expedition 1900s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:earthspace-y-apollo-11-lunar-surface",
+  "q": "Apollo 11 lunar surface",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:earthspace-y-mars-rover-curiosity",
+  "q": "Mars rover Curiosity",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:earthspace-y-seismograph-historical",
+  "q": "seismograph historical",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:earthspace-y-jodrell-bank-telescope",
+  "q": "Jodrell Bank telescope",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:earthspace-y-mauna-kea-observatories",
+  "q": "Mauna Kea observatories",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:earthspace-y-krakatoa-1883-lithograph",
+  "q": "Krakatoa 1883 lithograph",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:earthspace-y-meteorological-station-1900s",
+  "q": "meteorological station 1900s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:earthspace-y-voyager-golden-record",
+  "q": "Voyager golden record",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:economics-y-amsterdam-stock-exchange-17th-century",
+  "q": "Amsterdam stock exchange 17th century",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:economics-y-bank-of-england-1800s",
+  "q": "Bank of England 1800s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:economics-y-coins-ancient-lydia",
+  "q": "coins ancient Lydia",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:economics-y-silk-road-caravan",
+  "q": "Silk Road caravan",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:economics-y-hanseatic-league-l-beck",
+  "q": "Hanseatic League Lübeck",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:economics-y-tally-sticks-exchequer",
+  "q": "tally sticks exchequer",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:economics-y-wall-street-crash-1929-crowd",
+  "q": "Wall Street crash 1929 crowd",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:economics-y-market-trading-floor-chicago-board-of-tr",
+  "q": "market trading floor Chicago Board of Trade",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:politics-y-athenian-ostracon",
+  "q": "Athenian ostracon",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:politics-y-roman-senate-painting",
+  "q": "Roman Senate painting",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:politics-y-magna-carta-signing-painting",
+  "q": "Magna Carta signing painting",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:politics-y-tennis-court-oath",
+  "q": "Tennis Court Oath",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:politics-y-declaration-of-independence-painting-tru",
+  "q": "Declaration of Independence painting Trumbull",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:politics-y-ballot-box-19th-century",
+  "q": "ballot box 19th century",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:politics-y-women-voting-1920",
+  "q": "women voting 1920",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:politics-y-indian-general-election-1951",
+  "q": "Indian general election 1951",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:geopolitics-y-congress-of-berlin-1884",
+  "q": "Congress of Berlin 1884",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:geopolitics-y-yalta-conference-livadia-palace",
+  "q": "Yalta Conference Livadia Palace",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:geopolitics-y-strait-of-hormuz",
+  "q": "Strait of Hormuz",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:geopolitics-y-bosphorus-aerial",
+  "q": "Bosphorus aerial",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:geopolitics-y-mercator-map-1569",
+  "q": "Mercator map 1569",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:geopolitics-y-silk-road-map",
+  "q": "Silk Road map",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:geopolitics-y-berlin-conference-map-africa",
+  "q": "Berlin Conference map Africa",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:geopolitics-y-treaty-of-westphalia",
+  "q": "Treaty of Westphalia",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:psychology-y-freud-consulting-room-couch",
+  "q": "Freud consulting room couch",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:psychology-y-milgram-experiment-apparatus",
+  "q": "Milgram experiment apparatus",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:psychology-y-skinner-box",
+  "q": "Skinner box",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:psychology-y-asylum-19th-century-ward",
+  "q": "asylum 19th century ward",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:psychology-y-little-albert-experiment",
+  "q": "Little Albert experiment",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:psychology-y-phrenology-bust",
+  "q": "phrenology bust",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:psychology-y-eeg-1930s",
+  "q": "EEG 1930s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:sociology-y-chicago-school-sociology-map",
+  "q": "Chicago School sociology map",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:sociology-y-middletown-study-muncie",
+  "q": "Middletown study Muncie",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:sociology-y-census-taker-1940",
+  "q": "census taker 1940",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:sociology-y-factory-workers-canteen-1940s",
+  "q": "factory workers canteen 1940s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:anthropology-y-g-bekli-tepe",
+  "q": "Göbekli Tepe",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:anthropology-y-atalh-y-k",
+  "q": "Çatalhöyük",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:anthropology-y-chauvet-cave",
+  "q": "Chauvet cave",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:anthropology-y-terracotta-army",
+  "q": "Terracotta Army",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:anthropology-y-mohenjo-daro",
+  "q": "Mohenjo-daro",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:anthropology-y-skara-brae",
+  "q": "Skara Brae",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:law-y-justinian-code-manuscript",
+  "q": "Justinian Code manuscript",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:law-y-old-bailey-courtroom-1808",
+  "q": "Old Bailey courtroom 1808",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:law-y-supreme-court-1890s",
+  "q": "Supreme Court 1890s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:law-y-brown-v-board-of-education",
+  "q": "Brown v. Board of Education",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:law-y-hague-peace-palace",
+  "q": "Hague Peace Palace",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:law-y-international-criminal-court",
+  "q": "International Criminal Court",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:law-y-lincoln-inn",
+  "q": "Lincoln Inn",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:law-y-napoleonic-code-1804",
+  "q": "Napoleonic Code 1804",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:history-y-herodotus-manuscript",
+  "q": "Herodotus manuscript",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:history-y-sima-qian-shiji",
+  "q": "Sima Qian Shiji",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:history-y-ibn-khaldun-muqaddimah-manuscript",
+  "q": "Ibn Khaldun Muqaddimah manuscript",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:history-y-archive-reading-room-historical",
+  "q": "archive reading room historical",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:history-y-pompeii-excavation",
+  "q": "Pompeii excavation",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:history-y-library-of-alexandria",
+  "q": "Library of Alexandria",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:history-y-timbuktu-manuscripts",
+  "q": "Timbuktu manuscripts",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:history-y-domesday-book",
+  "q": "Domesday Book",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:philosophy-y-plato-academy-mosaic",
+  "q": "Plato Academy mosaic",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:philosophy-y-confucius-analects",
+  "q": "Confucius Analects",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:philosophy-y-avicenna-manuscript",
+  "q": "Avicenna manuscript",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:philosophy-y-spinoza-house-rijnsburg",
+  "q": "Spinoza house Rijnsburg",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:philosophy-y-kant-k-nigsberg",
+  "q": "Kant Königsberg",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:philosophy-y-nalanda",
+  "q": "Nalanda",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:philosophy-y-zhuangzi-butterfly-painting",
+  "q": "Zhuangzi butterfly painting",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:philosophy-y-descartes-meditations-title-page",
+  "q": "Descartes Meditations title page",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:religion-y-kaaba-historical-photograph",
+  "q": "Kaaba historical photograph",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:religion-y-ganges-kumbh-mela",
+  "q": "Ganges Kumbh Mela",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:religion-y-western-wall-1900s",
+  "q": "Western Wall 1900s",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:religion-y-shwedagon-pagoda",
+  "q": "Shwedagon Pagoda",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:religion-y-vatican-st-peter-square",
+  "q": "Vatican St Peter Square",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:religion-y-golden-temple-amritsar",
+  "q": "Golden Temple Amritsar",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:religion-y-ise-grand-shrine",
+  "q": "Ise Grand Shrine",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:religion-y-lalibela-church",
+  "q": "Lalibela church",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:linguistics-y-rosetta-stone-hieroglyphs",
+  "q": "Rosetta Stone hieroglyphs",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:linguistics-y-behistun-inscription",
+  "q": "Behistun inscription",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:linguistics-y-rongorongo-tablet",
+  "q": "Rongorongo tablet",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:linguistics-y-oracle-bone-script",
+  "q": "oracle bone script",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:linguistics-y-cyrillic-manuscript-ostromir",
+  "q": "Cyrillic manuscript Ostromir",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:linguistics-y-mayan-glyphs-dresden-codex",
+  "q": "Mayan glyphs Dresden Codex",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:linguistics-y-braille-book",
+  "q": "Braille book",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:linguistics-y-sign-language",
+  "q": "sign language",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:literature-y-gutenberg-bible",
+  "q": "Gutenberg Bible",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:literature-y-don-quixote-first-edition",
+  "q": "Don Quixote first edition",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:literature-y-dream-of-the-red-chamber-illustration",
+  "q": "Dream of the Red Chamber illustration",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:literature-y-mahabharata-manuscript",
+  "q": "Mahabharata manuscript",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:literature-y-thousand-and-one-nights-manuscript",
+  "q": "Thousand and One Nights manuscript",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:literature-y-shakespeare-globe-theatre",
+  "q": "Shakespeare Globe Theatre",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:literature-y-tolstoy-yasnaya-polyana",
+  "q": "Tolstoy Yasnaya Polyana",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:literature-y-popol-vuh-manuscript",
+  "q": "Popol Vuh manuscript",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:arts-y-sistine-chapel-ceiling",
+  "q": "Sistine Chapel ceiling",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:arts-y-mona-lisa-louvre",
+  "q": "Mona Lisa Louvre",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:arts-y-ajanta-murals",
+  "q": "Ajanta murals",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:arts-y-frida-kahlo-house-coyoac-n",
+  "q": "Frida Kahlo house Coyoacán",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:arts-y-kabuki-theatre",
+  "q": "Kabuki theatre",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:arts-y-benin-bronzes-british-museum",
+  "q": "Benin bronzes British Museum",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:arts-y-lascaux",
+  "q": "Lascaux",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:engineering-y-panama-canal-locks-construction",
+  "q": "Panama Canal locks construction",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:engineering-y-brunel-great-eastern",
+  "q": "Brunel Great Eastern",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:engineering-y-roman-roads-via-appia",
+  "q": "Roman roads Via Appia",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:engineering-y-three-gorges-dam-construction",
+  "q": "Three Gorges Dam construction",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:engineering-y-burj-khalifa-construction",
+  "q": "Burj Khalifa construction",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:engineering-y-channel-tunnel-boring-machine",
+  "q": "Channel Tunnel boring machine",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:engineering-y-golden-gate-bridge-cables",
+  "q": "Golden Gate Bridge cables",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:engineering-y-steam-locomotive-rocket",
+  "q": "steam locomotive Rocket",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:medicine-y-jenner-smallpox-vaccination-painting",
+  "q": "Jenner smallpox vaccination painting",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:medicine-y-lister-carbolic-spray",
+  "q": "Lister carbolic spray",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:medicine-y-x-ray-1896-hand",
+  "q": "X-ray 1896 hand",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:medicine-y-polio-vaccine-salk-1955",
+  "q": "polio vaccine Salk 1955",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:medicine-y-ebola-treatment-center",
+  "q": "Ebola treatment center",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:medicine-y-h-tel-dieu-paris",
+  "q": "Hôtel-Dieu Paris",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:medicine-y-avicenna-canon-of-medicine",
+  "q": "Avicenna Canon of Medicine",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ethics-y-nuremberg-code",
+  "q": "Nuremberg Code",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ethics-y-belmont-report",
+  "q": "Belmont Report",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ethics-y-willowbrook",
+  "q": "Willowbrook",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ethics-y-universal-declaration-human-rights",
+  "q": "Universal Declaration Human Rights",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ethics-y-animal-testing-laboratory",
+  "q": "animal testing laboratory",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ethics-y-asilomar-conference",
+  "q": "Asilomar conference",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:ethics-y-trolley-problem",
+  "q": "trolley problem",
+  "n": 3,
+  "kind": "image",
+  "tags": [],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:physics-y-atomic-test-film",
+  "q": "atomic test film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:medicine-y-polio-vaccine-film-1950s",
+  "q": "polio vaccine film 1950s",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:engineering-y-hoover-dam-construction-film",
+  "q": "Hoover Dam construction film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:earthspace-y-apollo-11-film",
+  "q": "Apollo 11 film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:economics-y-great-depression-film",
+  "q": "Great Depression film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:politics-y-election-newsreel",
+  "q": "election newsreel",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:geopolitics-y-newsreel-1945",
+  "q": "newsreel 1945",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:sociology-y-1930s-street-film",
+  "q": "1930s street film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:arts-y-1920s-dance-film",
+  "q": "1920s dance film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:biology-y-microscope-film",
+  "q": "microscope film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:chemistry-y-chemistry-film",
+  "q": "chemistry film",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "v:history-y-newsreel-1914",
+  "q": "newsreel 1914",
+  "n": 2,
+  "kind": "video",
+  "tags": [
+   "film"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlzh-01",
+  "q": "上海 历史照片",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-zh"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlzh-02",
+  "q": "北京 老照片",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-zh"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlzh-03",
+  "q": "中国 农村 1950年代",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-zh"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlzh-04",
+  "q": "延安",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-zh"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlzh-05",
+  "q": "大跃进",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-zh"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlzh-06",
+  "q": "改革开放 深圳",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-zh"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlzh-07",
+  "q": "长城",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-zh"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlzh-08",
+  "q": "黄河",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-zh"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlzh-09",
+  "q": "重庆 城市",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-zh"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlzh-10",
+  "q": "香港 1960年代",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-zh"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlru-01",
+  "q": "Москва 1930-е",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ru"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlru-02",
+  "q": "Ленинград блокада",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ru"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlru-03",
+  "q": "колхоз 1930-е",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ru"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlru-04",
+  "q": "Магнитка строительство",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ru"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlru-05",
+  "q": "Сибирь деревня",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ru"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlru-06",
+  "q": "Байкал",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ru"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlru-07",
+  "q": "Сталинград 1942",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ru"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlru-08",
+  "q": "ВДНХ",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ru"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlru-09",
+  "q": "Новосибирск",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ru"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlru-10",
+  "q": "советский плакат",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ru"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlar-01",
+  "q": "القاهرة قديما",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ar"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlar-02",
+  "q": "بغداد قديما",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ar"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlar-03",
+  "q": "دمشق القديمة",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ar"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlar-04",
+  "q": "مكة المكرمة تاريخ",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ar"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlar-05",
+  "q": "القدس القديمة",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ar"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlar-06",
+  "q": "بيروت ١٩٦٠",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ar"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlar-07",
+  "q": "الجزائر حرب التحرير",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ar"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlar-08",
+  "q": "صنعاء القديمة",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ar"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mles-01",
+  "q": "La Habana antigua",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-es"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mles-02",
+  "q": "campesinos México Revolución",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-es"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mles-03",
+  "q": "Buenos Aires antiguo",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-es"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mles-04",
+  "q": "Machu Picchu",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-es"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mles-05",
+  "q": "Guerra Civil Española fotografía",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-es"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mles-06",
+  "q": "zafra Cuba",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-es"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mles-07",
+  "q": "Bogotá antigua",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-es"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mles-08",
+  "q": "Santiago de Chile 1973",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-es"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlhi-01",
+  "q": "भारत गाँव",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-hi"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlhi-02",
+  "q": "वाराणसी घाट",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-hi"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlhi-03",
+  "q": "दिल्ली पुरानी",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-hi"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlvi-01",
+  "q": "Hà Nội xưa",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-vi"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlvi-02",
+  "q": "Sài Gòn xưa",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-vi"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlvi-03",
+  "q": "ruộng bậc thang",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-vi"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlvi-04",
+  "q": "Điện Biên Phủ",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-vi"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlja-01",
+  "q": "東京 昭和",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ja"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlja-02",
+  "q": "広島 原爆",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ja"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlja-03",
+  "q": "大阪 明治",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ja"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlja-04",
+  "q": "農村 昭和",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ja"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlko-01",
+  "q": "서울 1950년대",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ko"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlko-02",
+  "q": "한국전쟁",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ko"
+  ],
+  "graphic": true,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlko-03",
+  "q": "평양",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-ko"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlfr-01",
+  "q": "Paris 1900",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-fr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlfr-02",
+  "q": "Commune de Paris 1871",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-fr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlfr-03",
+  "q": "Dakar colonial",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-fr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlfr-04",
+  "q": "Alger 1950",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-fr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlde-01",
+  "q": "Berlin 1920er",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-de"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlde-02",
+  "q": "Ruhrgebiet Zeche",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-de"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlde-03",
+  "q": "DDR Alltag",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-de"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlde-04",
+  "q": "Trümmerfrauen",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-de"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlpt-01",
+  "q": "Lisboa antiga",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-pt"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlpt-02",
+  "q": "Rio de Janeiro antigo",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-pt"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlpt-03",
+  "q": "Luanda colonial",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-pt"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlpt-04",
+  "q": "Moçambique colonial",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-pt"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mltr-01",
+  "q": "İstanbul eski",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-tr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mltr-02",
+  "q": "Ankara 1930",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-tr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlfa-01",
+  "q": "تهران قدیم",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-fa"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlfa-02",
+  "q": "اصفهان",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-fa"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlsw-01",
+  "q": "Dar es Salaam zamani",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-sw"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-mlsw-02",
+  "q": "Zanzibar",
+  "n": 4,
+  "kind": "image",
+  "tags": [
+   "lang-sw"
+  ],
+  "graphic": false,
+  "cap": ""
  }
 ]
