@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw
 UA = {'User-Agent': 'OpenLearningLab/1.0 (https://branlung0-svg.github.io/open-learning-lab/; educational review)'}
 C = json.load(open('data/commons.json'))
 only = sys.argv[1] if len(sys.argv) > 1 else ''
-keys = [k for k, v in C.items() if str(v.get('t', '')).startswith('http') and k.startswith(only)]
+keys = [k for k, v in C.items() if str(v.get('t', '')).startswith('http') and (k.startswith(('c:a-ism2-', 'v:ism-')) if only == 'NEWSET' else k.startswith(only))]
 s = requests.Session(); s.headers.update(UA)
 ok, bad, thumbs = [], [], {}
 for k in keys:
