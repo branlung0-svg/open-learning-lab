@@ -20572,5 +20572,437 @@
   ],
   "graphic": false,
   "cap": ""
+ },
+ {
+  "k": "c:a-ism-liberalism-locke",
+  "q": "Glorious Revolution 1688 William of Orange landing Torbay painting",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-liberalism-revs",
+  "q": "Storming of the Bastille 1789 painting",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-liberalism-classic",
+  "q": "Anti-Corn Law League meeting 1846",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-liberalism-abroad",
+  "q": "Meiji era Tokyo street 1880s photograph",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-liberalism-social",
+  "q": "Works Progress Administration workers 1936 photograph",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-liberalism-order",
+  "q": "Bretton Woods conference 1944 Mount Washington Hotel",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-liberalism-neo",
+  "q": "Canary Wharf London 1990s",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-liberalism-now",
+  "q": "Occupy Wall Street Zuccotti Park 2011",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "liberalism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-conservatism-burke",
+  "q": "House of Commons 1790s painting",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-conservatism-reaction",
+  "q": "Congress of Vienna 1815 painting",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-conservatism-asia",
+  "q": "Jiangnan Arsenal Shanghai 19th century",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-conservatism-onenation",
+  "q": "Berlin 1880s street photograph",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-conservatism-cd",
+  "q": "West Germany Wirtschaftswunder 1950s street",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-conservatism-newright",
+  "q": "Miners strike 1984 picket",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-conservatism-national",
+  "q": "Brexit referendum 2016 campaign street",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "conservatism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-anarchism-proudhon",
+  "q": "Revolution of 1848 Paris barricade",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-anarchism-bakunin",
+  "q": "Paris Commune 1871 barricade photograph",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-anarchism-kropotkin",
+  "q": "Haymarket affair 1886 Chicago",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-anarchism-asia",
+  "q": "Tokyo 1910s street photograph",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-anarchism-mexukr",
+  "q": "Mexican Revolution 1911 soldiers photograph",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-anarchism-spain",
+  "q": "Barcelona 1936 militia photograph",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-anarchism-now",
+  "q": "Zapatista Chiapas mural",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "anarchism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-authoritarianism-qin",
+  "q": "Terracotta Army Xian",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-authoritarianism-hobbes",
+  "q": "Palace of Versailles Hall of Mirrors",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-authoritarianism-bonapart",
+  "q": "Haussmann Paris boulevard 19th century photograph",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-authoritarianism-military",
+  "q": "Plaza de Mayo mothers march",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-authoritarianism-develop",
+  "q": "Seoul 1970s Cheonggyecheon photograph",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-authoritarianism-competitive",
+  "q": "polling station ballot box election observers",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-authoritarianism-digital",
+  "q": "surveillance cameras pole city",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "authoritarianism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-imperialism-conquest",
+  "q": "Cerro Rico Potosí silver mine",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-imperialism-company",
+  "q": "East India House London engraving",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-imperialism-new",
+  "q": "Berlin Conference 1884 engraving",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-imperialism-japan",
+  "q": "Seoul Government-General Building Japanese colonial",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-imperialism-decol",
+  "q": "Bandung Conference 1955 Gedung Merdeka",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-imperialism-neo",
+  "q": "Tehran 1953 coup crowd",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-ism-imperialism-now",
+  "q": "Port of Mombasa container cranes",
+  "n": 3,
+  "kind": "image",
+  "tags": [
+   "ideologies",
+   "imperialism"
+  ],
+  "graphic": false,
+  "cap": ""
  }
 ]
