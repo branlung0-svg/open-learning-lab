@@ -15,7 +15,7 @@
         h('p', { class: 'hw-sub' }, 'Real photographs, documents, data and film from public archives. Twenty-four disciplines, deep dives into the ideas that shaped the modern world, and labs where you work on real problems.'),
         h('div', { class: 'hw-cta' }, h('a', { class: 'btn primary hw-btn', href: '#learn' }, 'Start the journey →'), h('a', { class: 'btn hw-btn2', href: '#archive' }, 'Explore the Archive'), h('a', { class: 'btn hw-btn2', href: '#home-dives' }, 'Pick a deep dive')),
         nums));
-    const N = [[24, 'disciplines'], [(Lab.ARC && Lab.ARC.labs.length) || 100, 'hands-on labs'], [400, 'complete books', '+'], [0, 'pictures and films', '+'], [Object.keys(Lab.DEEPDIVES || {}).length + Object.keys(Lab.DISCDIVES || {}).length + 1, 'deep dives']];
+    const N = [[24, 'disciplines'], [(Lab.ARC && Lab.ARC.labs.length) || 100, 'hands-on labs'], [400, 'complete books', '+'], [0, 'pictures and films', '+'], [Math.max(Object.keys(Lab.DIVES_ALL || {}).length, Object.keys(Lab.DEEPDIVES || {}).length + Object.keys(Lab.DISCDIVES || {}).length + 1), 'deep dives']];
     const els = N.map(([, l]) => { const b = h('b'); nums.append(h('div', null, b, h('span', null, l))); return b; });
     Promise.all([Lab.commons(), Lab.MODERN && Lab.MODERN.imgIndex ? Lab.MODERN.imgIndex() : {}]).then(([C, M]) => {
       N[3][0] = Object.keys(C).length + Object.keys(M || {}).length; N.forEach(([n, , s], i) => count(els[i], n, s));
