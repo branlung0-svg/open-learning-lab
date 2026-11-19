@@ -101,3 +101,10 @@ Open: the first loop run starts with CAP-0.
 - #mathpath: 14 rungs from counting to statistics, each with interactive picture, why/history/uses, practice; formula builder (safe parser, sliders, plot).
 - #method: research standard (quant + qual, 8 rules, honest gaps); tutor rules now include it.
 - Scroll memory restores only on Back/Forward; back-to-top button.
+
+## 2026-11-19 (later) — Five ideology dives, source balance, picture review
+- New deep dives with step-by-step lineages: liberalism (8 steps), conservatism (7), anarchism (7), authoritarianism (7), imperialism & colonialism (7); each has core ideas, debates and a reading room.
+- Source-balance meter on every reading room and on #method, counting by origin of the voice where tagged. Before adding voices: 100% of region-tagged sources were Western; after: about 47% Western / 53% elsewhere among linked, tagged sources (unlinked books, mostly Western, not counted).
+- Added 70+ sources from Asia, Africa, Latin America, Russia and the Middle East across the nine ideology dives.
+- Legislatures: Laos (2026), Japan (Feb 2026), South Africa (2024).
+- Link check: all 726 linked Commons pictures load. Reviewed 25 contact sheets by eye and removed 171 off-target items (maps, charts, diagrams, portraits of political figures, duplicates, modern scenes for historical searches, objects).
