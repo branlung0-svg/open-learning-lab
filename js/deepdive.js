@@ -328,6 +328,8 @@ if (!M.SUBS.some(([k]) => k === 'dives')) M.SUBS.push(['dives', 'Ideologies side
 ensureGroup();
 M.render.dives = (el) => {
   const dives = Object.values(Lab.DEEPDIVES);
+  const extra = Object.values(Lab.DIVES_ALL || {}).filter((D) => D.host === 'history' && !Lab.DEEPDIVES[D.id]);
+  if (extra.length) el.append(card(h('h2', { style: { marginTop: 0 } }, 'Every ideology deep dive'), h('div', { class: 'new-row' }, [...dives, ...extra].map((D) => h('a', { class: 'new-chip', href: '#' + D.base }, h('span', null, D.emoji || '📘'), h('b', null, D.tab || D.title))))));
   let only = 'all';
   const table = h('div');
   const chips = h('div', { class: 'row', style: { gap: '6px' } });

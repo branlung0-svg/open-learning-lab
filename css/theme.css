@@ -265,3 +265,7 @@ a:hover{text-decoration-thickness:2px}
 .feat-card{display:flex;flex-direction:column;gap:4px;text-decoration:none!important;color:inherit!important;border-left:5px solid var(--accent)}
 .bal-bar{display:flex;height:16px;border-radius:8px;overflow:hidden;gap:2px;margin:6px 0}
 .bal-bar span{min-width:3px}
+.new-strip{margin-top:12px;padding:12px 14px}
+.new-row{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
+.new-chip{flex:none;display:flex;align-items:center;gap:6px;padding:8px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card2);text-decoration:none!important;color:inherit!important;white-space:nowrap;font-size:14px}
+.new-chip:hover{border-color:var(--accent)}

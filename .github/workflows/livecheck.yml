@@ -1,0 +1,17 @@
+name: live-check
+on:
+  push:
+    branches: [main]
+    paths: ['index.html']
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash tools/livecheck.sh
+      - run: |
+          git config user.name "lab-bot"; git config user.email "lab-bot@users.noreply.github.com"
+          git add plan/live-check.txt; git commit -m "Live check: what GitHub Pages is serving" || exit 0
+          git pull --rebase origin main && git push origin HEAD:main
