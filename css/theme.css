@@ -237,3 +237,29 @@ a:hover{text-decoration-thickness:2px}
 .me-set{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding:10px 0;border-bottom:1px solid var(--line)}
 .me-set select{max-width:100%}
 .save-btn.on{color:#B45309;border-color:#F59E0B}
+.stage-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:8px;counter-reset:st}
+.stage{position:relative;padding:12px;border-radius:12px;background:var(--card2);border-left:4px solid var(--accent)}
+.totop{position:fixed;left:16px;bottom:18px;z-index:40;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:inherit;font-size:20px;box-shadow:0 4px 14px rgba(0,0,0,.18);cursor:pointer;opacity:0;pointer-events:none;transition:opacity .2s}
+.totop.on{opacity:1;pointer-events:auto}
+/* seat charts and ladders */
+.hemi svg{width:100%;max-width:360px;display:block;margin:0 auto}
+.ladder{display:flex;flex-direction:column-reverse;gap:6px}
+.rung{border-radius:10px;border:1px solid var(--line);border-left:5px solid var(--rc);padding:8px 10px;background:var(--card)}
+.rung summary{cursor:pointer;display:flex;flex-direction:column;gap:2px;list-style:none}
+.rung summary::-webkit-details-marker{display:none}
+.rung summary .tiny{color:var(--rc);text-transform:uppercase;letter-spacing:.06em}
+.inst-card{text-align:left;cursor:pointer;font:inherit;color:inherit}
+/* math path */
+.mp-svg svg{width:100%;max-width:560px;display:block;margin:6px auto;overflow:visible}
+.mp-sl{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0}
+.mp-sl input[type=range]{flex:1;min-width:140px}
+.mp-digits{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.mp-digit{display:flex;flex-direction:column;align-items:center;padding:8px 12px;border-radius:10px;background:var(--card2);min-width:56px}
+.mp-digit b{font-size:26px;font-family:var(--serif,Georgia,serif)}
+.mp-box{padding:10px 12px;border-radius:12px;background:var(--card2)}
+.mp-practice{display:flex;flex-direction:column;gap:4px}
+.mp-practice input{max-width:180px}
+.mp-result{font-size:28px;font-weight:700;font-family:var(--serif,Georgia,serif);margin:8px 0}
+.lin-step.done{border-color:#15803D}
+.lin-step.done .tiny::after{content:" ✓";color:#15803D}
+.feat-card{display:flex;flex-direction:column;gap:4px;text-decoration:none!important;color:inherit!important;border-left:5px solid var(--accent)}

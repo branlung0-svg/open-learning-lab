@@ -55,7 +55,7 @@
         const hidden = !!(it.graphic && !seen.has(i)); img.classList.toggle('blur', hidden); veil.style.display = hidden ? '' : 'none';
         count.textContent = `${i + 1} / ${items.length}`; cap.textContent = (it.cap || '').slice(0, 260);
         cred.replaceChildren(it.m ? credit(it.m) : h('span', null, it.credit || ''));
-        thumbs.querySelectorAll('button').forEach((b, n) => b.classList.toggle('on', n === i)); const tb = thumbs.children[i]; if (tb) tb.scrollIntoView({ block: 'nearest', inline: 'center' });
+        thumbs.querySelectorAll('button').forEach((b, n) => b.classList.toggle('on', n === i)); const tb = thumbs.children[i]; if (tb) Lab.centerInRow(tb);
         const nx = items[(i + 1) % items.length]; if (nx) { const pre = new Image(); pre.src = nx.src; } };
       veil.onclick = (e) => { e.stopPropagation(); seen.add(i); go(i); };
       img.onclick = () => { const it = items[i]; if (it.m) Lab.lightbox(Object.assign({}, it.m, { cap: it.cap })); else window.open(it.src, '_blank'); };

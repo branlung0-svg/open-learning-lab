@@ -162,7 +162,7 @@
 
   // ---------- tutor ----------
   let sampleP = null, ctxText = '', history = [], busy = false;
-  const TUTOR_RULES_BASE = `Rules: explain clearly with concrete examples and numbers; check understanding with one short question at the end when useful; on contested historical or political questions give the strongest case each side makes, say what the evidence shows, and label confidence as Established, Strong, Contested, Unknown or Clouded; say plainly when evidence is thin; never invent quotes, numbers or sources; keep answers under about 250 words unless asked for more; use plain text with short paragraphs or simple dashes, no markdown headings.`;
+  const TUTOR_RULES_BASE = `Rules: explain clearly with concrete examples and numbers; check understanding with one short question at the end when useful; on contested historical or political questions give the strongest case each side makes, say what the evidence shows, and label confidence as Established, Strong, Contested, Unknown or Clouded; follow the Lab's research standard: pair the quantitative side (numbers with ranges, dates, who measured them and how, and how uncertain they are) with the qualitative side (causes, material conditions, motives, and what people lived through, in their own testimony where possible); draw sources from different regions and languages, including Chinese, Russian, Arabic, African, Latin American and South Asian sources alongside Western ones, and say whose perspective each source represents; when translating, give the original term and explain words that have no exact English equivalent; when an ideology or state is discussed, state what it claims about itself in its own terms before the criticisms; mark anything from 2025–26 as developing; say plainly when evidence is thin; never invent quotes, numbers or sources; keep answers under about 250 words unless asked for more; use plain text with short paragraphs or simple dashes, no markdown headings.`;
   const TUTOR_RULES = () => { const p = Lab.state.profile || {}; const age = { kid: 'a child aged 10 to 12 (use simple words, short sentences and friendly examples; avoid graphic detail)', teen: 'a teenager aged 13 to 17', adult: 'an adult', senior: 'an older adult aged 65 or more' }[p.age] || 'a learner of unknown age (assume an adult but keep language clear)'; const depth = { simple: 'Keep explanations short and simple.', standard: 'Give clear explanations with the key details.', deep: 'Go deep: data, debates, sources and nuance.' }[p.depth] || ''; const goals = (p.goals || []).length ? ' Their goals: ' + p.goals.join(', ') + '.' : ''; const ints = (p.interests || []).length ? ' Interests: ' + p.interests.join(', ') + '.' : ''; return `You are a sharp, warm tutor inside the free "Open Learning Lab" app. You are talking with ${age}.${goals}${ints} ${depth} ` + TUTOR_RULES_BASE; };
   Lab.setContext = (text) => { ctxText = text || ''; $('#tutorCtx').textContent = ctxText ? '· ' + ctxText.split('\n')[0].slice(0, 60) : ''; };
   Lab.ask = function (question, context) { if (context) Lab.setContext(context); openDrawer(); if (question) { $('#tutorIn').value = question; send(); } };
@@ -202,13 +202,21 @@
 
   // ---------- router ----------
   let cleanup = null;
-  // remember where you were on each page, so Back returns you to the same spot
-  let lastHash = null; const scrollMem = (() => { try { return JSON.parse(sessionStorage.getItem('lab-scroll') || '{}'); } catch (e) { return {}; } })();
-  let curY = 0;
-  const saveScroll = () => { if (lastHash) { scrollMem[lastHash] = curY; try { sessionStorage.setItem('lab-scroll', JSON.stringify(scrollMem)); } catch (e) {} } };
-  window.addEventListener('scroll', () => { if ((location.hash || '#home') === lastHash) curY = window.scrollY; }, { passive: true });
-  window.addEventListener('beforeunload', saveScroll);
-  { const H = window.history; const rs = H.replaceState.bind(H); H.replaceState = (...x) => { rs(...x); lastHash = location.hash || '#home'; }; }
+  // Scroll memory: Back and Forward return you to the spot you left; opening a page fresh (a link, a tab, search) starts at the top.
+  // Each history entry gets its own number in history.state, so the same page opened twice keeps two separate positions.
+  const H0 = window.history; const rs = H0.replaceState.bind(H0);
+  const scrollMem = (() => { try { return JSON.parse(sessionStorage.getItem('lab-scroll2') || '{}'); } catch (e) { return {}; } })();
+  let seq = (() => { try { return +sessionStorage.getItem('lab-seq') || 0; } catch (e) { return 0; } })();
+  let lastKey = null, curY = 0, lastHash = null;
+  const saveScroll = () => { if (lastKey) { scrollMem[lastKey] = curY; const ks = Object.keys(scrollMem); if (ks.length > 200) ks.slice(0, ks.length - 200).forEach((k) => delete scrollMem[k]); try { sessionStorage.setItem('lab-scroll2', JSON.stringify(scrollMem)); } catch (e) {} } };
+  window.addEventListener('scroll', () => { if ((location.hash || '#home') === lastHash) curY = window.scrollY; const tt = document.getElementById('totop'); if (tt) tt.classList.toggle('on', window.scrollY > 1400); }, { passive: true });
+  window.addEventListener('pagehide', saveScroll);
+  // in-page tab changes call replaceState(null, …): keep this entry's number so its position is not lost
+  H0.replaceState = (st, t, u) => { rs(st == null ? H0.state : st, t, u); lastHash = location.hash || '#home'; };
+  const entryKey = () => { const st = H0.state; if (st && st.labN) return [st.labN, true]; seq += 1; try { sessionStorage.setItem('lab-seq', seq); } catch (e) {} rs(Object.assign({}, st || {}, { labN: seq }), '', location.href); return [seq, false]; };
+  Lab.toTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+  // centre an item inside its horizontal row without moving the page up or down
+  Lab.centerInRow = (el) => { const row = el && el.parentElement; if (!row) return; row.scrollTo({ left: el.offsetLeft - row.offsetLeft - (row.clientWidth - el.clientWidth) / 2, behavior: 'smooth' }); };
   function route() {
     saveScroll();
     if (cleanup) { try { cleanup(); } catch (e) {} cleanup = null; }
@@ -219,9 +227,9 @@
     app.innerHTML = '';
     window.scrollTo(0, 0);
     const enh = () => Lab.enhanceHeroes && Lab.enhanceHeroes(sid, eid); Promise.resolve().then(enh); setTimeout(enh, 700);
-    const want = scrollMem[location.hash || '#home'];
+    const [key, revisit] = entryKey(); const want = revisit ? scrollMem[key] : 0;
     if (want > 0) { let tries = 0; const go = () => { if (document.body.scrollHeight >= want + innerHeight * 0.5 || tries > 12) { window.scrollTo(0, want); curY = window.scrollY; } else { tries++; setTimeout(go, 120); } }; setTimeout(go, 60); }
-    lastHash = location.hash || '#home'; curY = 0;
+    lastKey = key; lastHash = location.hash || '#home'; curY = 0;
     if (Lab.routes[sid]) {
       document.documentElement.style.setProperty('--accent', '#3B82F6');
       try { cleanup = Lab.routes[sid](app, [eid, ...rest].filter(Boolean)) || null; }
@@ -258,7 +266,7 @@
     $('#fab').onclick = openDrawer; $('#tutorClose').onclick = closeDrawer;
     $('#tutorForm').onsubmit = (e) => { e.preventDefault(); send(); };
     $('#tutorIn').addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); } });
-    $('#foot').innerHTML = `<b>${Lab.SITE_NAME || 'Open Learning Lab'}</b>: free and open for everyone. <a href="#about">About</a> · <a href="#search">Search</a> · <a href="#reviewers">How it’s checked</a> · <a href="#privacy">Privacy</a> · <a href="#changes">Corrections</a> · <a href="https://github.com/branlung0-svg/open-learning-lab/issues/new?title=Mistake%20on%20page%3A%20" target="_blank" rel="noopener">Report a mistake</a> · <a href="#archive">Archive</a> · <a href="#review">Review</a> · <a href="#notes">Notes</a> · <a href="#settings">Settings</a> · <a href="https://github.com/branlung0-svg/open-learning-lab" target="_blank" rel="noopener">Source code</a><br>Images: Wikimedia Commons (each credited with its author and license) and NASA (public domain). Books: Project Gutenberg and scanned public-domain editions from the Internet Archive. Primary documents: the Avalon Project, Yale Law School. Data: Maddison Project, V-Dem Institute (CC BY-SA), Correlates of War, SIPRI, UCDP/PRIO, World Inequality Database, World Bank, Robert Shiller and others via Our World in Data and the datasets project on GitHub; historical borders by A. Ourednik (GPL-3); periodic table data by Bowserinator (summaries from Wikipedia, CC BY-SA).`;
+    $('#foot').innerHTML = `<b>${Lab.SITE_NAME || 'Open Learning Lab'}</b>: free and open for everyone. <a href="#about">About</a> · <a href="#search">Search</a> · <a href="#reviewers">How it’s checked</a> · <a href="#method">Research standard</a> · <a href="#parliaments">Parliaments</a> · <a href="#institutions">World institutions</a> · <a href="#mathpath">Math path</a> · <a href="#privacy">Privacy</a> · <a href="#changes">Corrections</a> · <a href="https://github.com/branlung0-svg/open-learning-lab/issues/new?title=Mistake%20on%20page%3A%20" target="_blank" rel="noopener">Report a mistake</a> · <a href="#archive">Archive</a> · <a href="#review">Review</a> · <a href="#notes">Notes</a> · <a href="#settings">Settings</a> · <a href="https://github.com/branlung0-svg/open-learning-lab" target="_blank" rel="noopener">Source code</a><br>Images: Wikimedia Commons (each credited with its author and license) and NASA (public domain). Books: Project Gutenberg and scanned public-domain editions from the Internet Archive. Primary documents: the Avalon Project, Yale Law School. Data: Maddison Project, V-Dem Institute (CC BY-SA), Correlates of War, SIPRI, UCDP/PRIO, World Inequality Database, World Bank, Robert Shiller and others via Our World in Data and the datasets project on GitHub; historical borders by A. Ourednik (GPL-3); periodic table data by Bowserinator (summaries from Wikipedia, CC BY-SA).`;
     renderXP(); route(); connectDB();
   });
   window.addEventListener('hashchange', route);

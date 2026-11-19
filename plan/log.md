@@ -93,3 +93,11 @@ Open: the first loop run starts with CAP-0.
 - Charts now use a proportional time axis (Lab.chartSVG).
 - My Lab (js/me.js, #me): saved items (☆ Save on dive sections and countries), recent pages, deep-dive progress, For you, text size / tutor depth / graphic pictures / language. Translation via Google Translate (page and picture captions).
 - Media: 853 country searches queued (capital, landscape, village, history; extra cities for big countries); new pictures saved at 1000 px q72 to keep the Pages site under 1 GB (now ~610 MB).
+
+## 2026-11-19 — Research standard, parliaments, institutions, math path
+- DPRK context: constitution keeps "socialism" (~40 mentions in 2019 text); what Juche kept from Marx/Engels, Lenin, Stalin, Mao; withering-state shown as three readings incl. the one-country/global argument; new ⏳ "postponed" tracker mark; stages panel (capitalism → transition → lower → higher phase) with each state's own stage claims.
+- #parliaments: seat charts for 10 chambers with as-of dates and sources; #parliaments-china: state and Party ladders (direct elections only at township/county level).
+- #institutions: 17 bodies (UN, IMF, World Bank, WTO, ICC, ICJ, NATO, BRICS, SCO, APEC, G7/G20, EU, AU, ASEAN, OPEC, WEF, lobbying/super PACs) with supporters, Western critics and Global South/East critics; follow-the-money databases.
+- #mathpath: 14 rungs from counting to statistics, each with interactive picture, why/history/uses, practice; formula builder (safe parser, sliders, plot).
+- #method: research standard (quant + qual, 8 rules, honest gaps); tutor rules now include it.
+- Scroll memory restores only on Back/Forward; back-to-top button.

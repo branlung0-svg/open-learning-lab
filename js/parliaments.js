@@ -1,0 +1,87 @@
+// Parliaments and power structures: seat charts for real legislatures (#parliaments) and a tier-by-tier
+// walk through how China's state and party hierarchies are chosen (#parliaments-china). Numbers carry their date and
+// source; anything from 2025–26 is marked as developing. Linked from country pages and the government diagrams.
+(function () {
+  const h = Lab.h;
+  // [id, name, country iso3, seats, as-of label, [[party, seats, colour, note]], how members are chosen, source [title, url], note]
+  const P = [
+    ['us-house', 'US House of Representatives', 'usa', 435, 'Seated January 2025 (119th Congress); the 120th Congress elected in November 2026 takes over in January 2027', [['Republican', 220, '#DC2626'], ['Democratic', 215, '#2563EB']],
+      'All 435 members elected every two years in single-member districts by plurality vote. District lines are drawn by states, often by the majority party (gerrymandering).', ['Clerk of the House: party breakdown', 'https://clerk.house.gov/Members'], 'Numbers at the start of the term; deaths and resignations change them during the term.'],
+    ['us-senate', 'US Senate', 'usa', 100, 'Seated January 2025 (119th Congress)', [['Republican', 53, '#DC2626'], ['Democratic', 45, '#2563EB'], ['Independent (caucus with Democrats)', 2, '#64748B']],
+      'Two senators per state for six-year terms, a third elected every two years. Wyoming (about 0.6 million people) and California (about 39 million) each get two.', ['US Senate: party division', 'https://www.senate.gov/history/partydiv.htm'], ''],
+    ['uk-commons', 'UK House of Commons', 'gbr', 650, 'At the July 2024 general election', [['Labour', 411, '#DC2626'], ['Conservative', 121, '#2563EB'], ['Liberal Democrats', 72, '#F59E0B'], ['Scottish National Party', 9, '#FACC15'], ['Sinn Féin', 7, '#15803D'], ['Independents', 6, '#94A3B8'], ['Reform UK', 5, '#06B6D4'], ['DUP', 5, '#7F1D1D'], ['Green', 4, '#22C55E'], ['Plaid Cymru', 4, '#047857'], ['Others (SDLP, Alliance, UUP, TUV, Speaker)', 6, '#CBD5E1']],
+      'First past the post in 650 constituencies. Labour won about 34% of the vote and 63% of the seats, one of the largest gaps between votes and seats in UK history.', ['House of Commons Library: General election 2024 results', 'https://commonslibrary.parliament.uk/research-briefings/cbp-10009/'], 'By-elections and defections have changed the numbers since.'],
+    ['de-bundestag', 'German Bundestag', 'deu', 630, 'At the February 2025 election', [['CDU/CSU', 208, '#111827'], ['AfD', 152, '#0EA5E9'], ['SPD', 120, '#DC2626'], ['Greens', 85, '#16A34A'], ['Die Linke', 64, '#BE185D'], ['SSW', 1, '#1D4ED8']],
+      'Mixed system: half elected in constituencies, half from party lists, with seats shared out in proportion to party votes; parties need 5% (or 3 constituency wins) to get in.', ['Federal Returning Officer: 2025 results', 'https://www.bundeswahlleiterin.de/en/bundestagswahlen/2025/ergebnisse/bund-99.html'], ''],
+    ['in-loksabha', 'India: Lok Sabha', 'ind', 543, 'At the 2024 general election', [['BJP', 240, '#F97316'], ['Indian National Congress', 99, '#0EA5E9'], ['Samajwadi Party', 37, '#DC2626'], ['Trinamool Congress', 29, '#22C55E'], ['DMK', 22, '#B91C1C'], ['TDP', 16, '#FACC15'], ['JD(U)', 12, '#15803D'], ['Others', 88, '#CBD5E1']],
+      'First past the post in 543 constituencies; about 640 million people voted in 2024, the largest election in history. The BJP formed a coalition government (NDA).', ['Election Commission of India: results', 'https://results.eci.gov.in/'], ''],
+    ['ru-duma', 'Russia: State Duma', 'rus', 450, 'Developing: elected September 2026', [['United Russia', 349, '#1D4ED8'], ['Communist Party (KPRF)', 37, '#B91C1C'], ['LDPR', 23, '#0EA5E9'], ['New People', 19, '#22D3EE'], ['A Just Russia', 17, '#F59E0B'], ['Rodina', 1, '#7C2D12'], ['Independents', 4, '#94A3B8']],
+      'Half from party lists, half from single-member districts. Genuine opposition parties and candidates were barred; all parties that won seats support the president, and no OSCE observers were invited.', ['Meduza: final results (September 2026)', 'https://meduza.io/en/news/2026/09/25/united-russia-won-349-of-450-seats-in-russia-s-new-state-duma-parliament-will-include-46-war-participants'], 'Official results from the Central Election Commission; independent analysts dispute their fairness.'],
+    ['cn-npc', 'China: National People’s Congress', 'chn', 2977, '14th NPC, elected 2022–23', [['Deputies (party breakdown not fully published)', 2977, '#DC2626']],
+      'Elected indirectly by provincial congresses and the armed forces, for five-year terms. Most deputies are Communist Party members; the eight small parties that accept the Party’s leadership also hold seats. It meets in full about two weeks a year; its Standing Committee (about 175 members) makes most laws.', ['NPC Observer', 'https://npcobserver.com/'], 'See “How China’s system is built” for every level from the village up.'],
+    ['vn-na', 'Vietnam: National Assembly', 'vnm', 500, 'Developing: elected March 2026 (16th National Assembly)', [['Communist Party of Vietnam members', 482, '#DC2626'], ['Non-party deputies', 18, '#94A3B8']],
+      'Direct elections in 182 constituencies with 864 candidates, all vetted by the Vietnam Fatherland Front, which is led by the Party; official turnout 99.7%.', ['Australia–Vietnam Policy Institute: 16th National Assembly', 'https://avpi.org.au/wp-content/uploads/2026/04/AVPI-Summary-Vietnams-16th-National-Assembly-Election.pdf'], ''],
+    ['cu-anpp', 'Cuba: National Assembly of People’s Power', 'cub', 470, 'Elected March 2023', [['Deputies on the single national slate', 470, '#1D4ED8']],
+      'Parties do not run. Candidacy commissions draw up one candidate per seat (about half nominated by municipal assemblies); voters approve or reject each name. The Communist Party is constitutionally “the leading force”.', ['Cuban National Electoral Council', 'http://www.eleccionesencuba.cu/'], ''],
+    ['kp-spa', 'North Korea: Supreme People’s Assembly', 'prk', 687, 'Elected 2019 (14th SPA)', [['Single list of the Democratic Front for the Reunification of the Fatherland', 687, '#B91C1C']],
+      'One approved candidate per district; official turnout over 99.9%. The Workers’ Party, two small allied parties and organizations share the list.', ['NK Pro / 38 North background on SPA elections', 'https://www.38north.org/'], 'Developing: later SPA elections may have changed the number of seats.'],
+  ];
+  // seat chart: rows of dots in a half circle; large bodies are drawn with one dot per several seats
+  const hemicycle = (parties, seats) => {
+    const per = seats > 900 ? Math.ceil(seats / 600) : 1; const n = Math.ceil(seats / per);
+    const rows = Math.max(3, Math.round(Math.sqrt(n / 1.6))); const R0 = 34, R1 = 98, pts = [];
+    const lens = []; let tot = 0; for (let r = 0; r < rows; r++) { const rad = R0 + (R1 - R0) * r / (rows - 1 || 1); lens.push(rad); tot += rad; }
+    let left = n; lens.forEach((rad, r) => { const k = r === rows - 1 ? left : Math.round(n * rad / tot); left -= k; for (let j = 0; j < k; j++) { const a = Math.PI * (1 - (k === 1 ? 0.5 : j / (k - 1))); pts.push([a, 110 + rad * Math.cos(a), 108 - rad * Math.sin(a)]); } });
+    pts.sort((a, b) => b[0] - a[0]); const dot = Math.max(1.3, Math.min(4.6, 70 / rows / 2.2));
+    let i = 0, svg = ''; parties.forEach(([name, s, col]) => { const k = Math.round(s / per); for (let j = 0; j < k && i < pts.length; j++, i++) svg += `<circle cx="${pts[i][1].toFixed(1)}" cy="${pts[i][2].toFixed(1)}" r="${dot}" fill="${col}"><title>${name}</title></circle>`; });
+    const el = h('div', { class: 'hemi' }); el.innerHTML = `<svg viewBox="0 0 220 116" role="img" aria-label="Seat chart">${svg}<text x="110" y="104" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor">${seats.toLocaleString()}</text><text x="110" y="114" text-anchor="middle" font-size="6.5" fill="#64748B">seats${per > 1 ? ' · 1 dot = ' + per : ''}</text></svg>`; return el; };
+  const majority = (seats) => Math.floor(seats / 2) + 1;
+  const card = (...k) => h('div', { class: 'card' }, ...k);
+  const chamberCard = ([id, n, cid, seats, asof, parties, how, [st, su], note]) => card(
+    h('div', { class: 'row', style: { justifyContent: 'space-between', alignItems: 'baseline', gap: '8px' } }, h('h3', { style: { margin: 0 } }, n), h('a', { class: 'tiny', href: '#country-' + cid }, 'Country page →')),
+    h('div', { class: 'tiny muted', style: { margin: '2px 0 8px' } }, asof), hemicycle(parties, seats),
+    h('div', { class: 'stack', style: { gap: '3px', marginTop: '6px' } }, parties.map(([p, s, c]) => h('div', { class: 'row small', style: { gap: '8px', flexWrap: 'nowrap' } }, h('span', { style: { width: '10px', height: '10px', borderRadius: '50%', background: c, flex: 'none' } }), h('span', { style: { flex: 1 } }, p), h('b', null, s.toLocaleString()), h('span', { class: 'tiny muted', style: { width: '44px', textAlign: 'right' } }, Math.round(100 * s / seats) + '%')))),
+    parties.length > 1 ? h('p', { class: 'tiny muted', style: { margin: '6px 0 0' } }, `A majority needs ${majority(seats).toLocaleString()} seats; changing the constitution usually needs two-thirds (${Math.ceil(seats * 2 / 3).toLocaleString()}) or more.`) : null,
+    h('p', { class: 'small', style: { margin: '8px 0 4px' } }, h('b', null, 'How members are chosen: '), how), note ? h('p', { class: 'tiny muted', style: { margin: 0 } }, note) : null,
+    h('a', { class: 'tiny', href: su, target: '_blank', rel: 'noopener' }, 'Source: ' + st + ' ↗'));
+  Lab.parliamentFor = (cid) => P.filter((x) => x[2] === cid).map(chamberCard);
+
+  // China: two ladders, the state (people's congresses) and the Party, side by side
+  const CN = {
+    state: [['Village committees', 'Directly elected by villagers every five years (urban areas: residents’ committees). Not formally part of the state; the village Party secretary usually holds more power.', 'Direct'],
+      ['Township and county people’s congresses', 'Directly elected by voters aged 18+. There must be 1.3 to 2 candidates per seat. Independent candidates may stand, but those not approved by local Party committees are often pressured or blocked.', 'Direct'],
+      ['City (prefecture) people’s congresses', 'Elected by the county congresses below them; they elect the mayor and local court heads.', 'Indirect'],
+      ['Provincial people’s congresses', 'Elected by the city congresses; they elect governors and send deputies to Beijing.', 'Indirect'],
+      ['National People’s Congress (2,977 deputies)', 'Elected by the provincial congresses and the armed forces. Elects the President, approves the Premier and State Council, passes laws and the budget. Votes are almost always passed by large majorities.', 'Indirect'],
+      ['President, Premier, State Council', 'The President is elected by the NPC from one candidate. The Premier is nominated by the President and confirmed by the NPC. In practice all are chosen by the Party leadership beforehand.', 'Chosen above']],
+    party: [['Party members (about 101 million, end of 2025)', 'About 7% of the population. Joining takes an application, a probation year and approval by a branch; about 2 million new members joined in 2025.', 'Members'],
+      ['Primary organizations (about 5.43 million)', 'Party branches in villages, firms, schools, hospitals and private companies. Members elect branch committees, usually from approved candidates.', 'Branch elections'],
+      ['County, city and provincial Party committees', 'Formally elected by Party congresses at each level; in practice their leaders (Party secretaries) are appointed from above through the Organization Department’s cadre system.', 'Appointed in practice'],
+      ['National Party Congress (about 2,300 delegates, every five years)', 'Delegates are elected by provincial Party congresses. It approves the leadership line and elects the Central Committee from a list with slightly more candidates than seats.', 'Indirect'],
+      ['Central Committee (205 full members, 2022)', 'Meets in plenums once or twice a year. Elects the Politburo and the General Secretary, usually unanimously, from names agreed in advance.', 'Indirect'],
+      ['Politburo (24 seats in 2022) and its Standing Committee (7)', 'The real centre of power. The Standing Committee decides the most important questions. Under the leadership principle, the General Secretary is the “core” (since 2016).', 'Indirect'],
+      ['General Secretary', 'Also President and chair of the Central Military Commission. Term limits on the presidency were removed in 2018.', 'Top']],
+    debate: [['🏛️ “Whole-process people’s democracy”', 'The official view: power is built up from millions of grassroots elections and consultations, deputies are workers, farmers and experts, and the system delivers results that competitive elections often do not.'],
+      ['🔎 A Party-controlled ladder', 'Critics, including many Chinese legal scholars: only the two lowest congress levels are directly elected, the Party vets candidates at every level, independent candidates are obstructed, and leaders are chosen by those above them, so power flows downward, not upward.'],
+      ['⚖️ Mixed view', 'Some scholars (e.g. on “responsive authoritarianism”) argue local officials are pushed to meet citizens’ demands through petitions, surveys and performance targets, even though citizens cannot remove national leaders.']] };
+  const ladder = (items, col) => h('div', { class: 'ladder' }, items.map(([n, t, kind], i) => h('details', { class: 'rung', style: { '--rc': col }, open: i === 0 }, h('summary', null, h('span', { class: 'tiny', style: { fontWeight: 700 } }, kind), h('b', null, n)), h('p', { class: 'small', style: { margin: '6px 0 0' } }, t))));
+
+  Lab.routes.parliaments = function (app, [tab0]) {
+    Lab.setContext('Parliaments and power structures');
+    let tab = tab0 === 'china' ? 'china' : 'seats';
+    const bar = h('div', { class: 'subtabs' }); const body = h('div', { class: 'stack' });
+    app.append(h('section', { class: 'hero' }, h('a', { class: 'crumb', href: '#history-modern-govern' }, '← Who really rules?'), h('h1', null, 'Parliaments & power'), h('p', null, 'Who sits in the world’s legislatures, how they get there, and how much power they really hold. Seat charts show each chamber at a stated date; tap a country for its full page.')),
+      h('div', { class: 'card', style: { position: 'sticky', top: '58px', zIndex: 6, padding: '6px 10px' } }, bar), body);
+    const show = (k) => { tab = k; bar.querySelectorAll('button').forEach((b) => b.classList.toggle('on', b.dataset.t === k)); history.replaceState(null, '', '#parliaments' + (k === 'seats' ? '' : '-' + k));
+      if (k === 'seats') body.replaceChildren(card(h('p', { class: 'small', style: { margin: 0 } }, 'Seat numbers alone do not show power. Compare the “how members are chosen” line: whether opposition parties can run, who vets candidates, and whether the chamber can actually reject the government.')), h('div', { class: 'grid g2' }, P.map(chamberCard)));
+      else body.replaceChildren(card(h('h2', { style: { marginTop: 0 } }, 'How China’s system is built, from the village to the top'), h('p', { class: 'small' }, 'China has two ladders. The state ladder of people’s congresses is where citizens vote; the Party ladder decides who leads. The constitution says the Party leads everything (Article 1, since 2018). Tap a level to open it.'),
+          h('div', { class: 'grid g2' }, h('div', null, h('h3', null, '🏛️ The state: people’s congresses'), ladder(CN.state, '#2563EB')), h('div', null, h('h3', null, '☭ The Party'), ladder(CN.party, '#DC2626'))),
+          h('p', { class: 'tiny muted' }, 'Sources: Electoral Law of the PRC (direct elections at county and township level only; higher levels indirect); CPC Organization Department statistics (June 2026); 20th Party Congress (2022). Politburo membership has changed since 2022 through dismissals: developing.')),
+        card(h('h3', { style: { marginTop: 0 } }, 'Is it democratic? Three answers'), h('div', { class: 'grid g3' }, CN.debate.map(([n, t]) => h('div', { style: { padding: '12px', borderRadius: '12px', border: '1px solid var(--line)' } }, h('b', null, n), h('p', { class: 'small', style: { margin: '6px 0 0' } }, t))))),
+        card(h('h3', { style: { marginTop: 0 } }, 'Compare'), h('div', { class: 'row', style: { gap: '6px', flexWrap: 'wrap' } }, h('a', { class: 'btn sm', href: '#history-modern-govern-china' }, 'China’s government diagram'), h('a', { class: 'btn sm', href: '#history-modern-govern-usa' }, 'The US system'), h('a', { class: 'btn sm', href: '#history-modern-govern-dprk' }, 'North Korea’s system'), h('a', { class: 'btn sm', href: '#country-chn-power' }, 'China: country page'),
+          h('button', { class: 'btn sm', onclick: () => Lab.ask('Walk me through how Vietnam’s, Laos’s, Cuba’s and North Korea’s party and state hierarchies are chosen, level by level from the village up, compared with China. Show what is directly elected, what is indirect, who vets candidates, and what supporters and critics say.', 'Parliaments') }, '✦ Vietnam, Laos, Cuba, North Korea compared'))));
+      };
+    [['seats', '🪑 Seats in parliaments'], ['china', '🇨🇳 How China’s system is built']].forEach(([k, n]) => bar.append(h('button', { 'data-t': k, onclick: () => show(k) }, n)));
+    show(tab);
+  };
+})();

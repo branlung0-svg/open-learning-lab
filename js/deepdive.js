@@ -116,7 +116,7 @@ R.cases = (p, nav, arg, D) => {
   const SK = 'lab.casetab.' + D.base; let tab = 'overview'; try { tab = sessionStorage.getItem(SK) || 'overview'; } catch (e) {}
   const pickCase = (k, scroll) => { key = k; history.replaceState(null, '', '#' + D.base + '-' + k); draw(); if (scroll) box.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
   const draw = () => { chips.innerHTML = ''; X.caseOrder.forEach((k) => chips.append(h('span', { class: 'chip' + (k === key ? ' on' : ''), style: { flex: 'none', whiteSpace: 'nowrap' }, onclick: () => pickCase(k) }, X.cases[k].flag + ' ' + X.cases[k].n)));
-    const on = chips.querySelector('.chip.on'); if (on) on.scrollIntoView({ block: 'nearest', inline: 'center' });
+    const on = chips.querySelector('.chip.on'); if (on) Lab.centerInRow(on);
     const c = X.cases[key]; box.innerHTML = '';
     const tl = h('div');
     c.tl.forEach(([y, t, cf]) => tl.append(h('div', { class: 'row', style: { flexWrap: 'nowrap', gap: '10px', alignItems: 'flex-start', padding: '7px 4px', borderBottom: '1px solid var(--line)' } }, h('b', { class: 'small', style: { width: '74px', flex: 'none' } }, y), h('span', { class: 'small', style: { flex: 1 } }, t), Lab.conf(CONF[cf] || cf))));
@@ -160,7 +160,7 @@ const chartCard = ([t, cap, series, src, opts]) => card(h('h3', { style: { margi
   h('div', { class: 'row', style: { gap: '12px', flexWrap: 'wrap', marginTop: '4px' } }, series.map(([n, c]) => h('span', { class: 'tiny' }, h('span', { style: { display: 'inline-block', width: '10px', height: '10px', background: c, borderRadius: '2px', marginRight: '4px' } }), n))), Lab.source(src));
 
 // Lineage: how an ideology changed step by step, with the conditions each leader faced and an idea tracker.
-const MK = { k: ['✓', '#15803D', 'kept'], a: ['＋', '#2563EB', 'added'], c: ['≈', '#B45309', 'changed'], d: ['✕', '#B91C1C', 'dropped or rejected'] };
+const MK = { k: ['✓', '#15803D', 'kept'], a: ['＋', '#2563EB', 'added'], c: ['≈', '#B45309', 'changed'], p: ['⏳', '#7C3AED', 'kept as a goal, postponed'], d: ['✕', '#B91C1C', 'dropped or rejected'] };
 const shortOf = (s) => s.short || s.who.replace(/^The /, '').split(/:|,| and |’s /)[0];
 const pickImgs = (keys, n) => { const box = h('div', { style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '12px', margin: '10px 0' } });
   Lab.commons().then((C) => { (keys || []).filter((k) => !/^c:/.test(k) || C[k]).slice(0, n).forEach((k) => { const f = fig(k, '360px'); if (f) box.append(f); }); if (!box.children.length) box.remove(); });
@@ -171,10 +171,14 @@ R.lineage = (p, nav, arg, D) => {
   p.append(card(h('h2', { style: { marginTop: 0 } }, L.title), h('p', null, L.intro),
     h('div', { style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '10px' } }, L.readings.map(([e, n, t]) => h('div', { style: { padding: '12px', borderRadius: '12px', border: '1px solid var(--line)' } }, h('div', { style: { fontSize: '22px' } }, e), h('b', null, n), h('p', { class: 'small', style: { margin: '6px 0 0' } }, t)))),
     h('p', { class: 'small', style: { marginTop: '12px', padding: '10px', borderRadius: '10px', background: 'color-mix(in srgb, var(--accent) 10%, transparent)' } }, h('b', null, 'Test it yourself: '), L.test)));
+  if (L.stages) p.append(card(h('h2', { style: { marginTop: 0 } }, '🪜 The stages, in the theory itself'), h('p', { class: 'small muted' }, 'Marxism describes a transition that takes decades or longer. To judge any state fairly, first ask which stage it claimed to be in.'),
+    h('div', { class: 'stage-row' }, L.stages.map(([n, t], i) => h('div', { class: 'stage' }, h('div', { class: 'tiny', style: { fontWeight: 700, color: D.color } }, 'Stage ' + (i + 1)), h('b', null, n), h('p', { class: 'small', style: { margin: '4px 0 0' } }, t)))),
+    h('h3', null, 'Where each state said it stood'), h('div', { class: 'stack', style: { gap: '6px' } }, L.stageClaims.map(([n, t]) => h('div', { class: 'small', style: { padding: '8px 10px', borderRadius: '10px', border: '1px solid var(--line)' } }, h('b', null, n + ': '), t))),
+    h('h3', null, 'Has any country reached socialism or communism? Three answers'), h('div', { class: 'grid g3' }, L.stageDebate.map(([n, t]) => h('div', { style: { padding: '12px', borderRadius: '12px', border: '1px solid var(--line)' } }, h('b', null, n), h('p', { class: 'small', style: { margin: '6px 0 0' } }, t))))));
   const rail = h('div', { class: 'row', style: { gap: '8px', flexWrap: 'nowrap', overflowX: 'auto', paddingBottom: '4px' } });
   const railCard = card(h('div', { class: 'tiny muted', style: { marginBottom: '6px' } }, `${L.steps.length} steps · tap one`), rail);
   const detail = h('div');
-  const go = (id, scroll) => { cur = id; rail.querySelectorAll('.lin-step').forEach((b) => b.classList.toggle('on', b.dataset.id === id)); const b = rail.querySelector(`[data-id="${id}"]`); if (b) b.scrollIntoView({ block: 'nearest', inline: 'center' });
+  const go = (id, scroll) => { cur = id; rail.querySelectorAll('.lin-step').forEach((b) => b.classList.toggle('on', b.dataset.id === id)); const b = rail.querySelector(`[data-id="${id}"]`); if (b) Lab.centerInRow(b);
     history.replaceState(null, '', '#' + D.base + '-lineage-' + id); draw(); if (scroll) railCard.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
   L.steps.forEach((s, i) => rail.append(h('button', { class: 'lin-step', 'data-id': s.id, onclick: () => go(s.id) }, h('span', { class: 'tiny' }, `${i + 1} · ${s.yrs}`), h('b', null, shortOf(s)))));
   const list = (title, color, items) => (items && items.length ? h('div', { style: { padding: '12px', borderRadius: '12px', borderTop: `4px solid ${color}`, background: 'var(--card)', boxShadow: '0 0 0 1px var(--line) inset' } }, h('b', { style: { color } }, title), h('ul', { class: 'small', style: { margin: '6px 0 0', paddingLeft: '18px' } }, items.map((t) => h('li', { style: { marginBottom: '4px' } }, t)))) : null);
@@ -294,7 +298,7 @@ Lab.deepdive = {
     const mount = (el, arg) => {
       const panel = h('div', { class: 'stack' }); const nav = h('div', { class: 'row dive-chips', style: { gap: '6px', flexWrap: 'nowrap', overflowX: 'auto', scrollbarWidth: 'thin', paddingBottom: '2px' } });
       const show = (k, a) => { if (R._stop) { R._stop(); R._stop = null; } nav.querySelectorAll('.chip').forEach((c) => c.classList.toggle('on', c.dataset.k === k)); panel.innerHTML = ''; history.replaceState(null, '', '#' + D.base + (k === 'start' ? '' : '-' + (k === 'cases' && a ? a : k))); (D.custom[k] || R[k])(panel, show, a, D); if (Lab.study) { try { Lab.study.after(D, k, panel, ((D.sections.find(([x]) => x === k) || [])[1] || k).replace(/^\W+\s*/, ''), (k2) => { show(k2 || k); window.scrollTo({ top: Math.max(0, navCard.getBoundingClientRect().top + window.scrollY - 70), behavior: 'smooth' }); }); } catch (e) { console.error(e); } } if (!STRIP_SKIP.has(k) && Lab.photoStrip && D.photoKeys && D.photoKeys.length > 3) panel.prepend(Lab.photoStrip({ keys: D.photoKeys, n: 4, offset: D.sections.findIndex(([x]) => x === k) })); };
-      D.sections.forEach(([k, n]) => nav.append(h('span', { class: 'chip', 'data-k': k, style: { flex: 'none', whiteSpace: 'nowrap' }, onclick: () => { show(k); const c = nav.querySelector(`[data-k="${k}"]`); if (c) c.scrollIntoView({ block: 'nearest', inline: 'center' }); } }, n)));
+      D.sections.forEach(([k, n]) => nav.append(h('span', { class: 'chip', 'data-k': k, style: { flex: 'none', whiteSpace: 'nowrap' }, onclick: () => { show(k); const c = nav.querySelector(`[data-k="${k}"]`); if (c) Lab.centerInRow(c); } }, n)));
       const X = D.data; const lede = D.lede || (X.intro && X.intro[0] ? X.intro[0].split('. ').slice(0, 2).join('. ').replace(/\.?$/, '.') : '');
       const facts = [[D.sections.length, 'sections'], [X.cases ? Object.keys(X.cases).length : 0, D.caseLabel || 'country cases'], [X.debates ? X.debates.length : 0, 'debates'], [X.reading ? X.reading.reduce((a, [, it]) => a + it.length, 0) : 0, 'sources and books'], [(D.labs || []).length, 'labs']].filter(([n]) => n);
       const diveKeys = [...(X.gallery || []).flatMap(([, , ks]) => ks), ...Object.values(X.cases || {}).flatMap((c) => [c.img, c.img2]), ...((X.lineage && X.lineage.steps) || []).flatMap((s) => s.img || [])].filter((k) => k && /^[cv]:/.test(k));
