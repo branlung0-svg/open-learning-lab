@@ -1,6 +1,6 @@
 """Runs in GitHub Actions. For every Commons item stored as a link (not a local file), check that the thumbnail
 URL answers, and build numbered contact sheets (plan/review/sheet-NN.jpg + index json) for a human-style review."""
-import json, io, sys, time, requests
+import json, io, os, sys, time, requests
 from PIL import Image, ImageDraw
 UA = {'User-Agent': 'OpenLearningLab/1.0 (https://branlung0-svg.github.io/open-learning-lab/; educational review)'}
 C = json.load(open('data/commons.json'))
@@ -21,7 +21,7 @@ for k in keys:
             if i == 2: bad.append([k, str(e)[:80], u])
             time.sleep(2)
     time.sleep(0.15)
-per = 30; idx = {}
+os.makedirs("plan/review", exist_ok=True); print(len(ok), "ok", len(bad), "bad so far"); per = 30; idx = {}
 for n in range(0, len(ok), per):
     chunk = ok[n:n + per]; sheet = Image.new('RGB', (6 * 250, 5 * 214), 'white'); d = ImageDraw.Draw(sheet)
     for j, k in enumerate(chunk):
