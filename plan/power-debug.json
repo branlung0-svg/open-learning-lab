@@ -692,6 +692,11 @@
   ],
   "raw": "'''Government ([[Second Kobakhidze Government]]) (78)'''\n* {{nowrap|{{Color box|{{party color|Georgian Dream}}|border=silver}} [[Georgian Dream]]}} (78)\n'''Opposition (12)'''\n*{{nowrap|{{Color box|{{party color|For Georgia}}|border=silver}}}} [[For Georgia]] (12)<ref>{{Cite web |date=20 October 2025|title= Gakharia's Party to Take Up Parliament Seats, Ending Yearlong Boycott|url=https://civil.ge/archives/707513|website=Civil Georgia}}</ref>\n'''Others (11)'''\n* {{nowrap|{{color box|{{party color|People's Power (Georgia)}}|border=silver}} [[People's Power (Georgia)|People's Power]]}} (8)<ref>{{Cite web |title=People’s Power leaves the parliamentary majority, creates pseudo-opposition|url=https://georgiatoday.ge/peoples-power-leaves-the-parliamentary-majority-creates-pseudo-opposition/|access-date=2024-12-13 |work=Georgia Today|date=2024-12-13 |language=en-US}}</ref>\n*{{nowrap|{{Color box|{{party color|European Socialists (Georgia)}}|border=silver}} [[European Socialists (Georgia)|European Socialists]] (3)<ref>{{Cite web |date=2025-02-07 |title=ბიურომ ახალი ფსევდოოპოზიციური პოლიტიკური ჯგუფი რეგისტრაციაში გაატარა |trans-title=The Bureau has registered a new pseudo-opposition political group |url=https://publika.ge/biurom-akhali-fsevdoopoziciuri-politikuri-jgufi-registraciashi-gaatara/ |access-date=2025-02-10 |website=Publika |language=ka-GE}}</ref>}}\n'''Vacant (49)'''\n*{{nowrap|{{Color box|#808080|border=silver}} [[Casual vacancy|Vacant]]}} (49){{efn|Georgia's parliament voted to"
  },
+ "gnb National People's Assembly (Guinea-Bissau)": {
+  "seats": 65,
+  "parsed": [],
+  "raw": "''Dissolved legislature''"
+ },
  "imn Legislative Council of the Isle of Man": {
   "seats": 11,
   "parsed": [
@@ -1715,6 +1720,32 @@
   ],
   "raw": "'''Majority (36)''' {{legend|#000090|[[Partido Nuevo Progresista|PNP]] (36)}} '''Minority (17)''' {{legend|#FE0700|[[Popular Democratic Party (Puerto Rico)|PPD]] (13)}}   {{legend|#008000|[[Partido Independentista Puertorriqueño|PIP]] (3)}} {{legend|#02B7EB|[[Proyecto Dignidad|PD]] (1)}}"
  },
+ "prk Supreme People's Assembly": {
+  "seats": 687,
+  "parsed": [
+   [
+    "Workers' Party and allies",
+    687,
+    null
+   ],
+   [
+    "WPK",
+    671,
+    null
+   ],
+   [
+    "Social organizations",
+    10,
+    "#BEBEBE"
+   ],
+   [
+    "Friendly parties and religious organizations",
+    6,
+    "#7F7F7F"
+   ]
+  ],
+  "raw": "{{Color box|{{party color|Workers' Party of Korea}}}} '''[[Workers' Party of Korea|Workers' Party]] and allies (687)'''\n* {{Color box|{{party color|Workers' Party of Korea}}}} [[Workers' Party of Korea|WPK]] (671)\n* {{legend|#BEBEBE|Social organizations (10)}}\n* {{legend|#7F7F7F|Friendly parties and religious organizations{{NoteTag|Friendly parties of the WPK are the [[Korean Social Democratic Party]] and the [[Chondoist Chongu Party]]}} (6)}}"
+ },
  "rwa Chamber of Deputies (Rwanda)": {
   "seats": 80,
   "parsed": [
@@ -2197,11 +2228,6 @@
   ],
   "raw": ";Government (194)\n:{{Color box|#008000|border=darkgray}} [[ZANU–PF]] (194)\n;Opposition (86)\n:{{Color box|{{party colour|Citizens Coalition For Change}}|border=darkgray}} [[Citizens Coalition for Change|CCC]] (86)\n;Vacant seats (0)\n:{{Color box|#C0C0C0|border=darkgray}} [[Casual vacancy|Vacant]] (0)\n;Presiding officer (1)\n:{{Color box|black|border=darkgray}} [[Speaker of the National Assembly of Zimbabwe|Speaker]] (1)"
  },
- "ala (no legislature parsed)": {
-  "tried": [
-   "Parliament of %C3%85land"
-  ]
- },
  "asc (no legislature parsed)": {
   "tried": [
    "National Assembly (Ascension)",
@@ -2283,24 +2309,9 @@
    "National Congress of Cocos (Keeling) Islands"
   ]
  },
- "chn (no legislature parsed)": {
-  "tried": [
-   "National People%27s Congress"
-  ]
- },
  "cri (no legislature parsed)": {
   "tried": [
    "Legislative Assembly of Costa Rica"
-  ]
- },
- "cub (no legislature parsed)": {
-  "tried": [
-   "National Assembly of People%27s Power"
-  ]
- },
- "cuw (no legislature parsed)": {
-  "tried": [
-   "Parliament of Cura%C3%A7ao"
   ]
  },
  "cxr (no legislature parsed)": {
@@ -2315,11 +2326,6 @@
  "cyp (no legislature parsed)": {
   "tried": [
    "House of Representatives (Cyprus)"
-  ]
- },
- "fro (no legislature parsed)": {
-  "tried": [
-   "L%C3%B8gting"
   ]
  },
  "fxx (no legislature parsed)": {
@@ -2340,11 +2346,6 @@
    "National Congress of Guadeloupe"
   ]
  },
- "gnb (no legislature parsed)": {
-  "tried": [
-   "National People%27s Assembly (Guinea-Bissau)"
-  ]
- },
  "hmd (no legislature parsed)": {
   "tried": [
    "National Assembly (Heard Island and McDonald Islands)",
@@ -2357,11 +2358,6 @@
  "hnd (no legislature parsed)": {
   "tried": [
    "National Congress of Honduras"
-  ]
- },
- "idn (no legislature parsed)": {
-  "tried": [
-   "People%27s Consultative Assembly"
   ]
  },
  "iot (no legislature parsed)": {
@@ -2431,11 +2427,6 @@
    "Parliament of Moldova"
   ]
  },
- "mdv (no legislature parsed)": {
-  "tried": [
-   "People%27s Majlis"
-  ]
- },
  "mid (no legislature parsed)": {
   "tried": [
    "National Assembly (Midway Atoll)",
@@ -2462,20 +2453,6 @@
  "nga (no legislature parsed)": {
   "tried": [
    "National Assembly (Nigeria)"
-  ]
- },
- "nld (no legislature parsed)": {
-  "tried": [
-   "National Assembly (Kingdom of the Netherlands)",
-   "National Assembly of Kingdom of the Netherlands",
-   "Parliament of Kingdom of the Netherlands",
-   "Congress of Kingdom of the Netherlands",
-   "National Congress of Kingdom of the Netherlands"
-  ]
- },
- "prk (no legislature parsed)": {
-  "tried": [
-   "Supreme People%27s Assembly"
   ]
  },
  "reu (no legislature parsed)": {
@@ -2512,16 +2489,6 @@
    "Parliament of Svalbard and Jan Mayen",
    "Congress of Svalbard and Jan Mayen",
    "National Congress of Svalbard and Jan Mayen"
-  ]
- },
- "stp (no legislature parsed)": {
-  "tried": [
-   "National Assembly (S%C3%A3o Tom%C3%A9 and Pr%C3%ADncipe)"
-  ]
- },
- "syr (no legislature parsed)": {
-  "tried": [
-   "People%27s Assembly of Syria"
   ]
  },
  "umi (no legislature parsed)": {
