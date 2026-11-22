@@ -1,0 +1,148 @@
+{
+ "openverse": {
+  "status": 504,
+  "acao": null,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 6432,
+  "head": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endi"
+ },
+ "met": {
+  "status": 410,
+  "acao": "*",
+  "type": "application/json",
+  "bytes": 438,
+  "head": "{\"message\":\"/public/collection/v1/search was retired on 2026-10-01. It was backed by Solr and returned every matching object ID in one response; use /public/col"
+ },
+ "aic": {
+  "status": 200,
+  "acao": "*",
+  "type": "application/json",
+  "bytes": 1340,
+  "head": "{\"preference\":null,\"pagination\":{\"total\":133375,\"limit\":5,\"offset\":0,\"total_pages\":26675,\"current_page\":1},\"data\":[{\"_score\":30.069885,\"id\":286661,\"title\":\"Sieb"
+ },
+ "europeana": {
+  "status": 200,
+  "acao": "*",
+  "type": "application/json;charset=UTF-8",
+  "bytes": 21219,
+  "head": "{\"apikey\":\"api2demo\",\"success\":true,\"requestNumber\":999,\"itemsCount\":5,\"totalResults\":1021,\"items\":[{\"completeness\":10,\"country\":[\"Denmark\"],\"dataProvider\":[\"Th"
+ },
+ "loc_search": {
+  "error": "HTTPSConnectionPool(host='www.loc.gov', port=443): Read timed out. (read timeout=25)"
+ },
+ "loc_newspapers": {
+  "error": "HTTPSConnectionPool(host='www.loc.gov', port=443): Read timed out. (read timeout=25)"
+ },
+ "chronam": {
+  "status": 404,
+  "acao": null,
+  "type": "text/html; charset=utf-8",
+  "bytes": 85016,
+  "head": "<!DOCTYPE html>\n\n\n<html lang=\"en\" class=\"no-js\" prefix=\"lc: http://loc.gov/#\">\n<head>\n\n\n<title>Page Not Found -- 404 -- Library of Congress</title>\n\n\n\n    \n\n\n\n\n"
+ },
+ "wellcome": {
+  "status": 200,
+  "acao": "*",
+  "type": "application/json",
+  "bytes": 6627,
+  "head": "{\"type\":\"ResultList\",\"pageSize\":5,\"totalPages\":51,\"totalResults\":251,\"results\":[{\"locations\":[{\"url\":\"https://iiif.wellcomecollection.org/image/L0072137/info.js"
+ },
+ "ndl_japan": {
+  "status": 200,
+  "acao": "*",
+  "type": "text/xml;charset=UTF-8",
+  "bytes": 11457,
+  "head": "<rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:openSearch=\"http://a9.com/-/spec/opensearchrss/1.0/\" xmlns:dcndl=\"http://ndl.go.jp/dcndl/terms/\" xmlns:dc"
+ },
+ "nypl": {
+  "status": 401,
+  "acao": null,
+  "type": "text/plain; charset=utf-8",
+  "bytes": 27,
+  "head": "HTTP Token: Access denied.\n"
+ },
+ "dpla": {
+  "status": 403,
+  "acao": null,
+  "type": "application/json",
+  "bytes": 132,
+  "head": "{\"error\":\"invalid_api_key\",\"message\":\"Invalid or inactive API key.\",\"documentation\":\"https://pro.dp.la/developers/responses#errors\"}"
+ },
+ "smithsonian": {
+  "status": 200,
+  "acao": "*",
+  "type": "application/json;charset=utf-8",
+  "bytes": 46154,
+  "head": "{\n  \"status\": 200,\n  \"responseCode\": 1,\n  \"response\": {\n    \"rows\": [\n      {\n        \"id\": \"ld1-1646149545906-1646149814773-0\",\n        \"title\": \"Memory, natio"
+ },
+ "archive_org": {
+  "status": 200,
+  "acao": "*",
+  "type": "application/json",
+  "bytes": 459,
+  "head": "{\"responseHeader\":{\"status\":0,\"QTime\":101,\"params\":{\"query\":\"text:apartheid OR text:apartheid OR text__reviews:apartheid\",\"qin\":\"apartheid\",\"fields\":\"identifier"
+ },
+ "commons": {
+  "status": 200,
+  "acao": "*",
+  "type": "application/json; charset=utf-8",
+  "bytes": 3802,
+  "head": "{\"batchcomplete\":\"\",\"continue\":{\"sroffset\":10,\"continue\":\"-||\"},\"query\":{\"searchinfo\":{\"totalhits\":17},\"search\":[{\"ns\":0,\"title\":\"Israeli West Bank barrier\",\"pa"
+ },
+ "gallica": {
+  "status": 403,
+  "acao": null,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 5661,
+  "head": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endi"
+ },
+ "rijks": {
+  "status": 200,
+  "acao": "*",
+  "type": "application/ld+json",
+  "bytes": 7748,
+  "head": "{\"@context\":\"https://linked.art/ns/v1/search.json\",\"id\":\"https://data.rijksmuseum.nl/search/collection?title=Batavia\",\"type\":\"OrderedCollectionPage\",\"partOf\":{\""
+ },
+ "cleveland": {
+  "status": 200,
+  "acao": "*",
+  "type": "application/json",
+  "bytes": 272,
+  "head": "{\"info\": {\"total\": 0, \"parameters\": {\"skip\": 0, \"limit\": 5, \"q\": \"apartheid\", \"has_image\": \"1\", \"select\": \"accession_number,accession_number_sortable,cover_acce"
+ },
+ "vam": {
+  "status": 200,
+  "acao": "*",
+  "type": "application/json",
+  "bytes": 19635,
+  "head": "{\"info\":{\"version\":\"2.0\",\"record_count\":426,\"record_count_exact\":true,\"parameters\":{},\"page_size\":5,\"pages\":86,\"page\":1,\"image_count\":430},\"records\":[{\"systemNu"
+ },
+ "harvard_lib": {
+  "status": 403,
+  "acao": null,
+  "type": "text/html",
+  "bytes": 118,
+  "head": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n</body>\r\n</html>\r\n"
+ },
+ "trove": {
+  "status": 401,
+  "acao": null,
+  "type": "application/json; charset=utf-8",
+  "bytes": 96,
+  "head": "{\n  \"message\":\"No API key found in request\",\n  \"request_id\":\"0625bc304dab3a556ebd8e69fbc0bf67\"\n}"
+ },
+ "digitalnz": {
+  "status": 200,
+  "acao": null,
+  "type": "application/json; charset=utf-8",
+  "bytes": 82069,
+  "head": "{\"search\":{\"page\":1,\"per_page\":20,\"result_count\":1950,\"request_url\":\"https://api.digitalnz.org/records.json?text=apartheid\",\"results\":[{\"id\":46002871,\"created_a"
+ },
+ "npm_taiwan": {
+  "status": 200,
+  "acao": "*",
+  "type": "text/html; charset=utf-8",
+  "bytes": 12862,
+  "head": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"zh-Hant-TW\">\r\n<head>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n    <meta charset=\"utf-8\" />\r\n"
+ }
+}
