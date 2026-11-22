@@ -1,5 +1,5 @@
-checked 2026-11-22T21:36:44Z
-repo stamp 1795383123, live stamp 1795383123
+checked 2026-11-22T21:46:16Z
+repo stamp 1795383712, live stamp 1795383712
 js/isms.js 200 80548
 js/balance.js 200 12973
 js/voices.js 200 12946
@@ -7,6 +7,6 @@ js/mathpath.js 200 38379
 js/method.js 200 7550
 js/parliaments.js 200 21651
 js/institutions.js 200 20794
-js/countries.js 200 23746
+js/countries.js 200 32024
 sw.js 200 2026
 data/commons.json 200 3347399
