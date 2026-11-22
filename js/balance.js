@@ -62,6 +62,6 @@
   if (R && R.reading) { const orig = R.reading; R.reading = (p, nav, arg, D) => { orig(p, nav, arg, D); const b = Lab.balanceBar(urlsOf(D)); if (b) p.append(b); }; }
   Lab.siteBalance = () => { const all = new Set(); Object.values(Lab.DIVES_ALL || {}).forEach((D) => urlsOf(D).forEach((u) => all.add(u)));
     (Lab.INSTITUTIONS || []).forEach((x) => (x.src || []).forEach((s) => s[1] && all.add(s[1])));
-    (Lab.oppressionUrls ? Lab.oppressionUrls() : []).forEach((u) => all.add(u)); (Lab.liesUrls ? Lab.liesUrls() : []).forEach((u) => all.add(u)); Object.values(Lab.POWER || {}).forEach((S) => (S.src || []).forEach((x) => all.add(x[2] ? x[1] + '#@' + x[2] : x[1])));
+    (Lab.oppressionUrls ? Lab.oppressionUrls() : []).forEach((u) => all.add(u)); (Lab.liesUrls ? Lab.liesUrls() : []).forEach((u) => all.add(u)); (Lab.originsUrls ? Lab.originsUrls() : []).forEach((u) => all.add(u)); Object.values(Lab.POWER || {}).forEach((S) => (S.src || []).forEach((x) => all.add(x[2] ? x[1] + '#@' + x[2] : x[1])));
     return Lab.balanceBar([...all], '🌍 Source balance across all deep dives (measured live)'); };
 })();
