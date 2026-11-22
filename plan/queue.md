@@ -80,3 +80,11 @@ Each unit is about one run (1–2 hours). A deep dive is split into 7 parts: eng
   - Spot-check 10 random checked claims against their sources.
   - Fix anything broken.
   - Write a progress summary at the top of the log.
+
+## Added 2026-11-22 (see plan/ROADMAP.md)
+- [ ] **MAP-1 Map of the Lab.** One page listing every subject, topic, era, place, hub and evidence type, reachable in two taps; add to the top bar.
+- [ ] **POW-2…13 More power ladders** in js/power.js, same fields as US/China/USSR/Nazi Germany: UK, Russia today, India, Iran, Japan, North Korea, Vietnam, Cuba, Saudi Arabia, EU, Brazil, South Africa. Then historical: Roman Republic, Qing, Ottoman, Mughal, Fascist Italy, Imperial Japan, apartheid South Africa. Fact-check each with a separate agent.
+- [ ] **POL-1…4 Policy case studies:** how the ACA passed (2010), how China ended the one-child policy (2015), how a Soviet Five-Year Plan was made, Brexit (2016–20).
+- [ ] **OPP-2 Oppressor and oppressed to 150+ cases** (js/oppression.js): add Japanese “comfort women”, Indonesia 1965–66, Jeju 1948, Darfur 2003–, Yazidis 2014, Stolen Generations, US Indian boarding schools, Canadian residential schools, Algeria 1954–62, Belgian Congo after 1908, Bengal 1770, the Irish Magdalene laundries, Chile and Argentina state terror, Tiananmen, Uyghur forced labour, Yemen war, Syria detention, Ethiopian Red Terror, Holodomor survivor testimony. Each with testimony and the propaganda on every side; developing cases marked.
+- [ ] **ARC-2 More live archives:** test GDELT (world news), David Rumsey maps, Openverse (retry), LoC new API; add those that pass tools/cors_check.py. Add key-based archives once Owen registers keys.
+- [ ] **BAL-2 Political balance:** tag lean on reading lists ([title, url, origin, lean]) across all dives; keep both left- and right-leaning interpretations on every contested topic.

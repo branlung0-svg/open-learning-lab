@@ -24,22 +24,44 @@
     for (const [k, re] of Object.entries(TLD)) if (re.test(host)) return k;
     return /\.(org|com|net|info|io)$/.test(host) ? 'unk' : null; };
   const urlsOf = (D) => { const X = D.data || {}; const out = [];
-    (X.reading || []).forEach(([, it]) => it.forEach((x) => x[1] && out.push(x[2] ? x[1] + '#@' + x[2] : x[1])));
-    ((X.lineage && X.lineage.steps) || []).forEach((s) => (s.src || []).forEach((x) => x[1] && out.push(x[2] ? x[1] + '#@' + x[2] : x[1])));
+    const tg = (u, o, l) => u + (o || l ? '#@' + (o || '') + (l ? '@' + l : '') : '');
+    (X.reading || []).forEach(([, it]) => it.forEach((x) => x[1] && out.push(tg(x[1], x[2], x[3]))));
+    ((X.lineage && X.lineage.steps) || []).forEach((s) => (s.src || []).forEach((x) => x[1] && out.push(tg(x[1], x[2], x[3]))));
     const L = X.locker || {}; (L.docs || []).forEach((x) => x[3] && out.push(x[4] ? x[3] + '#@' + x[4] : x[3])); (L.data || []).forEach((x) => x[2] && out.push(x[2])); (L.papers || []).forEach((x) => x[4] && out.push(x[4]));
     (X.ideas || []).forEach((x) => x[5] && x[5][1] && out.push(x[5][1]));
     return [...new Set(out)]; };
-  const count = (urls) => { const c = {}; let unk = 0; urls.forEach((u) => { const tag = (u.match(/#@(\w+)$/) || [])[1]; const r = tag || Lab.sourceRegion(u.replace(/#@\w+$/, '')); if (!r) unk++; else { const k = r.replace('?', ''); c[k] = (c[k] || 0) + 1; } }); return [c, unk]; };
+  const count = (urls) => { const c = {}; let unk = 0; urls.forEach((u) => { const tag = (u.match(/#@(\w*)/) || [])[1]; const r = tag || Lab.sourceRegion(u.replace(/#@.*$/, '')); if (!r) unk++; else { const k = r.replace('?', ''); c[k] = (c[k] || 0) + 1; } }); return [c, unk]; };
   Lab.balanceBar = (urls, title) => { const [c, unk] = count(urls); const tot = Object.values(c).reduce((a, b) => a + b, 0); if (!tot) return null;
     const named = tot - (c.open || 0) - (c.int || 0) - (c.unk || 0); const west = (c.na || 0) + (c.eu || 0) + (c.oc || 0); const rest = named - west;
     const bar = h('div', { class: 'bal-bar' }, REG.filter(([k]) => c[k]).map(([k, n, col]) => h('span', { title: `${n}: ${c[k]}`, style: { flex: String(c[k]), background: col } })));
     return h('div', { class: 'card bal-card' }, h('h3', { style: { marginTop: 0 } }, title || '🌍 Where these sources come from'), bar,
       h('div', { class: 'row', style: { gap: '10px', flexWrap: 'wrap', margin: '6px 0' } }, REG.filter(([k]) => c[k]).map(([k, n, col]) => h('span', { class: 'tiny' }, h('span', { style: { display: 'inline-block', width: '9px', height: '9px', borderRadius: '2px', background: col, marginRight: '4px' } }), `${n} ${c[k]}`))),
       h('p', { class: 'small', style: { margin: '6px 0 0' } }, named ? `Of ${named} sources from a named country or region, ${west} (${Math.round(100 * west / named)}%) come from North America, Europe or Oceania and ${rest} (${Math.round(100 * rest / named)}%) from everywhere else.` : 'All sources here are open archives or international bodies.', ' ', (c.open || 0) ? `${c.open} are open archives that host texts from every country.` : ''),
-      h('p', { class: 'tiny muted', style: { margin: '4px 0 0' } }, 'Where a source is tagged with the origin of its voice (for example a Chinese, Indian or Cuban author or government document hosted on an archive), it counts by that origin; otherwise it counts by where the publisher is based. A Chinese historian published in the US and not tagged counts as North America. Books listed without a link are not counted; most of those are Western, so the true balance is more Western than this bar shows.' + (unk ? ` ${unk} links could not be classified.` : ''), ' ', h('a', { href: '#method' }, 'Research standard →'))); };
+      h('p', { class: 'tiny muted', style: { margin: '4px 0 0' } }, 'Where a source is tagged with the origin of its voice (for example a Chinese, Indian or Cuban author or government document hosted on an archive), it counts by that origin; otherwise it counts by where the publisher is based. A Chinese historian published in the US and not tagged counts as North America. Books listed without a link are not counted; most of those are Western, so the true balance is more Western than this bar shows.' + (unk ? ` ${unk} links could not be classified.` : ''), ' ', h('a', { href: '#method' }, 'Research standard →')), Lab.leanBar ? Lab.leanBar(urls) : null); };
+
+  // ---- political perspective (by publisher reputation; explicit tags win). Rough by nature: shown as a guide, not a verdict.
+  const LEAN = [['left', 'Left', '#B91C1C'], ['cleft', 'Centre-left', '#F87171'], ['centre', 'Centre / wire services', '#A3A3A3'], ['cright', 'Centre-right', '#60A5FA'], ['right', 'Right', '#1D4ED8'], ['state', 'Governments & state media', '#7C3AED'], ['acad', 'Academic research & data', '#0D9488'], ['intl', 'International bodies', '#64748B'], ['ref', 'Reference & archives', '#CBD5E1']];
+  const LD = { left: /(jacobin|thenation|motherjones|monthlyreview|counterpunch|democracynow|commondreams|theintercept|marxists\.org|theanarchistlibrary|epi\.org|cepr\.net|truthout|newleftreview|socialistworker|versobooks|haymarketbooks|tni\.org|jacobinmag)/,
+    cleft: /(theguardian|nytimes|washingtonpost|vox\.com|npr\.org|cnn\.com|newyorker|theatlantic|brookings|propublica|huffpost|msnbc|thewire\.in|scroll\.in|haaretz|lemonde|independent\.co)/,
+    centre: /(reuters|apnews|bbc\.|pewresearch|csis\.org|cfr\.org|rand\.org|politico|bloomberg|economist|ft\.com|dw\.com|france24|nippon\.com|straitstimes|thehindu|dailymaverick|chathamhouse|iiss|crisisgroup|sipri)/,
+    cright: /(telegraph\.co|wsj\.com|thetimes\.co|spectator|economist\.com\/leaders|fraserinstitute|hoover\.org|manhattan-institute|city-journal|aei\.org|dailysabah)/,
+    right: /(heritage\.org|cato\.org|nationalreview|foxnews|dailywire|washingtonexaminer|americanconservative|claremont|mises\.org|fee\.org|breitbart|theblaze|firstthings|imprimis|quillette)/,
+    state: /(xinhua|news\.cn|cgtn|people\.cn|qstheory|globaltimes|chinadaily|tass|rt\.com|kremlin|kcna|rodong|granma|cubadebate|nhandan|vietnamnews|presstv|tehrantimes|aljazeera|voanews|rferl|kpl\.gov\.la|telesur|\.gov(\.[a-z]{2})?$|\.gov\.|\.mil$|parliament\.|duma\.gov|npc\.gov)/,
+    acad: /(\.edu$|\.edu\.|\.ac\.[a-z]{2}|jstor|doi\.org|aeaweb|academic\.oup|journals\.|nber|springer|tandfonline|sciencedirect|nature\.com|science\.org|thelancet|bmj\.com|v-dem|wid\.world|ourworldindata|rug\.nl|slavevoyages|aiddata|ipcinfo|acleddata|politicalterrorscale|manifesto-project|worldvaluessurvey|journalofdemocracy|codesria|clacso|epw\.in|dccam)/,
+    intl: /(un\.org|undp|unesco|unicef|who\.int|imf\.org|worldbank|wto\.org|oecd|icc-cpi|icj-cij|ohchr|ilo\.org|fao\.org|ipu\.org|nato\.int|europa\.eu|opcw|ochaopt|reliefweb|ipcinfo)/,
+    ref: /(wikipedia|wikisource|wikimedia|gutenberg|archive\.org|avalon\.law|plato\.stanford|constituteproject|britannica|loc\.gov|nationalarchives|ushmm|trc|vatican\.va|legislation\.gov|eur-lex)/ };
+  Lab.sourceLean = (u) => { const t = (u.match(/#@\w*@(\w+)/) || [])[1]; if (t) return t; let host; try { host = new URL(u.replace(/#@.*$/, '')).hostname.replace(/^www\./, ''); } catch (e) { return null; }
+    for (const k of ['ref', 'intl', 'acad', 'state', 'right', 'cright', 'left', 'cleft', 'centre']) if (LD[k].test(host)) return k; return null; };
+  Lab.leanBar = (urls) => { const c = {}; let unk = 0; urls.forEach((u) => { const r = Lab.sourceLean(u); if (r) c[r] = (c[r] || 0) + 1; else unk++; });
+    const tot = Object.values(c).reduce((a, b) => a + b, 0); if (!tot) return null; const L = (c.left || 0) + (c.cleft || 0), R = (c.right || 0) + (c.cright || 0);
+    return h('div', null, h('h4', { style: { margin: '12px 0 4px' } }, '🧭 Political perspective of the publishers'), h('div', { class: 'bal-bar' }, LEAN.filter(([k]) => c[k]).map(([k, n, col]) => h('span', { title: `${n}: ${c[k]}`, style: { flex: String(c[k]), background: col } }))),
+      h('div', { class: 'row', style: { gap: '10px', flexWrap: 'wrap', margin: '6px 0' } }, LEAN.filter(([k]) => c[k]).map(([k, n, col]) => h('span', { class: 'tiny' }, h('span', { style: { display: 'inline-block', width: '9px', height: '9px', borderRadius: '2px', background: col, marginRight: '4px' } }), `${n} ${c[k]}`))),
+      h('p', { class: 'small', style: { margin: '4px 0 0' } }, L + R ? `Of sources with a clear political lean, ${L} lean left and ${R} lean right.` : 'Almost all sources here are archives, research, governments or international bodies.'),
+      h('p', { class: 'tiny muted', style: { margin: '2px 0 0' } }, 'Lean is judged from each publisher’s general reputation (or a tag on the source), not from each article. Original texts such as Marx, Hayek or Burke count as “Reference & archives” unless tagged with the author’s side.' + (unk ? ` ${unk} not classified.` : ''))); };
   const R = Lab.deepdive && Lab.deepdive.R;
   if (R && R.reading) { const orig = R.reading; R.reading = (p, nav, arg, D) => { orig(p, nav, arg, D); const b = Lab.balanceBar(urlsOf(D)); if (b) p.append(b); }; }
   Lab.siteBalance = () => { const all = new Set(); Object.values(Lab.DIVES_ALL || {}).forEach((D) => urlsOf(D).forEach((u) => all.add(u)));
     (Lab.INSTITUTIONS || []).forEach((x) => (x.src || []).forEach((s) => s[1] && all.add(s[1])));
+    (Lab.oppressionUrls ? Lab.oppressionUrls() : []).forEach((u) => all.add(u)); Object.values(Lab.POWER || {}).forEach((S) => (S.src || []).forEach((x) => all.add(x[2] ? x[1] + '#@' + x[2] : x[1])));
     return Lab.balanceBar([...all], '🌍 Source balance across all deep dives (measured live)'); };
 })();

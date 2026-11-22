@@ -113,3 +113,10 @@ Open: the first loop run starts with CAP-0.
 - Fact-check of the five new dives: corrected or attributed 11 claims (Spanish clergy count 6,832 with both sides' violence; Lenin–Kropotkin; Qin book-burning as traditional account; Americas population fall as a 50–90% range; EIC dating; Cold War coups worded by documented role; "social credit" description; V-Dem 2026 figures with its critics' view; DPRK constitution "socialist/socialism" counted at 42 in the official English translation).
 - Evidence sections (original documents, datasets, peer-reviewed studies) for liberalism, conservatism, anarchism, authoritarianism, imperialism.
 - Queued 106 Commons searches: 24 archival films and 82 photo sets across all eight ideology dives; galleries wired in.
+
+## 2026-11-22 — Power ladders, oppressor and oppressed, more archives, roadmap
+- #power: step-by-step ladders for the US, China, USSR and Nazi Germany (citizen to top, how people climb with a real career, how decisions are made, money and war, checks, who was shut out), plus a side-by-side table. Linked from How power works and each system page.
+- #oppression: 11 categories, 59 cases (colonial rule and slavery, genocide, apartheid, war, famine, disease, sanctions, chemical, biological and nuclear weapons, camps and torture, disasters) with numbers as ranges, testimony archives, the propaganda on each side, and live archive evidence. Developing cases (Ukraine, Gaza, Sudan, famine) use November 2026 figures.
+- Live archive search: added Europeana, Smithsonian, Wellcome Collection, V&A, Art Institute of Chicago and Japan's National Diet Library after a CORS test from GitHub Actions (plan/cors-check.json).
+- Political-perspective meter added to source balance; right-to-left reading lists on seven dives.
+- plan/ROADMAP.md: the finish line and phases. Build loop found paused since 2026-11-14.
