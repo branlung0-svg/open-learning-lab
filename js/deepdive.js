@@ -118,12 +118,23 @@ R.cases = (p, nav, arg, D) => {
   const draw = () => { chips.innerHTML = ''; X.caseOrder.forEach((k) => chips.append(h('span', { class: 'chip' + (k === key ? ' on' : ''), style: { flex: 'none', whiteSpace: 'nowrap' }, onclick: () => pickCase(k) }, X.cases[k].flag + ' ' + X.cases[k].n)));
     const on = chips.querySelector('.chip.on'); if (on) Lab.centerInRow(on);
     const c = X.cases[key]; box.innerHTML = '';
+    // Case pictures: the case's own pictures, then the country's place-checked pictures from the case's years (history first,
+    // oldest first), then cities and daily life. The country is found from the case's flag.
+    const casePics = (c, words) => { const since = +((String(c.years).match(/\d{4}/) || [])[0]) || null; const until = /today|present|now|→/.test(c.years) ? null : +((String(c.years).match(/(\d{4})\D*$/) || [])[1]) || null;
+      const slot = h('div'); const base = [c.img, c.img2, ...(c.more || [])].filter(Boolean);
+      Promise.all([Lab.json('data/countries.json').catch(() => null), Lab.commons()]).then(async ([CL, CM]) => { const iso = CL && ((CL.list || []).find((x) => x.flag === c.flag) || {}).id;
+        let extra = [];
+        if (iso && Lab.countryPictureKeys) { const G = await Lab.countryPictureKeys(iso); const y = (k) => { const m = String((CM[k] || {}).date || (CM[k] || {}).title || '').match(/\b(1[0-9]{3}|20[0-9]{2})\b/); return m ? +m[1] : null; };
+          const inRange = (k) => { const v = y(k); return v == null || ((!since || v >= since - 5) && (!until || v <= until + 5)); };
+          extra = [...(G.hist || []).filter(inRange), ...(G.life || []), ...(G.city || []), ...(G.heritage || []), ...(G.land || [])]; }
+        slot.replaceWith(Lab.carousel([...base, ...extra], { words: extra.length >= 8 ? null : words, max: 40, since, until })); });
+      return slot; };
     const tl = h('div');
     c.tl.forEach(([y, t, cf]) => tl.append(h('div', { class: 'row', style: { flexWrap: 'nowrap', gap: '10px', alignItems: 'flex-start', padding: '7px 4px', borderBottom: '1px solid var(--line)' } }, h('b', { class: 'small', style: { width: '74px', flex: 'none' } }, y), h('span', { class: 'small', style: { flex: 1 } }, t), Lab.conf(CONF[cf] || cf))));
     const links = (U.caseLinks || []).filter(([, , only]) => !only || only.includes(key)).map(btn);
     const words = (X.caseWords || {})[key];
     const parts = {
-      overview: () => [card(h('p', { style: { marginTop: 0 } }, c.sum), Lab.carousel([c.img, c.img2, ...(c.more || [])], { words, max: 24, since: +((String(c.years).match(/\d{4}/) || [])[0]) || null, until: /today|present|now/i.test(c.years) ? null : +((String(c.years).match(/(\d{4})\D*$/) || [])[1]) || null })),
+      overview: () => [card(h('p', { style: { marginTop: 0 } }, c.sum), casePics(c, words)),
         card(h('h3', { style: { marginTop: 0 } }, L.power || '🏛️ Who holds power'), h('p', { class: 'small' }, c.power), h('div', { class: 'row', style: { gap: '6px' } }, links))],
       timeline: () => [card(h('h3', { style: { marginTop: 0 } }, '📅 Timeline'), tl)],
       record: () => [h('div', { class: 'grid g2' }, card(h('h3', { style: { marginTop: 0, color: '#15803D' } }, L.gains || '📈 Achievements'), h('ul', { class: 'small' }, c.gains.map((g) => h('li', { style: { margin: '4px 0' } }, g)))), card(h('h3', { style: { marginTop: 0, color: '#DC2626' } }, L.costs || '📉 Costs'), h('ul', { class: 'small' }, c.costs.map((g) => h('li', { style: { margin: '4px 0' } }, g)))))],

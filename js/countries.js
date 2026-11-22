@@ -55,10 +55,9 @@
         h('h1', null, c.flag + ' ' + c.n), h('p', null, [c.off !== c.n ? c.off : '', c.nat.length ? 'In its own language: ' + c.nat.join(' / ') : ''].filter(Boolean).join('. ')),
         h('div', { class: 'dp-nums' }, [[pop && fmt(pop[1]), 'people (' + (pop ? pop[0] : '') + ')'], [c.cap.join(', '), 'capital'], [lex && lex[1].toFixed(0), 'life expectancy'], [gdp && '$' + Math.round(gdp[1]).toLocaleString(), 'income per person (' + (gdp ? gdp[0] : '') + ')']].filter(([v]) => v).map(([v, l]) => h('div', null, h('b', null, v), h('span', null, l)))),
         saveBtn ? h('div', { style: { marginTop: '10px' } }, saveBtn) : null);
-      Lab.commons().then((C) => { const re = new RegExp('\\b(' + words.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')\\b', 'i');
-        const own = Object.keys(C).filter((k) => k.startsWith('c:k-' + c.id + '-') && !C[k].graphic && !C[k].video).sort(() => Math.random() - 0.5);
-        const more = Object.keys(C).filter((k) => !k.startsWith('c:k-') && !C[k].graphic && !C[k].video && re.test(C[k].title + ' ' + (C[k].cap || '')));
-        Lab.photoize(hero, { keys: own.concat(more), tags: own.length + more.length >= 3 ? ['__none__'] : ['nature'] }); });
+      // Header photos: this country's checked pictures only (landmarks, cities, land), never loose name matches.
+      Lab.countryPictureKeys(c.id).then((G) => { const own = [...(G.heritage || []), ...(G.city || []), ...(G.land || []), ...(G.life || [])];
+        Lab.photoize(hero, { keys: own.slice(0, 12), tags: own.length >= 3 ? ['__none__'] : ['nature'] }); });
       app.append(hero, h('div', { class: 'card', style: { position: 'sticky', top: '58px', zIndex: 6, padding: '6px 10px' } }, bar), body);
 
       const fact = (k, v) => (v ? h('div', { class: 'ctry-fact' }, h('span', { class: 'tiny muted' }, k), h('b', null, v)) : null);
@@ -83,7 +82,7 @@
             fact('Area', c.area ? Math.round(c.area).toLocaleString() + ' km²' : ''), fact('People', pop ? fmt(pop[1]) + ' (' + pop[0] + ')' : ''), fact('Life expectancy', lex ? lex[1].toFixed(1) + ' years (' + lex[0] + ')' : ''), fact('Human Development Index', hdi ? hdi[1].toFixed(3) + ' (' + hdi[0] + ')' : ''),
             fact('Democracy index (0–1)', dem ? dem[1].toFixed(2) + ' (' + dem[0] + ', V-Dem)' : ''), fact('Citizens are called', c.dem)),
           h('h3', null, 'Neighbours'), neighbours),
-          h('div', { class: 'card' }, h('h3', { style: { marginTop: 0 } }, 'Pictures'), Lab.carousel([], { prefix: 'c:k-' + c.id + '-', words, max: 30 }), h('button', { class: 'btn sm', onclick: () => show('places') }, 'More places & pictures →')),
+          h('div', { class: 'card' }, h('h3', { style: { marginTop: 0 } }, 'Pictures'), Lab.countryPictures(c, { highlights: 16 }), h('button', { class: 'btn sm', style: { marginTop: '8px' }, onclick: () => show('places') }, 'All pictures, by theme →')),
           h('div', { class: 'card' }, h('h3', { style: { marginTop: 0 } }, 'Study it in depth'), h('p', { class: 'small' }, 'A full study of ' + c.n + ': land, peoples before colonialism, empire and independence, the 20th century with real numbers, how power works today, life in data, culture and minorities, and every side of its debates.'),
             h('div', { class: 'row', style: { gap: '8px', flexWrap: 'wrap' } }, h('button', { class: 'btn primary', onclick: () => ask(STUDY) }, '✦ Full study with the tutor'), h('button', { class: 'btn', onclick: () => show('history') }, 'History on this site →'), h('button', { class: 'btn', onclick: () => show('data') }, 'Life in numbers →')))],
         history: () => { const cs = cases(); const g = GOVMAP[c.id];
@@ -106,7 +105,7 @@
               h('button', { class: 'btn sm', onclick: () => ask(`What are the main political forces in ${c.n} today and what does each want? Describe each fairly, in its own terms, then its critics’ case.`) }, '✦ The main political forces'))),
             Lab.carousel ? Lab.carousel([], { prefix: 'c:a-gov-' + c.id + '-', max: 8 }) : null, Lab.powerNow ? Lab.powerNow(c.id) : null, (Lab.POWER && Object.values(Lab.POWER).some((P) => P.iso === c.id)) ? h('a', { class: 'card feat-card', href: '#power-' + Object.entries(Lab.POWER).find(([, P]) => P.iso === c.id)[0] }, h('b', null, '🧗 Step by step: the ladder, who runs what, how decisions are made →'), h('span', { class: 'small' }, 'From the citizen to the top, with who was shut out.')) : null, ...(Lab.parliamentFor ? Lab.parliamentFor(c.id) : []), c.id === 'chn' ? h('a', { class: 'btn sm', href: '#parliaments-china' }, '🪜 How China’s system is built, level by level →') : null, h('a', { class: 'small', href: '#parliaments' }, 'Compare parliaments around the world →'),
             cchart('Democracy', 'dem', '#7C3AED', { note: 'V-Dem electoral democracy index, 0–1.' }), cchart('Civil liberties', 'lib', '#0891B2')].filter(Boolean); },
-        places: () => [h('div', { class: 'card' }, h('h3', { style: { marginTop: 0 } }, 'Cities, villages, land and history in pictures'), Lab.carousel([], { prefix: 'c:k-' + c.id + '-', words, max: 80 }),
+        places: () => [h('div', { class: 'card' }, h('h3', { style: { marginTop: 0 } }, 'Cities, villages, land and history in pictures'), Lab.countryPictures(c),
             h('div', { class: 'row', style: { gap: '6px', flexWrap: 'wrap', marginTop: '8px' } }, h('a', { class: 'btn sm', href: '#archive', onclick: () => { try { sessionStorage.setItem('lab.archiveQ', c.n); } catch (e) {} } }, 'Search the Archive →'),
               h('a', { class: 'btn sm', href: 'https://commons.wikimedia.org/wiki/Category:' + encodeURIComponent((NAMEFIX[c.n] || c.n).replace(/ /g, '_')), target: '_blank', rel: 'noopener' }, 'Thousands more on Wikimedia Commons ↗'))),
           h('div', { class: 'card' }, h('h3', { style: { marginTop: 0 } }, 'Geography'), h('p', { class: 'small' }, [c.land ? 'Landlocked. ' : '', c.area ? `Area ${Math.round(c.area).toLocaleString()} km². ` : '', c.ll ? `Centre near ${c.ll[0].toFixed(1)}°, ${c.ll[1].toFixed(1)}°.` : ''].join('')),

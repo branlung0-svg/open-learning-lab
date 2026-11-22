@@ -31,6 +31,35 @@
   // keys: c:/v: archive keys or modern-pack keys (ev:, ml:, sys:). opts.words: also pull archive pictures whose
   // title or description mentions any of these words. opts.max: cap on pictures (default 24).
   const LEADERS = /\b(lenin|stalin|trotsky|hitler|mussolini|franco|mao zedong|castro|guevara|kim il|kim jong|tito|pinochet|allende|salazar|p[eé]tain|gandhi|nasser|sukarno|suharto|yeltsin|reagan|thatcher|churchill|roosevelt|truman|kennedy|nixon|ho chi minh|deng xiaoping|xi jinping|putin|leopold ii|portrait)\b/i;
+  // Country pictures, organized: only pictures filed under this country (and place-checked by tools/place_check.py), grouped
+  // by theme in a fixed order. Old photographs run oldest first. No loose word matching, which used to pull in China, Maine.
+  const CTAG = { chn: ['china'], usa: ['usa'], gbr: ['britain'], cub: ['cuba'], vnm: ['vietnam'], ind: ['india'], jpn: ['japan'], rus: ['soviet-life'] };
+  const THEMES = [['heritage', 'Heritage and landmarks'], ['city', 'Cities'], ['land', 'Land and nature'], ['life', 'Daily life'], ['hist', 'History in photographs, oldest first']];
+  const yearOf = (m) => { const y = String(m.date || '').match(/\b(1[0-9]{3}|20[0-9]{2})\b/) || String(m.title || '').match(/\b(1[0-9]{3}|20[0-9]{2})\b/); return y ? +y[1] : null; };
+  const themeOf = (k, m) => { const t = k.match(/-(heritage|city|land|life|hist)-/); if (t) return t[1];
+    const x = [k, m.title, m.desc, m.cap].join(' '); const y = yearOf(m);
+    if ((y && y < 1975) || /historical|\b1[89]\d0s\b|old photograph|dynasty photograph|soviet-life/i.test(x + ' ' + (m.tags || []).join(' '))) return 'hist';
+    if (/landscape|mountain|\blake\b|river|valley|desert|forest|beach|coast|island|national park|karst|glacier|waterfall|terrace|grassland|plateau|canyon|gorge|volcano|savanna|nature|reef|fjord|wildlife/i.test(x)) return 'land';
+    if (/temple|palace|mosque|church|cathedral|monastery|pagoda|\bfort\b|castle|ruins|tomb|great wall|shrine|heritage|unesco|ancient|old town|mausoleum|monument/i.test(x)) return 'heritage';
+    if (/market|people|children|farmer|worker|festival|school|food|dance|village|fisher|bazaar|nomad|family|wedding|harvest|daily life|hutong|bicycle/i.test(x)) return 'life';
+    return 'city'; };
+  Lab.countryPictureKeys = async (iso) => { const C = await Lab.commons(); const tags = CTAG[iso] || [];
+    const keys = Object.keys(C).filter((k) => { const m = C[k]; if (!m || m.kind !== 'image') return false;
+      if (LEADERS.test((m.title || '') + ' ' + (m.cap || ''))) return false;
+      return k.startsWith('c:k-' + iso + '-') || (tags.length && tags.includes((m.tags || [])[0])); });
+    const rank = (k) => (/-(fp|qi)-\d+$/.test(k) ? 0 : /-(heritage|city|land|life|hist)-/.test(k) ? 1 : k.startsWith('c:a-') ? 2 : 3);
+    const groups = {}; keys.forEach((k) => (groups[themeOf(k, C[k])] ||= []).push(k));
+    Object.entries(groups).forEach(([t, ks]) => ks.sort(t === 'hist' ? (a, b) => (yearOf(C[a]) || 9999) - (yearOf(C[b]) || 9999) || a.localeCompare(b) : (a, b) => rank(a) - rank(b) || a.localeCompare(b)));
+    return groups; };
+  Lab.countryPictures = (c, opts = {}) => { const box = h('div', { class: 'stack' }, h('p', { class: 'small muted', style: { margin: 0 } }, 'Loading pictures…'));
+    Lab.countryPictureKeys(c.id).then((G) => { const total = Object.values(G).reduce((a, b) => a + b.length, 0);
+      if (!total) { box.replaceChildren(h('p', { class: 'small muted', style: { margin: 0 } }, 'No checked pictures of ' + c.n + ' yet.')); return; }
+      const parts = [h('p', { class: 'tiny muted', style: { margin: 0 } }, total + ' pictures of ' + c.n + ', each checked against where it was taken (camera location or Commons categories). Credits under each picture.')];
+      if (opts.highlights) { const hl = THEMES.flatMap(([t]) => (G[t] || []).slice(0, 4)).slice(0, opts.highlights);
+        parts.push(Lab.carousel(hl, { max: opts.highlights })); }
+      else THEMES.forEach(([t, name]) => { if (G[t] && G[t].length) parts.push(h('h4', { style: { margin: '10px 0 2px' } }, name + ' · ' + G[t].length), Lab.carousel(G[t], { max: 60 })); });
+      box.replaceChildren(...parts); });
+    return box; };
   Lab.carousel = (keys, opts = {}) => {
     const root = h('div', { class: 'car', tabindex: '0' });
     Lab.commons().then(async (C) => {

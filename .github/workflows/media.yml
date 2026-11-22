@@ -2,7 +2,10 @@ name: media
 on:
   workflow_dispatch:
   push:
-    paths: ['data/media-wanted.json', 'tools/fetch_commons.py']
+    paths: ['data/media-wanted.json', 'tools/fetch_commons.py', 'tools/place_check.py']
+concurrency:
+  group: media
+  cancel-in-progress: false
 permissions:
   contents: write
 jobs:
@@ -12,12 +15,14 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
-      - run: pip install requests pillow
+      - run: pip install requests pillow shapely
       - run: python tools/fetch_commons.py
       - run: python tools/make_thumbs.py
+      - name: Check pictures were taken in the country they are filed under
+        run: python tools/place_check.py
       - name: Commit new media
         run: |
           git config user.name "lab-media-bot"
           git config user.email "lab-media-bot@users.noreply.github.com"
-          git add img/c data/commons.json
-          git diff --cached --quiet || (git commit -m "Media: pictures and film from Wikimedia Commons (credits in data/commons.json)" && git pull --rebase && git push)
+          git add img/c data/commons.json data/media-skip.json plan/place-check.json
+          git diff --cached --quiet || (git commit -m "Media: pictures and film from Wikimedia Commons, place-checked (credits in data/commons.json)" && git pull --rebase && git push)
