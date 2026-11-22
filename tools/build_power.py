@@ -57,7 +57,8 @@ SELECT ?iso ?c ?cLabel ?hos ?hosLabel ?hosStart ?hog ?hogLabel ?hogStart ?hosOff
 
 MINISTERS = """
 SELECT ?pos ?posLabel ?p ?pLabel ?start WHERE {
-  ?pos wdt:P1001 wd:%s ; wdt:P31/wdt:P279* wd:Q83307 .
+  ?pos wdt:P1001 wd:%s ; rdfs:label ?l .
+  FILTER(LANG(?l) = "en" && REGEX(?l, "^(Minister|Secretary of|Secretary for|Attorney General|Chancellor of the Exchequer|Foreign Secretary|Home Secretary|Defence Secretary|Vice[- ]Premier|Deputy Prime Minister|Governor of the (Central|Reserve|People)|Chief of the Defence|Chairman of the Joint)", "i"))
   ?p p:P39 ?st . ?st ps:P39 ?pos .
   FILTER NOT EXISTS { ?st pq:P582 ?end }
   OPTIONAL { ?st pq:P580 ?start }
@@ -144,7 +145,9 @@ def groups(val):
         mc = re.search(r'\{\{\s*(?:colou?r ?box|legend|party colou?r[^|]*)\s*\|\s*(#?[0-9A-Fa-f]{3,6})', ln, re.I)
         if mc: colour = mc.group(1) if mc.group(1).startswith('#') else '#' + mc.group(1)
         mp = re.search(r'\{\{\s*party ?colou?r(?:box)?\s*\|\s*([^|}]+)', ln, re.I)
-        txt = plain(re.sub(r'\{\{\s*(?:colou?r ?box|legend)[^{}]*\}\}', '', ln))
+        ln = re.sub(r'\{\{\s*legend2?\s*\|\s*#?[0-9A-Fa-f]{3,6}\s*\|([^{}]*)\}\}', r'\1', ln, flags=re.I)
+        ln = re.sub(r'\{\{\s*(?:party name with colou?r|party colou?r cell|colou?red link)\s*\|([^|{}]*)[^{}]*\}\}', r'\1', ln, flags=re.I)
+        txt = plain(re.sub(r'\{\{\s*(?:colou?r ?box)[^{}]*\}\}', '', ln))
         if not txt: continue
         m = re.search(r'^(.*?)[\s:–—-]*\(?\s*(\d[\d,]*)\s*\)?\s*(?:seats?)?\s*$', txt)
         if not m:
@@ -184,14 +187,14 @@ def legislature(title, depth=0):
     leaf = [r for r in rows if not r[3]] or rows
     seats = num(f.get('seats1') or f.get('seats') or f.get('members'))
     total = sum(r[1] for r in leaf)
-    if seats or rows or diag:
+    if (seats or rows or diag) and not res:
         res.insert(0, {'title': real, 'url': 'https://en.wikipedia.org/wiki/' + real.replace(' ', '_'), 'seats': seats, 'diagram': diag,
                        'groups': [[r[0], r[1], r[2]] for r in leaf][:40], 'groupsSum': total, 'sumOk': bool(seats and total and abs(total - seats) <= max(3, seats * 0.03)),
                        'election': plain(f.get('last_election1') or f.get('last_election') or '')[:60] or None,
                        'nextElection': plain(f.get('next_election1') or f.get('next_election') or '')[:60] or None,
                        'voting': plain(f.get('voting_system1') or f.get('voting_system') or '')[:160] or None,
                        'type': 'bicameral' if houses else (plain(f.get('house_type') or '') or None),
-                       'leader': plain(f.get('leader1') or '')[:80] or None, 'leaderType': plain(f.get('leader1_type') or '')[:60] or None})
+                       'leader': plain(f.get('leader1') or '')[:80] or None, 'leaderType': plain(f.get('leader1_type') or '')[:60] or None, '_raw': pg[:1500]})
     return res
 
 
@@ -231,7 +234,11 @@ def main():
         rec['ministers'] = sorted(recent, key=lambda m: m[0])[:60]
         # legislatures
         seen = set()
-        for lq, (lname, art) in list(c['legs'].items())[:2]:
+        cands = list(c['legs'].items())[:2]
+        if not cands and c['name']:
+            n0 = c['name']
+            cands = [(None, (None, t)) for t in [f'National Assembly ({n0})', f'National Assembly of {n0}', f'Parliament of {n0}', f'Congress of {n0}', f'National Congress of {n0}']]
+        for lq, (lname, art) in cands:
             for L in legislature(art or lname):
                 if L['title'] in seen: continue
                 seen.add(L['title']); rec['legislatures'].append(L)
@@ -243,6 +250,12 @@ def main():
         try: old = json.load(open('data/power.json'))
         except Exception: old = {}
         old.update(out); out = old
+    dbg = {}
+    for iso, r in out.items():
+        for L in r['legislatures']:
+            raw = L.pop('_raw', '')
+            if not L['sumOk'] and raw: dbg[iso + ' ' + L['title']] = {'seats': L['seats'], 'parsed': L['groups'][:12], 'raw': raw}
+    json.dump(dbg, open('plan/power-debug.json', 'w'), ensure_ascii=False, indent=1)
     json.dump(out, open('data/power.json', 'w'), ensure_ascii=False, separators=(',', ':'))
     ok = sum(1 for r in out.values() if any(L['sumOk'] for L in r['legislatures']))
     print('countries', len(out), 'with matching seat breakdown', ok)

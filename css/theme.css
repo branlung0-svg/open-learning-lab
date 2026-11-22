@@ -283,3 +283,10 @@ a:hover{text-decoration-thickness:2px}
 .pw-table th,.pw-table td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
 .op-case summary{cursor:pointer}
 .new-chip.on{border-color:var(--accent);background:var(--accent);color:#fff!important}
+.pw-top{margin:6px auto 0;max-width:340px;text-align:center;padding:12px;border-radius:14px;background:var(--c);color:#fff}
+.pw-top b{font-size:20px;display:block}
+.pw-down{text-align:center;color:var(--muted,#64748B);margin:2px 0}
+.pw-roles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px}
+.pw-role{border:1px solid var(--line);border-top:5px solid var(--c);border-radius:12px;padding:10px 12px}
+.pw-who{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:12px;padding:8px 10px}
+.pw-who .pw-n{background:var(--c)}

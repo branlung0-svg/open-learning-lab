@@ -22252,5 +22252,4709 @@
   ],
   "graphic": true,
   "cap": ""
+ },
+ {
+  "k": "c:a-gov-afg-leg",
+  "q": "parliament building Kabul Afghanistan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "afg"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-afg-gov",
+  "q": "government palace Afghanistan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "afg"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-alb-leg",
+  "q": "parliament building Tirana Albania",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "alb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-alb-gov",
+  "q": "government palace Albania",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "alb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-dza-leg",
+  "q": "parliament building Algiers Algeria",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "dza"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-dza-gov",
+  "q": "government palace Algeria",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "dza"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-and-leg",
+  "q": "parliament building Andorra la Vella Andorra",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "and"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-and-gov",
+  "q": "government palace Andorra",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "and"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ago-leg",
+  "q": "parliament building Luanda Angola",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ago"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ago-gov",
+  "q": "government palace Angola",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ago"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-atg-leg",
+  "q": "parliament building Saint John's Antigua and Barbuda",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "atg"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-atg-gov",
+  "q": "government palace Antigua and Barbuda",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "atg"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-arg-leg",
+  "q": "parliament building Buenos Aires Argentina",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "arg"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-arg-gov",
+  "q": "government palace Argentina",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "arg"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-arm-leg",
+  "q": "parliament building Yerevan Armenia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "arm"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-arm-gov",
+  "q": "government palace Armenia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "arm"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-aus-leg",
+  "q": "parliament building Canberra Australia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "aus"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-aus-gov",
+  "q": "government palace Australia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "aus"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-aut-leg",
+  "q": "parliament building Vienna Austria",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "aut"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-aut-gov",
+  "q": "government palace Austria",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "aut"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-aze-leg",
+  "q": "parliament building Baku Azerbaijan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "aze"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-aze-gov",
+  "q": "government palace Azerbaijan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "aze"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bhs-leg",
+  "q": "parliament building Nassau Bahamas",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bhs"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bhs-gov",
+  "q": "government palace Bahamas",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bhs"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bhr-leg",
+  "q": "parliament building Manama Bahrain",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bhr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bhr-gov",
+  "q": "government palace Bahrain",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bhr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bgd-leg",
+  "q": "parliament building Dhaka Bangladesh",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bgd"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bgd-gov",
+  "q": "government palace Bangladesh",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bgd"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-brb-leg",
+  "q": "parliament building Bridgetown Barbados",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "brb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-brb-gov",
+  "q": "government palace Barbados",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "brb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-blr-leg",
+  "q": "parliament building Minsk Belarus",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "blr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-blr-gov",
+  "q": "government palace Belarus",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "blr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bel-leg",
+  "q": "parliament building Brussels Belgium",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bel"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bel-gov",
+  "q": "government palace Belgium",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bel"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-blz-leg",
+  "q": "parliament building Belmopan Belize",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "blz"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-blz-gov",
+  "q": "government palace Belize",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "blz"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ben-leg",
+  "q": "parliament building Porto-Novo Benin",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ben"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ben-gov",
+  "q": "government palace Benin",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ben"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-btn-leg",
+  "q": "parliament building Thimphu Bhutan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "btn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-btn-gov",
+  "q": "government palace Bhutan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "btn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bol-leg",
+  "q": "parliament building Sucre Bolivia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bol"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bol-gov",
+  "q": "government palace Bolivia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bol"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bih-leg",
+  "q": "parliament building Sarajevo Bosnia and Herzegovina",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bih"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bih-gov",
+  "q": "government palace Bosnia and Herzegovina",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bih"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bwa-leg",
+  "q": "parliament building Gaborone Botswana",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bwa"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bwa-gov",
+  "q": "government palace Botswana",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bwa"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bra-leg",
+  "q": "parliament building Brasília Brazil",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bra"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bra-gov",
+  "q": "government palace Brazil",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bra"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-brn-leg",
+  "q": "parliament building Bandar Seri Begawan Brunei",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "brn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-brn-gov",
+  "q": "government palace Brunei",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "brn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bgr-leg",
+  "q": "parliament building Sofia Bulgaria",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bgr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bgr-gov",
+  "q": "government palace Bulgaria",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bgr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bfa-leg",
+  "q": "parliament building Ouagadougou Burkina Faso",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bfa"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bfa-gov",
+  "q": "government palace Burkina Faso",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bfa"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bdi-leg",
+  "q": "parliament building Gitega Burundi",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bdi"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-bdi-gov",
+  "q": "government palace Burundi",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "bdi"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-khm-leg",
+  "q": "parliament building Phnom Penh Cambodia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "khm"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-khm-gov",
+  "q": "government palace Cambodia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "khm"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cmr-leg",
+  "q": "parliament building Yaoundé Cameroon",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cmr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cmr-gov",
+  "q": "government palace Cameroon",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cmr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-can-leg",
+  "q": "parliament building Ottawa Canada",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "can"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-can-gov",
+  "q": "government palace Canada",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "can"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cpv-leg",
+  "q": "parliament building Praia Cape Verde",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cpv"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cpv-gov",
+  "q": "government palace Cape Verde",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cpv"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-caf-leg",
+  "q": "parliament building Bangui Central African Republic",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "caf"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-caf-gov",
+  "q": "government palace Central African Republic",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "caf"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tcd-leg",
+  "q": "parliament building N'Djamena Chad",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tcd"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tcd-gov",
+  "q": "government palace Chad",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tcd"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-chl-leg",
+  "q": "parliament building Santiago Chile",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "chl"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-chl-gov",
+  "q": "government palace Chile",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "chl"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-chn-leg",
+  "q": "parliament building Beijing China",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "chn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-chn-gov",
+  "q": "government palace China",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "chn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-col-leg",
+  "q": "parliament building Bogotá Colombia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "col"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-col-gov",
+  "q": "government palace Colombia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "col"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-com-leg",
+  "q": "parliament building Moroni Comoros",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "com"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-com-gov",
+  "q": "government palace Comoros",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "com"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cog-leg",
+  "q": "parliament building Brazzaville Congo",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cog"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cog-gov",
+  "q": "government palace Congo",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cog"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cri-leg",
+  "q": "parliament building San José Costa Rica",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cri"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cri-gov",
+  "q": "government palace Costa Rica",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cri"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-hrv-leg",
+  "q": "parliament building Zagreb Croatia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "hrv"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-hrv-gov",
+  "q": "government palace Croatia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "hrv"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cub-leg",
+  "q": "parliament building Havana Cuba",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cub"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cub-gov",
+  "q": "government palace Cuba",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cub"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cyp-leg",
+  "q": "parliament building Nicosia Cyprus",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cyp"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cyp-gov",
+  "q": "government palace Cyprus",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cyp"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cze-leg",
+  "q": "parliament building Prague Czechia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cze"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cze-gov",
+  "q": "government palace Czechia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cze"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cod-leg",
+  "q": "parliament building Kinshasa DR Congo",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cod"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-cod-gov",
+  "q": "government palace DR Congo",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "cod"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-dnk-leg",
+  "q": "parliament building Copenhagen Denmark",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "dnk"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-dnk-gov",
+  "q": "government palace Denmark",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "dnk"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-dji-leg",
+  "q": "parliament building Djibouti Djibouti",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "dji"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-dji-gov",
+  "q": "government palace Djibouti",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "dji"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-dma-leg",
+  "q": "parliament building Roseau Dominica",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "dma"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-dma-gov",
+  "q": "government palace Dominica",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "dma"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-dom-leg",
+  "q": "parliament building Santo Domingo Dominican Republic",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "dom"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-dom-gov",
+  "q": "government palace Dominican Republic",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "dom"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ecu-leg",
+  "q": "parliament building Quito Ecuador",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ecu"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ecu-gov",
+  "q": "government palace Ecuador",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ecu"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-egy-leg",
+  "q": "parliament building Cairo Egypt",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "egy"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-egy-gov",
+  "q": "government palace Egypt",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "egy"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-slv-leg",
+  "q": "parliament building San Salvador El Salvador",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "slv"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-slv-gov",
+  "q": "government palace El Salvador",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "slv"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gnq-leg",
+  "q": "parliament building Ciudad de la Paz Equatorial Guinea",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gnq"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gnq-gov",
+  "q": "government palace Equatorial Guinea",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gnq"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-eri-leg",
+  "q": "parliament building Asmara Eritrea",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "eri"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-eri-gov",
+  "q": "government palace Eritrea",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "eri"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-est-leg",
+  "q": "parliament building Tallinn Estonia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "est"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-est-gov",
+  "q": "government palace Estonia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "est"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-swz-leg",
+  "q": "parliament building Lobamba Eswatini",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "swz"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-swz-gov",
+  "q": "government palace Eswatini",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "swz"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-eth-leg",
+  "q": "parliament building Addis Ababa Ethiopia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "eth"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-eth-gov",
+  "q": "government palace Ethiopia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "eth"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-fji-leg",
+  "q": "parliament building Suva Fiji",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "fji"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-fji-gov",
+  "q": "government palace Fiji",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "fji"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-fin-leg",
+  "q": "parliament building Helsinki Finland",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "fin"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-fin-gov",
+  "q": "government palace Finland",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "fin"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-fra-leg",
+  "q": "parliament building Paris France",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "fra"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-fra-gov",
+  "q": "government palace France",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "fra"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gab-leg",
+  "q": "parliament building Libreville Gabon",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gab"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gab-gov",
+  "q": "government palace Gabon",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gab"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gmb-leg",
+  "q": "parliament building Banjul Gambia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gmb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gmb-gov",
+  "q": "government palace Gambia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gmb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-geo-leg",
+  "q": "parliament building Tbilisi Georgia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "geo"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-geo-gov",
+  "q": "government palace Georgia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "geo"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-deu-leg",
+  "q": "parliament building Berlin Germany",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "deu"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-deu-gov",
+  "q": "government palace Germany",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "deu"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gha-leg",
+  "q": "parliament building Accra Ghana",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gha"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gha-gov",
+  "q": "government palace Ghana",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gha"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-grc-leg",
+  "q": "parliament building Athens Greece",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "grc"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-grc-gov",
+  "q": "government palace Greece",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "grc"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-grd-leg",
+  "q": "parliament building St. George's Grenada",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "grd"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-grd-gov",
+  "q": "government palace Grenada",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "grd"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gtm-leg",
+  "q": "parliament building Guatemala City Guatemala",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gtm"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gtm-gov",
+  "q": "government palace Guatemala",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gtm"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gin-leg",
+  "q": "parliament building Conakry Guinea",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gin"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gin-gov",
+  "q": "government palace Guinea",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gin"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gnb-leg",
+  "q": "parliament building Bissau Guinea-Bissau",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gnb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gnb-gov",
+  "q": "government palace Guinea-Bissau",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gnb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-guy-leg",
+  "q": "parliament building Georgetown Guyana",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "guy"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-guy-gov",
+  "q": "government palace Guyana",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "guy"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-hti-leg",
+  "q": "parliament building Port-au-Prince Haiti",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "hti"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-hti-gov",
+  "q": "government palace Haiti",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "hti"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-hnd-leg",
+  "q": "parliament building Tegucigalpa Honduras",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "hnd"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-hnd-gov",
+  "q": "government palace Honduras",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "hnd"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-hun-leg",
+  "q": "parliament building Budapest Hungary",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "hun"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-hun-gov",
+  "q": "government palace Hungary",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "hun"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-isl-leg",
+  "q": "parliament building Reykjavik Iceland",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "isl"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-isl-gov",
+  "q": "government palace Iceland",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "isl"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ind-leg",
+  "q": "parliament building New Delhi India",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ind"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ind-gov",
+  "q": "government palace India",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ind"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-idn-leg",
+  "q": "parliament building Jakarta Indonesia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "idn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-idn-gov",
+  "q": "government palace Indonesia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "idn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-irn-leg",
+  "q": "parliament building Tehran Iran",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "irn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-irn-gov",
+  "q": "government palace Iran",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "irn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-irq-leg",
+  "q": "parliament building Baghdad Iraq",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "irq"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-irq-gov",
+  "q": "government palace Iraq",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "irq"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-irl-leg",
+  "q": "parliament building Dublin Ireland",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "irl"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-irl-gov",
+  "q": "government palace Ireland",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "irl"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-isr-leg",
+  "q": "parliament building Jerusalem Israel",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "isr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-isr-gov",
+  "q": "government palace Israel",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "isr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ita-leg",
+  "q": "parliament building Rome Italy",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ita"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ita-gov",
+  "q": "government palace Italy",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ita"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-civ-leg",
+  "q": "parliament building Yamoussoukro Ivory Coast",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "civ"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-civ-gov",
+  "q": "government palace Ivory Coast",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "civ"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-jam-leg",
+  "q": "parliament building Kingston Jamaica",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "jam"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-jam-gov",
+  "q": "government palace Jamaica",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "jam"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-jpn-leg",
+  "q": "parliament building Tokyo Japan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "jpn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-jpn-gov",
+  "q": "government palace Japan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "jpn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-jor-leg",
+  "q": "parliament building Amman Jordan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "jor"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-jor-gov",
+  "q": "government palace Jordan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "jor"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-kaz-leg",
+  "q": "parliament building Astana Kazakhstan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "kaz"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-kaz-gov",
+  "q": "government palace Kazakhstan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "kaz"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ken-leg",
+  "q": "parliament building Nairobi Kenya",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ken"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ken-gov",
+  "q": "government palace Kenya",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ken"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-kir-leg",
+  "q": "parliament building South Tarawa Kiribati",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "kir"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-kir-gov",
+  "q": "government palace Kiribati",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "kir"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-kwt-leg",
+  "q": "parliament building Kuwait City Kuwait",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "kwt"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-kwt-gov",
+  "q": "government palace Kuwait",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "kwt"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-kgz-leg",
+  "q": "parliament building Bishkek Kyrgyzstan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "kgz"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-kgz-gov",
+  "q": "government palace Kyrgyzstan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "kgz"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lao-leg",
+  "q": "parliament building Vientiane Laos",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lao"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lao-gov",
+  "q": "government palace Laos",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lao"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lva-leg",
+  "q": "parliament building Riga Latvia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lva"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lva-gov",
+  "q": "government palace Latvia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lva"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lbn-leg",
+  "q": "parliament building Beirut Lebanon",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lbn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lbn-gov",
+  "q": "government palace Lebanon",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lbn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lso-leg",
+  "q": "parliament building Maseru Lesotho",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lso"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lso-gov",
+  "q": "government palace Lesotho",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lso"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lbr-leg",
+  "q": "parliament building Monrovia Liberia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lbr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lbr-gov",
+  "q": "government palace Liberia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lbr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lby-leg",
+  "q": "parliament building Tripoli Libya",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lby"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lby-gov",
+  "q": "government palace Libya",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lby"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lie-leg",
+  "q": "parliament building Vaduz Liechtenstein",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lie"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lie-gov",
+  "q": "government palace Liechtenstein",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lie"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ltu-leg",
+  "q": "parliament building Vilnius Lithuania",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ltu"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ltu-gov",
+  "q": "government palace Lithuania",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ltu"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lux-leg",
+  "q": "parliament building Luxembourg Luxembourg",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lux"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lux-gov",
+  "q": "government palace Luxembourg",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lux"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mdg-leg",
+  "q": "parliament building Antananarivo Madagascar",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mdg"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mdg-gov",
+  "q": "government palace Madagascar",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mdg"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mwi-leg",
+  "q": "parliament building Lilongwe Malawi",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mwi"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mwi-gov",
+  "q": "government palace Malawi",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mwi"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mys-leg",
+  "q": "parliament building Kuala Lumpur Malaysia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mys"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mys-gov",
+  "q": "government palace Malaysia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mys"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mdv-leg",
+  "q": "parliament building Malé Maldives",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mdv"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mdv-gov",
+  "q": "government palace Maldives",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mdv"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mli-leg",
+  "q": "parliament building Bamako Mali",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mli"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mli-gov",
+  "q": "government palace Mali",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mli"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mlt-leg",
+  "q": "parliament building Valletta Malta",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mlt"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mlt-gov",
+  "q": "government palace Malta",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mlt"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mhl-leg",
+  "q": "parliament building Majuro Marshall Islands",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mhl"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mhl-gov",
+  "q": "government palace Marshall Islands",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mhl"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mrt-leg",
+  "q": "parliament building Nouakchott Mauritania",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mrt"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mrt-gov",
+  "q": "government palace Mauritania",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mrt"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mus-leg",
+  "q": "parliament building Port Louis Mauritius",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mus"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mus-gov",
+  "q": "government palace Mauritius",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mus"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mex-leg",
+  "q": "parliament building Mexico City Mexico",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mex"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mex-gov",
+  "q": "government palace Mexico",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mex"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-fsm-leg",
+  "q": "parliament building Palikir Micronesia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "fsm"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-fsm-gov",
+  "q": "government palace Micronesia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "fsm"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mda-leg",
+  "q": "parliament building Chișinău Moldova",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mda-gov",
+  "q": "government palace Moldova",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mda"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mco-leg",
+  "q": "parliament building Monaco Monaco",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mco"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mco-gov",
+  "q": "government palace Monaco",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mco"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mng-leg",
+  "q": "parliament building Ulan Bator Mongolia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mng"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mng-gov",
+  "q": "government palace Mongolia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mng"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mne-leg",
+  "q": "parliament building Podgorica Montenegro",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mne"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mne-gov",
+  "q": "government palace Montenegro",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mne"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mar-leg",
+  "q": "parliament building Rabat Morocco",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mar"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mar-gov",
+  "q": "government palace Morocco",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mar"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-moz-leg",
+  "q": "parliament building Maputo Mozambique",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "moz"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-moz-gov",
+  "q": "government palace Mozambique",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "moz"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mmr-leg",
+  "q": "parliament building Naypyidaw Myanmar",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mmr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mmr-gov",
+  "q": "government palace Myanmar",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mmr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-nam-leg",
+  "q": "parliament building Windhoek Namibia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "nam"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-nam-gov",
+  "q": "government palace Namibia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "nam"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-nru-leg",
+  "q": "parliament building Yaren Nauru",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "nru"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-nru-gov",
+  "q": "government palace Nauru",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "nru"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-npl-leg",
+  "q": "parliament building Kathmandu Nepal",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "npl"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-npl-gov",
+  "q": "government palace Nepal",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "npl"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-nld-leg",
+  "q": "parliament building Amsterdam Netherlands",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "nld"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-nld-gov",
+  "q": "government palace Netherlands",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "nld"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-nzl-leg",
+  "q": "parliament building Wellington New Zealand",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "nzl"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-nzl-gov",
+  "q": "government palace New Zealand",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "nzl"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-nic-leg",
+  "q": "parliament building Managua Nicaragua",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "nic"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-nic-gov",
+  "q": "government palace Nicaragua",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "nic"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ner-leg",
+  "q": "parliament building Niamey Niger",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ner"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ner-gov",
+  "q": "government palace Niger",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ner"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-nga-leg",
+  "q": "parliament building Abuja Nigeria",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "nga"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-nga-gov",
+  "q": "government palace Nigeria",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "nga"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-prk-leg",
+  "q": "parliament building Pyongyang North Korea",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "prk"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-prk-gov",
+  "q": "government palace North Korea",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "prk"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mkd-leg",
+  "q": "parliament building Skopje North Macedonia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mkd"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-mkd-gov",
+  "q": "government palace North Macedonia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "mkd"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-nor-leg",
+  "q": "parliament building Oslo Norway",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "nor"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-nor-gov",
+  "q": "government palace Norway",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "nor"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-omn-leg",
+  "q": "parliament building Muscat Oman",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "omn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-omn-gov",
+  "q": "government palace Oman",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "omn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-pak-leg",
+  "q": "parliament building Islamabad Pakistan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "pak"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-pak-gov",
+  "q": "government palace Pakistan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "pak"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-plw-leg",
+  "q": "parliament building Ngerulmud Palau",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "plw"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-plw-gov",
+  "q": "government palace Palau",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "plw"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-pse-leg",
+  "q": "parliament building Ramallah Palestine",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "pse"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-pse-gov",
+  "q": "government palace Palestine",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "pse"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-pan-leg",
+  "q": "parliament building Panama City Panama",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "pan"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-pan-gov",
+  "q": "government palace Panama",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "pan"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-png-leg",
+  "q": "parliament building Port Moresby Papua New Guinea",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "png"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-png-gov",
+  "q": "government palace Papua New Guinea",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "png"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-pry-leg",
+  "q": "parliament building Asunción Paraguay",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "pry"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-pry-gov",
+  "q": "government palace Paraguay",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "pry"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-per-leg",
+  "q": "parliament building Lima Peru",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "per"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-per-gov",
+  "q": "government palace Peru",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "per"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-phl-leg",
+  "q": "parliament building Manila Philippines",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "phl"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-phl-gov",
+  "q": "government palace Philippines",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "phl"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-pol-leg",
+  "q": "parliament building Warsaw Poland",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "pol"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-pol-gov",
+  "q": "government palace Poland",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "pol"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-prt-leg",
+  "q": "parliament building Lisbon Portugal",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "prt"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-prt-gov",
+  "q": "government palace Portugal",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "prt"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-qat-leg",
+  "q": "parliament building Doha Qatar",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "qat"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-qat-gov",
+  "q": "government palace Qatar",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "qat"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-rou-leg",
+  "q": "parliament building Bucharest Romania",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "rou"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-rou-gov",
+  "q": "government palace Romania",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "rou"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-rus-leg",
+  "q": "parliament building Moscow Russia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "rus"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-rus-gov",
+  "q": "government palace Russia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "rus"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-rwa-leg",
+  "q": "parliament building Kigali Rwanda",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "rwa"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-rwa-gov",
+  "q": "government palace Rwanda",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "rwa"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-kna-leg",
+  "q": "parliament building Basseterre Saint Kitts and Nevis",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "kna"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-kna-gov",
+  "q": "government palace Saint Kitts and Nevis",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "kna"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lca-leg",
+  "q": "parliament building Castries Saint Lucia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lca"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lca-gov",
+  "q": "government palace Saint Lucia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lca"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-vct-leg",
+  "q": "parliament building Kingstown Saint Vincent and the Grenadines",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "vct"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-vct-gov",
+  "q": "government palace Saint Vincent and the Grenadines",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "vct"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-wsm-leg",
+  "q": "parliament building Apia Samoa",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "wsm"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-wsm-gov",
+  "q": "government palace Samoa",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "wsm"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-smr-leg",
+  "q": "parliament building City of San Marino San Marino",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "smr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-smr-gov",
+  "q": "government palace San Marino",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "smr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-sau-leg",
+  "q": "parliament building Riyadh Saudi Arabia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "sau"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-sau-gov",
+  "q": "government palace Saudi Arabia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "sau"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-sen-leg",
+  "q": "parliament building Dakar Senegal",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "sen"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-sen-gov",
+  "q": "government palace Senegal",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "sen"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-srb-leg",
+  "q": "parliament building Belgrade Serbia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "srb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-srb-gov",
+  "q": "government palace Serbia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "srb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-syc-leg",
+  "q": "parliament building Victoria Seychelles",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "syc"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-syc-gov",
+  "q": "government palace Seychelles",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "syc"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-sle-leg",
+  "q": "parliament building Freetown Sierra Leone",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "sle"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-sle-gov",
+  "q": "government palace Sierra Leone",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "sle"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-sgp-leg",
+  "q": "parliament building Singapore Singapore",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "sgp"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-sgp-gov",
+  "q": "government palace Singapore",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "sgp"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-svk-leg",
+  "q": "parliament building Bratislava Slovakia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "svk"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-svk-gov",
+  "q": "government palace Slovakia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "svk"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-svn-leg",
+  "q": "parliament building Ljubljana Slovenia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "svn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-svn-gov",
+  "q": "government palace Slovenia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "svn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-slb-leg",
+  "q": "parliament building Honiara Solomon Islands",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "slb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-slb-gov",
+  "q": "government palace Solomon Islands",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "slb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-som-leg",
+  "q": "parliament building Mogadishu Somalia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "som"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-som-gov",
+  "q": "government palace Somalia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "som"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-zaf-leg",
+  "q": "parliament building Pretoria South Africa",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "zaf"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-zaf-gov",
+  "q": "government palace South Africa",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "zaf"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-kor-leg",
+  "q": "parliament building Seoul South Korea",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "kor"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-kor-gov",
+  "q": "government palace South Korea",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "kor"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ssd-leg",
+  "q": "parliament building Juba South Sudan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ssd"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ssd-gov",
+  "q": "government palace South Sudan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ssd"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-esp-leg",
+  "q": "parliament building Madrid Spain",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "esp"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-esp-gov",
+  "q": "government palace Spain",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "esp"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lka-leg",
+  "q": "parliament building Colombo Sri Lanka",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lka"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-lka-gov",
+  "q": "government palace Sri Lanka",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "lka"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-sdn-leg",
+  "q": "parliament building Khartoum Sudan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "sdn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-sdn-gov",
+  "q": "government palace Sudan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "sdn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-sur-leg",
+  "q": "parliament building Paramaribo Suriname",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "sur"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-sur-gov",
+  "q": "government palace Suriname",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "sur"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-swe-leg",
+  "q": "parliament building Stockholm Sweden",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "swe"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-swe-gov",
+  "q": "government palace Sweden",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "swe"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-che-leg",
+  "q": "parliament building Bern Switzerland",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "che"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-che-gov",
+  "q": "government palace Switzerland",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "che"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-syr-leg",
+  "q": "parliament building Damascus Syria",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "syr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-syr-gov",
+  "q": "government palace Syria",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "syr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-stp-leg",
+  "q": "parliament building São Tomé São Tomé and Príncipe",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "stp"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-stp-gov",
+  "q": "government palace São Tomé and Príncipe",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "stp"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-twn-leg",
+  "q": "parliament building Taipei Taiwan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "twn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-twn-gov",
+  "q": "government palace Taiwan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "twn"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tjk-leg",
+  "q": "parliament building Dushanbe Tajikistan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tjk"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tjk-gov",
+  "q": "government palace Tajikistan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tjk"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tza-leg",
+  "q": "parliament building Dodoma Tanzania",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tza"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tza-gov",
+  "q": "government palace Tanzania",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tza"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tha-leg",
+  "q": "parliament building Bangkok Thailand",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tha"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tha-gov",
+  "q": "government palace Thailand",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tha"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tls-leg",
+  "q": "parliament building Dili Timor-Leste",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tls"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tls-gov",
+  "q": "government palace Timor-Leste",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tls"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tgo-leg",
+  "q": "parliament building Lomé Togo",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tgo"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tgo-gov",
+  "q": "government palace Togo",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tgo"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ton-leg",
+  "q": "parliament building Nuku'alofa Tonga",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ton"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ton-gov",
+  "q": "government palace Tonga",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ton"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tto-leg",
+  "q": "parliament building Port of Spain Trinidad and Tobago",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tto"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tto-gov",
+  "q": "government palace Trinidad and Tobago",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tto"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tun-leg",
+  "q": "parliament building Tunis Tunisia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tun"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tun-gov",
+  "q": "government palace Tunisia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tun"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tkm-leg",
+  "q": "parliament building Ashgabat Turkmenistan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tkm"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tkm-gov",
+  "q": "government palace Turkmenistan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tkm"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tuv-leg",
+  "q": "parliament building Funafuti Tuvalu",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tuv"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tuv-gov",
+  "q": "government palace Tuvalu",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tuv"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tur-leg",
+  "q": "parliament building Ankara Türkiye",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tur"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-tur-gov",
+  "q": "government palace Türkiye",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "tur"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-uga-leg",
+  "q": "parliament building Kampala Uganda",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "uga"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-uga-gov",
+  "q": "government palace Uganda",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "uga"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ukr-leg",
+  "q": "parliament building Kyiv Ukraine",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ukr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ukr-gov",
+  "q": "government palace Ukraine",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ukr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-are-leg",
+  "q": "parliament building Abu Dhabi United Arab Emirates",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "are"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-are-gov",
+  "q": "government palace United Arab Emirates",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "are"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gbr-leg",
+  "q": "parliament building London United Kingdom",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gbr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-gbr-gov",
+  "q": "government palace United Kingdom",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "gbr"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-usa-leg",
+  "q": "parliament building Washington D.C. United States",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "usa"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-usa-gov",
+  "q": "government palace United States",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "usa"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ury-leg",
+  "q": "parliament building Montevideo Uruguay",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ury"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ury-gov",
+  "q": "government palace Uruguay",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ury"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-uzb-leg",
+  "q": "parliament building Tashkent Uzbekistan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "uzb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-uzb-gov",
+  "q": "government palace Uzbekistan",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "uzb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-vut-leg",
+  "q": "parliament building Port Vila Vanuatu",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "vut"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-vut-gov",
+  "q": "government palace Vanuatu",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "vut"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-vat-leg",
+  "q": "parliament building Vatican City Vatican City",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "vat"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-vat-gov",
+  "q": "government palace Vatican City",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "vat"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ven-leg",
+  "q": "parliament building Caracas Venezuela",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ven"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-ven-gov",
+  "q": "government palace Venezuela",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "ven"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-vnm-leg",
+  "q": "parliament building Hanoi Vietnam",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "vnm"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-vnm-gov",
+  "q": "government palace Vietnam",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "vnm"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-yem-leg",
+  "q": "parliament building Sana'a Yemen",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "yem"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-yem-gov",
+  "q": "government palace Yemen",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "yem"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-zmb-leg",
+  "q": "parliament building Lusaka Zambia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "zmb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-zmb-gov",
+  "q": "government palace Zambia",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "zmb"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-zwe-leg",
+  "q": "parliament building Harare Zimbabwe",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "zwe"
+  ],
+  "graphic": false,
+  "cap": ""
+ },
+ {
+  "k": "c:a-gov-zwe-gov",
+  "q": "government palace Zimbabwe",
+  "n": 2,
+  "kind": "image",
+  "tags": [
+   "government",
+   "zwe"
+  ],
+  "graphic": false,
+  "cap": ""
  }
 ]
