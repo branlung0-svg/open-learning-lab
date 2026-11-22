@@ -9,7 +9,7 @@ its legislature is made up, from open data.
 
 Everything is labelled with its source and the date it was built; the site tells readers it can lag behind events.
 """
-import json, re, sys, time, datetime, requests
+import json, re, sys, time, datetime, html, requests
 from urllib.parse import unquote
 
 UA = {'User-Agent': 'OpenLearningLab/1.0 (https://branlung0-svg.github.io/open-learning-lab/; educational, non-commercial)'}
@@ -211,6 +211,21 @@ def groups(val):
     return out
 
 
+def html_list(td):
+    """Turn an infobox cell with nested HTML lists into wikitext-style lines ('*' top level, '**' nested) so that groups()
+    skips sub-parties the same way it does for wikitext."""
+    out, depth = [], 0
+    for tok in re.split(r'(<(?:/?(?:ul|ol|dl)|li|dd|br)\b[^>]*>|</li>|</dd>)', td):
+        if not tok: continue
+        t = tok.lower()
+        if re.match(r'<(ul|ol|dl)\b', t): depth += 1; continue
+        if re.match(r'</(ul|ol|dl)>', t): depth = max(0, depth - 1); continue
+        if re.match(r'<(li|dd)\b', t): out.append('\n' + '*' * max(1, depth) + ' '); continue
+        if t.startswith('<br') or t in ('</li>', '</dd>'): out.append('\n'); continue
+        out.append(tok)
+    return html.unescape(''.join(out)).replace('\xa0', ' ')
+
+
 def html_box(title):
     for i in range(4):
         try:
@@ -222,10 +237,14 @@ def html_box(title):
             box = m.group(1); f = {}
             for th, td in re.findall(r'<th[^>]*>(.*?)</th>\s*<td[^>]*>(.*?)</td>', box, re.S):
                 k = plain(th).lower()
-                if k.startswith('political group') and 'political_groups1' not in f: f['political_groups1'] = re.sub(r'</li>|<br\s*/?>', '\n', td)
+                if k.startswith('political group') and 'political_groups1' not in f: f['political_groups1'] = html_list(td)
                 elif k in ('seats', 'members') and 'seats1' not in f: f['seats1'] = td
                 elif k.startswith('last election') and 'last_election1' not in f: f['last_election1'] = td
                 elif k.startswith('voting system') and 'voting_system1' not in f: f['voting_system1'] = td
+            if 'seats1' not in f:
+                mm = re.search(r'>\s*Seats\s*</th>(.*?)(?:<th|$)', box, re.S)
+                nums = [x for x in re.findall(r'\b\d[\d,]*\b', plain(mm.group(1))) if not re.match(r'^(19|20)\d\d$', x)] if mm else []
+                if nums: f['seats1'] = nums[0]
             img = re.search(r'src="//upload\.wikimedia\.org/wikipedia/commons/thumb/[^/]+/[^/]+/([^/"]+\.svg)/', box)
             if img: f['structure1'] = unquote(img.group(1))
             return f
