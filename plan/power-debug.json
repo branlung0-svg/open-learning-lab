@@ -1,4 +1,70 @@
 {
+ "alb Parliament of Albania": {
+  "seats": 140,
+  "parsed": [
+   [
+    "PS",
+    82,
+    null
+   ],
+   [
+    "PSD",
+    3,
+    null
+   ],
+   [
+    "PD – ASHM",
+    49,
+    null
+   ],
+   [
+    "PD",
+    41,
+    null
+   ],
+   [
+    "PL",
+    4,
+    null
+   ],
+   [
+    "PLL",
+    1,
+    null
+   ],
+   [
+    "PAA",
+    1,
+    null
+   ],
+   [
+    "PBDNJ",
+    1,
+    null
+   ],
+   [
+    "PR",
+    1,
+    null
+   ],
+   [
+    "MUNDËSIA",
+    2,
+    "#F4A306"
+   ],
+   [
+    "SHB",
+    1,
+    null
+   ],
+   [
+    "BASHKË",
+    1,
+    null
+   ]
+  ],
+  "raw": "'''Government ([[Rama IV Government]]) (82)'''<br />\n*{{Color box|{{party color|Socialist Party of Albania}}|border=silver}} [[Socialist Party of Albania|PS]] (82)\n'''[[Confidence and supply|Supported by]] (3)'''<br />\n*{{Color box|{{party color|Social Democratic Party of Albania (2021)}}|border=silver}} [[Social Democratic Party of Albania|PSD]] (3)\n'''Opposition (55)'''\n*{{Color box|{{party color|Democratic Party of Albania}}|border=silver}} [[Democratic Party of Albania|PD]] –  [[Alliance for a Magnificent Albania|ASHM]] (49){{efn|\n*{{Color box|{{party color|Democratic Party of Albania}}|border=silver}} [[Democratic Party of Albania|PD]] (41)\n*{{Color box|{{party color|Freedom Party of Albania}}|border=silver}} [[Freedom Party of Albania|PL]] (4)\n*{{Color box|{{party color|Legality Movement Party}}|border=silver}} [[Legality Movement Party|PLL]] (1)\n*{{Color box|{{party color|Environmentalist Agrarian Party}}|border=silver}} [[Environmentalist Agrarian Party|PAA]] (1)\n*{{Color box|{{party color|Unity for Human Rights Party}}|border=silver}} [[Unity for Human Rights Party|PBDNJ]] (1)\n*{{Color box|{{party color|Republican Party of Albania}}|border=silver}} [[Republican Party of Albania|PR]] (1)\n}}\n*{{Color box|#F4A306|border=silver}} [[Opportunity Party (Albania)|MUNDËSIA]] (2)\n*{{Color box|{{party color|Lëvizja Shqipëria Bëhet}}|border=silver}} [[Lëvizja Shqipëria Bëhet|SHB]] ([[Ana Dajko|1]])\n*{{Color box|{{party color|Lëvizja Bashkë}}|border=silver}} [[Lëvizja_Bashkë|BASH"
+ },
  "asm American Samoa House of Representatives": {
   "seats": 21,
   "parsed": [
@@ -88,6 +154,83 @@
   ],
   "raw": "{{legend|#CC0001|[[National Council for the Defense of Democracy – Forces for the Defense of Democracy|CNDD–FDD]]: 108 seats}} {{legend|#FFFFFF|[[Great Lakes Twa|Twa]]: 3 seats}}"
  },
+ "bel Chamber of Representatives (Belgium)": {
+  "seats": 150,
+  "parsed": [
+   [
+    "N-VA",
+    23,
+    null
+   ],
+   [
+    "MR",
+    18,
+    null
+   ],
+   [
+    "Vooruit",
+    13,
+    null
+   ],
+   [
+    "CD&V",
+    11,
+    null
+   ],
+   [
+    "Independent",
+    1,
+    null
+   ],
+   [
+    "VB",
+    20,
+    null
+   ],
+   [
+    "PS",
+    16,
+    null
+   ],
+   [
+    "PVDA-PTB",
+    15,
+    null
+   ],
+   [
+    "Anders",
+    8,
+    null
+   ],
+   [
+    "Groen",
+    6,
+    null
+   ],
+   [
+    "Ecolo",
+    3,
+    null
+   ],
+   [
+    "DéFI",
+    1,
+    null
+   ]
+  ],
+  "raw": "'''Government ([[De Wever Government|De Wever Cabinet]]) (80)'''\n*{{Color box|{{party color|New Flemish Alliance}}|border=darkgray}} [[New Flemish Alliance|N-VA]] (23)\n*{{Color box|{{party color|Reformist Movement (2023)}}|border=darkgray}} [[Reformist Movement|MR]] (18)\n*{{nowrap|{{Color box|{{party color|Les Engagés}}|border=darkgray}} [[Les Engagés|LE]] (15)}}\n*{{Color box|{{party color|Vooruit (political party)}}|border=darkgray}} [[Vooruit (political party)|Vooruit]] (13)\n*{{Color box|{{party color|Christian Democratic and Flemish}}|border=darkgray}} [[Christian Democratic and Flemish|CD&V]] (11)\n\n'''Supported by (1)'''\n*{{colorbox|{{party color|Independent (politician)}}|border=darkgray}} [[Independent politician|Independent]] ([[Jean-Marie Dedecker|1]])<ref>{{Cite web|url=https://www.vrt.be/vrtnws/nl/2025/02/03/jean-marie-dedecker-verlaat-n-va-kamerfractie|title = Jean-Marie Dedecker verlaat N-VA-Kamerfractie: \"Ik wil de vrijheid om de regering te controleren\"}}</ref>\n\n'''Opposition (69)'''\n*{{Color box|{{party color|Vlaams Belang}}|border=darkgray}} [[Vlaams Belang|VB]] (20)\n*{{Color box|{{party color|Socialist Party (Belgium)}}|border=darkgray}} [[Socialist Party (Belgium)|PS]] (16)\n*{{Color box|{{party color|Workers' Party of Belgium}}|border=darkgray}} [[Workers' Party of Belgium|PVDA-PTB]] (15)\n*{{Color box|{{party color|Anders (political party)}}|border=darkgray}} [[Anders (political party)|Anders]] (8){{efn|Including [[Alexia Bertrand]] ([[Anders (political part"
+ },
+ "bgd Jatiya Sangsad": {
+  "seats": 350,
+  "parsed": [
+   [
+    "KM",
+    1,
+    "#54E3D8"
+   ]
+  ],
+  "raw": "'''[[Tarique Rahman ministry|Government]] (249)'''\n* {{Party legend|Bangladesh Nationalist Party|246}}\n* {{Party legend|Bangladesh Jatiya Party|1}}\n* {{Party legend|Ganosanhati Andolan|1}} \n* {{Party legend|Gono Odhikar Parishad|1}}\n'''[[Confidence and supply|Supported by]] (7)'''\n* {{Party legend|Independent|7}}<ref>{{Cite news |date=1 April 2026 |title=জামায়াত-এনসিপি এক জোটে, স্বতন্ত্র এমপিরা বিএনপির সঙ্গে |trans-title=Jamaat-NCP in one alliance, independent MPs with the BNP |url=https://www.deshrupantor.com/676473/%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A6%BE%E0%A6%A4-%E0%A6%8F%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BF-%E0%A6%8F%E0%A6%95-%E0%A6%9C%E0%A7%8B%E0%A6%9F%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%A4%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%8F%E0%A6%AE%E0%A6%AA%E0%A6%BF%E0%A6%B0%E0%A6%BE-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF%E0%A6%B0 |access-date=8 August 2026 |work=[[Desh Rupantor]] |language=bn}}</ref>\n'''[[Parliamentary opposition|Opposition]] (89)'''\n* {{party legend|11 Party Alliance|88}}\n** {{Party legend|Bangladesh Jamaat-e-Islami|76}}\n** {{Party legend|National Citizen Party|8}}\n** {{Party legend|Bangladesh Khelafat Majlis|3}}\n** {{colour box|000000}} [[Jatiya Ganotantrik Party|JGP]] (1)\n* {{colour box|54E3D8}} [[Khelafat Majlis|KM]] (1)<ref>{{Cite web |title=১১-দলীয় ঐক্যের কর্মসূচি থেকে সরে এল খেলাফত মজলিস |url=https://www.prothomalo.com/politics/h8ouv9tc8p |access-date=25 July 2026 |website=[[Prothom Alo]] |lang"
+ },
  "bgr National Assembly (Bulgaria)": {
   "seats": null,
   "parsed": [
@@ -151,6 +294,62 @@
   ],
   "raw": "'''[[Cabinet of Barbados|Government]] (30)'''\n*{{Color box|{{party color|Barbados Labour Party}}|border=darkgray}} [[Barbados Labour Party|BLP]] (30)"
  },
+ "bwa National Assembly of Botswana": {
+  "seats": 69,
+  "parsed": [
+   [
+    "Umbrella for Democratic Change",
+    36,
+    null
+   ],
+   [
+    "Botswana National Front",
+    23,
+    null
+   ],
+   [
+    "Alliance for Progressives",
+    6,
+    "#662A92"
+   ],
+   [
+    "Botswana People's Party",
+    3,
+    null
+   ],
+   [
+    "Independents",
+    4,
+    null
+   ],
+   [
+    "Botswana Patriotic Front",
+    5,
+    null
+   ],
+   [
+    "Specially-elected",
+    6,
+    "#515151"
+   ],
+   [
+    "President '",
+    1,
+    "#000000"
+   ],
+   [
+    "Botswana Congress Party",
+    15,
+    null
+   ],
+   [
+    "Speaker '",
+    1,
+    "#000000"
+   ]
+  ],
+  "raw": "'''[[Boko cabinet|Government]] (49)'''\n* {{Color box|{{party color|Umbrella for Democratic Change}}|border=silver}} [[Umbrella for Democratic Change]] (36){{efn|\n* {{Color box|{{party color|Botswana National Front}}}} [[Botswana National Front]] (23)\n* {{Color box|#662A92}} [[Alliance for Progressives]] (6)\n* {{Color box|{{party color|Botswana People's Party}}}} [[Botswana People's Party]] (3)\n* {{Color box|{{party color|Independent politician}}}} [[Independent politician|Independents]] (4)}}\n* {{Color box|{{party color|Botswana Patriotic Front}}|border=silver}} [[Botswana Patriotic Front]] (5)\n* {{Color box|#515151|border=silver}} Specially-elected (6)\n* {{nowrap|{{Color box|#AAAAAA|border=silver}} [[Independent politician|Independent]] ([[Edwin Dikoloti|1]])}}\n* {{Color box|#000000|border=silver}} [[President of Botswana|President]] ''{{small|([[Ex officio member|ex-officio]])}}'' ([[Duma Boko|1]])<ref name=\"ExO\">{{cite web |title=FAQs |url=https://www.parliament.gov.bw/index.php/frequently-asked-questions#q1 |quote=2 are Ex-officios being the President and The Speaker |website=parliament.gov.bw |publisher=Parliament of Botswana |access-date=22 July 2021 |archive-date=27 May 2023 |archive-url=https://web.archive.org/web/20230527225716/https://www.parliament.gov.bw/index.php/frequently-asked-questions#q1 |url-status=dead }}</ref>\n'''[[Official opposition]]''' (15)\n* {{Color box|{{party color|Botswana Congress Party}}|border=silver}} [[Botswana Congress Party]] (15)\n'''Minori"
+ },
  "caf National Assembly (Central African Republic)": {
   "seats": 140,
   "parsed": [
@@ -209,69 +408,65 @@
  },
  "cod National Assembly (Democratic Republic of the Congo)": {
   "seats": 500,
+  "parsed": [],
+  "raw": ": {{nowrap|{{Color box|#CF1020}} [[Union for Democracy and Social Progress (Democratic Republic of the Congo)|UDSP]]/TSHISEKEDI{{efn|Union for Democracy and Social Progress/TSHISEKEDI}} (70)}} \n: {{nowrap|{{Color box|#A03020}} AFDC-A{{efn|Alliance of Democratic Forces of Congo}} (35)}} \n: {{nowrap|{{Color box|#EF1E26}} A/A-[[Union for the Congolese Nation|UCN]]{{efn|Allied Actions–Union for the Congolese Nation}} (34)}} \n: {{nowrap|{{Color box|#F4B515}} Act and Build (26)}} \n: {{nowrap|{{Color box|#EFE00B}} AAAP{{efn|Alliance of actors attached to the people}} (22)}} \n: {{nowrap|{{Color box|#162578}} 2A/TDC{{efn|Allied Actions–All for the Development of Congo}} (21)}} \n: {{nowrap|{{Color box|#3536A0}} Alliance bloc 50 (20)}} \n: {{nowrap|{{Color box|#0000FF}} [[Movement for the Liberation of the Congo|MLC]]{{efn|Movement for the Liberation of the Congo}} (19)}} \n: {{nowrap|{{Color box|#037EFD}} [[Together for the Republic|ENSEMBLE]]{{efn|Together for the Republic}} (18)}} \n: {{nowrap|{{Color box|#49DF00}} 4AC{{efn|Alternative Action of Actors for the Love of Congo}} (17)}} \n: {{nowrap|{{Color box|#4785FD}} AACPG{{efn|Alliance for the Advent of a Prosperous and Greater Congo}} (16)}} \n: {{nowrap|{{Color box|#0399F9}} Alliance 2024 (15)}} \n: {{nowrap|{{Color box|#085CF0}} ANB{{efn|It's up to us to build the Congo}} (13)}}\n: {{nowrap|{{Color box|#B70400}} AA/C{{efn|Congo Allied Action for the Convention}} (10)}}\n: {{nowrap|{{Color box|#4508C8}} Coalition of Democrats (10)}} \n: {{"
+ },
+ "cri Legislative Assembly of Costa Rica": {
+  "seats": null,
   "parsed": [
    [
-    "UDSP/TSHISEKEDI",
-    70,
-    "#CF1020"
-   ],
-   [
-    "AFDC-A",
-    35,
-    "#A03020"
-   ],
-   [
-    "A/A-UCN",
-    34,
-    "#EF1E26"
-   ],
-   [
-    "Act and Build",
-    26,
-    "#F4B515"
-   ],
-   [
-    "AAAP",
-    22,
-    "#EFE00B"
-   ],
-   [
-    "A/TDC",
-    21,
-    "#162578"
-   ],
-   [
-    "Alliance bloc 50",
-    20,
-    "#3536A0"
-   ],
-   [
-    "MLC",
-    19,
-    "#0000FF"
-   ],
-   [
-    "ENSEMBLE",
-    18,
-    "#037EFD"
-   ],
-   [
-    "AC",
+    "&#160; PLN",
     17,
-    "#49DF00"
+    "#008024"
    ],
    [
-    "AACPG",
-    16,
-    "#4785FD"
+    "&#160; FA",
+    7,
+    "#F8E000"
    ],
    [
-    "Alliance 2024",
-    15,
-    "#0399F9"
+    "&#160; PUSC",
+    1,
+    "#0454A3"
+   ],
+   [
+    "&#160; CAC",
+    1,
+    "#DC143C"
    ]
   ],
-  "raw": ": {{nowrap|{{Color box|#CF1020}} [[Union for Democracy and Social Progress (Democratic Republic of the Congo)|UDSP]]/TSHISEKEDI{{efn|Union for Democracy and Social Progress/TSHISEKEDI}} (70)}} \n: {{nowrap|{{Color box|#A03020}} AFDC-A{{efn|Alliance of Democratic Forces of Congo}} (35)}} \n: {{nowrap|{{Color box|#EF1E26}} A/A-[[Union for the Congolese Nation|UCN]]{{efn|Allied Actions–Union for the Congolese Nation}} (34)}} \n: {{nowrap|{{Color box|#F4B515}} Act and Build (26)}} \n: {{nowrap|{{Color box|#EFE00B}} AAAP{{efn|Alliance of actors attached to the people}} (22)}} \n: {{nowrap|{{Color box|#162578}} 2A/TDC{{efn|Allied Actions–All for the Development of Congo}} (21)}} \n: {{nowrap|{{Color box|#3536A0}} Alliance bloc 50 (20)}} \n: {{nowrap|{{Color box|#0000FF}} [[Movement for the Liberation of the Congo|MLC]]{{efn|Movement for the Liberation of the Congo}} (19)}} \n: {{nowrap|{{Color box|#037EFD}} [[Together for the Republic|ENSEMBLE]]{{efn|Together for the Republic}} (18)}} \n: {{nowrap|{{Color box|#49DF00}} 4AC{{efn|Alternative Action of Actors for the Love of Congo}} (17)}} \n: {{nowrap|{{Color box|#4785FD}} AACPG{{efn|Alliance for the Advent of a Prosperous and Greater Congo}} (16)}} \n: {{nowrap|{{Color box|#0399F9}} Alliance 2024 (15)}} \n: {{nowrap|{{Color box|#085CF0}} ANB{{efn|It's up to us to build the Congo}} (13)}}\n: {{nowrap|{{Color box|#B70400}} AA/C{{efn|Congo Allied Action for the Convention}} (10)}}\n: {{nowrap|{{Color box|#4508C8}} Coalition of Democrats (10)}} \n: {{"
+  "raw": "<b>Government (31)</b>\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#01A4B5; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Sovereign_People%27s_Party_(Costa_Rica)\" title=\"Sovereign People&#39;s Party (Costa Rica)\">PPSO</a> (31)\n</ul>\n<p><b>Opposition (26)</b>\n</p>\n<ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#008024; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/National_Liberation_Party_(Costa_Rica)\" title=\"National Liberation Party (Costa Rica)\">PLN</a> (17)\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#F8E000; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Broad_Front_(Costa_Rica)\" title=\"Broad Front (Costa Rica)\">FA</a> (7)\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-co"
+ },
+ "cyp House of Representatives (Cyprus)": {
+  "seats": null,
+  "parsed": [
+   [
+    "&#160; DISY",
+    17,
+    "#1569C7"
+   ],
+   [
+    "&#160; AKEL",
+    15,
+    "#B31B1B"
+   ],
+   [
+    "&#160; ELAM",
+    8,
+    "#000000"
+   ],
+   [
+    "&#160; ALMA",
+    4,
+    "#99AC27"
+   ],
+   [
+    "&#160; ADK",
+    4,
+    "#114576"
+   ]
+  ],
+  "raw": "<b><a href=\"/wiki/Christodoulides_government\" title=\"Christodoulides government\">Government</a> (8)</b>\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#FF7E00; color:black;border:1px solid darkgray;\">&#160;</span> <a href=\"/wiki/Democratic_Party_(Cyprus)\" title=\"Democratic Party (Cyprus)\">DIKO</a> (8)\n</ul>\n<p><b><a href=\"/wiki/Opposition_(politics)\" title=\"Opposition (politics)\">Opposition</a> (48)</b>\n</p>\n<ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#1569C7; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Democratic_Rally\" title=\"Democratic Rally\">DISY</a> (17)\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#B31B1B; color:white;border:1px solid darkgray;\">&#160;</span> <a href=\"/wiki/Progressive_Party_of_Working_People\" title=\"Progressive Party of Working People\">AKEL</a> (15)\n\n<l"
  },
  "cze Senate of the Czech Republic": {
   "seats": 81,
@@ -323,6 +518,72 @@
    ]
   ],
   "raw": "'''[[Third cabinet of Andrej Babiš|Government]] (14)'''\n* {{Color box|{{party color|ANO 2011}}}} [[ANO (political party)|ANO]] (14){{efn|group=n|name=x|  \n* {{color box|{{party color|ANO 2011}}}} [[ANO (political party)|ANO]] (11) \n* {{color box|{{party color|Independent}}}} [[Independent politician|Independent]] (1)\n* {{Color box|{{party color|Independents (political party)}}}} [[Independents (political party)|NEZ]] (1)\n* {{color box|{{party color|Přísaha}}}} [[Přísaha]] (1)}}\n'''Opposition (67)'''\n* {{Color box|{{party color|SPOLU (Czech Republic)}}|border=silver}} [[Civic Democratic Party (Czech Republic)|ODS]] and [[TOP 09]] (30){{efn|group=n|name=a|  \n* {{color box|{{party color|Civic Democratic Party (Czech Republic)}}}} [[Civic Democratic Party (Czech Republic)|ODS]] (18)\n* {{color box|{{party color|TOP 09}}}} [[TOP 09]] (7)\n* {{Color box|{{party color|Our Czechia}}}} [[Our Czechia]] (2)\n* {{color box|{{party color|Tábor 2020}}}} [[Tábor 2020]] (1)\n* {{color box|{{party color|Independent politician}}}} ProMOST (1)  \n* {{color box|{{party color|Independent politician}}}} [[Independent politician|Independent]] (1)}}\n* {{Color box|{{party color|Mayors and Independents}}|border=silver}} [[Mayors and Independents]] (18){{efn|group=n|name=g|  \n* {{color box|{{party color|Mayors and Independents}}}} [[Mayors and Independents|STAN]] (14){{efn|group=n|name=h|Hana Žáková, Miroslav Balatka, Miroslav Plevný, Jan Sobotka, and Helena Pešatová are non-partisans, nominated by [[Mayors"
+ },
+ "cze Chamber of Deputies of the Czech Republic": {
+  "seats": 200,
+  "parsed": [
+   [
+    "ANO",
+    79,
+    null
+   ],
+   [
+    "ANO",
+    75,
+    null
+   ],
+   [
+    "Independent",
+    4,
+    null
+   ],
+   [
+    "SPD",
+    15,
+    null
+   ],
+   [
+    "SPD",
+    11,
+    null
+   ],
+   [
+    "PRO",
+    1,
+    null
+   ],
+   [
+    "Svobodní",
+    1,
+    null
+   ],
+   [
+    "Tricolour",
+    1,
+    null
+   ],
+   [
+    "Independent",
+    1,
+    null
+   ],
+   [
+    "AUTO",
+    13,
+    null
+   ],
+   [
+    "AUTO",
+    6,
+    null
+   ],
+   [
+    "Independent",
+    7,
+    null
+   ]
+  ],
+  "raw": "'''[[Third cabinet of Andrej Babiš|Government]] (107)'''\n*{{color box|{{party color|ANO 2011}}}} [[ANO 2011|ANO]] (79){{efn|\n*{{color box|{{party color|ANO 2011}}}} ANO (75)\n*{{color box|{{party color|Independent politician}}}} [[Independent politician|Independent]] (4)\n}}\n*{{color box|{{party color|Freedom and Direct Democracy}}}} [[Freedom and Direct Democracy|SPD]] (15){{efn|\n*{{color box|{{party color|Freedom and Direct Democracy}}}} SPD (11)\n*{{colorbox|{{party color|Law, Respect, Expertise}}}} [[Law, Respect, Expertise|PRO]] ([[Jindřich Rajchl|1]])\n*{{colorbox|{{party color|Svobodní}}}} [[Svobodní]] ([[Libor Vondráček|1]])\n*{{colorbox|{{party color|Tricolour (political party)}}}} [[Tricolour (political party) |Tricolour]] ([[Zuzana Majerová|1]])\n*{{color box|{{party color|Independent politician}}}} [[Independent politician|Independent]] (1)\n}}\n*{{color box|{{party color|Motorists for Themselves}}}} [[Motorists for Themselves|AUTO]] (13){{efn|\n*{{color box|{{party color|Motorists for Themselves}}}} AUTO (6)\n*{{color box|{{party color|Independent politician}}}} [[Independent politician|Independent]] (7)\n}}\n\n'''[[Parliamentary opposition|Opposition]] (93)'''\n*{{color box|{{party color|Civic Democratic Party (Czech Republic)}}}} [[Civic Democratic Party (Czech Republic)|ODS]] (27){{efn|\n*{{color box|{{party color|Civic Democratic Party (Czech Republic)}}}} ODS (26)\n*{{color box|{{party color|Independent politician}}}} [[Independent politician|Independent]] (1)}}\n* {{color b"
  },
  "dma House of Assembly of Dominica": {
   "seats": 32,
@@ -384,11 +645,6 @@
     null
    ],
    [
-    "Social Democratic",
-    1,
-    null
-   ],
-   [
     "Union",
     1,
     null
@@ -406,6 +662,11 @@
    [
     ";Opposition",
     77,
+    null
+   ],
+   [
+    "Venstre (Denmark)",
+    17,
     null
    ]
   ],
@@ -446,58 +707,13 @@
   "seats": 200,
   "parsed": [
    [
-    "National Coalition",
-    48,
-    null
-   ],
-   [
-    "Finns",
-    45,
-    null
-   ],
-   [
-    "Swedish People's",
-    10,
-    null
-   ],
-   [
-    "Christian Democrats",
-    5,
+    "Åland Coalition",
+    1,
     null
    ],
    [
     ";Opposition",
     92,
-    null
-   ],
-   [
-    "Social Democratic",
-    43,
-    null
-   ],
-   [
-    "Centre",
-    23,
-    null
-   ],
-   [
-    "Green League",
-    13,
-    null
-   ],
-   [
-    "Left Alliance",
-    11,
-    null
-   ],
-   [
-    "Movement Now",
-    1,
-    null
-   ],
-   [
-    "Independent",
-    1,
     null
    ]
   ],
@@ -509,6 +725,16 @@
    [
     "EPR",
     92,
+    null
+   ],
+   [
+    "Renaissance",
+    87,
+    null
+   ],
+   [
+    "RE-TdP",
+    9,
     null
    ],
    [
@@ -537,34 +763,24 @@
     null
    ],
    [
+    "MoDem",
+    33,
+    null
+   ],
+   [
+    "Renaissance",
+    2,
+    null
+   ],
+   [
+    "RSM",
+    1,
+    "#09653C"
+   ],
+   [
     "HOR",
     34,
     null
-   ],
-   [
-    "RN",
-    123,
-    null
-   ],
-   [
-    "LFI",
-    71,
-    "#532480"
-   ],
-   [
-    "NPA",
-    1,
-    null
-   ],
-   [
-    "REV",
-    1,
-    null
-   ],
-   [
-    "RÉ 974",
-    1,
-    "#EE1E23"
    ]
   ],
   "raw": "'''Government ([[second Lecornu government]]) (162)'''\n<!--\n-->\n*{{Color box|{{party color|Renaissance (French political party)}}}} [[Together for the Republic group|EPR]] (92){{efn|\n*{{Color box|{{party color|Renaissance (French political party)}}}} [[Renaissance (French political party)|Renaissance]] (87){{efn|\n*{{Color box|{{party color|Territories of Progress}}}} [[Territories of Progress|RE-TdP]] (9)}}\n*{{Color box|{{party color|Miscellaneous right}}}} [[Miscellaneous right|DVD]] (2)\n*{{Color box|{{party color|Radical Party (France)}}}} [[Radical Party (France)|PRV]] (1)\n*{{Color box|#FF8000}} [[Générations NC|GNC]] (1)\n*{{Color box|#EE2C21}} [[Tāpura Huiraʻatira|Tapura]] (1)}}\n<!--\n-->\n*{{Color box|{{party color|Democratic Movement (France)}}}} [[The Democrats group|LD]] (36){{efn|\n*{{Color box|{{party color|Democratic Movement (France)}}}} [[Democratic Movement (France)|MoDem]] (33)\n*{{Color box|{{party color|La République En Marche!}}}} [[Renaissance (French political party)|Renaissance]] (2)\n*{{Color box|#09653C}} [[Saint-Martinois Rally|RSM]] (1)}}\n<!--\n-->\n*{{Color box|{{party color|Horizons (political party)}}}} [[Horizons group (National Assembly)|HOR]] (34){{efn|\n*{{Color box|{{party color|Horizons (political party)}}}} [[Horizons (political party)|Horizons]] (26) \n*{{Color box|{{party color|The Republicans (France)}}}} [[The Republicans (France)|LR]] (2)\n*{{Color box|{{party color|La République En Marche!}}}} [[Renaissance (French political party)|Renaissance]]"
@@ -680,13 +896,8 @@
     null
    ],
    [
-    "People's Power",
+    "People's Power (Georgia)",
     8,
-    null
-   ],
-   [
-    "European Socialists",
-    3,
     null
    ]
   ],
@@ -696,6 +907,206 @@
   "seats": 65,
   "parsed": [],
   "raw": "''Dissolved legislature''"
+ },
+ "grc Hellenic Parliament": {
+  "seats": 300,
+  "parsed": [
+   [
+    "New Democracy",
+    156,
+    null
+   ],
+   [
+    "PASOK-KINAL",
+    37,
+    null
+   ],
+   [
+    "Independents",
+    46,
+    null
+   ],
+   [
+    "Independents",
+    33,
+    null
+   ],
+   [
+    "New Left",
+    5,
+    null
+   ],
+   [
+    "National Rally – PARON",
+    2,
+    null
+   ],
+   [
+    "Democrats – Progressive Centre",
+    1,
+    null
+   ],
+   [
+    "Greek Solution",
+    1,
+    "#86C0E8"
+   ],
+   [
+    "KKE",
+    21,
+    null
+   ],
+   [
+    "Syriza",
+    13,
+    null
+   ],
+   [
+    "Greek Solution",
+    11,
+    "#86C0E8"
+   ],
+   [
+    "Niki",
+    8,
+    null
+   ]
+  ],
+  "raw": "'''Government ([[Second cabinet of Kyriakos Mitsotakis|Mitsotakis cabinet]]) (156)'''\n*{{Color box|{{party color|New Democracy (Greece)}}}} [[New Democracy (Greece)|New Democracy]] (156)\n'''Official Opposition (37)'''\n*{{Color box|{{party color|Panhellenic Socialist Movement (2016)}}}} [[PASOK – Movement for Change|PASOK-KINAL]] (37)\n'''Other Opposition (104)'''\n*{{Color box|{{party color|Independent}}|border=black}} [[Independent politician|Independents]] (46){{efn|\n*{{Color box|{{party color|Independent}}|border=black}} [[Independent politician|Independents]] (33)\n*{{Color box|{{party color|New Left (Greece)}}}} [[New Left (Greece)|New Left]] (5)\n*{{Color box|#1c2971}} {{interlanguage link|Alliance of Greeks|el|Συμμαχία Ελλήνων}} (3)\n*{{Color box|{{party color|National Rally – Patriotic Radical Momentum for Victory}}}} [[National Rally – Patriotic Radical Momentum of Victory|National Rally – PARON]] (2)\n*{{Color box|{{party color|Democrats – Progressive Centre}}}} [[Democrats – Progressive Centre]] (1)\n*{{Color box|#86C0E8}} [[Greek Solution]] (1)\n*{{Color box|#774c77}} {{interlanguage link|Hellenic Pulse|el|Ελληνικός Παλμός}} (1)}}\n*{{Color box|{{party color|Communist Party of Greece}}}} [[Communist Party of Greece|KKE]] (21)\n*{{Color box|{{party color|Coalition of the Radical Left}}}} [[Syriza]] (13)\n*{{Color box|#86C0E8}} [[Greek Solution]] (11)\n*{{Color box|{{party color|Niki (Greek political party)}}}} [[Niki (Greek political party)|Niki]] (8)\n*{{Color box|{{party colo"
+ },
+ "hnd National Congress of Honduras": {
+  "seats": null,
+  "parsed": [
+   [
+    "&#160; Liberal",
+    41,
+    "#CE2029"
+   ],
+   [
+    "&#160; Libre",
+    35,
+    "#8B0000"
+   ],
+   [
+    "&#160; PINU",
+    2,
+    "#EE9E09"
+   ],
+   [
+    "&#160; Christian Democratic",
+    1,
+    "#11992B"
+   ]
+  ],
+  "raw": "<b>Government (49)</b>\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#007DBC; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/National_Party_of_Honduras\" title=\"National Party of Honduras\">National</a> (49)\n</ul>\n<p><b>Opposition (79)</b>\n</p>\n<ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#CE2029; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Liberal_Party_of_Honduras\" title=\"Liberal Party of Honduras\">Liberal</a> (41)\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#8B0000; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Liberty_and_Refoundation\" title=\"Liberty and Refoundation\">Libre</a> (35)\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adju"
+ },
+ "hrv Croatian Parliament": {
+  "seats": 151,
+  "parsed": [
+   [
+    "HDZ",
+    58,
+    "#295BA5"
+   ],
+   [
+    "HDZ",
+    56,
+    "#295BA5"
+   ],
+   [
+    "HDS",
+    1,
+    "#0F75BC"
+   ],
+   [
+    "Independent Marijana Petir",
+    1,
+    "#DDDDDD"
+   ],
+   [
+    "DP",
+    8,
+    "#7C767C"
+   ],
+   [
+    "HSLS & ind.",
+    3,
+    "#FFE01A"
+   ],
+   [
+    "HSLS",
+    2,
+    "#FFE01A"
+   ],
+   [
+    "Independent Vladimir Bilek (Czech and Slovak minority representative)",
+    1,
+    "#DDDDDD"
+   ],
+   [
+    "HNS–HSS & ind.",
+    3,
+    null
+   ],
+   [
+    "HNS",
+    1,
+    "#FF9900"
+   ],
+   [
+    "HSS",
+    1,
+    "#02B14B"
+   ],
+   [
+    "Nezavisni–HSU",
+    3,
+    "#124E6B"
+   ]
+  ],
+  "raw": "'''Government ([[Cabinet of Andrej Plenković III]]) (66)'''\n*{{Color box|#295BA5|border=silver}} [[Croatian Democratic Union|HDZ]] (58){{efn|\n*{{Color box|#295BA5|border=silver}} [[Croatian Democratic Union|HDZ]] (56)\n*{{Color box|#0F75BC|border=silver}} [[Croatian Demochristian Party|HDS]] (1)\n*{{Color box|#DDDDDD|border=silver}} [[Independent politician|Independent]] [[Marijana Petir]] (1)}}\n*{{Color box|#7C767C|border=silver}} [[Homeland Movement (Croatia)|DP]] (8)\n'''[[Confidence and supply|Supported by]] (13)'''\n*{{Color box|#FFE01A|border=silver}} [[Croatian Social Liberal Party|HSLS]] & ind. (3){{efn|\n*{{Color box|#FFE01A|border=silver}} [[Croatian Social Liberal Party|HSLS]] (2)\n*{{Color box|#DDDDDD|border=silver}} [[Independent politician|Independent]] Vladimir Bilek (Czech and Slovak minority representative) (1)}}\n*{{Color box|{{party color|Croatian People's Party - Liberal Democrats}}|border=silver}} [[Croatian People's Party – Liberal Democrats|HNS]]–[[Croatian Peasant Party|HSS]] & ind. (3){{efn|\n*{{Color box|#FF9900|border=silver}} [[Croatian People's Party – Liberal Democrats|HNS]] (1)\n*{{Color box|#02B14B|border=silver}} [[Croatian Peasant Party|HSS]] (1)\n*{{Color box|#DDDDDD|border=silver}} [[Independent politician|Independent]] [[Armin Hodžić (politician)|Armin Hodžić]] (Albanian, Bosniak, Montenegrin, Macedonian and Slovenian minority representative)}}\n*{{Color box|#124E6B|border=silver}} Nezavisni–[[Croatian Party of Pensioners|HSU]] (3){{efn|\n*{{Color box"
+ },
+ "hun National Assembly (Hungary)": {
+  "seats": 199,
+  "parsed": [
+   [
+    "TISZA",
+    141,
+    null
+   ],
+   [
+    "Fidesz–KDNP",
+    52,
+    null
+   ],
+   [
+    "Fidesz",
+    44,
+    null
+   ],
+   [
+    "KDNP",
+    8,
+    null
+   ],
+   [
+    "MH",
+    6,
+    null
+   ]
+  ],
+  "raw": "'''Government ([[Magyar Government|Magyar]]) (141)'''<br/><!-- If you want to make this an [[wp:Easter Egg]] then at least explain why in your edit summary. -->\n*{{Color box|{{party color|Tisza Party}}|border=silver}} [[Tisza Party|TISZA]] (141)\n\n'''Opposition (58)''' \n*{{Color box|{{party color|Fidesz–KDNP}}|border=silver}} [[Fidesz–KDNP]] (52){{efn|\n*{{Color box|{{party color|Fidesz}}|border=silver}} [[Fidesz]] (44)\n*{{Color box|{{party color|Christian Democratic People's Party (Hungary)}}|border=silver}} [[Christian Democratic People's Party (Hungary)|KDNP]] (8)}}\n*{{Color box|{{party color|Our Homeland Movement}}|border=silver}} [[Our Homeland Movement|MH]] (6)"
+ },
+ "idn House of Representatives (Indonesia)": {
+  "seats": 580,
+  "parsed": [
+   [
+    "Check and balance",
+    110,
+    null
+   ]
+  ],
+  "raw": "<div>'''[[Red and White Cabinet|Government]] ({{#expr:{{DPR RI|GOLKAR}}+{{DPR RI|GERINDRA}}+{{DPR RI|PKB}}+{{DPR RI|PAN}}+{{DPR RI|DEMOKRAT}}}})'''</div>\n'''{{legend|#C8EBFF|[[Advanced Indonesia Coalition|KIM]]}}'''\n*{{color box|{{party color|Golkar}}|border=darkgray}} [[Golkar]] ({{DPR RI|GOLKAR}})\n*{{color box|{{party color|Gerindra Party}}|border=darkgray}} [[Gerindra Party|Gerindra]] ({{DPR RI|GERINDRA}})\n*{{color box|{{party color|National Awakening Party}}|border=darkgray}} [[National Awakening Party|PKB]] ({{DPR RI|PKB}})\n*{{color box|{{party color|National Mandate Party}}|border=darkgray}} [[National Mandate Party|PAN]] ({{DPR RI|PAN}})\n*{{color box|{{party color|Democratic Party (Indonesia)}}|border=darkgray}} [[Democratic Party (Indonesia)|Democratic]] ({{DPR RI|DEMOKRAT}})\n<div>'''[[Confidence and supply]] ({{#expr:{{DPR RI|NASDEM}}+{{DPR RI|PKS}}}})'''</div>\n'''{{legend|#C8EBFF|[[Advanced Indonesia Coalition Plus|KIM+]]}}'''\n*{{color box|{{party color|NasDem Party}}|border=darkgray}} [[NasDem Party|NasDem]] ({{DPR RI|NASDEM}})\n*{{color box|{{party color|Prosperous Justice Party \n(2020)}}|border=darkgray}} [[Prosperous Justice Party|PKS]] ({{DPR RI|PKS}})\n'''[[Check and balance|Check and balance]] (110)'''\n*{{color box|{{party color|Indonesian Democratic Party of Struggle}}|border=darkgray}} [[Indonesian Democratic Party of Struggle|PDI-P]] ({{DPR RI|PDI-P}})<ref>https://www.suarasurabaya.net/politik/2026/di-rakernas-pdip-kembali-tegaskan-ambil-peran-penyeimbang-bu"
  },
  "imn Legislative Council of the Isle of Man": {
   "seats": 11,
@@ -708,71 +1119,37 @@
   ],
   "raw": "{{ubl\n  | {{Color box|#DDDDDD|border=silver}} [[Independent (politician)|Independent]] (8) \n  | {{Color box|#87CEEB|border=silver}} ''[[Ex officio]]'' (3)\n  }}"
  },
- "ind Rajya Sabha": {
-  "seats": 245,
+ "ind Lok Sabha": {
+  "seats": 543,
   "parsed": [
    [
-    "NDA",
-    152,
-    null
-   ],
-   [
-    "BJP",
-    117,
-    null
-   ],
-   [
-    "AIADMK",
-    4,
-    null
-   ],
-   [
-    "JD(U)",
-    4,
-    null
-   ],
-   [
-    "NCP",
-    4,
-    null
-   ],
-   [
-    "TDP",
-    4,
-    null
-   ],
-   [
-    "SHS",
-    2,
-    null
-   ],
-   [
-    "AGP",
+    "JKAIP",
     1,
-    null
+    "#4AF336"
+   ]
+  ],
+  "raw": "'''[[Third Modi ministry|Government]] (319)'''\n'''{{Party legend|National Democratic Alliance|319}}'''\n* {{Party legend|Bharatiya Janata Party|241}}\n* {{Party legend|Nationalist Citizens Party of India|20}}<ref>{{cite web|url=https://www.indiatoday.in/india/story/tmc-rebels-seek-real-party-recognition-speaker-delhi-meet-2926495-2026-06-14?utm_campaign=promotion&utm_source=izooto&utm_medium=push_notifications|publisher=India Today|date=14 June 2026|title=Rebel TMC MPs to merge with Nationalist Citizens Party, to back NDA}}</ref>\n* {{Party legend|Telugu Desam Party|16}}\n* {{Party legend|Shiv Sena (2022–present)|13}}<ref name=\"SS(UBT) MPs join SHS\">{{cite web|url=https://www.livemint.com/politics/all-six-rebel-mps-uddhavs-shiv-sena-ubt-join-eknath-shindes-shiv-sena-11782129073559.html|title=Massive blow to Uddhav's Shiv Sena-UBT, all six rebel MPs join Eknath Shinde's Shiv Sena|work=Mint|accessdate=22 June 2026}}</ref>\n* {{Party legend|Janata Dal (United)|12}}\n* {{Party legend|Lok Janshakti Party (Ram Vilas)|5}} \n* {{Party legend|Janata Dal (Secular)|2}}\n* {{Party legend|Janasena Party|2}}\n* {{Party legend|Rashtriya Lok Dal|2}}\n* {{Party legend|Apna Dal (Sonelal)|1}}\n* {{Party legend|Asom Gana Parishad|1}}\n* {{Party legend|All Jharkhand Students Union|1}}\n* {{Party legend|Hindustani Awam Morcha|1}}\n* {{Party legend|Nationalist Congress Party|1}}\n* {{Party legend|Sikkim Krantikari Morcha|1}}\n'''[[Parliamentary opposition|Official Opposition]] (183)'''<br />\n'''{{Party legend|Indi"
+ },
+ "irl Dáil Éireann": {
+  "seats": 174,
+  "parsed": [
+   [
+    "Independent Group",
+    7,
+    "#7DA5DD"
    ],
    [
-    "JSP",
-    1,
-    null
+    "Inds. and Smaller Parties Group",
+    7,
+    "#F997BC"
    ],
    [
-    "NPP",
-    1,
-    null
-   ],
-   [
-    "PMK",
-    1,
-    null
-   ],
-   [
-    "RLD",
+    "Ceann Comhairle",
     1,
     null
    ]
   ],
-  "raw": "'''[[Government of India|Government]] (152)''' \n{{Party legend|National Democratic Alliance|152}}\n* {{Party legend|Bharatiya Janata Party|117}}{{efn|name=fn1|Including 5 [[List of nominated members of the Rajya Sabha|nominated members]].}}\n* {{Party legend|All India Anna Dravida Munnetra Kazhagam|4}}\n* {{Party legend|Janata Dal (United)|4}}\n* {{Party legend|Nationalist Congress Party|4}}\n* {{Party legend|Telugu Desam Party|4}}\n* {{Party legend|Shiv Sena (2022–present)|2}}\n* {{Party legend|Asom Gana Parishad|1}}\n* {{Party legend|Janasena Party|1}}\n* {{Party legend|National People's Party (India)|1}}\n* {{Party legend|Pattali Makkal Katchi|1}}\n* {{Party legend|Rashtriya Lok Dal|1}}\n* {{Party legend|Rashtriya Lok Morcha|1}}\n* {{Party legend|Republican Party of India (Athawale)|1}}\n* {{Party legend|Independent politician|3|shortname=IND}}{{efn|[[Kartikeya Sharma]] in [[Haryana]], [[Parimal Nathwani]] in [[Jharkhand]] and [[Dilip Ray]] in [[Odisha]].}}\n* {{Party legend|List of nominated members of the Rajya Sabha|7|color=#000|shortname=NOM}}\n'''[[Parliamentary opposition|Official Opposition]] (64)'''<br />\n{{Party legend|Indian National Developmental Inclusive Alliance|64}}\n* {{Party legend|Indian National Congress|30}}\n* {{Party legend|Mamata All India Trinamool Congress|9}}\n* {{Party legend|Samajwadi Party|5}}\n* {{Party legend|Communist Party of India (Marxist)|3}}\n* {{Party legend|Jammu & Kashmir National Conference|3}}\n* {{Party legend|Jharkhand Mukti Morcha|3}}\n* {{Party legen"
+  "raw": "'''[[Government of the 34th Dáil|Government]] (90)'''\n:{{Party index link|Fianna Fáil|border=darkgray}}&nbsp;({{Political party data|seats|Q216517|ms-lower-house}})\n:{{Party index link|Fine Gael|border=darkgray}}&nbsp;({{Political party data|seats|Q247135|ms-lower-house}})\n:{{Party index link|Independent politician (Ireland)|border=darkgray}}&nbsp;(4)\n'''[[Confidence and supply|Supported by]] (3)'''\n:{{Party index link|Independent politician (Ireland)|border=darkgray}}&nbsp;(3)<ref name=\"IT20250207\">{{cite news |last1=Horgan-Jones |first1=Jack |title=Just how big is the Government’s majority? TDs from Lowry group muddy the waters |url=https://www.irishtimes.com/politics/2025/02/07/just-how-big-is-the-governments-majority-tds-from-lowry-group-muddy-the-waters/ |access-date=14 February 2025 |work=[[Irish Times]] |date=14 February 2025}}</ref>\n'''Opposition (80)'''\n:{{Party index link|Sinn Féin|border=darkgray}}&nbsp;({{Political party data|seats|Q76382|ms-lower-house}})\n:{{Party index link|Social Democrats (Ireland)|border=darkgray}}&nbsp;({{Political party data|seats|Q20682633|ms-lower-house}})\n:{{Party index link|Labour Party (Ireland)|border=darkgray}}&nbsp;({{Political party data|seats|Q503614|ms-lower-house}})\n:{{color box|7DA5DD|border=silver}} [[34th Dáil#Independent Group|''Independent Group'']] (7){{efn|name=fn1|Technical group formed for parliamentary speaking rights. This is not a political alliance, but a parliamentary group.}}\n::{{Party index link|Independent Irela"
  },
  "irn Islamic Consultative Assembly": {
   "seats": 290,
@@ -906,6 +1283,72 @@
   ],
   "raw": "'''State Administration Assembly (243)'''\nCabinet (205)\n*{{Color box|{{party color|Reconstruction and Development Coalition}}|border=darkgray}} [[Reconstruction and Development Coalition|RDC]] (46)\n*{{Color box|#538727|border=darkgray}} [[State of Law Coalition|State of Law]] (29)\n*{{Color box|#b5ca7f|border=darkgray}} [[Al Sadiqoun Bloc|Al Sadiqoun]] (27)\n*{{Color box|{{party color|Progress Party (Iraq)}}|border=darkgray}} [[Progress Party (Iraq)|Takadum]] (27)\n*{{Color box|{{party color|Kurdistan Democratic Party}}|border=darkgray}} [[Kurdistan Democratic Party|KDP]] (26)\n*{{Color box|#000000|border=darkgray}} [[Badr Organisation]] (18)\n*{{Color box|#00A550|border=darkgray}} [[Patriotic Union of Kurdistan|PUK]] (15)\n*{{Color box|#3CA852|border=darkgray}} [[Azem Alliance]] (15)\n*{{Color box|{{party colour|Babylon Movement}}|border=darkgray}} [[Babylon Movement]] (2)\nNon-Cabinet (35)\n*{{Color box|{{party color|Alliance of Nation State Forces}}|border=darkgray}} [[Alliance of Nation State Forces]] (18)\n*{{Color box|#00777d|border=darkgray}} {{Interlanguage link|Al-Asas (Iraq)|lt=Al-Asas|ar|ائتلاف الأساس العراقي}} (8)\n*{{Color box|#f7c76c|border=darkgray}} [[Tasmim Alliance]] (6)\n*{{Color box||border=darkgray}} [[Kataib Hezbollah|Huqouq Movement]] (6)\n'''Opposition (75)''' \n*{{Color box||border=darkgray}} Al-Siyadah (8)\n*{{Color box|#4ec6c7|border=darkgray}} [[Ishraqat Kanoon]] (8)\n*[[2025 Iraqi parliamentary election#Results|Others]] (59)"
  },
+ "isr Knesset": {
+  "seats": null,
+  "parsed": [
+   [
+    "&#160; Yashar",
+    21,
+    "#62B9F2"
+   ],
+   [
+    "&#160; Yesodot Yisrael",
+    3,
+    "#0896d2"
+   ],
+   [
+    "&#160; Together",
+    12,
+    "#2A2A78"
+   ],
+   [
+    "&#160; Bennett 2026",
+    7,
+    "#44C5BF"
+   ],
+   [
+    "&#160; Yesh Atid",
+    5,
+    "#2038F0"
+   ],
+   [
+    "&#160; Joint List",
+    11,
+    "#01B2AC"
+   ],
+   [
+    "&#160; Hadash",
+    5,
+    "#D61922"
+   ],
+   [
+    "&#160; Ta'al",
+    3,
+    "#F9D104"
+   ],
+   [
+    "&#160; Balad",
+    3,
+    "#F6600C"
+   ],
+   [
+    "&#160; Democrats",
+    8,
+    "#2A38D7"
+   ],
+   [
+    "&#160; Ra'am",
+    8,
+    "#15793D"
+   ],
+   [
+    "&#160; Independent",
+    1,
+    "#DCDCDC"
+   ]
+  ],
+  "raw": "\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#1f5aa5; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Likud\" title=\"Likud\">Likud</a> (27)\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#62B9F2; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Yashar_(political_party)\" title=\"Yashar (political party)\">Yashar</a> (21)\n<ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#0896d2; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Hili_Tropper#Zionist_Home_–_The_Reservists\" title=\"Hili Tropper\">Yesodot Yisrael</a> (3)\n</ul>\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#2A2A78; color:white;border:1px solid silver;\">&#160;</span>"
+ },
  "ita Senate of the Republic (Italy)": {
   "seats": 205,
   "parsed": [
@@ -920,13 +1363,38 @@
     null
    ],
    [
+    "Lega",
+    30,
+    null
+   ],
+   [
+    "AF",
+    1,
+    "#39B5BD"
+   ],
+   [
     "FI–BP–PPE",
     19,
     null
    ],
    [
-    "CdI",
-    7,
+    "FI",
+    18,
+    null
+   ],
+   [
+    "DC",
+    1,
+    "#637FCF"
+   ],
+   [
+    "NM",
+    3,
+    null
+   ],
+   [
+    "MAIE",
+    1,
     null
    ],
    [
@@ -943,34 +1411,75 @@
     "UdC",
     1,
     null
+   ]
+  ],
+  "raw": "'''[[Meloni government|Government]] (112)'''\n* {{Color box|{{party color|Brothers of Italy}}|border=silver}} [[Brothers of Italy|FdI]] (63)\n* {{Color box|{{party color|Lega (political party)}}|border=silver}} [[Lega (political party)|LSP]]–[[Sardinian Action Party|PSd'Az]] (30){{efn|\n* {{Color box|{{party color|Lega (political party)}}|border=silver}} [[Lega (political party)|Lega]] (30){{efn|\n* {{Color box|#39B5BD|border=silver}} [[Fassa Association|AF]] ([[Elena Testor|1]])}}}}\n* {{Color box|{{party color|Forza Italia (2013)}}|border=silver}} [[Forza Italia (2013)|FI–BP–PPE]] (19){{efn|\n* {{Color box|{{party color|Forza Italia (2013)}}|border=silver}} [[Forza Italia (2013)|FI]] (18)\n* {{Color box|#637FCF|border=silver}} [[Christian Democracy (Italy, 2023)|DC]] ([[Raffaele De Rosa|1]])}}\n<!--\n-->'''[[Confidence and supply|Supported by]] (8)'''\n* {{nowrap|{{Color box|{{party color|Us Moderates}}|border=silver}} [[Civics of Italy|CdI]] (7)}}{{efn|\n* {{Color box|{{party color|Us Moderates}}|border=silver}} [[Us Moderates|NM]] (3){{efn|\n* {{Color box|{{party color|Associative Movement Italians Abroad}}|border=silver}} [[Associative Movement of Italians Abroad|MAIE]] ([[Mario Borghese|1]])}}\n* {{Color box|{{party color|Brothers of Italy}}|border=silver}} [[Brothers of Italy|FdI]] (2)\n* {{Color box|{{party color|Coraggio Italia}}|border=silver}} [[Coraggio Italia|CI]] ([[Michaela Biancofiore|1]])\n* {{Color box|{{party color|Union of the Centre (2002)}}|border=silver}} [[Union of t"
+ },
+ "ita Chamber of Deputies (Italy)": {
+  "seats": 400,
+  "parsed": [
+   [
+    "FdI",
+    117,
+    null
    ],
    [
-    "Mixed",
+    "FdI",
+    116,
+    null
+   ],
+   [
+    "DCR",
+    1,
+    "#4889A3"
+   ],
+   [
+    "Lega",
+    54,
+    null
+   ],
+   [
+    "Lega",
+    54,
+    null
+   ],
+   [
+    "FI–PPE",
+    52,
+    null
+   ],
+   [
+    "FI",
+    52,
+    null
+   ],
+   [
+    "NPSI",
     1,
     null
    ],
    [
-    "PD–IDP",
-    35,
-    null
-   ],
-   [
-    "M5S",
-    25,
-    null
-   ],
-   [
-    "IV–CR",
+    "NM–MAIE–CP",
     8,
     null
    ],
    [
-    "Aut. (SVP-PATT, CB)",
+    "NM",
     7,
+    null
+   ],
+   [
+    "CP",
+    1,
+    "#00519E"
+   ],
+   [
+    "MAIE",
+    1,
     null
    ]
   ],
-  "raw": "'''[[Meloni government|Government]] (112)'''\n* {{Color box|{{party color|Brothers of Italy}}|border=silver}} [[Brothers of Italy|FdI]] (63)\n* {{Color box|{{party color|Lega (political party)}}|border=silver}} [[Lega (political party)|LSP]]–[[Sardinian Action Party|PSd'Az]] (30){{efn|\n* {{Color box|{{party color|Lega (political party)}}|border=silver}} [[Lega (political party)|Lega]] (30){{efn|\n* {{Color box|#39B5BD|border=silver}} [[Fassa Association|AF]] ([[Elena Testor|1]])}}}}\n* {{Color box|{{party color|Forza Italia (2013)}}|border=silver}} [[Forza Italia (2013)|FI–BP–PPE]] (19){{efn|\n* {{Color box|{{party color|Forza Italia (2013)}}|border=silver}} [[Forza Italia (2013)|FI]] (18)\n* {{Color box|#637FCF|border=silver}} [[Christian Democracy (Italy, 2023)|DC]] ([[Raffaele De Rosa|1]])}}\n<!--\n-->'''[[Confidence and supply|Supported by]] (8)'''\n* {{nowrap|{{Color box|{{party color|Us Moderates}}|border=silver}} [[Civics of Italy|CdI]] (7)}}{{efn|\n* {{Color box|{{party color|Us Moderates}}|border=silver}} [[Us Moderates|NM]] (3){{efn|\n* {{Color box|{{party color|Associative Movement Italians Abroad}}|border=silver}} [[Associative Movement of Italians Abroad|MAIE]] ([[Mario Borghese|1]])}}\n* {{Color box|{{party color|Brothers of Italy}}|border=silver}} [[Brothers of Italy|FdI]] (2)\n* {{Color box|{{party color|Coraggio Italia}}|border=silver}} [[Coraggio Italia|CI]] ([[Michaela Biancofiore|1]])\n* {{Color box|{{party color|Union of the Centre (2002)}}|border=silver}} [[Union of t"
+  "raw": "'''[[Meloni Cabinet|Government]] (223)'''\n* {{Color box|{{party color|Brothers of Italy}}|border=silver}} [[Brothers of Italy|FdI]] (117){{efn|\n* {{Color box|{{party color|Brothers of Italy}}|border=silver}} [[Brothers of Italy|FdI]] (116)\n* {{Color box|#4889A3|border=silver}} [[Christian Democracy with Rotondi|DCR]] ([[Gianfranco Rotondi|1]])}}\n<!--\n-->\n* {{Color box|{{party color|Lega (political party)}}|border=silver}} [[Lega (political party)|Lega]] (54){{efn|\n* {{Color box|{{party color|Lega (political party)}}|border=silver}} [[Lega (political party)|Lega]] (54){{efn|\n* {{Color box|#A5C1D1|border=silver}} {{abbr|LCD|Christian Democratic Liberals}} ([[Andrea de Bertoldi|1]])}}}}\n<!--\n-->\n* {{Color box|{{party color|Forza Italia (2013)}}|border=silver}} [[Forza Italia (2013)|FI–PPE]] (52){{efn|\n* {{Color box|{{party color|Forza Italia (2013)}}|border=silver}} [[Forza Italia (2013)|FI]] (52){{efn|\n* {{Color box|{{party color|New Italian Socialist Party}}|border=silver}} [[New Italian Socialist Party|NPSI]] ([[Alessandro Battilocchio|1]])}}}}\n<!--\n-->'''[[Confidence and supply|Supported by]] (13)'''\n* {{Color box|{{party color|Us Moderates}}|border=silver}} [[Us Moderates|NM]]–[[Associative Movement of Italians Abroad|MAIE]]–[[Mara Carfagna|CP]] (8){{efn|\n* {{Color box|{{party color|Us Moderates}}|border=silver}} [[Us Moderates|NM]] (7){{efn|\n* {{Color box|#00519E|border=silver}} [[Cantiere Popolare|CP]] ([[Francesco Saverio Romano|1]])\n* {{Color box|{{party color|Associati"
  },
  "jey States Assembly": {
   "seats": null,
@@ -1065,6 +1574,72 @@
   ],
   "raw": "* '''[[Cabinet of Lee Jae Myung|Government]] (161)'''\n** {{Color box|{{party color|Democratic Party of Korea}}}} [[Democratic Party (South Korea, 2015)|Democratic]] (161)\n* '''Opposition (130)'''\n** {{Color box|{{party color|People Power Party (South Korea)}}}} [[People Power Party|People Power]] (109)\n** {{Color box|{{party color|Rebuilding Korea Party}}}} [[Rebuilding Korea Party|Rebuilding Korea]] (12)\n** {{Color box|{{party color|Progressive Party (South Korea, 2017)}}}} [[Progressive Party (South Korea, 2017)|Progressive]] (4)\n** {{Color box|{{party color|Reform Party (South Korea)}}}} [[Reform Party (South Korea)|Reform]] (3)\n** {{Color box|{{party color|Basic Income Party}}}} [[Basic Income Party|Basic Income]] (1)\n** {{Color box|{{party color|Social Democratic Party (South Korea)}}}} [[Social Democratic Party (South Korea)|Social Democratic]] (1)\n* '''Unclassified (9)'''\n** {{color box|{{party color|Independent}}|border=black}} [[Independent politician|Independent]] (8){{efn|National Assembly Speaker [[Cho Jeong-sik]] and independent [[Kim Jong-min (politician)|Kim Jong-min]], Choi Hyuk-jin, Lee Chun-seok, Kang Sun-woo, [[Kim Byung-kee]], [[Jang Kyung-tae]], [[Han Dong-hoon]]}}\n** {{Color box|{{party color|Vacant}}}} Vacant (1)"
  },
+ "lbn Parliament of Lebanon": {
+  "seats": null,
+  "parsed": [
+   [
+    "&#160; Government",
+    64,
+    "#00FF00"
+   ],
+   [
+    "&#160; Strong Republic",
+    19,
+    "#F0001C"
+   ],
+   [
+    "&#160; Loyalty to the Resistance",
+    15,
+    "#F7DF19"
+   ],
+   [
+    "&#160; Development and Liberation",
+    15,
+    "#008000"
+   ],
+   [
+    "&#160; Democratic Gathering",
+    8,
+    "#860111"
+   ],
+   [
+    "&#160; Kataeb",
+    5,
+    "#009A00"
+   ],
+   [
+    "&#160; Armenian Revolutionary Federation",
+    2,
+    "#AA0000"
+   ],
+   [
+    "&#160; Supported by",
+    46,
+    "#FFFF00"
+   ],
+   [
+    "&#160; Forces of Change",
+    8,
+    null
+   ],
+   [
+    "&#160; National Moderation",
+    6,
+    "#3682D8"
+   ],
+   [
+    "&#160; National Compatibility",
+    5,
+    "#000000"
+   ],
+   [
+    "&#160; Independent Consultative Gathering",
+    4,
+    "#BFBFBF"
+   ]
+  ],
+  "raw": "<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#00FF00; color:black;border:1px solid silver;\">&#160;</span> <b><a href=\"/wiki/Cabinet_of_Nawaf_Salam\" title=\"Cabinet of Nawaf Salam\">Government</a> (64)</b>\n<ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#F0001C; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Strong_Republic_(Lebanon)\" title=\"Strong Republic (Lebanon)\">Strong Republic</a> (19)<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>b<span class=\"cite-bracket\">&#93;</span></a></sup>\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#F7DF19; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Loyalty_to_the_Resistance_Bloc\" title=\"Loyalty to the Resistance Bloc\">Loyalty to the Resistance</a> (15)<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>c<span class=\"cite-bracket\">&#93;</span></a></sup>\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adju"
+ },
  "lbr Senate of Liberia": {
   "seats": 30,
   "parsed": [
@@ -1117,6 +1692,190 @@
   ],
   "raw": "'''After 2014 election:'''\n*{{Color box|#DCDCDC|border=darkgray}} [[Independent politician|Independent]] (188)\n*{{Color box|#FFFFFF|border=darkgray}} Vacant (12)"
  },
+ "lka Parliament of Sri Lanka": {
+  "seats": null,
+  "parsed": [
+   [
+    "&#160; &#160; NPP",
+    159,
+    "#C4094A"
+   ],
+   [
+    "&#160; &#160; SJB",
+    40,
+    "#0B9444"
+   ],
+   [
+    "&#160; &#160; ITAK",
+    8,
+    "#F5EF1D"
+   ],
+   [
+    "&#160; &#160; NDF",
+    5,
+    "#2C5A45"
+   ],
+   [
+    "&#160; &#160; SLPP",
+    3,
+    "#87171A"
+   ],
+   [
+    "&#160; &#160; SLMC",
+    3,
+    "#007B48"
+   ],
+   [
+    "&#160; &#160; SB",
+    1,
+    "#072E6E"
+   ],
+   [
+    "&#160; &#160; UNP",
+    1,
+    "#07AF14"
+   ],
+   [
+    "&#160; &#160; DTNA",
+    1,
+    "#FFFF00"
+   ],
+   [
+    "&#160; &#160; TNPF",
+    1,
+    "#FFFF00"
+   ],
+   [
+    "&#160; &#160; ACMC",
+    1,
+    "#9acd32"
+   ],
+   [
+    "&#160; &#160; SLLP",
+    1,
+    "#0C9DD4"
+   ]
+  ],
+  "raw": "<b><a href=\"/wiki/Government_of_Sri_Lanka\" title=\"Government of Sri Lanka\">Government</a> (159)</b>\n<ul><li><span class=\"legend nowrap\" style=\"page-break-inside:avoid;break-inside:avoid-column\"><span class=\"legend-color\" style=\"display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;border:1px solid silver;color:inherit;background-color:#C4094A\">&#160;</span>&#160;<a href=\"/wiki/National_People%27s_Power\" title=\"National People&#39;s Power\">NPP</a></span> (159)\n</ul>\n<p><b><a href=\"/wiki/Parliamentary_opposition\" title=\"Parliamentary opposition\">Opposition</a> (66)</b>\n</p>\n<ul><li><span class=\"legend nowrap\" style=\"page-break-inside:avoid;break-inside:avoid-column\"><span class=\"legend-color\" style=\"display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;border:1px solid silver;color:inherit;background-color:#0B9444\">&#160;</span>&#160;<a href=\"/wiki/Samagi_Jana_Balawegaya\" title=\"Samagi Jana Balawegaya\">SJB</a></span> (40)\n\n<li><span class=\"legend nowrap\" style=\"page-break-inside:avoid;break-inside:avoid-column\"><span class=\"legend-color\" style=\"display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;border:1px solid silver;color:inherit;background-color:#F5EF1D\">&#160;</span>&#160;<a href=\"/wiki/Ilankai_Tamil_Arasu_Kachchi\" title=\"Ilankai Tamil Arasu Kachchi\">ITAK</a></span> (8)\n\n<li><span class=\"legend nowrap\" style=\"page-break-inside:avoid;break-inside:avoid-column\"><span class=\"legend-color\" st"
+ },
+ "ltu Seimas": {
+  "seats": null,
+  "parsed": [
+   [
+    "&#160; DSVL",
+    13,
+    "#002060"
+   ],
+   [
+    "&#160; LVŽKŠS",
+    9,
+    "#95D05F"
+   ],
+   [
+    "&#160; TS–LKD",
+    28,
+    "#00A59B"
+   ],
+   [
+    "&#160; NA",
+    17,
+    "#F25D23"
+   ],
+   [
+    "&#160; LS",
+    11,
+    "#FF9300"
+   ],
+   [
+    "Non-attached",
+    9,
+    null
+   ],
+   [
+    "&#160; NS",
+    1,
+    "#bb2212"
+   ],
+   [
+    "&#160; TTS",
+    1,
+    "#013861"
+   ],
+   [
+    "&#160; Independent and political committees",
+    7,
+    "#DCDCDC"
+   ]
+  ],
+  "raw": "<b>Government (<a href=\"/wiki/Sinkevi%C4%8Dius_Cabinet\" title=\"Sinkevičius Cabinet\">Sinkevičius Cabinet</a>) (75)</b>\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#E10514; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Social_Democratic_Party_of_Lithuania\" title=\"Social Democratic Party of Lithuania\">LSDP</a> (53)<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup>\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#002060; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Democrats_Union_%22For_Lithuania%22\" class=\"mw-redirect\" title=\"Democrats Union &quot;For Lithuania&quot;\">DSVL</a> (13)\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#95D05F; color:black;border:1px so"
+ },
+ "lux Chamber of Deputies (Luxembourg)": {
+  "seats": null,
+  "parsed": [
+   [
+    "&#160; DP",
+    14,
+    "#002C4F"
+   ],
+   [
+    "&#160; LSAP",
+    12,
+    "#F10035"
+   ],
+   [
+    "&#160; ADR",
+    5,
+    "#00AAE5"
+   ],
+   [
+    "&#160; Greens",
+    4,
+    "#8EB74A"
+   ],
+   [
+    "&#160; Pirates",
+    2,
+    "#993399"
+   ],
+   [
+    "&#160; The Left",
+    2,
+    "#8F0109"
+   ]
+  ],
+  "raw": "<b>Government (<a href=\"/wiki/Frieden-Bettel_Government\" title=\"Frieden-Bettel Government\">Frieden-Bettel Cabinet</a>) (35)</b>\n<dl><dd><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#FFC300; color:black;border:1px solid black;\">&#160;</span> <a href=\"/wiki/Christian_Social_People%27s_Party\" title=\"Christian Social People&#39;s Party\">CSV</a> (21)</dd>\n<dd><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#002C4F; color:white;border:1px solid black;\">&#160;</span> <a href=\"/wiki/Democratic_Party_(Luxembourg)\" title=\"Democratic Party (Luxembourg)\">DP</a> (14)</dd></dl>\n<p><b>Opposition (25)</b>\n</p>\n<dl><dd><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#F10035; color:black;border:1px solid black;\">&#160;</span> <a href=\"/wiki/Luxembourg_Socialist_Workers%27_Party\" title=\"Luxembourg Socialist Workers&#39; Party\">LSAP</a> (12)</d"
+ },
+ "lva Saeima": {
+  "seats": null,
+  "parsed": [
+   [
+    "&#160; NA",
+    10,
+    "#932330"
+   ],
+   [
+    "&#160; LPV",
+    17,
+    "#A8343C"
+   ],
+   [
+    "&#160; SV / AJ",
+    15,
+    "#6767AB"
+   ],
+   [
+    "&#160; PRO",
+    10,
+    "#E64632"
+   ],
+   [
+    "&#160; JV",
+    7,
+    "#6AB647"
+   ]
+  ],
+  "raw": "\n<dl><dt>Government (<a href=\"/wiki/Second_Kulbergs_cabinet\" title=\"Second Kulbergs cabinet\">Second Kulbergs cabinet</a>) (51)</dt></dl>\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#FFAC01; color:black;border:1px solid black;\">&#160;</span> <a href=\"/wiki/United_List\" title=\"United List\">AS</a> (41)<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup>\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#932330; color:white;border:1px solid black;\">&#160;</span> <a href=\"/wiki/National_Alliance_(Latvia)\" title=\"National Alliance (Latvia)\">NA</a> (10)\n</ul>\n<dl><dt>Opposition (49)</dt></dl>\n<ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#A8343C; color:white;border:1px solid black;\">&#160;</span> <a href=\"/wi"
+ },
  "mac Legislative Assembly of Macau": {
   "seats": 33,
   "parsed": [
@@ -1142,6 +1901,53 @@
    ]
   ],
   "raw": "{{glossary}}\n {{term|[[Pro-Beijing camp (Macau)|Pro-Beijing]] (30)}}\n {{defn|{{unbulleted list\n  | {{Color box|{{party color|Macau United Citizens Association}}|border=darkgray}} [[Macau United Citizens Association|ACUM]] (3)\n  | {{Color box|{{party color|Progress Promotion Union}}|border=darkgray}} [[General Union of Neighbourhood Associations of Macau|UNIPRO]] (2)\n  | {{Color box|{{party color|Union for Development}}|border=darkgray}} [[Macau Federation of Trade Unions|UPD]] (2)\n  | {{Color box|{{party color|Macau-Guangdong Union}}|border=darkgray}} [[Macau-Guangdong Union|UGM]] (2)  \n  | {{Color box|{{party color|Women's General Association of Macau}}|border=darkgray}} [[Women's General Association of Macau|AGMM]] (2)\n  | {{nowrap|{{Color box|{{party color|Independent (politician)}}|border=darkgray}} [[Indirectly elected member|Indirectly elected]] (12)}}\n  | {{Color box|{{party color|Independent (politician)}}|border=darkgray}} [[Appointed members of the Legislative Assembly of Macau|Appointed]] (7)}}\n}}\n{{glossary end}}\n{{glossary}}\n {{term|[[Pro-democracy camp (Macau)|Pro-democracy]] (3)}}\n {{defn|{{unbulleted list\n  | {{Color box|{{party color|New Hope (Macau)}}|border=darkgray}} [[New Hope (Macau)|NE]] (3)}}}}\n{{glossary end}}"
+ },
+ "mda Parliament of Moldova": {
+  "seats": null,
+  "parsed": [
+   [
+    "&#160; PSRM",
+    17,
+    "#9C162E"
+   ],
+   [
+    "&#160; PCRM",
+    8,
+    "#C00302"
+   ],
+   [
+    "&#160; Alternative",
+    7,
+    "#026D59"
+   ],
+   [
+    "&#160; PN",
+    6,
+    "#2680FA"
+   ],
+   [
+    "&#160; PPDA",
+    6,
+    "#24247A"
+   ],
+   [
+    "&#160; Unaffiliated",
+    2,
+    "#DCDCDC"
+   ]
+  ],
+  "raw": "<div style=\"clear:both;\" class=\"\"></div>\n<p><b>Government (<a href=\"/wiki/Tofan_Cabinet\" title=\"Tofan Cabinet\">Tofan Cabinet</a>) (55)</b>\n</p>\n<dl><dd><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#FFDD00; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Party_of_Action_and_Solidarity\" title=\"Party of Action and Solidarity\">PAS</a> (55)<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup></dd></dl>\n<p><b>Opposition (46)</b> \n</p>\n<dl><dd><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#9C162E; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Party_of_Socialists_of_the_Republic_of_Moldova\" title=\"Party of Socialists of the Republic of Moldova\">PSRM</a> (17)<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>b<span class=\"cite-bracket\">&#93;</span></a></sup></dd>"
+ },
+ "mlt Parliament of Malta": {
+  "seats": null,
+  "parsed": [
+   [
+    "&#160; Nationalist",
+    37,
+    "#5087B2"
+   ]
+  ],
+  "raw": "<b><a href=\"/wiki/Maltese_Government_2026%E2%80%932031\" title=\"Maltese Government 2026–2031\">Government</a> (42)</b> \n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#EE3224; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Labour_Party_(Malta)\" title=\"Labour Party (Malta)\">Labour</a> (42)\n</ul>\n<p><b><a href=\"/wiki/Opposition_(parliamentary)\" class=\"mw-redirect\" title=\"Opposition (parliamentary)\">Opposition</a> (37)</b>\n</p>\n<ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#5087B2; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Nationalist_Party_(Malta)\" title=\"Nationalist Party (Malta)\">Nationalist</a> (37)\n</ul>\n"
  },
  "mmr Amyotha Hluttaw": {
   "seats": 224,
@@ -1345,7 +2151,7 @@
   "seats": 176,
   "parsed": [
    [
-    "El Insaf",
+    "title = El Insaf",
     107,
     null
    ],
@@ -1355,7 +2161,7 @@
     null
    ],
    [
-    "UDP",
+    "title = UDP",
     10,
     "#0FAF05"
    ],
@@ -1365,7 +2171,7 @@
     "#0FAF05"
    ],
    [
-    "Justice",
+    "title = Justice",
     6,
     "#C96A2F"
    ],
@@ -1375,7 +2181,7 @@
     "#0AA450"
    ],
    [
-    "Trust",
+    "title = Trust",
     6,
     null
    ],
@@ -1385,7 +2191,7 @@
     null
    ],
    [
-    "Trust",
+    "title = Trust",
     11,
     null
    ],
@@ -1411,11 +2217,6 @@
   "seats": 70,
   "parsed": [
    [
-    "PH",
-    20,
-    null
-   ],
-   [
     "PKR",
     10,
     null
@@ -1431,11 +2232,6 @@
     null
    ],
    [
-    "BN",
-    11,
-    null
-   ],
-   [
     "UMNO",
     8,
     null
@@ -1443,11 +2239,6 @@
    [
     "MCA",
     3,
-    null
-   ],
-   [
-    "GPS",
-    6,
     null
    ],
    [
@@ -1469,6 +2260,21 @@
     "SUPP",
     1,
     null
+   ],
+   [
+    "GAGASAN",
+    2,
+    null
+   ],
+   [
+    "UPKO",
+    1,
+    null
+   ],
+   [
+    "PAS",
+    7,
+    null
    ]
   ],
   "raw": "{{as of|2026|9|11}} <br/>\n'''[[Anwar Ibrahim cabinet|Government]] (48)'''\n{{legend|{{party color|Pakatan Harapan}}|[[Pakatan Harapan|PH]] (20)}}\n* {{colorbox|{{party color|People's Justice Party (Malaysia)}}}} [[People's Justice Party (Malaysia)|PKR]] (10)\n* {{colorbox|{{party color|Democratic Action Party}}}} [[Democratic Action Party (Malaysia)|DAP]] (8)\n* {{colorbox|{{party color|National Trust Party (Malaysia)}}}} [[National Trust Party (Malaysia)|AMANAH]] (2)\n{{legend|{{party color|Barisan Nasional}}|[[Barisan Nasional|BN]] (11)}}\n* {{colorbox|{{party color|United Malays National Organisation}}}} [[United Malay National Organisation|UMNO]] (8)\n* {{colorbox|{{party color|Malaysian Chinese Association}}}} [[Malaysian Chinese Association|MCA]] (3)\n{{legend|{{party color|Gabungan Parti Sarawak}}|[[Gabungan Parti Sarawak|GPS]] (6)}}\n* {{colorbox|{{party color|Parti Pesaka Bumiputera Bersatu}}}} [[Parti Pesaka Bumiputera Bersatu|PBB]] (3)\n* {{colorbox|{{party color|Sarawak People's Party}}}} [[Parti Rakyat Sarawak|PRS]] ([[Rita Sarimah Patrick Insol|1]])\n* {{Color box|{{party color|Progressive Democratic Party (Malaysia)}}}} [[Progressive Democratic Party (Malaysia)|PDP]] ([[Pele Peter Tinggom|1]])\n* {{colorbox|{{party color|Sarawak United Peoples' Party}}}} [[Sarawak United Peoples' Party|SUPP]] ([[:ms:Robert Lau Hui Yew|1]])\n{{legend|{{party color|Gabungan Rakyat Sabah}}|[[Gabungan Rakyat Sabah|GRS]] (3)}}\n*{{Color box|Red}} [[Parti Gagasan Rakyat Sabah|GAGASAN]] (2)\n*{{Colo"
@@ -1476,11 +2282,6 @@
  "mys Dewan Rakyat": {
   "seats": 222,
   "parsed": [
-   [
-    "PH",
-    75,
-    null
-   ],
    [
     "DAP",
     40,
@@ -1494,11 +2295,6 @@
    [
     "AMANAH",
     8,
-    null
-   ],
-   [
-    "BN",
-    30,
     null
    ],
    [
@@ -1522,11 +2318,6 @@
     null
    ],
    [
-    "GPS",
-    23,
-    null
-   ],
-   [
     "PBB",
     14,
     null
@@ -1534,6 +2325,21 @@
    [
     "PRS",
     5,
+    null
+   ],
+   [
+    "PDP",
+    2,
+    null
+   ],
+   [
+    "SUPP",
+    2,
+    null
+   ],
+   [
+    "Direct member",
+    4,
     null
    ]
   ],
@@ -1575,6 +2381,53 @@
    ]
   ],
   "raw": "{{nowrap|'''Majority (28)'''}}\n* {{Color box|#ffed99|border=silver}} [[Les Loyalistes]] (18)\n* {{Color box|#0066cc|border=silver}} [[The Rally (New Caledonia)|LR]] (6)\n* {{Color box|#dddddd|border=silver}} [[Non-Attached Members (France)|Non-Attached]] (4)"
+ },
+ "nga Senate of Nigeria": {
+  "seats": 109,
+  "parsed": [
+   [
+    "All Progressives Congress",
+    88,
+    "#87BEEB"
+   ],
+   [
+    "African Democratic Congress",
+    8,
+    "#12a551"
+   ],
+   [
+    "People's Democratic Party",
+    4,
+    "#006903"
+   ],
+   [
+    "Nigeria Democratic Congress",
+    3,
+    "#3e4095"
+   ],
+   [
+    "All Progressives Grand Alliance",
+    1,
+    "#00923F"
+   ],
+   [
+    "Accord",
+    1,
+    "#9EE181"
+   ]
+  ],
+  "raw": "'''Majority (88)'''<ref>{{Cite web|url=https://naltf.gov.ng/three-senators-defect-to-ndc-and-lp/|title=Three Senators Defect to NDC and LP|first=Maimuna|last=Katuka|date=6 May 2026}}</ref>\n* {{legend|#87BEEB|[[All Progressives Congress (Nigeria)|All Progressives Congress]] (88)}}\n'''Minority (8)'''\n* {{legend|#12a551|[[African Democratic Congress]] (8)}}\n'''Others (10)'''\n* {{legend|#006903|[[People's Democratic Party (Nigeria)|People's Democratic Party]] (4)}}\n* {{legend|#3e4095|[[Nigeria Democratic Congress]] (3)}}\n* {{legend|#00923F|[[All Progressives Grand Alliance]] (1)}}\n* {{legend|#9EE181|[[Accord (Nigeria)|Accord]] (1)}}\nVacant (3)"
+ },
+ "niu Niue Assembly": {
+  "seats": 20,
+  "parsed": [
+   [
+    "Common roll",
+    6,
+    "#DDDDDD"
+   ]
+  ],
+  "raw": "{{Color box|#DDDDDD|border=darkgray}} [[At-large|Common roll]] (6)<br />\n{{nowrap|{{Color box|#A0A0A0|border=darkgray}} Village representatives (14)}}"
  },
  "phl Senate of the Philippines": {
   "seats": 24,
@@ -1709,6 +2562,72 @@
   ],
   "raw": "'''[[Third Cabinet of Donald Tusk|Government]] (64)'''\n* {{color box|{{party color|Civic Coalition (party)}}}} [[Civic Coalition (Poland)|KO]] (42){{efn|\n* {{color box|{{party color|Civic Coalition (party)}}}} [[Civic Coalition (party)|KO]] (36)\n* {{color box|{{party color|Yes! For Poland}}}} [[Yes! For Poland|T!DPL]] (1)\n* {{color box|#808080}} [[Independent politician|Independent]] (6)}}\n* {{color box|{{party color|The Left (Poland)}}}} [[The Left (Poland)|L]] (8){{efn|\n* {{color box|{{party color|New Left (Poland)}}}} [[New Left (Poland)|NL]] (4)\n* {{color box|{{party color|Labour Union (Poland)}}}} [[Labour Union (Poland)|UP]] (1){{efn|[[Waldemar Witkowski]]}}\n* {{color box|red}} [[Polish Socialist Party|PPS]] (1){{efn|[[Wojciech Konieczny]]}}\n* {{color box|#042F59}} [[Common Tomorrow|WJ]] (2){{efn|[[Magdalena Biejat]], [[Anna Górska]]}}}}\n* {{color box|{{party color|Third Way (Poland)}}}} [[Third Way (Poland)|TD]] (8){{efn|\n* {{color box|{{party color|Polish People's Party (2019)}}}} [[Polish People's Party|PSL]] (4)\n* {{color box|{{party color|Poland 2050}}}} [[Poland 2050|PL2050]] (1)\n* {{color box|#993333}} [[Centre for Poland|CdP]] (1){{efn|[[Kazimierz Michał Ujazdowski]]}}\n* {{color box|{{party color|Independent politician}}}} [[Independent politician|Independent]] (2){{efn|[[Michał Kamiński]], [[Józef Zając (mathematician)|Józef Zając]]}}}}\n* {{color box|#0b42a6}} [[New Poland – Centre|NP–C]] (6){{efn|\n* {{color box|{{party color|New Poland}}}} [[New Poland|NP]] (3"
  },
+ "pol Sejm": {
+  "seats": 460,
+  "parsed": [
+   [
+    "KO",
+    156,
+    null
+   ],
+   [
+    "KO",
+    142,
+    null
+   ],
+   [
+    "Greens",
+    2,
+    null
+   ],
+   [
+    "AU",
+    1,
+    null
+   ],
+   [
+    "Forward!",
+    1,
+    "#38B973"
+   ],
+   [
+    "Independent",
+    10,
+    null
+   ],
+   [
+    "KP",
+    32,
+    null
+   ],
+   [
+    "PSL",
+    28,
+    null
+   ],
+   [
+    "CdP",
+    3,
+    "#993333"
+   ],
+   [
+    "Independent",
+    1,
+    null
+   ],
+   [
+    "The Left",
+    21,
+    null
+   ],
+   [
+    "NL",
+    19,
+    null
+   ]
+  ],
+  "raw": "'''Government ([[Third Cabinet of Donald Tusk|Tusk III]]) (239)'''\n* {{color box|{{party color|Civic Coalition (party)}}}} [[Civic Coalition (Poland)|KO]] (156){{efn|\n* {{color box|{{party color|Civic Coalition (party)}}}} [[Civic Coalition (party)|KO]] (142)\n* {{color box|{{party color|The Greens (Poland, 2022)}}}} [[The Greens (Poland)|Greens]] (2)\n* {{color box|{{party color|AGROunia}}}} [[AGROunia|AU]] (1)\n* {{color box|#38B973}} [[Forward! (Poland)|Forward!]] (1)\n* {{color box|{{party color|Independent}}}} [[Independent politician|Independent]] (10){{efn|Endorsed by [[Civic Coalition (party)|KO]]: [[Franciszek Sterczewski]], [[Bogusław Wołoszański]], [[Apoloniusz Tajner]], [[Piotr Adamowicz]], [[Iwona Hartwich]], [[Rafał Siemaszko]], [[Sylwia Bielawska]], [[Alicja Chybicka]], [[Łukasz Ścieborowski]], [[Renata Rak]]}}}}\n* {{color box|{{party color|Polish People's Party}}}} [[Polish_Coalition|KP]] (32){{efn|\n* {{color box|{{party color|Polish People's Party (2019)}}}} [[Polish People's Party|PSL]] (28)\n* {{color box|#993333}} [[Centre for Poland|CdP]] (3)\n* {{color box|{{party color|Independent politician}}}} [[Independent politician|Independent]] (1){{efn|Endorsed by [[Polish People's Party|PSL]]: [[Marek Biernacki]]}}}}\n* {{color box|{{party color|The Left (Poland)}}}} [[The Left (Poland)|The Left]] (21){{efn|\n* {{color box|{{party color|New Left (Poland)}}}} [[New Left (Poland)|NL]] (19)\n* {{color box|#0B3056}} [[Common Tomorrow|WJ]] (2)}}\n* {{color box|#0b42a6}} [[Cent"
+ },
  "pri House of Representatives of Puerto Rico": {
   "seats": 53,
   "parsed": [
@@ -1745,6 +2664,32 @@
    ]
   ],
   "raw": "{{Color box|{{party color|Workers' Party of Korea}}}} '''[[Workers' Party of Korea|Workers' Party]] and allies (687)'''\n* {{Color box|{{party color|Workers' Party of Korea}}}} [[Workers' Party of Korea|WPK]] (671)\n* {{legend|#BEBEBE|Social organizations (10)}}\n* {{legend|#7F7F7F|Friendly parties and religious organizations{{NoteTag|Friendly parties of the WPK are the [[Korean Social Democratic Party]] and the [[Chondoist Chongu Party]]}} (6)}}"
+ },
+ "rus Federation Council (Russia)": {
+  "seats": 178,
+  "parsed": [
+   [
+    "LDPR",
+    3,
+    null
+   ],
+   [
+    "CPRF",
+    2,
+    null
+   ],
+   [
+    "A Just Russia",
+    1,
+    null
+   ],
+   [
+    "Independent",
+    34,
+    null
+   ]
+  ],
+  "raw": "<div>[[Non-partisan democracy|Non-partisan]] (''de facto'' affiliations):</div>\n* {{nowrap|{{Color box|{{party color|United Russia}}|border=silver}} [[United Russia]] (136)}}\n* {{Color box|{{party color|Liberal Democratic Party of Russia}}|border=silver}} [[Liberal Democratic Party of Russia|LDPR]] (3)\n* {{Color box|{{party color|Communist Party of the Russian Federation}}|border=silver}} [[Communist Party of the Russian Federation|CPRF]] (2)\n* {{Color box|{{party color|A Just Russia}}|border=silver}} [[A Just Russia]] ([[Olga Yepifanova|1]])\n* {{Color box|silver|border=silver}} [[Independent politician|Independent]] (34)\n* {{Color box|transparent|border=silver}} Vacant seats (2)"
  },
  "rwa Chamber of Deputies (Rwanda)": {
   "seats": 80,
@@ -1844,6 +2789,11 @@
   ],
   "raw": "'''Government (323)'''\n*{{Color box|#0A5A38|border=silver}} [[National Congress Party (Sudan)|National Congress Party]] (323) \n'''Opposition (103)'''\n*{{Color box|#00A6EF|border=silver}} [[Democratic Unionist Party (Sudan)|Democratic Unionist Party]] (25) \n*{{Color box|#006803|border=silver}} [[National Umma Party]] (3)\n*{{Color box|#DDDDBB|border=silver}} [[List of political parties in Sudan|Others]] (56)\n*{{Color box|#DCDCDC|border=silver}} [[Independent politician|Independents]] (19)"
  },
+ "spm Territorial Council of Saint Pierre and Miquelon": {
+  "seats": 19,
+  "parsed": [],
+  "raw": "{{Color box|#0066CC|border=silver}} [[Archipelago Tomorrow]]<br />{{small|([[The Republicans (France)|LR]])}} (15)<br />\n{{Color box|#FFFF00|border=silver}} {{ill|Focus on the Future|fr|Cap sur l'avenir}} <br />{{small|([[Radical Party of the Left|PRG]])}} (4)"
+ },
  "srb National Assembly (Serbia)": {
   "seats": 250,
   "parsed": [
@@ -1853,7 +2803,7 @@
     null
    ],
    [
-    "AV–SP",
+    "title = AV–SP",
     102,
     null
    ],
@@ -1957,6 +2907,11 @@
   ],
   "raw": "{{legend|#DDDDDD|[[Independent politician|Independents]] (59)}} \n{{legend|#FFFFFF|Nominated (10)}}\n{{legend|#000000|[[Attorney general]] (1)}}"
  },
+ "syr People's Assembly of Syria": {
+  "seats": 210,
+  "parsed": [],
+  "raw": "''De jure:''\n*{{legend|{{party color|Independent}}|[[Independent politician|Independent]] (205)}}\n*{{legend|{{party color|Vacant}}|Vacant (5){{Efn|Three of the electoral districts that these seats represent are currently mostly under control of the [[Administrative Council of Jabal Bashan]] amidst the [[Druze insurgency in Southern Syria|Druze insurgency in the region]]. Two seats are left vacant due to the death of Muhammad Mustafa Kaltoum and the resignation of Mudar Hamdan.}}<!--Per Reuters & Syrian Arab News Agency-->}}"
+ },
  "tcd National Assembly of Chad": {
   "seats": 188,
   "parsed": [
@@ -2058,13 +3013,23 @@
     null
    ],
    [
-    "Platform for Life and Peace",
-    21,
+    "UN",
+    1,
     null
    ],
    [
     "Dovira",
     19,
+    null
+   ],
+   [
+    "Bila Tserkva Together",
+    1,
+    null
+   ],
+   [
+    "Samopomich",
+    1,
     null
    ],
    [
@@ -2078,23 +3043,28 @@
     null
    ],
    [
-    "European Solidarity",
-    26,
+    "UKROP",
+    3,
+    null
+   ],
+   [
+    "Our Land",
+    2,
+    null
+   ],
+   [
+    "Agrarian Party of Ukraine",
+    1,
+    null
+   ],
+   [
+    "Andriy Baloha's Team",
+    1,
     null
    ],
    [
     "Batkivshchyna",
     24,
-    null
-   ],
-   [
-    "Holos",
-    20,
-    null
-   ],
-   [
-    "Independents",
-    19,
     null
    ]
   ],
@@ -2135,6 +3105,47 @@
    ]
   ],
   "raw": "'''Last [[2003 Yemeni parliamentary election|elected]]'''\n*{{Color box|{{party color|General People's Congress (Yemen)}}|border=darkgray}} [[General People's Congress (Yemen)|General People's Congress]] (170)\n*{{Color box|{{party color|Al-Islah (Yemen)}}|border=darkgray}} [[Al-Islah (Yemen)|Yemeni Congregation for Reform]] (44)\n*{{Color box|{{party color|Yemeni Socialist Party}}|border=darkgray}} [[Yemeni Socialist Party]] (8)\n*{{Color box|#000000|border=darkgray}} [[Nasserist Unionist People's Organisation]] (3)\n*{{Color box|{{party color|Arab Socialist Ba'ath Party – Yemen Region}}|border=darkgray}} [[Arab Socialist Ba'ath Party – Yemen Region|Ba'ath Party]] (1)\n*{{Color box|#808080|border=darkgray}} [[Independent politician|Independents]] (43)\n*{{Color box|#FFFFFF|border=darkgray}} Vacants (32)"
+ },
+ "zaf National Council of Provinces": {
+  "seats": 90,
+  "parsed": [
+   [
+    "ANC (24 +",
+    19,
+    "#33a02c"
+   ],
+   [
+    "DA (12 +",
+    9,
+    "#1f78b4"
+   ],
+   [
+    "EFF (8 +",
+    2,
+    "#e31a1c"
+   ],
+   [
+    "MK (5 +",
+    4,
+    "#4CBB17"
+   ],
+   [
+    "IFP (1 +",
+    1,
+    "#FF0000"
+   ],
+   [
+    "PA (1 +",
+    1,
+    "#556B2F"
+   ],
+   [
+    "ActionSA (0 +",
+    1,
+    "#ADEBAD"
+   ]
+  ],
+  "raw": "* {{Color box|#33a02c|border=darkgray}}{{Color box|#b2df8a|border=darkgray}} [[African National Congress|ANC]] (24 + 19)\n* {{Color box|#1f78b4|border=darkgray}}{{Color box|#a6cee3|border=darkgray}} [[Democratic Alliance (South Africa)|DA]] (12 + 9)\n* {{Color box|#e31a1c|border=darkgray}}{{Color box|#fb9a99|border=darkgray}} [[Economic Freedom Fighters|EFF]] (8 + 2)\n* {{Color box|#4CBB17|border=darkgray}}{{Color box|#B2F294|border=darkgray}} [[uMkhonto weSizwe (political party)|MK]] (5 + 4)\n* {{Color box|#EC8713|border=darkgray}} [[Freedom Front Plus|VF+]] (2 + 0)\n* {{Color box|#FF0000|border=darkgray}}{{Color box|#FF9999|border=darkgray}} [[Inkatha Freedom Party|IFP]] (1 + 1)\n* {{Color box|#556B2F|border=darkgray}}{{Color box|#BFD49C|border=darkgray}} [[Patriotic Alliance|PA]] (1 + 1)\n* {{Color box|#FFDE01|border=darkgray}} [[United Democratic Movement|UDM]] (1 + 0)\n*  {{Color box|#ADEBAD|border=darkgray}} [[ActionSA]] (0 + 1)"
  },
  "zwe Senate of Zimbabwe": {
   "seats": 90,
@@ -2309,11 +3320,6 @@
    "National Congress of Cocos (Keeling) Islands"
   ]
  },
- "cri (no legislature parsed)": {
-  "tried": [
-   "Legislative Assembly of Costa Rica"
-  ]
- },
  "cxr (no legislature parsed)": {
   "tried": [
    "National Assembly (Christmas Island)",
@@ -2321,11 +3327,6 @@
    "Parliament of Christmas Island",
    "Congress of Christmas Island",
    "National Congress of Christmas Island"
-  ]
- },
- "cyp (no legislature parsed)": {
-  "tried": [
-   "House of Representatives (Cyprus)"
   ]
  },
  "fxx (no legislature parsed)": {
@@ -2355,11 +3356,6 @@
    "National Congress of Heard Island and McDonald Islands"
   ]
  },
- "hnd (no legislature parsed)": {
-  "tried": [
-   "National Congress of Honduras"
-  ]
- },
  "iot (no legislature parsed)": {
   "tried": [
    "National Assembly (British Indian Ocean Territory)",
@@ -2369,13 +3365,10 @@
    "National Congress of British Indian Ocean Territory"
   ]
  },
- "isr (no legislature parsed)": {
-  "tried": [
-   "Knesset"
-  ]
- },
  "jam (no legislature parsed)": {
   "tried": [
+   "House of Representatives of Jamaica",
+   "Senate of Jamaica",
    "Parliament of Jamaica"
   ]
  },
@@ -2388,31 +3381,6 @@
    "National Congress of Johnston Atoll"
   ]
  },
- "lbn (no legislature parsed)": {
-  "tried": [
-   "Parliament of Lebanon"
-  ]
- },
- "lka (no legislature parsed)": {
-  "tried": [
-   "Parliament of Sri Lanka"
-  ]
- },
- "ltu (no legislature parsed)": {
-  "tried": [
-   "Seimas"
-  ]
- },
- "lux (no legislature parsed)": {
-  "tried": [
-   "Chamber of Deputies (Luxembourg)"
-  ]
- },
- "lva (no legislature parsed)": {
-  "tried": [
-   "Saeima"
-  ]
- },
  "maf (no legislature parsed)": {
   "tried": [
    "National Assembly (Saint-Martin)",
@@ -2420,11 +3388,6 @@
    "Parliament of Saint-Martin",
    "Congress of Saint-Martin",
    "National Congress of Saint-Martin"
-  ]
- },
- "mda (no legislature parsed)": {
-  "tried": [
-   "Parliament of Moldova"
   ]
  },
  "mid (no legislature parsed)": {
@@ -2436,11 +3399,6 @@
    "National Congress of Midway Atoll"
   ]
  },
- "mlt (no legislature parsed)": {
-  "tried": [
-   "Parliament of Malta"
-  ]
- },
  "myt (no legislature parsed)": {
   "tried": [
    "National Assembly (Mayotte)",
@@ -2448,11 +3406,6 @@
    "Parliament of Mayotte",
    "Congress of Mayotte",
    "National Congress of Mayotte"
-  ]
- },
- "nga (no legislature parsed)": {
-  "tried": [
-   "National Assembly (Nigeria)"
   ]
  },
  "reu (no legislature parsed)": {
@@ -2498,11 +3451,6 @@
    "Parliament of United States Minor Outlying Islands",
    "Congress of United States Minor Outlying Islands",
    "National Congress of United States Minor Outlying Islands"
-  ]
- },
- "zaf (no legislature parsed)": {
-  "tried": [
-   "Parliament of South Africa"
   ]
  }
 }
