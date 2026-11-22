@@ -88,5 +88,5 @@
     ['Where real power concentrates', 'Leader, family, Organization and Guidance Department', 'Politburo; since 2026 strongly the General Secretary-President', 'General Secretary Xi Jinping and the Politburo Standing Committee', 'Party leadership and the military’s business arm', 'Politburo', 'Split among President, Congress, courts, states; money and lobbying matter', 'President (strong), National Assembly, courts; big business groups matter'],
   ];
   P.compareNote = 'A table like this can make the democracies look simply better, and on the question of who can be voted out, they are. It cannot show everything: democracies also concentrate power (money in US politics, chaebol in South Korea, surveillance agencies), and one-party states can deliver rapid growth (China, Vietnam). The point is to ask every system the same questions.';
-  Lab.POWER = P;
+  Lab.RULES = P; // "Who really rules?" data. Lab.POWER is the newer #power ladders (js/power.js).
 })();

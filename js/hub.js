@@ -98,7 +98,7 @@ HUB.search = (q) => {
   (Lab.CONNECT || []).forEach((c) => { if ((c.t + ' ' + c.q + ' ' + c.story).toLowerCase().includes(q)) hits.push(['#connect-' + c.id, c.e + ' ' + c.t, 'Connections']); });
   (Lab.SIDES || []).forEach((s) => { if ((s[1] + ' ' + s[4]).toLowerCase().includes(q)) hits.push(['#history-modern-sides', '🗣️ ' + s[1], 'Many tellings']); });
   [[Lab.AFRICA, 'africa', 'Africa'], [Lab.AMERICAS, 'americas', 'Americas'], [Lab.KOREA, 'koreawar', 'Korean War']].forEach(([R, k, n]) => R && (R.timeline || []).forEach((s) => { if ((s[2] + ' ' + s[3]).toLowerCase().includes(q)) hits.push(['#history-modern-' + k, '📜 ' + s[2] + ' (' + s[1] + ')', n]); }));
-  if (Lab.POWER) Object.values(Lab.POWER.countries).forEach((c) => { if ((c.n + ' ' + c.sum + ' ' + c.layers.map((l) => l[2]).join(' ')).toLowerCase().includes(q)) hits.push(['#history-modern-power', '🏛️ Power structure: ' + c.n, 'Who really rules?']); });
+  if (Lab.RULES) Object.values(Lab.RULES.countries).forEach((c) => { if ((c.n + ' ' + c.sum + ' ' + c.layers.map((l) => l[2]).join(' ')).toLowerCase().includes(q)) hits.push(['#history-modern-power', '🏛️ Power structure: ' + c.n, 'Who really rules?']); });
   (Lab.SOURCES || []).forEach((s) => { if (s.n.toLowerCase().includes(q)) hits.push(['#whois', '🔍 ' + s.n, 'Source dossier']); });
   HUB.paths.forEach((p) => { if (p.t.toLowerCase().includes(q)) hits.push(['#home', p.e + ' Path: ' + p.t, 'Learning path']); });
   return hits;

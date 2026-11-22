@@ -56,7 +56,7 @@ M.render.americas = region(Lab.AMERICAS, 'americas', ['am:tikal', 'am:machu', 'a
 
 // ---------- Who really rules? ----------
 M.render.power = (el) => {
-  const P = Lab.POWER; const R = {};
+  const P = Lab.RULES; const R = {};
   R.howto = (p) => p.append(card(h('h2', { style: { marginTop: 0 } }, 'Who really rules? How to read any power structure'), h('p', { class: 'small' }, 'Constitutions describe how power is supposed to work. To see how it actually works, ask the same six questions of every country, including your own.'),
     h('div', { class: 'grid g3' }, P.howto.map(([t, d]) => h('div', { class: 'card', style: { boxShadow: 'none', background: 'var(--card2)' } }, h('b', null, t), h('div', { class: 'small muted' }, d)))),
     h('div', { class: 'row', style: { gap: '6px', marginTop: '10px' } }, h('a', { class: 'btn sm', href: '#d-politics', style: { textDecoration: 'none' } }, '🏛️ Politics, the discipline'), h('a', { class: 'btn sm', href: '#history-modern-uspower', style: { textDecoration: 'none' } }, '🇺🇸 Same questions for the US'), h('a', { class: 'btn sm', href: '#connect-lights', style: { textDecoration: 'none' } }, '🛰️ Checking a dictator’s numbers'))));
