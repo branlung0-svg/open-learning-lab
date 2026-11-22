@@ -130,6 +130,8 @@
           add('🧭 Ideologies and movements that involve ' + c.n, dv.sort((a, b) => b[0] - a[0]).map((x) => x[1]));
           const op = []; (Lab.OPPRESSION || []).forEach(([id, e, name, , list]) => (list || []).forEach((x) => { if (re.test([x[0], x[2], x[3], x[4]].join(' '))) op.push(['#oppression-' + id, e + ' ' + x[0], x[1] + ' · ' + name]); }));
           add('⛓️ Oppression and suffering', op, 'Who held power, who suffered, how, and the evidence.');
+          const li = (Lab.LIES || []).filter((x) => re.test([x[3], x[5], x[6], x[7]].join(' '))).map((x) => ['#lies', '🕵️ ' + x[5], x[4] + ' · ' + x[3]]);
+          add('🕵️ Lies and propaganda involving ' + c.n, li, 'Documented cases, by whoever told the lie.');
           const ev = ((Lab.MODERN && Lab.MODERN.events) || []).filter((x) => re.test((x.place || '') + ' ' + x.t + ' ' + (x.what || ''))).sort((a, b) => a.y - b.y).map((x) => ['#history-modern-timeline-ev-' + x.id, (x.y2 && x.y2 !== x.y ? x.y + '–' + x.y2 : x.y) + ' · ' + x.t, (x.what || '').slice(0, 120)]);
           add('🗓️ Events in the Modern-world timeline', ev);
           const here = [['#country-' + c.id + '-places', 'Pictures of ' + c.n, 'Heritage, cities, land, daily life, history: place-checked'], ['#country-' + c.id + '-data', 'Life in numbers since 1800', 'Income, life expectancy, child deaths, democracy, population, poverty, emissions'], ['#country-' + c.id + '-history', 'History on this page', 'Timeline and the whole story'], ['#country-' + c.id + '-sources', 'Sources and perspectives', 'Official, independent and foreign sources'],
