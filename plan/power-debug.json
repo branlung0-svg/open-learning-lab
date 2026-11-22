@@ -412,61 +412,61 @@
   "raw": ": {{nowrap|{{Color box|#CF1020}} [[Union for Democracy and Social Progress (Democratic Republic of the Congo)|UDSP]]/TSHISEKEDI{{efn|Union for Democracy and Social Progress/TSHISEKEDI}} (70)}} \n: {{nowrap|{{Color box|#A03020}} AFDC-A{{efn|Alliance of Democratic Forces of Congo}} (35)}} \n: {{nowrap|{{Color box|#EF1E26}} A/A-[[Union for the Congolese Nation|UCN]]{{efn|Allied Actions–Union for the Congolese Nation}} (34)}} \n: {{nowrap|{{Color box|#F4B515}} Act and Build (26)}} \n: {{nowrap|{{Color box|#EFE00B}} AAAP{{efn|Alliance of actors attached to the people}} (22)}} \n: {{nowrap|{{Color box|#162578}} 2A/TDC{{efn|Allied Actions–All for the Development of Congo}} (21)}} \n: {{nowrap|{{Color box|#3536A0}} Alliance bloc 50 (20)}} \n: {{nowrap|{{Color box|#0000FF}} [[Movement for the Liberation of the Congo|MLC]]{{efn|Movement for the Liberation of the Congo}} (19)}} \n: {{nowrap|{{Color box|#037EFD}} [[Together for the Republic|ENSEMBLE]]{{efn|Together for the Republic}} (18)}} \n: {{nowrap|{{Color box|#49DF00}} 4AC{{efn|Alternative Action of Actors for the Love of Congo}} (17)}} \n: {{nowrap|{{Color box|#4785FD}} AACPG{{efn|Alliance for the Advent of a Prosperous and Greater Congo}} (16)}} \n: {{nowrap|{{Color box|#0399F9}} Alliance 2024 (15)}} \n: {{nowrap|{{Color box|#085CF0}} ANB{{efn|It's up to us to build the Congo}} (13)}}\n: {{nowrap|{{Color box|#B70400}} AA/C{{efn|Congo Allied Action for the Convention}} (10)}}\n: {{nowrap|{{Color box|#4508C8}} Coalition of Democrats (10)}} \n: {{"
  },
  "cri Legislative Assembly of Costa Rica": {
-  "seats": null,
+  "seats": 57,
   "parsed": [
    [
-    "&#160; PLN",
+    "PLN",
     17,
     "#008024"
    ],
    [
-    "&#160; FA",
+    "FA",
     7,
     "#F8E000"
    ],
    [
-    "&#160; PUSC",
+    "PUSC",
     1,
     "#0454A3"
    ],
    [
-    "&#160; CAC",
+    "CAC",
     1,
     "#DC143C"
    ]
   ],
-  "raw": "<b>Government (31)</b>\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#01A4B5; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Sovereign_People%27s_Party_(Costa_Rica)\" title=\"Sovereign People&#39;s Party (Costa Rica)\">PPSO</a> (31)\n</ul>\n<p><b>Opposition (26)</b>\n</p>\n<ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#008024; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/National_Liberation_Party_(Costa_Rica)\" title=\"National Liberation Party (Costa Rica)\">PLN</a> (17)\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#F8E000; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Broad_Front_(Costa_Rica)\" title=\"Broad Front (Costa Rica)\">FA</a> (7)\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-co"
+  "raw": "<b>Government (31)</b>\n\n* <style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#01A4B5; color:black;border:1px solid silver;\"> </span> <a href=\"/wiki/Sovereign_People%27s_Party_(Costa_Rica)\" title=\"Sovereign People's Party (Costa Rica)\">PPSO</a> (31)\n\n<p><b>Opposition (26)</b>\n</p>\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#008024; color:white;border:1px solid silver;\"> </span> <a href=\"/wiki/National_Liberation_Party_(Costa_Rica)\" title=\"National Liberation Party (Costa Rica)\">PLN</a> (17)\n\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#F8E000; color:black;border:1px solid silver;\"> </span> <a href=\"/wiki/Broad_Front_(Costa_Rica)\" title=\"Broad Front (Costa Rica)\">FA</a> (7)\n\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-colo"
  },
  "cyp House of Representatives (Cyprus)": {
-  "seats": null,
+  "seats": 56,
   "parsed": [
    [
-    "&#160; DISY",
+    "DISY",
     17,
     "#1569C7"
    ],
    [
-    "&#160; AKEL",
+    "AKEL",
     15,
     "#B31B1B"
    ],
    [
-    "&#160; ELAM",
+    "ELAM",
     8,
     "#000000"
    ],
    [
-    "&#160; ALMA",
+    "ALMA",
     4,
     "#99AC27"
    ],
    [
-    "&#160; ADK",
+    "ADK",
     4,
     "#114576"
    ]
   ],
-  "raw": "<b><a href=\"/wiki/Christodoulides_government\" title=\"Christodoulides government\">Government</a> (8)</b>\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#FF7E00; color:black;border:1px solid darkgray;\">&#160;</span> <a href=\"/wiki/Democratic_Party_(Cyprus)\" title=\"Democratic Party (Cyprus)\">DIKO</a> (8)\n</ul>\n<p><b><a href=\"/wiki/Opposition_(politics)\" title=\"Opposition (politics)\">Opposition</a> (48)</b>\n</p>\n<ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#1569C7; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Democratic_Rally\" title=\"Democratic Rally\">DISY</a> (17)\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#B31B1B; color:white;border:1px solid darkgray;\">&#160;</span> <a href=\"/wiki/Progressive_Party_of_Working_People\" title=\"Progressive Party of Working People\">AKEL</a> (15)\n\n<l"
+  "raw": "<b><a href=\"/wiki/Christodoulides_government\" title=\"Christodoulides government\">Government</a> (8)</b>\n\n* <style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#FF7E00; color:black;border:1px solid darkgray;\"> </span> <a href=\"/wiki/Democratic_Party_(Cyprus)\" title=\"Democratic Party (Cyprus)\">DIKO</a> (8)\n\n<p><b><a href=\"/wiki/Opposition_(politics)\" title=\"Opposition (politics)\">Opposition</a> (48)</b>\n</p>\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#1569C7; color:white;border:1px solid silver;\"> </span> <a href=\"/wiki/Democratic_Rally\" title=\"Democratic Rally\">DISY</a> (17)\n\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#B31B1B; color:white;border:1px solid darkgray;\"> </span> <a href=\"/wiki/Progressive_Party_of_Working_People\" title=\"Progressive Party of Working People\">AKEL</a> (15)\n\n\n* <link rel=\"mw-deduplicated-inl"
  },
  "cze Senate of the Czech Republic": {
   "seats": 81,
@@ -975,30 +975,30 @@
   "raw": "'''Government ([[Second cabinet of Kyriakos Mitsotakis|Mitsotakis cabinet]]) (156)'''\n*{{Color box|{{party color|New Democracy (Greece)}}}} [[New Democracy (Greece)|New Democracy]] (156)\n'''Official Opposition (37)'''\n*{{Color box|{{party color|Panhellenic Socialist Movement (2016)}}}} [[PASOK – Movement for Change|PASOK-KINAL]] (37)\n'''Other Opposition (104)'''\n*{{Color box|{{party color|Independent}}|border=black}} [[Independent politician|Independents]] (46){{efn|\n*{{Color box|{{party color|Independent}}|border=black}} [[Independent politician|Independents]] (33)\n*{{Color box|{{party color|New Left (Greece)}}}} [[New Left (Greece)|New Left]] (5)\n*{{Color box|#1c2971}} {{interlanguage link|Alliance of Greeks|el|Συμμαχία Ελλήνων}} (3)\n*{{Color box|{{party color|National Rally – Patriotic Radical Momentum for Victory}}}} [[National Rally – Patriotic Radical Momentum of Victory|National Rally – PARON]] (2)\n*{{Color box|{{party color|Democrats – Progressive Centre}}}} [[Democrats – Progressive Centre]] (1)\n*{{Color box|#86C0E8}} [[Greek Solution]] (1)\n*{{Color box|#774c77}} {{interlanguage link|Hellenic Pulse|el|Ελληνικός Παλμός}} (1)}}\n*{{Color box|{{party color|Communist Party of Greece}}}} [[Communist Party of Greece|KKE]] (21)\n*{{Color box|{{party color|Coalition of the Radical Left}}}} [[Syriza]] (13)\n*{{Color box|#86C0E8}} [[Greek Solution]] (11)\n*{{Color box|{{party color|Niki (Greek political party)}}}} [[Niki (Greek political party)|Niki]] (8)\n*{{Color box|{{party colo"
  },
  "hnd National Congress of Honduras": {
-  "seats": null,
+  "seats": 128,
   "parsed": [
    [
-    "&#160; Liberal",
+    "Liberal",
     41,
     "#CE2029"
    ],
    [
-    "&#160; Libre",
+    "Libre",
     35,
     "#8B0000"
    ],
    [
-    "&#160; PINU",
+    "PINU",
     2,
     "#EE9E09"
    ],
    [
-    "&#160; Christian Democratic",
+    "Christian Democratic",
     1,
     "#11992B"
    ]
   ],
-  "raw": "<b>Government (49)</b>\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#007DBC; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/National_Party_of_Honduras\" title=\"National Party of Honduras\">National</a> (49)\n</ul>\n<p><b>Opposition (79)</b>\n</p>\n<ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#CE2029; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Liberal_Party_of_Honduras\" title=\"Liberal Party of Honduras\">Liberal</a> (41)\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#8B0000; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Liberty_and_Refoundation\" title=\"Liberty and Refoundation\">Libre</a> (35)\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adju"
+  "raw": "<b>Government (49)</b>\n\n* <style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#007DBC; color:black;border:1px solid silver;\"> </span> <a href=\"/wiki/National_Party_of_Honduras\" title=\"National Party of Honduras\">National</a> (49)\n\n<p><b>Opposition (79)</b>\n</p>\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#CE2029; color:white;border:1px solid silver;\"> </span> <a href=\"/wiki/Liberal_Party_of_Honduras\" title=\"Liberal Party of Honduras\">Liberal</a> (41)\n\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#8B0000; color:white;border:1px solid silver;\"> </span> <a href=\"/wiki/Liberty_and_Refoundation\" title=\"Liberty and Refoundation\">Libre</a> (35)\n\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#EE9E0"
  },
  "hrv Croatian Parliament": {
   "seats": 151,
@@ -1284,70 +1284,60 @@
   "raw": "'''State Administration Assembly (243)'''\nCabinet (205)\n*{{Color box|{{party color|Reconstruction and Development Coalition}}|border=darkgray}} [[Reconstruction and Development Coalition|RDC]] (46)\n*{{Color box|#538727|border=darkgray}} [[State of Law Coalition|State of Law]] (29)\n*{{Color box|#b5ca7f|border=darkgray}} [[Al Sadiqoun Bloc|Al Sadiqoun]] (27)\n*{{Color box|{{party color|Progress Party (Iraq)}}|border=darkgray}} [[Progress Party (Iraq)|Takadum]] (27)\n*{{Color box|{{party color|Kurdistan Democratic Party}}|border=darkgray}} [[Kurdistan Democratic Party|KDP]] (26)\n*{{Color box|#000000|border=darkgray}} [[Badr Organisation]] (18)\n*{{Color box|#00A550|border=darkgray}} [[Patriotic Union of Kurdistan|PUK]] (15)\n*{{Color box|#3CA852|border=darkgray}} [[Azem Alliance]] (15)\n*{{Color box|{{party colour|Babylon Movement}}|border=darkgray}} [[Babylon Movement]] (2)\nNon-Cabinet (35)\n*{{Color box|{{party color|Alliance of Nation State Forces}}|border=darkgray}} [[Alliance of Nation State Forces]] (18)\n*{{Color box|#00777d|border=darkgray}} {{Interlanguage link|Al-Asas (Iraq)|lt=Al-Asas|ar|ائتلاف الأساس العراقي}} (8)\n*{{Color box|#f7c76c|border=darkgray}} [[Tasmim Alliance]] (6)\n*{{Color box||border=darkgray}} [[Kataib Hezbollah|Huqouq Movement]] (6)\n'''Opposition (75)''' \n*{{Color box||border=darkgray}} Al-Siyadah (8)\n*{{Color box|#4ec6c7|border=darkgray}} [[Ishraqat Kanoon]] (8)\n*[[2025 Iraqi parliamentary election#Results|Others]] (59)"
  },
  "isr Knesset": {
-  "seats": null,
+  "seats": 120,
   "parsed": [
    [
-    "&#160; Yashar",
+    "Yashar",
     21,
     "#62B9F2"
    ],
    [
-    "&#160; Yesodot Yisrael",
-    3,
-    "#0896d2"
-   ],
-   [
-    "&#160; Together",
+    "Together",
     12,
     "#2A2A78"
    ],
    [
-    "&#160; Bennett 2026",
-    7,
-    "#44C5BF"
-   ],
-   [
-    "&#160; Yesh Atid",
-    5,
-    "#2038F0"
-   ],
-   [
-    "&#160; Joint List",
+    "Joint List",
     11,
     "#01B2AC"
    ],
    [
-    "&#160; Hadash",
-    5,
-    "#D61922"
-   ],
-   [
-    "&#160; Ta'al",
-    3,
-    "#F9D104"
-   ],
-   [
-    "&#160; Balad",
-    3,
-    "#F6600C"
-   ],
-   [
-    "&#160; Democrats",
+    "Democrats",
     8,
     "#2A38D7"
    ],
    [
-    "&#160; Ra'am",
+    "Ra'am",
     8,
     "#15793D"
    ],
    [
-    "&#160; Independent",
-    1,
-    "#DCDCDC"
+    "United Torah Judaism",
+    7,
+    "#003366"
+   ],
+   [
+    "Otzma Yehudit",
+    7,
+    "#F0491C"
+   ],
+   [
+    "Yisrael Beiteinu",
+    7,
+    "#23C2EB"
+   ],
+   [
+    "Shas",
+    6,
+    "#000000"
+   ],
+   [
+    "Religious Zionism – Zehut",
+    6,
+    "#4F9298"
    ]
   ],
-  "raw": "\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#1f5aa5; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Likud\" title=\"Likud\">Likud</a> (27)\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#62B9F2; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Yashar_(political_party)\" title=\"Yashar (political party)\">Yashar</a> (21)\n<ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#0896d2; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Hili_Tropper#Zionist_Home_–_The_Reservists\" title=\"Hili Tropper\">Yesodot Yisrael</a> (3)\n</ul>\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#2A2A78; color:white;border:1px solid silver;\">&#160;</span>"
+  "raw": "\n\n* <style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#1f5aa5; color:white;border:1px solid silver;\"> </span> <a href=\"/wiki/Likud\" title=\"Likud\">Likud</a> (27)\n\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#62B9F2; color:black;border:1px solid silver;\"> </span> <a href=\"/wiki/Yashar_(political_party)\" title=\"Yashar (political party)\">Yashar</a> (21)\n\n** <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#0896d2; color:black;border:1px solid silver;\"> </span> <a href=\"/wiki/Hili_Tropper#Zionist_Home_–_The_Reservists\" title=\"Hili Tropper\">Yesodot Yisrael</a> (3)\n\n\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#2A2A78; color:white;border:1px solid silver;\"> </span> <a href=\"/wiki/Together_(Israel)\" t"
  },
  "ita Senate of the Republic (Italy)": {
   "seats": 205,
@@ -1574,72 +1564,6 @@
   ],
   "raw": "* '''[[Cabinet of Lee Jae Myung|Government]] (161)'''\n** {{Color box|{{party color|Democratic Party of Korea}}}} [[Democratic Party (South Korea, 2015)|Democratic]] (161)\n* '''Opposition (130)'''\n** {{Color box|{{party color|People Power Party (South Korea)}}}} [[People Power Party|People Power]] (109)\n** {{Color box|{{party color|Rebuilding Korea Party}}}} [[Rebuilding Korea Party|Rebuilding Korea]] (12)\n** {{Color box|{{party color|Progressive Party (South Korea, 2017)}}}} [[Progressive Party (South Korea, 2017)|Progressive]] (4)\n** {{Color box|{{party color|Reform Party (South Korea)}}}} [[Reform Party (South Korea)|Reform]] (3)\n** {{Color box|{{party color|Basic Income Party}}}} [[Basic Income Party|Basic Income]] (1)\n** {{Color box|{{party color|Social Democratic Party (South Korea)}}}} [[Social Democratic Party (South Korea)|Social Democratic]] (1)\n* '''Unclassified (9)'''\n** {{color box|{{party color|Independent}}|border=black}} [[Independent politician|Independent]] (8){{efn|National Assembly Speaker [[Cho Jeong-sik]] and independent [[Kim Jong-min (politician)|Kim Jong-min]], Choi Hyuk-jin, Lee Chun-seok, Kang Sun-woo, [[Kim Byung-kee]], [[Jang Kyung-tae]], [[Han Dong-hoon]]}}\n** {{Color box|{{party color|Vacant}}}} Vacant (1)"
  },
- "lbn Parliament of Lebanon": {
-  "seats": null,
-  "parsed": [
-   [
-    "&#160; Government",
-    64,
-    "#00FF00"
-   ],
-   [
-    "&#160; Strong Republic",
-    19,
-    "#F0001C"
-   ],
-   [
-    "&#160; Loyalty to the Resistance",
-    15,
-    "#F7DF19"
-   ],
-   [
-    "&#160; Development and Liberation",
-    15,
-    "#008000"
-   ],
-   [
-    "&#160; Democratic Gathering",
-    8,
-    "#860111"
-   ],
-   [
-    "&#160; Kataeb",
-    5,
-    "#009A00"
-   ],
-   [
-    "&#160; Armenian Revolutionary Federation",
-    2,
-    "#AA0000"
-   ],
-   [
-    "&#160; Supported by",
-    46,
-    "#FFFF00"
-   ],
-   [
-    "&#160; Forces of Change",
-    8,
-    null
-   ],
-   [
-    "&#160; National Moderation",
-    6,
-    "#3682D8"
-   ],
-   [
-    "&#160; National Compatibility",
-    5,
-    "#000000"
-   ],
-   [
-    "&#160; Independent Consultative Gathering",
-    4,
-    "#BFBFBF"
-   ]
-  ],
-  "raw": "<link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#00FF00; color:black;border:1px solid silver;\">&#160;</span> <b><a href=\"/wiki/Cabinet_of_Nawaf_Salam\" title=\"Cabinet of Nawaf Salam\">Government</a> (64)</b>\n<ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#F0001C; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Strong_Republic_(Lebanon)\" title=\"Strong Republic (Lebanon)\">Strong Republic</a> (19)<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>b<span class=\"cite-bracket\">&#93;</span></a></sup>\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#F7DF19; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Loyalty_to_the_Resistance_Bloc\" title=\"Loyalty to the Resistance Bloc\">Loyalty to the Resistance</a> (15)<sup id=\"cite&#95;ref-3\" class=\"reference\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">&#91;</span>c<span class=\"cite-bracket\">&#93;</span></a></sup>\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adju"
- },
  "lbr Senate of Liberia": {
   "seats": 30,
   "parsed": [
@@ -1692,97 +1616,31 @@
   ],
   "raw": "'''After 2014 election:'''\n*{{Color box|#DCDCDC|border=darkgray}} [[Independent politician|Independent]] (188)\n*{{Color box|#FFFFFF|border=darkgray}} Vacant (12)"
  },
- "lka Parliament of Sri Lanka": {
-  "seats": null,
-  "parsed": [
-   [
-    "&#160; &#160; NPP",
-    159,
-    "#C4094A"
-   ],
-   [
-    "&#160; &#160; SJB",
-    40,
-    "#0B9444"
-   ],
-   [
-    "&#160; &#160; ITAK",
-    8,
-    "#F5EF1D"
-   ],
-   [
-    "&#160; &#160; NDF",
-    5,
-    "#2C5A45"
-   ],
-   [
-    "&#160; &#160; SLPP",
-    3,
-    "#87171A"
-   ],
-   [
-    "&#160; &#160; SLMC",
-    3,
-    "#007B48"
-   ],
-   [
-    "&#160; &#160; SB",
-    1,
-    "#072E6E"
-   ],
-   [
-    "&#160; &#160; UNP",
-    1,
-    "#07AF14"
-   ],
-   [
-    "&#160; &#160; DTNA",
-    1,
-    "#FFFF00"
-   ],
-   [
-    "&#160; &#160; TNPF",
-    1,
-    "#FFFF00"
-   ],
-   [
-    "&#160; &#160; ACMC",
-    1,
-    "#9acd32"
-   ],
-   [
-    "&#160; &#160; SLLP",
-    1,
-    "#0C9DD4"
-   ]
-  ],
-  "raw": "<b><a href=\"/wiki/Government_of_Sri_Lanka\" title=\"Government of Sri Lanka\">Government</a> (159)</b>\n<ul><li><span class=\"legend nowrap\" style=\"page-break-inside:avoid;break-inside:avoid-column\"><span class=\"legend-color\" style=\"display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;border:1px solid silver;color:inherit;background-color:#C4094A\">&#160;</span>&#160;<a href=\"/wiki/National_People%27s_Power\" title=\"National People&#39;s Power\">NPP</a></span> (159)\n</ul>\n<p><b><a href=\"/wiki/Parliamentary_opposition\" title=\"Parliamentary opposition\">Opposition</a> (66)</b>\n</p>\n<ul><li><span class=\"legend nowrap\" style=\"page-break-inside:avoid;break-inside:avoid-column\"><span class=\"legend-color\" style=\"display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;border:1px solid silver;color:inherit;background-color:#0B9444\">&#160;</span>&#160;<a href=\"/wiki/Samagi_Jana_Balawegaya\" title=\"Samagi Jana Balawegaya\">SJB</a></span> (40)\n\n<li><span class=\"legend nowrap\" style=\"page-break-inside:avoid;break-inside:avoid-column\"><span class=\"legend-color\" style=\"display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;border:1px solid silver;color:inherit;background-color:#F5EF1D\">&#160;</span>&#160;<a href=\"/wiki/Ilankai_Tamil_Arasu_Kachchi\" title=\"Ilankai Tamil Arasu Kachchi\">ITAK</a></span> (8)\n\n<li><span class=\"legend nowrap\" style=\"page-break-inside:avoid;break-inside:avoid-column\"><span class=\"legend-color\" st"
- },
  "ltu Seimas": {
-  "seats": null,
+  "seats": 141,
   "parsed": [
    [
-    "&#160; DSVL",
+    "DSVL",
     13,
     "#002060"
    ],
    [
-    "&#160; LVŽKŠS",
+    "LVŽKŠS",
     9,
     "#95D05F"
    ],
    [
-    "&#160; TS–LKD",
+    "TS–LKD",
     28,
     "#00A59B"
    ],
    [
-    "&#160; NA",
+    "NA",
     17,
     "#F25D23"
    ],
    [
-    "&#160; LS",
+    "LS",
     11,
     "#FF9300"
    ],
@@ -1792,89 +1650,89 @@
     null
    ],
    [
-    "&#160; NS",
+    "NS",
     1,
     "#bb2212"
    ],
    [
-    "&#160; TTS",
+    "TTS",
     1,
     "#013861"
    ],
    [
-    "&#160; Independent and political committees",
+    "Independent and political committees",
     7,
     "#DCDCDC"
    ]
   ],
-  "raw": "<b>Government (<a href=\"/wiki/Sinkevi%C4%8Dius_Cabinet\" title=\"Sinkevičius Cabinet\">Sinkevičius Cabinet</a>) (75)</b>\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#E10514; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Social_Democratic_Party_of_Lithuania\" title=\"Social Democratic Party of Lithuania\">LSDP</a> (53)<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup>\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#002060; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Democrats_Union_%22For_Lithuania%22\" class=\"mw-redirect\" title=\"Democrats Union &quot;For Lithuania&quot;\">DSVL</a> (13)\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#95D05F; color:black;border:1px so"
+  "raw": "<b>Government (<a href=\"/wiki/Sinkevi%C4%8Dius_Cabinet\" title=\"Sinkevičius Cabinet\">Sinkevičius Cabinet</a>) (75)</b>\n\n* <style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#E10514; color:white;border:1px solid silver;\"> </span> <a href=\"/wiki/Social_Democratic_Party_of_Lithuania\" title=\"Social Democratic Party of Lithuania\">LSDP</a> (53)<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>a<span class=\"cite-bracket\">]</span></a></sup>\n\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#002060; color:white;border:1px solid silver;\"> </span> <a href=\"/wiki/Democrats_Union_%22For_Lithuania%22\" class=\"mw-redirect\" title=\"Democrats Union \"For Lithuania\"\">DSVL</a> (13)\n\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#95D05F; color:black;border:1px solid silver;\"> </span> <a href=\"/wiki/Li"
  },
  "lux Chamber of Deputies (Luxembourg)": {
-  "seats": null,
+  "seats": 60,
   "parsed": [
    [
-    "&#160; DP",
+    "DP",
     14,
     "#002C4F"
    ],
    [
-    "&#160; LSAP",
+    "LSAP",
     12,
     "#F10035"
    ],
    [
-    "&#160; ADR",
+    "ADR",
     5,
     "#00AAE5"
    ],
    [
-    "&#160; Greens",
+    "Greens",
     4,
     "#8EB74A"
    ],
    [
-    "&#160; Pirates",
+    "Pirates",
     2,
     "#993399"
    ],
    [
-    "&#160; The Left",
+    "The Left",
     2,
     "#8F0109"
    ]
   ],
-  "raw": "<b>Government (<a href=\"/wiki/Frieden-Bettel_Government\" title=\"Frieden-Bettel Government\">Frieden-Bettel Cabinet</a>) (35)</b>\n<dl><dd><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#FFC300; color:black;border:1px solid black;\">&#160;</span> <a href=\"/wiki/Christian_Social_People%27s_Party\" title=\"Christian Social People&#39;s Party\">CSV</a> (21)</dd>\n<dd><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#002C4F; color:white;border:1px solid black;\">&#160;</span> <a href=\"/wiki/Democratic_Party_(Luxembourg)\" title=\"Democratic Party (Luxembourg)\">DP</a> (14)</dd></dl>\n<p><b>Opposition (25)</b>\n</p>\n<dl><dd><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#F10035; color:black;border:1px solid black;\">&#160;</span> <a href=\"/wiki/Luxembourg_Socialist_Workers%27_Party\" title=\"Luxembourg Socialist Workers&#39; Party\">LSAP</a> (12)</d"
+  "raw": "<b>Government (<a href=\"/wiki/Frieden-Bettel_Government\" title=\"Frieden-Bettel Government\">Frieden-Bettel Cabinet</a>) (35)</b>\n\n* <style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#FFC300; color:black;border:1px solid black;\"> </span> <a href=\"/wiki/Christian_Social_People%27s_Party\" title=\"Christian Social People's Party\">CSV</a> (21)\n\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#002C4F; color:white;border:1px solid black;\"> </span> <a href=\"/wiki/Democratic_Party_(Luxembourg)\" title=\"Democratic Party (Luxembourg)\">DP</a> (14)\n\n<p><b>Opposition (25)</b>\n</p>\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#F10035; color:black;border:1px solid black;\"> </span> <a href=\"/wiki/Luxembourg_Socialist_Workers%27_Party\" title=\"Luxembourg Socialist Workers' Party\">LSAP</a> (12)\n\n\n* <link rel=\"mw-deduplicated-inline-style\" href"
  },
  "lva Saeima": {
-  "seats": null,
+  "seats": 100,
   "parsed": [
    [
-    "&#160; NA",
+    "NA",
     10,
     "#932330"
    ],
    [
-    "&#160; LPV",
+    "LPV",
     17,
     "#A8343C"
    ],
    [
-    "&#160; SV / AJ",
+    "SV / AJ",
     15,
     "#6767AB"
    ],
    [
-    "&#160; PRO",
+    "PRO",
     10,
     "#E64632"
    ],
    [
-    "&#160; JV",
+    "JV",
     7,
     "#6AB647"
    ]
   ],
-  "raw": "\n<dl><dt>Government (<a href=\"/wiki/Second_Kulbergs_cabinet\" title=\"Second Kulbergs cabinet\">Second Kulbergs cabinet</a>) (51)</dt></dl>\n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#FFAC01; color:black;border:1px solid black;\">&#160;</span> <a href=\"/wiki/United_List\" title=\"United List\">AS</a> (41)<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup>\n\n<li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#932330; color:white;border:1px solid black;\">&#160;</span> <a href=\"/wiki/National_Alliance_(Latvia)\" title=\"National Alliance (Latvia)\">NA</a> (10)\n</ul>\n<dl><dt>Opposition (49)</dt></dl>\n<ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#A8343C; color:white;border:1px solid black;\">&#160;</span> <a href=\"/wi"
+  "raw": "\n<dt>Government (<a href=\"/wiki/Second_Kulbergs_cabinet\" title=\"Second Kulbergs cabinet\">Second Kulbergs cabinet</a>) (51)</dt>\n\n* <style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#FFAC01; color:black;border:1px solid black;\"> </span> <a href=\"/wiki/United_List\" title=\"United List\">AS</a> (41)<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>a<span class=\"cite-bracket\">]</span></a></sup>\n\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#932330; color:white;border:1px solid black;\"> </span> <a href=\"/wiki/National_Alliance_(Latvia)\" title=\"National Alliance (Latvia)\">NA</a> (10)\n\n<dt>Opposition (49)</dt>\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#A8343C; color:white;border:1px solid black;\"> </span> <a href=\"/wiki/Latvia_First\" title=\"Latvia First\">LPV</a> (17)<sup id=\"ci"
  },
  "mac Legislative Assembly of Macau": {
   "seats": 33,
@@ -1903,51 +1761,51 @@
   "raw": "{{glossary}}\n {{term|[[Pro-Beijing camp (Macau)|Pro-Beijing]] (30)}}\n {{defn|{{unbulleted list\n  | {{Color box|{{party color|Macau United Citizens Association}}|border=darkgray}} [[Macau United Citizens Association|ACUM]] (3)\n  | {{Color box|{{party color|Progress Promotion Union}}|border=darkgray}} [[General Union of Neighbourhood Associations of Macau|UNIPRO]] (2)\n  | {{Color box|{{party color|Union for Development}}|border=darkgray}} [[Macau Federation of Trade Unions|UPD]] (2)\n  | {{Color box|{{party color|Macau-Guangdong Union}}|border=darkgray}} [[Macau-Guangdong Union|UGM]] (2)  \n  | {{Color box|{{party color|Women's General Association of Macau}}|border=darkgray}} [[Women's General Association of Macau|AGMM]] (2)\n  | {{nowrap|{{Color box|{{party color|Independent (politician)}}|border=darkgray}} [[Indirectly elected member|Indirectly elected]] (12)}}\n  | {{Color box|{{party color|Independent (politician)}}|border=darkgray}} [[Appointed members of the Legislative Assembly of Macau|Appointed]] (7)}}\n}}\n{{glossary end}}\n{{glossary}}\n {{term|[[Pro-democracy camp (Macau)|Pro-democracy]] (3)}}\n {{defn|{{unbulleted list\n  | {{Color box|{{party color|New Hope (Macau)}}|border=darkgray}} [[New Hope (Macau)|NE]] (3)}}}}\n{{glossary end}}"
  },
  "mda Parliament of Moldova": {
-  "seats": null,
+  "seats": 101,
   "parsed": [
    [
-    "&#160; PSRM",
+    "PSRM",
     17,
     "#9C162E"
    ],
    [
-    "&#160; PCRM",
+    "PCRM",
     8,
     "#C00302"
    ],
    [
-    "&#160; Alternative",
+    "Alternative",
     7,
     "#026D59"
    ],
    [
-    "&#160; PN",
+    "PN",
     6,
     "#2680FA"
    ],
    [
-    "&#160; PPDA",
+    "PPDA",
     6,
     "#24247A"
    ],
    [
-    "&#160; Unaffiliated",
+    "Unaffiliated",
     2,
     "#DCDCDC"
    ]
   ],
-  "raw": "<div style=\"clear:both;\" class=\"\"></div>\n<p><b>Government (<a href=\"/wiki/Tofan_Cabinet\" title=\"Tofan Cabinet\">Tofan Cabinet</a>) (55)</b>\n</p>\n<dl><dd><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#FFDD00; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Party_of_Action_and_Solidarity\" title=\"Party of Action and Solidarity\">PAS</a> (55)<sup id=\"cite&#95;ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup></dd></dl>\n<p><b>Opposition (46)</b> \n</p>\n<dl><dd><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#9C162E; color:white;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Party_of_Socialists_of_the_Republic_of_Moldova\" title=\"Party of Socialists of the Republic of Moldova\">PSRM</a> (17)<sup id=\"cite&#95;ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">&#91;</span>b<span class=\"cite-bracket\">&#93;</span></a></sup></dd>"
+  "raw": "<div style=\"clear:both;\" class=\"\"></div>\n<p><b>Government (<a href=\"/wiki/Tofan_Cabinet\" title=\"Tofan Cabinet\">Tofan Cabinet</a>) (55)</b>\n</p>\n\n* <style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#FFDD00; color:black;border:1px solid silver;\"> </span> <a href=\"/wiki/Party_of_Action_and_Solidarity\" title=\"Party of Action and Solidarity\">PAS</a> (55)<sup id=\"cite_ref-4\" class=\"reference\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>a<span class=\"cite-bracket\">]</span></a></sup>\n\n<p><b>Opposition (46)</b> \n</p>\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#9C162E; color:white;border:1px solid silver;\"> </span> <a href=\"/wiki/Party_of_Socialists_of_the_Republic_of_Moldova\" title=\"Party of Socialists of the Republic of Moldova\">PSRM</a> (17)<sup id=\"cite_ref-6\" class=\"reference\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>b<span class=\"cite-bracket\">]</span></a></sup>\n\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-dat"
  },
  "mlt Parliament of Malta": {
-  "seats": null,
+  "seats": 79,
   "parsed": [
    [
-    "&#160; Nationalist",
+    "Nationalist",
     37,
     "#5087B2"
    ]
   ],
-  "raw": "<b><a href=\"/wiki/Maltese_Government_2026%E2%80%932031\" title=\"Maltese Government 2026–2031\">Government</a> (42)</b> \n<ul><li><style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#EE3224; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Labour_Party_(Malta)\" title=\"Labour Party (Malta)\">Labour</a> (42)\n</ul>\n<p><b><a href=\"/wiki/Opposition_(parliamentary)\" class=\"mw-redirect\" title=\"Opposition (parliamentary)\">Opposition</a> (37)</b>\n</p>\n<ul><li><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#5087B2; color:black;border:1px solid silver;\">&#160;</span> <a href=\"/wiki/Nationalist_Party_(Malta)\" title=\"Nationalist Party (Malta)\">Nationalist</a> (37)\n</ul>\n"
+  "raw": "<b><a href=\"/wiki/Maltese_Government_2026%E2%80%932031\" title=\"Maltese Government 2026–2031\">Government</a> (42)</b> \n\n* <style data-mw-deduplicate=\"TemplateStyles:r981673959\">.mw-parser-output .legend{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .legend-color{display:inline-block;min-width:1.25em;height:1.25em;line-height:1.25;margin:1px 0;text-align:center;border:1px solid black;background-color:transparent;color:black}.mw-parser-output .legend-text{}</style><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#EE3224; color:black;border:1px solid silver;\"> </span> <a href=\"/wiki/Labour_Party_(Malta)\" title=\"Labour Party (Malta)\">Labour</a> (42)\n\n<p><b><a href=\"/wiki/Opposition_(parliamentary)\" class=\"mw-redirect\" title=\"Opposition (parliamentary)\">Opposition</a> (37)</b>\n</p>\n\n* <link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r981673959\" /><span class=\"legend-color mw-no-invert\" style=\"forced-color-adjust:none; background-color:#5087B2; color:black;border:1px solid silver;\"> </span> <a href=\"/wiki/Nationalist_Party_(Malta)\" title=\"Nationalist Party (Malta)\">Nationalist</a> (37)\n\n"
  },
  "mmr Amyotha Hluttaw": {
   "seats": 224,
@@ -2494,17 +2352,6 @@
    ]
   ],
   "raw": ";Majority (14)\n*{{Color box|{{party color|Nationalist People's Coalition}}|border = darkgray}} [[Nationalist People's Coalition|NPC]] (5)\n*{{Color box|{{party color|Akbayan}}|border = darkgray}} [[Akbayan]] (1)\n*{{Color box|{{party color|Katipunan ng Nagkakaisang Pilipino}}|border = darkgray}} [[Katipunan ng Nagkakaisang Pilipino|KANP]] (1)\n*{{Color box|{{party color|Lakas-CMD}}|border = darkgray}} [[Lakas–CMD|Lakas]] (1)\n*{{Color box|{{party color|Liberal Party (Philippines)}}|border = darkgray}} [[Liberal Party (Philippines)|Liberal]] (1)\n*{{Color box|{{party color|Nacionalista Party}}|border = darkgray}} [[Nacionalista Party|Nacionalista]] (1)\n*{{Color box|{{party color|Independent}}|border = darkgray}} [[Independent politician|Independent]] (4)\n;Minority (10)\n*{{Color box|{{party color|Nacionalista Party}}|border = darkgray}} [[Nacionalista Party|Nacionalista]] (3)\n*{{Color box|{{party color|PDP–Laban}}|border = darkgray}} [[PDP–Laban]] (3)\n*{{Color box|{{party color|Nationalist People's Coalition}}|border = darkgray}} [[Nationalist People's Coalition|NPC]] (1)\n*{{Color box|{{party color|Pwersa ng Masang Pilipino}}|border = darkgray}} [[Pwersa ng Masang Pilipino|PMP]] (1)\n*{{Color box|{{party color|Independent}}|border = darkgray}} [[Independent politician|Independent]] (2)"
- },
- "plw Palau National Congress": {
-  "seats": 31,
-  "parsed": [
-   [
-    "Nonpartisan",
-    15,
-    "#DCDCDC"
-   ]
-  ],
-  "raw": "{{legend|#DCDCDC|Nonpartisan: 15 seats}}"
  },
  "pol Senate of Poland": {
   "seats": 100,
@@ -3363,13 +3210,6 @@
    "Parliament of British Indian Ocean Territory",
    "Congress of British Indian Ocean Territory",
    "National Congress of British Indian Ocean Territory"
-  ]
- },
- "jam (no legislature parsed)": {
-  "tried": [
-   "House of Representatives of Jamaica",
-   "Senate of Jamaica",
-   "Parliament of Jamaica"
   ]
  },
  "jtn (no legislature parsed)": {
