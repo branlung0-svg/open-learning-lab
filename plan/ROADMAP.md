@@ -9,7 +9,7 @@ The live queue is `plan/queue.md`; this file sets the direction and the finish l
 |---|---|
 | Disciplines | 24, uneven depth |
 | Ideology deep dives | 13 (Marxism, capitalism, fascism, liberalism, conservatism, anarchism, authoritarianism, imperialism & colonialism, empire, hard truths, and discipline dives) |
-| Government | 10 structure diagrams; 4 step-by-step power ladders (US, China, USSR, Nazi Germany); 13 parliament seat charts; China's two ladders; 17 world institutions |
+| Government | 10 structure diagrams; 4 step-by-step power ladders with roles and who runs what (US, China, USSR, Nazi Germany); leaders, ministers and legislatures for about 200 countries, rebuilt weekly from open data; 14 hand-checked seat charts; China's two ladders; 17 world institutions |
 | Oppressor and oppressed | 11 categories, 59 cases with numbers as ranges, testimony archives and the propaganda on each side |
 | Countries | 196 with long-run data |
 | Curated media | 3,960 reviewed pictures and films |

@@ -120,3 +120,11 @@ Open: the first loop run starts with CAP-0.
 - Live archive search: added Europeana, Smithsonian, Wellcome Collection, V&A, Art Institute of Chicago and Japan's National Diet Library after a CORS test from GitHub Actions (plan/cors-check.json).
 - Political-perspective meter added to source balance; right-to-left reading lists on seven dives.
 - plan/ROADMAP.md: the finish line and phases. Build loop found paused since 2026-11-14.
+
+## 2026-11-22 (afternoon) — Power data for every country
+- tools/build_power.py + .github/workflows/power.yml (weekly, Mondays): for every country, head of state and government with offices and start dates, form of government and current ministers from Wikidata; each legislature's seats, parties, official Commons seat diagram, last and next election and voting system from Wikipedia infoboxes (templates expanded through the API; sub-parties and footnotes skipped). Output data/power.json; unparsed infoboxes in plan/power-debug.json.
+- Country "Government & power" tabs show who holds power now, each chamber with a seat chart and the official diagram, who runs which ministry (stale entries flagged), and pictures of where power sits. #parliaments has an every-country finder.
+- #power: new "Roles & who runs what" view. China as of November 2026 (three roles; Standing Committee and vice premiers with portfolios; vacancies and military purges per CRS, April 2026); US, USSR and Nazi Germany roles.
+- 13th NPC (2018–23) full party breakdown added (CPC 2,175; eight smaller parties 379; no affiliation 426); 14th NPC breakdown not fully published.
+- Verified UK prime minister change (Andy Burnham since 20 July 2026) against gov.uk.
+- Queued 392 Commons searches: parliament and government buildings for every country.

@@ -10,6 +10,7 @@ its legislature is made up, from open data.
 Everything is labelled with its source and the date it was built; the site tells readers it can lag behind events.
 """
 import json, re, sys, time, datetime, requests
+from urllib.parse import unquote
 
 UA = {'User-Agent': 'OpenLearningLab/1.0 (https://branlung0-svg.github.io/open-learning-lab/; educational, non-commercial)'}
 S = requests.Session(); S.headers.update(UA)
@@ -80,20 +81,29 @@ def pick_latest(rows):
 
 # ---------------- Wikipedia infobox parsing ----------------
 def wikitext(title):
-    r = S.get(WAPI, params={'action': 'parse', 'page': title, 'prop': 'wikitext', 'section': 0, 'format': 'json', 'redirects': 1}, timeout=60)
-    j = r.json()
-    if 'parse' not in j:
-        return None, title
-    return j['parse']['wikitext']['*'], j['parse']['title']
+    for i in range(5):
+        try:
+            r = S.get(WAPI, params={'action': 'parse', 'page': title, 'prop': 'wikitext', 'section': 0, 'format': 'json', 'redirects': 1, 'maxlag': 5}, timeout=60)
+            if r.status_code in (429, 503): time.sleep(8 * (i + 1)); continue
+            j = r.json()
+            if 'error' in j and j['error'].get('code') == 'maxlag': time.sleep(6 * (i + 1)); continue
+            if 'parse' not in j: return None, title
+            return j['parse']['wikitext']['*'], j['parse']['title']
+        except Exception:
+            time.sleep(6 * (i + 1))
+    return None, title
 
 
 def expand(text, title):
     if not text or '{{' not in text: return text
-    try:
-        r = S.post(WAPI, data={'action': 'expandtemplates', 'text': text, 'title': title, 'prop': 'wikitext', 'format': 'json'}, timeout=60)
-        return r.json().get('expandtemplates', {}).get('wikitext', text)
-    except Exception:
-        return text
+    for i in range(4):
+        try:
+            r = S.post(WAPI, data={'action': 'expandtemplates', 'text': text, 'title': title, 'prop': 'wikitext', 'format': 'json'}, timeout=60)
+            if r.status_code in (429, 503): time.sleep(8 * (i + 1)); continue
+            return r.json().get('expandtemplates', {}).get('wikitext', text)
+        except Exception:
+            time.sleep(6 * (i + 1))
+    return text
 
 
 def infobox(txt):
@@ -229,8 +239,11 @@ def main():
         if v(b, 'hosOff'): c['hosOff'] = v(b, 'hosOffLabel')
         if v(b, 'hogOff'): c['hogOff'] = v(b, 'hogOffLabel')
         if v(b, 'form'): c['forms'].add(v(b, 'formLabel'))
-        if v(b, 'leg'): c['legs'][qid(v(b, 'leg'))] = (v(b, 'legLabel'), (v(b, 'legArt') or '').rsplit('/wiki/', 1)[-1].replace('_', ' ') or None)
+        if v(b, 'leg'): c['legs'][qid(v(b, 'leg'))] = (v(b, 'legLabel'), unquote((v(b, 'legArt') or '').rsplit('/wiki/', 1)[-1]).replace('_', ' ') or None)
     only = set(a.lower() for a in sys.argv[1:])
+    try: NAMES = {c['id']: c['n'] for c in json.load(open('data/countries.json'))['list']}
+    except Exception: NAMES = {}
+    OVR = {'nld': ['House of Representatives (Netherlands)', 'Senate (Netherlands)'], 'chn': ["National People's Congress"], 'gbr': None}
     out = {}
     for iso, c in sorted(C.items()):
         if only and iso not in only: continue
@@ -244,8 +257,11 @@ def main():
         for b in ms:
             per.setdefault(v(b, 'posLabel'), []).append((v(b, 'pLabel'), qid(v(b, 'p')), day(v(b, 'start'))))
         mins = []
+        JUNIOR = re.compile(r'\b(Deputy|Associate|Assistant|Under|Parliamentary|Shadow|Junior|Vice|Principal Deputy)\b', re.I)
+        KEEP = re.compile(r'(Deputy Prime Minister|Vice[- ]Premier|Vice[- ]President|First Deputy Prime)', re.I)
         for pos, people in per.items():
             if not pos or re.match(r'^Q\d+$', pos): continue
+            if JUNIOR.search(pos) and not KEEP.search(pos): continue
             best = max(pick_latest(people).values(), key=lambda x: x[2] or '', default=None)
             if best: mins.append([pos, best[0], best[2], best[1]])
         recent = [m for m in mins if (m[2] or '0') >= str(int(built[:4]) - 12)] or mins
@@ -253,8 +269,9 @@ def main():
         # legislatures
         seen = set()
         cands = list(c['legs'].items())[:2]
-        if not cands and c['name']:
-            n0 = c['name']
+        if OVR.get(iso): cands = [(None, (None, t)) for t in OVR[iso]] + cands
+        if not cands and (NAMES.get(iso) or c['name']):
+            n0 = NAMES.get(iso) or c['name']
             cands = [(None, (None, t)) for t in [f'National Assembly ({n0})', f'National Assembly of {n0}', f'Parliament of {n0}', f'Congress of {n0}', f'National Congress of {n0}']]
         for lq, (lname, art) in cands:
             for L in legislature(art or lname):
