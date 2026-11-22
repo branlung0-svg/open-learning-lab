@@ -32,7 +32,8 @@
         same ? h('p', { class: 'small', style: { margin: '6px 0 0' } }, 'One person is both head of state and head of government.') : null,
         R.forms.length ? h('p', { class: 'small', style: { margin: '6px 0 0' } }, h('b', null, 'Form of government: '), R.forms.join(', ')) : null);
       const mins = R.ministers.length ? h('details', { class: 'card' }, h('summary', null, h('b', null, `🗂️ Who runs what: ${R.ministers.length} ministerial posts`), h('span', { class: 'tiny muted', style: { display: 'block' } }, 'Tap to open')),
-        h('div', { class: 'stack', style: { gap: '4px', marginTop: '8px' } }, R.ministers.map(([pos, n, since, q]) => h('div', { class: 'row small', style: { gap: '8px', justifyContent: 'space-between', borderBottom: '1px solid var(--line)', padding: '4px 0' } }, h('span', { style: { flex: 1 } }, pos), person([n, q, since]))))) : null;
+        h('div', { class: 'stack', style: { gap: '4px', marginTop: '8px' } }, R.ministers.map(([pos, n, since, q]) => h('div', { class: 'row small', style: { gap: '8px', justifyContent: 'space-between', borderBottom: '1px solid var(--line)', padding: '4px 0' } }, h('span', { style: { flex: 1 } }, pos), person([n, q, since]), since && +since.slice(0, 4) < +R.built.slice(0, 4) - 10 ? h('span', { class: 'tiny', style: { color: '#B45309' }, title: 'This entry is old in the open data; the post may have changed hands.' }, ' ⚠ check') : null)),
+          h('p', { class: 'tiny muted' }, 'Entries marked ⚠ have not changed in the open data for over ten years; the person may be long-serving, or the record may be out of date.'))) : null;
       box.replaceChildren(leaders, ...R.legislatures.map(legCard), mins,
         h('p', { class: 'tiny muted' }, `Built ${R.built} from Wikidata and Wikipedia, which volunteers update; very recent changes may be missing. Check the government’s own website for anything important.`)); });
     return box; };

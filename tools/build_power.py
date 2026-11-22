@@ -58,7 +58,7 @@ SELECT ?iso ?c ?cLabel ?hos ?hosLabel ?hosStart ?hog ?hogLabel ?hogStart ?hosOff
 MINISTERS = """
 SELECT ?pos ?posLabel ?p ?pLabel ?start WHERE {
   ?pos wdt:P1001 wd:%s ; rdfs:label ?l .
-  FILTER(LANG(?l) = "en" && REGEX(?l, "^(Minister|Secretary of|Secretary for|Attorney General|Chancellor of the Exchequer|Foreign Secretary|Home Secretary|Defence Secretary|Vice[- ]Premier|Deputy Prime Minister|Governor of the (Central|Reserve|People)|Chief of the Defence|Chairman of the Joint)", "i"))
+  FILTER(LANG(?l) = "en" && !REGEX(?l, "(Deputy Minister|Assistant|Under ?[Ss]ecretary|Parliamentary|Shadow|Junior|Minister of State|Permanent Secretary|Vice[- ]Minister)", "i") && REGEX(?l, "^(([A-Z][a-z]+ ){0,3})?(Minister|Secretary of|Secretary for|Attorney General|Chancellor of the Exchequer|Foreign Secretary|Home Secretary|Defence Secretary|Vice[- ]Premier|Deputy Prime Minister|Governor of the (Central|Reserve|People)|Chief of the Defence|Chairman of the Joint)", "i"))
   ?p p:P39 ?st . ?st ps:P39 ?pos .
   FILTER NOT EXISTS { ?st pq:P582 ?end }
   OPTIONAL { ?st pq:P580 ?start }
@@ -85,6 +85,15 @@ def wikitext(title):
     if 'parse' not in j:
         return None, title
     return j['parse']['wikitext']['*'], j['parse']['title']
+
+
+def expand(text, title):
+    if not text or '{{' not in text: return text
+    try:
+        r = S.post(WAPI, data={'action': 'expandtemplates', 'text': text, 'title': title, 'prop': 'wikitext', 'format': 'json'}, timeout=60)
+        return r.json().get('expandtemplates', {}).get('wikitext', text)
+    except Exception:
+        return text
 
 
 def infobox(txt):
@@ -121,7 +130,11 @@ def infobox(txt):
 def plain(s):
     s = re.sub(r'<ref[^>]*/>', '', s); s = re.sub(r'<ref[^>]*>.*?</ref>', '', s, flags=re.S)
     s = re.sub(r'\[\[(?:[^|\]]*\|)?([^\]]*)\]\]', r'\1', s)
-    s = re.sub(r'\{\{[^{}]*\}\}', '', s); s = re.sub(r"'''?", '', s); s = re.sub(r'<[^>]+>', ' ', s)
+    for _ in range(6):
+        t2 = re.sub(r'\{\{[^{}]*\}\}', '', s)
+        if t2 == s: break
+        s = t2
+    s = re.sub(r"'''?", '', s); s = re.sub(r'<[^>]+>', ' ', s); s = s.replace('&nbsp;', ' ')
     return re.sub(r'\s+', ' ', s).strip()
 
 
@@ -139,11 +152,16 @@ def groups(val):
     """Parse a political_groups field into [name, seats, colour] rows."""
     out = []
     if not val: return out
+    val = re.sub(r'<ref[^>]*/>', '', val); val = re.sub(r'<ref[^>]*>.*?</ref>', '', val, flags=re.S); val = re.sub(r'<!--.*?-->', '', val, flags=re.S)
     lines = re.split(r'<br\s*/?>|\n', val)
     for ln in lines:
+        ln = re.sub(r'^[\s|]+', '', ln)
+        if re.match(r'^\s*(::|\*\*|\*:|:\*|##)', ln): continue
         colour = None
+        mbg = re.search(r'background(?:-color)?\s*:\s*(#[0-9A-Fa-f]{3,6})', ln)
+        if mbg: colour = mbg.group(1)
         mc = re.search(r'\{\{\s*(?:colou?r ?box|legend|party colou?r[^|]*)\s*\|\s*(#?[0-9A-Fa-f]{3,6})', ln, re.I)
-        if mc: colour = mc.group(1) if mc.group(1).startswith('#') else '#' + mc.group(1)
+        if mc and not colour: colour = mc.group(1) if mc.group(1).startswith('#') else '#' + mc.group(1)
         mp = re.search(r'\{\{\s*party ?colou?r(?:box)?\s*\|\s*([^|}]+)', ln, re.I)
         ln = re.sub(r'\{\{\s*legend2?\s*\|\s*#?[0-9A-Fa-f]{3,6}\s*\|([^{}]*)\}\}', r'\1', ln, flags=re.I)
         ln = re.sub(r'\{\{\s*(?:party name with colou?r|party colou?r cell|colou?red link)\s*\|([^|{}]*)[^{}]*\}\}', r'\1', ln, flags=re.I)
@@ -183,7 +201,7 @@ def legislature(title, depth=0):
             mm = re.search(r'([^|\[\]=]+\.(?:svg|png|jpg))', f[k], re.I)
             if mm: diag = mm.group(1).strip().replace('File:', '').replace('Image:', '').strip(); break
     pg = f.get('political_groups1') or f.get('political_groups') or ''
-    rows = groups(pg)
+    rows = groups(expand(pg, real))
     leaf = [r for r in rows if not r[3]] or rows
     seats = num(f.get('seats1') or f.get('seats') or f.get('members'))
     total = sum(r[1] for r in leaf)
@@ -243,6 +261,7 @@ def main():
                 if L['title'] in seen: continue
                 seen.add(L['title']); rec['legislatures'].append(L)
             time.sleep(0.3)
+        if not rec['legislatures']: rec['_noleg'] = [t for _, (_, t) in cands]
         out[iso] = rec
         print(iso, c['name'], len(rec['ministers']), 'ministers', [(L['title'], L['seats'], len(L['groups']), L['sumOk']) for L in rec['legislatures']], flush=True)
         time.sleep(0.6)
@@ -255,6 +274,8 @@ def main():
         for L in r['legislatures']:
             raw = L.pop('_raw', '')
             if not L['sumOk'] and raw: dbg[iso + ' ' + L['title']] = {'seats': L['seats'], 'parsed': L['groups'][:12], 'raw': raw}
+    for iso, r in out.items():
+        if r.get('_noleg'): dbg[iso + ' (no legislature parsed)'] = {'tried': r.pop('_noleg')}
     json.dump(dbg, open('plan/power-debug.json', 'w'), ensure_ascii=False, indent=1)
     json.dump(out, open('data/power.json', 'w'), ensure_ascii=False, separators=(',', ':'))
     ok = sum(1 for r in out.values() if any(L['sumOk'] for L in r['legislatures']))
