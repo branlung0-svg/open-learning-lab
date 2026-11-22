@@ -56,6 +56,26 @@ SELECT ?iso ?c ?cLabel ?hos ?hosLabel ?hosStart ?hog ?hogLabel ?hogStart ?hosOff
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }"""
 
+STALE = """
+SELECT ?p ?off ?st ?end WHERE { VALUES (?p ?off) { %s } ?p p:P39 ?st . ?st ps:P39 ?off . OPTIONAL { ?st pq:P582 ?end } }"""
+
+# Wikidata labels that are wrong for these countries: (head-of-state office, head-of-government office)
+OFFICE_FIX = {'irn': ('Supreme Leader of Iran', 'President of Iran')}
+
+
+def stale_pairs(pairs):
+    """(person, office) pairs where every 'position held' record for that office has an end date: a former holder whose
+    country-level entry was never closed. People with no record at all are kept."""
+    out, pairs = set(), sorted(pairs)
+    for i in range(0, len(pairs), 60):
+        rows = sparql(STALE % ' '.join(f'(wd:{a} wd:{b})' for a, b in pairs[i:i + 60]))
+        seen = {}
+        for b in rows: seen.setdefault((qid(v(b, 'p')), qid(v(b, 'off'))), []).append(bool(v(b, 'end')))
+        out |= {k for k, ends in seen.items() if ends and all(ends)}
+        time.sleep(1)
+    return out
+
+
 MINISTERS = """
 SELECT ?pos ?posLabel ?p ?pLabel ?start WHERE {
   ?pos wdt:P1001 wd:%s ; rdfs:label ?l .
@@ -260,10 +280,23 @@ def main():
         c = C.setdefault(iso, {'qid': qid(v(b, 'c')), 'name': v(b, 'cLabel'), 'hos': {}, 'hog': {}, 'forms': set(), 'legs': {}, 'hosOff': None, 'hogOff': None})
         if v(b, 'hos'): c['hos'][v(b, 'hosLabel')] = (v(b, 'hosLabel'), qid(v(b, 'hos')), day(v(b, 'hosStart')))
         if v(b, 'hog'): c['hog'][v(b, 'hogLabel')] = (v(b, 'hogLabel'), qid(v(b, 'hog')), day(v(b, 'hogStart')))
-        if v(b, 'hosOff'): c['hosOff'] = v(b, 'hosOffLabel')
-        if v(b, 'hogOff'): c['hogOff'] = v(b, 'hogOffLabel')
+        if v(b, 'hosOff'): c['hosOff'] = v(b, 'hosOffLabel'); c['hosOffQ'] = qid(v(b, 'hosOff'))
+        if v(b, 'hogOff'): c['hogOff'] = v(b, 'hogOffLabel'); c['hogOffQ'] = qid(v(b, 'hogOff'))
         if v(b, 'form'): c['forms'].add(v(b, 'formLabel'))
         if v(b, 'leg'): c['legs'][qid(v(b, 'leg'))] = (v(b, 'legLabel'), unquote((v(b, 'legArt') or '').rsplit('/wiki/', 1)[-1]).replace('_', ' ') or None)
+    pairs = set()
+    for c in C.values():
+        for k, o in (('hos', 'hosOffQ'), ('hog', 'hogOffQ')):
+            if c.get(o): pairs |= {(x[1], c[o]) for x in c[k].values() if x[1]}
+    gone = stale_pairs(pairs)
+    for iso, c in C.items():
+        for k, o in (('hos', 'hosOffQ'), ('hog', 'hogOffQ')):
+            keep = {n: x for n, x in c[k].items() if (x[1], c.get(o)) not in gone}
+            if keep or not c[k]: c[k] = keep
+        if iso in OFFICE_FIX: c['hosOff'], c['hogOff'] = OFFICE_FIX[iso]
+        elif c.get('hosOffQ') and c.get('hosOffQ') == c.get('hogOffQ'):
+            c['hog'] = {n: x for n, x in c['hos'].items()}  # one office: the head of state also heads the government
+    print('dropped former holders still listed as current:', len(gone), flush=True)
     only = set(a.lower() for a in sys.argv[1:])
     try: NAMES = {c['id']: c['n'] for c in json.load(open('data/countries.json'))['list']}
     except Exception: NAMES = {}

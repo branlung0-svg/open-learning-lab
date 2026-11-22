@@ -5,6 +5,9 @@ on:
     - cron: '23 9 * * 1'
   push:
     paths: ['tools/build_power.py']
+concurrency:
+  group: power-data
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:

@@ -114,7 +114,7 @@
       app.append(h('section', { class: 'hero' }, h('a', { class: 'crumb', href: '#history-modern-govern' }, '← How power works'), h('h1', null, 'How power really works'), h('p', null, 'From the citizen to the very top: how people climb, how decisions are made, who controls money and war, what checks the people in charge, and who was shut out. For each system, what it says about itself sits next to what happened in practice.')),
         h('div', { class: 'grid g2' }, ORDER.map((k) => h('a', { class: 'card feat-card', href: '#power-' + k, style: { borderLeftColor: P[k].c } }, h('b', null, P[k].flag + ' ' + P[k].n + ' →'), h('span', { class: 'small' }, P[k].era + '. ' + P[k].sum.split('. ')[0] + '.')))),
         card(h('h2', { style: { marginTop: 0 } }, 'Side by side'), h('div', { class: 'pw-table' }, h('table', null, h('thead', null, h('tr', null, h('th', null, ''), ORDER.map((k) => h('th', null, P[k].flag + ' ' + P[k].n)))), h('tbody', null, CMP.map(([q, a]) => h('tr', null, h('th', null, q), ORDER.map((k) => h('td', null, a[k])))))))),
-        card(h('p', { class: 'small', style: { margin: 0 } }, 'More systems (UK, Germany, Russia, North Korea, Cuba, Vietnam, Iran, India and others) are in ', h('a', { href: '#history-modern-govern' }, 'How power works'), ' and ', h('a', { href: '#parliaments' }, 'Parliaments'), '. Nazi Germany is explained so the steps to dictatorship and genocide can be recognized and resisted; nothing here presents it as a model.')));
+        card(h('p', { class: 'small', style: { margin: 0 } }, 'Every country’s current leaders, ministers and legislature are on its country page (Power tab), updated weekly from open data. Structure diagrams for more systems are in ', h('a', { href: '#history-modern-govern' }, 'How power works'), ' and seat charts in ', h('a', { href: '#parliaments' }, 'Parliaments'), '. Nazi Germany is explained so the steps to dictatorship and genocide can be recognized and resisted; nothing here presents it as a model.')));
       return;
     }
     const S = P[id];
@@ -130,7 +130,7 @@
       if (t === 'money') body.replaceChildren(card(h('h3', { style: { marginTop: 0 } }, '💰 The economy and the money'), h('ul', { class: 'small' }, S.money.map((x) => h('li', null, x)))), card(h('h3', { style: { marginTop: 0 } }, '🌐 Foreign policy and war'), h('ul', { class: 'small' }, S.foreign.map((x) => h('li', null, x)))), h('a', { class: 'btn sm', href: '#institutions-lobbying' }, 'Follow the money →'));
       if (t === 'checks') body.replaceChildren(card(h('h3', { style: { marginTop: 0 } }, 'What can stop the people at the top?'), h('ul', { class: 'small' }, S.checks.map((x) => h('li', null, x)))));
       if (t === 'shut') body.replaceChildren(card(h('h3', { style: { marginTop: 0 } }, 'Who was shut out or persecuted'), h('p', { class: 'small muted' }, 'Every system has to be judged by how it treated the people with the least power.'), h('div', { class: 'stack', style: { gap: '6px' } }, S.shut.map(([w, d]) => h('div', { class: 'mp-box' }, h('b', null, w), h('p', { class: 'small', style: { margin: '4px 0 0' } }, d)))), h('a', { class: 'btn sm', href: '#oppression' }, 'Oppressor and oppressed: all cases →')));
-      if (t === 'src') body.replaceChildren(card(h('ul', { class: 'small' }, S.src.map(([n, u]) => h('li', null, h('a', { href: u, target: '_blank', rel: 'noopener' }, n + ' ↗')))), h('a', { class: 'btn sm', href: '#history-modern-govern-' + S.govern }, 'Structure diagram →'), ' ',
+      if (t === 'src') body.replaceChildren(card(h('ul', { class: 'small' }, S.src.map(([n, u]) => h('li', null, h('a', { href: u, target: '_blank', rel: 'noopener' }, n + ' ↗')))), S.govern ? h('a', { class: 'btn sm', href: '#history-modern-govern-' + S.govern }, 'Structure diagram →') : null, ' ',
         h('button', { class: 'btn sm', onclick: () => Lab.ask(`Explain in depth how power worked in ${S.n} (${S.era}): how an ordinary person could rise from the bottom to the top, how decisions were made, who controlled money and the military, what checked the leaders, and who was excluded or persecuted. Give the system's own description first, then what scholars from different countries found in practice, with numbers and sources.`, 'Power in ' + S.n) }, '✦ Ask the tutor')));
       if (t !== 'ladder') window.scrollTo({ top: Math.min(window.scrollY, bar.getBoundingClientRect().top + window.scrollY - 70) }); };
     tabs.forEach(([t, n]) => bar.append(h('button', { class: 'btn sm', 'data-t': t, style: { whiteSpace: 'nowrap', flex: 'none' }, onclick: () => show(t) }, n)));
@@ -139,5 +139,5 @@
       h('div', { class: 'row', style: { gap: '6px', flexWrap: 'wrap', marginTop: '10px' } }, ORDER.filter((k) => k !== id).map((k) => h('a', { class: 'btn sm', href: '#power-' + k }, P[k].flag + ' ' + P[k].n))));
     show('who');
   };
-  Lab.POWER = P;
+  Lab.POWER = P; Lab.POWER_ROLES = ROLES; Lab.POWER_ORDER = ORDER; Lab.POWER_CMP = CMP;
 })();

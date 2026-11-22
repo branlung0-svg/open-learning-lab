@@ -23,12 +23,18 @@
       L.voting ? h('p', { class: 'small', style: { margin: '8px 0 2px' } }, h('b', null, 'How members are chosen: '), L.voting) : null,
       L.leader ? h('p', { class: 'small', style: { margin: '2px 0' } }, h('b', null, (L.leaderType || 'Presiding officer') + ': '), L.leader) : null,
       h('a', { class: 'tiny', href: L.url, target: '_blank', rel: 'noopener' }, 'Source: Wikipedia, ' + L.title + ' ↗')); };
+  // Open-data label fixes: Iran's head of state is the Supreme Leader; where one office is both head of state and of
+  // government, a separate 'head of government' list only repeats former holders whose end date was never recorded.
+  Lab.powerFix = (iso, R) => { const F = { irn: ['Supreme Leader of Iran', 'President of Iran'] }[iso];
+    if (F) return Object.assign({}, R, { hosOffice: F[0], hogOffice: F[1] });
+    if (R.hosOffice && R.hosOffice === R.hogOffice && R.hos.length) return Object.assign({}, R, { hog: R.hos });
+    return R; };
   Lab.powerNow = (iso) => { const box = h('div', { class: 'stack' }, h('div', { class: 'card small muted' }, 'Loading who holds power now…'));
-    Lab.powerData().then((D) => { const R = D[iso]; if (!R) { box.replaceChildren(); return; }
+    Lab.powerData().then((D) => { const R0 = D[iso]; if (!R0) { box.replaceChildren(); return; } const R = Lab.powerFix(iso, R0);
       const same = R.hos[0] && R.hog[0] && R.hos[0][1] === R.hog[0][1];
       const leaders = h('div', { class: 'card' }, h('h3', { style: { marginTop: 0 } }, '👤 Who holds power now'),
         h('div', { class: 'grid g2' }, R.hos.length ? h('div', { class: 'mp-box' }, h('b', null, R.hosOffice || 'Head of state'), h('p', { class: 'small', style: { margin: '4px 0 0' } }, ...R.hos.map((x, i) => [i ? h('br') : null, person(x)]).flat())) : null,
-          R.hog.length ? h('div', { class: 'mp-box' }, h('b', null, R.hogOffice || 'Head of government'), h('p', { class: 'small', style: { margin: '4px 0 0' } }, ...R.hog.map((x, i) => [i ? h('br') : null, person(x)]).flat())) : null),
+          R.hog.length && !same ? h('div', { class: 'mp-box' }, h('b', null, R.hogOffice || 'Head of government'), h('p', { class: 'small', style: { margin: '4px 0 0' } }, ...R.hog.map((x, i) => [i ? h('br') : null, person(x)]).flat())) : null),
         same ? h('p', { class: 'small', style: { margin: '6px 0 0' } }, 'One person is both head of state and head of government.') : null,
         R.forms.length ? h('p', { class: 'small', style: { margin: '6px 0 0' } }, h('b', null, 'Form of government: '), R.forms.join(', ')) : null);
       const mins = R.ministers.length ? h('details', { class: 'card' }, h('summary', null, h('b', null, `🗂️ Who runs what: ${R.ministers.length} ministerial posts`), h('span', { class: 'tiny muted', style: { display: 'block' } }, 'Tap to open')),
