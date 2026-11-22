@@ -128,3 +128,6 @@ Open: the first loop run starts with CAP-0.
 - 13th NPC (2018–23) full party breakdown added (CPC 2,175; eight smaller parties 379; no affiliation 426); 14th NPC breakdown not fully published.
 - Verified UK prime minister change (Andy Burnham since 20 July 2026) against gov.uk.
 - Queued 392 Commons searches: parliament and government buildings for every country.
+- Coverage after parser fixes: of the Lab's 196 countries, 182 with legislatures, 143 with full party breakdowns, 193 with ministers. China's NPC now shows the 14th NPC's eight smaller parties (Jiusan 61, Peasants' and Workers' 60, Democratic League 55, Promoting Democracy 54, National Construction 44, Kuomintang Revolutionary Committee 43, Zhi Gong 39, Taimeng 13) with CPC and non-affiliated combined (2,478).
+- Picture review: 573 parliament and government building pictures checked; 315 kept (143 countries), 258 removed (handshakes and meetings, stamps, coins, logos, satellite images, and buildings filed under the wrong country).
+- HTML infobox fallback and known titles for 14 countries still missing (Israel, South Africa, Nigeria and others); placeholder names filtered.

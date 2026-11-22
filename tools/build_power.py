@@ -72,7 +72,7 @@ def pick_latest(rows):
     """Several people can appear as current holders of a post when end dates are missing: keep the latest start."""
     best = {}
     for name, q, start in rows:
-        if not name or re.match(r'^Q\d+$', name):
+        if not name or re.match(r'^Q\d+$', name) or re.search(r'\b(Secretary|Minister|Office|Ministry)\b', name):
             continue
         if name not in best or (start or '') > (best[name][2] or ''):
             best[name] = (name, q, start)
@@ -191,6 +191,29 @@ def groups(val):
     return out
 
 
+def html_box(title):
+    for i in range(4):
+        try:
+            r = S.get(WAPI, params={'action': 'parse', 'page': title, 'prop': 'text', 'section': 0, 'format': 'json', 'redirects': 1}, timeout=60)
+            if r.status_code in (429, 503): time.sleep(8 * (i + 1)); continue
+            j = r.json(); html = j.get('parse', {}).get('text', {}).get('*', '')
+            m = re.search(r'<table[^>]*class="[^"]*infobox[^"]*"[^>]*>(.*?)</table>', html, re.S)
+            if not m: return {}
+            box = m.group(1); f = {}
+            for th, td in re.findall(r'<th[^>]*>(.*?)</th>\s*<td[^>]*>(.*?)</td>', box, re.S):
+                k = plain(th).lower()
+                if k.startswith('political group') and 'political_groups1' not in f: f['political_groups1'] = re.sub(r'</li>|<br\s*/?>', '\n', td)
+                elif k in ('seats', 'members') and 'seats1' not in f: f['seats1'] = td
+                elif k.startswith('last election') and 'last_election1' not in f: f['last_election1'] = td
+                elif k.startswith('voting system') and 'voting_system1' not in f: f['voting_system1'] = td
+            img = re.search(r'src="//upload\.wikimedia\.org/wikipedia/commons/thumb/[^/]+/[^/]+/([^/"]+\.svg)/', box)
+            if img: f['structure1'] = unquote(img.group(1))
+            return f
+        except Exception:
+            time.sleep(6 * (i + 1))
+    return {}
+
+
 def legislature(title, depth=0):
     if not title or depth > 1: return []
     try:
@@ -198,8 +221,9 @@ def legislature(title, depth=0):
     except Exception:
         return []
     if not txt: return []
-    f = infobox(txt)
+    f = infobox(txt) or html_box(real)
     if not f: return []
+    if f.get('political_groups1') and '<' in f['political_groups1']: f['_html'] = True
     res = []
     houses = f.get('houses') or ''
     if houses and depth == 0 and re.search(r'\[\[', houses):
@@ -211,7 +235,7 @@ def legislature(title, depth=0):
             mm = re.search(r'([^|\[\]=]+\.(?:svg|png|jpg))', f[k], re.I)
             if mm: diag = mm.group(1).strip().replace('File:', '').replace('Image:', '').strip(); break
     pg = f.get('political_groups1') or f.get('political_groups') or ''
-    rows = groups(expand(pg, real))
+    rows = groups(pg if f.get('_html') else expand(pg, real))
     leaf = [r for r in rows if not r[3]] or rows
     seats = num(f.get('seats1') or f.get('seats') or f.get('members'))
     total = sum(r[1] for r in leaf)
@@ -243,7 +267,10 @@ def main():
     only = set(a.lower() for a in sys.argv[1:])
     try: NAMES = {c['id']: c['n'] for c in json.load(open('data/countries.json'))['list']}
     except Exception: NAMES = {}
-    OVR = {'nld': ['House of Representatives (Netherlands)', 'Senate (Netherlands)'], 'chn': ["National People's Congress"], 'gbr': None}
+    OVR = {'nld': ['House of Representatives (Netherlands)', 'Senate (Netherlands)'], 'chn': ["National People's Congress"], 'isr': ['Knesset'], 'zaf': ['National Assembly of South Africa', 'National Council of Provinces'],
+           'nga': ['House of Representatives (Nigeria)', 'Senate of Nigeria'], 'lka': ['Parliament of Sri Lanka'], 'cri': ['Legislative Assembly of Costa Rica'], 'cyp': ['House of Representatives (Cyprus)'],
+           'hnd': ['National Congress of Honduras'], 'jam': ['House of Representatives of Jamaica', 'Senate of Jamaica'], 'lva': ['Saeima'], 'lbn': ['Parliament of Lebanon'], 'ltu': ['Seimas'],
+           'lux': ['Chamber of Deputies (Luxembourg)'], 'mlt': ['Parliament of Malta'], 'mda': ['Parliament of Moldova']}
     out = {}
     for iso, c in sorted(C.items()):
         if only and iso not in only: continue
