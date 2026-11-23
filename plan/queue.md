@@ -101,3 +101,7 @@ Each unit is about one run (1–2 hours). A deep dive is split into 7 parts: eng
 - Convert the remaining death-toll events (British India famines, Bengal 1943, Congo Free State, Herero and Nama, Atlantic slave trade, Iraq 2003–11) into case files.
 - Add: Tiananmen 1989, DPRK famine 1994–98, Ethiopia's Red Terror, Eastern Europe (Hungary 1956, Prague 1968), US prisons, Vietnam War (My Lai, Agent Orange), Gaza (developing), Chile 1973, Guatemala, Rwanda.
 - Link oppression-case rows to case files.
+
+## STORY-2 (next): more story lines
+- USSR 1917–1991, Korea 1945–today, Vietnam and Cambodia 1945–1991, US in the Cold War 1945–1991; each era linked to case files.
+- Add "why they kept going / afterwards" to the remaining case files (Katyn, DPRK camps, Vietnam, Cuba, US cases, Xinjiang, DPRK famine).

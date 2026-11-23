@@ -342,3 +342,9 @@ a:hover{text-decoration-thickness:2px}
 .cf-plan>div:nth-child(n+3){padding-top:6px;border-top:1px solid var(--line,#E5E7EB)}
 .cf-table{border-collapse:collapse;min-width:100%}.cf-table th,.cf-table td{border-bottom:1px solid var(--line,#E5E7EB);padding:4px 6px;text-align:left;white-space:nowrap}.cf-table th{font-weight:700}
 @media (max-width:420px){.cf-tl-row{grid-template-columns:70px 1fr}}
+.doors{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.door{display:flex;flex-direction:column;gap:3px;padding:12px;border:1px solid var(--line,#E5E7EB);border-radius:12px;color:inherit;text-decoration:none;background:var(--card,#fff)}
+.door:hover{border-color:var(--accent,#2563EB)}.door-e{font-size:22px;line-height:1}
+.sl-chain{display:flex;flex-direction:column;gap:0}.sl-chain .sl-era{margin:6px 0;border-left:4px solid #1E3A8A}
+.sl-why{padding:6px 8px;border-radius:8px;background:color-mix(in srgb,#64748B 8%,transparent);margin-top:6px}
+.sl-led{padding:6px 8px;border-radius:8px;background:color-mix(in srgb,#1E3A8A 8%,transparent);margin-top:6px}

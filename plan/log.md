@@ -178,3 +178,9 @@ Open: the first loop run starts with CAP-0.
 - New case files: Tiananmen 1989; North Korea's 1990s famine (19 in total).
 - Case page: "Jump to" bar; index: filter by country.
 - One "Evidence & truth" navigation bar on cases, claims, tolls, lies, oppression, sources, toolkit and method pages.
+
+## 2026-11-23 — Context, story lines, doors (CASE-1c, ORG-3)
+- Case files gain "The world as they saw it", "Why they kept going" (leaders, those who carried it out, ordinary people) and "Afterwards" (how participants and victims were treated and remembered) for 8 cases.
+- Intent rating made consistent: the US bombing of North Korea is now "Knew and kept going", the same test as the Great Leap; ICE explains why it is not (yet) rated that way.
+- js/storylines.js: #story and #story-china (13 eras 1921–today: what happened, why, what it led to, case links; six threads; 12 sources incl. Chinese state media). Each case file shows its place in the story.
+- Home: four doors (Countries, Subjects, Evidence & truth, Story lines) under the hero; Lab map, Explore, country pages link story lines.
