@@ -172,3 +172,9 @@ Open: the first loop run starts with CAP-0.
 - "Why you see videos of ICE but not of North Korean camps" card; "How we know" evidence kinds; intent ladder.
 - Lab.labMap(): how the Lab fits together, on #explore and #cases.
 - Linked from death-toll rows (7), graded claims (3), country Everything tabs, Explore subject panels, home strip, balance meter.
+
+## 2026-11-23 — Case files, deep layer (CASE-1b)
+- js/casefiles-deep.js (module): timeline, who decided, numbered decision points (what they knew, why, what happened), plan versus result, data tables (China death rates official vs Coale; Soviet grain exports), and population charts from the Lab's own country series (China, Ukraine, Kazakhstan, Cambodia, Indonesia, North Korea) with an honest note that famine-year series are reconstructions.
+- New case files: Tiananmen 1989; North Korea's 1990s famine (19 in total).
+- Case page: "Jump to" bar; index: filter by country.
+- One "Evidence & truth" navigation bar on cases, claims, tolls, lies, oppression, sources, toolkit and method pages.

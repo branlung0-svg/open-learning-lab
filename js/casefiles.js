@@ -269,20 +269,48 @@
       src: [['Migration Policy Institute: record deaths (2026)', 'https://www.migrationpolicy.org/journal/policy-beat/ice-mandatory-detention-deaths', 'na'], ['UCLA Law: ICE deaths in custody', 'https://uclaprisondata.org/ice-deaths-in-custody', 'na'], ['KFF: deaths and health care in ICE detention', 'https://www.kff.org/racial-equity-and-health-policy/deaths-and-health-care-issues-in-ice-detention-centers-under-the-second-trump-administration/', 'na'], ['Austin Kocher: ICE detention by the numbers', 'https://austinkocher.substack.com/p/ice-detention-and-deportation-by', 'na'], ['ICE: detainee death reporting (official)', 'https://www.ice.gov/detain/detainee-death-reporting', 'na', 'state']],
       archive: 'immigration detention', rel: [['#verify-usa', 'US claims, graded'], ['#country-usa-everything', 'Everything on the United States']] }
   ];
-  const BY = Object.fromEntries(C.map((x) => [x.id, x]));
+  const by = (id) => C.find((x) => x.id === id);
   Lab.CASES = C;
   Lab.casesFor = (iso) => C.filter((x) => x.iso.includes(iso));
   Lab.casesUrls = () => C.flatMap((x) => x.src.map((s) => (s[2] ? s[1] + '#@' + s[2] + (s[3] ? '@' + s[3] : '') : s[1])));
   // Links from other pages: death-toll rows and graded claims that have a full case file.
-  const TOLL = { 'Soviet executions': 'su-terror', 'Deaths in the Gulag': 'su-terror', 'Soviet famine': 'su-famine', 'Great Leap': 'chn-famine', 'Cultural Revolution': 'chn-cr', 'Khmer Rouge': 'khm', 'Indonesia': 'idn-1965' };
-  Lab.caseForTitle = (t) => { const k = Object.keys(TOLL).find((x) => String(t).includes(x)); return k ? BY[TOLL[k]] : null; };
-  const CLAIM = { camps: 'prk-camps', xinjiang: 'chn-xinjiang', 'bombing-20': 'prk-bombing', executions: 'prk-camps' };
-  Lab.caseForClaim = (id) => BY[CLAIM[id]] || null;
+  const TOLL = { 'Soviet executions': 'su-terror', 'Deaths in the Gulag': 'su-terror', 'Soviet famine': 'su-famine', 'Great Leap': 'chn-famine', 'Cultural Revolution': 'chn-cr', 'Khmer Rouge': 'khm', 'Indonesia': 'idn-1965', 'North Korea: the 1990s famine': 'prk-famine' };
+  Lab.caseForTitle = (t) => { const k = Object.keys(TOLL).find((x) => String(t).includes(x)); return k ? by(TOLL[k]) || null : null; };
+  const CLAIM = { camps: 'prk-camps', xinjiang: 'chn-xinjiang', 'bombing-20': 'prk-bombing', executions: 'prk-camps', famine: 'prk-famine', tiananmen: 'chn-tiananmen' };
+  Lab.caseForClaim = (id) => by(CLAIM[id]) || null;
   Lab.caseLink = (x) => x ? h('a', { class: 'btn sm', href: '#case-' + x.id, style: { marginTop: '6px' } }, '📂 Full case file: all the evidence →') : null;
 
   const chip = (txt, c, title) => h('span', { class: 'cf-chip', style: { '--c': c }, title: title || '' }, txt);
   const kinds = (x) => [...new Set(x.ev.map((e) => e[0]))].sort((a, b) => KORDER.indexOf(a) - KORDER.indexOf(b));
   const srcLine = (src) => h('div', { class: 'tiny' }, 'Sources: ', ...src.map(([n, u, o], i) => [i ? ' · ' : '', h('a', { href: u, target: '_blank', rel: 'noopener' }, n + ' ↗'), o && REG[o] ? h('span', { class: 'muted' }, ' (' + REG[o] + ')') : null]).flat());
+
+  // Population data around the event, from the Lab's own country series (Gapminder / Our World in Data).
+  const SER = { lex: ['Life expectancy at birth', 'years'], cm: ['Children dying before age 5', 'per 1,000 born'] };
+  const stats = (id) => Lab.json('data/cs/' + id + '.json').catch(() => Lab.json('data/cs-all.json').then((a) => a[id] || {})).catch(() => ({}));
+  function chartBox(spec) { const box = h('div'), svgBox = h('div'), btns = h('div', { class: 'row', style: { gap: '6px', flexWrap: 'wrap', marginBottom: '6px' } }); let key = 'lex', D = null;
+    const draw = () => { btns.replaceChildren(...Object.entries(SER).map(([k, [n]]) => h('button', { class: 'btn sm' + (key === k ? ' primary' : ''), onclick: () => { key = k; draw(); } }, n)));
+      const pts = ((D && D[key]) || []).filter(([y, v]) => y >= spec.from && y <= spec.to && v != null);
+      if (pts.length < 3) { svgBox.replaceChildren(h('p', { class: 'small muted' }, D ? 'No series available for these years.' : 'Loading the data…')); return; }
+      const Wd = 360, Ht = 170, L = 34, R = 8, T = 10, B = 22; const x0 = spec.from, x1 = spec.to; const vs = pts.map((p) => p[1]); const lo = Math.floor(Math.min(...vs, key === 'lex' ? 20 : 0) / 10) * 10, hi = Math.ceil(Math.max(...vs) / 10) * 10;
+      const X = (y) => L + (y - x0) / (x1 - x0) * (Wd - L - R), Y = (v) => T + (1 - (v - lo) / (hi - lo || 1)) * (Ht - T - B);
+      const NS = 'http://www.w3.org/2000/svg'; const el = (t, a) => { const e = document.createElementNS(NS, t); Object.entries(a).forEach(([k, v]) => e.setAttribute(k, v)); return e; };
+      const svg = el('svg', { viewBox: `0 0 ${Wd} ${Ht}`, width: '100%', role: 'img', 'aria-label': SER[key][0] + ' in ' + spec.name + ', ' + x0 + '–' + x1 });
+      (spec.ev || []).forEach(([a, b2]) => svg.append(el('rect', { x: X(a), y: T, width: Math.max(3, X(b2 + 1) - X(a)), height: Ht - T - B, fill: '#B91C1C', opacity: '0.12' })));
+      [lo, (lo + hi) / 2, hi].forEach((v) => { svg.append(el('line', { x1: L, x2: Wd - R, y1: Y(v), y2: Y(v), stroke: '#CBD5E1', 'stroke-width': '0.6' })); const t = el('text', { x: L - 4, y: Y(v) + 3, 'text-anchor': 'end', 'font-size': '9', fill: '#64748B' }); t.textContent = Math.round(v); svg.append(t); });
+      [x0, Math.round((x0 + x1) / 2), x1].forEach((y) => { const t = el('text', { x: X(y), y: Ht - 6, 'text-anchor': 'middle', 'font-size': '9', fill: '#64748B' }); t.textContent = y; svg.append(t); });
+      svg.append(el('polyline', { points: pts.map(([y, v]) => X(y).toFixed(1) + ',' + Y(v).toFixed(1)).join(' '), fill: 'none', stroke: key === 'lex' ? '#2563EB' : '#B45309', 'stroke-width': '2' }));
+      const mn = pts.reduce((m, p) => ((key === 'lex' ? p[1] < m[1] : p[1] > m[1]) ? p : m), pts[0]); svg.append(el('circle', { cx: X(mn[0]), cy: Y(mn[1]), r: '3', fill: '#B91C1C' }));
+      const lab = el('text', { x: Math.min(X(mn[0]) + 5, Wd - 70), y: Math.max(Y(mn[1]) + (key === 'lex' ? 12 : -6), 18), 'font-size': '9.5', fill: '#7F1D1D', 'font-weight': '600' }); lab.textContent = mn[0] + ': ' + mn[1] + ' ' + (key === 'lex' ? 'yrs' : ''); svg.append(lab);
+      svgBox.replaceChildren(svg, h('div', { class: 'tiny muted' }, SER[key][0] + ' (' + SER[key][1] + '). Shaded: ' + spec.ev.map(([a, b2]) => a === b2 ? a : a + '–' + b2).join(', ') + '.')); };
+    stats(spec.iso).then((d) => { D = d; draw(); });
+    box.append(btns, svgBox, spec.note ? h('p', { class: 'small', style: { margin: '8px 0 0' } }, spec.note) : null,
+      h('p', { class: 'tiny muted', style: { margin: '6px 0 0' } }, 'Source: Gapminder and Our World in Data country series, the same data as the country page. For famine and mass-killing years these series are demographers’ reconstructions, built partly from the same death estimates, so they show the scale but are not independent proof.'),
+      h('a', { class: 'tiny', href: '#country-' + spec.iso + '-data' }, 'All the data for ' + spec.name + ' →')); draw(); return box; }
+
+  // One navigation bar across every evidence page, so they work as one section.
+  const TRUTH = [['cases', '📂 Case files'], ['verify', '🔬 Claims checked'], ['tolls', '⚖️ Death tolls'], ['lies', '🕵️ Lies'], ['oppression', '⛓️ Oppression'], ['sources', '🏷️ Sources'], ['toolkit', '🧰 Toolkit'], ['method', '📏 Standard']];
+  Lab.truthNav = (active) => h('nav', { class: 'tn-bar', 'aria-label': 'Evidence and truth pages' }, h('span', { class: 'tiny muted', style: { alignSelf: 'center', whiteSpace: 'nowrap' } }, 'Evidence & truth:'), ...TRUTH.map(([r, t]) => h('a', { class: 'btn sm' + (active === r ? ' primary' : ''), href: '#' + r }, t)));
+  Lab.TRUTH_ROUTES = TRUTH.map((x) => x[0]).concat(['case']);
 
   // How the Lab fits together: a compact, tappable flow used on Explore and the case files page.
   Lab.labMap = () => { const box = (href, t, d) => h('a', { class: 'lm-box', href }, h('b', null, t), d ? h('span', { class: 'tiny muted' }, d) : null);
@@ -307,27 +335,40 @@
 
   Lab.routes.cases = (app) => {
     Lab.setContext('Case files: what happened and how we know, for communist-ruled states and the US alike');
-    let f = 'all'; const list = h('div', { class: 'cf-grid' }), bar = h('div', { class: 'row', style: { gap: '6px', flexWrap: 'wrap' } });
+    let f = 'all', cty = 'all'; const list = h('div', { class: 'cf-grid' }), bar = h('div', { class: 'row', style: { gap: '6px', flexWrap: 'wrap' } }), bar2 = h('div', { class: 'tn-bar', style: { marginTop: '6px' } });
+    const CN = { chn: '🇨🇳 China', rus: '☭ USSR', prk: '🇰🇵 North Korea', khm: '🇰🇭 Cambodia', vnm: '🇻🇳 Vietnam', cub: '🇨🇺 Cuba', usa: '🇺🇸 United States', idn: '🇮🇩 Indonesia' };
     const draw = () => { bar.replaceChildren(...[['all', 'All ' + C.length], ['east', 'Communist-ruled states · ' + C.filter((x) => x.bloc === 'east').length], ['west', 'The US and allies · ' + C.filter((x) => x.bloc === 'west').length]].map(([k, n]) => h('button', { class: 'btn sm' + (f === k ? ' primary' : ''), onclick: () => { f = k; draw(); } }, n)));
-      list.replaceChildren(...C.filter((x) => f === 'all' || x.bloc === f).map(caseCard)); };
+      bar2.replaceChildren(...[['all', 'Every country'], ...Object.entries(CN)].map(([k, n]) => h('button', { class: 'btn sm' + (cty === k ? ' primary' : ''), onclick: () => { cty = k; draw(); } }, n + (k === 'all' ? '' : ' · ' + C.filter((x) => x.iso.includes(k)).length))));
+      const items = C.filter((x) => (f === 'all' || x.bloc === f) && (cty === 'all' || x.iso.includes(cty)));
+      list.replaceChildren(...(items.length ? items.map(caseCard) : [h('p', { class: 'muted' }, 'No case files match.')])); };
     draw();
     app.append(h('section', { class: 'hero', 'data-own': '1' }, h('h1', null, 'Case files: what happened, and how we know'), h('p', null, 'One page per event, with everything in one place: the story, each kind of evidence and how strong it is, how the death toll was counted, whether it was intended, what the government itself admits, and who has reasons to shape the story. The same template and standard for China, the USSR, North Korea, Vietnam, Cambodia and Cuba, and for the United States and its allies.')),
-      visible(), h('div', { class: 'card sticky-wide' }, bar), list, howWeKnow(), Lab.labMap(),
+      visible(), h('div', { class: 'card sticky-wide' }, bar, bar2), list, howWeKnow(), Lab.labMap(),
       h('p', { class: 'tiny muted' }, 'Pictures of violence are behind links, marked ⚠, and hidden for ages 10–12. Every source shows the region it comes from.'));
   };
   Lab.routes.case = (app, [a, b, c]) => {
-    const id = [a, b, c].filter(Boolean).join('-'); const x = BY[id];
+    const id = [a, b, c].filter(Boolean).join('-'); const x = by(id);
     if (!x) { location.hash = '#cases'; return; }
     Lab.setContext('Case file: ' + x.t + ' (' + x.y + ')');
     const gm = Lab.graphicMode ? Lab.graphicMode() : 'blur';
     const evBy = KORDER.filter((k) => x.ev.some((e) => e[0] === k)).map((k) => h('div', { class: 'mp-box' }, h('div', { class: 'small', style: { marginBottom: '4px' } }, h('b', null, KIND[k][0] + ' ' + KIND[k][1])),
       ...x.ev.filter((e) => e[0] === k).map(([, t, d, s, g]) => h('div', { class: 'small', style: { margin: '4px 0' } }, chip(STR[s][0], STR[s][1], 'Strength of this evidence'), ' ', h('b', null, t), ': ' + d, g ? h('span', { class: 'tiny muted' }, gm === 'hide' ? ' (Images hidden for your age setting.)' : ' ⚠ Distressing images in the sources.') : null))));
-    const sec = (t, ...kids) => h('div', { class: 'card' }, h('h3', { style: { marginTop: 0 } }, t), ...kids);
+    const SID = []; const sec = (t, ...kids) => { const sid = 'cfs-' + SID.length; SID.push([sid, t]); return h('div', { class: 'card', id: sid }, h('h3', { style: { marginTop: 0 } }, t), ...kids); };
+    const tl = x.tl ? sec('🗓️ Timeline', h('div', { class: 'cf-tl' }, ...x.tl.map(([d, t]) => h('div', { class: 'cf-tl-row' }, h('div', { class: 'cf-tl-d tiny' }, d), h('div', { class: 'small' }, t))))) : null;
+    const ppl = x.people ? sec('👥 Who decided', h('div', { class: 'stack', style: { gap: '6px' } }, ...x.people.map(([n, r, d]) => h('div', { class: 'mp-box' }, h('b', null, n), h('div', { class: 'tiny muted' }, r), h('p', { class: 'small', style: { margin: '4px 0 0' } }, d))))) : null;
+    const dec = x.dec ? sec('🧠 The decisions: who, what, why, and what happened', h('p', { class: 'tiny muted', style: { marginTop: 0 } }, 'Each turning point: who decided, what they knew at the time, why they chose it (their own reasons and historians’ explanations), and what followed.'),
+      h('div', { class: 'stack', style: { gap: '8px' } }, ...x.dec.map(([when, who, what, knew, why, res], i) => h('div', { class: 'cf-dec' }, h('div', { class: 'row', style: { gap: '6px', alignItems: 'baseline', flexWrap: 'wrap' } }, h('span', { class: 'cf-n' }, String(i + 1)), h('b', null, what)), h('div', { class: 'tiny muted', style: { margin: '2px 0 6px' } }, when + ' · ' + who),
+        h('div', { class: 'small' }, h('b', null, 'What they knew: '), knew), h('div', { class: 'small', style: { marginTop: '4px' } }, h('b', null, 'Why: '), why), h('div', { class: 'small', style: { marginTop: '4px' } }, h('b', null, 'What happened: '), res))))) : null;
+    const plan = x.plan ? sec('🎯 The plan versus what happened', h('div', { class: 'cf-plan' }, h('div', { class: 'cf-plan-h tiny muted' }, 'The aim'), h('div', { class: 'cf-plan-h tiny muted' }, 'The result'), ...x.plan.flatMap(([aim, res]) => [h('div', { class: 'small' }, aim), h('div', { class: 'small' }, res)])),
+      x.table ? h('div', { style: { overflowX: 'auto', marginTop: '10px' } }, h('table', { class: 'cf-table small' }, h('thead', null, h('tr', null, ...x.table.head.map((c) => h('th', null, c)))), h('tbody', null, ...x.table.rows.map((r) => h('tr', null, ...r.map((c) => h('td', null, String(c)))))))) : null,
+      x.table ? h('div', { class: 'tiny muted', style: { marginTop: '4px' } }, 'Data: ' + x.table.src) : null) : null;
+    const charts = x.chart ? [].concat(x.chart) : []; const chart = charts.length ? sec('📈 The data: life and death in ' + charts.map((c) => c.name).join(' and '), ...charts.map((c, i) => h('div', { style: i ? { marginTop: '14px' } : {} }, charts.length > 1 ? h('b', { class: 'small' }, c.name) : null, chartBox(c)))) : null;
+    const jump = h('div', { class: 'tn-bar cf-jump' });
     const regs = [...new Set(x.src.map((s) => s[2]).filter((o) => o && o !== 'open'))].map((o) => REG[o]);
     const others = C.filter((y) => y.id !== x.id && y.iso.some((i) => x.iso.includes(i)));
     app.append(h('section', { class: 'hero', 'data-own': '1' }, h('a', { class: 'crumb', href: '#cases' }, '← All case files'), h('h1', null, x.e + ' ' + x.t), h('p', null, x.y + ' · ' + x.who), h('p', { class: 'small', style: { margin: 0 } }, x.sum)),
       h('div', { class: 'card' }, h('div', { class: 'cf-facts' }, h('div', null, h('div', { class: 'tiny muted' }, 'Death toll or number held'), h('b', null, x.toll[0])), h('div', null, h('div', { class: 'tiny muted' }, 'Was it intended?'), chip(INTENT[x.intent[0]][0], INTENT[x.intent[0]][1])), h('div', null, h('div', { class: 'tiny muted' }, 'Does the government admit it?'), chip(ADMIT[x.admit[0]][0], ADMIT[x.admit[0]][1])))),
-      sec('📖 The story', ...x.story.map((p) => h('p', { class: 'small' }, p))),
+      jump, sec('📖 The story', ...x.story.map((p) => h('p', { class: 'small' }, p))), tl, ppl, dec, plan, chart,
       sec('🔎 The evidence', h('p', { class: 'tiny muted', style: { marginTop: 0 } }, 'Grouped by kind, strongest kinds first. Each piece is marked strong, good or limited.'), h('div', { class: 'stack', style: { gap: '6px' } }, ...evBy)),
       sec('🔢 How the number was counted', h('p', { class: 'small', style: { marginTop: 0 } }, h('b', null, x.toll[0])), h('p', { class: 'small', style: { margin: 0 } }, x.toll[1])),
       sec('🎯 Was it intended?', h('div', { style: { marginBottom: '6px' } }, chip(INTENT[x.intent[0]][0], INTENT[x.intent[0]][1])), h('p', { class: 'small', style: { margin: 0 } }, x.intent[1])),
@@ -339,5 +380,6 @@
           h('button', { class: 'btn sm', onclick: () => Lab.ask(`Go through the case of "${x.t}" (${x.y}) in depth. For each kind of evidence (the government's own records, leaked files, physical evidence, population data, courts, photos, witnesses), say what exists, who produced it, how it was checked and what it proves. Then explain how the death toll was estimated, what the records show about intent, and what each side gains from its version.`) }, '✦ Go deeper with the tutor'))),
       sec('🔗 Also in the Lab', h('div', { class: 'stack', style: { gap: '4px' } }, ...x.rel.map(([href, t]) => h('a', { class: 'search-hit', href }, h('b', null, t))), ...x.iso.map((i) => h('a', { class: 'search-hit', href: '#country-' + i + '-everything' }, h('b', null, 'Everything the Lab has on this country (' + i.toUpperCase() + ')'))),
         ...others.map((y) => h('a', { class: 'search-hit', href: '#case-' + y.id }, h('b', null, '📂 ' + y.t), h('span', { class: 'tiny muted' }, y.y))))));
+    jump.replaceChildren(h('span', { class: 'tiny muted', style: { alignSelf: 'center', whiteSpace: 'nowrap' } }, 'Jump to:'), ...[...app.querySelectorAll('[id^="cfs-"]')].map((el) => h('button', { class: 'btn sm', onclick: () => el.scrollIntoView({ behavior: 'smooth', block: 'start' }) }, (el.querySelector('h3') || {}).textContent.replace(/^\S+\s/, '').split(':')[0])));
   };
 })();
