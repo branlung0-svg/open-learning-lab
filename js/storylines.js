@@ -65,6 +65,6 @@
   Lab.labDoors = () => { const d = (href, e, t, sub) => h('a', { class: 'door', href }, h('span', { class: 'door-e' }, e), h('b', null, t), h('span', { class: 'tiny muted' }, sub));
     return h('div', { class: 'card' }, h('h3', { style: { marginTop: 0 } }, 'Where do you want to start?'), h('div', { class: 'doors' },
       d('#countries', '🌍', 'Countries', 'Government, history, data, pictures and sources for all 196'), d('#explore', '📚', 'Subjects', '24 disciplines, each with everything the Lab has on it'),
-      d('#cases', '🔎', 'Evidence & truth', 'Case files, claims checked, death tolls, lies, sources'), d('#story', '🧵', 'Story lines', 'How one event led to the next, from 1921 to today')),
+      d('#cases', '🔎', 'Evidence & truth', 'Case files, claims checked, death tolls, lies, sources'), d('#path', '🧵', 'Paths & story lines', 'Marx and after; China 1921–today; math from zero')), Lab.followList ? Lab.followList() : null,
       h('a', { class: 'tiny', href: '#explore', style: { display: 'inline-block', marginTop: '8px' } }, '🗺️ See how the whole Lab fits together →')); };
 })();

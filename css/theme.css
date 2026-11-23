@@ -348,3 +348,5 @@ a:hover{text-decoration-thickness:2px}
 .sl-chain{display:flex;flex-direction:column;gap:0}.sl-chain .sl-era{margin:6px 0;border-left:4px solid #1E3A8A}
 .sl-why{padding:6px 8px;border-radius:8px;background:color-mix(in srgb,#64748B 8%,transparent);margin-top:6px}
 .sl-led{padding:6px 8px;border-radius:8px;background:color-mix(in srgb,#1E3A8A 8%,transparent);margin-top:6px}
+.pm-two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:560px){.pm-two{grid-template-columns:1fr}}

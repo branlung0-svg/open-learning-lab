@@ -184,3 +184,9 @@ Open: the first loop run starts with CAP-0.
 - Intent rating made consistent: the US bombing of North Korea is now "Knew and kept going", the same test as the Great Leap; ICE explains why it is not (yet) rated that way.
 - js/storylines.js: #story and #story-china (13 eras 1921–today: what happened, why, what it led to, case links; six threads; 12 sources incl. Chinese state media). Each case file shows its place in the story.
 - Home: four doors (Countries, Subjects, Evidence & truth, Story lines) under the hero; Lab map, Explore, country pages link story lines.
+
+## 2026-11-23 — Follow the money, Marx path, follow pages (MONEY-1, PATH-1, ORG-4)
+- js/money.js (#money): seven channels of influence, both directions, "public money is not state control", 18 documented cases (US/UK 8, Middle East 5, China/Russia 5) graded by evidence, six-step tracing method, free tools. Added to the Evidence & truth bar and Lab map.
+- js/pathmarx.js (#path, #path-marx): ten sections — Marx's eight core ideas with original texts, myths, heirs (Lenin to Deng, anarchists), the record (worked/failed/debated), how it was opposed (incl. Soviet suppression of reformers), critiques and replies, hegemony, current experiments with evidence and limits, next-century risks, how to study it, free reading list.
+- Fact-check usa-resources (partly true, grade A) on #verify-usa.
+- js/follow.js: "Follow this page" on countries, subjects, case files, story lines, paths and evidence pages; "Your pages" on the home page. Home door 4 is now Paths & story lines.
