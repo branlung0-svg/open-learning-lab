@@ -132,6 +132,8 @@
           add('⛓️ Oppression and suffering', op, 'Who held power, who suffered, how, and the evidence.');
           const li = (Lab.LIES || []).filter((x) => re.test([x[3], x[5], x[6], x[7]].join(' '))).map((x) => ['#lies', '🕵️ ' + x[5], x[4] + ' · ' + x[3]]);
           add('🕵️ Lies and propaganda involving ' + c.n, li, 'Documented cases, by whoever told the lie.');
+          const vf = (Lab.verifyFor ? Lab.verifyFor(c.id) : []).map((x) => ['#verify-' + c.id, '🔬 “' + x[3].slice(0, 90) + (x[3].length > 90 ? '…' : '') + '”', 'Verdict: ' + x[5] + ' · evidence ' + x[6]]);
+          add('🔬 Claims about ' + c.n + ' checked', vf, 'Traced to their source and graded on the evidence.');
           const ev = ((Lab.MODERN && Lab.MODERN.events) || []).filter((x) => re.test((x.place || '') + ' ' + x.t + ' ' + (x.what || ''))).sort((a, b) => a.y - b.y).map((x) => ['#history-modern-timeline-ev-' + x.id, (x.y2 && x.y2 !== x.y ? x.y + '–' + x.y2 : x.y) + ' · ' + x.t, (x.what || '').slice(0, 120)]);
           add('🗓️ Events in the Modern-world timeline', ev);
           const here = [['#country-' + c.id + '-places', 'Pictures of ' + c.n, 'Heritage, cities, land, daily life, history: place-checked'], ['#country-' + c.id + '-data', 'Life in numbers since 1800', 'Income, life expectancy, child deaths, democracy, population, poverty, emissions'], ['#country-' + c.id + '-history', 'History on this page', 'Timeline and the whole story'], ['#country-' + c.id + '-sources', 'Sources and perspectives', 'Official, independent and foreign sources'],

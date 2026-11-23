@@ -86,7 +86,7 @@
       h('div', { class: 'card' }, h('div', { class: 'row', style: { gap: '14px', flexWrap: 'wrap' } }, Object.entries(BLOC).map(([k, [n, col]]) => h('div', null, h('b', { style: { fontSize: '26px', color: col } }, String(t[k])), h('div', { class: 'tiny muted' }, n)))),
         h('p', { class: 'tiny muted', style: { margin: '8px 0 0' } }, 'Counted so the balance can be checked. Western: the US, UK, France, Nazi Germany and Western companies. A case belongs to whoever told the lie.')),
       h('div', { class: 'card' }, h('h3', { style: { marginTop: 0 } }, 'Spot it yourself'), h('div', { class: 'grid g2' }, SPOT.map(([n, d]) => h('div', { class: 'mp-box' }, h('b', null, n), h('p', { class: 'small', style: { margin: '4px 0 0' } }, d))))),
-      h('div', { class: 'card', style: { position: 'sticky', top: '58px', zIndex: 6, padding: '8px 10px' } }, chips, h('div', { style: { height: '6px' } }), bchips), list,
+      h('div', { class: 'card sticky-wide', style: { padding: '8px 10px' } }, chips, h('div', { style: { height: '6px' } }), bchips), list,
       h('div', { class: 'card' }, h('p', { class: 'small', style: { margin: 0 } }, 'Not included: claims that are still genuinely disputed among serious investigators (for example, exactly how COVID-19 first reached people). Those belong in ', h('a', { href: '#history-modern-claims' }, 'Test the claims'), ', where each side’s evidence is weighed. Found an error? ', h('a', { href: '#review' }, 'Tell us'), '.')));
     draw();
   };

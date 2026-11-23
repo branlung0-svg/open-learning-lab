@@ -50,12 +50,6 @@
     h('div', { class: 'tiny' }, 'Sources: ', ...src.map(([n, u], k) => [k ? ' · ' : '', h('a', { href: u, target: '_blank', rel: 'noopener' }, n + ' ↗')]).flat()),
     h('button', { class: 'btn sm', style: { marginTop: '8px' }, onclick: () => Lab.ask(`Explain "${t}" (${lab}) in depth for a curious learner: what happened, the evidence and how it was gathered, who discovered it in which countries, the history of how scientists changed their minds, and what is still debated. Suggest one simple experiment or observation I can do myself.`, 'How we got here: ' + t) }, '✦ Go deeper with the tutor'));
   Lab.ORIGINS = S; Lab.originsUrls = () => S.flatMap((x) => x[9].map((q) => (q[2] ? q[1] + '#@' + q[2] : q[1])));
-  // A door to this path on the discipline pages it draws from.
-  const baseD = Lab.routes.d; const DISC = ['physics', 'earthspace', 'chemistry', 'biology', 'anthropology', 'history', 'linguistics'];
-  if (baseD) Lab.routes.d = (app, args) => { const r = baseD(app, args); const id = args && args[0];
-    if (DISC.includes(id)) { const n = S.filter((x) => x[10] === id).length; const card = h('a', { class: 'card feat-card', href: '#origins' }, h('b', null, '🌌 How we got here: from the Big Bang to today →'), h('span', { class: 'small' }, '18 steps with the evidence and the people who worked it out' + (n ? `, ${n} of them from this discipline.` : '.')));
-      const hero = app.querySelector('.hero'); if (hero) hero.after(card); else app.prepend(card); }
-    return r; };
   Lab.routes.origins = (app) => {
     Lab.setContext('How we got here: from the Big Bang to today');
     app.append(h('section', { class: 'hero', 'data-own': '1' }, h('a', { class: 'crumb', href: '#home' }, '← Home'), h('h1', null, 'How we got here: from the Big Bang to today'),

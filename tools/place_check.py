@@ -25,6 +25,8 @@ US_STATES = ('Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|De
              'Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|New Hampshire|'
              'New Jersey|New Mexico|New York|North Carolina|North Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode Island|South Carolina|'
              'South Dakota|Tennessee|Texas|Utah|Vermont|Virginia|Washington|West Virginia|Wisconsin|Wyoming')
+# Country names that are also ordinary words or other places (Catalan 'palau' = palace, the river Jordan, the bird).
+AMBIG = {'Palau', 'Jordan', 'Niger', 'Turkey', 'Chile', 'Panama', 'Guinea', 'Dominica', 'Grenada'}
 STATE_AFTER = re.compile(r'^,?\s*(' + US_STATES + r')\b')
 US_CAT = re.compile(r'(,\s*(' + US_STATES + r')\b|\b(in|of) (' + US_STATES + r')\b|\bUnited States\b)')
 US_DESC = re.compile(r',\s*(' + US_STATES + r')\b')
@@ -100,7 +102,7 @@ def main():
                 res[k] = ['drop', 'United States place: ' + (US_CAT.search(ct) or US_DESC.search(desc)).group(0).strip(', ')]
             elif named(ct, names) or named(desc, names): res[k] = ['ok', 'categories']
             else:
-                other = next((L[c]['n'] for c in L if c not in ok and len(L[c]['n']) > 4 and re.search(r'\b' + re.escape(L[c]['n']) + r'\b', ct)), None)
+                other = next((L[c]['n'] for c in L if c not in ok and len(L[c]['n']) > 4 and L[c]['n'] not in AMBIG and re.search(r'\b' + re.escape(L[c]['n']) + r'\b', ct)), None)
                 res[k] = ['drop', 'categories name ' + other] if other else ['unknown', '']
         time.sleep(0.5)
         print(i + len(part), 'checked', flush=True)
