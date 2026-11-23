@@ -1364,18 +1364,13 @@
    ],
    [
     "FI–BP–PPE",
-    19,
+    18,
     null
    ],
    [
     "FI",
     18,
     null
-   ],
-   [
-    "DC",
-    1,
-    "#637FCF"
    ],
    [
     "NM",
@@ -1401,9 +1396,14 @@
     "UdC",
     1,
     null
+   ],
+   [
+    "Mixed",
+    2,
+    null
    ]
   ],
-  "raw": "'''[[Meloni government|Government]] (112)'''\n* {{Color box|{{party color|Brothers of Italy}}|border=silver}} [[Brothers of Italy|FdI]] (63)\n* {{Color box|{{party color|Lega (political party)}}|border=silver}} [[Lega (political party)|LSP]]–[[Sardinian Action Party|PSd'Az]] (30){{efn|\n* {{Color box|{{party color|Lega (political party)}}|border=silver}} [[Lega (political party)|Lega]] (30){{efn|\n* {{Color box|#39B5BD|border=silver}} [[Fassa Association|AF]] ([[Elena Testor|1]])}}}}\n* {{Color box|{{party color|Forza Italia (2013)}}|border=silver}} [[Forza Italia (2013)|FI–BP–PPE]] (19){{efn|\n* {{Color box|{{party color|Forza Italia (2013)}}|border=silver}} [[Forza Italia (2013)|FI]] (18)\n* {{Color box|#637FCF|border=silver}} [[Christian Democracy (Italy, 2023)|DC]] ([[Raffaele De Rosa|1]])}}\n<!--\n-->'''[[Confidence and supply|Supported by]] (8)'''\n* {{nowrap|{{Color box|{{party color|Us Moderates}}|border=silver}} [[Civics of Italy|CdI]] (7)}}{{efn|\n* {{Color box|{{party color|Us Moderates}}|border=silver}} [[Us Moderates|NM]] (3){{efn|\n* {{Color box|{{party color|Associative Movement Italians Abroad}}|border=silver}} [[Associative Movement of Italians Abroad|MAIE]] ([[Mario Borghese|1]])}}\n* {{Color box|{{party color|Brothers of Italy}}|border=silver}} [[Brothers of Italy|FdI]] (2)\n* {{Color box|{{party color|Coraggio Italia}}|border=silver}} [[Coraggio Italia|CI]] ([[Michaela Biancofiore|1]])\n* {{Color box|{{party color|Union of the Centre (2002)}}|border=silver}} [[Union of t"
+  "raw": "'''[[Meloni government|Government]] (111)'''\n* {{Color box|{{party color|Brothers of Italy}}|border=silver}} [[Brothers of Italy|FdI]] (63)\n* {{Color box|{{party color|Lega (political party)}}|border=silver}} [[Lega (political party)|LSP]]–[[Sardinian Action Party|PSd'Az]] (30){{efn|\n* {{Color box|{{party color|Lega (political party)}}|border=silver}} [[Lega (political party)|Lega]] (30){{efn|\n* {{Color box|#39B5BD|border=silver}} [[Fassa Association|AF]] ([[Elena Testor|1]])}}}}\n* {{Color box|{{party color|Forza Italia (2013)}}|border=silver}} [[Forza Italia (2013)|FI–BP–PPE]] (18){{efn|\n* {{Color box|{{party color|Forza Italia (2013)}}|border=silver}} [[Forza Italia (2013)|FI]] (18)\n}}\n<!--\n-->'''[[Confidence and supply|Supported by]] (9)'''\n* {{nowrap|{{Color box|{{party color|Us Moderates}}|border=silver}} [[Civics of Italy|CdI]] (7)}}{{efn|\n* {{Color box|{{party color|Us Moderates}}|border=silver}} [[Us Moderates|NM]] (3){{efn|\n* {{Color box|{{party color|Associative Movement Italians Abroad}}|border=silver}} [[Associative Movement of Italians Abroad|MAIE]] ([[Mario Borghese|1]])}}\n* {{Color box|{{party color|Brothers of Italy}}|border=silver}} [[Brothers of Italy|FdI]] (2)\n* {{Color box|{{party color|Coraggio Italia}}|border=silver}} [[Coraggio Italia|CI]] ([[Michaela Biancofiore|1]])\n* {{Color box|{{party color|Union of the Centre (2002)}}|border=silver}} [[Union of the Centre (2002)|UdC]] ([[Antonio De Poli|1]])}}\n* {{Color box|{{party color|Independent}}|border=silve"
  },
  "ita Chamber of Deputies (Italy)": {
   "seats": 400,
@@ -1425,22 +1425,22 @@
    ],
    [
     "Lega",
-    54,
+    55,
     null
    ],
    [
     "Lega",
-    54,
+    55,
     null
    ],
    [
     "FI–PPE",
-    52,
+    50,
     null
    ],
    [
     "FI",
-    52,
+    50,
     null
    ],
    [
@@ -1469,7 +1469,7 @@
     null
    ]
   ],
-  "raw": "'''[[Meloni Cabinet|Government]] (223)'''\n* {{Color box|{{party color|Brothers of Italy}}|border=silver}} [[Brothers of Italy|FdI]] (117){{efn|\n* {{Color box|{{party color|Brothers of Italy}}|border=silver}} [[Brothers of Italy|FdI]] (116)\n* {{Color box|#4889A3|border=silver}} [[Christian Democracy with Rotondi|DCR]] ([[Gianfranco Rotondi|1]])}}\n<!--\n-->\n* {{Color box|{{party color|Lega (political party)}}|border=silver}} [[Lega (political party)|Lega]] (54){{efn|\n* {{Color box|{{party color|Lega (political party)}}|border=silver}} [[Lega (political party)|Lega]] (54){{efn|\n* {{Color box|#A5C1D1|border=silver}} {{abbr|LCD|Christian Democratic Liberals}} ([[Andrea de Bertoldi|1]])}}}}\n<!--\n-->\n* {{Color box|{{party color|Forza Italia (2013)}}|border=silver}} [[Forza Italia (2013)|FI–PPE]] (52){{efn|\n* {{Color box|{{party color|Forza Italia (2013)}}|border=silver}} [[Forza Italia (2013)|FI]] (52){{efn|\n* {{Color box|{{party color|New Italian Socialist Party}}|border=silver}} [[New Italian Socialist Party|NPSI]] ([[Alessandro Battilocchio|1]])}}}}\n<!--\n-->'''[[Confidence and supply|Supported by]] (13)'''\n* {{Color box|{{party color|Us Moderates}}|border=silver}} [[Us Moderates|NM]]–[[Associative Movement of Italians Abroad|MAIE]]–[[Mara Carfagna|CP]] (8){{efn|\n* {{Color box|{{party color|Us Moderates}}|border=silver}} [[Us Moderates|NM]] (7){{efn|\n* {{Color box|#00519E|border=silver}} [[Cantiere Popolare|CP]] ([[Francesco Saverio Romano|1]])\n* {{Color box|{{party color|Associati"
+  "raw": "'''[[Meloni Cabinet|Government]] (222)'''\n* {{Color box|{{party color|Brothers of Italy}}|border=silver}} [[Brothers of Italy|FdI]] (117){{efn|\n* {{Color box|{{party color|Brothers of Italy}}|border=silver}} [[Brothers of Italy|FdI]] (116)\n* {{Color box|#4889A3|border=silver}} [[Christian Democracy with Rotondi|DCR]] ([[Gianfranco Rotondi|1]])}}\n<!--\n-->\n* {{Color box|{{party color|Lega (political party)}}|border=silver}} [[Lega (political party)|Lega]] (55){{efn|\n* {{Color box|{{party color|Lega (political party)}}|border=silver}} [[Lega (political party)|Lega]] (55){{efn|\n* {{Color box|#A5C1D1|border=silver}} {{abbr|LCD|Christian Democratic Liberals}} ([[Andrea de Bertoldi|1]])}}}}\n<!--\n-->\n* {{Color box|{{party color|Forza Italia (2013)}}|border=silver}} [[Forza Italia (2013)|FI–PPE]] (50){{efn|\n* {{Color box|{{party color|Forza Italia (2013)}}|border=silver}} [[Forza Italia (2013)|FI]] (50){{efn|\n* {{Color box|{{party color|New Italian Socialist Party}}|border=silver}} [[New Italian Socialist Party|NPSI]] ([[Alessandro Battilocchio|1]])}}}}\n<!--\n-->'''[[Confidence and supply|Supported by]] (14)'''\n* {{Color box|{{party color|Us Moderates}}|border=silver}} [[Us Moderates|NM]]–[[Associative Movement of Italians Abroad|MAIE]]–[[Mara Carfagna|CP]] (8){{efn|\n* {{Color box|{{party color|Us Moderates}}|border=silver}} [[Us Moderates|NM]] (7){{efn|\n* {{Color box|#00519E|border=silver}} [[Cantiere Popolare|CP]] ([[Francesco Saverio Romano|1]])\n* {{Color box|{{party color|Associati"
  },
  "jey States Assembly": {
   "seats": null,
@@ -2473,7 +2473,7 @@
     null
    ]
   ],
-  "raw": "'''Government ([[Third Cabinet of Donald Tusk|Tusk III]]) (239)'''\n* {{color box|{{party color|Civic Coalition (party)}}}} [[Civic Coalition (Poland)|KO]] (156){{efn|\n* {{color box|{{party color|Civic Coalition (party)}}}} [[Civic Coalition (party)|KO]] (142)\n* {{color box|{{party color|The Greens (Poland, 2022)}}}} [[The Greens (Poland)|Greens]] (2)\n* {{color box|{{party color|AGROunia}}}} [[AGROunia|AU]] (1)\n* {{color box|#38B973}} [[Forward! (Poland)|Forward!]] (1)\n* {{color box|{{party color|Independent}}}} [[Independent politician|Independent]] (10){{efn|Endorsed by [[Civic Coalition (party)|KO]]: [[Franciszek Sterczewski]], [[Bogusław Wołoszański]], [[Apoloniusz Tajner]], [[Piotr Adamowicz]], [[Iwona Hartwich]], [[Rafał Siemaszko]], [[Sylwia Bielawska]], [[Alicja Chybicka]], [[Łukasz Ścieborowski]], [[Renata Rak]]}}}}\n* {{color box|{{party color|Polish People's Party}}}} [[Polish_Coalition|KP]] (32){{efn|\n* {{color box|{{party color|Polish People's Party (2019)}}}} [[Polish People's Party|PSL]] (28)\n* {{color box|#993333}} [[Centre for Poland|CdP]] (3)\n* {{color box|{{party color|Independent politician}}}} [[Independent politician|Independent]] (1){{efn|Endorsed by [[Polish People's Party|PSL]]: [[Marek Biernacki]]}}}}\n* {{color box|{{party color|The Left (Poland)}}}} [[The Left (Poland)|The Left]] (21){{efn|\n* {{color box|{{party color|New Left (Poland)}}}} [[New Left (Poland)|NL]] (19)\n* {{color box|#0B3056}} [[Common Tomorrow|WJ]] (2)}}\n* {{color box|#0b42a6}} [[Cent"
+  "raw": "'''Government ([[Third Cabinet of Donald Tusk|Tusk III]]) (239)'''\n* {{color box|{{party color|Civic Coalition (party)}}}} [[Civic Coalition (Poland)|KO]] (156){{efn|\n* {{color box|{{party color|Civic Coalition (party)}}}} [[Civic Coalition (party)|KO]] (142)\n* {{color box|{{party color|The Greens (Poland, 2022)}}}} [[The Greens (Poland)|Greens]] (2)\n* {{color box|{{party color|AGROunia}}}} [[AGROunia|AU]] (1)\n* {{color box|#38B973}} [[Forward! (Poland)|Forward!]] ([[Małgorzata Tracz|1]])\n* {{color box|{{party color|Independent}}}} [[Independent politician|Independent]] (10){{efn|Endorsed by [[Civic Coalition (party)|KO]]: [[Franciszek Sterczewski]], [[Bogusław Wołoszański]], [[Apoloniusz Tajner]], [[Piotr Adamowicz]], [[Iwona Hartwich]], [[Rafał Siemaszko]], [[Sylwia Bielawska]], [[Alicja Chybicka]], [[Łukasz Ścieborowski]], [[Renata Rak]]}}}}\n* {{color box|{{party color|Polish People's Party}}}} [[Polish_Coalition|KP]] (32){{efn|\n* {{color box|{{party color|Polish People's Party (2019)}}}} [[Polish People's Party|PSL]] (28)\n* {{color box|#993333}} [[Centre for Poland|CdP]] (3)\n* {{color box|{{party color|Independent politician}}}} [[Independent politician|Independent]] (1){{efn|Endorsed by [[Polish People's Party|PSL]]: [[Marek Biernacki]]}}}}\n* {{color box|{{party color|The Left (Poland)}}}} [[The Left (Poland)|The Left]] (21){{efn|\n* {{color box|{{party color|New Left (Poland)}}}} [[New Left (Poland)|NL]] (19)\n* {{color box|#0B3056}} [[Common Tomorrow|WJ]] (2)}}\n* {{color"
  },
  "pri House of Representatives of Puerto Rico": {
   "seats": 53,
