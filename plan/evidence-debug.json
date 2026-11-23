@@ -50,9 +50,9 @@
   ]
  },
  "genocides": {
-  "rows": 53,
+  "rows": 52,
   "with_refs": 0,
-  "with_numbers": 5,
+  "with_numbers": 47,
   "notes": 0,
   "heads": [
    [
@@ -64,19 +64,19 @@
   ],
   "sample": [
    {
-    "name": "From",
-    "when": "Lowest",
-    "where": "To",
-    "estimate": "Highest",
-    "low": null,
-    "high": null,
-    "refs": []
-   },
-   {
     "name": "Gaza genocide",
     "when": "2023",
     "where": "Israeli-occupied Gaza Strip, Palestine",
-    "estimate": "Present",
+    "estimate": "73,400 \u2013 335,500",
+    "low": 73400.0,
+    "high": 335500.0,
+    "refs": []
+   },
+   {
+    "name": "Blockade of Nagorno-Karabakh and expulsion of Nagorno-Karabakh Armenians",
+    "when": "2022",
+    "where": "Nagorno-Karabakh, Azerbaijan",
+    "estimate": " \u2013 ",
     "low": null,
     "high": null,
     "refs": []
