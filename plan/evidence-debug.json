@@ -18,16 +18,105 @@
  "famines": {
   "rows": 128,
   "with_refs": 0,
-  "with_numbers": 124
+  "with_numbers": 124,
+  "notes": 0,
+  "heads": [
+   [
+    "Date",
+    "Event",
+    "Location",
+    "Death toll (where known; estimated)"
+   ]
+  ],
+  "sample": [
+   {
+    "name": "Famine recorded throughout Near East and Levant, as recorded by Josephus[citation needed]",
+    "when": "26 BC",
+    "where": "Judea",
+    "estimate": "20,000+",
+    "low": 20000.0,
+    "high": 20000.0,
+    "refs": []
+   },
+   {
+    "name": "Severe drought killed millions of Maya people due to famine and thirst and initiated a cascade of internal collapses that destroyed their civilization.[page nee",
+    "when": "800\u20131000",
+    "where": "Mayan areas of Mesoamerica",
+    "estimate": "1,000,000+",
+    "low": 1000000.0,
+    "high": 1000000.0,
+    "refs": []
+   }
+  ]
  },
  "genocides": {
   "rows": 53,
   "with_refs": 0,
-  "with_numbers": 5
+  "with_numbers": 5,
+  "notes": 0,
+  "heads": [
+   [
+    "Event",
+    "Location",
+    "Period",
+    "Estimated killings"
+   ]
+  ],
+  "sample": [
+   {
+    "name": "From",
+    "when": "Lowest",
+    "where": "To",
+    "estimate": "Highest",
+    "low": null,
+    "high": null,
+    "refs": []
+   },
+   {
+    "name": "Gaza genocide",
+    "when": "2023",
+    "where": "Israeli-occupied Gaza Strip, Palestine",
+    "estimate": "Present",
+    "low": null,
+    "high": null,
+    "refs": []
+   }
+  ]
  },
  "wars": {
   "rows": 129,
   "with_refs": 0,
-  "with_numbers": 129
+  "with_numbers": 129,
+  "notes": 0,
+  "heads": [
+   [
+    "War",
+    "Death range",
+    "Date",
+    "Combatants",
+    "Location",
+    "% of global population (rough estimates)"
+   ]
+  ],
+  "sample": [
+   {
+    "name": "World War II",
+    "when": "1939\u20131945",
+    "where": "Global",
+    "estimate": "70\u201385 million",
+    "low": 70000000.0,
+    "high": 85000000.0,
+    "refs": []
+   },
+   {
+    "name": "Taiping Rebellion",
+    "when": "1850\u20131864",
+    "where": "China",
+    "estimate": "20\u201370 million",
+    "low": 20000000.0,
+    "high": 70000000.0,
+    "refs": []
+   }
+  ]
  }
 }
