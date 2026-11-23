@@ -1,0 +1,111 @@
+[
+ {
+  "file": "js/casefiles.js",
+  "old": "intent: ['disputed', 'The January 1933 decree and the blacklists are written orders that targeted Ukraine and the Kuban. Historians such as Robert Conquest, Andrea Graziosi and Anne Applebaum see a deliberate attack on Ukrainians; others, such as R. W. Davies and Stephen Wheatcroft, find criminal policies but no plan to kill.'],",
+  "new": "intent: ['knew', 'Stalin’s government received reports of mass starvation and kept the quotas, the blacklists, the border closure and the grain exports. That meets the same test used for China’s famine. What is disputed is genocide, an intent to destroy Ukrainians as a group: historians such as Robert Conquest, Andrea Graziosi and Anne Applebaum say yes; others, such as R. W. Davies and Stephen Wheatcroft, find criminal policies but no plan to kill.'],",
+  "problem": "Inconsistent rating: the Soviet famine was rated “disputed” while China’s famine, with the same evidence of leaders knowing and continuing, was rated “knew and kept going”. Now rated the same way; the genocide question stays marked as disputed.",
+  "severity": "framing",
+  "sources": [
+   "https://ewjus.com/index.php/ewjus/article/download/217/85"
+  ],
+  "area": "Case file: Soviet famine 1932–33",
+  "page": "case-su-famine"
+ },
+ {
+  "file": "js/casefiles.js",
+  "old": "toll: ['About 25,000 to 35,000 detained; deaths and suicides reported in the hundreds', 'Estimates from Cuban and exile researchers and survivors; Cuba has not released records.'],",
+  "new": "toll: ['About 25,000 to 38,000 detained; at least 72 deaths and 180 suicides documented', 'Estimates from Cuban and exile researchers and survivors (one study lists 72 deaths and 507 psychiatric hospitalisations; another counts 180 suicides). Cuba has not released records.'],",
+  "problem": "Vague figure: “deaths and suicides in the hundreds” replaced with the documented counts and the range of estimates for people held.",
+  "severity": "precision",
+  "sources": [
+   "https://en.cibercuba.com/noticias/2026-06-22-u1-e43231-s27061-nid333027-umap-despertaban-400-am-trabajaban-desmayarse",
+   "https://en.wikipedia.org/wiki/Military_Units_to_Aid_Production"
+  ],
+  "area": "Case file: Cuba’s UMAP camps",
+  "page": "case-cub-umap"
+ },
+ {
+  "file": "js/casefiles-deep.js",
+  "old": "admit: ['partly', 'North Korea blames floods, the Soviet collapse and US sanctions, and calls it the Arduous March. It has not released a full death count.'],",
+  "new": "admit: ['partly', 'North Korea blames floods, the Soviet collapse and US sanctions, and calls it the Arduous March. Its officials have put the toll at about 220,000–235,000, far below outside estimates.'],",
+  "problem": "Wrong: the page said North Korea had released no death count. Its officials have given a figure of about 220,000–235,000.",
+  "severity": "error",
+  "sources": [
+   "https://nationalinterest.org/node/190454"
+  ],
+  "area": "Case file: North Korea’s 1990s famine",
+  "page": "case-prk-famine"
+ },
+ {
+  "file": "js/casefiles-deep.js",
+  "old": "guards who disobeyed were killed too. Hundreds of S-21’s own staff were executed, according to its records.'",
+  "new": "guards who disobeyed were killed too. Most of S-21’s prisoners were themselves Khmer Rouge cadres, tortured into confessing to being traitors.'",
+  "problem": "Unsupported: “hundreds of S-21’s own staff were executed” could not be confirmed in reliable sources. Replaced with what the US Holocaust Memorial Museum documents: S-21 mostly held the regime’s own cadres.",
+  "severity": "unsupported",
+  "sources": [
+   "https://www.ushmm.org/genocide-prevention/countries/cambodia/s-21"
+  ],
+  "area": "Case file: Cambodia under the Khmer Rouge",
+  "page": "case-khm"
+ },
+ {
+  "file": "js/storylines.js",
+  "old": "Mao himself later said about 700,000 had been killed; historians estimate one to two million deaths in these campaigns.",
+  "new": "Historians estimate one to two million deaths in these campaigns; Mao’s own figure, reportedly given in a 1957 speech, was cut from the published text and cannot be checked.",
+  "problem": "Unsupported as stated: Mao’s reported figure of about 700,000 comes from the unpublished version of a 1957 speech; the published text differs from what he said. Now marked as unverifiable.",
+  "severity": "unsupported",
+  "sources": [
+   "https://www.bard.edu/library/pdfs/archives/2024/12/Zedong-LetAHundredFlowersBloom.pdf"
+  ],
+  "area": "Story line: China 1921–today",
+  "page": "story-china"
+ },
+ {
+  "file": "js/money.js",
+  "old": "'According to leaked files, the UAE paid a private intelligence firm in Geneva to run smear campaigns in Europe against people it linked to Qatar or the Muslim Brotherhood, including planting stories and editing Wikipedia pages.', 'Published by a network of European media (European Investigative Collaborations) in 2023.'",
+  "new": "'According to leaked files, the UAE paid a Geneva private intelligence firm, Alp Services, at least €5.7 million in 2017–20 to target more than 1,000 people and 400 organisations in 18 European countries that it linked to Qatar or the Muslim Brotherhood, including planting stories and paying people to edit Wikipedia.', 'Published by European media (European Investigative Collaborations, led by Mediapart) and the New Yorker in 2023; Belgium summoned the UAE’s ambassador.'",
+  "problem": "Added the documented scale and payments, and how it came out.",
+  "severity": "precision",
+  "sources": [
+   "https://www.middleeasteye.net/news/uae-abu-dhabi-secrets-smear-campaign-explained",
+   "https://bridge.georgetown.edu/wp-content/uploads/2024/01/Alp-Services-FS.pdf"
+  ],
+  "area": "Follow the money",
+  "page": "money"
+ },
+ {
+  "file": "js/money.js",
+  "old": "[['Alp Services (encyclopedia)', W('Alp_Services'), 'open']]",
+  "new": "[['Abu Dhabi Secrets (encyclopedia)', W('Abu_Dhabi_Secrets'), 'open'], ['Middle East Eye: the smear campaign explained', 'https://www.middleeasteye.net/news/uae-abu-dhabi-secrets-smear-campaign-explained', 'me'], ['Georgetown Bridge Initiative: Alp Services', 'https://bridge.georgetown.edu/wp-content/uploads/2024/01/Alp-Services-FS.pdf', 'na']]",
+  "problem": "Weak sourcing: one encyclopedia link replaced with three sources from different regions.",
+  "severity": "sourcing",
+  "sources": [],
+  "area": "Follow the money",
+  "page": "money"
+ },
+ {
+  "file": "js/casefiles-deep.js",
+  "old": "Memorial compiled about 3 million names before Russian courts closed it in 2021.",
+  "new": "Memorial compiled over 3 million names. Russian courts closed the society in 2021; in April 2026 the Supreme Court labelled Memorial “extremist” and its online archives were taken offline (developing).",
+  "problem": "Outdated: said the database closed in 2021. The society was closed then, but its database stayed online until Russia’s Supreme Court labelled Memorial “extremist” in April 2026.",
+  "severity": "outdated",
+  "sources": [
+   "https://www.hrw.org/news/2026/04/10/russia-memorial-rights-group-declared-extremist",
+   "https://en.zona.media/article/2026/06/04/nomemory"
+  ],
+  "area": "Case file: the Great Terror",
+  "page": "case-su-terror"
+ },
+ {
+  "file": "js/casefiles.js",
+  "old": "admit: ['no', 'The surviving leaders denied responsibility at trial; Cambodia’s later governments prosecute and commemorate the crimes.'],",
+  "new": "admit: ['yes', 'Cambodia’s later governments recognise the crimes, joined the UN to set up the tribunal and hold a yearly day of remembrance. The surviving Khmer Rouge leaders denied responsibility at trial.'],",
+  "problem": "Misleading label: the summary said Cambodia “denied” the crimes, but its governments since 1979 recognise them and helped create the tribunal; it was the Khmer Rouge leaders who denied. Now rated the same way as the Soviet cases, by what the state says today.",
+  "severity": "framing",
+  "sources": [
+   "https://www.eccc.gov.kh/en"
+  ],
+  "area": "Case file: Cambodia under the Khmer Rouge",
+  "page": "case-khm"
+ }
+]

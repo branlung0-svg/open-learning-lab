@@ -1,0 +1,231 @@
+[
+{
+"page": "case-khm",
+"area": "Cambodia under the Khmer Rouge",
+"claim": "Hundreds of S-21’s own staff were executed, according to its records.",
+"v": "unsupported",
+"fix": "Removed. Replaced with what the US Holocaust Memorial Museum documents: S-21 mostly held the regime’s own cadres.",
+"src": [
+"https://www.ushmm.org/genocide-prevention/countries/cambodia/s-21"
+],
+"by": "first"
+},
+{
+"page": "case-khm",
+"area": "Cambodia under the Khmer Rouge",
+"claim": "Only a handful of the at least 14,000 prisoners survived.",
+"v": "accurate",
+"fix": "Made precise: 14,000–17,000 held, about 12 believed to have survived.",
+"src": [
+"https://www.ushmm.org/genocide-prevention/countries/cambodia/s-21"
+],
+"by": "first"
+},
+{
+"page": "case-khm",
+"area": "Cambodia under the Khmer Rouge",
+"claim": "Does the government admit it? “Denied.”",
+"v": "misleading",
+"fix": "Re-rated “yes”: Cambodia’s governments since 1979 recognise the crimes and helped set up the tribunal; the Khmer Rouge leaders were the ones who denied.",
+"src": [
+"https://www.eccc.gov.kh/en"
+],
+"by": "first"
+},
+{
+"page": "case-cub-umap",
+"area": "Cuba’s UMAP camps",
+"claim": "About 25,000 to 35,000 detained; deaths and suicides in the hundreds.",
+"v": "context",
+"fix": "Replaced with the documented counts (at least 72 deaths, 180 suicides) and the full range of estimates (25,000–38,000).",
+"src": [
+"https://en.cibercuba.com/noticias/2026-06-22-u1-e43231-s27061-nid333027-umap-despertaban-400-am-trabajaban-desmayarse",
+"https://en.wikipedia.org/wiki/Military_Units_to_Aid_Production"
+],
+"by": "first"
+},
+{
+"page": "case-prk-famine",
+"area": "North Korea’s 1990s famine",
+"claim": "Floods in July and August 1995 hit perhaps 30% of the country.",
+"v": "accurate",
+"fix": "Kept. UN assessment and encyclopedia sources added.",
+"src": [
+"https://en.wikipedia.org/wiki/1990s_North_Korean_famine",
+"https://nautilus.org/wp-content/uploads/2015/07/DPRKUNassess.txt"
+],
+"by": "first"
+},
+{
+"page": "case-prk-famine",
+"area": "North Korea’s 1990s famine",
+"claim": "North Korea has not released a full death count.",
+"v": "wrong",
+"fix": "Fixed: its officials have given about 220,000–235,000, far below outside estimates.",
+"src": [
+"https://nationalinterest.org/node/190454"
+],
+"by": "first"
+},
+{
+"page": "story-china",
+"area": "China story line",
+"claim": "14–20 million Chinese died in the war with Japan.",
+"v": "accurate",
+"fix": "Kept. Source added.",
+"src": [
+"https://www.japantimes.co.jp/culture/2013/08/24/books/book-reviews/chinas-contribution-to-japans-defeat"
+],
+"by": "first"
+},
+{
+"page": "story-china",
+"area": "China story line",
+"claim": "Mao himself later said about 700,000 had been killed (1950–53).",
+"v": "unsupported",
+"fix": "Reworded: the figure comes from the unpublished version of a 1957 speech and cannot be checked against the published text.",
+"src": [
+"https://www.bard.edu/library/pdfs/archives/2024/12/Zedong-LetAHundredFlowersBloom.pdf"
+],
+"by": "first"
+},
+{
+"page": "case-chn-cr",
+"area": "The Cultural Revolution",
+"claim": "About 17 million urban youths were sent to the countryside.",
+"v": "accurate",
+"fix": "Kept. Scholars give 17 to 20 million.",
+"src": [
+"https://muse.jhu.edu/book/26550",
+"https://apjjf.org/wp-content/uploads/2023/11/article-1482.pdf"
+],
+"by": "first"
+},
+{
+"page": "case-su-terror",
+"area": "The Great Terror",
+"claim": "Memorial compiled about 3 million names before Russian courts closed it in 2021.",
+"v": "outdated",
+"fix": "Updated: the database stayed online until April 2026, when Russia’s Supreme Court labelled Memorial “extremist”.",
+"src": [
+"https://www.hrw.org/news/2026/04/10/russia-memorial-rights-group-declared-extremist",
+"https://en.zona.media/article/2026/06/04/nomemory"
+],
+"by": "first"
+},
+{
+"page": "money",
+"area": "Follow the money",
+"claim": "The UAE paid a Geneva firm to run smear campaigns in Europe (Abu Dhabi Secrets).",
+"v": "accurate",
+"fix": "Kept, with the documented scale (at least €5.7 million; over 1,000 people in 18 countries) and three sources from different regions.",
+"src": [
+"https://www.middleeasteye.net/news/uae-abu-dhabi-secrets-smear-campaign-explained",
+"https://bridge.georgetown.edu/wp-content/uploads/2024/01/Alp-Services-FS.pdf"
+],
+"by": "first"
+},
+{
+"page": "case-su-famine",
+"area": "Soviet famine 1932–33",
+"claim": "Intent rated “disputed”, while China’s famine with the same kind of evidence was rated “knew and kept going”.",
+"v": "misleading",
+"fix": "Re-rated “knew and kept going”, with the separate genocide debate still shown as disputed.",
+"src": [],
+"by": "first"
+},
+{
+"page": "case-prk-bombing",
+"area": "The bombing of North Korea",
+"claim": "US intent rated more gently than communist cases with the same evidence.",
+"v": "misleading",
+"fix": "Re-rated “knew and kept going”.",
+"src": [],
+"by": "earlier"
+},
+{
+"page": "case-su-famine",
+"area": "Soviet famine 1932–33",
+"claim": "A quote credited to Stalin.",
+"v": "wrong",
+"fix": "Credited to Molotov, who said it.",
+"src": [],
+"by": "earlier"
+},
+{
+"page": "case-khm",
+"area": "Cambodia under the Khmer Rouge",
+"claim": "“563 S-21 staff were executed.”",
+"v": "unsupported",
+"fix": "Removed; the number could not be sourced.",
+"src": [],
+"by": "earlier"
+},
+{
+"page": "verify",
+"area": "Claim checker",
+"claim": "A reported execution of North Korea’s army chief, Ri Yong-gil (2016).",
+"v": "overstated",
+"fix": "Now says the report proved false when he reappeared alive.",
+"src": [],
+"by": "earlier"
+},
+{
+"page": "verify",
+"area": "Claim checker",
+"claim": "Length of China’s high-speed rail.",
+"v": "outdated",
+"fix": "Updated to about 50,400 km, over 70% of the world total (UIC).",
+"src": [],
+"by": "earlier"
+},
+{
+"page": "case-vnm-land",
+"area": "Vietnam’s land reform",
+"claim": "The high death toll stated as settled.",
+"v": "misleading",
+"fix": "Added Gareth Porter’s finding that the high US figures rested on misused documents.",
+"src": [],
+"by": "earlier"
+},
+{
+"page": "case-chn-xinjiang",
+"area": "Xinjiang",
+"claim": "The crackdown described without the events the government cites.",
+"v": "context",
+"fix": "Added the 2009 Ürümqi riots and the 2013–14 militant attacks.",
+"src": [],
+"by": "earlier"
+},
+{
+"page": "case-chn-xinjiang",
+"area": "Xinjiang",
+"claim": "An older count of detention sites.",
+"v": "outdated",
+"fix": "Updated to over 380 sites found by ASPI satellite research.",
+"src": [
+"https://xjdp.aspi.org.au/"
+],
+"by": "earlier"
+},
+{
+"page": "case-su-famine",
+"area": "Soviet famine 1932–33",
+"claim": "A vague figure for peasants stopped at the borders.",
+"v": "context",
+"fix": "Made precise: about 220,000 caught in one month, from the security police’s own report.",
+"src": [],
+"by": "earlier"
+},
+{
+"page": "path-marx",
+"area": "Path: Marx and after capitalism",
+"claim": "An AI treaty mentioned without its source.",
+"v": "context",
+"fix": "Named: the Council of Europe’s 2024 framework convention.",
+"src": [
+"https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence"
+],
+"by": "earlier"
+}
+]

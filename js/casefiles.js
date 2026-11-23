@@ -93,7 +93,7 @@
         'In 1932 grain quotas stayed high even as harvests failed. Ukrainian villages that missed quotas were blacklisted and stripped of food. A decree of 22 January 1933, signed by Stalin and Molotov, stopped starving peasants from leaving Ukraine and the Kuban to look for bread; in a single month about 220,000 were caught and sent back or arrested.',
         'The famine was denied. When the 1937 census found millions fewer people than expected, the results were suppressed and its organisers arrested and shot.'],
       toll: ['About 5.7 to 8.7 million in the whole USSR; about 3.5 to 5 million in Ukraine', 'Demographers compare the 1926, 1937 and 1939 censuses and Soviet birth and death registers.'],
-      intent: ['disputed', 'The January 1933 decree and the blacklists are written orders that targeted Ukraine and the Kuban. Historians such as Robert Conquest, Andrea Graziosi and Anne Applebaum see a deliberate attack on Ukrainians; others, such as R. W. Davies and Stephen Wheatcroft, find criminal policies but no plan to kill.'],
+      intent: ['knew', 'Stalin’s government received reports of mass starvation and kept the quotas, the blacklists, the border closure and the grain exports. That meets the same test used for China’s famine. What is disputed is genocide, an intent to destroy Ukrainians as a group: historians such as Robert Conquest, Andrea Graziosi and Anne Applebaum say yes; others, such as R. W. Davies and Stephen Wheatcroft, find criminal policies but no plan to kill.'],
       admit: ['partly', 'Russia acknowledges the famine as a tragedy of many peoples but rejects the genocide label. Ukraine and many other countries recognise it as genocide.'],
       ev: [['own', 'The 22 January 1933 directive', 'Signed by Stalin and Molotov; blocks peasants leaving Ukraine and the Kuban.', 'strong'], ['own', 'Blacklists of villages', 'Official lists of villages to be cut off from goods for missing grain quotas.', 'strong'],
         ['demo', 'The suppressed 1937 census', 'Its shortfall revealed the losses; the government buried the results and punished the statisticians.', 'strong'], ['pic', 'Photographs by Alexander Wienerberger', 'An Austrian engineer in Kharkiv photographed the dying in 1933 and smuggled the photos out.', 'good', 1],
@@ -138,11 +138,11 @@
     { id: 'khm', iso: ['khm'], bloc: 'east', e: '💀', t: 'Cambodia under the Khmer Rouge', y: '1975–1979', who: 'The Communist Party of Kampuchea under Pol Pot',
       sum: 'Around a quarter of the population died; the regime photographed and recorded its own victims, and a UN-backed court convicted its leaders of genocide.',
       story: ['In April 1975 the Khmer Rouge took Phnom Penh and emptied the cities. Money, markets, schools and religion were abolished; everyone was forced into farm labour. Educated people, officials of the old government, ethnic Vietnamese, Cham Muslims and suspected traitors were killed.',
-        'At the S-21 prison in Phnom Penh, staff photographed each prisoner, extracted written confessions by torture, and kept the files. Only a handful of the at least 14,000 prisoners survived.',
+        'At the S-21 prison in Phnom Penh, staff photographed each prisoner, extracted written confessions by torture, and kept the files. Of 14,000 to 17,000 prisoners, only about 12 are believed to have survived.',
         'Vietnam invaded and ended the regime in January 1979. Afterwards China, the US and others backed the Khmer Rouge’s claim to Cambodia’s UN seat for over a decade, because they opposed Vietnam.'],
       toll: ['About 1.5 to 2 million of about 8 million people', 'Demographic studies of the population before and after, the mapping of mass graves, and the regime’s own records.'],
       intent: ['ordered', 'The S-21 files and party documents show killing as policy. The UN-backed court found genocide against the Vietnamese and Cham.'],
-      admit: ['no', 'The surviving leaders denied responsibility at trial; Cambodia’s later governments prosecute and commemorate the crimes.'],
+      admit: ['yes', 'Cambodia’s later governments recognise the crimes, joined the UN to set up the tribunal and hold a yearly day of remembrance. The surviving Khmer Rouge leaders denied responsibility at trial.'],
       ev: [['own', 'The S-21 archive', 'Thousands of mugshots taken by the regime’s own photographers, plus confessions and execution logs.', 'strong', 1], ['phys', 'Mass graves', 'The Documentation Center of Cambodia mapped about 19,700 mass grave pits and 196 prisons.', 'strong'],
         ['court', 'The Khmer Rouge Tribunal (ECCC)', 'A Cambodian–UN court convicted S-21’s chief Duch (2010) and the leaders Nuon Chea and Khieu Samphan of genocide and crimes against humanity (2018), after 186 witnesses and experts testified.', 'strong'],
         ['wit', 'Survivors', 'Millions of survivors; thousands gave testimony to the documentation centre and the court.', 'strong']],
@@ -181,7 +181,7 @@
       sum: 'About 25,000–35,000 people, many of them gay men and religious believers, sent to forced-labour camps; Fidel Castro later took responsibility.',
       story: ['The Military Units to Aid Production (UMAP) were set up in Camagüey province in November 1965. Young men judged unfit for the army or “anti-social” were sent there to cut sugar cane: gay men, Jehovah’s Witnesses, Catholics, hippies and others.',
         'Survivors describe beatings, humiliation and attempts to “cure” homosexuality. Famous detainees included the singer Pablo Milanés. After protests by Cuban writers and foreign leftists, the camps closed in 1968.'],
-      toll: ['About 25,000 to 35,000 detained; deaths and suicides reported in the hundreds', 'Estimates from Cuban and exile researchers and survivors; Cuba has not released records.'],
+      toll: ['About 25,000 to 38,000 detained; at least 72 deaths and 180 suicides documented', 'Estimates from Cuban and exile researchers and survivors (one study lists 72 deaths and 507 psychiatric hospitalisations; another counts 180 suicides). Cuba has not released records.'],
       intent: ['ordered', 'A military programme, created by the government.'],
       admit: ['yes', 'In 2010 Fidel Castro told the Mexican paper La Jornada there had been moments of great injustice and that if anyone was responsible, it was him. His niece Mariela Castro has since called the subject exaggerated.'],
       ev: [['own', 'Castro’s 2010 admission', 'In an interview with La Jornada (Mexico).', 'strong'], ['own', 'Cuban newspapers of the time', 'Granma, El Mundo and Verde Olivo reported on the UMAP in 1965–68, in praise.', 'strong'], ['wit', 'Survivors and a foreign journalist', 'Canadian journalist Paul Kidd saw the camps in 1966 and was expelled.', 'good']],
@@ -308,7 +308,7 @@
       h('a', { class: 'tiny', href: '#country-' + spec.iso + '-data' }, 'All the data for ' + spec.name + ' →')); draw(); return box; }
 
   // One navigation bar across every evidence page, so they work as one section.
-  const TRUTH = [['cases', '📂 Case files'], ['verify', '🔬 Claims checked'], ['tolls', '⚖️ Death tolls'], ['lies', '🕵️ Lies'], ['oppression', '⛓️ Oppression'], ['money', '💵 Follow the money'], ['sources', '🏷️ Sources'], ['toolkit', '🧰 Toolkit'], ['method', '📏 Standard']];
+  const TRUTH = [['cases', '📂 Case files'], ['verify', '🔬 Claims checked'], ['tolls', '⚖️ Death tolls'], ['lies', '🕵️ Lies'], ['oppression', '⛓️ Oppression'], ['money', '💵 Follow the money'], ['sources', '🏷️ Sources'], ['toolkit', '🧰 Toolkit'], ['audit', '✅ Accuracy audit'], ['method', '📏 Standard']];
   Lab.truthNav = (active) => h('nav', { class: 'tn-bar', 'aria-label': 'Evidence and truth pages' }, h('span', { class: 'tiny muted', style: { alignSelf: 'center', whiteSpace: 'nowrap' } }, 'Evidence & truth:'), ...TRUTH.map(([r, t]) => h('a', { class: 'btn sm' + (active === r ? ' primary' : ''), href: '#' + r }, t)));
   Lab.TRUTH_ROUTES = TRUTH.map((x) => x[0]).concat(['case']);
 
@@ -360,6 +360,10 @@
       h('div', { class: 'stack', style: { gap: '8px' } }, ...x.dec.map(([when, who, what, knew, why, res], i) => h('div', { class: 'cf-dec' }, h('div', { class: 'row', style: { gap: '6px', alignItems: 'baseline', flexWrap: 'wrap' } }, h('span', { class: 'cf-n' }, String(i + 1)), h('b', null, what)), h('div', { class: 'tiny muted', style: { margin: '2px 0 6px' } }, when + ' · ' + who),
         h('div', { class: 'small' }, h('b', null, 'What they knew: '), knew), h('div', { class: 'small', style: { marginTop: '4px' } }, h('b', null, 'Why: '), why), h('div', { class: 'small', style: { marginTop: '4px' } }, h('b', null, 'What happened: '), res))))) : null;
     const pairs = (t, arr, note) => arr ? sec(t, note ? h('p', { class: 'tiny muted', style: { marginTop: 0 } }, note) : null, h('div', { class: 'stack', style: { gap: '6px' } }, ...arr.map(([n, d]) => h('div', { class: 'mp-box' }, h('b', null, n), h('p', { class: 'small', style: { margin: '4px 0 0' } }, d))))) : null;
+    const SV = { kept: ['Kept', '#047857'], partly: ['Partly true', '#B45309'], twisted: ['Twisted', '#B45309'], broken: ['Broken', '#B91C1C'], false: ['False', '#7F1D1D'] };
+    const said = x.said ? sec('🗣️ What they said versus what happened', h('p', { class: 'tiny muted', style: { marginTop: 0 } }, 'Public claims and promises by those in power, set against the record. Not every claim was a lie: each is graded.'),
+      h('div', { class: 'stack', style: { gap: '6px' } }, ...x.said.map(([who, claim, fact, v]) => h('div', { class: 'mp-box' }, h('div', { class: 'row', style: { gap: '6px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '4px' } }, chip(SV[v][0], SV[v][1]), h('span', { class: 'tiny muted' }, who)),
+        h('div', { class: 'small' }, h('b', null, 'Said: '), claim), h('div', { class: 'small', style: { marginTop: '3px' } }, h('b', null, 'What happened: '), fact))))) : null;
     const world = pairs('🌐 The world as they saw it', x.world, 'The pressures and threats the decision-makers faced. Context explains a choice; it does not decide whether the choice was right.');
     const kept = pairs('🔁 Why they kept going', x.kept, 'What the leaders and the people who carried it out believed, feared or gained, from their own words and from historians.');
     const after = pairs('🕊️ Afterwards: how the people involved were treated and remembered', x.after);
@@ -372,7 +376,7 @@
     const others = C.filter((y) => y.id !== x.id && y.iso.some((i) => x.iso.includes(i)));
     app.append(h('section', { class: 'hero', 'data-own': '1' }, h('a', { class: 'crumb', href: '#cases' }, '← All case files'), h('h1', null, x.e + ' ' + x.t), h('p', null, x.y + ' · ' + x.who), h('p', { class: 'small', style: { margin: 0 } }, x.sum)),
       h('div', { class: 'card' }, h('div', { class: 'cf-facts' }, h('div', null, h('div', { class: 'tiny muted' }, 'Death toll or number held'), h('b', null, x.toll[0])), h('div', null, h('div', { class: 'tiny muted' }, 'Was it intended?'), chip(INTENT[x.intent[0]][0], INTENT[x.intent[0]][1])), h('div', null, h('div', { class: 'tiny muted' }, 'Does the government admit it?'), chip(ADMIT[x.admit[0]][0], ADMIT[x.admit[0]][1])))),
-      jump, sec('📖 The story', ...x.story.map((p) => h('p', { class: 'small' }, p))), tl, ppl, world, dec, kept, after, plan, chart, (Lab.storyFor ? Lab.storyFor(x.id) : null),
+      jump, sec('📖 The story', ...x.story.map((p) => h('p', { class: 'small' }, p))), said, tl, ppl, world, dec, kept, after, plan, chart, (Lab.storyFor ? Lab.storyFor(x.id) : null),
       sec('🔎 The evidence', h('p', { class: 'tiny muted', style: { marginTop: 0 } }, 'Grouped by kind, strongest kinds first. Each piece is marked strong, good or limited.'), h('div', { class: 'stack', style: { gap: '6px' } }, ...evBy)),
       sec('🔢 How the number was counted', h('p', { class: 'small', style: { marginTop: 0 } }, h('b', null, x.toll[0])), h('p', { class: 'small', style: { margin: 0 } }, x.toll[1])),
       sec('🎯 Was it intended?', h('div', { style: { marginBottom: '6px' } }, chip(INTENT[x.intent[0]][0], INTENT[x.intent[0]][1])), h('p', { class: 'small', style: { margin: 0 } }, x.intent[1])),

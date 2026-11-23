@@ -1,0 +1,242 @@
+[
+ {
+  "id": "e00fcbf586",
+  "file": "js/casefiles.js",
+  "line": 211,
+  "tier": 1,
+  "signals": "deaths number",
+  "text": "General Curtis LeMay later said 20% of the population was killed; that was his own boast, not a count."
+ },
+ {
+  "id": "f5bfd01dec",
+  "file": "js/casefiles.js",
+  "line": 102,
+  "tier": 1,
+  "signals": "deaths",
+  "text": "The Soviet government hid the famine, and some Western journalists helped. Today the genocide question is tied to Russia–Ukraine politics, so both governments have reasons to frame it their way. The death and the decrees are not in serious doubt."
+ },
+ {
+  "id": "d9529b8cc3",
+  "file": "js/pathmarx.js",
+  "line": 18,
+  "tier": 1,
+  "signals": "quote",
+  "text": "In context he also called religion “the sigh of the oppressed creature”: comfort for real suffering, which he wanted to end."
+ },
+ {
+  "id": "efbacaacd3",
+  "file": "js/storylines.js",
+  "line": 16,
+  "tier": 1,
+  "signals": "deaths quote number",
+  "text": "Mao invited criticism of the party in 1956–57. When it came, he reversed course: officially 552,877 people were labelled “rightists”, and estimates of those persecuted run from one to two million. Many were sent to labour camps; at Jiabiangou in Gansu, about 2,500 of some 3,000 prisoners died."
+ },
+ {
+  "id": "ac669ee9bd",
+  "file": "js/casefiles.js",
+  "line": 155,
+  "tier": 1,
+  "signals": "deaths quote number",
+  "text": "Thousands executed as “landlords”; the party apologised publicly in 1956; Cold War claims of huge numbers were exaggerated."
+ },
+ {
+  "id": "58b7718390",
+  "file": "js/casefiles.js",
+  "line": 70,
+  "tier": 1,
+  "signals": "deaths label",
+  "text": "Genocide or crimes against humanity: the US and some parliaments say genocide; the UN office said possible crimes against humanity."
+ },
+ {
+  "id": "3bbde34c12",
+  "file": "js/casefiles-deep.js",
+  "line": 80,
+  "tier": 1,
+  "signals": "quote",
+  "text": "Destroy the “Four Olds” (old ideas, culture, customs, habits)"
+ },
+ {
+  "id": "b760d22198",
+  "file": "js/casefiles-deep.js",
+  "line": 86,
+  "tier": 1,
+  "signals": "label",
+  "text": "Order a harsh campaign against terrorism, infiltration and separatism"
+ },
+ {
+  "id": "74950bede5",
+  "file": "js/casefiles.js",
+  "line": 262,
+  "tier": 1,
+  "signals": "deaths current number",
+  "text": "ICE’s own figures show the detained population passing 70,000 for the first time in January 2026. The number of facilities roughly doubled. Deaths in custody rose to the highest level in two decades."
+ },
+ {
+  "id": "7bb364aed8",
+  "file": "js/casefiles.js",
+  "line": 95,
+  "tier": 1,
+  "signals": "deaths number",
+  "text": "Demographers compare the 1926, 1937 and 1939 censuses and Soviet birth and death registers."
+ },
+ {
+  "id": "9e5eadf468",
+  "file": "js/casefiles-deep.js",
+  "line": 63,
+  "tier": 1,
+  "signals": "deaths number",
+  "text": "Wrote the 1959 letter criticising the Leap; purged, and died in 1974 after persecution."
+ },
+ {
+  "id": "819a8aa70d",
+  "file": "js/casefiles.js",
+  "line": 86,
+  "tier": 1,
+  "signals": "deaths",
+  "text": "Whether the registers capture all deaths (for example, prisoners released when near death)."
+ },
+ {
+  "id": "2f0b4be8a5",
+  "file": "js/money.js",
+  "line": 23,
+  "tier": 1,
+  "signals": "label",
+  "text": "Networks of fake accounts pushed pro-US messages in the Middle East and Central Asia."
+ },
+ {
+  "id": "0e10a43c1a",
+  "file": "js/casefiles.js",
+  "line": 22,
+  "tier": 1,
+  "signals": "deaths quote number",
+  "text": "The policy was reversed in 1961–62. For decades the official name was “three years of natural disasters”; drought and floods did happen, but economists find they explain only part of the deaths."
+ },
+ {
+  "id": "3d603b8c77",
+  "file": "js/casefiles.js",
+  "line": 25,
+  "tier": 1,
+  "signals": "deaths number",
+  "text": "China’s 1981 party resolution says the Great Leap caused serious losses. Its official yearbooks show the national death rate jumping from about 11 per thousand in 1957 to 25.4 in 1960. The party’s official history (2011) says the population fell by 10 million in 1960. It does not give a full death toll."
+ },
+ {
+  "id": "73f5b01b5e",
+  "file": "js/casefiles.js",
+  "line": 200,
+  "tier": 1,
+  "signals": "deaths",
+  "text": "Newspapers around the world covered the San Juan Hill executions."
+ },
+ {
+  "id": "c3f95d286c",
+  "file": "js/casefiles-deep.js",
+  "line": 89,
+  "tier": 1,
+  "signals": "quote",
+  "text": "Announce “graduation” and move many detainees into prisons and labour programmes"
+ },
+ {
+  "id": "21c24b1cf2",
+  "file": "js/casefiles-deep.js",
+  "line": 20,
+  "tier": 1,
+  "signals": "quote number",
+  "text": "Foreign television crews were in Beijing for Gorbachev’s visit and filmed the protests, the troops and the wounded. The “Tank Man” was filmed on 5 June."
+ },
+ {
+  "id": "01f2a6bbe3",
+  "file": "js/storylines.js",
+  "line": 19,
+  "tier": 1,
+  "signals": "deaths number",
+  "text": "Mao turned students against the party; the army then restored order with mass purges. 1.1 to 1.6 million died and 22 to 30 million were persecuted. Liu Shaoqi died in detention; Deng was purged twice. Nixon’s visit in 1972 began a new relationship with the US."
+ },
+ {
+  "id": "9f2b20b73a",
+  "file": "js/casefiles-deep.js",
+  "line": 44,
+  "tier": 1,
+  "signals": "deaths",
+  "text": "North Korea blames floods, the Soviet collapse and US sanctions, and calls it the Arduous March. It has not released a full death count."
+ },
+ {
+  "id": "d93a6c701b",
+  "file": "js/casefiles-deep.js",
+  "line": 65,
+  "tier": 1,
+  "signals": "quote",
+  "text": "Purge Peng Dehuai and attack “right deviation” instead of retreating"
+ },
+ {
+  "id": "fbaff2a3b6",
+  "file": "js/casefiles.js",
+  "line": 40,
+  "tier": 1,
+  "signals": "deaths quote number",
+  "text": "In 1966 Mao called on students and workers to attack “bourgeois” officials inside the party. Red Guards humiliated, beat and sometimes killed teachers, officials and people from “bad class” families; temples, books and art were destroyed."
+ },
+ {
+  "id": "3ee9588044",
+  "file": "js/pathmarx.js",
+  "line": 30,
+  "tier": 1,
+  "signals": "deaths number",
+  "text": "China’s life expectancy rose from about 40 around 1950 to about 65 by 1980, faster than India’s, even counting the famine (a comparison made by the economists Jean Drèze and Amartya Sen). Cuba reports infant mortality near rich-country levels; how those figures are counted is disputed."
+ },
+ {
+  "id": "0d856b7119",
+  "file": "js/casefiles-deep.js",
+  "line": 192,
+  "tier": 1,
+  "signals": "deaths quote number",
+  "text": "They had little choice. The 1958 household registration rules tied farmers to their villages, and those who fled were stopped as “vagrants”. Officials who opened granaries or told the truth were struggled against, and some were beaten to death."
+ },
+ {
+  "id": "423ba94981",
+  "file": "js/casefiles.js",
+  "line": 197,
+  "tier": 1,
+  "signals": "deaths number",
+  "text": "Most estimates around 4,000–5,000 executions since 1959; claims range from a few hundred to over 15,000"
+ },
+ {
+  "id": "e5fd98056e",
+  "file": "js/casefiles-deep.js",
+  "line": 68,
+  "tier": 1,
+  "signals": "deaths number",
+  "text": "Canteens ran out within months; the death rate more than doubled by 1960."
+ },
+ {
+  "id": "d4259c968b",
+  "file": "js/casefiles.js",
+  "line": 161,
+  "tier": 1,
+  "signals": "quote number",
+  "text": "In 1972 Gareth Porter showed that the high US figures rested on misused documents and on an author presented as a former party cadre who had never been a party member; presidential speeches had repeated the “bloodbath” claim."
+ },
+ {
+  "id": "307d15a3fa",
+  "file": "js/casefiles.js",
+  "line": 252,
+  "tier": 1,
+  "signals": "deaths quote number",
+  "text": "President Obama banned the methods in 2009 and said “we tortured some folks”; nobody who designed the programme was prosecuted, and CIA videotapes were destroyed."
+ },
+ {
+  "id": "35ee06553a",
+  "file": "js/casefiles-deep.js",
+  "line": 38,
+  "tier": 1,
+  "signals": "deaths",
+  "text": "Hundreds of thousands to about a million died when the state food system collapsed after Soviet aid ended and floods struck; the regime first refused help."
+ },
+ {
+  "id": "680fdf8c05",
+  "file": "js/casefiles-deep.js",
+  "line": 193,
+  "tier": 1,
+  "signals": "deaths quote",
+  "text": "For decades the famine was called “three years of natural disasters”. There is no national memorial; survivors and researchers such as Yang Jisheng still face censorship."
+ }
+]

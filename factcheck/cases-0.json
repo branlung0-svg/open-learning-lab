@@ -1,0 +1,141 @@
+[
+ {
+  "file": "js/casefiles.js",
+  "old": "A quote attributed to Stalin",
+  "new": "The same words credited to Molotov",
+  "problem": "Misattributed quote: words credited to Stalin were Molotov’s.",
+  "severity": "error",
+  "sources": [],
+  "area": "Case file: Soviet famine 1932–33",
+  "page": "case-su-famine"
+ },
+ {
+  "file": "js/casefiles-deep.js",
+  "old": "“563 S-21 staff were executed”",
+  "new": "A general statement, later replaced",
+  "problem": "Unsupported number: the count of S-21 staff executed could not be sourced.",
+  "severity": "error",
+  "sources": [
+   "https://www.ushmm.org/genocide-prevention/countries/cambodia/s-21"
+  ],
+  "area": "Case file: Cambodia under the Khmer Rouge",
+  "page": "case-khm"
+ },
+ {
+  "file": "js/pathmarx.js",
+  "old": "An AI treaty described without its source",
+  "new": "The Council of Europe’s 2024 AI convention",
+  "problem": "Vague claim made specific: the first binding international AI treaty is the Council of Europe’s 2024 framework convention.",
+  "severity": "error",
+  "sources": [
+   "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence"
+  ],
+  "area": "Path: Marx and after capitalism",
+  "page": "path-marx"
+ },
+ {
+  "file": "js/casefiles.js",
+  "old": "US bombing of North Korea rated as unclear intent",
+  "new": "Rated “knew and kept going”",
+  "problem": "Unequal standard: the US bombing of Korea was rated more gently than communist cases with the same evidence that leaders knew the toll and continued. Now rated the same way.",
+  "severity": "framing",
+  "sources": [],
+  "area": "Case file: the bombing of North Korea",
+  "page": "case-prk-bombing"
+ },
+ {
+  "file": "js/verify.js",
+  "old": "An out-of-date length for China’s high-speed rail",
+  "new": "About 50,400 km, over 70% of the world total",
+  "problem": "Outdated figure updated from the international rail union (UIC).",
+  "severity": "outdated",
+  "sources": [],
+  "area": "Claim checker",
+  "page": "verify"
+ },
+ {
+  "file": "js/verify.js",
+  "old": "World Food Programme figures given loosely",
+  "new": "Figures matched to the WFP’s own reports",
+  "problem": "Imprecise figures corrected to match the source.",
+  "severity": "error",
+  "sources": [],
+  "area": "Claim checker",
+  "page": "verify"
+ },
+ {
+  "file": "js/verify.js",
+  "old": "A claim about South Korea’s spy agency and a reported execution",
+  "new": "Marked as a claim later retracted when the officer was seen alive",
+  "problem": "Overstated: a reported execution (Ri Yong-gil) was later shown to be false; the claim now says so.",
+  "severity": "error",
+  "sources": [],
+  "area": "Claim checker",
+  "page": "verify"
+ },
+ {
+  "file": "js/casefiles.js",
+  "old": "The Great Terror described as one agreed view",
+  "new": "Historians’ estimates and debates named",
+  "problem": "Wording on what historians conclude was corrected so it does not overstate agreement.",
+  "severity": "framing",
+  "sources": [],
+  "area": "Case file: the Great Terror",
+  "page": "case-su-terror"
+ },
+ {
+  "file": "js/casefiles.js",
+  "old": "Vietnam’s land-reform toll stated as settled",
+  "new": "Gareth Porter’s 1972 critique of the high figures added",
+  "problem": "One-sided: added Gareth Porter’s finding that the high US figures rested on misused documents.",
+  "severity": "framing",
+  "sources": [],
+  "area": "Case file: Vietnam’s land reform",
+  "page": "case-vnm-land"
+ },
+ {
+  "file": "js/casefiles.js",
+  "old": "The crackdown described without the events the government cites",
+  "new": "The 2009 Ürümqi riots and the 2013–14 militant attacks added",
+  "problem": "Missing context: added the 2009 riots and the 2013–14 attacks, which the government cites as the reason for the crackdown.",
+  "severity": "framing",
+  "sources": [],
+  "area": "Case file: Xinjiang",
+  "page": "case-chn-xinjiang"
+ },
+ {
+  "file": "js/casefiles.js",
+  "old": "An older count of detention sites",
+  "new": "Over 380 sites identified by ASPI satellite research",
+  "problem": "Outdated figure updated.",
+  "severity": "outdated",
+  "sources": [
+   "https://xjdp.aspi.org.au/"
+  ],
+  "area": "Case file: Xinjiang",
+  "page": "case-chn-xinjiang"
+ },
+ {
+  "file": "js/casefiles.js",
+  "old": "A vague figure for peasants stopped at the borders",
+  "new": "About 220,000 caught in one month, January–February 1933",
+  "problem": "Made precise, using the Soviet security police’s own report.",
+  "severity": "error",
+  "sources": [],
+  "area": "Case file: Soviet famine 1932–33",
+  "page": "case-su-famine"
+ },
+ {
+  "file": "js/money.js",
+  "old": "Two broken or weak links (the Sinovac story and Unheard Voice)",
+  "new": "Replaced with the original reports",
+  "problem": "Broken or weak sources replaced with the original investigations (Reuters on the Sinovac campaign; Stanford Internet Observatory on the pro-Western accounts).",
+  "severity": "sourcing",
+  "sources": [
+   "https://www.reuters.com/investigates/special-report/usa-covid-propaganda/",
+   "https://cyber.fsi.stanford.edu/io/news/sio-aug-22-takedowns"
+  ],
+  "area": "Follow the money",
+  "page": "money"
+ }
+]

@@ -10,6 +10,7 @@
     tolls: ['#tolls', 'Death tolls: what can be proven', 'The big totals for communism, colonialism and wars, sorted by the evidence behind each number'], toolkit: ['#toolkit', 'How lies are made, and how to catch them', 'Fake photos, videos, documents and witnesses; paid influence; who’s behind each source'],
     path: ['#path-marx', 'Marx and after: a learning path', 'What Marx argued, what others did with it, how it worked and failed, how it was opposed, and what is being tried now'],
     money: ['#money', 'Follow the money', 'Owners, funders, paid content, access, people, pressure and covert operations, from every bloc'],
+    audit: ['#audit', 'Accuracy audit', 'How the Lab checks its own statements, what was found and what was fixed'],
     story: ['#story', 'Story lines: history as a connected chain', 'China 1921–today: what happened, why, and what it led to, era by era'],
     cases: ['#cases', 'Case files: what happened and how we know', 'One event per page: records, leaks, satellite images, courts, photos, witnesses, toll and intent'],
     sources: ['#sources', 'Source checker', 'Look up any outlet: its rating, the evidence behind it, and who owns it'],
@@ -50,7 +51,7 @@
     const G = [['🌍 Countries', 'Every one of the 196 countries has the same tabs: Government & power, History, Life in numbers, Pictures, Everything in the Lab, and Sources & perspectives.', [D('countries'), ['#country-chn', 'China', 'Example: roles chart, who runs what, 224 checked pictures'], ['#country-usa', 'United States', ''], ['#country-rus', 'Russia', ''], ['#country-ind', 'India', ''], ['#country-prk', 'North Korea', 'With 20 claims checked']]],
       ['📚 Subjects', 'The 24 disciplines. Each subject page starts with everything the Lab has on it.', (Lab.DISC || []).map((x) => ['#d-' + x.id, (x.e || '') + ' ' + x.name, ''])],
       ['🏛️ Power, government and ideas', 'Who rules, how, and the ideas behind each system, each told in its own terms and by its critics.', [D('power'), D('parl'), D('govern'), D('rules'), D('inst'), D('modern'), ...ideol.map(dive)]],
-      ['🔎 Evidence and truth', 'How to tell what really happened, and the cases where it was hidden.', [D('cases'), D('money'), D('method'), D('sources'), D('toolkit'), D('verify'), D('tolls'), D('lies'), D('oppression'), D('claims'), D('archive'), D('evidence')]],
+      ['🔎 Evidence and truth', 'How to tell what really happened, and the cases where it was hidden.', [D('cases'), D('money'), D('audit'), D('method'), D('sources'), D('toolkit'), D('verify'), D('tolls'), D('lies'), D('oppression'), D('claims'), D('archive'), D('evidence')]],
       ['🧭 Paths', 'Start at the beginning and build up.', [D('path'), D('story'), D('mathpath'), D('origins')]]];
     const q = h('input', { type: 'search', placeholder: 'Find a country…', 'aria-label': 'Find a country', style: { width: '100%' } }); const hits = h('div', { class: 'stack', style: { gap: '4px', marginTop: '6px' } });
     Lab.json('data/countries.json').then((CL) => { const all = (CL && CL.list) || []; q.oninput = () => { const v = q.value.trim().toLowerCase(); hits.replaceChildren(...(v.length < 2 ? [] : all.filter((c) => (c.n + ' ' + (c.off || '') + ' ' + (c.dem || '')).toLowerCase().includes(v)).slice(0, 8).map((c) => row(['#country-' + c.id, (c.flag || '') + ' ' + c.n, c.off || ''])))); }; }).catch(() => {});
