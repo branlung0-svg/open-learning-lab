@@ -35,6 +35,26 @@
   ];
   const lvl = (n) => { const L = LADDER[n - 1]; return h('span', { class: 'vf-badge', style: { background: L[3] } }, 'Level ' + n + ': ' + L[1]); };
   Lab.tollsUrls = () => [...BIG.flatMap((x) => x[5]), ...EV.flatMap((x) => x[8])].map((s) => (s[2] ? s[1] + '#@' + s[2] : s[1]));
+  // Every row of Wikipedia's lists of famines, genocides and wars, with each row's citations (data/tolls-lists.json).
+  const fmt = (v) => (v == null ? '?' : v >= 1e6 ? (v / 1e6).toFixed(v >= 1e7 ? 0 : 1).replace(/\.0$/, '') + ' million' : v >= 1e3 ? Math.round(v / 1e3) + ' thousand' : String(Math.round(v)));
+  const allLists = () => { const box = h('div', { class: 'card' }, h('h3', { style: { marginTop: 0 } }, 'Every famine, genocide and war on record'), h('p', { class: 'tiny muted' }, 'Loading…'));
+    Lab.json('data/tolls-lists.json').then((D) => { const keys = ['famines', 'genocides', 'wars'].filter((k) => D[k] && D[k].rows && D[k].rows.length); if (!keys.length) { box.lastChild.textContent = 'The full lists are being built; check back shortly.'; return; }
+      let cur = keys[0], sort = 'high', q = ''; const bar = h('div', { class: 'row', style: { gap: '6px', flexWrap: 'wrap' } }), table = h('div', { class: 'stack', style: { gap: '6px' } }), note = h('p', { class: 'tiny muted', style: { margin: '6px 0' } });
+      const inp = h('input', { type: 'search', placeholder: 'Filter by name or place…', 'aria-label': 'Filter the list', style: { width: '100%' }, oninput: (e) => { q = e.target.value.toLowerCase(); draw(); } });
+      const sel = h('select', { 'aria-label': 'Sort', onchange: (e) => { sort = e.target.value; draw(); } }, [['high', 'Largest estimate first'], ['low', 'Largest lower estimate first'], ['when', 'Oldest first'], ['refs', 'Most citations first']].map(([v, n]) => h('option', { value: v }, n)));
+      const draw = () => { const L = D[cur]; let rows = L.rows.filter((r) => !q || (r.name + ' ' + r.where + ' ' + r.when).toLowerCase().includes(q));
+        const yr = (r) => +((String(r.when).match(/\d{3,4}/) || [9999])[0]);
+        rows = rows.slice().sort(sort === 'when' ? (a, b) => yr(a) - yr(b) : sort === 'refs' ? (a, b) => b.refs.length - a.refs.length : (a, b) => (b[sort] || 0) - (a[sort] || 0));
+        const nr = L.rows.filter((r) => r.refs.length).length;
+        note.replaceChildren(`${L.rows.length} entries in Wikipedia’s “${L.title}”; ${nr} carry their own citation links below. `, h('a', { href: L.url, target: '_blank', rel: 'noopener' }, 'Open the list ↗'), '. Estimates are not added up: many overlap, and adding contested ranges is how inflated totals are made.');
+        bar.replaceChildren(...keys.map((k) => h('button', { class: 'btn sm' + (k === cur ? ' primary' : ''), onclick: () => { cur = k; draw(); } }, k[0].toUpperCase() + k.slice(1) + ' · ' + D[k].rows.length)));
+        table.replaceChildren(...rows.slice(0, 120).map((r) => h('div', { class: 'mp-box' }, h('div', { class: 'row', style: { justifyContent: 'space-between', gap: '8px', flexWrap: 'wrap' } }, h('b', null, r.name), h('span', { class: 'tiny muted' }, [r.when, r.where].filter(Boolean).join(' · '))),
+          h('div', { class: 'small', style: { margin: '3px 0' } }, r.low != null ? (r.low === r.high ? fmt(r.low) : fmt(r.low) + ' to ' + fmt(r.high)) : '', h('span', { class: 'tiny muted' }, '  “' + r.estimate.slice(0, 140) + (r.estimate.length > 140 ? '…' : '') + '”')),
+          r.refs.length ? h('div', { class: 'tiny' }, 'Citations: ', ...r.refs.map((x, i) => { const u = typeof x === 'string' ? x : x.u; const t = typeof x === 'string' ? u.replace(/^https?:\/\/(www\.)?/, '').split('/')[0] : x.t; return [i ? ' · ' : '', u ? h('a', { href: u, target: '_blank', rel: 'noopener' }, t + ' ↗') : h('span', null, t)]; }).flat()) : h('div', { class: 'tiny', style: { color: '#B91C1C' } }, 'No citation found for this row: treat the number as unsupported.'))),
+          rows.length > 120 ? h('p', { class: 'tiny muted' }, 'Showing 120 of ' + rows.length + '. Filter to narrow down.') : null); };
+      box.replaceChildren(h('h3', { style: { marginTop: 0 } }, 'Every famine, genocide and war on record'), h('p', { class: 'small', style: { marginTop: 0 } }, 'Not a hand-picked selection: every entry in Wikipedia’s lists, with the estimate as written, the low and high numbers, and the citations for that row. Rebuilt every week. Most of these numbers stand on rungs 3 to 5 of the ladder; check the citations before relying on one.'),
+        bar, h('div', { class: 'row', style: { gap: '6px', margin: '8px 0', flexWrap: 'wrap' } }, inp, sel), note, table); draw(); }).catch(() => { box.lastChild.textContent = 'Could not load the lists.'; });
+    return box; };
   Lab.routes.tolls = (app) => {
     Lab.setContext('Death tolls: what can actually be proven');
     app.append(h('section', { class: 'hero', 'data-own': '1' }, h('a', { class: 'crumb', href: '#verify' }, '← Claims under the microscope'), h('h1', null, 'Death tolls: what can actually be proven'),
@@ -50,6 +70,7 @@
         h('div', { style: { margin: '6px 0' } }, lvl(n)), h('p', { style: { margin: '4px 0' } }, h('b', null, range)), note ? h('p', { class: 'tiny muted', style: { margin: 0 } }, note) : null,
         h('p', { class: 'small', style: { margin: '6px 0 2px' } }, h('b', null, 'Most firmly proven: '), proven), h('p', { class: 'small', style: { margin: '2px 0' } }, h('b', null, 'How the range is reached: '), how), h('p', { class: 'small', style: { margin: '2px 0 6px' } }, h('b', null, 'Still disputed: '), dispute),
         h('div', { class: 'tiny' }, 'Sources: ', ...src.map(([nm, u], i) => [i ? ' · ' : '', h('a', { href: u, target: '_blank', rel: 'noopener' }, nm + ' ↗')]).flat()))),
+      allLists(),
       h('div', { class: 'card' }, h('h3', { style: { marginTop: 0 } }, 'What this shows'), h('ul', { class: 'small', style: { margin: 0, paddingLeft: '18px' } }, ['Mass death under both communist governments and colonial empires is proven beyond doubt. The arguments are about size and cause, not about whether it happened.', 'Grand totals for whole systems mix strong and weak evidence and depend on definitions. Treat them as arguments, not facts.', 'The most solid numbers come from names, the perpetrators’ own records and censuses. Ask which rung any number stands on.', 'Comparing totals to score points between systems tends to inflate one side’s number and shrink the other’s.'].map((x) => h('li', null, x)))));
   };
 })();

@@ -39,11 +39,19 @@ def plain(x):
 
 
 def refs_map(doc):
-    """cite_note id -> first external URL in that reference."""
+    """cite_note id -> {t: citation text, u: first link}. Handles short footnotes (sfn) that point to a bibliography entry."""
+    cites = {}
+    for m in re.finditer(r'<cite[^>]*id="(CITEREF[^"]+)"[^>]*>(.*?)</cite>', doc, re.S):
+        u = re.search(r'href="(https?://[^"]+)"', m.group(2)); cites[m.group(1)] = (plain(m.group(2))[:160], html.unescape(u.group(1)) if u else None)
     out = {}
-    for m in re.finditer(r'<li id="(cite_note-[^"]+)"(.*?)</li>', doc, re.S):
-        u = re.search(r'<a[^>]+class="[^"]*external[^"]*"[^>]+href="([^"]+)"', m.group(2)) or re.search(r'href="(https?://[^"]+)"', m.group(2))
-        if u: out[m.group(1)] = html.unescape(u.group(1))
+    for m in re.finditer(r'<li id="(cite_note-[^"]+)"[^>]*>(.*?)</li>', doc, re.S):
+        body = m.group(2); txt = re.search(r'<span class="reference-text"[^>]*>(.*)', body, re.S); t = plain(txt.group(1) if txt else body)[:160]
+        u = re.search(r'<a[^>]+class="[^"]*external[^"]*"[^>]+href="([^"]+)"', body) or re.search(r'href="(https?://[^"]+)"', body)
+        url = html.unescape(u.group(1)) if u else None
+        cr = re.search(r'href="#(CITEREF[^"]+)"', body)
+        if cr and cr.group(1) in cites:
+            ct, cu = cites[cr.group(1)]; t = (t + ' — ' + ct)[:220]; url = url or cu
+        out[m.group(1)] = {'t': t, 'u': url}
     return out
 
 
@@ -90,10 +98,11 @@ def col(head, *names):
 def tolls():
     out = {}
     for key, title in [('famines', 'List of famines'), ('genocides', 'List of genocides'), ('wars', 'List of wars by death toll'), ('atrocities', 'List of massacres in China')][:3]:
-        doc = page_html(title); R = refs_map(doc); rows = []
+        doc = page_html(title); R = refs_map(doc); rows = []; heads = []
         for head, body in tables(doc):
+            heads.append(head[:8])
             i_name = col(head, 'name', 'event', 'war', 'genocide', 'famine', 'conflict'); i_date = col(head, 'date', 'year', 'period')
-            i_loc = col(head, 'location', 'country', 'place', 'region'); i_d = col(head, 'death', 'toll', 'casualt', 'estimate', 'killed', 'victims')
+            i_loc = col(head, 'location', 'country', 'place', 'region'); i_d = col(head, 'death', 'toll', 'casualt', 'estimate', 'killed', 'victims', 'number', 'est.')
             if i_d is None: continue
             for cells in body:
                 def c(i): return plain(cells[i]) if i is not None and i < len(cells) else ''
@@ -106,7 +115,7 @@ def tolls():
                 if not name or (lo is None and not est): continue
                 rows.append({'name': name[:160], 'when': c(i_date)[:60], 'where': c(i_loc)[:160], 'estimate': est[:240], 'low': lo, 'high': hi, 'refs': refs[:6]})
         out[key] = {'title': title, 'url': 'https://en.wikipedia.org/wiki/' + title.replace(' ', '_'), 'rows': rows}
-        DBG[key] = {'rows': len(rows), 'with_refs': sum(1 for r in rows if r['refs']), 'with_numbers': sum(1 for r in rows if r['low'])}
+        DBG[key] = {'rows': len(rows), 'with_refs': sum(1 for r in rows if r['refs']), 'with_numbers': sum(1 for r in rows if r['low']), 'notes': len(R), 'heads': heads[:8], 'sample': rows[:2]}
         time.sleep(2)
     return out
 
