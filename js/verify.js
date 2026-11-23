@@ -63,6 +63,7 @@
     h('div', { class: 'grid g2' }, h('div', { class: 'mp-box' }, h('b', null, '✅ Evidence for'), h('p', { class: 'small', style: { margin: '4px 0 0' } }, pro)), h('div', { class: 'mp-box' }, h('b', null, '❌ Evidence against or missing'), h('p', { class: 'small', style: { margin: '4px 0 0' } }, con))),
     h('p', { class: 'small', style: { margin: '8px 0 2px' } }, h('b', null, 'How it spread: '), trail), h('p', { class: 'small', style: { margin: '2px 0 6px' } }, h('b', null, 'What would settle it: '), settle),
     h('div', { class: 'tiny' }, 'Sources: ', ...src.map(([n, u], i) => [i ? ' · ' : '', h('a', { href: u, target: '_blank', rel: 'noopener' }, n + ' ↗')]).flat()),
+    Lab.caseForClaim && Lab.caseForClaim(id) ? h('div', null, Lab.caseLink(Lab.caseForClaim(id))) : null,
     h('button', { class: 'btn sm', style: { marginTop: '8px' }, onclick: () => Lab.ask(`Check this claim in depth: "${claim}" (said by ${who}). Trace it to its first source, list all the evidence for and against with who produced each piece, note what each side gains from it, and give a verdict with your confidence. Flag anything from 2025–26 as developing.`, 'Claim check') }, '✦ Re-check it with the tutor'));
   Lab.VERIFY = C; Lab.verifyUrls = () => C.flatMap((x) => x[11].map((s) => (s[2] ? s[1] + '#@' + s[2] : s[1])));
   Lab.verifyFor = (iso) => C.filter((x) => x[1] === iso);

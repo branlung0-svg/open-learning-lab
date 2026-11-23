@@ -166,3 +166,9 @@ Open: the first loop run starts with CAP-0.
 - #verify-prk: "Who has reasons to shape the story" card (US, South Korea/NIS, defectors, media, DPRK government, China/Russia) plus the rule: motive is a reason to check, not proof.
 - "Why hasn't North Korea collapsed?" card: six evidence-backed reasons (Lankov, Cumings, Haggard & Noland).
 - New graded claims: bombing-20 (partly, A), seal-2019 (supported, B), right-to-food (confirmed, A, with US reasons + WFP figures), dprk-palestine (confirmed), dprk-climate (partly), china-hsr (confirmed, 50,400 km end-2025).
+
+## 2026-11-23 — Case files (CASE-1)
+- js/casefiles.js: #cases index and #case-<id> pages, 17 cases (12 communist-ruled states, 5 US and allies), one template: story, evidence by kind with strength, how the toll was counted, intent level, what the government admits, who has reasons to shape the story, disputes, sources with regions, archive search, tutor.
+- "Why you see videos of ICE but not of North Korean camps" card; "How we know" evidence kinds; intent ladder.
+- Lab.labMap(): how the Lab fits together, on #explore and #cases.
+- Linked from death-toll rows (7), graded claims (3), country Everything tabs, Explore subject panels, home strip, balance meter.

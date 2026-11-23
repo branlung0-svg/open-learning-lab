@@ -125,6 +125,7 @@
           if (Lab.RULES) Object.values(Lab.RULES.countries || {}).forEach((r) => { if (re.test(r.n)) pw.push(['#history-modern-power', 'Who really rules? ' + r.n, 'The layers of power']); });
           add('🏛️ Government and power', pw);
           const cs = []; Object.values(Lab.DIVES_ALL || {}).forEach((Dv) => Object.entries(Dv.data.cases || {}).forEach(([k, x]) => { if (re.test((x.n || '') + ' ' + (x.sum || ''))) cs.push(['#' + Dv.base + '-' + k, `${x.flag || ''} ${Dv.title}: ${x.n}`, x.years || '']); }));
+          add('📂 Case files', (Lab.casesFor ? Lab.casesFor(c.id) : []).map((x) => ['#case-' + x.id, x.e + ' ' + x.t, x.y + ' · ' + x.toll[0]]), 'One event, all the evidence: the government’s own records, leaks, satellite images, courts, photos and witnesses, the death toll and intent.');
           add('📚 Case studies', cs, 'In-depth histories inside the ideology deep dives.');
           const dv = []; Object.values(Lab.DIVES_ALL || {}).forEach((Dv) => { const n = (JSON.stringify(Dv.data).match(reg) || []).length; if (n >= 3) dv.push([n, ['#' + Dv.base, Dv.title, n + ' mentions of ' + c.n]]); });
           add('🧭 Ideologies and movements that involve ' + c.n, dv.sort((a, b) => b[0] - a[0]).map((x) => x[1]));
