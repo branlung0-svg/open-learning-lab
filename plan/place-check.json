@@ -1,189 +1,12 @@
 {
  "summary": {
-  "ok": 4074,
-  "unknown": 260,
-  "drop": 179
+  "ok": 4083,
+  "unknown": 262,
+  "drop": 2
  },
  "dropped": {
-  "c:a-britain-manchester-cotton-mill-workers-1": "categories name Georgia | Noon hour, Manchester Cotton Mill, Macon, Ga. See photos 517 to 520. LOC cph.3b13188.jpg",
-  "c:a-britain-manchester-cotton-mill-workers-3": "categories name Georgia | Going home from the Manchester Cotton Mill, Macon, Ga. Not allowed to photo inside. See photos 517 to 520. LOC nclc.01613.jpg",
-  "c:a-china-red-guards-6": "categories name Finland | Red guard arrest 1906.jpg",
-  "c:a-gov-ago-leg-2": "coordinates in sea or unknown | Assembleia Nacional (22672874237).jpg",
-  "c:a-gov-caf-gov-1": "categories name Congo | StoryoftheCongoFreeState 196.jpg",
-  "c:a-gov-col-leg-1": "categories name Kenya | Parliament Buildings, Nairobi, Kenya -entrance-15April2010.jpg",
-  "c:a-gov-col-leg-2": "coordinates in ken | Parliament Buildings, Nairobi, Kenya-21April2010.jpg",
-  "c:a-gov-esp-gov-1": "categories name Palau | Palau de la Generalitat de Catalunya 1.jpg",
-  "c:a-gov-esp-gov-2": "categories name Palau | Palau de la Generalitat de Catalunya.jpg",
-  "c:a-gov-fji-gov-2": "categories name Tonga | Royal Palace of Tonga in 1900.jpg",
-  "c:a-gov-mkd-gov-1": "coordinates in deu | Münster, Schloss -- 2014 -- 6769-71 (crop).jpg",
-  "c:a-gov-sau-leg-1": "categories name Vietnam | The building of the Central Organizing Committee, Hanoi (1) (38465790662).jpg",
-  "c:a-gov-tkm-gov-1": "coordinates in mng | Sukhbaatar Square with Flag of Turkmenistan in the background.jpg",
-  "c:a-gov-twn-gov-2": "coordinates in chn | National Government of the R.O.C.jpg",
-  "c:a-soviet-life-soviet-kindergarten-1950s-1": "categories name Germany | Bundesarchiv Bild 183-32475-0014, LPG Mestlin-Ruest, Getreideernte.jpg",
-  "c:a-soviet-life-stalingrad-ruins-1943-2": "categories name United Kingdom | Concrete Expression of Britain's Admiration - a Hospital for Stalingrad Art.IWMPST8207.jpg",
-  "c:a-usa-detroit-assembly-line-1920s-2": "coordinates in sea or unknown | PACKARD 120 CONVERTIBLE COUPE (1939) (50072477626).jpg",
-  "c:a-vietnam-ho-chi-minh-trail-4": "categories name Thailand | HoCMT.png",
-  "c:a-vietnam-vietnamese-rice-paddy-water-buffalo-2": "categories name Indonesia | COLLECTIE TROPENMUSEUM Badende runderen in een rivier tussen de rijstvelden TMnr 10028297.jpg",
-  "c:a-vietnam-vietnamese-village-1900s-1": "categories name Japan | Asahi village Asahi elementary school 1933.png",
-  "c:a-vietnam-vietnamese-village-1900s-2": "categories name Micronesia | Fengal Village with wa canoe in foreground (1899-1900).jpg",
-  "c:a-vietnam-vietnamese-village-1900s-3": "categories name Ghana | Congrégation des soeurs de Notre-Dame-des-Apôtres pour les Missions Africaines.Village indigène à la Côte-d'Or.jpg",
-  "c:k-afg-fp-6": "categories name India | ISS-46 Northern India at night.jpg",
-  "c:k-ago-angola-village-1": "United States place: New York | Angola NY.jpg",
-  "c:k-are-fp-1": "coordinates in deu | Emirates Airbus A380-861 A6-EER MUC 2015 01.jpg",
-  "c:k-arg-c-rdoba-argentina": "coordinates in sea or unknown | ATARDECER-Córdoba-Argentina.jpg",
-  "c:k-arm-fp-12": "coordinates in che | Algérie - Arménie - 20140531 - Yacine Brahimi (Alg) face à Taron Voskanyan (Arm).jpg",
-  "c:k-atg-saint-john-s-city-1": "coordinates in sea or unknown | Saint John, NB.jpg",
-  "c:k-atg-saint-john-s-city-2": "coordinates in can | Saint John, NB skyline.jpg",
-  "c:k-aus-fp-5": "coordinates in sea or unknown | Common noddy (Anous stolidus pileatus) in flight Michaelmas Cay.jpg",
-  "c:k-aus-qi-3": "coordinates in sea or unknown | Giant clam (Tridacna gigas) Michaelmas Cay.jpg",
-  "c:k-aut-fp-1": "categories name Hungary | Ferenc Ilyes (HUN), Artur Siodmiak (POL).jpg",
-  "c:k-aut-fp-3": "categories name France | CZE vs FRA (01) - 2010 European Men's Handball Championship.jpg",
-  "c:k-aze-azerbaijan-landscape-2": "coordinates in che | Landscape Arnisee-region.JPG",
-  "c:k-bel-belgium-village-2": "United States place: Wisconsin | BelgiumWisconsin.jpg",
-  "c:k-ben-benin-village-1": "coordinates in tgo | Village du Bénin de l'Université de Lomé.jpg",
-  "c:k-ben-benin-village-2": "coordinates in tgo | Village du Bénin de l'Université de Lomé claire.jpg",
-  "c:k-ben-porto-novo-city-1": "categories name Cape Verde | PortoNovoVista.JPG",
-  "c:k-ben-qi-1": "coordinates in gb1 | At the British Museum 2024 015.jpg",
-  "c:k-ben-qi-11": "coordinates in gb1 | At the British Museum 2024 019.jpg",
-  "c:k-ben-qi-3": "coordinates in gb1 | At the British Museum 2024 017.jpg",
-  "c:k-ben-qi-6": "coordinates in gb1 | At the British Museum 2024 020.jpg",
-  "c:k-bgd-dhaka-city-2": "coordinates in usa | Dhaka City 3.jpg",
-  "c:k-bhr-fp-4": "coordinates in lka | Greater flamingos (Phoenicopterus roseus) resting.jpg",
-  "c:k-bol-bolivia-village-2": "coordinates in col | Iglesia de San Agustín, San Agustín, Colombia 01.jpg",
-  "c:k-bra-fp-1": "coordinates in ven | ISS-20 Thunderstorms on the Brazilian Horizon.jpg",
-  "c:k-brb-bridgetown-city-1": "coordinates in usa | Portland from Pittock Mansion October 2019 panorama 2.jpg",
-  "c:k-brb-bridgetown-city-2": "coordinates in usa | PortlandCanalEntrance.jpg",
-  "c:k-caf-central-african-republic-historical--1": "categories name Congo | Civilization in Congo by Edouard Manduau, 1884 - Royal Museum for Central Africa - DSC06687.JPG",
-  "c:k-caf-central-african-republic-historical--2": "categories name Congo | Hezekiah Andrew Shanu-Anciens rois de Boma.jpg",
-  "c:k-caf-qi-1": "coordinates in fr1 | Euphaedra (Xypetana) xypete MHNT.jpg",
-  "c:k-can-canada-landscape-2": "coordinates in usa | Landscape Arch Utah.jpg",
-  "c:k-chl-santiago-city-1": "coordinates in phl | Santiago Isabela 4.jpg",
-  "c:k-chl-santiago-city-2": "coordinates in phl | Santiago Isabela 1.jpg",
-  "c:k-chn-china-landscape-1": "coordinates in ind | Hampi, India, Rocky landscape of Hampi, Granite rocks of Matanga Hill.jpg",
-  "c:k-chn-china-village-1": "coordinates in usa | ChinaME VillageHD 2.jpg",
-  "c:k-chn-china-village-2": "coordinates in usa | ChinaME VillageHD 1.jpg",
-  "c:k-chn-hist-1930s-refugees-1": "United States place: in Tennessee | Beechcraft Model 17 Staggerwing (52468434738).jpg",
-  "c:k-chn-hist-1930s-refugees-2": "coordinates in usa | Beechcraft Model 17 Staggerwing (52464942740).jpg",
-  "c:k-chn-life-rice-planting-1": "coordinates in tha | 2014 Rice planting Mae Chan district 2.jpg",
-  "c:k-chn-life-square-dance-2": "coordinates in twn | 2019.08.08 National Theater and Concert Hall, Liberty Square.jpg",
-  "c:k-chn-life-street-food-1": "coordinates in tha | DFC 5395 Night market stall in Pattaya Thailand - a vendor waits behind a colorful display of fresh fruit and street food under warm lights.jpg",
-  "c:k-chn-life-street-food-2": "coordinates in tha | DZ6 1783 Night market food stall vendors frying and serving freshly cooked snacks under lantern light as customers browse the bustling street.jpg",
-  "c:k-civ-ivory-coast-historical-photograph-1": "coordinates in gb1 | Historical reminders of St. Katharine’s Hospital in the area of Ivory House - geograph.org.uk - 8383465.jpg",
-  "c:k-com-comoros-village-1": "categories name Senegal | Dar Salam-Plantation de haie vive.jpg",
-  "c:k-com-comoros-village-2": "coordinates in ner | Niger, Dar Salam (Commune Fakara)(1), mosque.jpg",
-  "c:k-com-moroni-city-1": "United States place: in Utah | Moroni main street.jpg",
-  "c:k-cub-cuba-village-1": "United States place: New Mexico | Cuba, New Mexico.JPG",
-  "c:k-cyp-cyprus-village-2": "coordinates in cyn | Iera Moni Ayiou Anastasiou Peristeronopigi.jpg",
-  "c:k-deu-germany-historical-photograph-1": "coordinates in bra | Palacete Aleppo No. 327. Historical building close to Municipal Market of São Paulo.jpg",
-  "c:k-deu-germany-landscape-1": "coordinates in isl | Landscape during Laugavegur hiking trail 2-CA reduced.jpg",
-  "c:k-dma-dominica-landscape-1": "categories name Finland | Paul Gauguin - Landscape with a Pig and a Horse (Hiva Oa) - Google Art Project.jpg",
-  "c:k-dma-roseau-city-1": "coordinates in usa | Roseau City Center-Library-Roseau County Museum and Interpretive Center.jpg",
-  "c:k-dnk-denmark-village-1": "United States place: Wisconsin | Denmarkdowntown.jpg",
-  "c:k-dnk-fp-4": "categories name Austria | ESC2014 - Austria 04.jpg",
-  "c:k-dom-santo-domingo-city-2": "coordinates in chl | Iglesia Santo Domingo, La Serena.jpg",
-  "c:k-ecu-fp-4": "coordinates in fr1 | Corydalus cornutus MHNT male.jpg",
-  "c:k-ecu-fp-5": "coordinates in fr1 | Choeradodis stalii MHNT.jpg",
-  "c:k-egy-cairo-city-1": "coordinates in usa | Cairo City Hall.JPG",
-  "c:k-egy-egypt-historical-photograph-2": "United States place: New Jersey | NEW EGYPT HISTORICAL SOCIETY MUSEUM.jpg",
-  "c:k-fin-qi-3": "coordinates in deu | DTM car mercedes2006 Haekkinen racing.jpg",
-  "c:k-fra-fp-2": "categories name Germany | Schwappender Wein.jpg",
-  "c:k-fra-fp-3": "coordinates in usa | Air France A380 F-HPJA.jpg",
-  "c:k-fra-fp-6": "coordinates in fr1 | Gold dust day gecko (Phelsuma laticauda) Moorea.jpg",
-  "c:k-fra-france-historical-photograph-1": "coordinates in bra | Palacete Aleppo No. 327. Historical building close to Municipal Market of São Paulo.jpg",
-  "c:k-fra-france-historical-photograph-2": "coordinates in usa | Brooklyn Historical Society NY2.jpg",
-  "c:k-fra-france-landscape-2": "categories name Sweden | Swedish landscape near Björnlunda (by Pudelek) 01.jpg",
-  "c:k-fsm-micronesia-landscape-2": "coordinates in au1 | Federated States of Micronesia landscape (10694963426).jpg",
-  "c:k-gab-fp-1": "coordinates in fr1 | Gorilla Male Global.jpg",
-  "c:k-gab-gabon-historical-photograph-1": "coordinates in phl | Front facade of Abucay Church with historical marker.jpg",
-  "c:k-gab-gabon-historical-photograph-2": "coordinates in phl | Main door of Abucay Church with historical marker - 2.jpg",
-  "c:k-gab-qi-1": "coordinates in fr1 | Gorilla Male Global.jpg",
-  "c:k-gbr-united-kingdom-landscape-1": "coordinates in usa | Joshua Tree National Park 2013.jpg",
-  "c:k-gbr-united-kingdom-landscape-2": "coordinates in sea or unknown | Peterborough (AU), Port Campbell National Park, Worm Bay -- 2019 -- 0863.jpg",
-  "c:k-geo-georgia-village-1": "coordinates in usa | Georgia I75nb Exit 63B Georgia Museum of Agriculture and Historic Village dashcam.jpg",
-  "c:k-geo-georgia-village-2": "coordinates in usa | Sunset Village, Georgia.jpg",
-  "c:k-gnq-equatorial-guinea-historical-photogr-1": "categories name China | Wilhelm Hunstiger Tsingtau 1912.jpg",
-  "c:k-grd-st-george-s-city-1": "coordinates in gb1 | St Paul's Cathedral Chapel of St Michael & St George, London UK - Diliff.jpg",
-  "c:k-gtm-guatemala-historical-photograph-1": "coordinates in chn | Expo 2010 Guatemala Pavilion 01.jpg",
-  "c:k-gtm-guatemala-historical-photograph-2": "coordinates in chn | Expo 2010 Guatemala Pavilion 02.jpg",
-  "c:k-gtm-guatemala-village-2": "coordinates in sea or unknown | Casa del obispo Francisco Marroquín, San Juan del Obispo, Sacatepéquez.jpg",
-  "c:k-guy-georgetown-city-1": "coordinates in usa | Georgetown WA city hall 03.jpg",
-  "c:k-guy-guyana-historical-photograph-2": "categories name Indonesia | Tropenmuseum Royal Tropical Institute Objectnumber 60048001 Hutten met huisraad, te drogen gehang.jpg",
-  "c:k-hrv-croatia-historical-photograph-1": "coordinates in fr1 | Špišić Bukovica Historical fire engines of Croatia 267.jpg",
-  "c:k-idn-fp-12": "coordinates in sea or unknown | ISS-40 Thunderheads near Borneo.jpg",
-  "c:k-idn-indonesia-historical-photograph-1": "coordinates in bra | Palacete Aleppo No. 327. Historical building close to Municipal Market of São Paulo.jpg",
-  "c:k-idn-indonesia-landscape-1": "categories name Italy | Hendrik Voogd - Italian landscape with Umbrella Pines.jpg",
-  "c:k-idn-indonesia-landscape-2": "coordinates in isl | Icelandic Landscape near Neskaupstaður July 2014.JPG",
-  "c:k-ind-qi-4": "coordinates in gha | Alleyway, Korle-Klottey (P1100244).jpg",
-  "c:k-irl-dublin-city-2": "coordinates in usa | Dublin City Hall 1.jpg",
-  "c:k-isr-fp-4": "coordinates in is1 | Camels in Jordan valley (4568207363).jpg",
-  "c:k-ita-rome-city-2": "coordinates in usa | Rome City town hall.jpg",
-  "c:k-jor-jordan-village-1": "coordinates in usa | Jordan Village Hall Dec 08.jpg",
-  "c:k-jor-jordan-village-2": "coordinates in usa | Jordan Green, Waterford, CT.JPG",
-  "c:k-jpn-japan-landscape-1": "coordinates in ind | Hampi, India, Rocky landscape of Hampi, Granite rocks of Matanga Hill.jpg",
-  "c:k-kaz-kazakhstan-landscape-2": "coordinates in uzb | Kazakhstan, landscape Bebop Drone 2015-09-04T113834+0000 013FFD.jpg",
-  "c:k-kgz-kyrgyzstan-village-1": "coordinates in ind | Brown rock chat (Oenanthe fusca).jpg",
-  "c:k-kir-kiribati-village-2": "coordinates in tha | Aisawan Thipphaya-Art Pavilion replica in The Ancient City (Muang Boran) (1).jpg",
-  "c:k-kna-basseterre-city-2": "categories name France | Monts Caraïbes depuis le Fort Louis Delgrès à Basse-Terre.jpg",
-  "c:k-kor-fp-3": "coordinates in ita | Heap of cans South Korea Pavilion Expo 2015.JPG",
-  "c:k-lbr-monrovia-city-1": "United States place: in California | Monrovia CA San Gabriel Mountains i210.JPG",
-  "c:k-lbr-monrovia-city-2": "coordinates in usa | Monrovia from Mount Wilson 2019.jpg",
-  "c:k-lca-saint-lucia-historical-photograph-1": "categories name Italy | Gaeta, ex chiesa di Santa Lucia - Retablo dell'altare maggiore (ante 1934).jpg",
-  "c:k-mar-fp-12": "categories name Spain | Coprolito, Calatayud, España, 2021-01-13, DD 001-029 FS.jpg",
-  "c:k-mdg-fp-11": "coordinates in fr1 | Chrysiridia rhipheus MHNT.jpg",
-  "c:k-mdg-qi-2": "coordinates in can | Archaeodontosaurus mandibule MHNT.PAL.2003.396.jpg",
-  "c:k-mdv-qi-5": "coordinates in sea or unknown | Floatplane at Bathala (Maldives).jpg",
-  "c:k-mex-mexico-village-1": "coordinates in usa | Becks Hotel Mexico Village Historic District Nov 09 1.jpg",
-  "c:k-mkd-fp-10": "coordinates in deu | Kiril Lazarov 06.jpg",
-  "c:k-mli-mali-landscape-2": "coordinates in mkd | Mali i Thatë from Magaro Peak, September 2019.jpg",
-  "c:k-mli-mali-village-1": "coordinates in blr | Mali, Astraviec District (1).jpg",
-  "c:k-mus-mauritius-village-1": "coordinates in deu | Hausdülmen, Ortsansicht mit St.-Mauritius-Kirche -- 2010 -- 2368 (bw).jpg",
-  "c:k-nic-nicaragua-village-1": "coordinates in ven | El Paraíso tunnel main gate of Caracas.jpg",
-  "c:k-npl-qi-3": "coordinates in ind | Shiva Temple in the ground of 6344.JPG",
-  "c:k-nzl-qi-6": "coordinates in sea or unknown | Corroding machinery at old White Island sulphur mine.JPG",
-  "c:k-nzl-qi-9": "coordinates in sea or unknown | Corroded iron tank in abandoned mine on White Island.jpg",
-  "c:k-pak-fp-4": "categories name India | Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj, ca.1590–95, The Met.jpg",
-  "c:k-pak-lahore": "coordinates in usa | Collection of buildings, Lahore, Virginia.jpg",
-  "c:k-pan-panama-city-city-1": "coordinates in sea or unknown | Panama City FL City Hall.jpg",
-  "c:k-pan-panama-village-1": "United States place: Nebraska | Panama, Nebraska Locust Street 1.JPG",
-  "c:k-pan-panama-village-2": "coordinates in usa | Main Street at the Four Corners, Panama, New York - 20200809.jpg",
-  "c:k-phl-fp-3": "coordinates in sea or unknown | Cloudscape Over the Philippine Sea.jpg",
-  "c:k-plw-palau-landscape-1": "coordinates in ita | Palazzo Chiericati (Vicenza).jpg",
-  "c:k-plw-palau-landscape-2": "coordinates in ita | Palazzo Chiericati in Vicenza (2).jpg",
-  "c:k-plw-palau-village-2": "coordinates in esp | Spain, Catalonia, Baix Empordà, Palau-sator (2).jpg",
-  "c:k-pol-qi-7": "coordinates in svk | Vihorlat 027.jpg",
-  "c:k-pry-asunci-n-city-2": "coordinates in gtm | Zona 14 - Ciudad de Guatemala - GT.jpg",
-  "c:k-pry-qi-2": "coordinates in irn | 2018-10-17 Archery at 2018 Summer Youth Olympics – Second Round – Section 1 – Korea vs. Paraguay (Martin Rulsch) 10.jpg",
-  "c:k-pse-palestine-historical-photograph-1": "coordinates in is1 | Historical map series for the area of Al-Manara, Palestine (1870s).jpg",
-  "c:k-pse-palestine-historical-photograph-2": "coordinates in is1 | Historical map series for the area of Al-Manara, Palestine (1940s).jpg",
-  "c:k-pse-palestine-village-1": "coordinates in gb1 | Jews Protest in Solidarity with Palestine -1 (52082106404).jpg",
-  "c:k-pse-palestine-village-2": "coordinates in gb1 | Palestine, approaching the village on Mount Carmel Road - geograph.org.uk - 1163644.jpg",
-  "c:k-rus-fp-3": "coordinates in fr1 | Porte musc perspective 5.jpg",
-  "c:k-rus-fp-6": "coordinates in fr1 | Porte musc Profil 2.jpg",
-  "c:k-sdn-sudan-village-1": "coordinates in sds | Kimotong, Sudán del Sur, 2024-01-23, DD 37.jpg",
-  "c:k-sle-freetown-city-1": "coordinates in gb1 | Freetown Way, Hull - geograph.org.uk - 6763122.jpg",
-  "c:k-sle-freetown-city-2": "coordinates in gb1 | Freetown Way, Hull - geograph.org.uk - 3252662.jpg",
-  "c:k-som-mogadishu-city-2": "categories name Botswana | Pula spar mogoditshane road.jpg",
-  "c:k-som-somalia-village-1": "coordinates in sol | Somalia, Awdal, Garaaca.jpg",
-  "c:k-srb-fp-2": "coordinates in svn | Serbian Christmas meal.jpg",
-  "c:k-stp-fp-5": "coordinates in fr1 | Prinia molleri MHNT.jpg",
-  "c:k-syc-victoria-city-1": "coordinates in can | British Columbia Parliament Building in Victoria, British Columbia, Canada 07.jpg",
-  "c:k-tcd-chad-historical-photograph-2": "coordinates in usa | Greensboro Historical Museum 63.jpg",
-  "c:k-tcd-chad-village-2": "coordinates in gb1 | Village green & church of St. Chad (geograph 2055469).jpg",
-  "c:k-tls-fp-6": "coordinates in sea or unknown | Emblemariopsis carib (Caribbean Flagfin Blenny).jpg",
-  "c:k-tls-timor-leste-historical-photograph-1": "coordinates in prt | StªApolónia(Leste&Norte).jpg",
-  "c:k-tls-timor-leste-historical-photograph-2": "categories name Portugal | Exposição Colonial de 1934 8 - Timor.jpg",
-  "c:k-tto-qi-1": "coordinates in gb1 | At the British Museum 2024 023.jpg",
-  "c:k-tur-t-rkiye-historical-photograph-1": "coordinates in rus | Moscow. State Historical Museum. Items from a coffee set P4151922 2600.jpg",
-  "c:k-tur-t-rkiye-village-1": "coordinates in mar | SE Ouirgane Village Dam Al Haouz Oct25 A7CR 08497.jpg",
-  "c:k-twn-taiwan-village-2": "United States place: Kansas | Li Cheng Buddhist Temple in Mountain All.jpg",
-  "c:k-tza-fp-1": "coordinates in deu | Tetragonias njalilus 01.jpg",
-  "c:k-tza-fp-2": "coordinates in deu | Kentrosaurus aethiopicus 01.jpg",
-  "c:k-ukr-qi-6": "coordinates in svk | Vihorlat (v zime) 039.jpg",
-  "c:k-ukr-qi-7": "coordinates in svk | Vihorlat 111.jpg",
-  "c:k-ury-uruguay-village-1": "coordinates in sea or unknown | Hope Bay-2016-Trinity Peninsula–Esperanza Station 02.jpg",
-  "c:k-ury-uruguay-village-2": "coordinates in esp | Esperanza (IMO 8404599).jpg",
-  "c:k-zwe-qi-5": "coordinates in cze | 2018-08-07 World Rowing Junior Championships (Opening Ceremony) by Sandro Halank–154.jpg",
-  "c:k-zwe-qi-6": "coordinates in cze | 2018-08-07 World Rowing Junior Championships (Opening Ceremony) by Sandro Halank–157.jpg"
+  "c:k-caf-fp-2": "coordinates in fra | Euphaedra (Xypetana) xypete MHNT.jpg",
+  "c:k-mdv-fp-5": "coordinates in sea or unknown | Floatplane at Bathala (Maldives).jpg"
  },
  "all": {
   "c:a-britain-belfast-shipyard-titanic-1": [
@@ -341,14 +164,6 @@
   "c:a-britain-manchester-1900s-3": [
    "unknown",
    ""
-  ],
-  "c:a-britain-manchester-cotton-mill-workers-1": [
-   "drop",
-   "categories name Georgia"
-  ],
-  "c:a-britain-manchester-cotton-mill-workers-3": [
-   "drop",
-   "categories name Georgia"
   ],
   "c:a-britain-manchester-cotton-mill-workers-4": [
    "ok",
@@ -706,10 +521,6 @@
    "ok",
    "categories"
   ],
-  "c:a-china-red-guards-6": [
-   "drop",
-   "categories name Finland"
-  ],
   "c:a-china-shanghai-bund-1920s-1": [
    "unknown",
    ""
@@ -926,7 +737,7 @@
    "ok",
    "categories"
   ],
-  "c:a-cuba-havana-1920s-street-3": [
+  "c:a-cuba-old-havana-street-2": [
    "ok",
    "categories"
   ],
@@ -993,10 +804,6 @@
   "c:a-cuba-old-havana-street-1": [
    "ok",
    "coordinates"
-  ],
-  "c:a-cuba-old-havana-street-2": [
-   "ok",
-   "categories"
   ],
   "c:a-cuba-old-havana-street-3": [
    "ok",
@@ -1065,10 +872,6 @@
   "c:a-gov-ago-leg-1": [
    "ok",
    "categories"
-  ],
-  "c:a-gov-ago-leg-2": [
-   "drop",
-   "coordinates in sea or unknown"
   ],
   "c:a-gov-alb-gov-1": [
    "ok",
@@ -1250,10 +1053,6 @@
    "ok",
    "categories"
   ],
-  "c:a-gov-caf-gov-1": [
-   "drop",
-   "categories name Congo"
-  ],
   "c:a-gov-can-leg-1": [
    "ok",
    "categories"
@@ -1325,14 +1124,6 @@
   "c:a-gov-col-gov-2": [
    "ok",
    "categories"
-  ],
-  "c:a-gov-col-leg-1": [
-   "drop",
-   "categories name Kenya"
-  ],
-  "c:a-gov-col-leg-2": [
-   "drop",
-   "coordinates in ken"
   ],
   "c:a-gov-cpv-gov-1": [
    "ok",
@@ -1435,12 +1226,12 @@
    "coordinates"
   ],
   "c:a-gov-esp-gov-1": [
-   "drop",
-   "categories name Palau"
+   "unknown",
+   ""
   ],
   "c:a-gov-esp-gov-2": [
-   "drop",
-   "categories name Palau"
+   "unknown",
+   ""
   ],
   "c:a-gov-esp-leg-1": [
    "ok",
@@ -1477,10 +1268,6 @@
   "c:a-gov-fin-leg-2": [
    "ok",
    "coordinates"
-  ],
-  "c:a-gov-fji-gov-2": [
-   "drop",
-   "categories name Tonga"
   ],
   "c:a-gov-fji-leg-1": [
    "ok",
@@ -1838,10 +1625,6 @@
    "ok",
    "categories"
   ],
-  "c:a-gov-mkd-gov-1": [
-   "drop",
-   "coordinates in deu"
-  ],
   "c:a-gov-mkd-gov-2": [
    "ok",
    "categories"
@@ -2094,10 +1877,6 @@
    "ok",
    "categories"
   ],
-  "c:a-gov-sau-leg-1": [
-   "drop",
-   "categories name Vietnam"
-  ],
   "c:a-gov-sgp-leg-1": [
    "ok",
    "coordinates"
@@ -2210,10 +1989,6 @@
    "ok",
    "coordinates"
   ],
-  "c:a-gov-tkm-gov-1": [
-   "drop",
-   "coordinates in mng"
-  ],
   "c:a-gov-tls-gov-2": [
    "ok",
    "categories"
@@ -2237,10 +2012,6 @@
   "c:a-gov-tuv-leg-1": [
    "ok",
    "categories"
-  ],
-  "c:a-gov-twn-gov-2": [
-   "drop",
-   "coordinates in chn"
   ],
   "c:a-gov-tza-gov-2": [
    "ok",
@@ -2582,10 +2353,6 @@
    "ok",
    "categories"
   ],
-  "c:a-soviet-life-soviet-kindergarten-1950s-1": [
-   "drop",
-   "categories name Germany"
-  ],
   "c:a-soviet-life-soviet-poster-2": [
    "ok",
    "categories"
@@ -2621,10 +2388,6 @@
   "c:a-soviet-life-stalingrad-ruins-1943-1": [
    "unknown",
    ""
-  ],
-  "c:a-soviet-life-stalingrad-ruins-1943-2": [
-   "drop",
-   "categories name United Kingdom"
   ],
   "c:a-soviet-life-stalingrad-ruins-1943-3": [
    "ok",
@@ -2737,10 +2500,6 @@
   "c:a-usa-detroit-assembly-line-1920s-1": [
    "unknown",
    ""
-  ],
-  "c:a-usa-detroit-assembly-line-1920s-2": [
-   "drop",
-   "coordinates in sea or unknown"
   ],
   "c:a-usa-dust-bowl-farm-1936-1": [
    "ok",
@@ -3046,10 +2805,6 @@
    "unknown",
    ""
   ],
-  "c:a-vietnam-ho-chi-minh-trail-4": [
-   "drop",
-   "categories name Thailand"
-  ],
   "c:a-vietnam-hoi-an-old-town-1": [
    "ok",
    "coordinates"
@@ -3178,22 +2933,6 @@
    "unknown",
    ""
   ],
-  "c:a-vietnam-vietnamese-rice-paddy-water-buffalo-2": [
-   "drop",
-   "categories name Indonesia"
-  ],
-  "c:a-vietnam-vietnamese-village-1900s-1": [
-   "drop",
-   "categories name Japan"
-  ],
-  "c:a-vietnam-vietnamese-village-1900s-2": [
-   "drop",
-   "categories name Micronesia"
-  ],
-  "c:a-vietnam-vietnamese-village-1900s-3": [
-   "drop",
-   "categories name Ghana"
-  ],
   "c:k-afg-afghanistan-landscape-1": [
    "ok",
    "categories"
@@ -3234,10 +2973,6 @@
    "unknown",
    ""
   ],
-  "c:k-afg-fp-6": [
-   "drop",
-   "categories name India"
-  ],
   "c:k-afg-fp-7": [
    "ok",
    "categories"
@@ -3273,10 +3008,6 @@
   "c:k-ago-angola-landscape-2": [
    "ok",
    "categories"
-  ],
-  "c:k-ago-angola-village-1": [
-   "drop",
-   "United States place: New York"
   ],
   "c:k-ago-angola-village-2": [
    "ok",
@@ -3474,10 +3205,6 @@
    "ok",
    "categories"
   ],
-  "c:k-are-fp-1": [
-   "drop",
-   "coordinates in deu"
-  ],
   "c:k-are-fp-2": [
    "ok",
    "coordinates"
@@ -3529,10 +3256,6 @@
   "c:k-arg-buenos-aires-city-2": [
    "ok",
    "coordinates"
-  ],
-  "c:k-arg-c-rdoba-argentina": [
-   "drop",
-   "coordinates in sea or unknown"
   ],
   "c:k-arg-fp-1": [
    "ok",
@@ -3634,7 +3357,7 @@
    "ok",
    "categories"
   ],
-  "c:k-arm-armenia-landscape-2": [
+  "c:k-arm-fp-4": [
    "ok",
    "categories"
   ],
@@ -3658,19 +3381,11 @@
    "unknown",
    ""
   ],
-  "c:k-arm-fp-12": [
-   "drop",
-   "coordinates in che"
-  ],
   "c:k-arm-fp-2": [
    "ok",
    "coordinates"
   ],
   "c:k-arm-fp-3": [
-   "ok",
-   "categories"
-  ],
-  "c:k-arm-fp-4": [
    "ok",
    "categories"
   ],
@@ -3726,14 +3441,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-atg-saint-john-s-city-1": [
-   "drop",
-   "coordinates in sea or unknown"
-  ],
-  "c:k-atg-saint-john-s-city-2": [
-   "drop",
-   "coordinates in can"
-  ],
   "c:k-aus-australia-historical-photograph-1": [
    "ok",
    "categories"
@@ -3778,10 +3485,6 @@
    "unknown",
    ""
   ],
-  "c:k-aus-fp-5": [
-   "drop",
-   "coordinates in sea or unknown"
-  ],
   "c:k-aus-fp-6": [
    "ok",
    "categories"
@@ -3809,10 +3512,6 @@
   "c:k-aus-qi-2": [
    "ok",
    "coordinates"
-  ],
-  "c:k-aus-qi-3": [
-   "drop",
-   "coordinates in sea or unknown"
   ],
   "c:k-aus-qi-4": [
    "ok",
@@ -3850,10 +3549,6 @@
    "ok",
    "categories"
   ],
-  "c:k-aut-fp-1": [
-   "drop",
-   "categories name Hungary"
-  ],
   "c:k-aut-fp-10": [
    "ok",
    "categories"
@@ -3869,10 +3564,6 @@
   "c:k-aut-fp-2": [
    "ok",
    "coordinates"
-  ],
-  "c:k-aut-fp-3": [
-   "drop",
-   "categories name France"
   ],
   "c:k-aut-fp-4": [
    "ok",
@@ -3958,13 +3649,9 @@
    "ok",
    "coordinates"
   ],
-  "c:k-aze-azerbaijan-landscape-1": [
+  "c:k-aze-fp-2": [
    "ok",
    "coordinates"
-  ],
-  "c:k-aze-azerbaijan-landscape-2": [
-   "drop",
-   "coordinates in che"
   ],
   "c:k-aze-azerbaijan-village-1": [
    "unknown",
@@ -3981,10 +3668,6 @@
   "c:k-aze-fp-1": [
    "ok",
    "categories"
-  ],
-  "c:k-aze-fp-2": [
-   "ok",
-   "coordinates"
   ],
   "c:k-aze-fp-3": [
    "ok",
@@ -4074,7 +3757,7 @@
    "ok",
    "categories"
   ],
-  "c:k-bel-fp-4": [
+  "c:k-bel-belgium-historical-photograph-1": [
    "ok",
    "categories"
   ],
@@ -4094,23 +3777,23 @@
    "ok",
    "categories"
   ],
-  "c:k-bel-belgium-village-2": [
-   "drop",
-   "United States place: Wisconsin"
-  ],
   "c:k-bel-brussels-city-1": [
    "ok",
    "categories"
   ],
-  "c:k-bel-fp-1": [
+  "c:k-bel-qi-2": [
    "ok",
    "categories"
   ],
-  "c:k-bel-fp-2": [
+  "c:k-bel-qi-4": [
    "ok",
    "coordinates"
   ],
   "c:k-bel-fp-3": [
+   "ok",
+   "categories"
+  ],
+  "c:k-bel-fp-4": [
    "ok",
    "categories"
   ],
@@ -4142,15 +3825,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-bel-qi-2": [
-   "ok",
-   "categories"
-  ],
   "c:k-bel-qi-3": [
-   "ok",
-   "coordinates"
-  ],
-  "c:k-bel-qi-4": [
    "ok",
    "coordinates"
   ],
@@ -4186,37 +3861,17 @@
    "unknown",
    ""
   ],
-  "c:k-ben-benin-village-1": [
-   "drop",
-   "coordinates in tgo"
-  ],
-  "c:k-ben-benin-village-2": [
-   "drop",
-   "coordinates in tgo"
-  ],
   "c:k-ben-fp-1": [
    "ok",
    "categories"
-  ],
-  "c:k-ben-porto-novo-city-1": [
-   "drop",
-   "categories name Cape Verde"
   ],
   "c:k-ben-porto-novo-city-2": [
    "unknown",
    ""
   ],
-  "c:k-ben-qi-1": [
-   "drop",
-   "coordinates in gb1"
-  ],
   "c:k-ben-qi-10": [
    "ok",
    "categories"
-  ],
-  "c:k-ben-qi-11": [
-   "drop",
-   "coordinates in gb1"
   ],
   "c:k-ben-qi-12": [
    "ok",
@@ -4226,10 +3881,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-ben-qi-3": [
-   "drop",
-   "coordinates in gb1"
-  ],
   "c:k-ben-qi-4": [
    "ok",
    "categories"
@@ -4237,10 +3888,6 @@
   "c:k-ben-qi-5": [
    "ok",
    "categories"
-  ],
-  "c:k-ben-qi-6": [
-   "drop",
-   "coordinates in gb1"
   ],
   "c:k-ben-qi-7": [
    "unknown",
@@ -4329,10 +3976,6 @@
   "c:k-bgd-dhaka-city-1": [
    "ok",
    "categories"
-  ],
-  "c:k-bgd-dhaka-city-2": [
-   "drop",
-   "coordinates in usa"
   ],
   "c:k-bgd-fp-1": [
    "ok",
@@ -4501,10 +4144,6 @@
   "c:k-bhr-fp-3": [
    "ok",
    "coordinates"
-  ],
-  "c:k-bhr-fp-4": [
-   "drop",
-   "coordinates in lka"
   ],
   "c:k-bhr-qi-2": [
    "ok",
@@ -4866,19 +4505,15 @@
    "unknown",
    ""
   ],
-  "c:k-bol-bolivia-village-2": [
-   "drop",
-   "coordinates in col"
-  ],
-  "c:k-bol-qi-1": [
+  "c:k-bol-fp-1": [
    "ok",
    "categories"
   ],
-  "c:k-bol-qi-7": [
+  "c:k-bol-fp-10": [
    "ok",
    "coordinates"
   ],
-  "c:k-bol-qi-8": [
+  "c:k-bol-fp-11": [
    "ok",
    "categories"
   ],
@@ -4918,6 +4553,10 @@
    "ok",
    "categories"
   ],
+  "c:k-bol-qi-1": [
+   "ok",
+   "categories"
+  ],
   "c:k-bol-qi-10": [
    "ok",
    "coordinates"
@@ -4927,6 +4566,14 @@
    "coordinates"
   ],
   "c:k-bol-qi-12": [
+   "ok",
+   "categories"
+  ],
+  "c:k-bol-qi-7": [
+   "ok",
+   "coordinates"
+  ],
+  "c:k-bol-qi-8": [
    "ok",
    "categories"
   ],
@@ -4965,10 +4612,6 @@
   "c:k-bra-brazil-village-2": [
    "ok",
    "categories"
-  ],
-  "c:k-bra-fp-1": [
-   "drop",
-   "coordinates in ven"
   ],
   "c:k-bra-fp-2": [
    "ok",
@@ -5053,14 +4696,6 @@
   "c:k-brb-barbados-village-1": [
    "ok",
    "coordinates"
-  ],
-  "c:k-brb-bridgetown-city-1": [
-   "drop",
-   "coordinates in usa"
-  ],
-  "c:k-brb-bridgetown-city-2": [
-   "drop",
-   "coordinates in usa"
   ],
   "c:k-brb-qi-1": [
    "ok",
@@ -5262,21 +4897,13 @@
    "ok",
    "categories"
   ],
-  "c:k-caf-central-african-republic-historical--1": [
-   "drop",
-   "categories name Congo"
-  ],
-  "c:k-caf-central-african-republic-historical--2": [
-   "drop",
-   "categories name Congo"
-  ],
   "c:k-caf-fp-1": [
    "ok",
    "coordinates"
   ],
-  "c:k-caf-qi-1": [
+  "c:k-caf-fp-2": [
    "drop",
-   "coordinates in fr1"
+   "coordinates in fra"
   ],
   "c:k-caf-qi-2": [
    "ok",
@@ -5289,10 +4916,6 @@
   "c:k-can-canada-historical-photograph-2": [
    "ok",
    "categories"
-  ],
-  "c:k-can-canada-landscape-2": [
-   "drop",
-   "coordinates in usa"
   ],
   "c:k-can-canada-village-1": [
    "ok",
@@ -5650,14 +5273,6 @@
    "unknown",
    ""
   ],
-  "c:k-chl-santiago-city-1": [
-   "drop",
-   "coordinates in phl"
-  ],
-  "c:k-chl-santiago-city-2": [
-   "drop",
-   "coordinates in phl"
-  ],
   "c:k-chn-beijing-city-1": [
    "ok",
    "categories"
@@ -5669,18 +5284,6 @@
   "c:k-chn-china-historical-photograph-1": [
    "ok",
    "coordinates"
-  ],
-  "c:k-chn-china-landscape-1": [
-   "drop",
-   "coordinates in ind"
-  ],
-  "c:k-chn-china-village-1": [
-   "drop",
-   "coordinates in usa"
-  ],
-  "c:k-chn-china-village-2": [
-   "drop",
-   "coordinates in usa"
   ],
   "c:k-chn-chongqing": [
    "unknown",
@@ -5926,14 +5529,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-chn-hist-1930s-refugees-1": [
-   "drop",
-   "United States place: in Tennessee"
-  ],
-  "c:k-chn-hist-1930s-refugees-2": [
-   "drop",
-   "coordinates in usa"
-  ],
   "c:k-chn-hist-1940s-civil-war-1": [
    "ok",
    "categories"
@@ -6114,10 +5709,6 @@
    "ok",
    "categories"
   ],
-  "c:k-chn-life-rice-planting-1": [
-   "drop",
-   "coordinates in tha"
-  ],
   "c:k-chn-life-rice-planting-2": [
    "ok",
    "categories"
@@ -6133,18 +5724,6 @@
   "c:k-chn-life-square-dance-1": [
    "ok",
    "coordinates"
-  ],
-  "c:k-chn-life-square-dance-2": [
-   "drop",
-   "coordinates in twn"
-  ],
-  "c:k-chn-life-street-food-1": [
-   "drop",
-   "coordinates in tha"
-  ],
-  "c:k-chn-life-street-food-2": [
-   "drop",
-   "coordinates in tha"
   ],
   "c:k-chn-life-tibetan-nomads-1": [
    "unknown",
@@ -6229,10 +5808,6 @@
   "c:k-chn-xi-an": [
    "ok",
    "categories"
-  ],
-  "c:k-civ-ivory-coast-historical-photograph-1": [
-   "drop",
-   "coordinates in gb1"
   ],
   "c:k-civ-ivory-coast-historical-photograph-2": [
    "ok",
@@ -6442,18 +6017,6 @@
    "ok",
    "categories"
   ],
-  "c:k-com-comoros-village-1": [
-   "drop",
-   "categories name Senegal"
-  ],
-  "c:k-com-comoros-village-2": [
-   "drop",
-   "coordinates in ner"
-  ],
-  "c:k-com-moroni-city-1": [
-   "drop",
-   "United States place: in Utah"
-  ],
   "c:k-com-moroni-city-2": [
    "ok",
    "categories"
@@ -6622,10 +6185,6 @@
    "ok",
    "categories"
   ],
-  "c:k-cub-cuba-village-1": [
-   "drop",
-   "United States place: New Mexico"
-  ],
   "c:k-cub-cuba-village-2": [
    "ok",
    "categories"
@@ -6658,7 +6217,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-cub-havana-city-1": [
+  "c:k-cub-fp-5": [
    "ok",
    "categories"
   ],
@@ -6677,6 +6236,10 @@
   "c:k-cub-fp-9": [
    "ok",
    "coordinates"
+  ],
+  "c:k-cub-havana-city-1": [
+   "ok",
+   "categories"
   ],
   "c:k-cub-havana-city-2": [
    "ok",
@@ -6749,10 +6312,6 @@
   "c:k-cyp-fp-3": [
    "ok",
    "coordinates"
-  ],
-  "c:k-cyp-cyprus-village-2": [
-   "drop",
-   "coordinates in cyn"
   ],
   "c:k-cyp-fp-1": [
    "ok",
@@ -6978,7 +6537,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-deu-fp-1": [
+  "c:k-deu-qi-1": [
    "ok",
    "coordinates"
   ],
@@ -6998,7 +6557,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-deu-fp-3": [
+  "c:k-deu-qi-3": [
    "ok",
    "coordinates"
   ],
@@ -7018,21 +6577,13 @@
    "unknown",
    ""
   ],
-  "c:k-deu-fp-8": [
+  "c:k-deu-qi-5": [
    "ok",
    "coordinates"
   ],
   "c:k-deu-fp-9": [
    "ok",
    "coordinates"
-  ],
-  "c:k-deu-germany-historical-photograph-1": [
-   "drop",
-   "coordinates in bra"
-  ],
-  "c:k-deu-germany-landscape-1": [
-   "drop",
-   "coordinates in isl"
   ],
   "c:k-deu-germany-landscape-2": [
    "unknown",
@@ -7054,10 +6605,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-deu-qi-1": [
-   "ok",
-   "coordinates"
-  ],
   "c:k-deu-qi-10": [
    "ok",
    "coordinates"
@@ -7074,17 +6621,9 @@
    "ok",
    "coordinates"
   ],
-  "c:k-deu-qi-3": [
-   "ok",
-   "coordinates"
-  ],
   "c:k-deu-qi-4": [
    "ok",
    "categories"
-  ],
-  "c:k-deu-qi-5": [
-   "ok",
-   "coordinates"
   ],
   "c:k-deu-qi-6": [
    "ok",
@@ -7129,10 +6668,6 @@
   "c:k-dji-djibouti-village-2": [
    "ok",
    "categories"
-  ],
-  "c:k-dma-dominica-landscape-1": [
-   "drop",
-   "categories name Finland"
   ],
   "c:k-dma-dominica-landscape-2": [
    "unknown",
@@ -7190,10 +6725,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-dma-roseau-city-1": [
-   "drop",
-   "coordinates in usa"
-  ],
   "c:k-dma-roseau-city-2": [
    "ok",
    "categories"
@@ -7213,10 +6744,6 @@
   "c:k-dnk-denmark-landscape-2": [
    "ok",
    "categories"
-  ],
-  "c:k-dnk-denmark-village-1": [
-   "drop",
-   "United States place: Wisconsin"
   ],
   "c:k-dnk-denmark-village-2": [
    "ok",
@@ -7245,10 +6772,6 @@
   "c:k-dnk-fp-3": [
    "unknown",
    ""
-  ],
-  "c:k-dnk-fp-4": [
-   "drop",
-   "categories name Austria"
   ],
   "c:k-dnk-fp-5": [
    "ok",
@@ -7341,10 +6864,6 @@
   "c:k-dom-santo-domingo-city-1": [
    "ok",
    "categories"
-  ],
-  "c:k-dom-santo-domingo-city-2": [
-   "drop",
-   "coordinates in chl"
   ],
   "c:k-dza-algeria-historical-photograph-1": [
    "ok",
@@ -7474,7 +6993,7 @@
    "ok",
    "categories"
   ],
-  "c:k-ecu-ecuador-landscape-1": [
+  "c:k-ecu-qi-3": [
    "ok",
    "categories"
   ],
@@ -7490,29 +7009,13 @@
    "ok",
    "categories"
   ],
-  "c:k-ecu-fp-1": [
+  "c:k-ecu-qi-1": [
    "ok",
    "categories"
   ],
   "c:k-ecu-qi-2": [
    "ok",
    "coordinates"
-  ],
-  "c:k-ecu-qi-3": [
-   "ok",
-   "categories"
-  ],
-  "c:k-ecu-fp-4": [
-   "drop",
-   "coordinates in fr1"
-  ],
-  "c:k-ecu-fp-5": [
-   "drop",
-   "coordinates in fr1"
-  ],
-  "c:k-ecu-qi-1": [
-   "ok",
-   "categories"
   ],
   "c:k-ecu-qi-10": [
    "ok",
@@ -7562,10 +7065,6 @@
    "ok",
    "categories"
   ],
-  "c:k-egy-cairo-city-1": [
-   "drop",
-   "coordinates in usa"
-  ],
   "c:k-egy-cairo-city-2": [
    "ok",
    "categories"
@@ -7573,10 +7072,6 @@
   "c:k-egy-egypt-historical-photograph-1": [
    "ok",
    "categories"
-  ],
-  "c:k-egy-egypt-historical-photograph-2": [
-   "drop",
-   "United States place: New Jersey"
   ],
   "c:k-egy-egypt-landscape-1": [
    "ok",
@@ -7942,7 +7437,7 @@
    "ok",
    "categories"
   ],
-  "c:k-eth-qi-1": [
+  "c:k-eth-fp-3": [
    "ok",
    "categories"
   ],
@@ -7957,6 +7452,10 @@
   "c:k-eth-lalibela": [
    "ok",
    "coordinates"
+  ],
+  "c:k-eth-qi-1": [
+   "ok",
+   "categories"
   ],
   "c:k-eth-qi-10": [
    "ok",
@@ -8074,10 +7573,6 @@
    "ok",
    "categories"
   ],
-  "c:k-fin-qi-3": [
-   "drop",
-   "coordinates in deu"
-  ],
   "c:k-fin-qi-4": [
    "ok",
    "categories"
@@ -8174,14 +7669,6 @@
    "ok",
    "categories"
   ],
-  "c:k-fra-fp-2": [
-   "drop",
-   "categories name Germany"
-  ],
-  "c:k-fra-fp-3": [
-   "drop",
-   "coordinates in usa"
-  ],
   "c:k-fra-fp-4": [
    "ok",
    "categories"
@@ -8189,10 +7676,6 @@
   "c:k-fra-fp-5": [
    "ok",
    "categories"
-  ],
-  "c:k-fra-fp-6": [
-   "drop",
-   "coordinates in fr1"
   ],
   "c:k-fra-fp-7": [
    "ok",
@@ -8202,21 +7685,9 @@
    "ok",
    "categories"
   ],
-  "c:k-fra-france-historical-photograph-1": [
-   "drop",
-   "coordinates in bra"
-  ],
-  "c:k-fra-france-historical-photograph-2": [
-   "drop",
-   "coordinates in usa"
-  ],
   "c:k-fra-france-landscape-1": [
    "ok",
    "categories"
-  ],
-  "c:k-fra-france-landscape-2": [
-   "drop",
-   "categories name Sweden"
   ],
   "c:k-fra-marseille": [
    "ok",
@@ -8250,25 +7721,9 @@
    "ok",
    "categories"
   ],
-  "c:k-fsm-micronesia-landscape-2": [
-   "drop",
-   "coordinates in au1"
-  ],
   "c:k-fsm-micronesia-village-1": [
    "ok",
    "coordinates"
-  ],
-  "c:k-gab-fp-1": [
-   "drop",
-   "coordinates in fr1"
-  ],
-  "c:k-gab-gabon-historical-photograph-1": [
-   "drop",
-   "coordinates in phl"
-  ],
-  "c:k-gab-gabon-historical-photograph-2": [
-   "drop",
-   "coordinates in phl"
   ],
   "c:k-gab-gabon-landscape-2": [
    "ok",
@@ -8289,10 +7744,6 @@
   "c:k-gab-libreville-city-2": [
    "ok",
    "categories"
-  ],
-  "c:k-gab-qi-1": [
-   "drop",
-   "coordinates in fr1"
   ],
   "c:k-gbr-edinburgh": [
    "unknown",
@@ -8334,14 +7785,6 @@
    "ok",
    "categories"
   ],
-  "c:k-gbr-united-kingdom-landscape-1": [
-   "drop",
-   "coordinates in usa"
-  ],
-  "c:k-gbr-united-kingdom-landscape-2": [
-   "drop",
-   "coordinates in sea or unknown"
-  ],
   "c:k-gbr-united-kingdom-village-1": [
    "unknown",
    ""
@@ -8365,14 +7808,6 @@
   "c:k-geo-georgia-landscape-2": [
    "ok",
    "categories"
-  ],
-  "c:k-geo-georgia-village-1": [
-   "drop",
-   "coordinates in usa"
-  ],
-  "c:k-geo-georgia-village-2": [
-   "drop",
-   "coordinates in usa"
   ],
   "c:k-geo-qi-1": [
    "ok",
@@ -8462,7 +7897,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-gha-ghana-village-1": [
+  "c:k-gha-fp-4": [
    "ok",
    "coordinates"
   ],
@@ -8497,6 +7932,10 @@
   "c:k-gha-ghana-landscape-2": [
    "ok",
    "categories"
+  ],
+  "c:k-gha-ghana-village-1": [
+   "ok",
+   "coordinates"
   ],
   "c:k-gha-ghana-village-2": [
    "ok",
@@ -8690,10 +8129,6 @@
    "ok",
    "categories"
   ],
-  "c:k-gnq-equatorial-guinea-historical-photogr-1": [
-   "drop",
-   "categories name China"
-  ],
   "c:k-grc-athens-city-1": [
    "ok",
    "coordinates"
@@ -8842,11 +8277,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-grd-st-george-s-city-1": [
-   "drop",
-   "coordinates in gb1"
-  ],
-  "c:k-gtm-fp-1": [
+  "c:k-gtm-qi-1": [
    "ok",
    "coordinates"
   ],
@@ -8886,25 +8317,9 @@
    "ok",
    "categories"
   ],
-  "c:k-gtm-guatemala-historical-photograph-1": [
-   "drop",
-   "coordinates in chn"
-  ],
-  "c:k-gtm-guatemala-historical-photograph-2": [
-   "drop",
-   "coordinates in chn"
-  ],
   "c:k-gtm-guatemala-village-1": [
    "ok",
    "categories"
-  ],
-  "c:k-gtm-guatemala-village-2": [
-   "drop",
-   "coordinates in sea or unknown"
-  ],
-  "c:k-gtm-qi-1": [
-   "ok",
-   "coordinates"
   ],
   "c:k-gtm-qi-2": [
    "ok",
@@ -8918,17 +8333,9 @@
    "ok",
    "categories"
   ],
-  "c:k-guy-georgetown-city-1": [
-   "drop",
-   "coordinates in usa"
-  ],
   "c:k-guy-georgetown-city-2": [
    "ok",
    "coordinates"
-  ],
-  "c:k-guy-guyana-historical-photograph-2": [
-   "drop",
-   "categories name Indonesia"
   ],
   "c:k-guy-guyana-landscape-1": [
    "ok",
@@ -8946,11 +8353,11 @@
    "ok",
    "coordinates"
   ],
-  "c:k-hnd-qi-2": [
+  "c:k-hnd-fp-2": [
    "ok",
    "coordinates"
   ],
-  "c:k-hnd-qi-3": [
+  "c:k-hnd-fp-3": [
    "ok",
    "coordinates"
   ],
@@ -8979,6 +8386,14 @@
    "coordinates"
   ],
   "c:k-hnd-qi-12": [
+   "ok",
+   "coordinates"
+  ],
+  "c:k-hnd-qi-2": [
+   "ok",
+   "coordinates"
+  ],
+  "c:k-hnd-qi-3": [
    "ok",
    "coordinates"
   ],
@@ -9013,10 +8428,6 @@
   "c:k-hnd-tegucigalpa-city-2": [
    "ok",
    "categories"
-  ],
-  "c:k-hrv-croatia-historical-photograph-1": [
-   "drop",
-   "coordinates in fr1"
   ],
   "c:k-hrv-croatia-historical-photograph-2": [
    "ok",
@@ -9206,7 +8617,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-hun-budapest-city-1": [
+  "c:k-hun-fp-3": [
    "ok",
    "coordinates"
   ],
@@ -9218,7 +8629,7 @@
    "ok",
    "categories"
   ],
-  "c:k-hun-qi-2": [
+  "c:k-hun-fp-10": [
    "ok",
    "categories"
   ],
@@ -9231,10 +8642,6 @@
    "coordinates"
   ],
   "c:k-hun-fp-2": [
-   "ok",
-   "coordinates"
-  ],
-  "c:k-hun-fp-3": [
    "ok",
    "coordinates"
   ],
@@ -9294,6 +8701,10 @@
    "ok",
    "categories"
   ],
+  "c:k-hun-qi-2": [
+   "ok",
+   "categories"
+  ],
   "c:k-hun-qi-3": [
    "ok",
    "categories"
@@ -9338,10 +8749,6 @@
    "ok",
    "categories"
   ],
-  "c:k-idn-fp-12": [
-   "drop",
-   "coordinates in sea or unknown"
-  ],
   "c:k-idn-fp-2": [
    "ok",
    "coordinates"
@@ -9350,7 +8757,7 @@
    "ok",
    "categories"
   ],
-  "c:k-idn-fp-4": [
+  "c:k-idn-qi-1": [
    "ok",
    "categories"
   ],
@@ -9374,18 +8781,6 @@
    "ok",
    "categories"
   ],
-  "c:k-idn-indonesia-historical-photograph-1": [
-   "drop",
-   "coordinates in bra"
-  ],
-  "c:k-idn-indonesia-landscape-1": [
-   "drop",
-   "categories name Italy"
-  ],
-  "c:k-idn-indonesia-landscape-2": [
-   "drop",
-   "coordinates in isl"
-  ],
   "c:k-idn-indonesia-village-1": [
    "ok",
    "coordinates"
@@ -9399,10 +8794,6 @@
    "categories"
   ],
   "c:k-idn-jakarta-city-2": [
-   "ok",
-   "categories"
-  ],
-  "c:k-idn-qi-1": [
    "ok",
    "categories"
   ],
@@ -9518,10 +8909,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-ind-qi-4": [
-   "drop",
-   "coordinates in gha"
-  ],
   "c:k-ind-qi-5": [
    "ok",
    "coordinates"
@@ -9545,10 +8932,6 @@
   "c:k-irl-dublin-city-1": [
    "ok",
    "coordinates"
-  ],
-  "c:k-irl-dublin-city-2": [
-   "drop",
-   "coordinates in usa"
   ],
   "c:k-irl-fp-1": [
    "ok",
@@ -9942,11 +9325,11 @@
    "ok",
    "categories"
   ],
-  "c:k-isr-fp-11": [
+  "c:k-isr-qi-2": [
    "ok",
    "coordinates"
   ],
-  "c:k-isr-fp-12": [
+  "c:k-isr-qi-3": [
    "ok",
    "coordinates"
   ],
@@ -9957,10 +9340,6 @@
   "c:k-isr-fp-3": [
    "ok",
    "coordinates"
-  ],
-  "c:k-isr-fp-4": [
-   "drop",
-   "coordinates in is1"
   ],
   "c:k-isr-fp-5": [
    "ok",
@@ -9974,7 +9353,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-isr-fp-8": [
+  "c:k-isr-qi-1": [
    "ok",
    "coordinates"
   ],
@@ -10002,10 +9381,6 @@
    "ok",
    "categories"
   ],
-  "c:k-isr-qi-1": [
-   "ok",
-   "coordinates"
-  ],
   "c:k-isr-qi-10": [
    "ok",
    "coordinates"
@@ -10015,14 +9390,6 @@
    "coordinates"
   ],
   "c:k-isr-qi-12": [
-   "ok",
-   "coordinates"
-  ],
-  "c:k-isr-qi-2": [
-   "ok",
-   "coordinates"
-  ],
-  "c:k-isr-qi-3": [
    "ok",
    "coordinates"
   ],
@@ -10050,7 +9417,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-ita-qi-1": [
+  "c:k-ita-fp-1": [
    "ok",
    "coordinates"
   ],
@@ -10126,6 +9493,10 @@
    "ok",
    "coordinates"
   ],
+  "c:k-ita-qi-1": [
+   "ok",
+   "coordinates"
+  ],
   "c:k-ita-qi-10": [
    "ok",
    "coordinates"
@@ -10173,10 +9544,6 @@
   "c:k-ita-rome-city-1": [
    "ok",
    "categories"
-  ],
-  "c:k-ita-rome-city-2": [
-   "drop",
-   "coordinates in usa"
   ],
   "c:k-jam-fp-1": [
    "ok",
@@ -10290,14 +9657,6 @@
    "ok",
    "categories"
   ],
-  "c:k-jor-jordan-village-1": [
-   "drop",
-   "coordinates in usa"
-  ],
-  "c:k-jor-jordan-village-2": [
-   "drop",
-   "coordinates in usa"
-  ],
   "c:k-jor-qi-1": [
    "ok",
    "coordinates"
@@ -10358,7 +9717,7 @@
    "unknown",
    ""
   ],
-  "c:k-jpn-qi-3": [
+  "c:k-jpn-fp-12": [
    "ok",
    "coordinates"
   ],
@@ -10382,7 +9741,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-jpn-qi-2": [
+  "c:k-jpn-fp-7": [
    "ok",
    "coordinates"
   ],
@@ -10401,10 +9760,6 @@
   "c:k-jpn-japan-historical-photograph-2": [
    "ok",
    "coordinates"
-  ],
-  "c:k-jpn-japan-landscape-1": [
-   "drop",
-   "coordinates in ind"
   ],
   "c:k-jpn-japan-landscape-2": [
    "ok",
@@ -10433,6 +9788,14 @@
   "c:k-jpn-qi-12": [
    "ok",
    "categories"
+  ],
+  "c:k-jpn-qi-2": [
+   "ok",
+   "coordinates"
+  ],
+  "c:k-jpn-qi-3": [
+   "ok",
+   "coordinates"
   ],
   "c:k-jpn-qi-4": [
    "unknown",
@@ -10477,10 +9840,6 @@
   "c:k-kaz-kazakhstan-landscape-1": [
    "ok",
    "categories"
-  ],
-  "c:k-kaz-kazakhstan-landscape-2": [
-   "drop",
-   "coordinates in uzb"
   ],
   "c:k-kaz-kazakhstan-village-1": [
    "ok",
@@ -10642,10 +10001,6 @@
    "ok",
    "categories"
   ],
-  "c:k-kgz-kyrgyzstan-village-1": [
-   "drop",
-   "coordinates in ind"
-  ],
   "c:k-kgz-kyrgyzstan-village-2": [
    "ok",
    "coordinates"
@@ -10794,17 +10149,9 @@
    "ok",
    "categories"
   ],
-  "c:k-kir-kiribati-village-2": [
-   "drop",
-   "coordinates in tha"
-  ],
   "c:k-kna-basseterre-city-1": [
    "ok",
    "coordinates"
-  ],
-  "c:k-kna-basseterre-city-2": [
-   "drop",
-   "categories name France"
   ],
   "c:k-kna-saint-kitts-and-nevis-historical-pho-1": [
    "ok",
@@ -10838,7 +10185,7 @@
    "ok",
    "categories"
   ],
-  "c:k-kor-qi-12": [
+  "c:k-kor-busan": [
    "ok",
    "coordinates"
   ],
@@ -10861,10 +10208,6 @@
   "c:k-kor-fp-2": [
    "ok",
    "categories"
-  ],
-  "c:k-kor-fp-3": [
-   "drop",
-   "coordinates in ita"
   ],
   "c:k-kor-fp-4": [
    "ok",
@@ -10899,6 +10242,10 @@
    "coordinates"
   ],
   "c:k-kor-qi-11": [
+   "ok",
+   "coordinates"
+  ],
+  "c:k-kor-qi-12": [
    "ok",
    "coordinates"
   ],
@@ -11234,14 +10581,6 @@
    "ok",
    "categories"
   ],
-  "c:k-lbr-monrovia-city-1": [
-   "drop",
-   "United States place: in California"
-  ],
-  "c:k-lbr-monrovia-city-2": [
-   "drop",
-   "coordinates in usa"
-  ],
   "c:k-lby-fp-1": [
    "ok",
    "coordinates"
@@ -11285,10 +10624,6 @@
   "c:k-lca-fp-1": [
    "ok",
    "coordinates"
-  ],
-  "c:k-lca-saint-lucia-historical-photograph-1": [
-   "drop",
-   "categories name Italy"
   ],
   "c:k-lca-saint-lucia-village-1": [
    "ok",
@@ -11458,7 +10793,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-ltu-fp-3": [
+  "c:k-ltu-qi-2": [
    "ok",
    "coordinates"
   ],
@@ -11505,10 +10840,6 @@
   "c:k-ltu-qi-12": [
    "ok",
    "categories"
-  ],
-  "c:k-ltu-qi-2": [
-   "ok",
-   "coordinates"
   ],
   "c:k-ltu-qi-3": [
    "ok",
@@ -11753,10 +11084,6 @@
   "c:k-mar-fp-11": [
    "ok",
    "categories"
-  ],
-  "c:k-mar-fp-12": [
-   "drop",
-   "categories name Spain"
   ],
   "c:k-mar-qi-1": [
    "ok",
@@ -12034,10 +11361,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-mdg-fp-11": [
-   "drop",
-   "coordinates in fr1"
-  ],
   "c:k-mdg-fp-12": [
    "ok",
    "categories"
@@ -12106,10 +11429,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-mdg-qi-2": [
-   "drop",
-   "coordinates in can"
-  ],
   "c:k-mdg-qi-3": [
    "ok",
    "coordinates"
@@ -12150,7 +11469,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-mdv-qi-5": [
+  "c:k-mdv-fp-5": [
    "drop",
    "coordinates in sea or unknown"
   ],
@@ -12270,10 +11589,6 @@
    "ok",
    "categories"
   ],
-  "c:k-mex-mexico-village-1": [
-   "drop",
-   "coordinates in usa"
-  ],
   "c:k-mex-oaxaca": [
    "ok",
    "categories"
@@ -12317,10 +11632,6 @@
   "c:k-mkd-fp-1": [
    "ok",
    "categories"
-  ],
-  "c:k-mkd-fp-10": [
-   "drop",
-   "coordinates in deu"
   ],
   "c:k-mkd-fp-11": [
    "ok",
@@ -12426,11 +11737,11 @@
    "ok",
    "categories"
   ],
-  "c:k-mli-qi-1": [
+  "c:k-mli-fp-1": [
    "ok",
    "coordinates"
   ],
-  "c:k-mli-mali-landscape-1": [
+  "c:k-mli-fp-2": [
    "ok",
    "coordinates"
   ],
@@ -12442,13 +11753,13 @@
    "ok",
    "coordinates"
   ],
-  "c:k-mli-mali-landscape-2": [
-   "drop",
-   "coordinates in mkd"
+  "c:k-mli-mali-landscape-1": [
+   "ok",
+   "coordinates"
   ],
-  "c:k-mli-mali-village-1": [
-   "drop",
-   "coordinates in blr"
+  "c:k-mli-qi-1": [
+   "ok",
+   "coordinates"
   ],
   "c:k-mli-qi-2": [
    "ok",
@@ -12586,7 +11897,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-mmr-qi-2": [
+  "c:k-mmr-fp-10": [
    "ok",
    "categories"
   ],
@@ -12662,6 +11973,10 @@
    "ok",
    "coordinates"
   ],
+  "c:k-mmr-qi-2": [
+   "ok",
+   "categories"
+  ],
   "c:k-mmr-qi-3": [
    "ok",
    "categories"
@@ -12710,15 +12025,15 @@
    "ok",
    "coordinates"
   ],
-  "c:k-mne-qi-3": [
+  "c:k-mne-fp-3": [
    "ok",
    "coordinates"
   ],
-  "c:k-mne-qi-4": [
+  "c:k-mne-fp-4": [
    "ok",
    "coordinates"
   ],
-  "c:k-mne-qi-5": [
+  "c:k-mne-fp-5": [
    "ok",
    "coordinates"
   ],
@@ -12726,7 +12041,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-mne-qi-6": [
+  "c:k-mne-fp-7": [
    "unknown",
    ""
   ],
@@ -12745,6 +12060,10 @@
   "c:k-mne-montenegro-historical-photograph-2": [
    "ok",
    "categories"
+  ],
+  "c:k-mne-qi-5": [
+   "ok",
+   "coordinates"
   ],
   "c:k-mne-montenegro-landscape-2": [
    "ok",
@@ -12785,6 +12104,18 @@
   "c:k-mne-qi-2": [
    "ok",
    "coordinates"
+  ],
+  "c:k-mne-qi-3": [
+   "ok",
+   "coordinates"
+  ],
+  "c:k-mne-qi-4": [
+   "ok",
+   "coordinates"
+  ],
+  "c:k-mne-qi-6": [
+   "unknown",
+   ""
   ],
   "c:k-mne-qi-7": [
    "ok",
@@ -12966,7 +12297,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-mrt-fp-1": [
+  "c:k-mrt-qi-1": [
    "unknown",
    ""
   ],
@@ -12994,10 +12325,6 @@
    "ok",
    "categories"
   ],
-  "c:k-mrt-qi-1": [
-   "unknown",
-   ""
-  ],
   "c:k-mrt-qi-2": [
    "ok",
    "categories"
@@ -13022,7 +12349,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-mus-qi-1": [
+  "c:k-mus-fp-4": [
    "ok",
    "coordinates"
   ],
@@ -13050,13 +12377,13 @@
    "ok",
    "coordinates"
   ],
-  "c:k-mus-mauritius-landscape-2": [
+  "c:k-mus-qi-1": [
    "ok",
    "coordinates"
   ],
-  "c:k-mus-mauritius-village-1": [
-   "drop",
-   "coordinates in deu"
+  "c:k-mus-mauritius-landscape-2": [
+   "ok",
+   "coordinates"
   ],
   "c:k-mus-mauritius-village-2": [
    "ok",
@@ -13258,7 +12585,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-nam-fp-10": [
+  "c:k-nam-qi-2": [
    "ok",
    "categories"
   ],
@@ -13266,7 +12593,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-nam-fp-12": [
+  "c:k-nam-namibia-landscape-2": [
    "ok",
    "coordinates"
   ],
@@ -13298,7 +12625,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-nam-fp-9": [
+  "c:k-nam-namibia-landscape-1": [
    "ok",
    "coordinates"
   ],
@@ -13310,14 +12637,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-nam-namibia-landscape-1": [
-   "ok",
-   "coordinates"
-  ],
-  "c:k-nam-namibia-landscape-2": [
-   "ok",
-   "coordinates"
-  ],
   "c:k-nam-namibia-village-1": [
    "ok",
    "coordinates"
@@ -13326,7 +12645,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-nam-windhoek-city-1": [
+  "c:k-nam-qi-1": [
    "ok",
    "coordinates"
   ],
@@ -13335,10 +12654,6 @@
    "categories"
   ],
   "c:k-nam-qi-11": [
-   "ok",
-   "categories"
-  ],
-  "c:k-nam-qi-2": [
    "ok",
    "categories"
   ],
@@ -13367,6 +12682,10 @@
    "categories"
   ],
   "c:k-nam-qi-9": [
+   "ok",
+   "coordinates"
+  ],
+  "c:k-nam-windhoek-city-1": [
    "ok",
    "coordinates"
   ],
@@ -13485,10 +12804,6 @@
   "c:k-nic-nicaragua-landscape-1": [
    "ok",
    "categories"
-  ],
-  "c:k-nic-nicaragua-village-1": [
-   "drop",
-   "coordinates in ven"
   ],
   "c:k-nic-nicaragua-village-2": [
    "ok",
@@ -13726,7 +13041,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-npl-fp-2": [
+  "c:k-npl-qi-1": [
    "ok",
    "coordinates"
   ],
@@ -13786,10 +13101,6 @@
    "ok",
    "categories"
   ],
-  "c:k-npl-qi-1": [
-   "ok",
-   "coordinates"
-  ],
   "c:k-npl-qi-10": [
    "ok",
    "coordinates"
@@ -13805,10 +13116,6 @@
   "c:k-npl-qi-2": [
    "ok",
    "coordinates"
-  ],
-  "c:k-npl-qi-3": [
-   "drop",
-   "coordinates in ind"
   ],
   "c:k-npl-qi-4": [
    "ok",
@@ -13962,10 +13269,6 @@
    "ok",
    "categories"
   ],
-  "c:k-nzl-qi-6": [
-   "drop",
-   "coordinates in sea or unknown"
-  ],
   "c:k-nzl-qi-7": [
    "ok",
    "categories"
@@ -13973,10 +13276,6 @@
   "c:k-nzl-qi-8": [
    "ok",
    "categories"
-  ],
-  "c:k-nzl-qi-9": [
-   "drop",
-   "coordinates in sea or unknown"
   ],
   "c:k-nzl-wellington-city-1": [
    "ok",
@@ -14082,17 +13381,9 @@
    "ok",
    "categories"
   ],
-  "c:k-pak-fp-4": [
-   "drop",
-   "categories name India"
-  ],
   "c:k-pak-islamabad-city-2": [
    "ok",
    "coordinates"
-  ],
-  "c:k-pak-lahore": [
-   "drop",
-   "coordinates in usa"
   ],
   "c:k-pak-pakistan-historical-photograph-1": [
    "ok",
@@ -14166,10 +13457,6 @@
    "ok",
    "categories"
   ],
-  "c:k-pan-panama-city-city-1": [
-   "drop",
-   "coordinates in sea or unknown"
-  ],
   "c:k-pan-panama-city-city-2": [
    "ok",
    "coordinates"
@@ -14185,14 +13472,6 @@
   "c:k-pan-panama-landscape-1": [
    "ok",
    "categories"
-  ],
-  "c:k-pan-panama-village-1": [
-   "drop",
-   "United States place: Nebraska"
-  ],
-  "c:k-pan-panama-village-2": [
-   "drop",
-   "coordinates in usa"
   ],
   "c:k-pan-qi-10": [
    "ok",
@@ -14238,7 +13517,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-per-fp-1": [
+  "c:k-per-qi-1": [
    "ok",
    "categories"
   ],
@@ -14250,11 +13529,11 @@
    "ok",
    "categories"
   ],
-  "c:k-per-qi-6": [
+  "c:k-per-fp-12": [
    "ok",
    "categories"
   ],
-  "c:k-per-qi-2": [
+  "c:k-per-fp-2": [
    "ok",
    "coordinates"
   ],
@@ -14262,7 +13541,7 @@
    "ok",
    "categories"
   ],
-  "c:k-per-qi-3": [
+  "c:k-per-fp-4": [
    "ok",
    "categories"
   ],
@@ -14278,7 +13557,7 @@
    "ok",
    "categories"
   ],
-  "c:k-per-qi-4": [
+  "c:k-per-fp-8": [
    "ok",
    "categories"
   ],
@@ -14302,17 +13581,13 @@
    "ok",
    "coordinates"
   ],
-  "c:k-per-qi-8": [
+  "c:k-per-peru-village-1": [
    "ok",
    "categories"
   ],
   "c:k-per-peru-village-2": [
    "unknown",
    ""
-  ],
-  "c:k-per-qi-1": [
-   "ok",
-   "categories"
   ],
   "c:k-per-qi-10": [
    "ok",
@@ -14326,11 +13601,31 @@
    "ok",
    "coordinates"
   ],
+  "c:k-per-qi-2": [
+   "ok",
+   "coordinates"
+  ],
+  "c:k-per-qi-3": [
+   "ok",
+   "categories"
+  ],
+  "c:k-per-qi-4": [
+   "ok",
+   "categories"
+  ],
   "c:k-per-qi-5": [
    "ok",
    "categories"
   ],
+  "c:k-per-qi-6": [
+   "ok",
+   "categories"
+  ],
   "c:k-per-qi-7": [
+   "ok",
+   "categories"
+  ],
+  "c:k-per-qi-8": [
    "ok",
    "categories"
   ],
@@ -14361,10 +13656,6 @@
   "c:k-phl-fp-2": [
    "ok",
    "categories"
-  ],
-  "c:k-phl-fp-3": [
-   "drop",
-   "coordinates in sea or unknown"
   ],
   "c:k-phl-fp-4": [
    "ok",
@@ -14462,7 +13753,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-plw-qi-1": [
+  "c:k-plw-fp-1": [
    "ok",
    "coordinates"
   ],
@@ -14474,21 +13765,13 @@
    "unknown",
    ""
   ],
-  "c:k-plw-palau-landscape-1": [
-   "drop",
-   "coordinates in ita"
-  ],
-  "c:k-plw-palau-landscape-2": [
-   "drop",
-   "coordinates in ita"
-  ],
   "c:k-plw-palau-village-1": [
    "ok",
    "categories"
   ],
-  "c:k-plw-palau-village-2": [
-   "drop",
-   "coordinates in esp"
+  "c:k-plw-qi-1": [
+   "ok",
+   "coordinates"
   ],
   "c:k-plw-qi-2": [
    "ok",
@@ -14526,7 +13809,7 @@
    "ok",
    "categories"
   ],
-  "c:k-png-fp-2": [
+  "c:k-png-qi-1": [
    "ok",
    "categories"
   ],
@@ -14567,10 +13850,6 @@
    "categories"
   ],
   "c:k-png-port-moresby-city-1": [
-   "ok",
-   "categories"
-  ],
-  "c:k-png-qi-1": [
    "ok",
    "categories"
   ],
@@ -14674,10 +13953,6 @@
    "ok",
    "categories"
   ],
-  "c:k-pol-qi-7": [
-   "drop",
-   "coordinates in svk"
-  ],
   "c:k-pol-qi-8": [
    "ok",
    "coordinates"
@@ -14738,7 +14013,7 @@
    "ok",
    "categories"
   ],
-  "c:k-prt-qi-1": [
+  "c:k-prt-fp-1": [
    "ok",
    "categories"
   ],
@@ -14814,6 +14089,10 @@
    "unknown",
    ""
   ],
+  "c:k-prt-qi-1": [
+   "ok",
+   "categories"
+  ],
   "c:k-prt-qi-10": [
    "ok",
    "coordinates"
@@ -14858,10 +14137,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-pry-asunci-n-city-2": [
-   "drop",
-   "coordinates in gtm"
-  ],
   "c:k-pry-paraguay-historical-photograph-1": [
    "ok",
    "categories"
@@ -14882,10 +14157,6 @@
    "ok",
    "categories"
   ],
-  "c:k-pry-qi-2": [
-   "drop",
-   "coordinates in irn"
-  ],
   "c:k-pse-gaza-city": [
    "ok",
    "coordinates"
@@ -14894,14 +14165,6 @@
    "ok",
    "categories"
   ],
-  "c:k-pse-palestine-historical-photograph-1": [
-   "drop",
-   "coordinates in is1"
-  ],
-  "c:k-pse-palestine-historical-photograph-2": [
-   "drop",
-   "coordinates in is1"
-  ],
   "c:k-pse-palestine-landscape-1": [
    "ok",
    "categories"
@@ -14909,14 +14172,6 @@
   "c:k-pse-palestine-landscape-2": [
    "ok",
    "categories"
-  ],
-  "c:k-pse-palestine-village-1": [
-   "drop",
-   "coordinates in gb1"
-  ],
-  "c:k-pse-palestine-village-2": [
-   "drop",
-   "coordinates in gb1"
   ],
   "c:k-pse-ramallah-city-1": [
    "ok",
@@ -14938,11 +14193,11 @@
    "ok",
    "categories"
   ],
-  "c:k-qat-qi-2": [
+  "c:k-qat-fp-2": [
    "ok",
    "categories"
   ],
-  "c:k-qat-qi-3": [
+  "c:k-qat-fp-3": [
    "ok",
    "categories"
   ],
@@ -14979,6 +14234,14 @@
    "categories"
   ],
   "c:k-qat-qi-12": [
+   "ok",
+   "categories"
+  ],
+  "c:k-qat-qi-2": [
+   "ok",
+   "categories"
+  ],
+  "c:k-qat-qi-3": [
    "ok",
    "categories"
   ],
@@ -15110,10 +14373,6 @@
    "unknown",
    ""
   ],
-  "c:k-rus-fp-3": [
-   "drop",
-   "coordinates in fr1"
-  ],
   "c:k-rus-fp-4": [
    "ok",
    "categories"
@@ -15121,10 +14380,6 @@
   "c:k-rus-fp-5": [
    "ok",
    "categories"
-  ],
-  "c:k-rus-fp-6": [
-   "drop",
-   "coordinates in fr1"
   ],
   "c:k-rus-moscow-city-1": [
    "ok",
@@ -15297,10 +14552,6 @@
   "c:k-sdn-sudan-landscape-2": [
    "ok",
    "categories"
-  ],
-  "c:k-sdn-sudan-village-1": [
-   "drop",
-   "coordinates in sds"
   ],
   "c:k-sdn-sudan-village-2": [
    "ok",
@@ -15482,14 +14733,6 @@
    "ok",
    "categories"
   ],
-  "c:k-sle-freetown-city-1": [
-   "drop",
-   "coordinates in gb1"
-  ],
-  "c:k-sle-freetown-city-2": [
-   "drop",
-   "coordinates in gb1"
-  ],
   "c:k-sle-sierra-leone-historical-photograph-1": [
    "ok",
    "categories"
@@ -15542,11 +14785,11 @@
    "ok",
    "coordinates"
   ],
-  "c:k-smr-qi-7": [
+  "c:k-smr-fp-6": [
    "ok",
    "categories"
   ],
-  "c:k-smr-qi-9": [
+  "c:k-smr-fp-7": [
    "ok",
    "coordinates"
   ],
@@ -15562,9 +14805,17 @@
    "ok",
    "categories"
   ],
+  "c:k-smr-qi-7": [
+   "ok",
+   "categories"
+  ],
   "c:k-smr-qi-8": [
    "ok",
    "categories"
+  ],
+  "c:k-smr-qi-9": [
+   "ok",
+   "coordinates"
   ],
   "c:k-smr-san-marino-historical-photograph-1": [
    "unknown",
@@ -15598,10 +14849,6 @@
    "ok",
    "categories"
   ],
-  "c:k-som-mogadishu-city-2": [
-   "drop",
-   "categories name Botswana"
-  ],
   "c:k-som-somalia-historical-photograph-1": [
    "ok",
    "coordinates"
@@ -15609,10 +14856,6 @@
   "c:k-som-somalia-historical-photograph-2": [
    "ok",
    "categories"
-  ],
-  "c:k-som-somalia-village-1": [
-   "drop",
-   "coordinates in sol"
   ],
   "c:k-som-somalia-village-2": [
    "ok",
@@ -15641,10 +14884,6 @@
   "c:k-srb-fp-12": [
    "ok",
    "coordinates"
-  ],
-  "c:k-srb-fp-2": [
-   "drop",
-   "coordinates in svn"
   ],
   "c:k-srb-fp-3": [
    "ok",
@@ -15841,10 +15080,6 @@
   "c:k-stp-fp-4": [
    "ok",
    "coordinates"
-  ],
-  "c:k-stp-fp-5": [
-   "drop",
-   "coordinates in fr1"
   ],
   "c:k-stp-fp-6": [
    "ok",
@@ -16310,10 +15545,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-syc-victoria-city-1": [
-   "drop",
-   "coordinates in can"
-  ],
   "c:k-syr-damascus-city-1": [
    "ok",
    "categories"
@@ -16398,10 +15629,6 @@
    "ok",
    "categories"
   ],
-  "c:k-tcd-chad-historical-photograph-2": [
-   "drop",
-   "coordinates in usa"
-  ],
   "c:k-tcd-chad-landscape-1": [
    "ok",
    "categories"
@@ -16409,10 +15636,6 @@
   "c:k-tcd-chad-village-1": [
    "ok",
    "categories"
-  ],
-  "c:k-tcd-chad-village-2": [
-   "drop",
-   "coordinates in gb1"
   ],
   "c:k-tcd-qi-1": [
    "unknown",
@@ -16650,10 +15873,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-tls-fp-6": [
-   "drop",
-   "coordinates in sea or unknown"
-  ],
   "c:k-tls-fp-7": [
    "ok",
    "coordinates"
@@ -16669,14 +15888,6 @@
   "c:k-tls-qi-4": [
    "ok",
    "coordinates"
-  ],
-  "c:k-tls-timor-leste-historical-photograph-1": [
-   "drop",
-   "coordinates in prt"
-  ],
-  "c:k-tls-timor-leste-historical-photograph-2": [
-   "drop",
-   "categories name Portugal"
   ],
   "c:k-tls-timor-leste-village-1": [
    "unknown",
@@ -16749,10 +15960,6 @@
   "c:k-tto-port-of-spain-city-2": [
    "ok",
    "categories"
-  ],
-  "c:k-tto-qi-1": [
-   "drop",
-   "coordinates in gb1"
   ],
   "c:k-tto-trinidad-and-tobago-historical-photo-1": [
    "ok",
@@ -16894,10 +16101,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-tur-t-rkiye-historical-photograph-1": [
-   "drop",
-   "coordinates in rus"
-  ],
   "c:k-tur-t-rkiye-historical-photograph-2": [
    "ok",
    "coordinates"
@@ -16905,10 +16108,6 @@
   "c:k-tur-t-rkiye-landscape-1": [
    "ok",
    "categories"
-  ],
-  "c:k-tur-t-rkiye-village-1": [
-   "drop",
-   "coordinates in mar"
   ],
   "c:k-tuv-qi-1": [
    "ok",
@@ -17042,10 +16241,6 @@
    "ok",
    "categories"
   ],
-  "c:k-twn-taiwan-village-2": [
-   "drop",
-   "United States place: Kansas"
-  ],
   "c:k-tza-dodoma-city-1": [
    "ok",
    "coordinates"
@@ -17053,14 +16248,6 @@
   "c:k-tza-dodoma-city-2": [
    "ok",
    "coordinates"
-  ],
-  "c:k-tza-fp-1": [
-   "drop",
-   "coordinates in deu"
-  ],
-  "c:k-tza-fp-2": [
-   "drop",
-   "coordinates in deu"
   ],
   "c:k-tza-qi-1": [
    "ok",
@@ -17234,17 +16421,9 @@
    "ok",
    "coordinates"
   ],
-  "c:k-ukr-ukraine-village-2": [
+  "c:k-ukr-qi-5": [
    "ok",
    "coordinates"
-  ],
-  "c:k-ukr-qi-6": [
-   "drop",
-   "coordinates in svk"
-  ],
-  "c:k-ukr-qi-7": [
-   "drop",
-   "coordinates in svk"
   ],
   "c:k-ukr-qi-8": [
    "ok",
@@ -17261,6 +16440,10 @@
   "c:k-ukr-ukraine-village-1": [
    "unknown",
    ""
+  ],
+  "c:k-ukr-ukraine-village-2": [
+   "ok",
+   "coordinates"
   ],
   "c:k-ury-fp-1": [
    "ok",
@@ -17353,14 +16536,6 @@
   "c:k-ury-uruguay-landscape-2": [
    "ok",
    "coordinates"
-  ],
-  "c:k-ury-uruguay-village-1": [
-   "drop",
-   "coordinates in sea or unknown"
-  ],
-  "c:k-ury-uruguay-village-2": [
-   "drop",
-   "coordinates in esp"
   ],
   "c:k-usa-chicago": [
    "unknown",
@@ -17658,7 +16833,7 @@
    "ok",
    "categories"
   ],
-  "c:k-vnm-fp-10": [
+  "c:k-vnm-qi-1": [
    "ok",
    "coordinates"
   ],
@@ -17707,10 +16882,6 @@
    "coordinates"
   ],
   "c:k-vnm-hanoi-city-2": [
-   "ok",
-   "coordinates"
-  ],
-  "c:k-vnm-vietnam-village-1": [
    "ok",
    "coordinates"
   ],
@@ -17763,6 +16934,10 @@
    "coordinates"
   ],
   "c:k-vnm-vietnam-landscape-2": [
+   "ok",
+   "coordinates"
+  ],
+  "c:k-vnm-vietnam-village-1": [
    "ok",
    "coordinates"
   ],
@@ -18030,11 +17205,11 @@
    "ok",
    "categories"
   ],
-  "c:k-zmb-fp-2": [
+  "c:k-zwe-fp-5": [
    "ok",
    "coordinates"
   ],
-  "c:k-zmb-fp-3": [
+  "c:k-zwe-fp-6": [
    "ok",
    "coordinates"
   ],
@@ -18150,14 +17325,6 @@
    "ok",
    "categories"
   ],
-  "c:k-zwe-fp-5": [
-   "ok",
-   "coordinates"
-  ],
-  "c:k-zwe-fp-6": [
-   "ok",
-   "coordinates"
-  ],
   "c:k-zwe-fp-7": [
    "ok",
    "coordinates"
@@ -18193,14 +17360,6 @@
   "c:k-zwe-qi-4": [
    "ok",
    "coordinates"
-  ],
-  "c:k-zwe-qi-5": [
-   "drop",
-   "coordinates in cze"
-  ],
-  "c:k-zwe-qi-6": [
-   "drop",
-   "coordinates in cze"
   ],
   "c:k-zwe-qi-7": [
    "ok",
