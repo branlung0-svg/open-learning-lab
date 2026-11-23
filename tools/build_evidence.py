@@ -29,7 +29,7 @@ def get(url, **p):
 
 def page_html(title):
     r = get(API, action='parse', page=title, prop='text', format='json', formatversion=2, redirects=1)
-    return r.json()['parse']['text'] if r else ''
+    return r.json()['parse']['text'].replace('&#95;', '_') if r else ''  # Wikipedia now escapes '_' in footnote ids
 
 
 def plain(x):
@@ -99,7 +99,6 @@ def tolls():
     out = {}
     for key, title in [('famines', 'List of famines'), ('genocides', 'List of genocides'), ('wars', 'List of wars by death toll'), ('atrocities', 'List of massacres in China')][:3]:
         doc = page_html(title); R = refs_map(doc); rows = []; heads = []
-        k1 = doc.find('cite_note'); k2 = doc.find('class="references'); DBG[key + '_snip'] = [doc[max(0, k1 - 200):k1 + 300], doc[k2:k2 + 700], len(doc)]
         for head, body in tables(doc):
             heads.append(head[:8])
             i_name = col(head, 'name', 'event', 'war', 'genocide', 'famine', 'conflict'); i_date = col(head, 'date', 'year', 'period')
