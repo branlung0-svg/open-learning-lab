@@ -1,0 +1,33 @@
+{
+ "rsp": {
+  "rows": 497,
+  "by_status": {
+   "Blacklisted": 25,
+   "Deprecated": 56,
+   "Generally unreliable": 148,
+   "No consensus": 112,
+   "Generally reliable": 156,
+   "Unclear": 0
+  }
+ },
+ "state": {
+  "all": 2560,
+  "kept": 905,
+  "countries": 106
+ },
+ "famines": {
+  "rows": 128,
+  "with_refs": 0,
+  "with_numbers": 124
+ },
+ "genocides": {
+  "rows": 53,
+  "with_refs": 0,
+  "with_numbers": 5
+ },
+ "wars": {
+  "rows": 129,
+  "with_refs": 0,
+  "with_numbers": 129
+ }
+}
