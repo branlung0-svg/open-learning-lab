@@ -97,6 +97,11 @@ Each unit is about one run (1–2 hours). A deep dive is split into 7 parts: eng
 - [ ] **VER-2 More claims checked**: extend #verify to every country page's most-repeated claims, both critiques and official claims (start: Iran, Israel/Palestine, Venezuela, Saudi Arabia, India, UK, Ukraine, Syria, Rwanda); each with first source, spread, evidence both ways, verdict and grade.
 - [ ] **ORG-2 Same depth everywhere**: audit each discipline and country for thin sections and bring them to one template (overview, data, history, evidence, debates, sources from every region).
 
+## AUDIT-2 (next): audit the older deep dives, highest-risk first
+- Order from data/audit-summary.json `top`: marx-data.js, fascism-data.js, power-more.js, modern-c.js, capitalism-data.js, modern-l.js, lineage-data.js, usp-data.js, isms.js, modern-b.js.
+- Per file: check every tier-1 statement, fix and log in factcheck/<name>-audit.json (add to applied.json, run tools/mkchanges.py), add findings to data/audit-findings.json, then a separate agent re-checks a random 20 without seeing the notes. Report the sample error rate on #audit.
+- Pilot result to beat: 8 of 30 sampled statements needed a fix (none outright false); most were missing context or one scholar's estimate given as settled.
+
 ## CASE-2 (next): more case files, same template
 - Convert the remaining death-toll events (British India famines, Bengal 1943, Congo Free State, Herero and Nama, Atlantic slave trade, Iraq 2003–11) into case files.
 - Add: Tiananmen 1989, DPRK famine 1994–98, Ethiopia's Red Terror, Eastern Europe (Hungary 1956, Prague 1968), US prisons, Vietnam War (My Lai, Agent Orange), Gaza (developing), Chile 1973, Guatemala, Rwanda.

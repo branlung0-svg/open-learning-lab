@@ -15,7 +15,7 @@
   const MYTHS = [['He wrote a blueprint for running a country', 'He wrote very little about how a socialist economy would work; most of his work analyses capitalism.'],
     ['He designed the one-party state', 'The single vanguard party, the secret police and the planned economy came from Lenin, Stalin and their successors, not from Marx’s texts.'],
     ['He expected revolution in poor peasant countries', 'He expected it first in advanced industrial countries like Britain and Germany. It came instead in Russia, China, Vietnam and Cuba.'],
-    ['“Religion is the opium of the people” was an insult', 'In context he also called religion “the sigh of the oppressed creature”: comfort for real suffering, which he wanted to end.'],
+    ['“Religion is the opium of the people” was an insult', 'In context he also called religion “the sigh of the oppressed creature”: a comfort for real suffering, but an illusion he wanted to make unneeded by ending that suffering.'],
     ['He was right about everything', 'Workers in rich countries did not grow steadily poorer as he expected; wages rose, often because of unions and reforms that capitalism absorbed. Critics and many Marxists accept this.']];
   // [name, years, what they did with Marx, Lab link or source]
   const HEIRS = [['Friedrich Engels', '1820–1895', 'Marx’s partner; edited Capital and made Marxism a movement.', W('Friedrich_Engels')], ['Social democrats (Eduard Bernstein)', '1890s–', 'Reform through elections and unions instead of revolution; became the welfare states of Western Europe.', MIA('reference/archive/bernstein/works/1899/evsoc/')],
@@ -27,7 +27,7 @@
     ['Anarchists (Bakunin, Kropotkin)', '1870s–', 'Shared the goal of a classless society but warned that a workers’ state would create a new ruling “red bureaucracy”.', '#history-modern-anarchism']];
   const WORKED = [['Fast industrialisation', 'The USSR went from a mostly peasant country to an industrial power in about two decades, and its industry was decisive in defeating Nazi Germany, at a cost of about 27 million Soviet lives in the war.'],
     ['Literacy', 'Soviet censuses show literacy rising from about a fifth of people in 1897 to almost everyone by 1959. Cuba’s 1961 campaign sent young volunteers into the countryside and taught about 700,000 adults to read in one year.'],
-    ['Health', 'China’s life expectancy rose from about 40 around 1950 to about 65 by 1980, faster than India’s, even counting the famine (a comparison made by the economists Jean Drèze and Amartya Sen). Cuba reports infant mortality near rich-country levels; how those figures are counted is disputed.'],
+    ['Health', 'China’s life expectancy rose from about 40 around 1950 to about 65 by 1980, faster than India’s, even counting the famine (a comparison made by the economists Jean Drèze and Amartya Sen). Cuba long reported infant mortality near rich-country levels, but its official rate rose to 7.1 per 1,000 in 2024 and about 9.9 in 2025 (preliminary); how those figures are counted is disputed.'],
     ['Anti-colonial liberation', 'Marxist movements led independence wars from Vietnam to Mozambique and inspired many others.'],
     ['Pressure on capitalism to reform', 'Fear of revolution helped push Western governments towards pensions, unions, public health care and welfare states.']];
   const FAILED = [['Famine', 'Several of the deadliest famines of the 20th century happened under communist governments: the USSR in 1921–22 and 1932–33, China in 1959–61, Cambodia in 1975–79, Ethiopia in 1983–85 and North Korea in the 1990s.'],

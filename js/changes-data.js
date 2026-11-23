@@ -205,6 +205,115 @@ Lab.CHANGES = [
 ]
 },
 {
+"d": "2026-11-23",
+"area": "Case file: Vietnam’s land reform",
+"page": "case-vnm-land",
+"sev": "framing",
+"what": "Understated: the summary said “thousands executed” beside “claims were exaggerated”, which reads as a small number. Archive-based estimates are about 13,500–15,000.",
+"src": [
+"https://en.wikipedia.org/wiki/Land_reform_in_North_Vietnam",
+"https://en.wikipedia.org/wiki/Land_reform_in_Vietnam",
+"https://edmoise.sites.clemson.edu/landbook.html"
+]
+},
+{
+"d": "2026-11-23",
+"area": "Case file: Vietnam’s land reform",
+"page": "case-vnm-land",
+"sev": "framing",
+"what": "Same understatement in the toll note: “still in the thousands” replaced with the archive-based range.",
+"src": []
+},
+{
+"d": "2026-11-23",
+"area": "Case file: Vietnam’s land reform",
+"page": "case-vnm-land",
+"sev": "framing",
+"what": "Our own earlier fix went too far: it said Porter “showed” the high figures were wrong, as if settled. He argued it, with good evidence on the documents, but his own estimate proved far too low.",
+"src": [
+"https://en.wikipedia.org/wiki/Land_reform_in_North_Vietnam",
+"https://en.wikipedia.org/wiki/Hoang_Van_Chi",
+"https://archives.library.cornell.edu/repositories/2/archival_objects/230352"
+]
+},
+{
+"d": "2026-11-23",
+"area": "Case file: Cuba’s firing squads",
+"page": "case-cub-firing",
+"sev": "error",
+"what": "Overstated: “most estimates around 4,000–5,000” sat above the best-documented count; Cuba Archive lists about 3,100 firing-squad executions by name (not 4,000).",
+"src": [
+"https://chrissmith.house.gov/UploadedFiles/2025-12-11-_Written_Testimony_of_Maria_C_Werlau.pdf"
+]
+},
+{
+"d": "2026-11-23",
+"area": "Case file: the bombing of North Korea",
+"page": "case-prk-bombing",
+"sev": "error",
+"what": "Misdescribed quote: LeMay’s 20% remark was a rough guess covering war, hunger and exposure, not a boast about bombing alone.",
+"src": [
+"https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-LPS48716/pdf/GOVPUB-D301-PURL-LPS48716.pdf"
+]
+},
+{
+"d": "2026-11-23",
+"area": "Case file: ICE detention",
+"page": "case-usa-ice",
+"sev": "precision",
+"what": "Made precise: the 70,766 figure is from ICE’s published data on one date; internal figures reported that month were higher, and the number keeps changing.",
+"src": [
+"https://tracreports.org/whatsnew/email.260202.html",
+"https://www.cbsnews.com/news/ices-detainee-population-record-high-of-73000"
+]
+},
+{
+"d": "2026-11-23",
+"area": "Case file: North Korea’s 1990s famine",
+"page": "case-prk-famine",
+"sev": "precision",
+"what": "Refined after the independent re-check: the official figure comes from 1999 statements, not a full count.",
+"src": [
+"https://www.hrw.org/reports/2006/northkorea0506/3.htm",
+"https://www.globalsecurity.org/wmd/library/news/dprk/2003/dprk-030113-kcna01.htm",
+"https://www.wilsoncenter.org/article/how-did-the-north-korean-famine-happen"
+]
+},
+{
+"d": "2026-11-23",
+"area": "Path: Marx and after Capitalism deep dive",
+"page": "path-marx",
+"sev": "framing",
+"what": "Missing context: the myth-buster left out that Marx also called for abolishing religion as an illusion.",
+"src": [
+"https://www.marxists.org/archive/marx/works/1843/critique-hpr/intro.htm"
+]
+},
+{
+"d": "2026-11-23",
+"area": "Path: Marx and after Capitalism deep dive",
+"page": "path-marx",
+"sev": "outdated",
+"what": "Out of date: Cuba’s official infant mortality has risen sharply since 2023.",
+"src": [
+"https://pmc.ncbi.nlm.nih.gov/articles/PMC4331212",
+"https://library.oapen.org/bitstream/id/34b3413c-1d82-4a8b-981e-0caf21244634/9780198283652.pdf",
+"https://www.riotimesonline.com/cuba-infant-mortality-rate-rises-2025-health-ministry/"
+]
+},
+{
+"d": "2026-11-23",
+"area": "Story line: China 1921–today",
+"page": "story-china",
+"sev": "framing",
+"what": "Overstated certainty: one scholar’s range was given as settled. Now names the source and the main higher estimate.",
+"src": [
+"https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B9161C3E01C2FC7D991F91E94963575D/S0145553215000231a.pdf/rebellion-and-repression-in-china-19661971.pdf",
+"https://news.stanford.edu/stories/2019/10/violence-unfolded-chinas-cultural-revolution",
+"https://www.nybooks.com/online/2018/02/05/who-killed-more-hitler-stalin-or-mao/"
+]
+},
+{
 "d": "2026-11-14",
 "area": "Marxism–Leninism deep dive",
 "page": "history-modern-marxism",

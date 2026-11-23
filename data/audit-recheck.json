@@ -1,0 +1,400 @@
+[
+{
+"id": "e00fcbf586",
+"file": "js/casefiles.js",
+"area": "The bombing of North Korea",
+"page": "case-prk-bombing",
+"claim": "LeMay said 20% of the population was killed; it was his boast, not a count",
+"verdict": "context",
+"fix": "Fixed, following the checker’s suggestion: LeMay later guessed that 20% of Korea's people died from the war, hunger and cold; a rough remark, not a count.",
+"sources": [
+"https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-LPS48716/pdf/GOVPUB-D301-PURL-LPS48716.pdf"
+]
+},
+{
+"id": "f5bfd01dec",
+"file": "js/casefiles.js",
+"area": "Case files",
+"page": "cases",
+"claim": "Soviet government hid the famine, some Western journalists helped; genocide question tied to Russia-Ukraine politics; deaths and decrees not in serious doubt",
+"verdict": "accurate",
+"fix": "Kept. The USSR denied the famine and suppressed the 1937 census, and the New York Times correspondent Walter Duranty echoed the denials. Ukraine recognises the famine as genocide while Russia rejects the label; demographic reconstructions (about 3.",
+"sources": [
+"https://en.wikipedia.org/wiki/Holodomor_denial",
+"https://gis.huri.harvard.edu/demographic-research"
+]
+},
+{
+"id": "d9529b8cc3",
+"file": "js/pathmarx.js",
+"area": "Path: Marx and after capitalism",
+"page": "path-marx",
+"claim": "Marx called religion 'the sigh of the oppressed creature', a comfort for real suffering that he wanted to end",
+"verdict": "context",
+"fix": "Fixed, following the checker’s suggestion: In context he called religion “the sigh of the oppressed creature”: a comfort, but an illusion he wanted to make unneeded by ending the suffering.",
+"sources": [
+"https://www.marxists.org/archive/marx/works/1843/critique-hpr/intro.htm"
+]
+},
+{
+"id": "efbacaacd3",
+"file": "js/storylines.js",
+"area": "Story line: China",
+"page": "story-china",
+"claim": "Hundred Flowers 1956-57 then reversal; 552,877 officially labelled rightists; 1-2 million persecuted; at Jiabiangou about 2,500 of some 3,000 died",
+"verdict": "accurate",
+"fix": "Kept. Mao launched the slogan in May 1956, open criticism came in spring 1957, and the Anti-Rightist Campaign began in June 1957.",
+"sources": [
+"https://en.wikipedia.org/wiki/Anti-Rightist_Campaign",
+"https://www.britannica.com/event/Hundred-Flowers-Campaign",
+"https://cambridge.org/core/journals/china-quarterly/article/testimony-history-and-ethics-from-the-memory-of-jiabiangou-prison-camp-to-a-reappraisal-of-the-antirightist-movement-in-presentday-china/47E4FE9C33A1F519D9E1A46DE35999CF"
+]
+},
+{
+"id": "ac669ee9bd",
+"file": "js/casefiles.js",
+"area": "Vietnam’s land reform",
+"page": "case-vnm-land",
+"claim": "North Vietnam land reform: thousands executed as landlords; party apologised in 1956; Cold War claims of huge numbers exaggerated",
+"verdict": "understated",
+"fix": "Fixed, following the checker’s suggestion: About 13,500–15,000 executed as “landlords”; the party apologised in 1956; Cold War claims of 50,000 or more were exaggerated.",
+"sources": [
+"https://en.wikipedia.org/wiki/Land_reform_in_North_Vietnam",
+"https://en.wikipedia.org/wiki/Land_reform_in_Vietnam",
+"https://edmoise.sites.clemson.edu/landbook.html"
+]
+},
+{
+"id": "58b7718390",
+"file": "js/casefiles.js",
+"area": "Case files",
+"page": "cases",
+"claim": "The US and some parliaments call Xinjiang policy genocide; the UN rights office said possible crimes against humanity",
+"verdict": "accurate",
+"fix": "Kept. The US State Department declared genocide in January 2021, and parliaments in Canada, the Netherlands, the UK (Commons) and France passed genocide motions. The OHCHR assessment of 31 August 2022 said the detentions 'may constitute' crimes against humanity and made no genocide finding.",
+"sources": [
+"https://hrw.org/news/2022/08/31/china-new-un-report-alleges-crimes-against-humanity",
+"https://www.justiceinfo.net/en/86799-countries-calling-out-chinas-genocide-of-uyghurs.html"
+]
+},
+{
+"id": "3bbde34c12",
+"file": "js/casefiles-deep.js",
+"area": "Case files",
+"page": "cases",
+"claim": "A Cultural Revolution aim was to destroy the Four Olds (old ideas, culture, customs, habits)",
+"verdict": "accurate",
+"fix": "Kept. The Four Olds were old ideas, culture, customs and habits; the term appeared in a 1 June 1966 People's Daily editorial and Red Guards attacked them from August 1966.",
+"sources": [
+"https://en.wikipedia.org/wiki/Four_Olds",
+"https://www.marxists.org/subject/china/peking-review/1966/PR1966-36m.htm"
+]
+},
+{
+"id": "b760d22198",
+"file": "js/casefiles-deep.js",
+"area": "Case files",
+"page": "cases",
+"claim": "Xi Jinping (Apr-May 2014) ordered a harsh campaign against terrorism, infiltration and separatism",
+"verdict": "accurate",
+"fix": "Kept. The leaked Xinjiang Papers show Xi, in private speeches during and after his 2014 Xinjiang visit, calling for a struggle against terrorism, infiltration and separatism with 'absolutely no mercy'; the Strike Hard campaign was launched in May 2014.",
+"sources": [
+"https://uk.news.yahoo.com/show-no-mercy-leaked-documents-080439619.html",
+"https://en.wikipedia.org/wiki/Strike_Hard_Campaign_Against_Violent_Terrorism",
+"https://www.csis.org/analysis/xi-jinpings-vision-xinjiang"
+]
+},
+{
+"id": "74950bede5",
+"file": "js/casefiles.js",
+"area": "Case files",
+"page": "cases",
+"claim": "ICE detention passed 70,000 for the first time in January 2026; facilities roughly doubled; deaths highest in two decades",
+"verdict": "accurate",
+"fix": "Kept. CBS (16 January 2026) reported about 73,000 held, the first time above 70,000 in ICE's history. The American Immigration Council found ICE using 104 more facilities by late November 2025 than at the start of the year (+91%), and NPR reported fiscal 2026 on track to be the deadliest since 2004.",
+"sources": [
+"https://www.cbsnews.com/news/ices-detainee-population-record-high-of-73000",
+"https://www.americanimmigrationcouncil.org/research/immigration-detention-united-states",
+"https://www.npr.org/2026/03/10/g-s1-111238/immigration-detention-deaths-custody"
+]
+},
+{
+"id": "7bb364aed8",
+"file": "js/casefiles.js",
+"area": "Case files",
+"page": "cases",
+"claim": "Demographers estimate Soviet famine deaths from the 1926, 1937 and 1939 censuses and birth/death registers",
+"verdict": "accurate",
+"fix": "Kept. Population reconstructions of the 1932-33 famine (for example the Ptoukha Institute team) draw on the 1926, 1937 and 1939 censuses together with vital-registration data.",
+"sources": [
+"https://dse.org.ua/arhcive/24/24_1en.html",
+"https://gis.huri.harvard.edu/demographic-research"
+]
+},
+{
+"id": "9e5eadf468",
+"file": "js/casefiles-deep.js",
+"area": "Case files",
+"page": "cases",
+"claim": "Peng Dehuai wrote the 1959 letter criticising the Leap, was purged, and died in 1974 after persecution",
+"verdict": "accurate",
+"fix": "Kept. Peng's private letter to Mao of 14 July 1959 at Lushan led to his dismissal as defence minister; he was persecuted in the Cultural Revolution, died on 29 November 1974 and was rehabilitated in 1978.",
+"sources": [
+"https://www.britannica.com/biography/Peng-Dehuai",
+"https://en.wikipedia.org/wiki/Lushan_Conference"
+]
+},
+{
+"id": "819a8aa70d",
+"file": "js/casefiles.js",
+"area": "Case files",
+"page": "cases",
+"claim": "Disputed: whether Soviet registers capture all deaths, e.g. prisoners released when near death",
+"verdict": "accurate",
+"fix": "Kept. Golfo Alexopoulos, with Anne Applebaum and Oleg Khlevniuk, documents that camps released gravely ill prisoners shortly before death, so official Gulag mortality undercounts; it is a recognised point of debate.",
+"sources": [
+"https://www.hoover.org/news/gulags-veiled-mortality-golfo-alexopoulos"
+]
+},
+{
+"id": "2f0b4be8a5",
+"file": "js/money.js",
+"area": "Follow the money",
+"page": "money",
+"claim": "Networks of fake accounts pushed pro-US messages in the Middle East and Central Asia",
+"verdict": "accurate",
+"fix": "Kept. The 2022 Graphika and Stanford Internet Observatory report 'Unheard Voice' found removed account networks promoting US and allied interests in Middle Eastern and Central Asian countries over almost five years.",
+"sources": [
+"https://fsi.stanford.edu/node/22009"
+]
+},
+{
+"id": "0e10a43c1a",
+"file": "js/casefiles.js",
+"area": "Case files",
+"page": "cases",
+"claim": "Leap reversed 1961-62; official name was 'three years of natural disasters'; weather explains only part of the deaths",
+"verdict": "accurate",
+"fix": "Kept. The retreat was confirmed at the January-February 1962 Seven Thousand Cadres Conference. The official name 'Three Years of Natural Disasters' was changed to 'Three Years of Difficulty' only in 1981, and economic studies (e.g. Meng, Qian and Yared; Houser et al.",
+"sources": [
+"https://www.wikiwand.com/en/articles/Great_Chinese_Famine",
+"https://www.kellogg.northwestern.edu/faculty/qian/resources/MPQY_FINAL.pdf"
+]
+},
+{
+"id": "3d603b8c77",
+"file": "js/casefiles.js",
+"area": "Case files",
+"page": "cases",
+"claim": "1981 resolution admits serious losses; official death rate ~11 per 1,000 (1957) to 25.4 (1960); 2011 party history says population fell 10 million in 1960, no full toll",
+"verdict": "accurate",
+"fix": "Kept. The 1981 resolution says the 1959-61 difficulties caused serious losses to the country and people. Official statistics give 10.8 per 1,000 in 1957 and 25.4 in 1960, and the 2011 party history states the 1960 population fell by 10 million while avoiding a total death toll.",
+"sources": [
+"https://www.marxists.org/subject/china/documents/cpc/history/01.htm",
+"https://chinadigitaltimes.net/chinese/166472.html",
+"https://encyclopedia.com/social-sciences/encyclopedias-almanacs-transcripts-and-maps/famine-china"
+]
+},
+{
+"id": "73f5b01b5e",
+"file": "js/casefiles.js",
+"area": "Case files",
+"page": "cases",
+"claim": "Newspapers around the world covered the San Juan Hill executions",
+"verdict": "accurate",
+"fix": "Kept. The 12 January 1959 Santiago executions of about 70 men were reported by AP, the New York Times, Time and the London Times, and the US consulate noted protests in the US and other foreign press.",
+"sources": [
+"https://time.com/3641153/the-vengeful-visionary/",
+"https://www.executedtoday.com/?p=6711",
+"https://history.state.gov/historicaldocuments/frus1958-60v06/d225"
+]
+},
+{
+"id": "c3f95d286c",
+"file": "js/casefiles-deep.js",
+"area": "Case files",
+"page": "cases",
+"claim": "China announced detainees' 'graduation' and moved many into prisons and labour programmes (2019-22)",
+"verdict": "accurate",
+"fix": "Kept. In December 2019 Xinjiang's chairman Shohrat Zakir said all trainees had 'graduated'. ASPI satellite research in 2020 found growth in higher-security, prison-style facilities and transfers of detainees into coerced labour.",
+"sources": [
+"https://www.rfa.org/english/news/uyghur/graduation-12092019154443.html",
+"https://www.rfa.org/english/news/uyghur/xuar-camps-09242020200349.html"
+]
+},
+{
+"id": "21c24b1cf2",
+"file": "js/casefiles-deep.js",
+"area": "Case files",
+"page": "cases",
+"claim": "Foreign TV crews in Beijing for Gorbachev's visit filmed the protests; Tank Man filmed on 5 June 1989",
+"verdict": "accurate",
+"fix": "Kept. Many Western journalists came for the 15 May 1989 Sino-Soviet summit and covered the protests; the Tank Man was filmed by CNN and photographed by several agencies around noon on 5 June 1989.",
+"sources": [
+"https://www.britannica.com/biography/Tank-Man"
+]
+},
+{
+"id": "01f2a6bbe3",
+"file": "js/storylines.js",
+"area": "Story line: China",
+"page": "story-china",
+"claim": "Cultural Revolution: army-led purges; 1.1-1.6 million died and 22-30 million persecuted; Liu died in detention; Deng purged twice; Nixon 1972",
+"verdict": "context",
+"fix": "Fixed, following the checker’s suggestion: Mao turned students against the party; the army then restored order with mass purges. Estimates run from 1.1–1.6 million dead (Walder) to 2–3 million (Song Yongyi), with 22–30 million persecuted. Liu Shaoqi died in detention; Deng was purged twice. Nixon’s 1972 visit began a new US relationship.",
+"sources": [
+"https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B9161C3E01C2FC7D991F91E94963575D/S0145553215000231a.pdf/rebellion-and-repression-in-china-19661971.pdf",
+"https://news.stanford.edu/stories/2019/10/violence-unfolded-chinas-cultural-revolution",
+"https://www.nybooks.com/online/2018/02/05/who-killed-more-hitler-stalin-or-mao/"
+]
+},
+{
+"id": "9f2b20b73a",
+"file": "js/casefiles-deep.js",
+"area": "North Korea’s 1990s famine",
+"page": "case-prk-famine",
+"claim": "North Korea blames floods, the Soviet collapse and US sanctions, calls it the Arduous March, and has released no full death count",
+"verdict": "context",
+"fix": "Fixed, following the checker’s suggestion: North Korea blames floods, the Soviet collapse and US sanctions, and calls it the Arduous March. Its only figure, from 1999, implied about 220,000 deaths, far below outside estimates.",
+"sources": [
+"https://www.hrw.org/reports/2006/northkorea0506/3.htm",
+"https://www.globalsecurity.org/wmd/library/news/dprk/2003/dprk-030113-kcna01.htm",
+"https://www.wilsoncenter.org/article/how-did-the-north-korean-famine-happen"
+]
+},
+{
+"id": "d93a6c701b",
+"file": "js/casefiles-deep.js",
+"area": "Case files",
+"page": "cases",
+"claim": "At Lushan, Mao purged Peng Dehuai and attacked 'right deviation' instead of retreating",
+"verdict": "accurate",
+"fix": "Kept. After Peng's letter the Lushan plenum denounced an 'anti-Party clique', and Mao launched the Anti-Right Deviation Struggle in August 1959; official 1962 data say over 3 million party members were labelled or penalised.",
+"sources": [
+"https://en.wikipedia.org/wiki/Lushan_Conference",
+"https://www.wikiwand.com/en/articles/Anti-Right_Deviation_Struggle"
+]
+},
+{
+"id": "fbaff2a3b6",
+"file": "js/casefiles.js",
+"area": "Case files",
+"page": "cases",
+"claim": "In 1966 Mao called on students and workers to attack 'bourgeois' officials; Red Guards beat and sometimes killed teachers, officials and 'bad class' people; temples, books and art destroyed",
+"verdict": "accurate",
+"fix": "Kept.",
+"sources": [
+"https://en.wikipedia.org/wiki/Red_August",
+"https://en.wikipedia.org/wiki/Four_Olds",
+"https://sites.tufts.edu/atrocityendings/?p=288"
+]
+},
+{
+"id": "3ee9588044",
+"file": "js/pathmarx.js",
+"area": "Path: Marx and after capitalism",
+"page": "path-marx",
+"claim": "China's life expectancy rose from ~40 (c.1950) to ~65 (1980), faster than India's even counting the famine (Dreze and Sen); Cuba reports infant mortality near rich-country levels, counting disputed",
+"verdict": "context",
+"fix": "Fixed, following the checker’s suggestion: China’s life expectancy rose from about 40 around 1950 to about 65 by 1980, faster than India’s even counting the famine (Drèze and Sen). Cuba long reported rich-country infant mortality, though it rose to 9.9 per 1,000 in 2025; how it is counted is disputed.",
+"sources": [
+"https://pmc.ncbi.nlm.nih.gov/articles/PMC4331212",
+"https://library.oapen.org/bitstream/id/34b3413c-1d82-4a8b-981e-0caf21244634/9780198283652.pdf",
+"https://www.riotimesonline.com/cuba-infant-mortality-rate-rises-2025-health-ministry/"
+]
+},
+{
+"id": "0d856b7119",
+"file": "js/casefiles-deep.js",
+"area": "Case files",
+"page": "cases",
+"claim": "1958 household registration tied farmers to villages; those who fled were stopped as 'vagrants'; officials who opened granaries or told the truth were struggled against, some beaten to death",
+"verdict": "accurate",
+"fix": "Kept. The household registration system extended to the countryside in 1958 tied peasants to their villages, militia stopped those who fled, and a central directive branded rural leavers as vagrants.",
+"sources": [
+"https://lrb.co.uk/v34/n23/james-c-scott/tyranny-of-the-ladle",
+"https://factsanddetails.com/china/cat2/sub6/entry-7457.html"
+]
+},
+{
+"id": "423ba94981",
+"file": "js/casefiles.js",
+"area": "Cuba’s firing squads",
+"page": "case-cub-firing",
+"claim": "Most estimates put Cuban executions since 1959 at about 4,000-5,000; claims range from a few hundred to over 15,000",
+"verdict": "overstated",
+"fix": "Fixed, following the checker’s suggestion: About 3,000–5,000 executions since 1959 (Cuba Archive documents about 3,100); claims range from a few hundred to 17,000.",
+"sources": [
+"https://chrissmith.house.gov/UploadedFiles/2025-12-11-_Written_Testimony_of_Maria_C_Werlau.pdf",
+"https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/Human_rights_in_Cuba"
+]
+},
+{
+"id": "e5fd98056e",
+"file": "js/casefiles-deep.js",
+"area": "Case files",
+"page": "cases",
+"claim": "Communal canteens ran out within months; the death rate more than doubled by 1960",
+"verdict": "accurate",
+"fix": "Kept. Reviews of the famine research report that many canteens had virtually no food after their first two or three months; the official death rate rose from 10.8 per 1,000 in 1957 to 25.4 in 1960, about 2.4 times.",
+"sources": [
+"https://lrb.co.uk/v34/n23/james-c-scott/tyranny-of-the-ladle",
+"https://encyclopedia.com/social-sciences/encyclopedias-almanacs-transcripts-and-maps/famine-china"
+]
+},
+{
+"id": "d4259c968b",
+"file": "js/casefiles.js",
+"area": "Vietnam’s land reform",
+"page": "case-vnm-land",
+"claim": "In 1972 Gareth Porter showed the high US land-reform figures rested on misused documents and a misrepresented author; presidents repeated the 'bloodbath' claim",
+"verdict": "context",
+"fix": "Fixed, following the checker’s suggestion: In 1972 Gareth Porter argued the high US figures rested on misused documents and an author wrongly presented as an ex-cadre; presidents repeated the “bloodbath” claim. Archives later showed his own low count was also too low.",
+"sources": [
+"https://en.wikipedia.org/wiki/Land_reform_in_North_Vietnam",
+"https://en.wikipedia.org/wiki/Hoang_Van_Chi",
+"https://archives.library.cornell.edu/repositories/2/archival_objects/230352"
+]
+},
+{
+"id": "307d15a3fa",
+"file": "js/casefiles.js",
+"area": "Case files",
+"page": "cases",
+"claim": "Obama banned the methods in 2009 and said 'we tortured some folks'; nobody who designed the programme was prosecuted; CIA videotapes destroyed",
+"verdict": "accurate",
+"fix": "Kept. Obama ended the enhanced interrogation authorisations in his first days in office (January 2009) and said 'we tortured some folks' in August 2014; his Justice Department prosecuted no one, and 92 CIA interrogation tapes destroyed in 2005 led to no charges.",
+"sources": [
+"https://www.democracynow.org/2014/8/4/headlines/obama_admits_we_tortured_some_folks_and_that_not_all_bush_era_methods_are_banned",
+"https://www.npr.org/sections/thetwo-way/2010/11/09/131184522/no-one-charged-in-destruction-of-cia-interrogation-tapes",
+"https://www.hrw.org/news/2015/02/05/obama-counterterror-ignored-record"
+]
+},
+{
+"id": "35ee06553a",
+"file": "js/casefiles-deep.js",
+"area": "Case files",
+"page": "cases",
+"claim": "Hundreds of thousands to about a million died in North Korea's famine after Soviet aid ended and floods struck; the regime first refused help",
+"verdict": "accurate",
+"fix": "Kept. Careful demographic studies give roughly 500,000 to 1 million deaths (within a wider 240,000-3.5 million range); the loss of Soviet-bloc support and the 1995 floods are standard causes, and North Korea made its formal aid appeal only in August 1995 after earlier refusing outside help.",
+"sources": [
+"https://en.wikipedia.org/wiki/1990s_North_Korean_famine",
+"https://www.hrw.org/reports/2006/northkorea0506/3.htm"
+]
+},
+{
+"id": "680fdf8c05",
+"file": "js/casefiles-deep.js",
+"area": "Case files",
+"page": "cases",
+"claim": "For decades the famine was called 'three years of natural disasters'; no national memorial; survivors and researchers like Yang Jisheng still face censorship",
+"verdict": "accurate",
+"fix": "Kept. The official name was used until 1981, and reporting describes no official memorial and tight limits on discussion. Yang's Tombstone remains banned in mainland China and he was barred in 2016 from travelling to accept a Harvard award.",
+"sources": [
+"https://pen.org/press-release/pen-america-condemns-travel-ban-on-chinese-author-yang-jisheng/",
+"https://csmonitor.com/World/Asia-Pacific/2012/0607/China-s-Great-Leap-Forward-One-man-s-quiet-crusade-to-remember-the-disaster",
+"https://www.wikiwand.com/en/articles/Great_Chinese_Famine"
+]
+}
+]

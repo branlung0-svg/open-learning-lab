@@ -1,0 +1,131 @@
+[
+ {
+  "file": "js/casefiles.js",
+  "old": "sum: 'Thousands executed as “landlords”; the party apologised publicly in 1956; Cold War claims of huge numbers were exaggerated.',",
+  "new": "sum: 'About 13,500–15,000 executed as “landlords”, by archive-based estimates; the party apologised publicly in 1956; Cold War claims of 50,000 or more were exaggerated.',",
+  "problem": "Understated: the summary said “thousands executed” beside “claims were exaggerated”, which reads as a small number. Archive-based estimates are about 13,500–15,000.",
+  "severity": "framing",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Land_reform_in_North_Vietnam",
+   "https://en.wikipedia.org/wiki/Land_reform_in_Vietnam",
+   "https://edmoise.sites.clemson.edu/landbook.html"
+  ],
+  "area": "Case file: Vietnam’s land reform",
+  "page": "case-vnm-land"
+ },
+ {
+  "file": "js/casefiles.js",
+  "old": "'Recent research in Vietnamese and Hungarian archives points to far lower numbers than claimed at the time, but still in the thousands.'",
+  "new": "'Research in Vietnamese and Hungarian archives points to about 13,500–15,000: far below some Cold War claims, and far above the lowest estimates.'",
+  "problem": "Same understatement in the toll note: “still in the thousands” replaced with the archive-based range.",
+  "severity": "framing",
+  "sources": [],
+  "area": "Case file: Vietnam’s land reform",
+  "page": "case-vnm-land"
+ },
+ {
+  "file": "js/casefiles.js",
+  "old": "In 1972 Gareth Porter showed that the high US figures rested on misused documents and on an author presented as a former party cadre who had never been a party member; presidential speeches had repeated the “bloodbath” claim.",
+  "new": "In 1972 Gareth Porter argued that the high US figures rested on misused documents and on an author wrongly presented as a former party cadre; presidential speeches had repeated the “bloodbath” claim. Archives later showed that his own low count (800–2,500) was also far too low.",
+  "problem": "Our own earlier fix went too far: it said Porter “showed” the high figures were wrong, as if settled. He argued it, with good evidence on the documents, but his own estimate proved far too low.",
+  "severity": "framing",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Land_reform_in_North_Vietnam",
+   "https://en.wikipedia.org/wiki/Hoang_Van_Chi",
+   "https://archives.library.cornell.edu/repositories/2/archival_objects/230352"
+  ],
+  "area": "Case file: Vietnam’s land reform",
+  "page": "case-vnm-land"
+ },
+ {
+  "file": "js/casefiles.js",
+  "old": "toll: ['Most estimates around 4,000–5,000 executions since 1959; claims range from a few hundred to over 15,000', 'The Cuba Archive project, run by exiles, has documented about 4,000 by name; The Black Book of Communism gave 15,000–17,000. Cuba has never published a count.'],",
+  "new": "toll: ['About 3,000–5,000 executions since 1959; claims range from a few hundred to 17,000', 'The Cuba Archive project, run by exiles, has documented about 3,100 firing-squad executions by name, plus about 1,300 extrajudicial killings (2025); The Black Book of Communism gave 15,000–17,000. Cuba has never published a count.'],",
+  "problem": "Overstated: “most estimates around 4,000–5,000” sat above the best-documented count; Cuba Archive lists about 3,100 firing-squad executions by name (not 4,000).",
+  "severity": "error",
+  "sources": [
+   "https://chrissmith.house.gov/UploadedFiles/2025-12-11-_Written_Testimony_of_Maria_C_Werlau.pdf"
+  ],
+  "area": "Case file: Cuba’s firing squads",
+  "page": "case-cub-firing"
+ },
+ {
+  "file": "js/casefiles.js",
+  "old": "'General Curtis LeMay later said 20% of the population was killed; that was his own boast, not a count.'",
+  "new": "'General Curtis LeMay later guessed that about 20% of Korea’s people died from the war, hunger and cold: a rough remark, not a count.'",
+  "problem": "Misdescribed quote: LeMay’s 20% remark was a rough guess covering war, hunger and exposure, not a boast about bombing alone.",
+  "severity": "error",
+  "sources": [
+   "https://www.govinfo.gov/content/pkg/GOVPUB-D301-PURL-LPS48716/pdf/GOVPUB-D301-PURL-LPS48716.pdf"
+  ],
+  "area": "Case file: the bombing of North Korea",
+  "page": "case-prk-bombing"
+ },
+ {
+  "file": "js/casefiles.js",
+  "old": "toll: ['Record 70,766 held (24 January 2026);",
+  "new": "toll: ['70,766 held on 24 January 2026, a record at the time in ICE’s published data (CBS reported about 73,000 from internal figures that month) (developing);",
+  "problem": "Made precise: the 70,766 figure is from ICE’s published data on one date; internal figures reported that month were higher, and the number keeps changing.",
+  "severity": "precision",
+  "sources": [
+   "https://tracreports.org/whatsnew/email.260202.html",
+   "https://www.cbsnews.com/news/ices-detainee-population-record-high-of-73000"
+  ],
+  "area": "Case file: ICE detention",
+  "page": "case-usa-ice"
+ },
+ {
+  "file": "js/casefiles-deep.js",
+  "old": "Its officials have put the toll at about 220,000–235,000, far below outside estimates.",
+  "new": "Its only figures, first given in 1999, imply about 220,000–235,000 deaths, far below outside estimates.",
+  "problem": "Refined after the independent re-check: the official figure comes from 1999 statements, not a full count.",
+  "severity": "precision",
+  "sources": [
+   "https://www.hrw.org/reports/2006/northkorea0506/3.htm",
+   "https://www.globalsecurity.org/wmd/library/news/dprk/2003/dprk-030113-kcna01.htm",
+   "https://www.wilsoncenter.org/article/how-did-the-north-korean-famine-happen"
+  ],
+  "area": "Case file: North Korea’s 1990s famine",
+  "page": "case-prk-famine"
+ },
+ {
+  "file": "js/pathmarx.js",
+  "old": "In context he also called religion “the sigh of the oppressed creature”: comfort for real suffering, which he wanted to end.",
+  "new": "In context he also called religion “the sigh of the oppressed creature”: a comfort for real suffering, but an illusion he wanted to make unneeded by ending that suffering.",
+  "problem": "Missing context: the myth-buster left out that Marx also called for abolishing religion as an illusion.",
+  "severity": "framing",
+  "sources": [
+   "https://www.marxists.org/archive/marx/works/1843/critique-hpr/intro.htm"
+  ],
+  "area": "Path: Marx and after capitalism",
+  "page": "path-marx"
+ },
+ {
+  "file": "js/pathmarx.js",
+  "old": "Cuba reports infant mortality near rich-country levels; how those figures are counted is disputed.",
+  "new": "Cuba long reported infant mortality near rich-country levels, but its official rate rose to 7.1 per 1,000 in 2024 and about 9.9 in 2025 (preliminary); how those figures are counted is disputed.",
+  "problem": "Out of date: Cuba’s official infant mortality has risen sharply since 2023.",
+  "severity": "outdated",
+  "sources": [
+   "https://pmc.ncbi.nlm.nih.gov/articles/PMC4331212",
+   "https://library.oapen.org/bitstream/id/34b3413c-1d82-4a8b-981e-0caf21244634/9780198283652.pdf",
+   "https://www.riotimesonline.com/cuba-infant-mortality-rate-rises-2025-health-ministry/"
+  ],
+  "area": "Path: Marx and after capitalism",
+  "page": "path-marx"
+ },
+ {
+  "file": "js/storylines.js",
+  "old": "1.1 to 1.6 million died and 22 to 30 million were persecuted.",
+  "new": "Estimates of deaths run from 1.1–1.6 million (the sociologist Andrew Walder, who calls this conservative) to 2–3 million (the historian Song Yongyi); 22 to 30 million were persecuted.",
+  "problem": "Overstated certainty: one scholar’s range was given as settled. Now names the source and the main higher estimate.",
+  "severity": "framing",
+  "sources": [
+   "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B9161C3E01C2FC7D991F91E94963575D/S0145553215000231a.pdf/rebellion-and-repression-in-china-19661971.pdf",
+   "https://news.stanford.edu/stories/2019/10/violence-unfolded-chinas-cultural-revolution",
+   "https://www.nybooks.com/online/2018/02/05/who-killed-more-hitler-stalin-or-mao/"
+  ],
+  "area": "Story line: China 1921–today",
+  "page": "story-china"
+ }
+]

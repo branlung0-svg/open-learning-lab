@@ -190,3 +190,12 @@ Open: the first loop run starts with CAP-0.
 - js/pathmarx.js (#path, #path-marx): ten sections — Marx's eight core ideas with original texts, myths, heirs (Lenin to Deng, anarchists), the record (worked/failed/debated), how it was opposed (incl. Soviet suppression of reformers), critiques and replies, hegemony, current experiments with evidence and limits, next-century risks, how to study it, free reading list.
 - Fact-check usa-resources (partly true, grade A) on #verify-usa.
 - js/follow.js: "Follow this page" on countries, subjects, case files, story lines, paths and evidence pages; "Your pages" on the home page. Home door 4 is now Paths & story lines.
+
+## 2026-11-23 — Accuracy audit, pilot (AUDIT-1)
+- tools/claims_inventory.py: scans js/*.js for checkable statements (numbers, tolls, labels, quotes, present-tense claims): 7,180 in 113 files; tier 1 = 3,240. Outputs data/audit-inventory.csv (downloadable on #audit), data/audit-summary.json, plan/audit-sample.json (30 random tier-1 pilot items, seed 20261123).
+- First pass on the pilot (case files, China story line, money, Marx path): 12 statements checked; fixes for the unsupported S-21 staff claim, Mao's unverifiable 700,000 figure, North Korea's official toll, UMAP counts, Memorial database status (offline since April 2026), and inconsistent ratings (Soviet famine intent; Cambodia "denied").
+- Independent re-check of the 30-item random sample by a separate agent: 22 accurate, 6 needs context, 1 overstated (Cuba executions), 1 understated (Vietnam land reform). It also caught that our earlier Porter "fairness fix" went too far. All applied (factcheck/recheck-sample.json); two nearby errors it flagged (Cuba Archive count, ICE figure) also fixed.
+- Earlier corrections from this month logged publicly (factcheck/cases-0.json); #changes now shows six kinds of fix.
+- Every case file has a graded "What they said versus what happened" section (Kept / Partly true / Twisted / Broken / False).
+- New #audit page; "⚑ Report a problem" beside Follow on content pages; footer and Evidence nav link to the audit.
+- Monthly scheduled re-check of "(developing)" and 2025–26 statements, 1st of each month, 14:23 Denver.

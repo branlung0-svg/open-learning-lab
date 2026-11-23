@@ -13,7 +13,7 @@
     disputed: ['Disputed', '#475569', 'Serious researchers disagree; we show the main positions instead of picking one.'],
   };
   const P = [['Kept', '#047857', 'The promise or claim matched what happened.'], ['Partly true', '#B45309', 'Some of it held, some did not.'], ['Twisted', '#B45309', 'Built on a fact, but bent to hide a larger truth.'], ['Broken', '#B91C1C', 'A promise that was not kept.'], ['False', '#7F1D1D', 'The record shows the opposite.']];
-  const BY = { first: 'Audit first pass', earlier: 'Fixed earlier this month', independent: 'Independent re-check' };
+  const BY = { first: 'Audit first pass', earlier: 'Fixed earlier this month', independent: 'Independent re-check', monthly: 'Monthly re-check' };
   const tag = (n, c) => h('span', { class: 'tag', style: { '--c': c } }, n);
   const card = (title, ...kids) => h('div', { class: 'card' }, h('h3', { style: { marginTop: 0 } }, title), ...kids);
   const num = (n) => Number(n).toLocaleString('en-US');
@@ -43,7 +43,7 @@
         const n = rc.length, c = (k) => rc.filter((r) => r.verdict === k).length; const bad = n - c('accurate') - c('disputed');
         sample.replaceChildren(h('p', { class: 'small', style: { marginTop: 0 } }, `A separate checker, who had not seen our notes, re-checked ${n} statements picked at random from the tier-1 pilot set. ${c('accurate')} were accurate, ${bad} had a problem of some kind, and ${c('disputed')} were genuinely disputed.`),
           h('div', { class: 'row', style: { gap: '6px', flexWrap: 'wrap' } }, ...Object.keys(V).filter((k) => c(k)).map((k) => tag(`${V[k][0]}: ${c(k)}`, V[k][1]))),
-          h('p', { class: 'tiny muted', style: { marginBottom: 0 } }, `With only ${n} statements this is a rough guide, not a precise error rate: the true share could be quite a bit higher or lower. Each problem found is listed below as “Independent re-check”.`));
+          h('p', { class: 'tiny muted', style: { marginBottom: 0 } }, `With only ${n} statements this is a rough guide, not a precise error rate: the true share could be quite a bit higher or lower. Some primary sites were out of the checker’s reach, so a few checks rest on reliable secondary summaries. Every result, kept or fixed, is listed below as “Independent re-check”.`));
       } else sample.textContent = 'The independent re-check of a random sample is in progress. Results will appear here.';
     });
     app.append(
