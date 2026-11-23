@@ -15,16 +15,11 @@
   "kept": 905,
   "countries": 106
  },
- "famines_snip": [
-  "ed)\n</th></tr>\n<tr>\n<td>c. 2,700 BC\n</td>\n<td>Seven year famine, recorded on the <a href=\"/wiki/Famine_Stela\" title=\"Famine Stela\">Famine Stela</a><sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup><sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>2<span class=\"cite-bracket\">&#93;</span></a></sup>\n</td>\n<td><a href=\"/wiki/Old_Kingdom_of_Eg",
-  "class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.",
-  664302
- ],
  "famines": {
   "rows": 128,
-  "with_refs": 0,
+  "with_refs": 93,
   "with_numbers": 124,
-  "notes": 0,
+  "notes": 276,
   "heads": [
    [
     "Date",
@@ -50,20 +45,20 @@
     "estimate": "1,000,000+",
     "low": 1000000.0,
     "high": 1000000.0,
-    "refs": []
+    "refs": [
+     {
+      "t": "Gill, Richardson Benedict (2001-04-01). The Great Maya Droughts: Water, Life, and Death. UNM Press. ISBN 978-0826327741.",
+      "u": "https://books.google.com/books?id=DRt5RnlBTq0C"
+     }
+    ]
    }
   ]
  },
- "genocides_snip": [
-  "nocide. This list excludes <a href=\"/wiki/Mass_killing\" title=\"Mass killing\">mass killings</a> which have not been explicitly defined as genocidal.<sup id=\"cite&#95;ref-2\" class=\"reference\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup> According to the <a href=\"/wiki/Genocide_Convention\" title=\"Genocide Convention\">Genocide Convention</a>, genocides have happened in all historical periods.<sup id=\"cite&#95;ref-3\" class=\"reference",
-  "class=\"references\" data-mw-group=\"N\">\n<li id=\"cite&#95;note-Ukr-65\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-Ukr_65-0\">^</a></b></span> <span class=\"reference-text\">3,404 killed between 2014\u20132022,<sup id=\"cite&#95;ref-OHCHR&#95;63-0\" class=\"reference\"><a href=\"#cite_note-OHCHR-63\"><span class=\"cite-bracket\">&#91;</span>60<span class=\"cite-bracket\">&#93;</span></a></sup> and 16,431 killed since the February <a href=\"/wiki/2022_Russian_invasion_of_Ukraine\" title=\"2022 Russian invasion of Ukraine\">2022 Russian invasion of Ukraine</a><sup id=\"cite&#95;ref-UNNews9122025&#95;64-0\" class=\"reference\"><a href=\"#cite_note-UNNews9122025-64\"><span class=\"cite-bracket\">&#91;</span>61<span cla",
-  1053868
- ],
  "genocides": {
   "rows": 52,
-  "with_refs": 0,
+  "with_refs": 48,
   "with_numbers": 47,
-  "notes": 0,
+  "notes": 423,
   "heads": [
    [
     "Event",
@@ -80,7 +75,16 @@
     "estimate": "73,400 \u2013 335,500",
     "low": 73400.0,
     "high": 335500.0,
-    "refs": []
+    "refs": [
+     {
+      "t": "Per the Gaza Health Ministry and Government Information Office, which has previously been deemed reliable by prominent and independent organizations.",
+      "u": null
+     },
+     {
+      "t": "Using methods described in The Lancet, Devi Sridhar, the chair of global health at the University of Edinburgh, wrote in a September 2024 editorial that \"the to",
+      "u": null
+     }
+    ]
    },
    {
     "name": "Blockade of Nagorno-Karabakh and expulsion of Nagorno-Karabakh Armenians",
@@ -93,16 +97,11 @@
    }
   ]
  },
- "wars_snip": [
-  "on\" title=\"Political repression\">political repression</a> during <a href=\"/wiki/Peace\" title=\"Peace\">peacetime</a> or in contexts unrelated to war.<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>a<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p><p>Averaging the death ranges, the total for the wars listed is about 570 million, of them 58 million for 500 BCE \u2013 CE 500, 117 million for AD 500 \u2013 1700, and 396 million for 1700 \u2013 2023.<sup i",
-  "class=\"references\" data-mw-group=\"lower-alpha\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span> <span class=\"reference-text\">Some examples would include <a href=\"/wiki/Operation_Condor\" title=\"Operation Condor\">Operation Condor</a> (60,000\u201380,000 killed), the <a href=\"/wiki/Cultural_Revolution\" title=\"Cultural Revolution\">Cultural Revolution</a> (0.4\u20138 million killed), the <a href=\"/wiki/Atrocities_in_the_Congo_Free_State\" title=\"Atrocities in the Congo Free State\">Rubber Terror</a> (demographic decline of 1.5\u201313 million), the <a href=\"/wiki/Excess_mortality_in_the_Soviet_Union_under_Joseph_Stalin\" class=\"mw-redirect\" title=\"Excess mortality ",
-  557636
- ],
  "wars": {
   "rows": 129,
-  "with_refs": 0,
+  "with_refs": 129,
   "with_numbers": 129,
-  "notes": 0,
+  "notes": 288,
   "heads": [
    [
     "War",
@@ -121,7 +120,20 @@
     "estimate": "70\u201385 million",
     "low": 70000000.0,
     "high": 85000000.0,
-    "refs": []
+    "refs": [
+     {
+      "t": "\"International Programs \u2013 Historical Estimates of World Population\". United States Census Bureau. Archived from the original on 6 March 2013.",
+      "u": "https://web.archive.org/web/20130306081718/https://www.census.gov/population/international/data/worldpop/table_history.php"
+     },
+     {
+      "t": "Ponting, Clive (1999). The Twentieth Century: A World History (1st American ed.). New York: H. Holt. p. 281. ISBN 978-0-8050-6088-1.",
+      "u": "https://books.google.com/books?id=MGzpAwAAQBAJ&pg=PA281"
+     },
+     {
+      "t": "White, Matthew (2012). The Great Big Book of Horrible Things: The Definitive Chronicle of History's 100 Worst Atrocities. Internet Archive. New York: W.W. Norto",
+      "u": "https://archive.org/details/greatbigbookofho0000whit"
+     }
+    ]
    },
    {
     "name": "Taiping Rebellion",
@@ -130,7 +142,28 @@
     "estimate": "20\u201370 million",
     "low": 20000000.0,
     "high": 70000000.0,
-    "refs": []
+    "refs": [
+     {
+      "t": "Croddy, Eric (2022-11-23). China's Provinces and Populations: A Chronological and Geographical Survey. Springer Nature. ISBN 978-3-031-09165-0. Retrieved 2025-1",
+      "u": "https://books.google.com/books?id=CoidEAAAQBAJ&dq=taiping+rebellion+%252270+million%2522&pg=PA16"
+     },
+     {
+      "t": "Han, Lianchao; Thayer, Bradley A. (2022-09-30). Understanding the China Threat. Taylor & Francis. ISBN 978-1-000-72098-3. Retrieved 2025-12-18.",
+      "u": "https://books.google.com/books?id=4V2CEAAAQBAJ&dq=taiping+rebellion+%252270+million%2522&pg=PT74"
+     },
+     {
+      "t": "\"Taiping Rebellion\". Encyclop\u00e6dia Britannica. 21 August 2024.",
+      "u": "https://www.britannica.com/event/Taiping-Rebellion"
+     },
+     {
+      "t": "Platt, Stephen R. (2012). Autumn in the Heavenly Kingdom: China, the West, and the Epic Story of the Taiping Civil War. New York: Knopf. p. xxiii. ISBN 978-0-30",
+      "u": "https://archive.org/details/autumninheavenly00plat"
+     },
+     {
+      "t": "\"International Programs \u2013 Historical Estimates of World Population\". United States Census Bureau. Archived from the original on 6 March 2013.",
+      "u": "https://web.archive.org/web/20130306081718/https://www.census.gov/population/international/data/worldpop/table_history.php"
+     }
+    ]
    }
   ]
  }
