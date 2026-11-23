@@ -1,0 +1,26 @@
+name: evidence-data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 10 * * 2'
+  push:
+    paths: ['tools/build_evidence.py']
+concurrency:
+  group: evidence-data
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install requests
+      - run: python tools/build_evidence.py
+      - run: |
+          git config user.name "lab-bot"; git config user.email "lab-bot@users.noreply.github.com"
+          git add data/sources-rsp.json data/sources-state.json data/tolls-lists.json plan/evidence-debug.json; git commit -m "Evidence data: source reliability ratings, state media, every famine, genocide and war on record (Wikipedia, Wikidata)" || exit 0
+          git pull --rebase origin main && git push origin HEAD:main
