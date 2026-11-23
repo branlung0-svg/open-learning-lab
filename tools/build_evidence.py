@@ -41,14 +41,14 @@ def plain(x):
 def refs_map(doc):
     """cite_note id -> {t: citation text, u: first link}. Handles short footnotes (sfn) that point to a bibliography entry."""
     cites = {}
-    for m in re.finditer(r'<cite[^>]*id="(CITEREF[^"]+)"[^>]*>(.*?)</cite>', doc, re.S):
+    for m in re.finditer(r'<cite[^>]*\bid="(CITEREF[^"]+)"[^>]*>(.*?)</cite>', doc, re.S):
         u = re.search(r'href="(https?://[^"]+)"', m.group(2)); cites[m.group(1)] = (plain(m.group(2))[:160], html.unescape(u.group(1)) if u else None)
     out = {}
-    for m in re.finditer(r'<li id="(cite_note-[^"]+)"[^>]*>(.*?)</li>', doc, re.S):
+    for m in re.finditer(r'<li[^>]*\bid="(cite_note-[^"]+)"[^>]*>(.*?)</li>', doc, re.S):
         body = m.group(2); txt = re.search(r'<span class="reference-text"[^>]*>(.*)', body, re.S); t = plain(txt.group(1) if txt else body)[:160]
         u = re.search(r'<a[^>]+class="[^"]*external[^"]*"[^>]+href="([^"]+)"', body) or re.search(r'href="(https?://[^"]+)"', body)
         url = html.unescape(u.group(1)) if u else None
-        cr = re.search(r'href="#(CITEREF[^"]+)"', body)
+        cr = re.search(r'href="[^"]*#(CITEREF[^"]+)"', body)
         if cr and cr.group(1) in cites:
             ct, cu = cites[cr.group(1)]; t = (t + ' — ' + ct)[:220]; url = url or cu
         out[m.group(1)] = {'t': t, 'u': url}
@@ -104,12 +104,19 @@ def tolls():
             i_name = col(head, 'name', 'event', 'war', 'genocide', 'famine', 'conflict'); i_date = col(head, 'date', 'year', 'period')
             i_loc = col(head, 'location', 'country', 'place', 'region'); i_d = col(head, 'death', 'toll', 'casualt', 'estimate', 'killed', 'victims', 'number', 'est.')
             if i_d is None: continue
+            span = None
             for cells in body:
                 def c(i): return plain(cells[i]) if i is not None and i < len(cells) else ''
-                est = c(i_d); lo, hi = numbers(est)
+                pc = [plain(x).lower() for x in cells]
+                if 'lowest' in pc and 'highest' in pc: span = len(cells); continue  # a second header row: low and high are the last two cells
+                if span and len(cells) >= 4:
+                    est = c(len(cells) - 2) + ' – ' + c(len(cells) - 1); lo, hi = numbers(est)
+                    if i_date is not None and i_date + 1 < len(cells): pass
+                else:
+                    est = c(i_d); lo, hi = numbers(est)
                 refs = []
                 for cell in cells:
-                    for nid in re.findall(r'href="#(cite_note-[^"]+)"', cell):
+                    for nid in re.findall(r'href="[^"]*#(cite_note-[^"]+)"', cell):
                         if nid in R and R[nid] not in refs: refs.append(R[nid])
                 name = c(i_name) or c(0)
                 if not name or (lo is None and not est): continue
