@@ -1,0 +1,860 @@
+[
+ {
+  "id": "mill-h0",
+  "claim": "24 May 2000 — Clay Mathematics Institute, Paris: Announced the seven problems.",
+  "verdict": "accurate",
+  "reason": "Clay announced the seven Millennium Prize problems on 24 May 2000 at the Collège de France in Paris. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "mill-h1",
+  "claim": "2002–2010 — Grigori Perelman: Proved the Poincaré conjecture; declined the Fields Medal (2006) and the Clay prize (2010).",
+  "verdict": "accurate",
+  "reason": "Perelman posted his papers in 2002–03, declined the Fields Medal in 2006 and the Clay prize in 2010 (awarded March, declined July). Strictly he proved Thurston's geometrization conjecture, which implies Poincaré. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "mill-h2",
+  "claim": "September 2026 — OpenAI: Announced a forced Navier–Stokes blow-up proof produced by AI agents and checked in Lean (developing).",
+  "verdict": "accurate",
+  "reason": "OpenAI's page is dated 8 September 2026. It claims finite-time blow-up with a smooth applied force, produced by about 10,000 agents and formalized in Lean.",
+  "fix": "",
+  "sources": [
+   "https://openai.com/index/navier-stokes-solution/",
+   "https://rits.shanghai.nyu.edu/ai/openai-navier-stokes-proof-credit-dispute/"
+  ]
+ },
+ {
+  "id": "mill-h3",
+  "claim": "20 November 2026 — Tristan Buckmaster and Levent Alpöge: Claimed an AI-assisted proof of unforced blow-up (developing).",
+  "verdict": "accurate",
+  "reason": "Buckmaster and Alpöge posted the unforced Navier–Stokes claim on 20 November 2026 with a Lean formalization; a numerical-data certificate is still to be released. Note: on the same day Alpöge also posted a claimed Lean proof of the Riemann hypothesis, which the timeline omits.",
+  "fix": "",
+  "sources": [
+   "https://thenextweb.com/news/navier-stokes-blow-up-without-force-buckmaster-alpoge",
+   "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/"
+  ]
+ },
+ {
+  "id": "mill-l0",
+  "claim": "Poincaré conjecture: solved by Grigori Perelman in 2002–03 (see algebraic topology). He declined the prize in 2010.",
+  "verdict": "accurate",
+  "reason": "Matches the standard record: Perelman's proof 2002–03, Clay prize declined 2010. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "mill-l1",
+  "claim": "Riemann hypothesis (1859): the zeros of the zeta function, which control how evenly primes are spread, all lie on one line in the complex plane. Trillions of zeros have been checked, but no proof exists. A proof would sharpen countless results about primes.",
+  "verdict": "outdated",
+  "reason": "Two problems. (1) Only the nontrivial zeros are conjectured to lie on the line; the trivial zeros at −2, −4, … do not. (2) 'No proof exists' is out of date: on 20 November 2026 Levent Alpöge (Anthropic) posted a claimed proof of the Riemann hypothesis and its generalized form, made with Claude and existing as about 17 million lines of Lean. Outside experts compiled the code and a formalization group voiced confidence, but no human-readable proof exists and number theorists are still checking it. The 'trillions of zeros' figure is fine (Platt and Trudgian verified RH up to height 3×10^12).",
+  "fix": "Riemann hypothesis (1859): the nontrivial zeros of the zeta function, which control how evenly primes are spread, all lie on one line in the complex plane. Trillions of zeros have been checked. On 20 November 2026 Levent Alpöge of Anthropic posted a claimed proof of it, and of a stronger generalized version, made with Claude and written in Lean. Others have compiled the Lean code, but no human-readable proof exists yet and experts are still checking it (developing). Disclosure: this Lab is drafted with Claude. A proof would sharpen countless results about primes.",
+  "sources": [
+   "https://www.quantamagazine.org/update/168664/",
+   "https://thenextweb.com/news/anthropic-alpoge-claude-riemann-hypothesis-proof-lean",
+   "https://en.wikipedia.org/wiki/Riemann_hypothesis"
+  ]
+ },
+ {
+  "id": "mill-l2",
+  "claim": "P vs NP (1971): can every quickly checkable problem be quickly solved? (See computability.) Yang–Mills existence and mass gap: give a rigorous mathematical construction of the quantum theory behind the strong nuclear force and prove its lightest particle has positive mass. Hodge conjecture: certain topological features of algebraic shapes come from algebraic sub-shapes. Birch and Swinnerton-Dyer: the number of rational points on an elliptic curve is predicted by its L-function.",
+  "verdict": "needs-context",
+  "reason": "P vs NP (Cook, 1971), Yang–Mills and Hodge are fairly described for a general reader. Birch and Swinnerton-Dyer is misstated: an elliptic curve often has infinitely many rational points, so 'the number' is not what is predicted. BSD predicts the rank (how many independent points generate them) from the L-function's behaviour at s = 1. Also, in October 2026 OpenAI claimed an unreleased proof of Yang–Mills existence (not the mass gap), which is unverified.",
+  "fix": "P vs NP (1971): can every quickly checkable problem be quickly solved? (See computability.) Yang–Mills existence and mass gap: give a rigorous mathematical construction of the quantum theory behind the strong nuclear force and prove its lightest particle has positive mass. In October 2026 OpenAI claimed an unreleased proof of the existence part only; it is unverified. Hodge conjecture: certain topological features of algebraic shapes come from algebraic sub-shapes. Birch and Swinnerton-Dyer: how many independent rational points an elliptic curve has (its rank) is predicted by its L-function at s = 1.",
+  "sources": [
+   "https://xenospectrum.com/en/openai-yang-mills-kakeya-eth-release/",
+   "https://decrypt.co/378551/openai-progress-second-millennium-prize-math-problem"
+  ]
+ },
+ {
+  "id": "mill-l3",
+  "claim": "Navier–Stokes existence and smoothness (developing, November 2026): must smooth fluid flows in 3D stay smooth, or can they “blow up”? In September 2026 OpenAI announced an AI-generated, Lean-checked proof that the equations can blow up when a carefully designed smooth external force is applied, a case the Clay statement allows but many experts consider an artificial loophole. NYU’s Tristan Buckmaster, whose related work came first, disputes how OpenAI reached its method. On 20 November 2026 Buckmaster and Levent Alpöge posted a claimed AI-assisted proof of blow-up with no force at all, with some verification materials still to come. Neither claim has been independently verified, and Clay has not awarded a prize. Disclosure: this Lab’s text is drafted with Claude, made by Anthropic, where Alpöge works; the authors report using Claude.",
+  "verdict": "needs-context",
+  "reason": "Most facts check out: the 8 September 2026 OpenAI claim is forced and Lean-formalized; Clay's official statement allows a force; Buckmaster's forced Euler results came first (15 August); the 20 November unforced claim is Lean-formalized with a numerical certificate still to come. Issues: (1) 'many experts consider an artificial loophole' is one-sided. Silvestre and others call it a side problem, but Córdoba calls a force physically reasonable. (2) It leaves out that Clay said the problem 'has apparently been settled' and is reviewing it slowly. It also leaves out that many experts think OpenAI's proof is technically correct, so 'neither claim has been independently verified' understates OpenAI's status. (3) OpenAI denies using Buckmaster's work; that should be stated. (4) The authors report using both Claude and OpenAI's Codex, not just Claude.",
+  "fix": "Navier–Stokes existence and smoothness (developing, November 2026): must smooth fluid flows in 3D stay smooth, or can they “blow up”? On 8 September 2026 OpenAI announced an AI-generated, Lean-checked proof that they can blow up when a smooth external force is applied. Clay's statement allows this case, but several experts see it as a side question, not the core problem. NYU's Tristan Buckmaster, whose related work came first, disputes how OpenAI reached its method; OpenAI denies using his work. Clay said the problem “has apparently been settled” but is reviewing it slowly and has awarded no prize. On 20 November 2026 Buckmaster and Levent Alpöge posted a claimed AI-assisted, Lean-formalized proof of blow-up with no force, with some numerical data still to come; it is still being checked. Disclosure: this Lab’s text is drafted with Claude, made by Anthropic, where Alpöge works; the authors report using Claude and OpenAI’s Codex.",
+  "sources": [
+   "https://scientificamerican.com/article/did-openai-solve-the-wrong-navier-stokes-problem",
+   "https://the-decoder.com/clay-mathematics-institute-says-the-navier-stokes-millennium-prize-problem-has-apparently-been-settled/",
+   "https://thenextweb.com/news/navier-stokes-blow-up-without-force-buckmaster-alpoge"
+  ]
+ },
+ {
+  "id": "langlands-h0",
+  "claim": "1796–1801 — Carl Friedrich Gauss: Proved quadratic reciprocity, which he called the “golden theorem”.",
+  "verdict": "accurate",
+  "reason": "Gauss's first proof dates from 1796 and was published in Disquisitiones Arithmeticae (1801). He called it the 'golden theorem' (theorema aureum). Euler and Legendre had conjectured it earlier. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "langlands-h1",
+  "claim": "1940 and 1967 — André Weil; Robert Langlands: Weil’s letter on mathematical analogies; Langlands’ letter launching the program. Langlands received the Abel Prize in 2018.",
+  "verdict": "accurate",
+  "reason": "Weil's 1940 prison letter to his sister described the analogies ('Rosetta stone'). Langlands wrote to Weil in January 1967, and won the Abel Prize in 2018.",
+  "fix": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Robert_Langlands",
+   "https://www.quantamagazine.org/monumental-proof-settles-geometric-langlands-conjecture-20240719/"
+  ]
+ },
+ {
+  "id": "langlands-h2",
+  "claim": "1990–2010 — Vladimir Drinfeld; Laurent Lafforgue; Ngô Bảo Châu: Fields Medals for function-field cases and the “fundamental lemma” (2008).",
+  "verdict": "accurate",
+  "reason": "Drinfeld (Fields 1990, GL2 over function fields), Lafforgue (Fields 2002, GLn over function fields), Ngô (Fields 2010; fundamental lemma proof posted 2008). No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "langlands-h3",
+  "claim": "1995 and 2018 — Andrew Wiles; Peter Scholze: Modularity for Fermat; new p-adic geometry (Fields Medal 2018) and, with Laurent Fargues, a geometric approach to local Langlands.",
+  "verdict": "accurate",
+  "reason": "Wiles's proof (with Taylor–Wiles) was published in 1995; Scholze won the Fields Medal in 2018. Minor: the Fargues–Scholze geometrization paper appeared in 2021, outside the two dates given. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "langlands-h4",
+  "claim": "2024 — Gaitsgory, Raskin and seven co-authors: Proof of the geometric Langlands conjecture.",
+  "verdict": "accurate",
+  "reason": "Quanta names nine mathematicians led by Gaitsgory and Raskin, i.e. the two plus seven co-authors; the proof was completed and posted in 2024.",
+  "fix": "",
+  "sources": [
+   "https://www.quantamagazine.org/monumental-proof-settles-geometric-langlands-conjecture-20240719/"
+  ]
+ },
+ {
+  "id": "langlands-l0",
+  "claim": "In 1967 Robert Langlands, then a young professor at Princeton, wrote a 17-page letter to André Weil proposing deep connections between two worlds. On one side: Galois groups, the symmetries of solutions to polynomial equations, which govern counting solutions modulo primes. On the other: automorphic forms, highly symmetric functions studied with harmonic analysis.",
+  "verdict": "accurate",
+  "reason": "Quanta: Langlands, 'then a 30-year-old Princeton professor', wrote a handwritten 17-page letter to Weil. He was an associate professor at Princeton until he moved to Yale in 1967.",
+  "fix": "",
+  "sources": [
+   "https://www.quantamagazine.org/monumental-proof-settles-geometric-langlands-conjecture-20240719/",
+   "https://en.wikipedia.org/wiki/Robert_Langlands"
+  ]
+ },
+ {
+  "id": "langlands-l1",
+  "claim": "The simplest case is centuries old. Quadratic reciprocity (Gauss, 1796) links whether p is a square modulo q to whether q is a square modulo p. Langlands’ conjectures extend this kind of hidden harmony to all equations and all symmetry groups.",
+  "verdict": "needs-context",
+  "reason": "Quadratic reciprocity applies to odd primes p and q, and it was conjectured by Euler and Legendre before Gauss proved it in 1796. 'All equations and all symmetry groups' is a popular overstatement; the conjectures concern Galois representations and reductive groups. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "The simplest case is centuries old. Quadratic reciprocity, guessed by Euler and Legendre and first proved by Gauss in 1796, links whether an odd prime p is a square modulo another odd prime q to whether q is a square modulo p. Langlands’ conjectures extend this kind of hidden harmony to vastly more equations and symmetry groups.",
+  "sources": []
+ },
+ {
+  "id": "langlands-l2",
+  "claim": "Modularity, used to prove Fermat’s Last Theorem, is one case: the number of solutions of an elliptic curve modulo each prime matches the coefficients of a modular form. You can check one example yourself: the curve y² + y = x³ − x² and the form q ∏(1 − qⁿ)²(1 − q¹¹ⁿ)² agree prime by prime.",
+  "verdict": "misleading",
+  "reason": "The example curve and modular form are correctly paired: y² + y = x³ − x² has conductor 11 and matches q∏(1−qⁿ)²(1−q¹¹ⁿ)². But the number of solutions does not equal the coefficient. Recomputed for every prime up to 47: p minus the number of solutions mod p equals the coefficient a_p. For example, mod 5 there are 4 solutions, and a_5 = 1. A learner told to 'check it yourself' would find a mismatch. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "Modularity, used to prove Fermat’s Last Theorem, is one case: for an elliptic curve, the prime p minus the number of solutions modulo p equals the p-th coefficient of a modular form. You can check one example yourself with the curve y² + y = x³ − x² and the form q ∏(1 − qⁿ)²(1 − q¹¹ⁿ)². Modulo 5 the curve has 4 solutions, and 5 − 4 = 1, the coefficient of q⁵.",
+  "sources": []
+ },
+ {
+  "id": "langlands-l3",
+  "claim": "There are parallel versions for number fields, for function fields and for geometry (the “Rosetta stone” Weil described in 1940). In 2024 a team of nine mathematicians led by Dennis Gaitsgory and Sam Raskin proved the geometric Langlands conjecture in five papers totalling over 800 pages, after about 30 years of work. The number-theory version remains largely open.",
+  "verdict": "accurate",
+  "reason": "Quanta: nine mathematicians, five papers, 'more than 800 pages', about 30 years of effort. Number-field Langlands remains largely open.",
+  "fix": "",
+  "sources": [
+   "https://www.quantamagazine.org/monumental-proof-settles-geometric-langlands-conjecture-20240719/"
+  ]
+ },
+ {
+  "id": "abc-h0",
+  "claim": "1985–1988 — David Masser; Joseph Oesterlé: Formulated the abc conjecture.",
+  "verdict": "accurate",
+  "reason": "Masser (1985) and Oesterlé (1988) formulated the conjecture. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "abc-h1",
+  "claim": "2012 — Shinichi Mochizuki: Posted the IUT papers.",
+  "verdict": "accurate",
+  "reason": "Mochizuki posted the four IUT papers in August 2012. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "abc-h2",
+  "claim": "2018 — Peter Scholze and Jakob Stix: “Why abc is still a conjecture”: a gap at Corollary 3.12.",
+  "verdict": "accurate",
+  "reason": "Scholze and Stix's 2018 report locates the problem at Corollary 3.12 of IUT III; the 2026 LANA report still organizes the dispute around that step.",
+  "fix": "",
+  "sources": [
+   "https://zen.ac.jp/news/zmcpostevent0717e"
+  ]
+ },
+ {
+  "id": "abc-h3",
+  "claim": "2021 — PRIMS: Published Mochizuki’s papers.",
+  "verdict": "accurate",
+  "reason": "PRIMS accepted the papers in 2020 and published them in 2021. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "abc-h4",
+  "claim": "2024–2026 — Kirti Joshi; Project LANA: Joshi’s alternative account; a computer-verification effort with an interim report in July 2026 (developing).",
+  "verdict": "accurate",
+  "reason": "Joshi's preprints date from 2024 to 2025. Project LANA released its interim report on IUT on 17 July 2026.",
+  "fix": "",
+  "sources": [
+   "https://arxiv.org/html/2505.10568v1",
+   "https://zen.ac.jp/news/zmcpostevent0717e"
+  ]
+ },
+ {
+  "id": "abc-l0",
+  "claim": "The abc conjecture (Masser and Oesterlé, 1985–88) is about equations a + b = c in whole numbers with no common factor. Multiply the distinct primes dividing a, b and c to get rad(abc). Usually c is smaller than rad(abc). The conjecture says c can exceed rad(abc)^(1 + ε) only finitely often, for any ε > 0. Example: 1 + 8 = 9 has rad(1·8·9) = 6 < 9, a rare “hit”. If true, abc would imply many other results at once, including a version of Fermat’s Last Theorem for large exponents.",
+  "verdict": "accurate",
+  "reason": "Recomputed: rad(1·8·9) = rad(72) = 2·3 = 6 < 9. The statement of the conjecture is correct, and abc does imply an asymptotic Fermat result. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "abc-l1",
+  "claim": "In 2012 Mochizuki, at Kyoto University’s RIMS, posted four papers (over 500 pages) developing inter-universal Teichmüller theory (IUT) and claiming a proof. Few could follow them. In 2018 Peter Scholze and Jakob Stix visited Kyoto and reported a serious gap in Corollary 3.12, the key step. Mochizuki replied that they had misunderstood. The papers were published in 2021 in PRIMS, a journal based at his own institute where he is chief editor; the editors said he was not involved in handling them.",
+  "verdict": "accurate",
+  "reason": "Matches the standard account: four papers, over 500 pages, 2012; Scholze and Stix visited Kyoto in March 2018; Mochizuki is PRIMS editor-in-chief and the editors said he was recused. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "abc-l2",
+  "claim": "Since then, Kirti Joshi has argued that Scholze and Stix’s objections are wrong but that Mochizuki’s proof is incomplete, and has proposed his own completion; Mochizuki rejects Joshi’s account. In 2026 a project at Japan’s ZEN University (Project LANA) began working toward computer verification of IUT and issued an interim report that declined to rush to a verdict (developing).",
+  "verdict": "needs-context",
+  "reason": "Joshi's position is correctly described (he calls Scholze–Stix wrong and Mochizuki's proof incomplete), and Mochizuki's March 2024 report rejected Joshi's work. But LANA was not new in 2026. Preparation began in 2023, it launched in 2024, and it announced its IUT-verification aim in March 2026. Also, 'declined to rush to a verdict' undersells the report. It suspended judgment and listed specific unclear points in deriving Corollary 3.12 from Theorem 3.11. Separately, Mochizuki's own group began writing Lean code for that step in 2026.",
+  "fix": "Since 2024 Kirti Joshi has argued that Scholze and Stix’s objections are wrong but that Mochizuki’s proof is incomplete, and has proposed his own completion; Mochizuki rejects Joshi’s account. Project LANA, a Lean project at Japan’s ZEN University begun in 2024, set out in 2026 to check IUT by computer. Its July 2026 interim report suspended judgment and listed unclear points in the step leading to Corollary 3.12. Mochizuki’s own group is also writing Lean code for that step (developing).",
+  "sources": [
+   "https://zen.ac.jp/news/zmcpostevent0717e",
+   "https://math.columbia.edu/~woit/wordpress/?p=13895",
+   "https://www.kurims.kyoto-u.ac.jp/~motizuki/Formalization%20of%20IUT%20(2026-04).pdf"
+  ]
+ },
+ {
+  "id": "abc-l3",
+  "claim": "The outcome so far: outside Kyoto, most number theorists do not regard abc as proved. The case shows how mathematics settles disputes: not by authority or publication alone, but by whether experts can follow and check every step, and increasingly by computer verification.",
+  "verdict": "accurate",
+  "reason": "A fair summary. LANA's July 2026 report still suspends judgment, and most experts outside RIMS do not accept the proof.",
+  "fix": "",
+  "sources": [
+   "https://zen.ac.jp/news/zmcpostevent0717e"
+  ]
+ },
+ {
+  "id": "open-h0",
+  "claim": "2013 — Yitang Zhang; James Maynard; Polymath8; Harald Helfgott: Bounded prime gaps; weak Goldbach.",
+  "verdict": "accurate",
+  "reason": "Zhang (May 2013), Maynard (November 2013), Polymath8, and Helfgott (weak Goldbach, 2013) are correct for 2013. Note the gap bound was improved again in 2026 (see open-l1). No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "open-h1",
+  "claim": "2016 and 2022 — Maryna Viazovska: Sphere packing in dimensions 8 and 24; Fields Medal, the second woman to receive it.",
+  "verdict": "accurate",
+  "reason": "Viazovska solved dimension 8 in 2016 (24 with colleagues) and won the Fields Medal in 2022, the second woman after Mirzakhani.",
+  "fix": "",
+  "sources": [
+   "https://news.cgtn.com/news/2026-07-23/news-1P1gcDQuVJ6/detail.html"
+  ]
+ },
+ {
+  "id": "open-h2",
+  "claim": "2023 and 2024 — David Smith and collaborators; bbchallenge: The aperiodic “hat” tile; the fifth busy beaver.",
+  "verdict": "accurate",
+  "reason": "The hat was found in 2023 by David Smith with Kaplan, Myers and Goodman-Strauss. The bbchallenge collaboration determined BB(5) = 47,176,870 in 2024.",
+  "fix": "",
+  "sources": [
+   "https://quantamagazine.org/hobbyist-finds-maths-elusive-einstein-tile-20230404"
+  ]
+ },
+ {
+  "id": "open-h3",
+  "claim": "2025–2026 — Hong Wang and Joshua Zahl; Yu Deng: Kakeya in 3D; Fields Medals 2026 to Deng, Pardon, Tsimerman and Wang, the first awarded to Chinese nationals.",
+  "verdict": "needs-context",
+  "reason": "The 2026 medalists (Deng, Pardon, Tsimerman, Wang) and the Kakeya and Deng work are correct. 'First awarded to Chinese nationals' is how Chinese state media framed it, and it holds only in the citizenship sense. China-born Shing-Tung Yau won in 1982 but did not then hold Chinese citizenship, and other reports call Yau the first ethnic Chinese winner.",
+  "fix": "2025–2026 — Hong Wang and Joshua Zahl; Yu Deng: Kakeya in 3D; Fields Medals 2026 to Deng, Pardon, Tsimerman and Wang. Deng and Wang are the first Chinese citizens to win; China-born Shing-Tung Yau won in 1982 but was not then a Chinese citizen.",
+  "sources": [
+   "https://www.simonsfoundation.org/2026/07/23/2026-fields-medals-awarded-to-four-of-worlds-top-mathematicians/",
+   "https://www.cp24.com/news/world/2026/07/24/in-a-first-two-chinese-scholars-win-the-nobel-prize-of-mathematics-and-china-is-thrilled/",
+   "https://www.michiganpublic.org/2026-07-23/in-a-first-chinese-woman-wins-the-prestigious-fields-medal"
+  ]
+ },
+ {
+  "id": "open-l0",
+  "claim": "Still open: the twin prime conjecture (infinitely many primes two apart, like 11 and 13); the Goldbach conjecture (every even number above 2 is a sum of two primes, checked up to 4 × 10¹⁸); the Collatz conjecture (halve if even, triple and add one if odd: do you always reach 1?); whether π + e is irrational.",
+  "verdict": "accurate",
+  "reason": "All four are still open as of November 2026. Even Goldbach is verified up to 4×10^18 (Oliveira e Silva et al.). A July 2026 AI-assisted 'disproof' of Collatz was invalid, accepted only because of a Lean kernel bug.",
+  "fix": "",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Goldbach%27s_conjecture",
+   "https://gigazine.net/gsc_news/en/20260803-collatz-lean-kernel-bug"
+  ]
+ },
+ {
+  "id": "open-l1",
+  "claim": "Recent progress on old problems: In 2013 Yitang Zhang, then a little-known lecturer, proved there are infinitely many prime pairs less than 70 million apart; collaborative work (Polymath) and James Maynard cut the gap to 246. Also in 2013 Harald Helfgott proved the “weak” Goldbach conjecture for odd numbers. In 2019 Terence Tao proved that almost all Collatz sequences get close to small values.",
+  "verdict": "outdated",
+  "reason": "The 2013–14 history is correct: Zhang's 70 million, cut to 246 by Polymath8b using Maynard's method; Helfgott 2013; Tao 2019. But in 2026 the bound moved for the first time in over a decade. Julia Stadlmann reached 240 (August 2026), then AI systems claimed 212 (Axiom Math) and 186 (OpenAI) in early September. Also, Helfgott's ternary Goldbach proof was formally verified in November 2026.",
+  "fix": "Recent progress on old problems: In 2013 Yitang Zhang, then a little-known lecturer, proved there are infinitely many prime pairs less than 70 million apart; collaborative work (Polymath) and James Maynard cut the gap to 246 by 2014. In 2026 Julia Stadlmann lowered it to 240, then AI systems claimed 212 and then 186. Also in 2013 Harald Helfgott proved the “weak” Goldbach conjecture for odd numbers; it was computer-checked in 2026. In 2019 Terence Tao proved that almost all Collatz sequences get close to small values.",
+  "sources": [
+   "https://www.sciencenews.org/article/human-math-record-twin-primes-openai",
+   "https://www.quantamagazine.org/update/169054/"
+  ]
+ },
+ {
+  "id": "open-l2",
+  "claim": "Settled: Maryna Viazovska solved sphere packing in 8 dimensions in 2016 (and, with colleagues, in 24), earning a Fields Medal in 2022. In February 2025 Hong Wang and Joshua Zahl proved the three-dimensional Kakeya conjecture about how small a region can be while containing a needle pointing in every direction; Wang received a 2026 Fields Medal. Yu Deng, with Zaher Hani and Xiao Ma, rigorously derived the Boltzmann equation for gases from particle dynamics, progress on Hilbert’s sixth problem; Deng also received a 2026 Fields Medal.",
+  "verdict": "needs-context",
+  "reason": "Viazovska, Deng–Hani–Ma and the Fields Medals are correct. The Kakeya description is misleading: a set containing a needle in every direction can have zero volume (Besicovitch, 1919). The conjecture says such a set must still be fully three-dimensional (Minkowski/Hausdorff dimension 3). Deng's derivation matters because it holds for long times; Lanford had short times in 1975. Since October 2026, OpenAI has claimed AI proofs that would give Kakeya in all dimensions; these are unverified.",
+  "fix": "Settled: Maryna Viazovska solved sphere packing in 8 dimensions in 2016 (and, with colleagues, in 24), earning a Fields Medal in 2022. In February 2025 Hong Wang and Joshua Zahl proved the three-dimensional Kakeya conjecture: a set holding a needle pointing in every direction can have zero volume, yet must still be fully three-dimensional. Wang received a 2026 Fields Medal. (OpenAI claimed an all-dimensions proof in October 2026; it is unverified.) Yu Deng, with Zaher Hani and Xiao Ma, rigorously derived the Boltzmann equation for gases from hard-sphere dynamics over long times, progress on Hilbert’s sixth problem; Deng also received a 2026 Fields Medal.",
+  "sources": [
+   "https://quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314",
+   "https://www.simonsfoundation.org/2026/07/23/2026-fields-medals-awarded-to-four-of-worlds-top-mathematicians/",
+   "https://xenospectrum.com/en/openai-yang-mills-kakeya-eth-release/"
+  ]
+ },
+ {
+  "id": "open-l3",
+  "claim": "Amateurs still contribute. In 2023 David Smith, a retired print technician and hobbyist, found the first single tile that covers the plane only without repeating (the “hat”), proved with three professional collaborators. In 2024 an online collaboration, largely of amateurs, determined the fifth busy beaver number.",
+  "verdict": "accurate",
+  "reason": "Quanta calls Smith 'a retired print technician'. His three collaborators were Kaplan, Goodman-Strauss and Myers; Myers is a software developer, so 'professional' is loose. Minor nuance: hat tilings use mirror-image copies, and the mirror-free 'spectre' followed in 2023. BB(5) was settled by the bbchallenge collaboration in 2024.",
+  "fix": "",
+  "sources": [
+   "https://quantamagazine.org/hobbyist-finds-maths-elusive-einstein-tile-20230404",
+   "https://en.wikipedia.org/wiki/David_Smith_(amateur_mathematician)"
+  ]
+ },
+ {
+  "id": "ai-h0",
+  "claim": "2024 — Google DeepMind: AlphaProof and AlphaGeometry: IMO silver-medal level.",
+  "verdict": "accurate",
+  "reason": "AlphaProof and AlphaGeometry 2 scored at silver-medal level at IMO 2024. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "ai-h1",
+  "claim": "2025 — Google DeepMind; OpenAI: IMO gold-medal level performance.",
+  "verdict": "accurate",
+  "reason": "Gemini Deep Think was officially graded at gold standard; OpenAI's model also reached gold-level scores (self-reported, graded by former medalists).",
+  "fix": "",
+  "sources": [
+   "https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad"
+  ]
+ },
+ {
+  "id": "ai-h2",
+  "claim": "2026 — Many groups: AI-assisted Erdős problem solutions; the Leiden Declaration (June); OpenAI’s Navier–Stokes claim (September); AI-assisted work by Buckmaster and Alpöge (November). All developing.",
+  "verdict": "needs-context",
+  "reason": "The items listed are correct, but the 2026 timeline leaves out its largest events. In October OpenAI released hundreds of claimed results, including the quasi-Riemann hypothesis. In September 25 Fields medalists issued a declaration criticizing AI labs. And on 20 November Alpöge posted a claimed Lean proof of the Riemann hypothesis.",
+  "fix": "2026 — Many groups: AI-assisted Erdős problem solutions; the Leiden Declaration (June); OpenAI’s Navier–Stokes claim (September) and batch of claimed results (October); Buckmaster and Alpöge’s unforced Navier–Stokes claim and Alpöge’s claimed Lean proof of the Riemann hypothesis (November). All developing.",
+  "sources": [
+   "https://www.quantamagazine.org/update/168664/",
+   "https://www.quantamagazine.org/update/168049/",
+   "https://www.universiteitleiden.nl/en/news/2026/06/leiden-declaration-warns-ai-is-challenging-the-core-values-of-mathematics"
+  ]
+ },
+ {
+  "id": "ai-l0",
+  "claim": "In 2024 DeepMind’s AlphaProof and AlphaGeometry reached silver-medal level at the International Mathematical Olympiad; in 2025 systems from Google DeepMind and OpenAI reached gold-medal level. By 2026 AI tools were helping move Erdős problems (hundreds of open questions posed by Paul Erdős) to “solved”. Terence Tao noted that much of the early help was smart literature search, finding old papers that already contained answers, but AI also produced new proofs, and in May 2026 a Google DeepMind agent reported solving 9 of 353 Erdős problems it attempted, with Lean-checked proofs.",
+  "verdict": "accurate",
+  "reason": "Erdős-problem progress is well documented. Per Scientific American, most AI help reported on Tao's tracking page was 'souped-up literature search', with a few genuinely new proofs. DeepMind's May 2026 paper reports its best agent resolved 9 of 353 open Erdős problems via Lean proof search.",
+  "fix": "",
+  "sources": [
+   "https://arxiv.org/abs/2605.22763",
+   "https://scientificamerican.com/article/ai-uncovers-solutions-to-erdos-problems-moving-closer-to-transforming-math",
+   "https://www.quantamagazine.org/how-ai-tore-through-a-mathematical-community-20260803/"
+  ]
+ },
+ {
+  "id": "ai-l1",
+  "claim": "In September 2026 OpenAI announced a claimed Navier–Stokes blow-up proof produced by many AI agents and checked in Lean (see the Millennium page). Mathematicians praised parts of the result but raised concerns: whether the forced case meets the spirit of the problem, whether Lean statements match the ordinary-language problem, the cost of the computation, and credit for human researchers whose methods it followed.",
+  "verdict": "misleading",
+  "reason": "'Credit for human researchers whose methods it followed' presents a disputed allegation as fact. Buckmaster suspects OpenAI learned of his approach; OpenAI denies using it, and Altman says the approaches differ. The cost was widely reported ($6–10 million), but I found no source showing it as a main concern of mathematicians. The text also omits that many experts think the proof is technically correct and that the AI write-up is very hard to read.",
+  "fix": "In September 2026 OpenAI announced a claimed Navier–Stokes blow-up proof produced by many AI agents and checked in Lean (see the Millennium page). Many mathematicians think it is technically correct, but they raised concerns: whether the forced case meets the spirit of the problem, whether the Lean statements match the ordinary-language problem, how hard the AI-written proof is to understand, and credit for human researchers working on similar methods. OpenAI denies using their work.",
+  "sources": [
+   "https://www.npr.org/2026/09/22/nx-s1-5968588/openai-navier-stokes-problem-mathematicians-learn-little",
+   "https://scientificamerican.com/article/did-openai-solve-the-wrong-navier-stokes-problem",
+   "https://rits.shanghai.nyu.edu/ai/openai-navier-stokes-proof-credit-dispute/"
+  ]
+ },
+ {
+  "id": "ai-l2",
+  "claim": "Formal verification is central to trusting AI mathematics: a computer can check every step of a Lean proof. But the check covers only what was formally stated, and translating informal statements correctly is hard. In June 2026 a group of mathematicians issued the Leiden Declaration on AI and mathematics, setting out principles for responsible use.",
+  "verdict": "accurate",
+  "reason": "The Leiden Declaration (2 June 2026) was written by 16 researchers and is supported by the International Mathematical Union. It warns of threats to core values and proposes norms such as disclosing AI use.",
+  "fix": "",
+  "sources": [
+   "https://www.universiteitleiden.nl/en/news/2026/06/leiden-declaration-warns-ai-is-challenging-the-core-values-of-mathematics"
+  ]
+ },
+ {
+  "id": "ai-l3",
+  "claim": "What does this mean for learners? Calculation and routine proof are increasingly automated, so the human advantages shift toward choosing good questions, judging whether a statement is the right one, understanding why results are true, and explaining them. Those are exactly the skills this path tries to build. Using AI for hints and checking, not for answers you have not understood, keeps you learning.",
+  "verdict": "accurate",
+  "reason": "This is advice and opinion, clearly framed as such; no factual problems.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "research-h0",
+  "claim": "1792–1793 — Carl Friedrich Gauss: Guessed the prime number theorem from tables at about age 15.",
+  "verdict": "accurate",
+  "reason": "Gauss later wrote that he first considered it in 1792 or 1793; born April 1777, he was about 15. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "research-h1",
+  "claim": "1913 — Srinivasa Ramanujan: His letter to Hardy began one of mathematics’ great collaborations.",
+  "verdict": "accurate",
+  "reason": "Ramanujan's letter to Hardy is dated January 1913. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "research-h2",
+  "claim": "1936, 2003 — Fields Medal; Abel Prize: The main international prizes (Fields for under-40s).",
+  "verdict": "accurate",
+  "reason": "Fields first awarded 1936; Abel first awarded 2003; Fields age limit is under 40 on 1 January of the congress year. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "research-h3",
+  "claim": "1991 and 2009 — Paul Ginsparg; Timothy Gowers: arXiv; the first Polymath project.",
+  "verdict": "accurate",
+  "reason": "Ginsparg started arXiv in August 1991; Gowers launched Polymath1 in early 2009. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "research-h4",
+  "claim": "2014, 2022, 2026 — Mirzakhani; Viazovska; Hong Wang: The first three women to receive the Fields Medal.",
+  "verdict": "accurate",
+  "reason": "Wang (2026) is the third woman, after Mirzakhani (2014) and Viazovska (2022).",
+  "fix": "",
+  "sources": [
+   "https://news.cgtn.com/news/2026-07-23/news-1P1gcDQuVJ6/detail.html",
+   "https://en.wikipedia.org/wiki/Hong_Wang"
+  ]
+ },
+ {
+  "id": "research-l0",
+  "claim": "Discovery usually starts with examples and data. As a teenager Gauss studied tables of primes and guessed that primes near N occur with density about 1/ln N; it took a century to prove (the prime number theorem, 1896). Conjectures come from patterns; proofs explain them.",
+  "verdict": "accurate",
+  "reason": "Density about 1/ln N is correct. The prime number theorem was proved in 1896 by Hadamard and de la Vallée Poussin, about a century after Gauss's guess. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "research-l1",
+  "claim": "Research is mostly failure. A mathematician may spend years on a problem, trying approaches that collapse. Andrew Wiles worked on Fermat in secret for seven years, announced a proof, found a gap, and needed another year with Richard Taylor to repair it.",
+  "verdict": "accurate",
+  "reason": "Wiles worked largely in secret 1986–93 and announced in June 1993. A gap surfaced during refereeing, and he repaired it with Taylor by September 1994. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "research-l2",
+  "claim": "Results are shared as preprints on arXiv (since 1991), then refereed by journals, which can take years. Errors are found after publication too. Collaboration has grown: online Polymath projects (from 2009) involve dozens of people, and proof assistants let hundreds contribute to one formal proof.",
+  "verdict": "overstated",
+  "reason": "'Hundreds contribute to one formal proof' is too strong. Large collaborative formal proofs involve dozens of people: the Equational Theories Project paper lists 34 authors, and the Liquid Tensor Experiment had about a dozen core contributors. Hundreds contribute to shared libraries like mathlib, not usually to one proof.",
+  "fix": "Results are shared as preprints on arXiv (since 1991), then refereed by journals, which can take years. Errors are found after publication too. Collaboration has grown: online Polymath projects (from 2009) involve dozens of people, and proof assistants let dozens contribute to one formal proof and hundreds to shared libraries such as mathlib.",
+  "sources": [
+   "https://arxiv.org/html/2512.07087v2"
+  ]
+ },
+ {
+  "id": "research-l3",
+  "claim": "Who gets to do mathematics has changed and is still uneven. Sophie Germain wrote under a male name; Srinivasa Ramanujan, a clerk in Madras, reached Cambridge through a letter to G. H. Hardy in 1913; the first woman to win a Fields Medal was Maryam Mirzakhani in 2014. You can join in now: explore patterns in the OEIS, try Project Euler and Erdős problems, formalize mathematics in Lean, or make a conjecture from data in the Lab and test it.",
+  "verdict": "accurate",
+  "reason": "Germain corresponded as 'Monsieur LeBlanc'; Ramanujan was a clerk at the Madras Port Trust; Mirzakhani was first woman Fields medalist (2014). No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "optim-h2",
+  "claim": "1940s — British and American wartime teams: Operations research for convoys, radar and bombing; George Dantzig created the simplex method in 1947 for US Air Force planning.",
+  "verdict": "accurate",
+  "reason": "Wartime operational research in Britain and the US; Dantzig devised the simplex method in 1947 for US Air Force planning. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "frac-l2",
+  "claim": "Decimals are fractions with denominators 10, 100, 1000 and so on: 0.37 = 37/100. Percent means “per hundred”, so 37% = 37/100 = 0.37. A ratio compares two amounts: a recipe with 2 cups of flour to 1 cup of sugar has a 2:1 ratio. Ratios are fractions in disguise: sugar is ⅓ of the mix.",
+  "verdict": "accurate",
+  "reason": "Correct: 0.37 = 37/100 = 37%. With a 2:1 flour-to-sugar ratio, sugar is 1/3 of the mix. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "alggeo-u2",
+  "claim": "Robotics and vision: Solving polynomial systems for arm positions and camera geometry",
+  "verdict": "accurate",
+  "reason": "Inverse kinematics and camera pose problems are standard applications of polynomial system solving. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "chaos-h3",
+  "claim": "1980–1982 — Benoit Mandelbrot: Computer images of the Mandelbrot set and The Fractal Geometry of Nature.",
+  "verdict": "needs-context",
+  "reason": "Robert Brooks and Peter Matelski first defined and drew the set in 1978. Mandelbrot made the high-quality computer images in 1980, and The Fractal Geometry of Nature appeared in 1982. The line suggests the images began with Mandelbrot.",
+  "fix": "1978–1982 — Robert Brooks and Peter Matelski; Benoit Mandelbrot: Brooks and Matelski first drew the set (1978); Mandelbrot’s 1980 computer images made it famous, followed by his book The Fractal Geometry of Nature (1982).",
+  "sources": [
+   "https://wikiwand.com/en/Mandelbrot_set",
+   "https://mrob.com/pub/muency/history.html"
+  ]
+ },
+ {
+  "id": "proofs-u1",
+  "claim": "Cryptography: Security proofs show a code is as hard to break as a known hard problem",
+  "verdict": "needs-context",
+  "reason": "Security reductions show that breaking a scheme would solve a problem that is believed hard (like factoring), not one that is known to be hard; no such problem has been proven hard. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "Cryptography: Security proofs show that breaking a code would mean solving a problem widely believed to be hard",
+  "sources": []
+ },
+ {
+  "id": "numer-e0",
+  "claim": "Two Newton steps for √10, starting at 3. x₁ = (3 + 10/3)/2 = 3.1667. x₂ = (3.1667 + 10/3.1667)/2 ≈ 3.16228. True: 3.162278.",
+  "verdict": "accurate",
+  "reason": "Recomputed: x1 = 19/6 ≈ 3.16667; x2 = 721/228 ≈ 3.162281; √10 = 3.162278. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "count-u1",
+  "claim": "Computing: Binary place value (base 2) is how every computer stores numbers",
+  "verdict": "needs-context",
+  "reason": "Essentially all modern computers use binary, but not 'every' computer: some early machines like ENIAC were decimal, and the Soviet Setun was ternary. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "Computing: Binary place value (base 2) is how almost every modern computer stores numbers",
+  "sources": []
+ },
+ {
+  "id": "cplx-l0",
+  "claim": "No real number squares to −1, so mathematicians defined one: i, with i² = −1. A complex number has a real part and an imaginary part: 3 + 2i. Add them like ordinary expressions: (3 + 2i) + (1 − 5i) = 4 − 3i. Multiply them using i² = −1: (3 + 2i)(1 − i) = 3 − 3i + 2i − 2i² = 5 − i.",
+  "verdict": "accurate",
+  "reason": "Recomputed: (3+2i)+(1−5i) = 4−3i; (3+2i)(1−i) = 3 − 3i + 2i + 2 = 5 − i. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "sets-l3",
+  "claim": "Paradoxes such as Russell’s forced mathematicians to choose careful axioms. The standard system, ZFC (Zermelo–Fraenkel with the axiom of choice), underlies almost all mathematics. Gödel (1940) showed the continuum hypothesis cannot be disproved from ZFC, and Paul Cohen (1963) showed it cannot be proved either. It is independent: ZFC simply does not decide it.",
+  "verdict": "accurate",
+  "reason": "Standard account. Strictly, Gödel's and Cohen's results are relative: they assume ZFC itself is consistent. The site may wish to add that phrase. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "mill-u3",
+  "claim": "Mathematics: Each problem organizes decades of research",
+  "verdict": "accurate",
+  "reason": "A general statement; uncontroversial.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "hott-h1",
+  "claim": "1967–1989 — Nicolaas de Bruijn; Per Martin-Löf; Thierry Coquand and Gérard Huet: Automath, intuitionistic type theory, and the Coq system.",
+  "verdict": "accurate",
+  "reason": "Automath (1967), Martin-Löf type theory (early 1970s), Coquand–Huet's Calculus of Constructions and Coq (first release 1989). Coq was renamed Rocq in 2025. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "algtop-e1",
+  "claim": "Why can’t you continuously shrink the doughnut’s hole away? A loop around the hole cannot slide off without cutting the surface. Its class in the fundamental group is not the identity, which is a topological invariant.",
+  "verdict": "needs-context",
+  "reason": "The idea is right, but the wording is loose. The point is that a loop around the hole cannot be shrunk to a point within the surface, not that it cannot 'slide off'. 'Which is a topological invariant' wrongly seems to refer to the identity; it is the fundamental group that is invariant. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "Why can’t you continuously reshape a doughnut into a ball? A loop around the hole cannot be shrunk to a point while staying on the surface. So its class in the fundamental group is not the identity. The fundamental group is a topological invariant, and a sphere’s is trivial.",
+  "sources": []
+ },
+ {
+  "id": "cat-h4",
+  "claim": "2009 — Jacob Lurie: Higher Topos Theory, a foundational text for ∞-categories.",
+  "verdict": "accurate",
+  "reason": "Higher Topos Theory was published by Princeton University Press in 2009. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "alggeo-why",
+  "claim": "Shapes defined by polynomials have rigid structure: they can be studied through the rings of polynomial functions on them (tier 6’s Nullstellensatz). Algebra makes the theory work over any number system, which is exactly what number theory needs, and geometry supplies intuition about dimension, curves and intersections.",
+  "verdict": "accurate",
+  "reason": "A fair conceptual summary (Nullstellensatz; schemes over any ring). No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "discrete-e0",
+  "claim": "How many ways can a committee of 3 be chosen from 10 people? Order doesn’t matter: C(10, 3). = 10 × 9 × 8 / (3 × 2 × 1) = 120.",
+  "verdict": "accurate",
+  "reason": "Recomputed: C(10,3) = 720/6 = 120. Typo: the stray full stop in 'C(10, 3). =' should be removed. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "coord-l3",
+  "claim": "Conics turn up everywhere. Planets move in ellipses with the Sun at one focus. A parabolic dish sends every incoming ray to one point, which is how satellite dishes and solar cookers work. A ball thrown in the air follows a parabola.",
+  "verdict": "needs-context",
+  "reason": "A parabolic dish focuses only rays parallel to its axis, not every incoming ray. Thrown balls follow parabolas only if air resistance is ignored. Planetary ellipses are an excellent approximation; other planets perturb the orbits. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "Conics turn up everywhere. Planets move in ellipses, to a very good approximation, with the Sun at one focus. A parabolic dish sends every incoming ray parallel to its axis to one point, which is how satellite dishes and solar cookers work. A ball thrown in the air follows a parabola, if air resistance is ignored.",
+  "sources": []
+ },
+ {
+  "id": "series-l0",
+  "claim": "An infinite series converges if its partial sums settle on a number. ½ + ¼ + ⅛ + … converges to 1. The harmonic series 1 + ½ + ⅓ + ¼ + … does not: it grows forever, though incredibly slowly. Tests such as the ratio test tell you which is which.",
+  "verdict": "needs-context",
+  "reason": "The facts are right, but the ratio test is inconclusive for the harmonic series (the ratio tends to 1), which is the series used as the example. The integral or comparison test is needed there. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "An infinite series converges if its partial sums settle on a number. ½ + ¼ + ⅛ + … converges to 1. The harmonic series 1 + ½ + ⅓ + ¼ + … does not: it grows forever, though incredibly slowly. Tests tell you which is which: the ratio test settles the first, but for the harmonic series it gives no answer, and the integral test is needed.",
+  "sources": []
+ },
+ {
+  "id": "geo1-h3",
+  "claim": "c. 250 BCE and 5th century — Archimedes; Zu Chongzhi: Archimedes trapped π between 223/71 and 22/7 using 96-sided polygons; in China, Zu Chongzhi found 355/113, correct to six decimals.",
+  "verdict": "accurate",
+  "reason": "Recomputed: 223/71 ≈ 3.14085 < π < 22/7 ≈ 3.14286; 355/113 = 3.1415929…, matching π to six decimals. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "optim-l3",
+  "claim": "Some problems are combinatorial: the best order to visit 50 cities (the travelling salesperson problem) has more possible tours than there are atoms on Earth. No known method solves all such problems quickly; operations researchers use clever bounds and heuristics, and it connects to the P vs NP question.",
+  "verdict": "accurate",
+  "reason": "Recomputed: 50 cities give 49!/2 ≈ 3×10^62 distinct tours, versus about 10^50 atoms on Earth. No known algorithm solves all TSP instances in polynomial time. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "calc1-l1",
+  "claim": "Take f(x) = x². Over a small step h, the change is (x + h)² − x² = 2xh + h². Divide by h: 2x + h. As h → 0 this approaches 2x. So the derivative of x² is 2x: at x = 3 the curve is climbing at slope 6.",
+  "verdict": "accurate",
+  "reason": "Correct difference quotient and limit; slope 6 at x = 3. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "algtop-u1",
+  "claim": "Robotics: Planning motion through the space of possible arm positions",
+  "verdict": "accurate",
+  "reason": "Configuration spaces and topological complexity are standard in motion planning. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "frac-why",
+  "claim": "Multiplying the top and bottom of a fraction by the same number does not change its value (2/4 = 1/2) because you are cutting every piece into the same number of smaller pieces. That is why common denominators work. Dividing by a fraction equals multiplying by its flip because division asks “how many of these fit?”: how many quarters fit in one whole? Four. So ÷ ¼ is the same as × 4.",
+  "verdict": "accurate",
+  "reason": "Correct (the multiplier must be nonzero, which is implied). No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "cplx-h1",
+  "claim": "1637 and 1777 — Descartes; Euler: Descartes called such roots “imaginary”, meaning they could not be pictured; Euler introduced the symbol i.",
+  "verdict": "needs-context",
+  "reason": "Dates are right: Descartes, La Géométrie (1637), and Euler's i (1777). But Descartes's sense was not 'could not be pictured'. He said one can imagine such roots, but 'no quantity' corresponds to them, and he meant the term dismissively.",
+  "fix": "1637 and 1777 — Descartes; Euler: Descartes called such roots “imaginary”, a dismissive label, since no real quantity matched them; Euler introduced the symbol i.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Imaginary_number",
+   "https://math.mit.edu/~dunkel/Teach/18.04_2019S/historic/Merino_2006.pdf",
+   "https://www.math.utoronto.ca/mathnet/questionCorner/complexorigin.html"
+  ]
+ },
+ {
+  "id": "proof-h0",
+  "claim": "6th century BCE — Thales of Miletus: Traditionally the first to prove geometric facts rather than just use them.",
+  "verdict": "accurate",
+  "reason": "Correctly framed as tradition (from later sources such as Proclus). No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "var-h0",
+  "claim": "c. 1800 BCE — Babylon: Clay tablets pose and solve problems we would write as equations, in words.",
+  "verdict": "accurate",
+  "reason": "Old Babylonian tablets (c. 1900–1600 BCE) state and solve such problems in words. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "sets-h3",
+  "claim": "1940 and 1963 — Kurt Gödel; Paul Cohen: The continuum hypothesis is consistent with ZFC (Gödel) and so is its negation (Cohen, using a new method called forcing; Fields Medal 1966).",
+  "verdict": "accurate",
+  "reason": "Correct (relative consistency); Cohen received the Fields Medal in 1966. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "diffgeo-h4",
+  "claim": "1944 — Shiing-Shen Chern: Generalized the Gauss–Bonnet theorem, linking curvature to topology.",
+  "verdict": "needs-context",
+  "reason": "Allendoerfer and Weil proved the general Gauss–Bonnet theorem in 1943. Chern's 1944 contribution was the first intrinsic proof, with no embedding in Euclidean space, and it was hugely influential.",
+  "fix": "1944 — Shiing-Shen Chern: Gave the first intrinsic proof of the Gauss–Bonnet theorem in all dimensions (after Allendoerfer and Weil, 1943), linking curvature to topology.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chern%E2%80%93Gauss%E2%80%93Bonnet_theorem"
+  ]
+ },
+ {
+  "id": "comput-h1",
+  "claim": "1936 — Alonzo Church; Alan Turing; Emil Post: Independently answered no, defining computation itself.",
+  "verdict": "misleading",
+  "reason": "Church and Turing independently answered the Entscheidungsproblem negatively in 1936. Post's 1936 paper did not answer it. It proposed a Turing-like model of computation ('Formulation 1') and cited Church's results. Post's undecidability results came later, in 1946.",
+  "fix": "1936 — Alonzo Church; Alan Turing; Emil Post: Church and Turing independently answered no; Post independently proposed a similar model of computation, helping define computation itself.",
+  "sources": [
+   "https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/finite-combinatory-processesformulation1/C336A17A0525DFF17F110DC477AD5C3D",
+   "https://www.wikiwand.com/en/articles/Emil_Post"
+  ]
+ },
+ {
+  "id": "topo-u1",
+  "claim": "Data science: Topological data analysis finds the shape of data clouds",
+  "verdict": "accurate",
+  "reason": "Topological data analysis is a real application, though it relies mainly on algebraic topology (persistent homology) rather than point-set topology. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "arithgeo-h0",
+  "claim": "c. 250 and c. 1637 — Diophantus; Pierre de Fermat: Arithmetica; Fermat’s margin note in his copy, published by his son in 1670.",
+  "verdict": "accurate",
+  "reason": "Samuel de Fermat published the 1670 edition of Arithmetica with his father's notes. Diophantus's dates are uncertain (c. 250 CE is conventional). No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "proof-h1",
+  "claim": "c. 300 BCE — Euclid, Alexandria: Elements: 13 books built from definitions and five postulates. It was a core textbook for over 2,000 years.",
+  "verdict": "accurate",
+  "reason": "Correct. The Elements also rests on five common notions (axioms) besides the definitions and postulates. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "trig-e0",
+  "claim": "A ramp rises at 6° and is 10 m long. How high does it climb? Opposite = hypotenuse × sin θ. 10 × sin 6° ≈ 10 × 0.1045 ≈ 1.05 m.",
+  "verdict": "accurate",
+  "reason": "Recomputed: sin 6° = 0.10453, so the height is 1.045 ≈ 1.05 m. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "numth-u1",
+  "claim": "Error checks: ISBNs and credit-card numbers include check digits that catch typos",
+  "verdict": "accurate",
+  "reason": "ISBN check digits and the Luhn algorithm catch all single-digit errors and most transpositions. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "series-why",
+  "claim": "A Taylor polynomial is built so its value, slope, curvature and higher derivatives all match the function at one point. Matching more derivatives makes it hug the curve over a wider range. Taylor’s theorem bounds the error, so you know how many terms you need.",
+  "verdict": "needs-context",
+  "reason": "More terms help only within the radius of convergence. For ln(1+x) beyond x = 1, more terms make things worse. For non-analytic functions like e^(−1/x²), all derivatives match zero but the function does not. Taylor's error bound also needs a bound on the next derivative. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "A Taylor polynomial is built so its value, slope, curvature and higher derivatives all match the function at one point. For well-behaved functions, matching more derivatives makes it hug the curve over a wider range, though only within the series’ radius of convergence. Taylor’s theorem bounds the error, so you know how many terms you need.",
+  "sources": []
+ },
+ {
+  "id": "diffgeo-u1",
+  "claim": "Maps and navigation: Great-circle routes; map projections",
+  "verdict": "accurate",
+  "reason": "Great circles are geodesics on the sphere; Gauss's Theorema Egregium explains why every flat map distorts. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "prop-e0",
+  "claim": "A car uses 6 litres per 100 km. How much for 350 km? Unit rate: 6/100 = 0.06 litres per km. 0.06 × 350 = 21 litres.",
+  "verdict": "accurate",
+  "reason": "Recomputed: 0.06 × 350 = 21 litres. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "arith-h0",
+  "claim": "c. 1550 BCE — Egypt: The Rhind Papyrus, copied by the scribe Ahmose, multiplies by doubling and adding, the same idea computers use in binary.",
+  "verdict": "accurate",
+  "reason": "The Rhind Papyrus (c. 1550 BCE) was copied by Ahmose (Ahmes) from an older text. Doubling-and-adding is the same as binary shift-and-add. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "game-u3",
+  "claim": "Politics: Voting strategies, coalitions",
+  "verdict": "accurate",
+  "reason": "Voting power indices and coalition games are standard political applications. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "sympl-h3",
+  "claim": "1980s–1990s — Alain Connes: Noncommutative geometry (Fields Medal 1982).",
+  "verdict": "needs-context",
+  "reason": "The line implies the 1982 Fields Medal was for noncommutative geometry. It was for earlier work on operator algebras, such as the classification of type III factors. It was announced in 1982 and presented in Warsaw in 1983.",
+  "fix": "1980s–1990s — Alain Connes: Noncommutative geometry (building on operator-algebra work that won him the 1982 Fields Medal).",
+  "sources": [
+   "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-1982",
+   "https://mathshistory.st-andrews.ac.uk/Biographies/Connes/"
+  ]
+ },
+ {
+  "id": "diffgeo-l2",
+  "claim": "Riemann (1854) generalized this to spaces of any dimension, with a metric that says how to measure lengths at each point. Tensors are the bookkeeping tools for how quantities change from point to point.",
+  "verdict": "needs-context",
+  "reason": "Riemann's 1854 lecture is correctly described. The tensor sentence is muddled. Tensors record quantities such as the metric and curvature at each point in a coordinate-independent way. How they change from point to point is described by connections and covariant derivatives. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "Riemann (1854) generalized this to spaces of any dimension, with a metric that says how to measure lengths at each point. Tensors are the bookkeeping tools for quantities like the metric and curvature, written so they do not depend on the choice of coordinates.",
+  "sources": []
+ },
+ {
+  "id": "stoch-u0",
+  "claim": "Finance and trading: Options, risk models, portfolio hedging",
+  "verdict": "accurate",
+  "reason": "Stochastic calculus underlies Black–Scholes pricing, risk models and hedging. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "calc2-u1",
+  "claim": "Medicine: Total drug exposure is the area under the concentration curve (AUC)",
+  "verdict": "accurate",
+  "reason": "AUC is the standard pharmacokinetic measure of total drug exposure. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "arithgeo-l0",
+  "claim": "Fermat’s Last Theorem says xⁿ + yⁿ = zⁿ has no positive whole-number solutions when n > 2. Around 1637 Fermat wrote in a book margin that he had a marvellous proof the margin was too narrow to contain. It took 358 years.",
+  "verdict": "accurate",
+  "reason": "1637 to Wiles's 1995 publication is 358 years (proof completed 1994). No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "sets-h1",
+  "claim": "1901 — Bertrand Russell: The paradox of the set of all sets that are not members of themselves.",
+  "verdict": "accurate",
+  "reason": "Russell found the paradox in 1901 (and told Frege in 1902); Zermelo had found it independently slightly earlier. No web source fetched for this item (the shared search quota ran out); checked by recomputation or against well-established standard history.",
+  "fix": "",
+  "sources": []
+ },
+ {
+  "id": "hott-l2",
+  "claim": "Proof assistants are now practical. The four colour theorem (2005), the Feit–Thompson theorem (2012) and the Kepler conjecture (2014) have been fully checked by computer. In 2020 Peter Scholze challenged the Lean community to check a difficult new theorem of his; they finished in 2022. Lean’s community library, mathlib, holds a large and growing share of undergraduate and graduate mathematics.",
+  "verdict": "outdated",
+  "reason": "The milestones are correct: Gonthier's four colour proof (2005), Feit–Thompson (2012), Flyspeck/Kepler (2014), and the Liquid Tensor Experiment (2020–22). Fixes: the theorem was Clausen and Scholze's, and mathlib covers much undergraduate but only some graduate mathematics. Out of date: in September 2026 Anthropic announced a Claude-made Lean proof of Fermat's Last Theorem (about 13 million lines). In 2026 AI systems also produced other huge formalizations.",
+  "fix": "Proof assistants are now practical. The four colour theorem (2005), the Feit–Thompson theorem (2012) and the Kepler conjecture (2014) have been fully checked by computer. In 2020 Peter Scholze challenged the Lean community to check a difficult new theorem of his and Dustin Clausen; they finished in 2022. In 2026 AI agents began writing huge Lean proofs, including one of Fermat’s Last Theorem. Lean’s community library, mathlib, covers much of undergraduate mathematics and a growing amount of graduate material.",
+  "sources": [
+   "https://thenextweb.com/news/anthropic-claude-fermat-last-theorem-lean-buzzard",
+   "https://www.quantamagazine.org/update/169054/"
+  ]
+ }
+]

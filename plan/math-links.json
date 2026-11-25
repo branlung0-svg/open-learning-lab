@@ -1,0 +1,724 @@
+[
+ {
+  "url": "https://www.khanacademy.org/math/arithmetic",
+  "status": "ok",
+  "title": "Arithmetic | Khan Academy",
+  "replacement": null,
+  "note": "Checked via the en.khanacademy.org alias (same path, canonical en.khanacademy.org/math/arithmetic); Khan Academy returns metadata only to the fetch tool."
+ },
+ {
+  "url": "https://openstax.org/details/books/prealgebra-2e",
+  "status": "blocked",
+  "title": "Prealgebra 2e | OpenStax",
+  "replacement": "https://openstax.org/books/prealgebra-2e/pages/preface",
+  "note": "Fetch tool refused the details page (not returned by search). Book verified working at the replacement URL; the details page is very likely fine (other OpenStax details pages loaded)."
+ },
+ {
+  "url": "https://www.khanacademy.org/math/arithmetic/fraction-arithmetic",
+  "status": "blocked",
+  "title": "Fractions | Arithmetic | Khan Academy",
+  "replacement": null,
+  "note": "Exact URL could not be fetched. Search indexes child lessons under this exact path (e.g. en.khanacademy.org/math/arithmetic/fraction-arithmetic/x18ca194a:fractions-intro/v/fraction-basics), so the unit very likely exists."
+ },
+ {
+  "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
+  "status": "ok",
+  "title": "SI Units | NIST",
+  "replacement": null
+ },
+ {
+  "url": "https://www.khanacademy.org/math/cc-third-grade-math/imp-measurement-and-data",
+  "status": "ok",
+  "title": "Measurement | 3rd grade math | Khan Academy",
+  "replacement": null,
+  "note": "Checked via the en.khanacademy.org alias; search index title 'Measurement'."
+ },
+ {
+  "url": "https://www.khanacademy.org/math/pre-algebra",
+  "status": "blocked",
+  "title": "Pre-algebra | Khan Academy",
+  "replacement": null,
+  "note": "Exact URL could not be fetched. Search indexes units under this path (e.g. /math/pre-algebra/pre-algebra-factors-multiples 'Factors and multiples'), so the course very likely exists."
+ },
+ {
+  "url": "https://www.khanacademy.org/math/algebra-basics",
+  "status": "blocked",
+  "title": "Algebra basics | Khan Academy",
+  "replacement": null,
+  "note": "Khan Academy returns only a metadata shell to the fetch tool, so pages are checked by canonical URL plus search-index titles. Exact URL not fetchable; unit /math/algebra-basics/alg-basics-linear-equations-and-inequalities loaded with a matching canonical, so the course very likely exists."
+ },
+ {
+  "url": "https://openstax.org/details/books/elementary-algebra-2e",
+  "status": "ok",
+  "title": "Elementary Algebra 2e | OpenStax",
+  "replacement": null
+ },
+ {
+  "url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-ratios-prop-topic",
+  "status": "ok",
+  "title": "Ratios | 6th grade math | Khan Academy",
+  "replacement": null,
+  "note": "Metadata only; canonical matches; search index title 'Ratios'."
+ },
+ {
+  "url": "https://mathcs.clarku.edu/~djoyce/java/elements/bookI/bookI.html",
+  "status": "blocked",
+  "title": "Euclid's Elements, Book I (D. E. Joyce, Clark University)",
+  "replacement": "https://mathcs.clarku.edu/~djoyce/elements/bookI/bookI.html",
+  "note": "Old /java/ path could not be fetched; search indexes the site under /~djoyce/elements/ now. Replacement verified working."
+ },
+ {
+  "url": "https://www.khanacademy.org/math/geometry",
+  "status": "blocked",
+  "title": "High school geometry | Khan Academy",
+  "replacement": null,
+  "note": "Khan Academy returns only a metadata shell to the fetch tool, so pages are checked by canonical URL plus search-index titles. Exact URL not fetchable; unit /math/geometry/hs-geo-circles loaded with a matching canonical, so the course very likely exists."
+ },
+ {
+  "url": "https://www.openintro.org/book/os/",
+  "status": "ok",
+  "title": "OpenIntro Statistics",
+  "replacement": null
+ },
+ {
+  "url": "https://www.khanacademy.org/math/statistics-probability",
+  "status": "blocked",
+  "title": "Statistics and probability | Khan Academy",
+  "replacement": null,
+  "note": "Khan Academy returns only a metadata shell to the fetch tool, so pages are checked by canonical URL plus search-index titles. Exact URL not fetchable; unit /math/statistics-probability/probability-library loaded with a matching canonical, so the course very likely exists."
+ },
+ {
+  "url": "https://openstax.org/details/books/intermediate-algebra-2e",
+  "status": "ok",
+  "title": "Intermediate Algebra 2e | OpenStax",
+  "replacement": null
+ },
+ {
+  "url": "https://www.khanacademy.org/math/algebra",
+  "status": "ok",
+  "title": "Algebra 1 | Khan Academy",
+  "replacement": null,
+  "note": "Checked via the en.khanacademy.org alias; search index title 'Algebra 1'. Khan Academy returns metadata only."
+ },
+ {
+  "url": "https://www.khanacademy.org/math/algebra2",
+  "status": "ok",
+  "title": "Algebra 2 | Khan Academy",
+  "replacement": null,
+  "note": "Khan Academy returns only a metadata shell to the fetch tool, so pages are checked by canonical URL plus search-index titles. Checked via the en.khanacademy.org alias (canonical en.khanacademy.org/math/algebra2); search index title 'Algebra 2'."
+ },
+ {
+  "url": "https://openstax.org/details/books/college-algebra-2e",
+  "status": "ok",
+  "title": "College Algebra 2e | OpenStax",
+  "replacement": null
+ },
+ {
+  "url": "https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs",
+  "status": "blocked",
+  "title": "Logarithms | Algebra 2 | Khan Academy",
+  "replacement": null,
+  "note": "Khan Academy returns only a metadata shell to the fetch tool, so pages are checked by canonical URL plus search-index titles. Exact URL not fetchable; lesson .../x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb89:log-prop loaded with a matching canonical, and the search index titles it 'Logarithms'."
+ },
+ {
+  "url": "https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:complex",
+  "status": "ok",
+  "title": "Complex numbers | Algebra 2 | Khan Academy",
+  "replacement": null,
+  "note": "Checked via the en.khanacademy.org alias; search index title 'Complex numbers'."
+ },
+ {
+  "url": "https://www.3blue1brown.com/lessons/eulers-formula-dynamically",
+  "status": "ok",
+  "title": "e^(iπ) in 3.14 minutes, using dynamics | 3Blue1Brown",
+  "replacement": null,
+  "note": "Loaded with trailing slash (site's canonical form)."
+ },
+ {
+  "url": "https://mathcs.clarku.edu/~djoyce/java/elements/elements.html",
+  "status": "ok",
+  "title": "Euclid's Elements, Introduction (D. E. Joyce)",
+  "replacement": null
+ },
+ {
+  "url": "https://openstax.org/details/books/precalculus-2e",
+  "status": "ok",
+  "title": "Precalculus 2e | OpenStax",
+  "replacement": null
+ },
+ {
+  "url": "https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:conics",
+  "status": "blocked",
+  "title": "Conic sections | Precalculus | Khan Academy",
+  "replacement": null,
+  "note": "Khan Academy returns only a metadata shell to the fetch tool, so pages are checked by canonical URL plus search-index titles. Exact URL not fetchable; exercise .../x9e81a4f98389efdf:conics/x9e81a4f98389efdf:ellipse-center-radii/... loaded with a matching canonical, and many lessons are indexed under this unit path."
+ },
+ {
+  "url": "https://www.khanacademy.org/math/trigonometry",
+  "status": "blocked",
+  "title": "Trigonometry | Khan Academy",
+  "replacement": null,
+  "note": "Exact URL could not be fetched. Search indexes the course ('Trigonometry', on the zero.khanacademy.org mirror) and its units (/math/trigonometry/unit-circle-trig-func, /math/trigonometry/trig-with-general-triangles)."
+ },
+ {
+  "url": "https://www.khanacademy.org/math/precalculus",
+  "status": "blocked",
+  "title": "Precalculus | Khan Academy",
+  "replacement": null,
+  "note": "Exact URL could not be fetched. Search indexes units under this path (/math/precalculus/x9e81a4f98389efdf:matrices, .../x9e81a4f98389efdf:conics), so the course very likely exists."
+ },
+ {
+  "url": "https://www.3blue1brown.com/topics/linear-algebra",
+  "status": "redirect",
+  "title": "3Blue1Brown (homepage)",
+  "replacement": "https://www.3blue1brown.com/lessons/eola-preview/",
+  "note": "The /topics/ path now serves the generic homepage (canonical https://www.3blue1brown.com/), not a linear algebra listing; checked via 3blue1brown.com/topics/linear-algebra. Replacement is the series' first lesson, 'Essence of linear algebra preview', verified."
+ },
+ {
+  "url": "https://openstax.org/details/books/calculus-volume-1",
+  "status": "ok",
+  "title": "Calculus Volume 1 | OpenStax",
+  "replacement": null
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/",
+  "status": "ok",
+  "title": "Single Variable Calculus | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://www.3blue1brown.com/topics/calculus",
+  "status": "redirect",
+  "title": "3Blue1Brown (homepage)",
+  "replacement": "https://www.3blue1brown.com/lessons/essence-of-calculus/",
+  "note": "The /topics/ path now serves the generic homepage, not a calculus listing; checked via 3blue1brown.com/topics/calculus. Replacement is Chapter 1, 'The Essence of Calculus', verified."
+ },
+ {
+  "url": "https://openstax.org/details/books/calculus-volume-2",
+  "status": "ok",
+  "title": "Calculus Volume 2 | OpenStax",
+  "replacement": null
+ },
+ {
+  "url": "https://activecalculus.org/",
+  "status": "ok",
+  "title": "Active Calculus | Free resources for students; free and open-source materials for instructors.",
+  "replacement": null
+ },
+ {
+  "url": "https://openstax.org/details/books/calculus-volume-3",
+  "status": "ok",
+  "title": "Calculus Volume 3 | OpenStax",
+  "replacement": null
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/",
+  "status": "ok",
+  "title": "Multivariable Calculus | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://www.khanacademy.org/math/multivariable-calculus",
+  "status": "ok",
+  "title": "Multivariable Calculus | Khan Academy",
+  "replacement": null,
+  "note": "Metadata only; canonical matches; search index title 'Multivariable Calculus'."
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/",
+  "status": "ok",
+  "title": "Linear Algebra | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://linear.axler.net/",
+  "status": "ok",
+  "title": "Linear Algebra Done Right (Sheldon Axler)",
+  "replacement": null,
+  "note": "Free PDF/HTML under CC BY-NC."
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/",
+  "status": "ok",
+  "title": "Differential Equations | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://tutorial.math.lamar.edu/Classes/DE/DE.aspx",
+  "status": "ok",
+  "title": "Differential Equations | Paul's Online Notes",
+  "replacement": null,
+  "note": "Loaded as the lowercase form classes/de/de.aspx (server paths are case-insensitive)."
+ },
+ {
+  "url": "https://www.khanacademy.org/math/differential-equations",
+  "status": "blocked",
+  "title": "Differential equations | Khan Academy",
+  "replacement": null,
+  "note": "Exact URL could not be fetched. Search indexes an exercise under this path (/math/differential-equations/first-order-differential-equations/differential-equations-intro/e/differential-equations-challenge), so the course very likely exists."
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/",
+  "status": "ok",
+  "title": "Mathematics for Computer Science | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://www.people.vcu.edu/~rhammack/BookOfProof/",
+  "status": "ok",
+  "title": "Book of Proof, Third Edition (Richard Hammack)",
+  "replacement": null,
+  "note": "Free PDF, CC BY-NC-ND."
+ },
+ {
+  "url": "https://adam.math.hhu.de/#/g/leanprover-community/nng4",
+  "status": "blocked",
+  "title": "Natural Number Game (Lean 4) on the Lean Game Server",
+  "replacement": null,
+  "note": "The fetch tool refused adam.math.hhu.de (also a JavaScript-only app). A 2024 third-party page links this exact game URL. The game source repo, github.com/hhu-adam/NNG4, loaded and looks active."
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/",
+  "status": "ok",
+  "title": "Real Analysis | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://www.jirka.org/ra/",
+  "status": "ok",
+  "title": "Basic Analysis: Introduction to Real Analysis (Jiri Lebl)",
+  "replacement": null
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-spring-2018/",
+  "status": "ok",
+  "title": "Complex Variables with Applications | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://matthbeck.github.io/complex.html",
+  "status": "ok",
+  "title": "A First Course in Complex Analysis (Beck, Marchesi, Pixton, Sabalka)",
+  "replacement": null
+ },
+ {
+  "url": "http://abstract.ups.edu/",
+  "status": "blocked",
+  "title": "Abstract Algebra: Theory and Applications (Thomas W. Judson)",
+  "replacement": "https://judsonbooks.org/abstract-algebra-theory-and-applications/",
+  "note": "Two fetch attempts both failed: the site's robots.txt could not be read, so the site may be down or retired. The book's current official page at judsonbooks.org was verified (free HTML at judsonbooks.org/aata-files/aata-html/aata.html, plus PDFs)."
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/",
+  "status": "ok",
+  "title": "Algebra I | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://www.topologywithouttears.net/",
+  "status": "ok",
+  "title": "Topology Without Tears (Sidney A. Morris)",
+  "replacement": null
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-901-introduction-to-topology-fall-2004/",
+  "status": "ok",
+  "title": "Introduction to Topology | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://wstein.org/ent/",
+  "status": "ok",
+  "title": "Elementary Number Theory: Primes, Congruences, and Secrets (William Stein)",
+  "replacement": null
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-781-theory-of-numbers-spring-2012/",
+  "status": "ok",
+  "title": "Theory of Numbers | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://projecteuler.net/",
+  "status": "ok",
+  "title": "About - Project Euler",
+  "replacement": null
+ },
+ {
+  "url": "https://projects.iq.harvard.edu/stat110/home",
+  "status": "blocked",
+  "title": "Statistics 110: Probability (Harvard, Joe Blitzstein)",
+  "replacement": "https://stat110.hsites.harvard.edu/",
+  "note": "The old OpenScholar address could not be fetched and search no longer indexes it; the course site now lives at stat110.hsites.harvard.edu, verified (lecture videos, handouts, free online book at probabilitybook.net)."
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/",
+  "status": "ok",
+  "title": "Statistics for Applications | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://measure.axler.net/",
+  "status": "ok",
+  "title": "Measure, Integration & Real Analysis (Sheldon Axler)",
+  "replacement": null,
+  "note": "Open Access; free PDF."
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-175-theory-of-probability-spring-2014/",
+  "status": "ok",
+  "title": "Theory of Probability | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/",
+  "status": "ok",
+  "title": "Introduction to Functional Analysis | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://pi.math.cornell.edu/~hatcher/AT/ATpage.html",
+  "status": "ok",
+  "title": "Algebraic Topology Book (Allen Hatcher)",
+  "replacement": null,
+  "note": "Free PDF download."
+ },
+ {
+  "url": "https://www.claymath.org/millennium/poincare-conjecture/",
+  "status": "ok",
+  "title": "Poincaré Conjecture - Clay Mathematics Institute",
+  "replacement": null
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-950-differential-geometry-fall-2008/",
+  "status": "ok",
+  "title": "Differential Geometry | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://web.evanchen.cc/napkin.html",
+  "status": "ok",
+  "title": "Evan Chen • The Napkin project (v1.6)",
+  "replacement": null
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/",
+  "status": "ok",
+  "title": "Introduction to Partial Differential Equations | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/",
+  "status": "ok",
+  "title": "Topics in Mathematics with Applications in Finance | Mathematics | MIT OpenCourseWare",
+  "replacement": null,
+  "note": "Page notes a newer version exists: 18.642 (Fall 2024)."
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/",
+  "status": "ok",
+  "title": "Introduction to Numerical Methods | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://web.stanford.edu/~boyd/cvxbook/",
+  "status": "ok",
+  "title": "Convex Optimization – Boyd and Vandenberghe",
+  "replacement": null,
+  "note": "Free PDF."
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/15-053-optimization-methods-in-management-science-spring-2013/",
+  "status": "ok",
+  "title": "Optimization Methods in Management Science | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://www.inference.org.uk/itila/book.html",
+  "status": "blocked",
+  "title": "Information Theory, Inference, and Learning Algorithms (David MacKay)",
+  "replacement": null,
+  "note": "Not fetchable. Search indexes the book page at https://www.inference.org.uk/mackay/itila/book.html (note the /mackay/ segment, which this URL lacks), but that host returned a client error to the fetch tool, so no replacement could be verified."
+ },
+ {
+  "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+  "status": "ok",
+  "title": "A Mathematical Theory of Communication (C. E. Shannon, 1948, reprint)",
+  "replacement": null
+ },
+ {
+  "url": "https://toc.cryptobook.us/",
+  "status": "ok",
+  "title": "A Graduate Course in Applied Cryptography (Boneh & Shoup)",
+  "replacement": null,
+  "note": "Free PDF versions; latest v0.6."
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-353j-nonlinear-dynamics-i-chaos-fall-2012/",
+  "status": "ok",
+  "title": "Nonlinear Dynamics I: Chaos | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://plato.stanford.edu/entries/game-theory/",
+  "status": "ok",
+  "title": "Game Theory (Stanford Encyclopedia of Philosophy)",
+  "replacement": null
+ },
+ {
+  "url": "https://oyc.yale.edu/economics/econ-159",
+  "status": "ok",
+  "title": "Game Theory | Open Yale Courses",
+  "replacement": null
+ },
+ {
+  "url": "https://mml-book.github.io/",
+  "status": "ok",
+  "title": "Mathematics for Machine Learning",
+  "replacement": null,
+  "note": "Free PDF."
+ },
+ {
+  "url": "https://www.3blue1brown.com/topics/neural-networks",
+  "status": "redirect",
+  "title": "3Blue1Brown (homepage)",
+  "replacement": "https://www.3blue1brown.com/lessons/neural-networks/",
+  "note": "The /topics/ path now serves the generic homepage (canonical https://www.3blue1brown.com/); checked via 3blue1brown.com/topics/neural-networks. Replacement is Chapter 1, 'But what is a Neural Network?', verified."
+ },
+ {
+  "url": "https://forallx.openlogicproject.org/",
+  "status": "ok",
+  "title": "forall x: Calgary. A Free and Open Introduction to Formal Logic",
+  "replacement": null
+ },
+ {
+  "url": "https://openlogicproject.org/",
+  "status": "ok",
+  "title": "Open Logic Project – Open Source, Customizable, Advanced Logic Text",
+  "replacement": null
+ },
+ {
+  "url": "https://plato.stanford.edu/entries/goedel-incompleteness/",
+  "status": "ok",
+  "title": "Gödel's Incompleteness Theorems (Stanford Encyclopedia of Philosophy)",
+  "replacement": null
+ },
+ {
+  "url": "https://plato.stanford.edu/entries/set-theory/",
+  "status": "ok",
+  "title": "Set Theory (Stanford Encyclopedia of Philosophy)",
+  "replacement": null
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-510-introduction-to-mathematical-logic-and-set-theory-fall-2009/",
+  "status": "blocked",
+  "title": "18.510 Introduction to Mathematical Logic and Set Theory (MIT OCW) -- likely nonexistent",
+  "replacement": null,
+  "note": "Not fetchable, and two OCW-restricted searches found no such course, while every other OCW course in this list was the first search result. It probably does not exist on OCW. Nearest verified OCW substitute (a different course): https://ocw.mit.edu/courses/24-242-logic-ii-spring-2004/ (computability, Goedel incompleteness, Tarski)."
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/",
+  "status": "ok",
+  "title": "Theory of Computation | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://www.claymath.org/millennium/p-vs-np/",
+  "status": "ok",
+  "title": "P vs NP - Clay Mathematics Institute",
+  "replacement": null
+ },
+ {
+  "url": "https://math.jhu.edu/~eriehl/context.pdf",
+  "status": "blocked",
+  "title": "Category Theory in Context (Emily Riehl), free PDF",
+  "replacement": "https://math.jhu.edu/~eriehl/context/",
+  "note": "Search indexes this exact PDF, but the site returned a client error to the fetch tool (it also blocked other PDF requests). The book's official landing page, which links to the free PDF, was verified."
+ },
+ {
+  "url": "https://ncatlab.org/nlab/show/HomePage",
+  "status": "ok",
+  "title": "nLab",
+  "replacement": null
+ },
+ {
+  "url": "https://math.stanford.edu/~vakil/216blog/",
+  "status": "blocked",
+  "title": "Math 216: Foundations of Algebraic Geometry / The Rising Sea (Ravi Vakil)",
+  "replacement": null,
+  "note": "The directory page itself is not fetchable. Files under it load (e.g. /216blog/FOAGjul3123public.pdf, the July 31 2023 draft), and Vakil's homepage points to math216.wordpress.com as the notes page. The book was published by Princeton UP in 2024."
+ },
+ {
+  "url": "https://stacks.math.columbia.edu/",
+  "status": "ok",
+  "title": "Index—The Stacks project",
+  "replacement": null
+ },
+ {
+  "url": "https://ocw.mit.edu/courses/18-725-algebraic-geometry-fall-2015/",
+  "status": "ok",
+  "title": "Algebraic Geometry | Mathematics | MIT OpenCourseWare",
+  "replacement": null
+ },
+ {
+  "url": "https://www.jmilne.org/math/",
+  "status": "ok",
+  "title": "Mathematics -- J.S. Milne",
+  "replacement": null
+ },
+ {
+  "url": "https://www.claymath.org/millennium/birch-and-swinnerton-dyer-conjecture/",
+  "status": "ok",
+  "title": "Birch and Swinnerton-Dyer Conjecture - Clay Mathematics Institute",
+  "replacement": null
+ },
+ {
+  "url": "https://people.math.ethz.ch/~acannas/Papers/lsg.pdf",
+  "status": "ok",
+  "title": "Lectures on Symplectic Geometry (Ana Cannas da Silva, rev. Jan 2006)",
+  "replacement": null
+ },
+ {
+  "url": "https://lean-lang.org/",
+  "status": "ok",
+  "title": "Lean Programming Language",
+  "replacement": null
+ },
+ {
+  "url": "https://homotopytypetheory.org/book/",
+  "status": "ok",
+  "title": "The HoTT Book | Homotopy Type Theory",
+  "replacement": null
+ },
+ {
+  "url": "https://www.claymath.org/millennium-problems/",
+  "status": "ok",
+  "title": "The Millennium Prize Problems - Clay Mathematics Institute",
+  "replacement": null
+ },
+ {
+  "url": "https://www.implicator.ai/clay-institute-navier-stokes-openai-proof-claim/",
+  "status": "ok",
+  "title": "Clay Institute Won't Call Navier-Stokes Solved After OpenAI Proof Claim (Implicator.ai, Sep 8 2026)",
+  "replacement": null
+ },
+ {
+  "url": "https://www.effortlessmath.com/blog/navier-stokes-problem-explained/",
+  "status": "ok",
+  "title": "Navier-Stokes Solved? The 2026 Proof Claims Explained (Effortless Math)",
+  "replacement": null,
+  "note": "Commercial test-prep blog; secondary source."
+ },
+ {
+  "url": "https://scientificamerican.com/article/openai-claims-blockbuster-math-breakthrough-amid-swirl-of-controversy",
+  "status": "ok",
+  "title": "OpenAI claims blockbuster math breakthrough amid swirl of controversy (Scientific American, Sep 8 2026)",
+  "replacement": null,
+  "note": "Breaking-news story marked 'may be updated'."
+ },
+ {
+  "url": "https://publications.ias.edu/rpl/",
+  "status": "ok",
+  "title": "The Work of Robert Langlands (IAS)",
+  "replacement": null,
+  "note": "Loaded without trailing slash."
+ },
+ {
+  "url": "https://www.quantamagazine.org/monumental-proof-settles-geometric-langlands-conjecture-20240719/",
+  "status": "ok",
+  "title": "Monumental Proof Settles Geometric Langlands Conjecture (Quanta, Jul 19 2024)",
+  "replacement": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2405.03599",
+  "status": "ok",
+  "title": "[2405.03599] Proof of the geometric Langlands conjecture I: construction of the functor (Gaitsgory, Raskin)",
+  "replacement": null
+ },
+ {
+  "url": "https://www.math.uni-bonn.de/people/scholze/WhyABCisStillaConjecture.pdf",
+  "status": "ok",
+  "title": "Why abc is still a conjecture (Scholze & Stix, 2018)",
+  "replacement": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2505.10568",
+  "status": "ok",
+  "title": "[2505.10568] Final Report on the Mochizuki-Scholze-Stix Controversy (Kirti Joshi)",
+  "replacement": null
+ },
+ {
+  "url": "https://zen.ac.jp/news/zmcpostevent0717e",
+  "status": "ok",
+  "title": "\"Project LANA\" Aiming for Computer Verification of IUT Theory (ZEN University, Jul 17 2026)",
+  "replacement": null
+ },
+ {
+  "url": "https://www.quantamagazine.org/mathematics/",
+  "status": "ok",
+  "title": "Math News, Interviews and Columns From Quanta Magazine",
+  "replacement": null
+ },
+ {
+  "url": "https://quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314",
+  "status": "ok",
+  "title": "'Once in a Century' Proof Settles Math's Kakeya Conjecture (Quanta, Mar 14 2025)",
+  "replacement": null,
+  "note": "Loaded at the canonical form https://www.quantamagazine.org/once-in-a-century-proof-settles-maths-kakeya-conjecture-20250314/ (www + trailing slash)."
+ },
+ {
+  "url": "https://euromathsoc.org/news/2026-fields-medallists-and-imu-prize-winners-announced-222",
+  "status": "ok",
+  "title": "2026 Fields Medallists and IMU prize winners announced (EMS, 23 Jul 2026)",
+  "replacement": null
+ },
+ {
+  "url": "https://people.math.harvard.edu/~williams/scientificamerican2.pdf",
+  "status": "ok",
+  "title": "AI uncovers solutions to Erdős problems, moving closer to transforming math (Scientific American, Feb 12 2026, PDF)",
+  "replacement": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.22763",
+  "status": "ok",
+  "title": "[2605.22763] Advancing Mathematics Research with AI-Driven Formal Proof Search",
+  "replacement": null
+ },
+ {
+  "url": "https://arxiv.org/pdf/2610.08144",
+  "status": "ok",
+  "title": "Navier-Stokes Lost in Translation: Why Lean Verification of AI Autoformalisation Does Not Guarantee Correct Natural Language Proofs (arXiv 2610.08144)",
+  "replacement": null
+ },
+ {
+  "url": "https://epoch.ai/benchmarks/frontiermath-erdos",
+  "status": "ok",
+  "title": "FrontierMath Erdős | Epoch AI",
+  "replacement": null
+ },
+ {
+  "url": "https://mathshistory.st-andrews.ac.uk/",
+  "status": "ok",
+  "title": "MacTutor Index - MacTutor History of Mathematics",
+  "replacement": null
+ },
+ {
+  "url": "https://oeis.org/",
+  "status": "ok",
+  "title": "The On-Line Encyclopedia of Integer Sequences (OEIS)",
+  "replacement": null
+ },
+ {
+  "url": "https://www.erdosproblems.com/",
+  "status": "blocked",
+  "title": "Erdős Problems (Thomas Bloom)",
+  "replacement": null,
+  "note": "The root URL could not be fetched. Subpages (/faq, /all) loaded, so the site is up."
+ },
+ {
+  "url": "https://arxiv.org/archive/math",
+  "status": "ok",
+  "title": "Mathematics (since February 1992) | arXiv",
+  "replacement": null
+ }
+]

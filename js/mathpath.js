@@ -137,7 +137,7 @@
     const done = () => (Lab.state.mathpath ||= {});
     let cur = R.some((x) => x[0] === r0) ? r0 : (() => { try { return sessionStorage.getItem('lab.mathpath') || R[0][0]; } catch (e) { return R[0][0]; } })();
     const rail = h('div', { class: 'row', style: { gap: '6px', flexWrap: 'nowrap', overflowX: 'auto', paddingBottom: '4px' } }); const body = h('div', { class: 'stack' });
-    app.append(h('section', { class: 'hero' }, h('a', { class: 'crumb', href: '#d-math' }, '← Mathematics'), h('h1', null, 'Math from the ground up'), h('p', null, 'Fourteen steps from counting to calculus and statistics. Each one shows why it works with a picture you can move, where it came from, where it is used, and gives you practice. Every step builds on the one before.')),
+    app.append(h('section', { class: 'hero' }, h('a', { class: 'crumb', href: '#d-math' }, '← Mathematics'), h('h1', null, 'Math from the ground up'), h('p', null, 'Fourteen steps from counting to calculus and statistics. Each one shows why it works with a picture you can move, where it came from, where it is used, and gives you practice. Every step builds on the one before.'), h('a', { class: 'btn sm', href: '#path-math', style: { marginTop: '6px' } }, '📐 The full path: ten tiers from counting to the research frontier →')),
       h('div', { class: 'card', style: { position: 'sticky', top: '58px', zIndex: 6, padding: '8px 10px' } }, rail), body);
     const go = (id, scroll) => { cur = id; try { sessionStorage.setItem('lab.mathpath', id); } catch (e) {} history.replaceState(null, '', '#mathpath-' + id);
       rail.querySelectorAll('button').forEach((b) => b.classList.toggle('on', b.dataset.id === id)); const on = rail.querySelector('.on'); if (on) Lab.centerInRow(on);

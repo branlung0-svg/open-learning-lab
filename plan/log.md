@@ -199,3 +199,10 @@ Open: the first loop run starts with CAP-0.
 - Every case file has a graded "What they said versus what happened" section (Kept / Partly true / Twisted / Broken / False).
 - New #audit page; "⚑ Report a problem" beside Follow on content pages; footer and Evidence nav link to the audit.
 - Monthly scheduled re-check of "(developing)" and 2025–26 statements, 1st of each month, 14:23 Denver.
+
+## 2026-11-25 — Math path: counting to the research frontier (MATH-1)
+- js/pathmath-t1/t3/t4/t6/t8.js: 57 lessons in ten tiers (idea, worked examples, why it works, symbols and words, history with global contributors, uses across fields, how to master it, practice with answers, connections, free resources).
+- js/pathmath.js: #path-math overview (ladder, progress), tier pages, single-lesson pages, 12-question placement check, threads ("how it connects"), math across fields, symbols dictionary (first printed uses where known), experiments, how to learn (evidence-based, sourced), free library, "about this map" (what changed from the common ten-tier map, e.g. IUT presented as a disputed claim). 21 randomized practice generators with worked steps.
+- js/arcade-math2.js: 15 labs (fraction bars, number line, quadratics, complex multiplication, slope fields with Euler vs RK4, ε–δ game, square symmetry group, clock arithmetic, Cantor diagonal, prime counting to 10⁶, zeta zeros via Riemann–Siegel, modularity check for y² + y = x³ − x² vs q∏(1 − qⁿ)²(1 − q¹¹ⁿ)², GBM volatility drag, gradient descent, subset-sum P vs NP).
+- Frontier verified Nov 2026: Fields 2026 (Deng, Pardon, Tsimerman, Wang); Navier–Stokes claims (OpenAI Sept, Buckmaster–Alpöge Nov) labelled developing with an Anthropic disclosure; geometric Langlands 2024; Kakeya 3D 2025; IUT/abc dispute incl. Joshi and Project LANA.
+- Wired into #path, Explore, the Mathematics discipline page, the home "new" strip and the #mathpath ladder.

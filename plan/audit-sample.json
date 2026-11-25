@@ -1,115 +1,83 @@
 [
  {
-  "id": "e00fcbf586",
-  "file": "js/casefiles.js",
-  "line": 211,
-  "tier": 1,
-  "signals": "deaths number",
-  "text": "General Curtis LeMay later said 20% of the population was killed; that was his own boast, not a count."
- },
- {
-  "id": "f5bfd01dec",
-  "file": "js/casefiles.js",
-  "line": 102,
-  "tier": 1,
-  "signals": "deaths",
-  "text": "The Soviet government hid the famine, and some Western journalists helped. Today the genocide question is tied to Russia–Ukraine politics, so both governments have reasons to frame it their way. The death and the decrees are not in serious doubt."
- },
- {
-  "id": "d9529b8cc3",
-  "file": "js/pathmarx.js",
-  "line": 18,
-  "tier": 1,
-  "signals": "quote",
-  "text": "In context he also called religion “the sigh of the oppressed creature”: comfort for real suffering, which he wanted to end."
- },
- {
-  "id": "efbacaacd3",
+  "id": "6596ccbbbd",
   "file": "js/storylines.js",
-  "line": 16,
-  "tier": 1,
-  "signals": "deaths quote number",
-  "text": "Mao invited criticism of the party in 1956–57. When it came, he reversed course: officially 552,877 people were labelled “rightists”, and estimates of those persecuted run from one to two million. Many were sent to labour camps; at Jiabiangou in Gansu, about 2,500 of some 3,000 prisoners died."
- },
- {
-  "id": "ac669ee9bd",
-  "file": "js/casefiles.js",
-  "line": 155,
-  "tier": 1,
-  "signals": "deaths quote number",
-  "text": "Thousands executed as “landlords”; the party apologised publicly in 1956; Cold War claims of huge numbers were exaggerated."
- },
- {
-  "id": "58b7718390",
-  "file": "js/casefiles.js",
-  "line": 70,
-  "tier": 1,
-  "signals": "deaths label",
-  "text": "Genocide or crimes against humanity: the US and some parliaments say genocide; the UN office said possible crimes against humanity."
- },
- {
-  "id": "3bbde34c12",
-  "file": "js/casefiles-deep.js",
-  "line": 80,
-  "tier": 1,
-  "signals": "quote",
-  "text": "Destroy the “Four Olds” (old ideas, culture, customs, habits)"
- },
- {
-  "id": "b760d22198",
-  "file": "js/casefiles-deep.js",
-  "line": 86,
-  "tier": 1,
-  "signals": "label",
-  "text": "Order a harsh campaign against terrorism, infiltration and separatism"
- },
- {
-  "id": "74950bede5",
-  "file": "js/casefiles.js",
-  "line": 262,
-  "tier": 1,
-  "signals": "deaths current number",
-  "text": "ICE’s own figures show the detained population passing 70,000 for the first time in January 2026. The number of facilities roughly doubled. Deaths in custody rose to the highest level in two decades."
- },
- {
-  "id": "7bb364aed8",
-  "file": "js/casefiles.js",
-  "line": 95,
+  "line": 10,
   "tier": 1,
   "signals": "deaths number",
-  "text": "Demographers compare the 1926, 1937 and 1939 censuses and Soviet birth and death registers."
+  "text": "Thirteen delegates founded the Communist Party in Shanghai in 1921, with Soviet advice. It allied with Sun Yat-sen’s Nationalists (KMT) to unify a China split among warlords. In April 1927 the Nationalist leader Chiang Kai-shek turned on the communists and massacred thousands in Shanghai."
  },
  {
-  "id": "9e5eadf468",
+  "id": "42f42a5750",
   "file": "js/casefiles-deep.js",
-  "line": 63,
+  "line": 205,
   "tier": 1,
   "signals": "deaths number",
-  "text": "Wrote the 1959 letter criticising the Leap; purged, and died in 1974 after persecution."
+  "text": "Many NKVD officers were themselves shot in 1938–40, including their chief Yezhov."
  },
  {
-  "id": "819a8aa70d",
-  "file": "js/casefiles.js",
+  "id": "c756ddb4cd",
+  "file": "js/casefiles-deep.js",
+  "line": 216,
+  "tier": 1,
+  "signals": "deaths",
+  "text": "Most reporting focused on US soldiers; civilian deaths in the North were rarely reported."
+ },
+ {
+  "id": "d66eaa3c7b",
+  "file": "js/casefiles-deep.js",
   "line": 86,
   "tier": 1,
   "signals": "deaths",
-  "text": "Whether the registers capture all deaths (for example, prisoners released when near death)."
+  "text": "Militant attacks had killed dozens; the leaked papers note the attacks were small and never threatened party control."
  },
  {
-  "id": "2f0b4be8a5",
-  "file": "js/money.js",
-  "line": 23,
-  "tier": 1,
-  "signals": "label",
-  "text": "Networks of fake accounts pushed pro-US messages in the Middle East and Central Asia."
- },
- {
-  "id": "0e10a43c1a",
+  "id": "6784d63e61",
   "file": "js/casefiles.js",
-  "line": 22,
+  "line": 194,
   "tier": 1,
-  "signals": "deaths quote number",
-  "text": "The policy was reversed in 1961–62. For decades the official name was “three years of natural disasters”; drought and floods did happen, but economists find they explain only part of the deaths."
+  "signals": "deaths number",
+  "text": "Hundreds were shot in 1959 after quick trials, and thousands overall; the numbers depend heavily on who counts."
+ },
+ {
+  "id": "bc64814b22",
+  "file": "js/casefiles.js",
+  "line": 199,
+  "tier": 1,
+  "signals": "deaths number",
+  "text": "Cuba defends the 1959 trials as justice for Batista’s torturers and does not publish totals."
+ },
+ {
+  "id": "6cfb063781",
+  "file": "js/casefiles-deep.js",
+  "line": 236,
+  "tier": 1,
+  "signals": "deaths number",
+  "text": "Land was redistributed, but village tribunals executed thousands, many wrongly, and the party apologised in 1956."
+ },
+ {
+  "id": "623a7aa531",
+  "file": "js/casefiles-deep.js",
+  "line": 40,
+  "tier": 1,
+  "signals": "quote number",
+  "text": "Most people ate through the state’s Public Distribution System. From 1994 rations were cut and the northeast was largely cut off. Floods in July and August 1995 hit perhaps 30% of the country. The government called the years that followed the “Arduous March”."
+ },
+ {
+  "id": "7216ed18a5",
+  "file": "js/casefiles-deep.js",
+  "line": 76,
+  "tier": 1,
+  "signals": "quote",
+  "text": "Red Guards attacked officials, teachers and “bad class” families nationwide."
+ },
+ {
+  "id": "16e7ee4941",
+  "file": "js/casefiles-deep.js",
+  "line": 103,
+  "tier": 1,
+  "signals": "deaths",
+  "text": "Law making theft of collective grain punishable by death or ten years."
  },
  {
   "id": "3d603b8c77",
@@ -120,68 +88,12 @@
   "text": "China’s 1981 party resolution says the Great Leap caused serious losses. Its official yearbooks show the national death rate jumping from about 11 per thousand in 1957 to 25.4 in 1960. The party’s official history (2011) says the population fell by 10 million in 1960. It does not give a full death toll."
  },
  {
-  "id": "73f5b01b5e",
+  "id": "bb3fde0caa",
   "file": "js/casefiles.js",
-  "line": 200,
+  "line": 132,
   "tier": 1,
   "signals": "deaths",
-  "text": "Newspapers around the world covered the San Juan Hill executions."
- },
- {
-  "id": "c3f95d286c",
-  "file": "js/casefiles-deep.js",
-  "line": 89,
-  "tier": 1,
-  "signals": "quote",
-  "text": "Announce “graduation” and move many detainees into prisons and labour programmes"
- },
- {
-  "id": "21c24b1cf2",
-  "file": "js/casefiles-deep.js",
-  "line": 20,
-  "tier": 1,
-  "signals": "quote number",
-  "text": "Foreign television crews were in Beijing for Gorbachev’s visit and filmed the protests, the troops and the wounded. The “Tank Man” was filmed on 5 June."
- },
- {
-  "id": "01f2a6bbe3",
-  "file": "js/storylines.js",
-  "line": 19,
-  "tier": 1,
-  "signals": "deaths number",
-  "text": "Mao turned students against the party; the army then restored order with mass purges. 1.1 to 1.6 million died and 22 to 30 million were persecuted. Liu Shaoqi died in detention; Deng was purged twice. Nixon’s visit in 1972 began a new relationship with the US."
- },
- {
-  "id": "9f2b20b73a",
-  "file": "js/casefiles-deep.js",
-  "line": 44,
-  "tier": 1,
-  "signals": "deaths",
-  "text": "North Korea blames floods, the Soviet collapse and US sanctions, and calls it the Arduous March. It has not released a full death count."
- },
- {
-  "id": "d93a6c701b",
-  "file": "js/casefiles-deep.js",
-  "line": 65,
-  "tier": 1,
-  "signals": "quote",
-  "text": "Purge Peng Dehuai and attack “right deviation” instead of retreating"
- },
- {
-  "id": "fbaff2a3b6",
-  "file": "js/casefiles.js",
-  "line": 40,
-  "tier": 1,
-  "signals": "deaths quote number",
-  "text": "In 1966 Mao called on students and workers to attack “bourgeois” officials inside the party. Red Guards humiliated, beat and sometimes killed teachers, officials and people from “bad class” families; temples, books and art were destroyed."
- },
- {
-  "id": "3ee9588044",
-  "file": "js/pathmarx.js",
-  "line": 30,
-  "tier": 1,
-  "signals": "deaths number",
-  "text": "China’s life expectancy rose from about 40 around 1950 to about 65 by 1980, faster than India’s, even counting the famine (a comparison made by the economists Jean Drèze and Amartya Sen). Cuba reports infant mortality near rich-country levels; how those figures are counted is disputed."
+  "text": "Almost none from inside the camps; a few smuggled videos of public executions exist. Cameras are banned."
  },
  {
   "id": "0d856b7119",
@@ -192,12 +104,12 @@
   "text": "They had little choice. The 1958 household registration rules tied farmers to their villages, and those who fled were stopped as “vagrants”. Officials who opened granaries or told the truth were struggled against, and some were beaten to death."
  },
  {
-  "id": "423ba94981",
+  "id": "b61f50dc51",
   "file": "js/casefiles.js",
-  "line": 197,
+  "line": 172,
   "tier": 1,
-  "signals": "deaths number",
-  "text": "Most estimates around 4,000–5,000 executions since 1959; claims range from a few hundred to over 15,000"
+  "signals": "deaths",
+  "text": "Detention without trial was policy; deaths came from conditions (and some killings)."
  },
  {
   "id": "e5fd98056e",
@@ -208,20 +120,20 @@
   "text": "Canteens ran out within months; the death rate more than doubled by 1960."
  },
  {
-  "id": "d4259c968b",
+  "id": "03a980f065",
   "file": "js/casefiles.js",
-  "line": 161,
+  "line": 146,
   "tier": 1,
-  "signals": "quote number",
-  "text": "In 1972 Gareth Porter showed that the high US figures rested on misused documents and on an author presented as a former party cadre who had never been a party member; presidential speeches had repeated the “bloodbath” claim."
+  "signals": "deaths",
+  "text": "Thousands of mugshots taken by the regime’s own photographers, plus confessions and execution logs."
  },
  {
-  "id": "307d15a3fa",
+  "id": "2d22f3fd4a",
   "file": "js/casefiles.js",
-  "line": 252,
+  "line": 212,
   "tier": 1,
-  "signals": "deaths quote number",
-  "text": "President Obama banned the methods in 2009 and said “we tortured some folks”; nobody who designed the programme was prosecuted, and CIA videotapes were destroyed."
+  "signals": "deaths",
+  "text": "Commanders knew the raids were killing civilians in very large numbers and widened them, burning towns and then bombing dams. The stated targets were military. The same rating is used as for the Great Leap famine, because the test is the same: they knew, and kept going."
  },
  {
   "id": "35ee06553a",
@@ -238,5 +150,93 @@
   "tier": 1,
   "signals": "deaths quote",
   "text": "For decades the famine was called “three years of natural disasters”. There is no national memorial; survivors and researchers such as Yang Jisheng still face censorship."
+ },
+ {
+  "id": "def33586cd",
+  "file": "js/casefiles-deep.js",
+  "line": 216,
+  "tier": 1,
+  "signals": "deaths",
+  "text": "With ground forces stalemated and truce talks stalled, bombing was the pressure they could apply without more US casualties."
+ },
+ {
+  "id": "c930b4ac5f",
+  "file": "js/casefiles.js",
+  "line": 42,
+  "tier": 1,
+  "signals": "deaths quote number",
+  "text": "After Mao died in 1976, the “Gang of Four” were arrested and tried in 1980–81, and the party rehabilitated millions of victims."
+ },
+ {
+  "id": "dddf66323a",
+  "file": "js/casefiles.js",
+  "line": 140,
+  "tier": 1,
+  "signals": "deaths number",
+  "text": "In April 1975 the Khmer Rouge took Phnom Penh and emptied the cities. Money, markets, schools and religion were abolished; everyone was forced into farm labour. Educated people, officials of the old government, ethnic Vietnamese, Cham Muslims and suspected traitors were killed."
+ },
+ {
+  "id": "87bfb6f3dc",
+  "file": "js/casefiles-deep.js",
+  "line": 208,
+  "tier": 1,
+  "signals": "deaths quote number",
+  "text": "Many soldiers and guards were rural teenagers, trained to obey “Angkar” (the Organisation) without question; guards who disobeyed were killed too. Most of S-21’s prisoners were themselves Khmer Rouge cadres, tortured into confessing to being traitors."
+ },
+ {
+  "id": "e4dbcee14c",
+  "file": "js/casefiles-deep.js",
+  "line": 26,
+  "tier": 1,
+  "signals": "deaths",
+  "text": "Whether anyone was killed inside the square during the final clearing; witnesses differ, and most deaths were on the avenues."
+ },
+ {
+  "id": "efbacaacd3",
+  "file": "js/storylines.js",
+  "line": 16,
+  "tier": 1,
+  "signals": "deaths quote number",
+  "text": "Mao invited criticism of the party in 1956–57. When it came, he reversed course: officially 552,877 people were labelled “rightists”, and estimates of those persecuted run from one to two million. Many were sent to labour camps; at Jiabiangou in Gansu, about 2,500 of some 3,000 prisoners died."
+ },
+ {
+  "id": "4e40e7832d",
+  "file": "js/casefiles.js",
+  "line": 195,
+  "tier": 1,
+  "signals": "deaths number",
+  "text": "After Batista fell on 1 January 1959, revolutionary courts tried members of his army and police accused of torture and murder. On 12 January 1959 at San Juan Hill in Santiago, 71 men were shot after summary trials and buried in a trench; reporters were present."
+ },
+ {
+  "id": "f8618e18d0",
+  "file": "js/storylines.js",
+  "line": 28,
+  "tier": 1,
+  "signals": "deaths",
+  "text": "The same party presided over the deadliest famine in history and the largest fall in extreme poverty ever recorded. Both are true, and both belong in the story."
+ },
+ {
+  "id": "0b84053cc5",
+  "file": "js/casefiles-deep.js",
+  "line": 31,
+  "tier": 1,
+  "signals": "deaths number",
+  "text": "On 3–4 June troops opened fire on the way in; hundreds were killed."
+ },
+ {
+  "id": "092738eb30",
+  "file": "js/casefiles.js",
+  "line": 44,
+  "tier": 1,
+  "signals": "deaths number",
+  "text": "Mao launched the campaign and approved the attacks. Most deaths came from organised repression by the army and authorities in 1968–71, according to the same local histories."
+ },
+ {
+  "id": "aa7978e10a",
+  "file": "js/casefiles.js",
+  "line": 227,
+  "tier": 1,
+  "signals": "label",
+  "text": "A citizens’ tribunal, not a state court, found crimes against humanity and complicity by the US, UK and Australia."
  }
 ]

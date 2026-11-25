@@ -5,7 +5,7 @@
   const h = Lab.h;
   const has = (href) => { const r = href.replace(/^#/, '').split('-')[0]; return !!(Lab.routes && Lab.routes[r]); };
   const dive = (id) => { const D = (Lab.DIVES_ALL || {})[id]; return D ? ['#' + D.base, D.title, 'Deep dive: ideas, history, evidence, debates, reading'] : null; };
-  const L = { mathpath: ['#mathpath', 'Math from the basics', '14 steps from counting to calculus, with practice and a formula builder'], origins: ['#origins', 'How we got here', 'Big Bang to today in 18 steps, with the evidence and who found it'],
+  const L = { pathmath: ['#path-math', 'Mathematics: counting to the frontier', 'Ten tiers of lessons from place value to unsolved problems'], mathpath: ['#mathpath', 'Math from the basics', '14 steps from counting to calculus, with practice and a formula builder'], origins: ['#origins', 'How we got here', 'Big Bang to today in 18 steps, with the evidence and who found it'],
     method: ['#method', 'The research standard', 'How the Lab weighs numbers, stories and sources'], verify: ['#verify', 'Claims under the microscope', 'Famous claims checked against the evidence, with verdicts and grades'],
     tolls: ['#tolls', 'Death tolls: what can be proven', 'The big totals for communism, colonialism and wars, sorted by the evidence behind each number'], toolkit: ['#toolkit', 'How lies are made, and how to catch them', 'Fake photos, videos, documents and witnesses; paid influence; who’s behind each source'],
     path: ['#path-marx', 'Marx and after: a learning path', 'What Marx argued, what others did with it, how it worked and failed, how it was opposed, and what is being tried now'],
@@ -21,7 +21,7 @@
     claims: ['#history-modern-claims', 'Test the claims with data', 'Big arguments checked against well-being statistics'], archive: ['#archive', 'Search the archives', 'Twelve open archives: photos, film, documents, maps'],
     countries: ['#countries', 'Every country', 'Government, history, data, pictures and sources for each'], evidence: ['#evidence', 'Evidence Lab', 'Practise rating real sources'] };
   const D = (k) => L[k]; const ideol = ['marxism', 'capitalism', 'liberalism', 'conservatism', 'fascism', 'anarchism', 'authoritarianism', 'imperialism', 'empire'];
-  const MAP = () => ({ math: [D('mathpath'), dive('disc-math')], logic: [D('method'), D('toolkit'), D('verify'), D('lies'), D('evidence')], computing: [D('archive')], statistics: [D('cases'), D('method'), D('tolls'), D('toolkit'), D('claims'), D('verify'), D('countries')],
+  const MAP = () => ({ math: [D('pathmath'), D('mathpath'), dive('disc-math')], logic: [D('method'), D('toolkit'), D('verify'), D('lies'), D('evidence')], computing: [D('archive')], statistics: [D('cases'), D('method'), D('tolls'), D('toolkit'), D('claims'), D('verify'), D('countries')],
     physics: [dive('disc-physics'), D('origins')], chemistry: [dive('disc-chemistry'), D('origins')], biology: [dive('disc-biology'), D('origins')], earthspace: [D('origins')],
     economics: [D('money'), D('path'), dive('capitalism'), dive('marxism'), D('inst'), D('power'), D('claims')], politics: [D('path'), D('story'), D('cases'), D('power'), D('parl'), D('govern'), D('rules'), ...ideol.map(dive), D('verify')],
     geopolitics: [D('cases'), D('inst'), D('power'), dive('imperialism'), dive('empire'), D('lies')], psychology: [D('toolkit'), D('lies'), D('method'), D('verify')], sociology: [D('path'), D('cases'), D('oppression'), D('claims'), dive('marxism'), dive('conservatism')],
@@ -52,7 +52,7 @@
       ['📚 Subjects', 'The 24 disciplines. Each subject page starts with everything the Lab has on it.', (Lab.DISC || []).map((x) => ['#d-' + x.id, (x.e || '') + ' ' + x.name, ''])],
       ['🏛️ Power, government and ideas', 'Who rules, how, and the ideas behind each system, each told in its own terms and by its critics.', [D('power'), D('parl'), D('govern'), D('rules'), D('inst'), D('modern'), ...ideol.map(dive)]],
       ['🔎 Evidence and truth', 'How to tell what really happened, and the cases where it was hidden.', [D('cases'), D('money'), D('audit'), D('method'), D('sources'), D('toolkit'), D('verify'), D('tolls'), D('lies'), D('oppression'), D('claims'), D('archive'), D('evidence')]],
-      ['🧭 Paths', 'Start at the beginning and build up.', [D('path'), D('story'), D('mathpath'), D('origins')]]];
+      ['🧭 Paths', 'Start at the beginning and build up.', [D('path'), D('pathmath'), D('story'), D('mathpath'), D('origins')]]];
     const q = h('input', { type: 'search', placeholder: 'Find a country…', 'aria-label': 'Find a country', style: { width: '100%' } }); const hits = h('div', { class: 'stack', style: { gap: '4px', marginTop: '6px' } });
     Lab.json('data/countries.json').then((CL) => { const all = (CL && CL.list) || []; q.oninput = () => { const v = q.value.trim().toLowerCase(); hits.replaceChildren(...(v.length < 2 ? [] : all.filter((c) => (c.n + ' ' + (c.off || '') + ' ' + (c.dem || '')).toLowerCase().includes(v)).slice(0, 8).map((c) => row(['#country-' + c.id, (c.flag || '') + ' ' + c.n, c.off || ''])))); }; }).catch(() => {});
     app.append(h('section', { class: 'hero', 'data-own': '1' }, h('h1', null, 'Explore the Lab'), h('p', null, 'Everything in one map. Pick a country, a subject, or a question about power and truth. Each country and subject page also gathers everything the Lab has on it.')),

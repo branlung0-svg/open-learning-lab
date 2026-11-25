@@ -510,6 +510,21 @@ e1cd7a0f7d,3,js/arcade-math.js,7,number,"Primes are the atoms of arithmetic. The
 2839def1fa,3,js/arcade-math.js,253,number,"Only five solids have identical regular faces with the same number meeting at every corner; Euclid proved there can be no others. For any such solid, vertices − edges + faces = 2 (Euler, 1758), the first result of topology."
 185b6d0c36,1,js/arcade-math.js,254,quote,Viruses form icosahedral shells; methane is a tetrahedron; crystals and dice use these shapes; Buckminster Fuller’s domes and the C₆₀ “buckyball” molecule are cousins.
 686e373415,1,js/arcade-math.js,271,deaths number,"A Voronoi diagram splits space by nearest point. John Snow used the idea in 1854 to show cholera deaths clustered around one London water pump, a founding moment of epidemiology."
+53a6ae2639,3,js/arcade-math2.js,22,number,"Adding a negative moves left. Subtracting a negative undoes a move left, so it moves right. Multiplying by −1 reflects the whole line through zero; doing it twice brings you back, which is why (−1)(−1) = 1."
+2de7f5a2e3,3,js/arcade-math2.js,29,number,"× negative: reflect through 0, then stretch"
+5a57fb3e30,3,js/arcade-math2.js,35,number,"The roots are where the curve crosses zero: x = (−b ± √(b² − 4ac))/2a. The discriminant b² − 4ac decides how many: positive gives two, zero gives one, negative gives none on the real line but two complex roots. The vertex sits at x = −b/2a."
+1f893c7e8d,3,js/arcade-math2.js,40,number,"), 1); P.line([[X(0), Y(y0)], [X(0), Y(y1)]], K.css("
+53f7baa57f,3,js/arcade-math2.js,49,number,"Write z = r(cos θ + i sin θ). Then z·w has size r_z·r_w and angle θ_z + θ_w. Multiplying by i turns by 90°. Repeated multiplication by one number traces a spiral, or a circle if its size is exactly 1."
+127167a52d,3,js/arcade-math2.js,55,number,"), 1); P.line([[cx, 0], [cx, P.H]], K.css("
+887ee313ef,3,js/arcade-math2.js,69,number,"A differential equation dy/dt = f(t, y) gives a slope at every point. A solution is a curve that follows the arrows. Computers trace it in small steps: Euler’s method steps straight along the arrow; Runge–Kutta (RK4) samples the field four times per step and is far more accurate."
+faa1c79ddb,1,js/arcade-math2.js,86,quote,"This definition is how mathematics guarantees that numerical methods converge, that calculus rules are valid, and that “close enough” inputs give “close enough” outputs in engineering tolerances."
+a94b52e445,3,js/arcade-math2.js,90,number,"; P.ctx.fillRect(X(0), Y(L + eps), X(3.5) - X(0), Y(L - eps) - Y(L + eps)); P.ctx.fillStyle = "
+f99e42df90,3,js/arcade-math2.js,99,number,"Rotate and flip a square, combine moves, and discover that order matters: the 8 symmetries form a non-commutative group."
+5e5ba4cb7c,3,js/arcade-math2.js,100,number,"A symmetry is a move that leaves the square looking the same. There are 8: four rotations (0°, 90°, 180°, 270°) and four flips. Doing one move after another is again a symmetry (closure), every move can be undone (inverses), and doing nothing is the identity. But rotate-then-flip differs from flip-then-rotate."
+d33de24be5,3,js/arcade-math2.js,116,number,"Mod n, numbers wrap around after n − 1. Multiplying by a is a map from the clock to itself; it is reversible exactly when a shares no factor with n (gcd(a, n) = 1). For a prime p, every non-zero a satisfies a^(p−1) ≡ 1 (mod p): Fermat’s little theorem."
+4a71a5f310,3,js/arcade-math2.js,117,number,"Every public-key system (RSA, Diffie–Hellman, elliptic curves), check digits on ISBNs and cards, hash tables, calendars and music (12-note pitch classes)."
+2a502d5199,3,js/arcade-math2.js,125,number," (n is not prime, but this one still gives 1)"
+212388f0ba,3,js/arcade-math2.js,181,number,"; const N = count(p), ap = p + 1 - N, c = coef(p); tot++; if (ap === c) ok++; return "
 b42f9671f2,3,js/arcade-natural.js,7,number,"Galileo noticed (around 1602, watching a cathedral lamp) that a pendulum’s period barely depends on how far it swings. The period is T ≈ 2π√(L/g): only length and gravity matter, not mass. Huygens built the first pendulum clock in 1656, improving timekeeping roughly 60-fold."
 8803686c61,3,js/arcade-natural.js,8,number,"Clocks for 270 years, measuring gravity for oil prospecting, Foucault’s pendulum proving Earth rotates (1851), seismometers, and the physics of any oscillation."
 ecf1af00d4,3,js/arcade-natural.js,15,number,"), 2); P.dot(x, y, 8 + Math.cbrt(s.m) * 6, "
@@ -615,6 +630,10 @@ a0dd994279,3,js/arcade-social.js,388,number,"Why revolutions surprise experts (1
 550852bfae,3,js/arcade-social.js,397,number,"Mobility matrices give the chance a child ends up in each income fifth given their parents’. Raj Chetty’s team (2014) found a US child born in the bottom fifth has about a 7.5% chance of reaching the top fifth, varying from about 4% to 13% by region. Over generations, low mobility locks in advantage."
 cccac7aeb5,3,js/archive.js,16,number,"Real photographs, paintings, posters, documents and film from public archives, from ancient tablets to the 21st century. Every item is public domain or Creative Commons and credited to its maker. Tap any one to enlarge it and see its source."
 8b4950e7b4,3,js/archive.js,18,number,"Pictures of war and violence are blurred until you tap them, and hidden for ages 10–12; change this in Settings. Some captions come from the archives themselves and may use the language of their time."
+7c97fc0e06,1,js/audit.js,52,label,"Not everything is a lie, and not everything is true. Each statement gets one of these verdicts:"
+f734cb9046,1,js/audit.js,54,quote,"Each case file now has a “What they said versus what happened” section, graded on this scale:"
+7808d17585,1,js/audit.js,60,deaths,"A script scans every page for statements that can be checked: numbers, death tolls, labels, quotes and claims about the present."
+5067b0cf7f,1,js/audit.js,65,current number,Fast-moving topics (2025–26 events) are re-checked every month.
 1072423d74,3,js/balance.js,39,number," : 'All sources here are open archives or international bodies.', ' ', (c.open || 0) ? "
 136030e839,3,js/body.js,7,number,"radial-gradient(circle at 50% 35%, color-mix(in srgb, var(--accent) 16%, var(--card2)), var(--card2))"
 bac7c1cb65,3,js/body.js,60,number,"Your control center: about 86 billion neurons connected by trillions of synapses. It weighs about 1.3–1.4 kg, roughly 2% of body weight, but uses about 20% of your energy at rest."
@@ -909,7 +928,7 @@ f36efbdfcf,2,js/casefiles-deep.js,28,number,Opposed martial law; purged and held
 2c732a6a06,2,js/casefiles-deep.js,42,number,"About 240,000 to 3.5 million; careful demographic studies give about 500,000 to 1 million"
 6f200e1228,1,js/casefiles-deep.js,42,deaths number,"A US Census Bureau study using North Korea’s own 2008 census estimated 500,000–600,000 excess deaths in 1993–2000; Haggard and Noland put the toll at up to a million; the highest figures come from surveys by defector groups."
 fe931e9bd9,1,js/casefiles-deep.js,43,deaths,"No one planned the deaths. But the government refused reform, kept the army first in line, cut off the northeast and delayed asking for help while people died."
-9f2b20b73a,1,js/casefiles-deep.js,44,deaths,"North Korea blames floods, the Soviet collapse and US sanctions, and calls it the Arduous March. It has not released a full death count."
+0dd96dcf7d,1,js/casefiles-deep.js,44,deaths number,"North Korea blames floods, the Soviet collapse and US sanctions, and calls it the Arduous March. Its only figures, first given in 1999, imply about 220,000–235,000 deaths, far below outside estimates."
 d03efb9026,2,js/casefiles-deep.js,45,number,The government’s own appeals for aid (1995)
 1d9f0f314f,2,js/casefiles-deep.js,46,number,Showed about a quarter of rice paddies under water in 1995.
 b1a82ba1fd,1,js/casefiles-deep.js,46,deaths,Thousands of people who fled to China were interviewed about deaths in their families.
@@ -923,7 +942,9 @@ de28fbd729,1,js/casefiles-deep.js,50,deaths quote,Deaths peak; “military-first
 ca09f23aa3,2,js/casefiles-deep.js,53,number,Aid flowed from 1995; how much reached the hungry is disputed.
 11df731071,1,js/casefiles-deep.js,54,deaths,China’s reforms had ended its famine-era problems.
 52f17e5e21,2,js/casefiles-deep.js,56,number,", from: 1985, to: 2010, ev: [[1994, 1998]], note: "
-fc43bda98f,1,js/casefiles-deep.js,57,deaths number,1990s North Korean famine (encyclopedia)
+b8b10e7fdf,1,js/casefiles-deep.js,57,deaths number,"1990s North Korean famine (encyclopedia, flood extent)"
+bab6023297,1,js/casefiles-deep.js,57,deaths,National Interest: the official and outside death tolls
+5cc8b53883,2,js/casefiles-deep.js,57,number,UN assessment mission after the 1995 floods
 a58223154d,1,js/casefiles-deep.js,57,deaths,Haggard and Noland: Famine in North Korea
 431035cb8a,1,js/casefiles-deep.js,57,deaths,Education About Asia: the famine in historical perspective
 a90368cbb3,2,js/casefiles-deep.js,62,number,"Mao, in Moscow, says China will overtake Britain’s industry in 15 years."
@@ -1074,8 +1095,8 @@ ce206296dd,2,js/casefiles-deep.js,201,number,"The Tiananmen Mothers are watched 
 006ff5a7c1,1,js/casefiles-deep.js,204,quote,They treated the threat as real and the cost as acceptable. Decades later Molotov still defended the purges as having removed a “fifth column” before the war.
 b44119e395,1,js/casefiles-deep.js,204,deaths,"Quotas turned killing into a target to meet; officials who fell short risked being accused themselves, so they asked for higher quotas."
 42f42a5750,1,js/casefiles-deep.js,205,deaths number,"Many NKVD officers were themselves shot in 1938–40, including their chief Yezhov."
-0595f2a0c7,1,js/casefiles-deep.js,205,deaths number,"Millions were rehabilitated after 1956, often decades after death. Memorial compiled about 3 million names before Russian courts closed it in 2021."
-61aa5d5c63,1,js/casefiles-deep.js,208,deaths quote number,"Many soldiers and guards were rural teenagers, trained to obey “Angkar” (the Organisation) without question; guards who disobeyed were killed too. Hundreds of S-21’s own staff were executed, according to its records."
+d6478251c7,1,js/casefiles-deep.js,205,deaths quote current number,"Millions were rehabilitated after 1956, often decades after death. Memorial compiled over 3 million names. Russian courts closed the society in 2021; in April 2026 the Supreme Court labelled Memorial “extremist” and its online archives were taken offline (developing)."
+87bfb6f3dc,1,js/casefiles-deep.js,208,deaths quote number,"Many soldiers and guards were rural teenagers, trained to obey “Angkar” (the Organisation) without question; guards who disobeyed were killed too. Most of S-21’s prisoners were themselves Khmer Rouge cadres, tortured into confessing to being traitors."
 e827b31e0d,2,js/casefiles-deep.js,209,number,Most lower-level cadres returned to their villages and lived beside survivors. Senior leaders kept fighting from the border for years; Ieng Sary was pardoned in 1996 in a peace deal. Only five people were ever tried by the tribunal.
 8767071cc0,2,js/casefiles-deep.js,209,number,Survivors were left to rebuild with almost no doctors or teachers; the tribunal took until 2022 to finish.
 7d104fcb61,1,js/casefiles-deep.js,212,deaths,"They were told communists planned to kill them first, and the false mutilation stories made it feel like self-defence; some joined for land, revenge or to avoid suspicion themselves."
@@ -1089,6 +1110,25 @@ c756ddb4cd,1,js/casefiles-deep.js,216,deaths,Most reporting focused on US soldie
 d410471256,2,js/casefiles-deep.js,219,number,Peasant uprisings in 1930 and fear that Poland could exploit unrest in Ukraine shaped how Stalin saw the crisis.
 8ea9113a8e,1,js/casefiles-deep.js,221,deaths label,"Several Ukrainian leaders who enforced the quotas, including Kosior and Chubar, were later shot in the Great Terror."
 5f85f66d13,1,js/casefiles-deep.js,221,deaths number,The famine was denied until the late 1980s. Independent Ukraine recognised it as genocide in 2006; Russia calls it a tragedy of many peoples.
+1e3d10eacd,1,js/casefiles-deep.js,226,deaths quote,The famine was “three years of natural disasters”.
+ad192cc0ce,2,js/casefiles-deep.js,226,number,"Bad weather played a part, but in 1962 the party’s own number two, Liu Shaoqi, put it at 70% man-made."
+80a253c256,2,js/casefiles-deep.js,226,number,The real harvest was about 200 million tons.
+892255d5bd,1,js/casefiles-deep.js,228,deaths,No one was killed in Tiananmen Square itself.
+a871a65830,1,js/casefiles-deep.js,228,deaths,"Narrowly arguable for the square at dawn, but hundreds were shot on the avenues leading to it. The claim is used to hide the larger truth."
+cb7d82bdad,1,js/casefiles-deep.js,230,deaths number,"Confessions were extracted by torture and threats to families; most victims were later cleared by the Soviet state itself, from 1956 on."
+4ea9558b75,2,js/casefiles-deep.js,231,number,"Soviet government, 1933 to the late 1980s"
+f34785af6b,1,js/casefiles-deep.js,231,deaths number,"The 1937 census, suppressed because it showed millions missing, and Soviet archives opened after 1991 show millions dead."
+c74e5408b6,1,js/casefiles-deep.js,234,deaths,The famine was caused by floods and US sanctions.
+6cfb063781,1,js/casefiles-deep.js,236,deaths number,"Land was redistributed, but village tribunals executed thousands, many wrongly, and the party apologised in 1956."
+2b16baf9b9,1,js/casefiles-deep.js,238,quote,"Forced-labour camps for people judged “anti-social”, including gay men and religious believers; Fidel Castro later called it a great injustice."
+d244db272c,1,js/casefiles-deep.js,239,deaths,Justice for Batista’s torturers and murderers.
+74ffa2fdd5,1,js/casefiles-deep.js,239,deaths,"Many of those shot had committed such crimes, but trials were summary, and later executions also targeted political opponents."
+1379c709b5,2,js/casefiles-deep.js,240,number,"Incendiary raids burned whole towns, and in 1953 irrigation dams were bombed to flood rice fields."
+054a019b4c,1,js/casefiles-deep.js,241,deaths,"The communists had mutilated the murdered generals, and planned to kill their enemies."
+b85031ad8c,1,js/casefiles-deep.js,241,deaths,The army’s own autopsies found no mutilation; the story was invented to stir killing.
+4b3ca9e343,2,js/casefiles-deep.js,242,number,"Government intelligence reports found no threat, and a 1983 federal commission found no military justification."
+0f189e1d9b,1,js/casefiles-deep.js,243,deaths number,"The Senate’s 2014 study of the CIA’s own records found brutal methods, including waterboarding, and President Obama said that year that the US had tortured."
+90b109f2e7,1,js/casefiles-deep.js,244,current number,"The administration, 2025–26 (developing)"
 1c8107b0a0,1,js/casefiles.js,11,deaths label,Documents show leaders ordered the killing or detention.
 a37f5e59ff,1,js/casefiles.js,11,deaths,"Leaders knew their policy or their war was killing people in large numbers and kept it going. The same test is used for wars and for peacetime policy, for every government."
 163510eeff,1,js/casefiles.js,12,deaths,The detention or policy was deliberate; the deaths came from how it was run.
@@ -1170,7 +1210,7 @@ c8ec56be26,2,js/casefiles.js,87,number,Moscow Times: FSB seals NKVD files (2019)
 77cdacb192,1,js/casefiles.js,94,deaths number,"The famine was denied. When the 1937 census found millions fewer people than expected, the results were suppressed and its organisers arrested and shot."
 98f41fdead,2,js/casefiles.js,95,number,About 5.7 to 8.7 million in the whole USSR; about 3.5 to 5 million in Ukraine
 7bb364aed8,1,js/casefiles.js,95,deaths number,"Demographers compare the 1926, 1937 and 1939 censuses and Soviet birth and death registers."
-4aff781de4,1,js/casefiles.js,96,deaths number,"The January 1933 decree and the blacklists are written orders that targeted Ukraine and the Kuban. Historians such as Robert Conquest, Andrea Graziosi and Anne Applebaum see a deliberate attack on Ukrainians; others, such as R. W. Davies and Stephen Wheatcroft, find criminal policies but no plan to kill."
+de7492aab2,1,js/casefiles.js,96,deaths,"Stalin’s government received reports of mass starvation and kept the quotas, the blacklists, the border closure and the grain exports. That meets the same test used for China’s famine. What is disputed is genocide, an intent to destroy Ukrainians as a group: historians such as Robert Conquest, Andrea Graziosi and Anne Applebaum say yes; others, such as R. W. Davies and Stephen Wheatcroft, find cri"
 ac0ff9544a,1,js/casefiles.js,97,deaths,Russia acknowledges the famine as a tragedy of many peoples but rejects the genocide label. Ukraine and many other countries recognise it as genocide.
 0d1984c537,2,js/casefiles.js,99,number,An Austrian engineer in Kharkiv photographed the dying in 1933 and smuggled the photos out.
 e5db8400a4,1,js/casefiles.js,100,deaths label quote number,"In 1935 the Hearst newspapers ran “famine photos” that were faked or taken from the 1921 famine. Deniers later used the fakes to claim the whole famine was invented. Both are wrong: the fakes were fake, and the famine is proven by Soviet records."
@@ -1205,7 +1245,7 @@ e7c30b5e33,1,js/casefiles.js,129,deaths quote number,"North Korea denies the cam
 bb3fde0caa,1,js/casefiles.js,132,deaths,Almost none from inside the camps; a few smuggled videos of public executions exist. Cameras are banned.
 d869700de8,1,js/casefiles.js,139,deaths,"Around a quarter of the population died; the regime photographed and recorded its own victims, and a UN-backed court convicted its leaders of genocide."
 dddf66323a,1,js/casefiles.js,140,deaths number,"In April 1975 the Khmer Rouge took Phnom Penh and emptied the cities. Money, markets, schools and religion were abolished; everyone was forced into farm labour. Educated people, officials of the old government, ethnic Vietnamese, Cham Muslims and suspected traitors were killed."
-efe825543d,1,js/casefiles.js,141,deaths number,"At the S-21 prison in Phnom Penh, staff photographed each prisoner, extracted written confessions by torture, and kept the files. Only a handful of the at least 14,000 prisoners survived."
+04e285654f,1,js/casefiles.js,141,deaths number,"At the S-21 prison in Phnom Penh, staff photographed each prisoner, extracted written confessions by torture, and kept the files. Of 14,000 to 17,000 prisoners, only about 12 are believed to have survived."
 db259070ce,2,js/casefiles.js,142,number,"Vietnam invaded and ended the regime in January 1979. Afterwards China, the US and others backed the Khmer Rouge’s claim to Cambodia’s UN seat for over a decade, because they opposed Vietnam."
 230c1241af,2,js/casefiles.js,143,number,About 1.5 to 2 million of about 8 million people
 2b4fa516bc,1,js/casefiles.js,144,deaths number,The S-21 files and party documents show killing as policy. The UN-backed court found genocide against the Vietnamese and Cham.
@@ -1214,15 +1254,16 @@ db259070ce,2,js/casefiles.js,142,number,"Vietnam invaded and ended the regime in
 4662baaab1,1,js/casefiles.js,147,deaths label number,"A Cambodian–UN court convicted S-21’s chief Duch (2010) and the leaders Nuon Chea and Khieu Samphan of genocide and crimes against humanity (2018), after 186 witnesses and experts testified."
 b9eda519f2,1,js/casefiles.js,149,deaths number,The case shows how geopolitics shapes the story. US bombing of Cambodia in 1969–73 helped the Khmer Rouge recruit. China armed the regime. After 1979 both China and the US opposed the Vietnamese-backed government that ended the killing.
 9750c6d924,1,js/casefiles.js,150,deaths,The exact toll; deaths from starvation and overwork versus execution.
-ac669ee9bd,1,js/casefiles.js,155,deaths quote number,Thousands executed as “landlords”; the party apologised publicly in 1956; Cold War claims of huge numbers were exaggerated.
+ee55c28772,1,js/casefiles.js,155,deaths quote number,"About 13,500–15,000 executed as “landlords”, by archive-based estimates; the party apologised publicly in 1956; Cold War claims of 50,000 or more were exaggerated."
 2a46ed97ca,1,js/casefiles.js,156,deaths quote,"Land was taken from landlords and given to poor peasants, following Chinese advice. Village tribunals classified people and sentenced “landlords” and “traitors”, often on quotas and false accusations; many loyal party members were among the victims."
 9e0a998a49,1,js/casefiles.js,157,quote number,"In 1956 the party admitted serious errors, apologised, launched a “Rectification of Errors” campaign and freed many prisoners. Truong Chinh, who had led the campaign, resigned as party leader."
 801232be5f,1,js/casefiles.js,158,deaths number,"Probably over 13,500 executions (archive-based); Cold War claims ran from 50,000 to hundreds of thousands"
+02931c306d,2,js/casefiles.js,158,number,"Research in Vietnamese and Hungarian archives points to about 13,500–15,000: far below some Cold War claims, and far above the lowest estimates."
 5749b81712,1,js/casefiles.js,159,deaths,Executions were sentences by tribunals the party set up; the party later admitted many were wrong.
 01927f2b26,2,js/casefiles.js,160,number,The party’s 1956 apology is on the record; the subject is still sensitive in Vietnam.
 ecceae7460,2,js/casefiles.js,161,number,The party’s 1956 apology and rectification
 a3b08c1b6e,1,js/casefiles.js,161,deaths,Public admission of errors and executions.
-d4259c968b,1,js/casefiles.js,161,quote number,In 1972 Gareth Porter showed that the high US figures rested on misused documents and on an author presented as a former party cadre who had never been a party member; presidential speeches had repeated the “bloodbath” claim.
+4aedac09c0,1,js/casefiles.js,161,quote number,"In 1972 Gareth Porter argued that the high US figures rested on misused documents and on an author wrongly presented as a former party cadre; presidential speeches had repeated the “bloodbath” claim. Archives later showed that his own low count (800–2,500) was also far too low."
 4b2789b5b1,1,js/casefiles.js,163,deaths,How many were executed and how many died in prison.
 9e95210493,2,js/casefiles.js,164,number,Radio Free Asia: 50 years on (US-funded)
 9c46565b70,2,js/casefiles.js,164,number,Gareth Porter’s 1972 analysis (CIA reading room)
@@ -1241,15 +1282,16 @@ b61f50dc51,1,js/casefiles.js,172,deaths,Detention without trial was policy; deat
 b72f02e315,2,js/casefiles.js,181,number,"About 25,000–35,000 people, many of them gay men and religious believers, sent to forced-labour camps; Fidel Castro later took responsibility."
 b3fe469561,1,js/casefiles.js,182,quote number,"The Military Units to Aid Production (UMAP) were set up in Camagüey province in November 1965. Young men judged unfit for the army or “anti-social” were sent there to cut sugar cane: gay men, Jehovah’s Witnesses, Catholics, hippies and others."
 93d5040db4,1,js/casefiles.js,183,quote number,"Survivors describe beatings, humiliation and attempts to “cure” homosexuality. Famous detainees included the singer Pablo Milanés. After protests by Cuban writers and foreign leftists, the camps closed in 1968."
-83d42debd3,1,js/casefiles.js,184,deaths number,"About 25,000 to 35,000 detained; deaths and suicides reported in the hundreds"
+660876a21f,1,js/casefiles.js,184,deaths number,"About 25,000 to 38,000 detained; at least 72 deaths and 180 suicides documented"
+a40bd19938,1,js/casefiles.js,184,deaths number,Estimates from Cuban and exile researchers and survivors (one study lists 72 deaths and 507 psychiatric hospitalisations; another counts 180 suicides). Cuba has not released records.
 ecf32b6f0b,2,js/casefiles.js,186,number,"In 2010 Fidel Castro told the Mexican paper La Jornada there had been moments of great injustice and that if anyone was responsible, it was him. His niece Mariela Castro has since called the subject exaggerated."
 1f2bc75145,2,js/casefiles.js,187,number,"Granma, El Mundo and Verde Olivo reported on the UMAP in 1965–68, in praise."
 0881d6f30d,2,js/casefiles.js,187,number,Canadian journalist Paul Kidd saw the camps in 1966 and was expelled.
 6784d63e61,1,js/casefiles.js,194,deaths number,"Hundreds were shot in 1959 after quick trials, and thousands overall; the numbers depend heavily on who counts."
 4e40e7832d,1,js/casefiles.js,195,deaths number,"After Batista fell on 1 January 1959, revolutionary courts tried members of his army and police accused of torture and murder. On 12 January 1959 at San Juan Hill in Santiago, 71 men were shot after summary trials and buried in a trench; reporters were present."
 7908793186,1,js/casefiles.js,196,deaths number,"Executions continued for political crimes in the 1960s, then became rare. The last executions were in 2003, of three men who hijacked a ferry; remaining death sentences were commuted in 2010."
-423ba94981,1,js/casefiles.js,197,deaths number,"Most estimates around 4,000–5,000 executions since 1959; claims range from a few hundred to over 15,000"
-8b90b000a4,2,js/casefiles.js,197,number,"The Cuba Archive project, run by exiles, has documented about 4,000 by name; The Black Book of Communism gave 15,000–17,000. Cuba has never published a count."
+bc6187c74e,1,js/casefiles.js,197,deaths number,"About 3,000–5,000 executions since 1959; claims range from a few hundred to 17,000"
+7c15447ed5,1,js/casefiles.js,197,deaths current number,"The Cuba Archive project, run by exiles, has documented about 3,100 firing-squad executions by name, plus about 1,300 extrajudicial killings (2025); The Black Book of Communism gave 15,000–17,000. Cuba has never published a count."
 bc64814b22,1,js/casefiles.js,199,deaths number,Cuba defends the 1959 trials as justice for Batista’s torturers and does not publish totals.
 73f5b01b5e,1,js/casefiles.js,200,deaths,Newspapers around the world covered the San Juan Hill executions.
 7c2ab336e2,1,js/casefiles.js,200,deaths number,The 1959 constitutional amendment brought back the death penalty for political crimes.
@@ -1260,7 +1302,7 @@ ed43f955cd,1,js/casefiles.js,201,deaths number,"Batista’s dictatorship before 
 7b54bf4048,2,js/casefiles.js,203,number,Inter-American Commission on Human Rights: Cuba report (1983)
 74e53bd106,2,js/casefiles.js,209,number,"After North Korea invaded the South in June 1950, US-led air forces bombed the North for three years. After China entered the war, incendiary and napalm attacks burned town after town. In 1953 irrigation dams were bombed, flooding rice fields."
 9dd84289ca,1,js/casefiles.js,211,deaths number,"Roughly 1 million civilian deaths in the North from all causes of the war (about 10% of 9.7 million); a Soviet estimate gave 282,000 from bombing"
-e00fcbf586,1,js/casefiles.js,211,deaths number,"General Curtis LeMay later said 20% of the population was killed; that was his own boast, not a count."
+b47cf7bea2,1,js/casefiles.js,211,deaths number,"General Curtis LeMay later guessed that about 20% of Korea’s people died from the war, hunger and cold: a rough remark, not a count."
 2d22f3fd4a,1,js/casefiles.js,212,deaths,"Commanders knew the raids were killing civilians in very large numbers and widened them, burning towns and then bombing dams. The stated targets were military. The same rating is used as for the Great Leap famine, because the test is the same: they knew, and kept going."
 aee80bf7af,2,js/casefiles.js,214,number,18 of 22 major cities at least 50% destroyed; Pyongyang 75%.
 90ffbe2648,2,js/casefiles.js,214,number,"About 635,000 tons of bombs and 32,557 tons of napalm in Korea."
@@ -1299,7 +1341,7 @@ db50744ce2,1,js/casefiles.js,256,deaths,National Security Archive: the torture r
 541f8a5f37,1,js/casefiles.js,260,deaths,"Record numbers held and record deaths in custody, documented mostly from ICE’s own data and reports."
 b1f11a2be2,1,js/casefiles.js,261,current number,"Immigration detention in the US is civil, not criminal: most people are held while their cases are decided, and many have no criminal record. From 2025 the government sharply expanded arrests and detention, with new funding from Congress, including tent and warehouse sites."
 74950bede5,1,js/casefiles.js,262,deaths current number,"ICE’s own figures show the detained population passing 70,000 for the first time in January 2026. The number of facilities roughly doubled. Deaths in custody rose to the highest level in two decades."
-aad72f0db5,1,js/casefiles.js,263,deaths current number,"Record 70,766 held (24 January 2026); 37 deaths in custody in fiscal year 2026, the most in ICE’s history; 31–33 in calendar 2025"
+c498590555,1,js/casefiles.js,263,deaths current number,"70,766 held on 24 January 2026, a record at the time in ICE’s published data (CBS reported about 73,000 from internal figures that month) (developing); 37 deaths in custody in fiscal year 2026, the most in ICE’s history; 31–33 in calendar 2025"
 4f2d661ba7,1,js/casefiles.js,263,deaths,ICE must publish each death within days; researchers count those notices and ICE’s detention statistics.
 6f59f907c9,1,js/casefiles.js,264,deaths quote number,"Mass detention is a deliberate policy; deaths are not its aim. Investigations of earlier years (ACLU, 2017–21) found most deaths could have been prevented with proper medical care. Why not “knew and kept going”: the deaths come from medical and safety failures that could be fixed without ending detention. If record deaths continue without those fixes, this rating should change."
 0f7a3d0f57,1,js/casefiles.js,265,deaths,ICE publishes the deaths and says it gives comprehensive medical care and that deaths are rare relative to the numbers held.
@@ -1895,14 +1937,14 @@ c8fa116eaf,2,js/evidence.js,16,number,"The Open Science Collaboration in Science
 f0a3d1fddd,3,js/explore.js,8,number,"Big Bang to today in 18 steps, with the evidence and who found it"
 9469c93bf3,1,js/explore.js,10,label,"How lies are made, and how to catch them"
 fd80eb9269,1,js/explore.js,10,label,"Fake photos, videos, documents and witnesses; paid influence; who’s behind each source"
-c767f70233,3,js/explore.js,13,number,"China 1921–today: what happened, why, and what it led to, era by era"
-9cca39047a,1,js/explore.js,14,deaths,"One event per page: records, leaks, satellite images, courts, photos, witnesses, toll and intent"
-14536b0104,1,js/explore.js,16,label number,"53 documented lies and propaganda campaigns, and how each came out"
-3329671def,1,js/explore.js,16,deaths label,"Colonial rule, war, famine, apartheid, sanctions: who suffered and the evidence"
-9fcea42f86,3,js/explore.js,17,number,"12 systems: who rules, how people climb, money, war, checks"
-14d514d426,3,js/explore.js,50,number,"Every one of the 196 countries has the same tabs: Government & power, History, Life in numbers, Pictures, Everything in the Lab, and Sources & perspectives."
-13145bdf5b,3,js/explore.js,50,number,"Example: roles chart, who runs what, 224 checked pictures"
-a4f0c7548f,3,js/explore.js,51,number,The 24 disciplines. Each subject page starts with everything the Lab has on it.
+c767f70233,3,js/explore.js,14,number,"China 1921–today: what happened, why, and what it led to, era by era"
+9cca39047a,1,js/explore.js,15,deaths,"One event per page: records, leaks, satellite images, courts, photos, witnesses, toll and intent"
+14536b0104,1,js/explore.js,17,label number,"53 documented lies and propaganda campaigns, and how each came out"
+3329671def,1,js/explore.js,17,deaths label,"Colonial rule, war, famine, apartheid, sanctions: who suffered and the evidence"
+9fcea42f86,3,js/explore.js,18,number,"12 systems: who rules, how people climb, money, war, checks"
+14d514d426,3,js/explore.js,51,number,"Every one of the 196 countries has the same tabs: Government & power, History, Life in numbers, Pictures, Everything in the Lab, and Sources & perspectives."
+13145bdf5b,3,js/explore.js,51,number,"Example: roles chart, who runs what, 224 checked pictures"
+a4f0c7548f,3,js/explore.js,52,number,The 24 disciplines. Each subject page starts with everything the Lab has on it.
 0e8b633d89,2,js/fascism-data.js,7,number,"How the Nazis rose: Reichstag vote shares, 1928–1933"
 4ca9843e12,2,js/fascism-data.js,7,number,"The Nazis never won a majority in a free election. They peaked at 37.3% in July 1932, fell in November, and won 43.9% in March 1933 only after Hitler was in power and opponents were being arrested."
 774d8a34fa,2,js/fascism-data.js,8,number,"Registered unemployed, annual average, in millions. Joblessness rose to 5.6 million in 1932, the year of the Nazis’ electoral peak, then fell fast under rearmament, public works, conscription and the removal of women and Jews from the count and the workforce."
@@ -5395,7 +5437,8 @@ f224b26e81,2,js/money.js,27,number,"Governments paid leading think tanks, includ
 04ab75a0df,2,js/money.js,27,number,"The New York Times (2014) found few of the think tanks had registered as foreign agents. A 2020 study counted at least $174 million from foreign governments to the top 50 US think tanks in 2014–18, and said the real figure is likely far higher."
 32a3402bdb,2,js/money.js,27,number,Responsible Statecraft: foreign funding to think tanks (2020)
 ab9f1a4343,1,js/money.js,28,label number,"About $2 million paid a Tel Aviv marketing firm, STOIC, to run hundreds of fake accounts posing as Americans, and fake news sites, pushing pro-Israel messages at members of Congress, especially Black Democrats, during the Gaza war."
-826c2e019a,2,js/money.js,30,number,Published by a network of European media (European Investigative Collaborations) in 2023.
+66b41a9421,2,js/money.js,30,number,"According to leaked files, the UAE paid a Geneva private intelligence firm, Alp Services, at least €5.7 million in 2017–20 to target more than 1,000 people and 400 organisations in 18 European countries that it linked to Qatar or the Muslim Brotherhood, including planting stories and paying people to edit Wikipedia."
+24c8110b6e,2,js/money.js,30,number,"Published by European media (European Investigative Collaborations, led by Mediapart) and the New Yorker in 2023; Belgium summoned the UAE’s ambassador."
 446bb923af,1,js/money.js,31,label number,The US seized dozens of website domains linked to Iranian state broadcasting and the Revolutionary Guard in 2020–21; Meta and others have removed Iranian fake-account networks.
 063bd48e2e,1,js/money.js,32,quote,“China Watch” inserts in Western newspapers
 d3ef494b25,2,js/money.js,32,number,"China Daily’s own filings under the US foreign-agent law show it paid US media about $19 million from November 2016 to April 2020, including about $4.6 million to the Washington Post and nearly $6 million to the Wall Street Journal. The Telegraph and others stopped in 2020."
@@ -5664,7 +5707,7 @@ b0c6919cf9,2,js/pathmarx.js,7,number,Preface to A Contribution to the Critique o
 a0523a7015,2,js/pathmarx.js,10,number,Economic and Philosophic Manuscripts (1844)
 cbfa7c3ecb,1,js/pathmarx.js,13,quote number,"Workers would take power (“the dictatorship of the proletariat”, meaning rule by the working-class majority, not one person). His model was the 1871 Paris Commune, with elected officials who could be recalled at any time and paid a worker’s wage. A first stage would pay people according to their work; a later stage would run on “from each according to his ability, to each according to his needs”, "
 a4e431365d,1,js/pathmarx.js,18,quote,“Religion is the opium of the people” was an insult
-d9529b8cc3,1,js/pathmarx.js,18,quote,"In context he also called religion “the sigh of the oppressed creature”: comfort for real suffering, which he wanted to end."
+23703da9e1,1,js/pathmarx.js,18,quote,"In context he also called religion “the sigh of the oppressed creature”: a comfort for real suffering, but an illusion he wanted to make unneeded by ending that suffering."
 f2d60e0a8e,1,js/pathmarx.js,23,label quote,"“Socialism in one country”: forced industrialisation, collectivisation and terror."
 e65d582b04,1,js/pathmarx.js,24,quote,"Revolution led by peasants, not factory workers; mass campaigns and “continuous revolution”."
 4a9e590ba9,2,js/pathmarx.js,25,number,"Juche: self-reliance, which became a national ideology; in 2009 North Korea removed references to communism from its constitution."
@@ -5674,7 +5717,7 @@ a73bb7d03e,2,js/pathmarx.js,26,number,Rich countries got rich partly by keeping 
 8044b0ba82,1,js/pathmarx.js,27,quote,Shared the goal of a classless society but warned that a workers’ state would create a new ruling “red bureaucracy”.
 96cc576387,2,js/pathmarx.js,28,number,"The USSR went from a mostly peasant country to an industrial power in about two decades, and its industry was decisive in defeating Nazi Germany, at a cost of about 27 million Soviet lives in the war."
 cbe0c2a422,2,js/pathmarx.js,29,number,"Soviet censuses show literacy rising from about a fifth of people in 1897 to almost everyone by 1959. Cuba’s 1961 campaign sent young volunteers into the countryside and taught about 700,000 adults to read in one year."
-3ee9588044,1,js/pathmarx.js,30,deaths number,"China’s life expectancy rose from about 40 around 1950 to about 65 by 1980, faster than India’s, even counting the famine (a comparison made by the economists Jean Drèze and Amartya Sen). Cuba reports infant mortality near rich-country levels; how those figures are counted is disputed."
+c385f04176,1,js/pathmarx.js,30,deaths current number,"China’s life expectancy rose from about 40 around 1950 to about 65 by 1980, faster than India’s, even counting the famine (a comparison made by the economists Jean Drèze and Amartya Sen). Cuba long reported infant mortality near rich-country levels, but its official rate rose to 7.1 per 1,000 in 2024 and about 9.9 in 2025 (preliminary); how those figures are counted is disputed."
 173fa89aab,2,js/pathmarx.js,33,number,"Several of the deadliest famines of the 20th century happened under communist governments: the USSR in 1921–22 and 1932–33, China in 1959–61, Cambodia in 1975–79, Ethiopia in 1983–85 and North Korea in the 1990s."
 bc18b8a157,1,js/pathmarx.js,34,deaths,"Mass executions, labour camps, no free press, no right to organise, including for workers."
 222eaf0ff4,2,js/pathmarx.js,35,number,"Planned economies grew fast at first, then slowed in the 1970s–80s, with shortages and poor quality. Comparisons of similar neighbours show the gap: West and East Germany, South and North Korea."
@@ -5703,6 +5746,566 @@ d85e516c03,2,js/pathmarx.js,64,number,Luxemburg: The Russian Revolution (1918)
 4c830e3031,2,js/pathmarx.js,65,number,Hayek: The Use of Knowledge in Society (1945)
 9f44d3405f,1,js/pathmarx.js,70,label,"Ordered routes through the Lab, from the beginning."
 3dc0af20a7,2,js/pathmarx.js,83,number,"6. The strongest critiques, and the replies"
+11725804b3,3,js/pathmath-t1.js,11,number,"Ten digits, 0 to 9, can write any number because each position is worth ten times the one to its right."
+5576cb94e4,3,js/pathmath-t1.js,13,number,"Counting starts with matching: one tally for one sheep. That works for small amounts but breaks down fast. Try writing 4,827 in tally marks. The great invention was place value: the same digit means different things depending on where it sits. In 4,827 the 4 means four thousands, the 8 means eight hundreds, the 2 means two tens and the 7 means seven ones."
+d7a3bef115,1,js/pathmath-t1.js,14,quote number,"Zero makes place value work. Without it you could not tell 52 from 502. Zero is a placeholder (“nothing in the tens place”) and also a number in its own right, which you can add, subtract and multiply."
+9e739de64c,3,js/pathmath-t1.js,15,number,"Number sense means having a feel for size. A million seconds is about 11.6 days; a billion seconds is about 32 years. The difference between a million and a billion is the difference between a long holiday and a career. Number lines help: every number has a place, bigger to the right, and the distance between two numbers is how far apart they are."
+9bec676250,3,js/pathmath-t1.js,18,number,"So 30,406 = 30,000 + 400 + 6. The zeros hold the empty places."
+dd95849636,3,js/pathmath-t1.js,19,number,"So 0.7 is bigger, even though “65” looks bigger than “7”."
+d5a9d4337a,3,js/pathmath-t1.js,21,number,"Place value works because grouping is consistent: ten ones make a ten, ten tens make a hundred, and so on. Any whole number can be broken into a unique sum of digits times powers of ten, so every number gets exactly one way of being written. Other bases work the same way with a different group size: computers group by 2 (binary), the Babylonians by 60, the Maya mostly by 20."
+583fe561e5,3,js/pathmath-t1.js,26,number,"Babylonian scribes used a place-value system in base 60. It survives in 60 minutes, 60 seconds and 360 degrees."
+a9e987004b,3,js/pathmath-t1.js,27,number,"A base-20 place-value system with a symbol for zero, used for calendars and astronomy."
+efaeca54a3,3,js/pathmath-t1.js,29,number,Al-Khwarizmi wrote on Hindu numerals in Baghdad; Fibonacci’s Liber Abaci (1202) promoted them to European merchants. We call them Hindu–Arabic numerals.
+6cffc6d606,3,js/pathmath-t1.js,31,number,Binary place value (base 2) is how every computer stores numbers
+890439299a,3,js/pathmath-t1.js,31,number,Scientific notation (6.02 × 10²³) is place value with powers of ten
+b4c6a720f7,1,js/pathmath-t1.js,31,deaths,Telling millions from billions when budgets and death tolls are reported
+48c0315179,3,js/pathmath-t1.js,42,number,Addition and subtraction undo each other: 8 + 5 = 13 and 13 − 5 = 8. Multiplication and division undo each other: 6 × 7 = 42 and 42 ÷ 7 = 6. Knowing these pairs (fact families) means every fact you learn gives you its opposite for free.
+c5eef84386,1,js/pathmath-t1.js,43,quote number,"The written methods you learn in school (carrying, borrowing, long multiplication, long division) are shortcuts built on place value. When you “carry the 1” you are trading ten ones for one ten. Long multiplication splits a problem into easy pieces: 23 × 14 = 23 × 10 + 23 × 4 = 230 + 92 = 322."
+887ed60524,3,js/pathmath-t1.js,44,number,Three laws let you rearrange calculations safely. Order does not matter for adding or multiplying (commutative: 3 + 5 = 5 + 3). Grouping does not matter either (associative: (2 + 3) + 4 = 2 + (3 + 4)). And multiplication spreads over addition (distributive: 6 × (10 + 3) = 60 + 18). Mental math is mostly these three laws used cleverly.
+c29f6ccf72,3,js/pathmath-t1.js,47,number,Split 47 into 40 + 7 (distributive law).
+d43c3c21a3,3,js/pathmath-t1.js,50,number,"The written methods are guaranteed to work because of the distributive law and place value: you break a number into hundreds, tens and ones, do each part, and add the parts back up. Division by zero is undefined because no number times 0 gives a non-zero result: if 5 ÷ 0 were some number n, then n × 0 would have to equal 5, which is impossible."
+6d620fe6e1,3,js/pathmath-t1.js,52,number,a number that divides another exactly: 3 is a factor of 12
+b942df12d2,3,js/pathmath-t1.js,60,number,Know the times tables up to 12 × 12 by heart; it frees your attention for harder ideas.
+2f9a490d5f,3,js/pathmath-t1.js,60,number,Estimate first (47 × 6 is a bit under 50 × 6 = 300).
+d8963e0ccf,3,js/pathmath-t1.js,68,number,"A fraction, a decimal and a percent are three ways of writing the same part of a whole: ½ = 0.5 = 50%."
+b7f43c60b4,1,js/pathmath-t1.js,70,quote,A fraction a/b means “split a whole into b equal parts and take a of them”. The bottom number (denominator) says what size the pieces are; the top number (numerator) says how many you have. ¾ of a pizza is three of four equal slices.
+a8ddbb5518,3,js/pathmath-t1.js,71,number,"To add fractions the pieces must be the same size. ½ + ⅓ cannot be added directly, so rewrite both in sixths: 3/6 + 2/6 = 5/6. To multiply, multiply tops and bottoms: ½ × ⅓ = 1/6 (half of a third). To divide, flip the second fraction and multiply: ½ ÷ ¼ = ½ × 4 = 2, because two quarters fit in a half."
+ebe1ac7685,1,js/pathmath-t1.js,72,quote number,"Decimals are fractions with denominators 10, 100, 1000 and so on: 0.37 = 37/100. Percent means “per hundred”, so 37% = 37/100 = 0.37. A ratio compares two amounts: a recipe with 2 cups of flour to 1 cup of sugar has a 2:1 ratio. Ratios are fractions in disguise: sugar is ⅓ of the mix."
+d92da3d3fb,3,js/pathmath-t1.js,76,number,"Quick check: 10% is 8, 5% is 4, so 15% is 12."
+348d730a78,1,js/pathmath-t1.js,79,quote number,Multiplying the top and bottom of a fraction by the same number does not change its value (2/4 = 1/2) because you are cutting every piece into the same number of smaller pieces. That is why common denominators work. Dividing by a fraction equals multiplying by its flip because division asks “how many of these fit?”: how many quarters fit in one whole? Four. So ÷ ¼ is the same as × 4.
+5767f9e45a,3,js/pathmath-t1.js,83,number,"Egyptians wrote fractions as sums of unit fractions (like ½ + ¼); Babylonians used base-60 fractions, still seen in minutes and seconds."
+b8643eeefc,3,js/pathmath-t1.js,86,number,"Decimal fractions were used in Damascus and Samarkand, and Stevin’s 1585 pamphlet spread them in Europe."
+7a371f094e,1,js/pathmath-t1.js,87,quote,Romans taxed goods in hundredths; Italian merchants’ “per cento” shorthand slowly became %.
+2bd5fbfb53,3,js/pathmath-t1.js,89,number,Every probability is a fraction from 0 to 1
+4b98beaf0a,3,js/pathmath-t1.js,90,number,"Find 10% first, then build other percents from it."
+88aa4d91d8,1,js/pathmath-t1.js,90,quote,Ask “of what whole?” every time you see a percent.
+35d57b2187,3,js/pathmath-t1.js,100,number,"A measurement is a number plus a unit: 3 metres, 2 hours, 5 kilograms. The unit matters as much as the number. In 1999 NASA lost the Mars Climate Orbiter because one team used pound-force seconds and another expected newton-seconds."
+a440986ea6,1,js/pathmath-t1.js,101,quote number,"Converting units is multiplying by 1 in a clever form. Since 100 cm = 1 m, the fraction 1 m / 100 cm equals 1. So 250 cm × (1 m / 100 cm) = 2.5 m: the centimetres cancel. This “unit cancelling” trick works for any conversion, from currencies to light-years."
+2e5862b9b7,3,js/pathmath-t1.js,102,number,"Flat (2D) shapes are named by their sides: triangles (3), quadrilaterals (4: squares, rectangles, parallelograms, trapezoids), pentagons (5), hexagons (6). Solid (3D) shapes have faces, edges and corners (vertices): a cube has 6 faces, 12 edges and 8 corners. Perimeter is the distance around a shape; area is the space it covers; volume is the space a solid fills."
+a93634f349,3,js/pathmath-t1.js,105,number,"60 seconds per minute × 60 minutes per hour = 3,600 seconds per hour."
+0001cfb882,3,js/pathmath-t1.js,106,number,A garden is 8 m by 5 m. Find its perimeter and area.
+c3abd5fa4c,3,js/pathmath-t1.js,108,number,"Area uses square units because you are counting how many unit squares cover the shape: an 8 by 5 rectangle holds 8 rows of 5 squares. Volume counts unit cubes, so it uses cubic units. That is also why doubling every side of a shape multiplies its area by 4 and its volume by 8, a fact that explains why giant animals need thick legs."
+6b93aab4c4,3,js/pathmath-t1.js,112,number,"The royal cubit (about 52 cm), kept on official rods, set lengths for building the pyramids."
+8163b5e48c,3,js/pathmath-t1.js,115,number,"The SI was adopted in 1960; since 2019 all its base units are defined by fixed constants of nature, so no physical object defines the kilogram any more."
+f1536f4618,1,js/pathmath-t1.js,117,deaths,Doses are measured in mg and mL; errors kill
+7407b5ec3e,3,js/pathmath-t1.js,118,number,"Learn a few reference sizes: a door is about 2 m tall, a litre of water weighs 1 kg."
+2aace4622a,3,js/pathmath-t1.js,129,number,"Negative numbers measure things below a zero point: debt, temperatures below freezing, depth below sea level. On a number line, adding a positive moves right; adding a negative moves left. Subtracting a number is the same as adding its opposite: 3 − 7 = 3 + (−7) = −4."
+ed969006b8,3,js/pathmath-t1.js,130,number,"Multiplying signs follows two rules: same signs give a positive, different signs give a negative. So (−4) × (−5) = 20 and (−4) × 5 = −20. The same rules hold for division."
+ec3ffebd7c,1,js/pathmath-t1.js,131,quote number,"A power is shorthand for repeated multiplication: 2⁵ = 2 × 2 × 2 × 2 × 2 = 32. The small raised number is the exponent. Useful rules: aᵐ × aⁿ = aᵐ⁺ⁿ, (aᵐ)ⁿ = aᵐⁿ, a⁰ = 1, and a⁻ⁿ = 1/aⁿ. A square root asks “what number times itself gives this?”: √49 = 7. Some roots are not whole numbers: √2 ≈ 1.41421."
+1a490b20e6,3,js/pathmath-t1.js,136,number,Multiply and divide: 3 × 16 = 48; 6 ÷ 2 = 3.
+6d65450154,3,js/pathmath-t1.js,136,number,Add and subtract left to right: 2 + 48 − 3 = 47.
+a910ed3791,3,js/pathmath-t1.js,139,number,"Why is negative times negative positive? Because otherwise the distributive law would break. We know (−1) × 0 = 0, and 0 = 1 + (−1). So (−1) × (1 + (−1)) = 0, which spreads out to (−1) × 1 + (−1) × (−1) = 0, that is −1 + (−1)(−1) = 0. The only number that works is (−1)(−1) = 1. Likewise a⁰ = 1 because aⁿ ÷ aⁿ must equal 1 and the exponent rule says it equals aⁿ⁻ⁿ = a⁰."
+0b3190ac50,3,js/pathmath-t1.js,141,number,"cannot be written as a fraction, like √2"
+df8260aaef,1,js/pathmath-t1.js,144,quote,"Stated rules for “fortunes” and “debts”, including that a debt times a debt is a fortune."
+8298540de1,1,js/pathmath-t1.js,145,quote number,Many European mathematicians called negative answers “absurd” or “false”; they were fully accepted only in the 1700s and 1800s.
+35491a77a0,3,js/pathmath-t1.js,146,number,Greek mathematicians proved √2 cannot be a fraction. The story that Hippasus was drowned for revealing it is a later legend.
+7ba0a748af,3,js/pathmath-t1.js,149,number,"Memory sizes are powers of 2 (2¹⁰ = 1,024)"
+d6d010425c,3,js/pathmath-t1.js,150,number,Learn powers of 2 up to 2¹⁰ and squares up to 15².
+dd54b69ced,3,js/pathmath-t1.js,153,number,"OpenStax: Prealgebra 2e, chapters 3 and 10"
+0489b727bb,3,js/pathmath-t1.js,160,number,"Algebra lets you reason about numbers you have not found yet. If a taxi charges $3 plus $2 per km, the cost for d km is 3 + 2d. The letter d is a variable: it can stand for any distance. The expression 3 + 2d is a recipe that works for all of them."
+0fdfdeeba4,3,js/pathmath-t1.js,161,number,"An equation says two things are equal: 3 + 2d = 15. Think of a balance scale. Whatever you do to one side you must do to the other to keep it level. Subtract 3 from both sides: 2d = 12. Divide both sides by 2: d = 6. The taxi went 6 km. Each step undoes one operation, in reverse order."
+8e4c8539be,3,js/pathmath-t1.js,163,number,"Like terms can be combined: 4x + 3x = 7x, but 4x + 3y cannot be simplified because x and y are different unknowns. Expanding brackets uses the distributive law: 3(x + 5) = 3x + 15."
+a7423492dd,3,js/pathmath-t1.js,166,number,Subtract 2x from both sides: 3x − 7 = 8.
+5eaffe4a17,3,js/pathmath-t1.js,166,number,Check: 5(5) − 7 = 18 and 2(5) + 8 = 18. ✓
+78a3005f34,3,js/pathmath-t1.js,171,number,the number in front of a variable: 2 in 2d
+787888a85b,1,js/pathmath-t1.js,175,quote,His book on “al-jabr” (restoring) and “al-muqabala” (balancing) gave systematic methods; “algebra” comes from al-jabr and “algorithm” from his name. He wrote everything in words.
+930cc01b91,1,js/pathmath-t1.js,188,quote,Two quantities are proportional when one is always the same multiple of the other; a rate is “per something”.
+0505f5eb3c,3,js/pathmath-t1.js,190,number,"If 3 notebooks cost $4.50, then 1 costs $1.50 and 10 cost $15. Cost is proportional to the number of notebooks: double one and you double the other. The fixed multiple ($1.50 per notebook) is the unit rate. Speed (km per hour), wages (dollars per hour) and density (grams per cm³) are all unit rates."
+92b1b78efe,3,js/pathmath-t1.js,191,number,"A proportion is an equation between two ratios: 3/4.50 = 10/c. Cross-multiplying gives 3c = 45, so c = 15. Maps and models use scale factors: on a 1:50,000 map, 2 cm on paper is 100,000 cm = 1 km on the ground."
+d95cc108d6,3,js/pathmath-t1.js,192,number,"Percent change measures growth relative to where you started: change ÷ original × 100%. A price going from $80 to $100 rose by 20/80 = 25%. Watch the trap: a 50% fall followed by a 50% rise does not get you back. $100 → $50 → $75. Percent changes multiply, they do not add."
+fd878715e9,3,js/pathmath-t1.js,193,number,Not everything is proportional. A taxi fare with a fixed starting fee is linear but not proportional: 0 km still costs $3. Spotting whether a relationship passes through zero is a quick test.
+d3e8b4afc6,3,js/pathmath-t1.js,196,number,A car uses 6 litres per 100 km. How much for 350 km?
+ecbc11ccfc,3,js/pathmath-t1.js,197,number,"Rent rose from $1,200 to $1,380. What is the percent increase?"
+528cb9c259,3,js/pathmath-t1.js,198,number,After a 20% discount a jacket costs $64. What was the original price?
+ce52261a52,3,js/pathmath-t1.js,198,number,Paying 80% of the original: 0.8 × p = 64.
+60e4a50d2f,3,js/pathmath-t1.js,200,number,"Proportional quantities have a constant ratio y/x = k, so y = kx: the graph is a straight line through the origin. Percent changes multiply because each change is applied to the new amount: going up 10% means multiplying by 1.10; going down 10% means multiplying by 0.90; both together give 1.10 × 0.90 = 0.99, a 1% loss."
+0b00588a0e,3,js/pathmath-t1.js,202,number,the difference between two percents: 5% to 7% is 2 points but a 40% rise
+da6eaaf7fb,1,js/pathmath-t1.js,205,quote,The “rule of three” for solving proportions appears in Aryabhata’s work and in the Nine Chapters; merchants used it for centuries.
+3a5c66da88,3,js/pathmath-t1.js,209,number,"Turn percent changes into multipliers (×1.07, ×0.85)."
+afbf87fdf2,3,js/pathmath-t1.js,210,number,"Population 40,000 → 46,000: percent change?"
+c14bc4b823,3,js/pathmath-t1.js,219,number,"Area formulas come from rearranging shapes into rectangles. A parallelogram can be cut and slid into a rectangle, so its area is base × height. A triangle is half a parallelogram: ½ × base × height. A circle of radius r has area πr² and circumference 2πr, where π ≈ 3.14159 is the ratio of any circle’s circumference to its diameter."
+7c6f89bdae,3,js/pathmath-t1.js,220,number,Volume of a prism or cylinder is the area of its base times its height: a can of radius 4 cm and height 10 cm holds π × 4² × 10 ≈ 503 cm³. Cones and pyramids hold exactly one third of the matching prism.
+292ee5fc7b,3,js/pathmath-t1.js,221,number,"Angles measure turning. A right angle is 90°, a straight line 180°, a full turn 360°. The angles of any triangle add to 180°. Angles on a straight line add to 180°, and opposite angles where two lines cross are equal."
+e583715cb9,3,js/pathmath-t1.js,222,number,"The Pythagorean theorem links the sides of a right triangle. If the legs are 3 and 4, the longest side (the hypotenuse) is √(9 + 16) = √25 = 5. Builders use the 3-4-5 triangle to make square corners; GPS and screens use the same rule to find distances."
+d275fd15df,3,js/pathmath-t1.js,225,number,A ladder 5 m long reaches 4 m up a wall. How far is its foot from the wall?
+b81516160d,3,js/pathmath-t1.js,226,number,"Find the distance between points (1, 2) and (7, 10)."
+cb80ae4812,3,js/pathmath-t1.js,227,number,A triangle has angles 47° and 68°. Find the third.
+7f67933696,1,js/pathmath-t1.js,229,quote number,"One proof you can see: take four copies of the right triangle and arrange them inside a square of side a + b. The empty space in the middle is a square of side c, so (a + b)² = 4 × ½ab + c². Expanding gives a² + 2ab + b² = 2ab + c², and so a² + b² = c². The Lab’s “Pythagoras by area” lets you move the pieces yourself. The triangle angle sum is 180° because a line through the top corner parallel to"
+542d35c02f,3,js/pathmath-t1.js,231,number,"whole numbers that fit, like 3-4-5 or 5-12-13"
+d35e2ded98,3,js/pathmath-t1.js,233,number,"The tablet Plimpton 322 lists Pythagorean triples, and the tablet YBC 7289 shows √2 to about six decimal places, over a thousand years before Pythagoras."
+9d002f0c70,3,js/pathmath-t1.js,235,number,"Elements Book I, Proposition 47 gives a general proof. The theorem is named after Pythagoras, though no writing of his survives."
+f25e8fad5a,3,js/pathmath-t1.js,236,number,"Archimedes trapped π between 223/71 and 22/7 using 96-sided polygons; in China, Zu Chongzhi found 355/113, correct to six decimals."
+f223886b0f,1,js/pathmath-t1.js,237,quote,The Zhoubi Suanjing shows the “gougu” rule with a famous square diagram.
+6b9e0b3b69,3,js/pathmath-t1.js,240,number,"Know the triples 3-4-5, 5-12-13, 8-15-17 and their multiples."
+3df20fa55f,3,js/pathmath-t1.js,250,number,"The mean adds everything and divides by how many there are. The median is the middle value when the numbers are sorted. The mode is the most common value. For incomes 30, 35, 40, 45 and 1,000 (in thousands), the mean is 230 but the median is 40. One very rich person drags the mean up; the median better describes a typical person. That is why household income is usually reported as a median."
+7f9772a10e,3,js/pathmath-t1.js,251,number,"Spread tells you how much values vary. The range is the largest minus the smallest. The interquartile range is the spread of the middle half. Two classes can both average 70% on a test, one with everyone between 65 and 75, the other ranging from 30 to 100."
+55f82e5df9,3,js/pathmath-t1.js,252,number,"Graphs show patterns at a glance: bar charts compare categories, line graphs show change over time, scatter plots show whether two things move together, histograms show the shape of a distribution. Always read the axes first: a vertical axis that starts at 95 instead of 0 can make a tiny change look huge."
+bc566abdd5,3,js/pathmath-t1.js,255,number,"Find the mean, median and mode of 4, 8, 6, 5, 3, 8, 9."
+7c84351c49,3,js/pathmath-t1.js,255,number,Sum = 43; there are 7 values; mean = 43/7 ≈ 6.14.
+62244c48d5,3,js/pathmath-t1.js,256,number,"Your test scores are 72, 85 and 90. What score do you need on the fourth for a mean of 85?"
+249ea1fca0,1,js/pathmath-t1.js,258,quote,"The mean is the balance point: the distances of values above it exactly cancel those below. That is why one extreme value moves it so much. The median only cares about order, so extreme values cannot drag it. Which one is “right” depends on the question you are asking."
+42952df437,1,js/pathmath-t1.js,262,quote,Studied the weekly “bills of mortality” and began demographic statistics.
+f7b887c316,3,js/pathmath-t1.js,263,number,Invented the line graph and bar chart (1786) and the pie chart (1801).
+db8c245031,1,js/pathmath-t1.js,264,deaths,"Snow mapped cholera deaths around a water pump in London; Nightingale’s diagrams showed most soldiers in the Crimean War died of disease, not wounds."
+7cd59a901e,1,js/pathmath-t1.js,265,quote,"Galton popularized the term “median” and Pearson coined “mode”. Both also promoted eugenics, which the Lab covers in its history pages."
+655e06c0c5,3,js/pathmath-t3.js,12,number,"A system of equations asks for values that satisfy several equations at once. For x + y = 10 and x − y = 4, adding the equations eliminates y: 2x = 14, so x = 7 and y = 3. Graphically, the solution is where two lines cross. Systems with thousands of unknowns run airline schedules, power grids and computer graphics."
+57871665c6,3,js/pathmath-t3.js,13,number,"Polynomials are sums of powers: 3x³ − x + 7. Their highest power is the degree. A quadratic has degree 2, like x² − 5x + 6, and its graph is a U-shaped parabola. Solving a quadratic means finding where the parabola crosses zero. Factoring finds them when you can: x² − 5x + 6 = (x − 2)(x − 3), so x = 2 or x = 3, because a product is zero only when one factor is zero."
+685107f9bb,3,js/pathmath-t3.js,14,number,"When factoring fails, the quadratic formula always works: for ax² + bx + c = 0, x = (−b ± √(b² − 4ac)) / 2a. The part under the root, b² − 4ac, is the discriminant. Positive: two real answers. Zero: one. Negative: no real answers, which is where complex numbers come in."
+d4df34713d,3,js/pathmath-t3.js,18,number,Tickets cost $5 for children and $8 for adults. 30 people paid $195. How many adults?
+dc0c9fe9c9,3,js/pathmath-t3.js,18,number,"From the first, c = 30 − a. Substitute: 5(30 − a) + 8a = 195."
+510f62405f,3,js/pathmath-t3.js,18,number,"150 + 3a = 195, so a = 15 adults and 15 children."
+264cfe1c1d,3,js/pathmath-t3.js,20,number,"The quadratic formula comes from completing the square. Starting from x² + bx = −c (with a = 1), add (b/2)² to both sides so the left becomes a perfect square: (x + b/2)² = b²/4 − c. Take square roots and solve. Al-Khwarizmi did exactly this with real squares and rectangles around the year 820, adding a missing corner to complete a square."
+f83546563a,3,js/pathmath-t3.js,26,number,"Italian mathematicians solved cubic and quartic equations after public problem-solving duels; Cardano published the methods in Ars Magna (1545), angering Tartaglia."
+a0d0aa1d3f,1,js/pathmath-t3.js,27,deaths number,Proved there is no general formula with roots for degree five and above. Galois died after a duel at 20; his ideas founded group theory.
+f5623decef,3,js/pathmath-t3.js,30,number,A thrown ball follows a parabola: height = −4.9t² + vt + h
+f75b1c3b66,3,js/pathmath-t3.js,32,number,"Slope of the line through (1, 2) and (3, 8)"
+db5fae0c46,3,js/pathmath-t3.js,41,number,"Linear growth adds the same amount each step (+5, +5, +5). Exponential growth multiplies by the same factor (×2, ×2, ×2). Start with 1 and double 30 times and you pass a billion. Money at compound interest, bacteria, early epidemics, and viral posts grow this way; radioactive decay and drug levels shrink this way."
+64be8348de,3,js/pathmath-t3.js,42,number,"The general form is y = a·bˣ: a is the starting amount and b the growth factor. A 7% yearly rise means b = 1.07. A useful shortcut, the rule of 70: something growing at r% a year doubles in about 70/r years. At 7%, about 10 years."
+acd1ffabc8,3,js/pathmath-t3.js,43,number,"A logarithm undoes an exponential. log₂(8) = 3 because 2³ = 8. log₁₀(1,000,000) = 6. Logs turn multiplication into addition: log(ab) = log a + log b. Before calculators, that let navigators and engineers multiply huge numbers by adding numbers from log tables or by sliding a slide rule."
+38c328c191,3,js/pathmath-t3.js,44,number,"The special number e ≈ 2.71828 appears when growth is continuous. If a bank paid 100% interest compounded every instant, $1 would become $e after one year. The natural log, ln, is the log with base e. Logarithmic scales compress huge ranges: each step on the Richter or decibel scale is a multiplication, not an addition."
+0813d52c1e,3,js/pathmath-t3.js,47,number,"$1,000 at 5% a year compounded yearly. Value after 10 years?"
+569b414d29,3,js/pathmath-t3.js,47,number,"Multiply by 1.05 ten times: 1,000 × 1.05¹⁰."
+20632141dc,3,js/pathmath-t3.js,49,number,A drug’s level halves every 6 hours. What fraction is left after a day?
+6d4c3f3bbf,3,js/pathmath-t3.js,51,number,"Logs turn products into sums because exponents add when you multiply: 10² × 10³ = 10⁵, and the logs (2, 3, 5) add. Exponential growth outruns any polynomial because each step multiplies by a fixed factor, while a polynomial’s growth factor (n+1)ᵏ/nᵏ shrinks toward 1 as n grows."
+8ddd920448,3,js/pathmath-t3.js,56,number,Base-10 log tables that astronomers and navigators used for over 300 years.
+5890691260,3,js/pathmath-t3.js,57,number,"The slide rule: multiplication by sliding two log scales. Engineers used them until the 1970s, including for the Apollo missions."
+7d667823a8,3,js/pathmath-t3.js,60,number,"Carbon-14 decay dates bones and wood up to about 50,000 years old"
+6cab113e78,3,js/pathmath-t3.js,61,number,Use the rule of 70 to sanity-check growth claims in the news.
+6a37fc9386,3,js/pathmath-t3.js,62,number,Doubling time at 3.5% a year (rule of 70)
+b6d3dc6ebe,3,js/pathmath-t3.js,69,number,"Invent a number i with i² = −1, and every polynomial equation gets solutions; multiplying by i turns a point 90° on a plane."
+e5f99f6a47,3,js/pathmath-t3.js,71,number,"No real number squares to −1, so mathematicians defined one: i, with i² = −1. A complex number has a real part and an imaginary part: 3 + 2i. Add them like ordinary expressions: (3 + 2i) + (1 − 5i) = 4 − 3i. Multiply them using i² = −1: (3 + 2i)(1 − i) = 3 − 3i + 2i − 2i² = 5 − i."
+8f993973dc,3,js/pathmath-t3.js,72,number,"Picture 3 + 2i as the point (3, 2) on a plane, the complex plane. Then multiplication has a beautiful meaning: it rotates and stretches. Multiplying by i rotates any point 90° counterclockwise around zero: 1 → i → −1 → −i → 1. That is why i² = −1: two quarter-turns make a half-turn."
+201ab6edc2,3,js/pathmath-t3.js,73,number,"Every complex number has a size (modulus, its distance from zero) and a direction (argument, its angle). Multiplying multiplies sizes and adds angles. Euler’s formula, e^(iθ) = cos θ + i sin θ, links exponentials to rotation, and at θ = π it gives e^(iπ) + 1 = 0, connecting five of the most important numbers in mathematics."
+9315717479,3,js/pathmath-t3.js,78,number,Multiply (1 + i)(1 + i). What happened geometrically?
+d690d6885f,3,js/pathmath-t3.js,78,number,1 + i has size √2 and angle 45°. Squaring gives size 2 and angle 90°: that is 2i.
+0d5ae00f50,3,js/pathmath-t3.js,80,number,"Defining i² = −1 does not break arithmetic: the rules (commutative, associative, distributive) still hold, which is what makes complex numbers a legitimate number system. Rotation appears because multiplying by i sends (a, b) to (−b, a), exactly a quarter-turn."
+037811fd34,1,js/pathmath-t3.js,85,quote,"Descartes called such roots “imaginary”, meaning they could not be pictured; Euler introduced the symbol i."
+706b29c02e,1,js/pathmath-t3.js,87,quote,Gave an early proof of the fundamental theorem of algebra and popularized the name “complex number”.
+37c69e8341,1,js/pathmath-t3.js,91,quote,"Check products both ways: algebra and “multiply sizes, add angles”."
+a32c88ad80,1,js/pathmath-t3.js,101,quote number,"Euclid’s Elements, written around 300 BCE, started from a few definitions and five postulates, such as “a straight line can be drawn between any two points”, and proved hundreds of results from them. Nothing was accepted because it looked right in a picture. That method (axioms, then deductions) is how all mathematics works today."
+8b66d4ee2a,3,js/pathmath-t3.js,104,number,"The fifth postulate (through a point not on a line, exactly one parallel line can be drawn) bothered mathematicians for two thousand years. In the 1800s they found consistent geometries where it fails: on a sphere there are no parallel lines and triangle angles add to more than 180°. Einstein’s general relativity uses such curved geometry."
+1dace7318d,3,js/pathmath-t3.js,108,number,A 2 m stick casts a 3 m shadow; a tree casts a 27 m shadow. How tall is the tree?
+de4573e266,1,js/pathmath-t3.js,112,quote,swapping “if” and “then”; not automatically true
+043651577f,3,js/pathmath-t3.js,115,number,"Elements: 13 books built from definitions and five postulates. It was a core textbook for over 2,000 years."
+888888dcab,3,js/pathmath-t3.js,122,number,False: a 1×2 and a 1×5 rectangle have different shapes.
+34e400dbf2,1,js/pathmath-t3.js,131,quote number,"René Descartes and Pierre de Fermat had the same idea in the 1630s: describe points by numbers. Once a point is (x, y), a line is an equation like y = 2x + 1, a circle of radius 5 centred at the origin is x² + y² = 25 (that is Pythagoras), and a question such as “where do they meet?” becomes “solve these equations together”."
+c3e4b6cfad,3,js/pathmath-t3.js,132,number,"Useful formulas follow from Pythagoras and averages. Distance between (x₁, y₁) and (x₂, y₂): √((x₂ − x₁)² + (y₂ − y₁)²). Midpoint: ((x₁ + x₂)/2, (y₁ + y₂)/2). Slope: (y₂ − y₁)/(x₂ − x₁). Parallel lines share a slope; perpendicular slopes multiply to −1."
+de47cda6dd,3,js/pathmath-t3.js,133,number,"Slice a cone with a flat plane and you get the conic sections: a circle, an ellipse (a stretched circle), a parabola (a U), or a hyperbola (two opposite curves). Each has a simple equation: ellipse x²/a² + y²/b² = 1, parabola y = x², hyperbola x²/a² − y²/b² = 1."
+7866d7a7f2,3,js/pathmath-t3.js,137,number,"Find the equation of the circle with centre (2, −1) and radius 3."
+e665d7238c,3,js/pathmath-t3.js,137,number,"A point is on the circle if its distance from (2, −1) is 3."
+4721ee77bf,3,js/pathmath-t3.js,137,number,Distance formula squared: (x − 2)² + (y + 1)² = 9.
+0c2d5c5e1d,3,js/pathmath-t3.js,138,number,"Set equal: x² = x + 2, so x² − x − 2 = 0."
+9521c15347,3,js/pathmath-t3.js,140,number,"Coordinates work because they turn the distance between points into arithmetic (Pythagoras) and straightness into a constant slope. Conics share one definition: points whose distance to a fixed point (focus) divided by the distance to a fixed line is constant. Less than 1 gives an ellipse, exactly 1 a parabola, more than 1 a hyperbola."
+9d5a32efbb,3,js/pathmath-t3.js,141,number,how stretched a conic is (0 for a circle)
+856c55ca23,3,js/pathmath-t3.js,153,number,"OpenStax: Precalculus 2e, chapter 10 (conics)"
+7668370283,3,js/pathmath-t3.js,161,number,"The unit circle extends trig to every angle. Walk around a circle of radius 1: at angle θ your position is (cos θ, sin θ). As you go round, sin θ rises and falls in a smooth wave. That is why sine and cosine describe sound, light, alternating current, tides and seasons: anything that goes round in cycles."
+ba15105581,3,js/pathmath-t3.js,162,number,"Angles can be measured in degrees or radians. A radian is the angle that cuts an arc equal to the radius; a full turn is 2π radians, so 180° = π. Calculus formulas are simplest in radians."
+756c9cd0ed,3,js/pathmath-t3.js,163,number,"The key identity, sin²θ + cos²θ = 1, is just Pythagoras on the unit circle. The laws of sines and cosines extend trig to triangles without right angles, which is how surveyors mapped whole countries."
+8a7e646aa4,3,js/pathmath-t3.js,166,number,A ramp rises at 6° and is 10 m long. How high does it climb?
+0955fca28a,3,js/pathmath-t3.js,167,number,"From 50 m away, the top of a tower is at an angle of 35°. How tall is it?"
+e3a5888d77,1,js/pathmath-t3.js,174,quote,"Tabulated half-chords (jya), our sine. Through Arabic and a Latin mistranslation the word became “sinus”, meaning a fold or bay."
+5cad9c38ff,3,js/pathmath-t3.js,180,number,"Learn the special angles 0°, 30°, 45°, 60°, 90° from two triangles, not by rote."
+70376974a5,1,js/pathmath-t3.js,188,quote,"Pre-calculus collects the tools calculus needs: patterns that go on forever, arrows with direction, grids of numbers, and the idea of “getting closer and closer”."
+eb5846c2f3,1,js/pathmath-t3.js,190,label number,"A sequence is an ordered list: 3, 7, 11, 15, … (arithmetic: add 4 each time) or 2, 6, 18, 54, … (geometric: multiply by 3). A series adds up a sequence. Some infinite series have finite sums: ½ + ¼ + ⅛ + … = 1. Walk half the way to a wall, then half the rest, forever: you never stop taking steps, yet the total distance is finite."
+8f9e4ece3e,3,js/pathmath-t3.js,191,number,"A vector is an arrow with size and direction, written like (3, 4). Velocity, force and wind are vectors. Add vectors tip to tail: a plane flying north at 200 km/h in a 50 km/h east wind actually travels in the direction of (50, 200)."
+bfa5366a96,3,js/pathmath-t3.js,192,number,"A matrix is a grid of numbers. Multiplying a vector by a matrix moves it: the matrix [[0, −1], [1, 0]] rotates every point 90°. Matrices store systems of equations, images (a grid of pixel values) and the connections in networks."
+9db435634b,3,js/pathmath-t3.js,193,number,"A limit describes what a value approaches. As x gets closer to 0, (sin x)/x gets closer to 1, even though at x = 0 it is undefined. Limits let calculus talk about instants and infinitely small pieces without dividing by zero."
+c665dc01bd,3,js/pathmath-t3.js,196,number,"Find the 20th term and the sum of the first 20 terms of 3, 7, 11, …"
+b441c4cf8f,3,js/pathmath-t3.js,196,number,nth term: 3 + 4(n − 1). 20th: 3 + 76 = 79.
+0f00f25aae,3,js/pathmath-t3.js,196,number,Sum = n × (first + last)/2 = 20 × (3 + 79)/2 = 820.
+3695b7ecbf,3,js/pathmath-t3.js,197,number,Geometric with first term 5 and ratio ⅓.
+c27f5ae646,3,js/pathmath-t3.js,198,number,What does (x² − 1)/(x − 1) approach as x → 1?
+0957e75975,3,js/pathmath-t3.js,198,number,Factor: (x − 1)(x + 1)/(x − 1) = x + 1 when x ≠ 1.
+75808a74cc,3,js/pathmath-t3.js,205,number,Archimedes summed a geometric series to find the area of a parabola; Oresme proved that 1 + ½ + ⅓ + ¼ + … grows without bound.
+74fe52e966,3,js/pathmath-t3.js,206,number,"Founded the Kerala school, which found infinite series for π, sine and cosine about 250 years before European mathematicians. Whether this knowledge reached Europe is unproven."
+ccff8c6c88,1,js/pathmath-t3.js,208,quote number,"Made limits precise, answering critics like Bishop Berkeley, who in 1734 mocked infinitesimals as “ghosts of departed quantities”."
+4d566a3e5b,3,js/pathmath-t3.js,211,number,Do 2×2 matrix multiplications by hand until they feel natural.
+4f92a581d3,3,js/pathmath-t3.js,211,number,"Evaluate limits numerically with a calculator (x = 0.1, 0.01, 0.001) before doing them by algebra."
+9e3d70ea52,3,js/pathmath-t4.js,12,number,"Average speed is distance ÷ time. But a car’s speedometer shows speed at an instant, when no time passes. The derivative solves this: measure the change over a tiny interval h, divide by h, and see what the ratio approaches as h shrinks toward 0. Geometrically, it is the slope of the curve at one point, the slope of the tangent line."
+af31e7cd0b,3,js/pathmath-t4.js,13,number,"Take f(x) = x². Over a small step h, the change is (x + h)² − x² = 2xh + h². Divide by h: 2x + h. As h → 0 this approaches 2x. So the derivative of x² is 2x: at x = 3 the curve is climbing at slope 6."
+3f4091d2be,3,js/pathmath-t4.js,18,number,A stone falls s(t) = 4.9t² metres after t seconds. How fast after 3 s?
+0f903b7278,3,js/pathmath-t4.js,19,number,A farmer has 100 m of fence for a rectangle against a wall (3 sides fenced). Maximize the area.
+6121dc41d8,3,js/pathmath-t4.js,19,number,"Sides x, x and 100 − 2x. Area A = x(100 − 2x) = 100x − 2x²."
+c586432c59,1,js/pathmath-t4.js,28,quote,Developed his “method of fluxions” in his twenties while Cambridge was closed by plague; he published it much later.
+93b753cfac,3,js/pathmath-t4.js,29,number,"Published calculus first, with the dy/dx and ∫ notation we still use. A bitter priority dispute followed; a 1712 Royal Society report favouring Newton was drafted by Newton himself."
+a9c7a518e8,3,js/pathmath-t4.js,32,number,Check answers numerically: (f(x + 0.001) − f(x))/0.001 should be close.
+3ee61fbaf8,3,js/pathmath-t4.js,35,number,MIT OCW 18.01SC Single Variable Calculus
+dcca48deff,1,js/pathmath-t4.js,42,quote,"To find the area under a curve, slice it into thin rectangles, add their areas, and let the slices get thinner. The limit of these sums is the definite integral, written ∫ₐᵇ f(x) dx: the ∫ is a stretched S for “sum”, and dx is the width of a slice."
+9c90106a37,3,js/pathmath-t4.js,45,number,"Finding antiderivatives is a skill: reverse the power rule (∫ xⁿ dx = xⁿ⁺¹/(n + 1) + C), undo the chain rule (substitution), and undo the product rule (integration by parts). Many integrals have no formula at all and are computed numerically."
+c355ba2b5a,3,js/pathmath-t4.js,49,number,A car accelerates with speed v(t) = 2t m/s. How far does it go in 10 s?
+5f3ae9b424,3,js/pathmath-t4.js,49,number,Distance = ∫₀¹⁰ 2t dt = t² from 0 to 10.
+f1451bf2a0,3,js/pathmath-t4.js,58,number,Recognized and used the fundamental theorem; Leibniz introduced the ∫ sign in 1675.
+7c7f7888ec,3,js/pathmath-t4.js,63,number,Area between y = x and y = x² from 0 to 1
+f0938ba0cb,3,js/pathmath-t4.js,72,number,"An infinite series converges if its partial sums settle on a number. ½ + ¼ + ⅛ + … converges to 1. The harmonic series 1 + ½ + ⅓ + ¼ + … does not: it grows forever, though incredibly slowly. Tests such as the ratio test tell you which is which."
+51d2c5cb23,3,js/pathmath-t4.js,74,number,"Plugging ix into the series for eˣ and sorting real and imaginary parts gives Euler’s formula e^(ix) = cos x + i sin x directly. Series also give surprising sums: Euler showed in 1734–35 that 1 + 1/4 + 1/9 + 1/16 + … = π²/6, linking squares of whole numbers to circles."
+41d4b05aff,3,js/pathmath-t4.js,79,number,Use sin x ≈ x − x³/6 to estimate sin(0.5).
+ce9f6e54b3,3,js/pathmath-t4.js,79,number,True value: 0.4794. Two terms give three correct digits.
+ccf777bcd8,3,js/pathmath-t4.js,85,number,"Series for π, sine and cosine, recorded in later Kerala texts such as the Yuktibhasa (c. 1530)."
+cbbcd9463b,3,js/pathmath-t4.js,86,number,"Series for arctangent, the binomial series, and Taylor’s general method (1715)."
+74a887518f,3,js/pathmath-t4.js,87,number,Solved the Basel problem: the sum of 1/n² is π²/6.
+273790ada1,3,js/pathmath-t4.js,90,number,MP3 and JPEG compression use cosine series
+e96acbfd65,3,js/pathmath-t4.js,91,number,"Memorize the series for eˣ, sin x, cos x and 1/(1 − x)."
+b3e3894b6a,3,js/pathmath-t4.js,94,number,"OpenStax: Calculus Volume 2, chapters 5–6"
+40b6482493,3,js/pathmath-t4.js,99,number,"The world has more than one variable: multivariable calculus handles surfaces, flows and fields in 3D."
+dcf4f31ee0,3,js/pathmath-t4.js,107,number,"For f(x, y) = x²y + 3y, find ∂f/∂x and ∂f/∂y at (1, 2)."
+340402f6e7,3,js/pathmath-t4.js,107,number,"Gradient (4, 4): steepest climb is diagonal."
+ac0b14db4b,3,js/pathmath-t4.js,108,number,Maximize xy subject to x + y = 10 using a Lagrange multiplier.
+78ddedf1e0,3,js/pathmath-t4.js,117,number,Stokes’ theorem appeared on a Cambridge exam in 1854; Heaviside rewrote Maxwell’s 20 equations as four in vector form.
+f16d0a750c,3,js/pathmath-t4.js,120,number,Visualize everything with 3D graphing tools.
+56ac1d8956,3,js/pathmath-t4.js,132,number,"The determinant tells you how a matrix scales area (or volume). If it is 0, the matrix squashes space flat and can’t be undone: the system has no unique solution."
+0b9bb29c66,3,js/pathmath-t4.js,133,number,"Eigenvectors are directions that a matrix only stretches, without turning: Av = λv. The stretch factor λ is the eigenvalue. For [[2, 1], [1, 2]], the direction (1, 1) is stretched by 3 and (1, −1) by 1. Eigenvectors reveal the natural axes of a problem: the main directions of variation in data, the vibration modes of a bridge, the long-run state of a process, and the ranking of web pages."
+117d4e67d3,3,js/pathmath-t4.js,136,number,"Solve x + 2y = 5, 3x + 4y = 11 with elimination."
+b363f33257,3,js/pathmath-t4.js,136,number,Subtract 3 × (row 1) from row 2: −2y = −4.
+7fd3339866,3,js/pathmath-t4.js,137,number,"Find the determinant of [[3, 1], [2, 4]] and say what it means."
+1645cdb725,1,js/pathmath-t4.js,139,quote number,"Linear means “respects addition and scaling”: A(u + v) = Au + Av and A(cv) = cAv. Because of that, knowing what A does to a few basis vectors (like (1, 0) and (0, 1)) tells you what it does to every vector. The columns of a matrix are exactly where the basis vectors land, which is why matrix multiplication is defined the way it is."
+2ff45451b8,3,js/pathmath-t4.js,143,number,"Chapter 8 of the Nine Chapters (fangcheng) solved systems by an elimination method on a counting board, about 1,600 years before Gauss."
+a1a31e99e3,1,js/pathmath-t4.js,146,quote,Popularized the prefix “eigen-” (German for “own”).
+6721fadaed,3,js/pathmath-t4.js,149,number,Every 3D rotation and camera view is a matrix
+6b6343d22c,3,js/pathmath-t4.js,150,number,Watch 3Blue1Brown’s series to see matrices as motions.
+4ff9686ff8,3,js/pathmath-t4.js,150,number,"Do elimination by hand on 3×3 systems until fluent, then use software."
+23c478db90,3,js/pathmath-t4.js,150,number,"Follow Gilbert Strang’s MIT 18.06 lectures, free online."
+887c4e6300,3,js/pathmath-t4.js,153,number,MIT OCW 18.06SC Linear Algebra (Gilbert Strang)
+d868038a7f,3,js/pathmath-t4.js,153,number,"Linear Algebra Done Right, 4th ed. (free, Sheldon Axler)"
+0c84021726,3,js/pathmath-t4.js,162,number,"Real growth hits limits. The logistic equation dP/dt = rP(1 − P/K) grows exponentially at first and levels off at a carrying capacity K. The SIR model splits a population into susceptible, infected and recovered groups and predicts the rise and fall of an epidemic. Predator–prey equations produce linked cycles of foxes and rabbits."
+9dd1c2f23f,3,js/pathmath-t4.js,166,number,"Coffee at 90 °C sits in a 20 °C room and cools by Newton’s law: dT/dt = −k(T − 20), with k = 0.1 per minute. Temperature after 10 minutes?"
+e47a477afd,3,js/pathmath-t4.js,166,number,T(10) = 20 + 70e^(−1) ≈ 20 + 25.8 = 45.8 °C.
+b01f2b1322,3,js/pathmath-t4.js,167,number,"A population of 1,000 bacteria doubles every 3 hours. Write the equation and find the population after 12 hours."
+11c166ecad,3,js/pathmath-t4.js,174,number,"Solved the first families of equations; Johann Bernoulli’s 1696 challenge on the fastest slide (the brachistochrone) drew solutions from Newton, Leibniz and others."
+45d469cf84,3,js/pathmath-t4.js,179,number,Follow MIT 18.03 for the standard toolkit.
+d57a0e1f10,3,js/pathmath-t4.js,180,number,A substance has half-life 5 years. What k gives dN/dt = −kN?
+d51df69cc2,1,js/pathmath-t4.js,189,quote,"Logic studies statements that are true or false and how they combine: AND (both), OR (at least one), NOT, and IF…THEN. “If it rains, the ground is wet” is not the same as “if the ground is wet, it rained” (the converse), but it is equivalent to “if the ground is dry, it did not rain” (the contrapositive). Truth tables check every case mechanically, and computer circuits are built from exactly thes"
+299f6dc567,3,js/pathmath-t4.js,191,number,"Counting is harder than it sounds. The multiplication principle: 3 shirts and 4 trousers give 3 × 4 = 12 outfits. Arranging n things in order: n! ways (5 books: 120 orders). Choosing k from n when order doesn’t matter: C(n, k) = n!/(k!(n − k)!). A lottery picking 6 of 49 has 13,983,816 possible tickets."
+6d2461c7d6,3,js/pathmath-t4.js,195,number,How many ways can a committee of 3 be chosen from 10 people?
+d7d0d0d27e,3,js/pathmath-t4.js,196,number,Everyone in a room of 8 shakes hands once with everyone else. How many handshakes?
+b45a67b11b,3,js/pathmath-t4.js,196,number,"Each of 8 shakes 7 hands: 56, but each handshake is counted twice."
+1bfae9744b,1,js/pathmath-t4.js,198,label number,"C(n, k) divides n!/(n − k)! (the ordered choices) by k! because each unordered group of k appears in k! different orders. Euler’s 1736 bridge argument shows why some routes are impossible: every time you pass through a land mass you use two bridges, so a walk crossing every bridge once needs every land mass, except possibly the start and end, to have an even number of bridges."
+0002c0631f,1,js/pathmath-t4.js,200,quote,“if not B then not A”: equivalent to “if A then B”
+437a867964,3,js/pathmath-t4.js,200,number,put n + 1 things in n boxes and some box has two
+73d72d1ee4,3,js/pathmath-t4.js,202,number,Pingala’s work on poetic metres counted patterns of long and short syllables; Halayudha’s 10th-century commentary describes the triangle of binomial coefficients.
+0cd5d17a68,3,js/pathmath-t4.js,203,number,"The same triangle appears in Persia and China (Yang Hui, 1261) centuries before Pascal’s 1654 treatise."
+984bea2d29,3,js/pathmath-t4.js,205,number,"Turned logic into algebra. In 1937 Claude Shannon showed Boolean algebra describes switching circuits, the basis of digital computers."
+c705921061,1,js/pathmath-t4.js,210,quote,Contrapositive of “if n is even then n² is even”
+7d941473e3,3,js/pathmath-t4.js,212,number,MIT OCW 6.042J Mathematics for Computer Science
+12dca2de7d,1,js/pathmath-t4.js,220,quote number,Direct proof: assume the “if” part and reason step by step to the “then” part. To prove the sum of two even numbers is even: write them as 2a and 2b; their sum 2(a + b) is a multiple of 2. ∎
+86ce292d13,3,js/pathmath-t4.js,221,number,"Proof by contradiction: assume the opposite and show it leads to nonsense. Suppose √2 = p/q in lowest terms. Then p² = 2q², so p² is even, so p is even: p = 2r. Then 4r² = 2q², so q² = 2r² and q is even too. But then p/q was not in lowest terms. Contradiction, so √2 is irrational. ∎"
+dc9a605e6f,3,js/pathmath-t4.js,222,number,"Proof by induction proves a statement for every whole number, like knocking over infinitely many dominoes: show it holds for 1 (the first domino falls), and show that if it holds for n it holds for n + 1 (each domino knocks over the next). Example: 1 + 2 + … + n = n(n + 1)/2."
+8a4f443e69,1,js/pathmath-t4.js,223,quote number,"Contrapositive, cases, and counterexamples round out the toolkit. To prove “if n² is even then n is even”, prove the easier contrapositive: if n is odd, n = 2k + 1, then n² = 4k² + 4k + 1 is odd. To disprove “all primes are odd”, one counterexample (2) is enough."
+601537a48b,3,js/pathmath-t4.js,226,number,Prove by induction that 1 + 3 + 5 + … + (2n − 1) = n².
+3f8ebb846b,3,js/pathmath-t4.js,226,number,Assume true for n. Add the next odd number: n² + (2n + 1) = (n + 1)².
+5552b8344b,3,js/pathmath-t4.js,226,number,"So it holds for n + 1, and by induction for all n. ∎"
+70b8e35540,3,js/pathmath-t4.js,227,number,Let N = p₁p₂…pₖ + 1. Dividing N by any pᵢ leaves remainder 1.
+8a7486a421,1,js/pathmath-t4.js,229,quote,A proof is convincing because each step follows from definitions or earlier results by rules of logic that cannot fail. That is also why definitions matter so much at this level: you cannot prove anything about “even” or “continuous” until you have pinned down exactly what those words mean.
+77e6f45bd2,3,js/pathmath-t4.js,233,number,The infinitude of primes (Elements IX.20) is still a model proof.
+29ce834c42,3,js/pathmath-t4.js,236,number,Computers now check proofs step by step (see tier 9).
+a236e587bc,3,js/pathmath-t4.js,240,number,"(2a + 1)(2b + 1) = 2(2ab + a + b) + 1, which is odd."
+b0f6709fcb,3,js/pathmath-t4.js,240,number,Disprove: n² + n + 41 is prime for every n.
+9f9b3f6d54,3,js/pathmath-t4.js,250,number,"The real numbers have one crucial property the fractions lack: no gaps. Every bounded set of reals has a least upper bound (completeness). The fractions below √2 have no fraction as their least upper bound; the reals do. Completeness is what guarantees that limits exist, that continuous functions take every value in between (intermediate value theorem), and that they reach a maximum on a closed in"
+db98bab933,3,js/pathmath-t4.js,255,number,So 1/n is eventually within any tolerance of 0. ∎
+3fcd969a03,3,js/pathmath-t4.js,256,number,Show x³ + x − 1 = 0 has a solution between 0 and 1.
+8f58fcca2b,3,js/pathmath-t4.js,256,number,"f is continuous, so by the intermediate value theorem it equals 0 somewhere in between."
+663e690a55,1,js/pathmath-t4.js,258,quote,"Each theorem rests on completeness: if the number line had gaps, a continuous curve could cross from negative to positive by jumping through a gap, and limits could “approach” a hole. The definitions are made so that the familiar rules of calculus become provable theorems instead of assumptions."
+8d42295d0d,3,js/pathmath-t4.js,267,number,Use a free text such as Lebl’s Basic Analysis and MIT 18.100A lectures.
+dd974c2fe8,3,js/pathmath-t4.js,283,number,"z² = (x² − y²) + i(2xy), so u = x² − y², v = 2xy."
+ab454d8880,3,js/pathmath-t4.js,295,number,The prime number theorem was first proved this way (1896)
+4236c30009,3,js/pathmath-t4.js,299,number,MIT OCW 18.04 Complex Variables with Applications
+0bd9f8ab47,3,js/pathmath-t4.js,306,number,"A group is a set with a way to combine elements that satisfies four rules: combining stays in the set (closure), grouping doesn’t matter (associativity), there is an element that changes nothing (identity), and every element can be undone (inverses). The whole numbers under addition form a group. So do the symmetries of a square: 4 rotations and 4 flips, 8 moves in all."
+792f25eff5,3,js/pathmath-t4.js,308,number,"A ring has two operations, like + and × for integers or for polynomials. A field is a ring where you can also divide by anything except 0: the rationals, the reals, the complex numbers, and the integers modulo a prime p."
+6eab55d99c,3,js/pathmath-t4.js,309,number,Galois theory connects these ideas to equations. Each polynomial has a group of symmetries of its roots. A formula using only roots (like the quadratic formula) exists exactly when that group can be broken down in a certain way; for most degree-5 equations it cannot. That is why there is no quintic formula.
+aaba8c3f25,3,js/pathmath-t4.js,312,number,"Identity: 1. Inverses: 1·1, 2·3, 4·4 all give 1 mod 5. ✓"
+a1d415ec19,3,js/pathmath-t4.js,313,number,Label corners 1–4. Rotate 90° then flip left-right sends corner 1 to a different place than flip then rotate.
+c276df02cf,1,js/pathmath-t4.js,319,deaths number,"Studied how the roots of an equation can be shuffled. Galois found exactly when an equation can be solved by roots; he died after a duel in 1832, aged 20, and his work was published in 1846."
+dfc94f1a21,3,js/pathmath-t4.js,321,number,"Founded modern abstract algebra (rings and ideals); her 1918 theorem links symmetries to conservation laws in physics. As a woman, and later as a Jewish academic in Nazi Germany, she faced barriers and in 1933 was dismissed and emigrated to the US."
+6e75b380c6,1,js/pathmath-t4.js,322,quote number,"Classified every finite simple group, the “atoms” of symmetry, in tens of thousands of pages; the largest exceptional one, the Monster, has about 8 × 10⁵³ elements."
+1965c51ba7,3,js/pathmath-t4.js,324,number,There are exactly 230 crystal symmetry groups in 3D
+3d35c62387,3,js/pathmath-t4.js,324,number,Any Rubik’s cube position can be solved in at most 20 moves (proved in 2010 with computer help)
+08406da647,3,js/pathmath-t4.js,341,number,8 − 12 + 6 = 2: the same for every shape topologically like a sphere.
+345429f8c8,3,js/pathmath-t4.js,342,number,"Is the interval (0, 1) compact? Is [0, 1]?"
+2fdf4502a7,3,js/pathmath-t4.js,342,number,"(0, 1) is bounded but not closed: f(x) = x never reaches a maximum. Not compact."
+baf5a8b996,1,js/pathmath-t4.js,344,quote,"Defining continuity through open sets strips away everything except what continuity really needs. Because the definition is so general, theorems proved once (like “a continuous image of a compact set is compact”) apply in every setting at the same time."
+b1141db900,3,js/pathmath-t4.js,348,number,The bridges of Königsberg and V − E + F = 2 for polyhedra.
+37f1ac5a4c,1,js/pathmath-t4.js,349,quote,Listing coined “topology”; both described the one-sided Möbius strip.
+c4232a9cb6,3,js/pathmath-t4.js,353,number,"Topological phases of matter (Nobel Prize in Physics, 2016)"
+4554bb6e94,1,js/pathmath-t4.js,364,quote number,"Every whole number above 1 factors into primes in exactly one way (the fundamental theorem of arithmetic): 360 = 2³ × 3² × 5. Primes are the atoms of multiplication. There are infinitely many (Euclid’s proof is in “How to write proofs”), but they thin out: near a number N, roughly one in every ln N numbers is prime."
+fc86ba78c8,3,js/pathmath-t4.js,366,number,"Modular arithmetic is clock arithmetic: 15 ≡ 3 (mod 12) because they leave the same remainder. You can add and multiply mod n and the rules still work. Fermat’s little theorem says that if p is prime and a is not a multiple of p, then a^(p−1) ≡ 1 (mod p), which makes enormous powers easy to reduce."
+d9998c9fef,3,js/pathmath-t4.js,370,number,"Find gcd(252, 198) with Euclid’s algorithm."
+def4d840fd,3,js/pathmath-t4.js,371,number,"100 = 6 × 16 + 4, so 3¹⁰⁰ ≡ 3⁴ = 81 ≡ 4 (mod 7)."
+fd5f10a083,1,js/pathmath-t4.js,379,quote number,Solved equations like x² − 61y² = 1 with the cyclic “chakravala” method.
+b30ebe9ba5,3,js/pathmath-t4.js,381,number,"The prime number theorem was proved; RSA was published. Clifford Cocks at Britain’s GCHQ had found it in 1973, but it stayed secret until 1997."
+187c36fd12,3,js/pathmath-t4.js,394,number,"A probability is a number from 0 (impossible) to 1 (certain). For equally likely outcomes it is favourable ÷ total: rolling a sum of 7 with two dice has 6 of 36 outcomes, so ⅙. Independent events multiply: two heads in a row is ½ × ½ = ¼. The expected value is the long-run average: a $1 lottery ticket paying $1,000,000 with probability 1 in 14 million is worth about 7 cents."
+6440c4d040,3,js/pathmath-t4.js,395,number,"Conditional probability changes with information. Bayes’ theorem says how: P(A | B) = P(B | A) P(A) / P(B). Suppose a disease affects 1% of people and a test catches 90% of cases but also flags 9% of healthy people. A positive result means only about a 9% chance of disease, because the healthy group is so much bigger. Doctors, judges and juries often get this wrong."
+b1525c1a1c,3,js/pathmath-t4.js,397,number,"Statistics turns data into claims with stated uncertainty. A poll of 1,000 people has a margin of error of about ±3 points. A p-value measures how surprising the data would be if there were no real effect; it is not the probability the effect is real. Testing many hypotheses and reporting the lucky one (p-hacking) produces false discoveries, part of why many published findings fail to replicate."
+fffc1ee253,3,js/pathmath-t4.js,400,number,P(positive) = 0.01 × 0.9 + 0.99 × 0.09 = 0.0981.
+2ab6d48b52,3,js/pathmath-t4.js,400,number,"P(disease | positive) = 0.009 / 0.0981 ≈ 0.092, about 9%."
+1c574c6b17,3,js/pathmath-t4.js,401,number,"A fair coin is flipped 100 times. About how many heads, and how much variation is normal?"
+056c10ef9d,3,js/pathmath-t4.js,401,number,Mean = 50. Standard deviation = √(100 × ½ × ½) = 5.
+5d15d74168,3,js/pathmath-t4.js,401,number,About 95% of the time you get between 40 and 60 heads.
+3e929ddaf2,1,js/pathmath-t4.js,409,deaths,Bayes’ essay (published after his death by Richard Price); Laplace’s analytic theory of probability.
+76dc5777b6,1,js/pathmath-t4.js,410,quote,"Chi-square tests, the t-test (Gosset, a Guinness brewer, writing as “Student”), randomized experiments and hypothesis testing. Pearson and Fisher were also leading eugenicists."
+3723b9a056,3,js/pathmath-t4.js,413,number,Randomized trials (the first modern one tested streptomycin in 1948); reading test results
+3823125fb4,3,js/pathmath-t4.js,413,number,Pricing risk; Edmond Halley built a life table in 1693
+d3899df2f6,3,js/pathmath-t4.js,415,number,"If P(A) = 0.3 and P(B) = 0.5 and they are independent, P(A and B)?"
+61cfe63ef5,3,js/pathmath-t4.js,415,number,Margin of error for a poll of 400 (about 1/√n)
+515564cfc8,3,js/pathmath-t4.js,417,number,MIT OCW 18.650 Statistics for Applications
+5cce462cab,1,js/pathmath-t6.js,14,quote,"Lebesgue compared his method to counting money: Riemann adds coins in the order they come out of your pocket; Lebesgue first sorts them by value, then adds “how many of each”. Sorting by output value instead of by input position is what makes the new integral so robust."
+5ad1ab9452,3,js/pathmath-t6.js,15,number,"The payoff is powerful theorems for swapping limits and integrals (monotone and dominated convergence) and a solid foundation for probability: an event is a measurable set, a probability is a measure of total size 1, and an expected value is an integral."
+3a96509831,3,js/pathmath-t6.js,18,number,A finite (or countable) union of measure-zero sets has measure 0.
+c2d3f84ce4,3,js/pathmath-t6.js,19,number,"Pick a number uniformly at random from [0, 1]. What is the probability it is a fraction?"
+94c21df419,1,js/pathmath-t6.js,19,quote number,"So the probability is 0, even though it is possible. “Probability zero” is not the same as “impossible”."
+3cc8d27a7f,1,js/pathmath-t6.js,30,quote,Pricing uses a change of measure to a “risk-neutral” probability
+a058e85c83,1,js/pathmath-t6.js,31,quote,Work examples of measure-zero sets until “almost everywhere” feels natural.
+b5cce6fd21,1,js/pathmath-t6.js,43,quote,"Operators are infinite-dimensional matrices: differentiation, integration, or “multiply by x” act on functions linearly. The spectral theorem, the infinite version of eigenvectors, says nice operators can be broken into simple stretches along perpendicular directions."
+aac5f9d323,3,js/pathmath-t6.js,47,number,"Show sin x and sin 2x are perpendicular on [0, 2π]."
+8c97edcd37,3,js/pathmath-t6.js,47,number,"Using sin a sin b = ½[cos(a − b) − cos(a + b)], both cosines integrate to 0 over a full period."
+7aff240c67,1,js/pathmath-t6.js,55,quote,"Banach spaces; problems traded in the Scottish Café’s “Scottish Book”, some with prizes like a live goose."
+16aa07b3f2,3,js/pathmath-t6.js,57,number,Made the Dirac delta rigorous as a distribution; Fields Medal 1950.
+6a9f15b45e,3,js/pathmath-t6.js,59,number,Fourier and wavelet bases; JPEG 2000 uses wavelets
+94c61e43d1,3,js/pathmath-t6.js,61,number,Eigenvalues of d²/dx² with f(0) = f(π) = 0
+ccee4c7c4d,3,js/pathmath-t6.js,63,number,MIT OCW 18.102 Introduction to Functional Analysis
+3da9dee483,3,js/pathmath-t6.js,71,number,"Homology counts holes of each dimension: connected pieces, loops (one-dimensional holes), hollow cavities (two-dimensional holes), and so on. For surfaces, the Euler characteristic V − E + F = 2 − 2g counts the handles g: 2 for a sphere, 0 for a torus."
+3cad05a186,3,js/pathmath-t6.js,73,number,"The Poincaré conjecture asked whether every closed 3-dimensional shape in which every loop shrinks is a 3-sphere. It was settled in higher dimensions first (1961 and 1982) and finally in three dimensions by Grigori Perelman in 2002–2003, the only Millennium Prize problem solved so far. He declined both the Fields Medal and the $1 million prize."
+bee43884d6,3,js/pathmath-t6.js,76,number,Compute V − E + F for a torus made from a 3 × 3 grid of squares glued at opposite edges.
+a1d7b71d7f,3,js/pathmath-t6.js,85,number,"Proved the Poincaré conjecture in dimensions 5 and up, and in dimension 4."
+febfd985ae,3,js/pathmath-t6.js,86,number,"A new polynomial for telling knots apart, with links to physics (Fields Medal 1990)."
+eec5db302b,3,js/pathmath-t6.js,87,number,"Proved the 3D Poincaré conjecture using Richard Hamilton’s Ricci flow, posting his papers online without journal publication."
+ab93fe286d,3,js/pathmath-t6.js,100,number,"On a sphere, the shortest path between two points (a geodesic) is an arc of a great circle, which is why flights from New York to Tokyo pass near Alaska. Draw a triangle from the North Pole to two points on the equator a quarter-turn apart: all three angles are 90°, summing to 270°. The extra 90° (the angular excess) measures the curvature inside the triangle."
+b9f8c3891a,1,js/pathmath-t6.js,101,quote number,"Gauss’s “remarkable theorem” (Theorema Egregium, 1827) says curvature can be measured from inside a surface, by measuring distances alone. One consequence: no flat map of the Earth can keep all distances correct. Another, from the kitchen: fold a pizza slice along its length and it stops drooping, because a surface cannot bend in two directions without stretching."
+92ffb6b0ae,3,js/pathmath-t6.js,102,number,"Riemann (1854) generalized this to spaces of any dimension, with a metric that says how to measure lengths at each point. Tensors are the bookkeeping tools for how quantities change from point to point."
+0d2a72c112,3,js/pathmath-t6.js,103,number,"Einstein’s general relativity (1915) says gravity is the curvature of spacetime. Clocks run at different rates in different gravity and at different speeds; GPS satellite clocks gain about 38 microseconds a day relative to the ground, and without correcting for it, positions would drift by kilometres per day."
+a6e7bf861c,3,js/pathmath-t6.js,106,number,"A sphere of radius R has a triangle with angles 90°, 90°, 90°. What is its area?"
+ccaac08ce7,3,js/pathmath-t6.js,106,number,"= R² × (3π/2 − π) = πR²/2, exactly one eighth of the sphere."
+ee4ba67356,3,js/pathmath-t6.js,109,number,"Curvature is intrinsic because it shows up in measurements made entirely on the surface: angle sums of triangles, circumferences of circles (smaller than 2πr on a sphere), and how a vector rotates when carried around a loop. Since these are measurements, any inhabitant of the space can detect curvature, which is how astronomers test whether the universe is flat."
+b9ba28a783,3,js/pathmath-t6.js,120,number,Start with curves and surfaces in 3D before abstract manifolds.
+bca98d2642,3,js/pathmath-t6.js,121,number,Angle sum of a triangle on a sphere is (more/less) than 180°
+fc3485cec5,3,js/pathmath-t6.js,130,number,"Commutative algebra studies rings such as polynomials in several variables. Hilbert’s Nullstellensatz links algebra and geometry exactly: shapes defined by polynomial equations correspond to certain ideals (special subsets) of a polynomial ring. Every geometric question about such shapes becomes an algebraic question, and vice versa. Algebraic geometry (tier 9) is built on this bridge."
+d3851debc4,3,js/pathmath-t6.js,131,number,"Representation theory studies a group by letting it act as matrices. The rotations of a square by 0°, 90°, 180°, 270° can be represented by four 2×2 rotation matrices; they can also be represented by the numbers 1, i, −1, −i. Breaking representations into irreducible (unsplittable) pieces is like breaking a sound into pure tones."
+6c6238ccae,3,js/pathmath-t6.js,133,number,"In physics, symmetry groups determine what particles can exist. Wigner classified particles by representations of the symmetry group of spacetime. In 1961 Murray Gell-Mann (and Yuval Ne’eman) organized particles by the group SU(3) and predicted a missing particle, the Ω⁻, found in 1964."
+702a3fefc2,3,js/pathmath-t6.js,136,number,"Rotations: 1, i, −1, −i. Combining rotations = multiplying: i × i = −1 is two quarter-turns."
+5699c86dc9,3,js/pathmath-t6.js,137,number,"(x, y) ↔ the single point (0, 0). Smaller shapes, bigger ideals."
+8434e83694,1,js/pathmath-t6.js,143,quote,Unique factorization failed in some number systems; “ideal numbers” and then ideals repaired it.
+5da8c89d3a,3,js/pathmath-t6.js,149,number,The Standard Model’s symmetry group SU(3) × SU(2) × U(1)
+93544acd6f,3,js/pathmath-t6.js,151,number,How many irreducible representations does a group of order 4 that is cyclic have?
+966cdf0d28,3,js/pathmath-t6.js,151,number,Which ideal corresponds to the circle x² + y² = 1?
+8d56480e9e,1,js/pathmath-t6.js,162,current number,Nonlinear PDEs are much harder. The Navier–Stokes equations of fluid flow can produce turbulence; whether smooth solutions can blow up is a Millennium Prize problem with major developments in 2026 (see tier 10).
+2427932e9d,3,js/pathmath-t6.js,167,number,Frequencies nc/(2L): a fundamental and its whole-number multiples (harmonics).
+2d65d402e9,3,js/pathmath-t6.js,176,number,Richardson forecast weather by hand (slowly and badly); the first computer forecast ran on ENIAC in 1950.
+13a91d7e86,3,js/pathmath-t6.js,180,number,MIT 18.152 and 18.303 materials are free.
+94bb5e8f4a,3,js/pathmath-t6.js,181,number,Frequencies of a string with fundamental 110 Hz
+c053deb1fc,3,js/pathmath-t6.js,183,number,MIT OCW 18.152 Introduction to Partial Differential Equations
+a8aaf47617,3,js/pathmath-t6.js,191,number,"Brownian motion is the limit of a random walk with ever smaller, ever faster steps. Its path is continuous but jagged at every scale, and its spread grows like the square root of time: after 4 times as long it has wandered about twice as far. That √t rule is why risk over a year is roughly √252 times daily risk."
+e7e6a10dd8,3,js/pathmath-t6.js,193,number,"The standard model of a stock price is geometric Brownian motion, dS = μS dt + σS dW: average growth μ plus random shocks scaled by volatility σ. One surprising consequence: even with zero average return, the typical (median) outcome loses money. With σ = 30% a year, the median after one year is e^(−0.045) ≈ 0.956 of the start, a 4.4% loss, while the mean stays flat. Volatility drags down compound"
+0ea295685c,3,js/pathmath-t6.js,194,number,"The Black–Scholes model (1973) prices options by building a portfolio that cancels the randomness. It transformed finance, but its assumptions (normal returns, constant volatility, no jumps) fail in crises. Real markets have fat tails: the 22.6% one-day crash of October 1987 is essentially impossible under the model."
+0a289ff210,3,js/pathmath-t6.js,197,number,Daily volatility is 1%. What is the approximate yearly volatility?
+12c5cba51a,3,js/pathmath-t6.js,197,number,Spread grows like √t; there are about 252 trading days.
+d782da5b89,3,js/pathmath-t6.js,198,number,d(W²) = 2W dW + ½ × 2 × (dW)² = 2W dW + dt.
+5534123dbb,3,js/pathmath-t6.js,205,number,Brownian motion explained by molecular collisions; Perrin’s experiments confirmed atoms exist (Nobel 1926).
+fdce4645b1,1,js/pathmath-t6.js,207,deaths number,"A French soldier who sent a sealed envelope to the Academy of Sciences before his death in 1940; opened in 2000, it contained a version of Itô’s results."
+a5fc177365,1,js/pathmath-t6.js,208,deaths number,"Option pricing (Nobel 1997 for Scholes and Merton; Black had died). In 1998 Long-Term Capital Management, with Scholes and Merton as partners, collapsed and needed a Fed-organized rescue."
+2a458650b0,3,js/pathmath-t6.js,210,number,"Filtering noisy signals (Kalman–Bucy filter, 1961), used in navigation"
+58c5cbe569,3,js/pathmath-t6.js,211,number,MIT 18.S096 (math with applications in finance) is free; treat every model’s assumptions with suspicion.
+c326099651,3,js/pathmath-t6.js,212,number,"If daily volatility is 2%, roughly what is it over 25 trading days?"
+e36ae38455,3,js/pathmath-t6.js,214,number,MIT OCW 18.S096 Topics in Mathematics with Applications in Finance
+9327558fd9,3,js/pathmath-t6.js,221,number,"Computers store most numbers approximately. In standard floating point, 0.1 + 0.2 gives 0.30000000000000004 because 0.1 has no exact binary form, just as ⅓ has no exact decimal form. Tiny errors like this can grow, so methods must be designed to keep them under control (stability)."
+2d180f4ace,3,js/pathmath-t6.js,222,number,"Newton’s method finds roots by repeatedly following the tangent line: x ← x − f(x)/f′(x). To find √2, use x ← (x + 2/x)/2. Starting from 1: 1.5, 1.41667, 1.414216: the number of correct digits roughly doubles each step. The same iteration was used on Babylonian clay tablets."
+59ee34556e,1,js/pathmath-t6.js,224,deaths number,Choices matter. In 1991 a Patriot missile battery’s clock drifted because 0.1 seconds was stored inexactly; after 100 hours the error was about a third of a second and the system failed to intercept a Scud missile that killed 28 US soldiers. In 1996 the Ariane 5 rocket destroyed itself when a 64-bit number was squeezed into a 16-bit slot.
+67160125d0,3,js/pathmath-t6.js,227,number,"Two Newton steps for √10, starting at 3."
+9dc1448339,3,js/pathmath-t6.js,227,number,x₂ = (3.1667 + 10/3.1667)/2 ≈ 3.16228. True: 3.162278.
+f4328ab256,3,js/pathmath-t6.js,228,number,"Euler’s method for dy/dt = y, y(0) = 1, step 0.5, to t = 1."
+70f2f9dad2,3,js/pathmath-t6.js,228,number,y(1) ≈ 1.5 + 0.5 × 1.5 = 2.25. True value e ≈ 2.718: small steps matter.
+2b936bb99a,3,js/pathmath-t6.js,234,number,"Tablet YBC 7289 gives √2 to about six decimal places, likely by the averaging method now called Newton’s."
+4adf0a385a,3,js/pathmath-t6.js,237,number,"The fast Fourier transform, later found in unpublished notes by Gauss from about 1805."
+5baa34b8c7,3,js/pathmath-t6.js,238,number,The IEEE 754 floating-point standard used by nearly every computer (Kahan received the Turing Award in 1989).
+a5546bbc91,3,js/pathmath-t6.js,242,number,Why is 0.1 + 0.2 ≠ 0.3 on most computers?
+6cccd8e064,3,js/pathmath-t6.js,244,number,MIT OCW 18.335J Introduction to Numerical Methods
+dafbb67609,3,js/pathmath-t6.js,254,number,"Some problems are combinatorial: the best order to visit 50 cities (the travelling salesperson problem) has more possible tours than there are atoms on Earth. No known method solves all such problems quickly; operations researchers use clever bounds and heuristics, and it connects to the P vs NP question."
+6951300b92,3,js/pathmath-t6.js,257,number,"Maximize 3x + 2y with x + y ≤ 4, x + 3y ≤ 6, x, y ≥ 0."
+e328c6df36,3,js/pathmath-t6.js,257,number,"Corners: (0, 0) → 0; (4, 0) → 12; (0, 2) → 4; (3, 1) → 11."
+7921c6c10d,3,js/pathmath-t6.js,258,number,Gradient descent on f(x) = (x − 3)² from x = 0 with step 0.25.
+67a577d9e2,3,js/pathmath-t6.js,258,number,f′(x) = 2(x − 3). Step: x ← x − 0.25 × 2(x − 3).
+37e48ea82c,3,js/pathmath-t6.js,258,number,0 → 1.5 → 2.25 → 2.625 → … approaching 3.
+22105b5272,1,js/pathmath-t6.js,260,quote,"In linear programming, moving in any direction changes the objective at a constant rate, so you can always keep improving until you hit an edge, then a corner. At an optimum with constraints, Lagrange multipliers balance the pull of the objective against the push of each constraint, and those multipliers have meaning: they are the “shadow prices” of each resource."
+4dc0d4a13b,1,js/pathmath-t6.js,265,quote,Invented linear programming to plan production at a plywood trust; Soviet officials were wary of “prices” in his method.
+bdc9cba552,3,js/pathmath-t6.js,266,number,"Operations research for convoys, radar and bombing; George Dantzig created the simplex method in 1947 for US Air Force planning."
+6cef6f04e0,3,js/pathmath-t6.js,267,number,"Nobel Prizes in economics for optimal resource allocation and for portfolio optimization (mean–variance, 1952)."
+359755f8f5,3,js/pathmath-t6.js,270,number,Radiation therapy planning; kidney exchange chains (Nobel 2012)
+c78a4fea75,3,js/pathmath-t6.js,274,number,MIT OCW 15.053 Optimization Methods in Management Science
+5afe0b8aea,3,js/pathmath-t6.js,281,number,"Claude Shannon defined information as surprise. A fair coin flip carries 1 bit. A coin that lands heads 90% of the time carries only about 0.47 bits per flip, because the outcome is usually predictable. Entropy, H = −Σ p log₂ p, is the average surprise, and it is the hard limit for lossless compression: no zip program can beat it on average."
+4690691f88,1,js/pathmath-t6.js,284,quote number,"Large quantum computers running Shor’s algorithm would break today’s public-key systems. In 2024 the US standards agency NIST published replacement “post-quantum” standards based on lattice and hash problems, and the migration is under way."
+6c888eff97,3,js/pathmath-t6.js,287,number,= 0.9 × 0.152 + 0.1 × 3.322 ≈ 0.469 bits.
+2bd875a452,3,js/pathmath-t6.js,288,number,A repetition code sends each bit three times (0 → 000). What can it fix?
+14ccbfe00f,1,js/pathmath-t6.js,296,quote,"Information theory (Shannon credits John Tukey with the word “bit”); error-correcting codes; optimal compression codes (Huffman, as a student)."
+91cb127db4,3,js/pathmath-t6.js,300,number,"Error-correcting codes on deep-space probes, 5G and Wi-Fi"
+39dd648877,3,js/pathmath-t6.js,302,number,"How many bits to choose 1 of 1,024 equally likely items?"
+07088df7d6,3,js/pathmath-t6.js,304,number,"Shannon, A Mathematical Theory of Communication (1948)"
+ed55422646,3,js/pathmath-t6.js,312,number,"The logistic map xₙ₊₁ = r xₙ(1 − xₙ) is a one-line population model. For r = 2.8 it settles; at r = 3.2 it alternates between two values; at 3.5 between four; and past about 3.57 it becomes chaotic. Start at 0.2 and at 0.2000001 with r = 4, and within about 25 steps the two runs bear no resemblance to each other."
+1f43119a6d,3,js/pathmath-t6.js,314,number,"Chaos has structure. Chaotic systems trace strange attractors with fractal shape, and the route to chaos is universal: the doubling points of very different systems approach each other at the same ratio, Feigenbaum’s constant 4.669…."
+f9c01025f2,3,js/pathmath-t6.js,317,number,Iterate x → 3.2x(1 − x) from 0.5 a few times.
+7a18f6cbff,3,js/pathmath-t6.js,317,number,It settles into a 2-cycle near 0.513 and 0.799.
+08624dc062,3,js/pathmath-t6.js,318,number,An error doubles every day. Your measurement error is 0.001. When does it reach 1?
+552f4f06d3,3,js/pathmath-t6.js,318,number,2ⁿ × 0.001 = 1 → 2ⁿ = 1000 → n ≈ 10 days.
+870b34d78e,3,js/pathmath-t6.js,318,number,Improving the measurement 10-fold buys only about 3.3 more days.
+ad59d8af8b,3,js/pathmath-t6.js,325,number,Rerunning a weather model with a number rounded from 0.506127 to 0.506 gave a completely different forecast; his 1963 paper founded chaos theory.
+c81e6b24e8,1,js/pathmath-t6.js,326,quote,“Period three implies chaos” gave the field its name; May showed chaos in simple population models; Feigenbaum found universality.
+bf4ec59e9a,3,js/pathmath-t6.js,329,number,"Low-fuel routes along chaotic paths (Japan’s Hiten probe, 1991)"
+7c8449989f,3,js/pathmath-t6.js,331,number,"If errors grow 10× per week, a 0.0001 error reaches 1 after?"
+b3bfc9386e,3,js/pathmath-t6.js,333,number,MIT OCW 18.353J Nonlinear Dynamics I: Chaos
+e9d710e15e,1,js/pathmath-t6.js,343,quote number,"Repeated games change incentives: cooperation can be sustained by the threat of future punishment. In Robert Axelrod’s 1980 computer tournaments, the simple strategy “tit for tat” (cooperate first, then copy the other player) did best. Mechanism design runs game theory backwards: design the rules (an auction, a voting system, a matching market) so that self-interested behaviour produces a good out"
+429d07c558,3,js/pathmath-t6.js,346,number,"Prisoner’s dilemma: payoffs (you, them) are C/C = (3, 3), C/D = (0, 5), D/C = (5, 0), D/D = (1, 1). Find the equilibrium."
+524dfa39b8,3,js/pathmath-t6.js,346,number,"If they cooperate, you get 5 by defecting vs 3. If they defect, 1 vs 0. Defect is always better for you."
+ea4083e40d,3,js/pathmath-t6.js,346,number,"Same for them. Equilibrium: (D, D) with (1, 1), worse for both than (3, 3)."
+ef11e0f75c,3,js/pathmath-t6.js,347,number,Both randomize 50–50; the expected payoff is 0.
+0067270867,3,js/pathmath-t6.js,356,number,"Nash, Harsanyi and Selten (1994); Schelling and Aumann (2005); mechanism design (2007); matching markets (2012); auction design (2020, Milgrom and Wilson)."
+77461fbe54,3,js/pathmath-t6.js,358,number,"Poker programs beat top professionals (2017, 2019)"
+18828f2239,3,js/pathmath-t6.js,375,number,"One gradient step for y = wx + b with x = 2, target 7, w = 1, b = 0, loss (y − 7)², learning rate 0.05."
+638963b3d9,3,js/pathmath-t6.js,375,number,∂L/∂w = 2(−5)(2) = −20; ∂L/∂b = 2(−5) = −10.
+b18bb7666c,3,js/pathmath-t6.js,375,number,w ← 1 + 0.05 × 20 = 2; b ← 0 + 0.05 × 10 = 0.5.
+cbbf55f81c,3,js/pathmath-t6.js,376,number,"Softmax turns scores (2, 1, 0) into probabilities."
+9b3daf22e0,3,js/pathmath-t6.js,376,number,"Exponentiate: e², e¹, e⁰ ≈ 7.39, 2.72, 1."
+d8070369b0,3,js/pathmath-t6.js,376,number,"Divide by the total 11.11: ≈ 0.67, 0.24, 0.09."
+f3d4ca4db4,1,js/pathmath-t6.js,382,quote,"Least squares: fitting a line by minimizing squared errors, the first “learning” algorithm."
+6b2a102d0e,3,js/pathmath-t6.js,384,number,"Reverse-mode automatic differentiation; backpropagation for networks, popularized in 1986."
+ca363de25c,3,js/pathmath-t6.js,390,number,"Training accuracy 99%, test accuracy 60%: what is happening?"
+0f9b011980,3,js/pathmath-t8.js,13,number,"Around 1900 mathematicians hoped to put all of mathematics on a perfect footing: a precise formal language, a fixed list of axioms and rules, and a proof that the system never contradicts itself and can decide every statement. David Hilbert led this program."
+1d19bae3d3,1,js/pathmath-t8.js,14,quote number,"Kurt Gödel showed in 1931 that it cannot be done. His first incompleteness theorem: any consistent formal system that can express basic arithmetic contains statements it can neither prove nor disprove. The idea is to build, inside arithmetic, a statement that says in effect “this statement is not provable”. If the system proved it, the system would prove something false; so (if consistent) it cann"
+8cb349d36e,1,js/pathmath-t8.js,15,quote number,This does not mean mathematics is broken or that “anything goes”. Gödel’s earlier completeness theorem (1929) shows the basic rules of logic are perfectly reliable: every statement true in all models of a theory has a proof. The limits are about what one fixed set of axioms can settle.
+fb251caa80,1,js/pathmath-t8.js,16,quote current number,"Model theory studies the structures (models) that satisfy a set of axioms. Surprising facts follow: first-order axioms for the numbers also have strange “non-standard” models, with infinitely large numbers. Abraham Robinson used this to make infinitesimals rigorous in 1961, vindicating Leibniz. Model theory has also solved problems in number theory and geometry, recognized in the 2026 Fields Medal"
+c6f41d58e6,1,js/pathmath-t8.js,19,quote,P false: true either way (“vacuously true”).
+da357a6e69,1,js/pathmath-t8.js,19,quote number,"So “if pigs fly, then 2 = 3” is a true implication."
+04ed95b575,1,js/pathmath-t8.js,20,quote,"Why does the liar sentence (“this sentence is false”) not break logic, while Gödel’s sentence works?"
+934abc6a7e,1,js/pathmath-t8.js,20,quote,"Provability can be, so “this is not provable” is a legitimate arithmetic statement."
+7da132aa16,3,js/pathmath-t8.js,32,number,Formal verification became standard after Intel’s 1994 Pentium division bug cost it about $475 million
+3d222f4740,1,js/pathmath-t8.js,34,quote number,Is “if 2 + 2 = 5 then the Moon is cheese” true?
+96e307d92d,3,js/pathmath-t8.js,43,number,"Two sets have the same size if their elements can be paired off one to one. By this test, the even numbers are as numerous as all whole numbers (pair n with 2n), and so are the fractions. Any set that can be listed first, second, third, … is countable."
+00006a9235,3,js/pathmath-t8.js,44,number,"Cantor proved the real numbers cannot be listed. Suppose someone gives you a complete list of decimals between 0 and 1. Build a new decimal whose first digit differs from the first number’s first digit, whose second digit differs from the second number’s second digit, and so on. Your number differs from every number on the list, so the list was not complete. There are strictly more reals than whol"
+9f1c4fd506,3,js/pathmath-t8.js,46,number,"Paradoxes such as Russell’s forced mathematicians to choose careful axioms. The standard system, ZFC (Zermelo–Fraenkel with the axiom of choice), underlies almost all mathematics. Gödel (1940) showed the continuum hypothesis cannot be disproved from ZFC, and Paul Cohen (1963) showed it cannot be proved either. It is independent: ZFC simply does not decide it."
+1294344aba,3,js/pathmath-t8.js,49,number,"Every integer appears at a finite position, so ℤ pairs off with 1, 2, 3, …"
+0d98ff33f3,3,js/pathmath-t8.js,50,number,"Hilbert’s hotel is full, with rooms 1, 2, 3, … A new guest arrives. Make room."
+ac8556ebad,3,js/pathmath-t8.js,50,number,Move each guest from room n to room n + 1.
+3700709af7,3,js/pathmath-t8.js,50,number,Room 1 is free. Infinite sets can be put in one-to-one correspondence with parts of themselves.
+9faf48caa1,1,js/pathmath-t8.js,52,quote,"The diagonal argument works because a listed collection can always be “escaped” by changing one feature per item. It is the same self-reference trick as Gödel’s and Turing’s: whatever list or system you propose, you can build an object it misses."
+6462553e84,3,js/pathmath-t8.js,59,number,"The continuum hypothesis is consistent with ZFC (Gödel) and so is its negation (Cohen, using a new method called forcing; Fields Medal 1966)."
+61fa58b328,3,js/pathmath-t8.js,63,number,How many subsets does a 5-element set have?
+41eb6c27dc,3,js/pathmath-t8.js,65,number,MIT OCW 18.510 Introduction to Mathematical Logic and Set Theory
+05e205b634,3,js/pathmath-t8.js,72,number,"In 1936 Alan Turing defined computation with an imaginary machine: a tape of symbols, a head that reads and writes, and a finite table of rules. Every algorithm that has ever run on any computer can be done by such a machine (the Church–Turing thesis)."
+c3d10946bc,3,js/pathmath-t8.js,74,number,"Among solvable problems, complexity theory asks how long they take. P is the class of problems solvable in polynomial time (time growing like n² or n³, not 2ⁿ). NP is the class whose solutions can be checked quickly: checking a filled Sudoku is easy; filling one in may be hard."
+ad2d0d79a6,3,js/pathmath-t8.js,78,number,"Scan each row, column and box once for repeats: about 3 × 81 checks."
+07ba42df22,3,js/pathmath-t8.js,79,number,"A brute-force search tries 2ⁿ options. At a billion per second, how long for n = 100?"
+ec423cc8bb,3,js/pathmath-t8.js,79,number,"≈ 1.27 × 10²¹ seconds ≈ 4 × 10¹³ years, thousands of times the age of the universe."
+e70abff9b4,3,js/pathmath-t8.js,87,number,Gödel privately anticipated P vs NP; Cook (in North America) and Levin (in the USSR) independently defined NP-completeness; Karp showed 21 problems NP-complete.
+8158c268db,3,js/pathmath-t8.js,88,number,No algorithm decides whether every polynomial equation has whole-number solutions: Hilbert’s 10th problem.
+2d430cdc77,3,js/pathmath-t8.js,89,number,"Proved the fifth busy beaver number is 47,176,870, with a computer-checked proof, largely by amateurs."
+7fe24f4712,3,js/pathmath-t8.js,92,number,MIT 18.404J (Michael Sipser’s course) is free online.
+c92b71cd2d,1,js/pathmath-t8.js,103,quote,"The shift in viewpoint is that an object is known by its relationships. The product of two things (a pair of sets, a pair of groups, a pair of spaces) can be defined once, by a “universal property” about arrows, and that single definition works in every category at once."
+406c9ad2ba,3,js/pathmath-t8.js,104,number,"A functor is a map between categories that preserves arrows and composition. The fundamental group from algebraic topology is a functor from spaces to groups: a continuous map of spaces gives a homomorphism of groups. Natural transformations compare functors. These three ideas were the original reason for the theory (Eilenberg and Mac Lane, 1945)."
+a5afe0c4f8,1,js/pathmath-t8.js,105,quote,"Higher category theory adds arrows between arrows (and arrows between those), needed when “equal” must be replaced by “equivalent in a specified way”. Jacob Lurie’s work on ∞-categories made these tools standard in topology and algebraic geometry. Category theory also shapes programming languages (monads in Haskell), database design and diagrammatic reasoning in quantum computing."
+fe0f470599,1,js/pathmath-t8.js,109,quote,Is “take a group to its underlying set” a functor?
+4190457eb7,1,js/pathmath-t8.js,111,quote,"Many theorems in different fields turn out to be one theorem about arrows. Proving it at the level of categories proves all the versions at once and explains why they look alike. Critics have called the subject “abstract nonsense”, partly affectionately; its defenders point to its role in major proofs and in software design."
+53c063a762,3,js/pathmath-t8.js,133,number,"The circle x² + y² = 1, the parabola y = x², and the surface z = x² − y² are all solutions of polynomial equations. Algebraic geometry studies such shapes (varieties) in general: in any number of dimensions, over the complex numbers, over fractions, or over finite number systems."
+959c458bae,3,js/pathmath-t8.js,134,number,"A small example shows the power of mixing algebra and geometry. Draw lines through the point (−1, 0) on the unit circle with slope t. Each line hits the circle once more, at ((1 − t²)/(1 + t²), 2t/(1 + t²)). When t is a fraction, so is the point. t = ½ gives (3/5, 4/5), which is the 3-4-5 triangle; t = ⅔ gives (5/13, 12/13), the 5-12-13 triangle. Geometry has listed every Pythagorean triple."
+8c448b3740,1,js/pathmath-t8.js,135,quote number,"In the 1950s and 1960s Alexander Grothendieck rebuilt the subject on “schemes”, which treat number systems as if they were spaces. That let geometric intuition work on problems about whole numbers. Using these tools, Pierre Deligne proved the Weil conjectures in 1974, which count solutions of equations over finite number systems."
+39902685b5,3,js/pathmath-t8.js,139,number,"Find the rational point on x² + y² = 1 for slope t = 3/4 through (−1, 0)."
+e62fd690be,3,js/pathmath-t8.js,139,number,x = (1 − 9/16)/(1 + 9/16) = 7/25; y = (3/2)/(25/16) = 24/25.
+6eb473ac1a,3,js/pathmath-t8.js,140,number,How many points do the line y = x and the circle x² + y² = 2 share?
+02546eb3ae,3,js/pathmath-t8.js,140,number,"Two points, (1, 1) and (−1, −1), as Bézout’s theorem predicts for a line and a conic."
+29f19b1f2c,3,js/pathmath-t8.js,142,number,"Shapes defined by polynomials have rigid structure: they can be studied through the rings of polynomial functions on them (tier 6’s Nullstellensatz). Algebra makes the theory work over any number system, which is exactly what number theory needs, and geometry supplies intuition about dimension, curves and intersections."
+94996e99e3,1,js/pathmath-t8.js,144,quote,adds “points at infinity” so parallel lines meet
+ef9b9cda49,3,js/pathmath-t8.js,148,number,Weil’s conjectures on counting solutions; Deligne’s proof (Fields Medal 1978).
+69a53d6737,3,js/pathmath-t8.js,149,number,"Schemes and a vast new foundation, written with collaborators in thousands of pages. In 1970 he left the IHÉS institute in protest at its military funding, and later withdrew from mathematics."
+f1dce3bc47,3,js/pathmath-t8.js,153,number,Rational point on the unit circle for slope t = 1
+24b3538054,1,js/pathmath-t8.js,164,quote number,"The proof of Fermat’s theorem went through elliptic curves. Gerhard Frey suggested that a solution to Fermat’s equation would produce a very strange elliptic curve; Ken Ribet proved such a curve could not be “modular” (matched to a modular form). Andrew Wiles, working largely in secret for seven years, proved enough of the modularity conjecture to rule it out. His 1993 announcement had a gap; with"
+a1c7171f3b,3,js/pathmath-t8.js,165,number,"Modularity (every elliptic curve over the fractions matches a modular form, proved in full in 2001) is a case of the Langlands program on the next tier. You can check one instance yourself in the Lab: count solutions of an elliptic curve modulo primes, and compare with the coefficients of a modular form."
+634360e1d2,1,js/pathmath-t8.js,168,label number,"Verify (3, 5) lies on y² = x³ − 2 and compute the tangent point."
+bfa81c3713,3,js/pathmath-t8.js,168,number,x₃ = (27/10)² − 2·3 = 129/100; y₃ = (27/10)(3 − 129/100) − 5 = −383/1000.
+74181e8966,3,js/pathmath-t8.js,169,number,Why does Fermat for n = 4 imply it for n = 8?
+9771e6e587,3,js/pathmath-t8.js,169,number,A solution x⁸ + y⁸ = z⁸ is a solution (x²)⁴ + (y²)⁴ = (z²)⁴ for n = 4.
+480bea6f24,3,js/pathmath-t8.js,169,number,So proving prime exponents (and 4) covers everything.
+fbb9440089,3,js/pathmath-t8.js,172,number,"p − (number of solutions mod p) + 1, roughly"
+1c1f175e2f,3,js/pathmath-t8.js,175,number,"Arithmetica; Fermat’s margin note in his copy, published by his son in 1670."
+0f2c71ff2a,1,js/pathmath-t8.js,176,quote,"Proofs for small exponents; Germain, who corresponded under a male pseudonym, proved a major partial case; Kummer handled “regular” primes."
+e9626afae9,3,js/pathmath-t8.js,177,number,Curves of genus 2 or more have only finitely many rational points (Fields Medal 1986).
+e04a9d763e,3,js/pathmath-t8.js,178,number,"The route to Fermat; Wiles’s proof, published in 1995."
+95233d9fb9,3,js/pathmath-t8.js,181,number,In 2013 leaked documents indicated the NSA had promoted an elliptic-curve random-number generator with a likely backdoor; NIST withdrew it in 2014
+7bcac3f934,3,js/pathmath-t8.js,183,number,"Andrew Wiles, with Richard Taylor (1994–95)"
+1600f4260f,1,js/pathmath-t8.js,192,quote number,"Describe a moving object by its position and its momentum together: a point in “phase space”. As the object moves, physics carries the point along. Liouville’s theorem (1838) says areas (volumes) in phase space are preserved: a blob of possible starting states may stretch and twist but never shrinks. Symplectic geometry is the study of spaces with this kind of area structure."
+2bb635da27,1,js/pathmath-t8.js,193,quote current number,"Mikhail Gromov showed in 1985 that symplectic maps are stranger than they look: you cannot squeeze a ball of states through a narrower hole in phase space even though volume is preserved (the “non-squeezing theorem”, a classical cousin of the uncertainty principle). New invariants (Floer homology, Fukaya categories) now connect the field to topology and string theory. John Pardon’s 2026 Fields Med"
+729a5b65d2,1,js/pathmath-t8.js,206,quote,Noncommuting quantities in quantum mechanics; Weyl coined “symplectic”.
+f2d64bf4b0,3,js/pathmath-t8.js,207,number,"Non-squeezing; Floer homology; homological mirror symmetry (Kontsevich, Fields Medal 1998)."
+789a9189eb,3,js/pathmath-t8.js,208,number,Noncommutative geometry (Fields Medal 1982).
+9b425bc28a,3,js/pathmath-t8.js,223,number,"Homotopy type theory, developed around Vladimir Voevodsky’s univalence axiom (about 2009), reads types as spaces and equalities as paths between points. Univalence says that equivalent structures can be treated as equal, which matches how mathematicians actually reason. The HoTT book was written collaboratively at the Institute for Advanced Study in 2013."
+53f676ec2d,3,js/pathmath-t8.js,224,number,"Proof assistants are now practical. The four colour theorem (2005), the Feit–Thompson theorem (2012) and the Kepler conjecture (2014) have been fully checked by computer. In 2020 Peter Scholze challenged the Lean community to check a difficult new theorem of his; they finished in 2022. Lean’s community library, mathlib, holds a large and growing share of undergraduate and graduate mathematics."
+fdd5311ff2,1,js/pathmath-t8.js,225,current number,"AI systems increasingly write proofs in Lean, because Lean can check them. But a check only proves what was formally stated. In 2026, mathematicians warned that a Lean-verified AI proof can still differ from the problem as stated in ordinary language, so human reading of the definitions remains essential."
+cabe65fce4,1,js/pathmath-t8.js,228,quote,"In Lean, what does a proof of “A and B” consist of?"
+37bd78b504,1,js/pathmath-t8.js,228,quote,"Under Curry–Howard, “and” is the type of pairs."
+ceb8d1ef5d,1,js/pathmath-t8.js,229,quote,What does a proof of “if A then B” consist of?
+a51a559cfe,3,js/pathmath-t8.js,241,number,Verified compilers (CompCert) and operating-system kernels (seL4)
+4f3445d19c,1,js/pathmath-t8.js,243,quote,"Under Curry–Howard, what is a proof of “A or B”?"
+c342dd8ca0,1,js/pathmath-t8.js,251,current number,In 2000 the Clay Mathematics Institute named seven great open problems with $1 million for each solution. One is solved; one has contested 2026 claims under review.
+00f4ec7203,3,js/pathmath-t8.js,253,number,Poincaré conjecture: solved by Grigori Perelman in 2002–03 (see algebraic topology). He declined the prize in 2010.
+3b9b1195ee,1,js/pathmath-t8.js,256,quote current number,"Navier–Stokes existence and smoothness (developing, November 2026): must smooth fluid flows in 3D stay smooth, or can they “blow up”? In September 2026 OpenAI announced an AI-generated, Lean-checked proof that the equations can blow up when a carefully designed smooth external force is applied, a case the Clay statement allows but many experts consider an artificial loophole. NYU’s Tristan Buckmas"
+98d2eb727b,3,js/pathmath-t8.js,267,number,Proved the Poincaré conjecture; declined the Fields Medal (2006) and the Clay prize (2010).
+b59e332375,1,js/pathmath-t8.js,268,current,Announced a forced Navier–Stokes blow-up proof produced by AI agents and checked in Lean (developing).
+36454fe04f,1,js/pathmath-t8.js,269,current,Claimed an AI-assisted proof of unforced blow-up (developing).
+e8da515b29,1,js/pathmath-t8.js,275,current number,Implicator: Clay has not accepted the OpenAI claim (Nov 2026)
+81ac7ed3ae,1,js/pathmath-t8.js,275,current number,Effortless Math: the 2026 Navier–Stokes claims explained
+befcf218f3,3,js/pathmath-t8.js,282,number,"In 1967 Robert Langlands, then a young professor at Princeton, wrote a 17-page letter to André Weil proposing deep connections between two worlds. On one side: Galois groups, the symmetries of solutions to polynomial equations, which govern counting solutions modulo primes. On the other: automorphic forms, highly symmetric functions studied with harmonic analysis."
+2d69277917,3,js/pathmath-t8.js,283,number,"The simplest case is centuries old. Quadratic reciprocity (Gauss, 1796) links whether p is a square modulo q to whether q is a square modulo p. Langlands’ conjectures extend this kind of hidden harmony to all equations and all symmetry groups."
+5658f1014a,3,js/pathmath-t8.js,284,number,"Modularity, used to prove Fermat’s Last Theorem, is one case: the number of solutions of an elliptic curve modulo each prime matches the coefficients of a modular form. You can check one example yourself: the curve y² + y = x³ − x² and the form q ∏(1 − qⁿ)²(1 − q¹¹ⁿ)² agree prime by prime."
+f4151fd4ba,3,js/pathmath-t8.js,288,number,Count solutions of y² + y = x³ − x² modulo 5 (plus one point at infinity).
+0d29e9013a,3,js/pathmath-t8.js,288,number,"Try x = 0, …, 4 and y = 0, …, 4: solutions are (0, 0), (0, 4), (1, 0), (1, 4)."
+17c144e654,3,js/pathmath-t8.js,288,number,"With the point at infinity, 5 points. Then a₅ = 5 + 1 − 5 = 1, which equals the q⁵ coefficient of the modular form."
+3e70f06f16,3,js/pathmath-t8.js,289,number,"Since 3 ≡ 3 and 7 ≡ 3 (mod 4), reciprocity predicts 3 is not a square mod 7. Check: squares mod 7 are 1, 2, 4. ✓"
+b9f94b5ac6,1,js/pathmath-t8.js,295,quote,"Proved quadratic reciprocity, which he called the “golden theorem”."
+7915562425,3,js/pathmath-t8.js,296,number,Weil’s letter on mathematical analogies; Langlands’ letter launching the program. Langlands received the Abel Prize in 2018.
+8c8a7e7c01,3,js/pathmath-t8.js,298,number,"Modularity for Fermat; new p-adic geometry (Fields Medal 2018) and, with Laurent Fargues, a geometric approach to local Langlands."
+f6b7ac4bb1,3,js/pathmath-t8.js,303,number,Which part of the Langlands program was proved in 2024?
+ef1d897ab4,3,js/pathmath-t8.js,305,number,Robert Langlands’ papers and the 1967 letter (IAS)
+5917398fc1,3,js/pathmath-t8.js,305,number,Quanta: monumental proof settles geometric Langlands (2024)
+d441374ded,1,js/pathmath-t8.js,313,current number,"In 2012 Mochizuki, at Kyoto University’s RIMS, posted four papers (over 500 pages) developing inter-universal Teichmüller theory (IUT) and claiming a proof. Few could follow them. In 2018 Peter Scholze and Jakob Stix visited Kyoto and reported a serious gap in Corollary 3.12, the key step. Mochizuki replied that they had misunderstood. The papers were published in 2021 in PRIMS, a journal based at"
+2c763dc39b,1,js/pathmath-t8.js,314,current number,"Since then, Kirti Joshi has argued that Scholze and Stix’s objections are wrong but that Mochizuki’s proof is incomplete, and has proposed his own completion; Mochizuki rejects Joshi’s account. In 2026 a project at Japan’s ZEN University (Project LANA) began working toward computer verification of IUT and issued an interim report that declined to rush to a verdict (developing)."
+f7f21589c6,1,js/pathmath-t8.js,327,quote number,“Why abc is still a conjecture”: a gap at Corollary 3.12.
+086f00c1a1,1,js/pathmath-t8.js,329,current number,Joshi’s alternative account; a computer-verification effort with an interim report in July 2026 (developing).
+01c53e073e,3,js/pathmath-t8.js,335,number,Scholze and Stix: Why abc is still a conjecture (2018)
+02e3e6a870,1,js/pathmath-t8.js,335,current number,Kirti Joshi: report on the controversy (2025)
+7deb35e185,1,js/pathmath-t8.js,335,current number,ZEN University: Project LANA interim report (2026)
+83e1ac0349,3,js/pathmath-t8.js,342,number,"Still open: the twin prime conjecture (infinitely many primes two apart, like 11 and 13); the Goldbach conjecture (every even number above 2 is a sum of two primes, checked up to 4 × 10¹⁸); the Collatz conjecture (halve if even, triple and add one if odd: do you always reach 1?); whether π + e is irrational."
+9f7f502885,1,js/pathmath-t8.js,343,quote number,"Recent progress on old problems: In 2013 Yitang Zhang, then a little-known lecturer, proved there are infinitely many prime pairs less than 70 million apart; collaborative work (Polymath) and James Maynard cut the gap to 246. Also in 2013 Harald Helfgott proved the “weak” Goldbach conjecture for odd numbers. In 2019 Terence Tao proved that almost all Collatz sequences get close to small values."
+e9a711e62c,1,js/pathmath-t8.js,344,current number,"Settled: Maryna Viazovska solved sphere packing in 8 dimensions in 2016 (and, with colleagues, in 24), earning a Fields Medal in 2022. In February 2025 Hong Wang and Joshua Zahl proved the three-dimensional Kakeya conjecture about how small a region can be while containing a needle pointing in every direction; Wang received a 2026 Fields Medal. Yu Deng, with Zaher Hani and Xiao Ma, rigorously deri"
+bcf6b2c72b,1,js/pathmath-t8.js,345,quote number,"Amateurs still contribute. In 2023 David Smith, a retired print technician and hobbyist, found the first single tile that covers the plane only without repeating (the “hat”), proved with three professional collaborators. In 2024 an online collaboration, largely of amateurs, determined the fifth busy beaver number."
+b85e16f395,3,js/pathmath-t8.js,348,number,"27 → 82 → 41 → 124 → … it climbs as high as 9,232."
+c9d9a8e9df,3,js/pathmath-t8.js,348,number,It reaches 1 after 111 steps. Nobody can prove every start does.
+82f904f562,3,js/pathmath-t8.js,349,number,"(3, 5), (5, 7), (11, 13), (17, 19), (29, 31), (41, 43)."
+ed073bcec1,3,js/pathmath-t8.js,355,number,Yitang Zhang; James Maynard; Polymath8; Harald Helfgott
+c418560cc5,3,js/pathmath-t8.js,356,number,"Sphere packing in dimensions 8 and 24; Fields Medal, the second woman to receive it."
+7ced0a9668,1,js/pathmath-t8.js,357,quote,The aperiodic “hat” tile; the fifth busy beaver.
+b3a9743ddb,1,js/pathmath-t8.js,358,current number,"Kakeya in 3D; Fields Medals 2026 to Deng, Pardon, Tsimerman and Wang, the first awarded to Chinese nationals."
+686a2f0022,3,js/pathmath-t8.js,362,number,"3 + 97 (also 11 + 89, 17 + 83, 29 + 71, 41 + 59, 47 + 53)"
+6c2aaa4008,1,js/pathmath-t8.js,364,current number,European Mathematical Society: 2026 Fields Medals
+435f35c4b6,1,js/pathmath-t8.js,369,current number,"Between 2024 and 2026 AI systems went from contest problems to claimed research results; how much they can be trusted, and who gets credit, are live questions."
+cf928a24a6,1,js/pathmath-t8.js,371,quote current number,"In 2024 DeepMind’s AlphaProof and AlphaGeometry reached silver-medal level at the International Mathematical Olympiad; in 2025 systems from Google DeepMind and OpenAI reached gold-medal level. By 2026 AI tools were helping move Erdős problems (hundreds of open questions posed by Paul Erdős) to “solved”. Terence Tao noted that much of the early help was smart literature search, finding old papers t"
+c256666689,1,js/pathmath-t8.js,372,current number,"In September 2026 OpenAI announced a claimed Navier–Stokes blow-up proof produced by many AI agents and checked in Lean (see the Millennium page). Mathematicians praised parts of the result but raised concerns: whether the forced case meets the spirit of the problem, whether Lean statements match the ordinary-language problem, the cost of the computation, and credit for human researchers whose met"
+6eed4a9093,1,js/pathmath-t8.js,373,current number,"Formal verification is central to trusting AI mathematics: a computer can check every step of a Lean proof. But the check covers only what was formally stated, and translating informal statements correctly is hard. In June 2026 a group of mathematicians issued the Leiden Declaration on AI and mathematics, setting out principles for responsible use."
+7d2ea792be,1,js/pathmath-t8.js,385,current,AI-assisted Erdős problem solutions; the Leiden Declaration (June); OpenAI’s Navier–Stokes claim (September); AI-assisted work by Buckmaster and Alpöge (November). All developing.
+88b9ff3980,1,js/pathmath-t8.js,391,current number,Scientific American: AI uncovers solutions to Erdős problems (Feb 2026)
+10a7b75e4b,1,js/pathmath-t8.js,391,current number,arXiv: AI-driven formal proof search on Erdős problems (May 2026)
+6d2a332a9e,1,js/pathmath-t8.js,391,current number,arXiv: why Lean verification of autoformalized proofs is not enough (2026)
+5d50dba4db,3,js/pathmath-t8.js,398,number,"Discovery usually starts with examples and data. As a teenager Gauss studied tables of primes and guessed that primes near N occur with density about 1/ln N; it took a century to prove (the prime number theorem, 1896). Conjectures come from patterns; proofs explain them."
+3087e85cd6,3,js/pathmath-t8.js,400,number,"Results are shared as preprints on arXiv (since 1991), then refereed by journals, which can take years. Errors are found after publication too. Collaboration has grown: online Polymath projects (from 2009) involve dozens of people, and proof assistants let hundreds contribute to one formal proof."
+4c1ffdc4da,3,js/pathmath-t8.js,401,number,"Who gets to do mathematics has changed and is still uneven. Sophie Germain wrote under a male name; Srinivasa Ramanujan, a clerk in Madras, reached Cambridge through a letter to G. H. Hardy in 1913; the first woman to win a Fields Medal was Maryam Mirzakhani in 2014. You can join in now: explore patterns in the OEIS, try Project Euler and Erdős problems, formalize mathematics in Lean, or make a co"
+8accae4d30,3,js/pathmath-t8.js,404,number,Make and test a conjecture: is n² + n + 41 always prime?
+ba64d0f6ee,3,js/pathmath-t8.js,404,number,"n = 40 gives 1,681 = 41². The pattern breaks: evidence is not proof."
+c2648109ec,3,js/pathmath-t8.js,405,number,"Look up the sequence 1, 1, 2, 5, 14, 42 in the OEIS."
+9b3844e892,3,js/pathmath-t8.js,407,number,"Mathematics accumulates because proofs do not expire. Once a theorem is proved and checked, it becomes a permanent tool, which is why a 300-year-old question can be answered by combining ideas from many fields and centuries."
+0f4794c21b,1,js/pathmath-t8.js,409,quote,results “everyone knows” but no one wrote down
+4d79705ff2,3,js/pathmath-t8.js,411,number,Guessed the prime number theorem from tables at about age 15.
+5f904e2fb0,3,js/pathmath-t8.js,413,number,The main international prizes (Fields for under-40s).
+4befe7d90a,3,js/pathmath-t8.js,419,number,What is the first n for which n² + n + 41 is not prime?
+effd1b38b2,3,js/pathmath.js,11,number,"Functions, logarithms, complex numbers, proof, trigonometry and the tools calculus needs. The GED math test covers tiers 1–2 plus the algebra, functions and coordinate parts of tier 3; trigonometry, logarithms and complex numbers are not on it."
+a3e57de82c,3,js/pathmath.js,57,number,"Add hundreds, tens and ones, carrying when a column passes 9."
+4aeffdb589,3,js/pathmath.js,69,number,", a: v, tol: 0.005, show: nice, steps: ["
+bbebeda5f5,3,js/pathmath.js,72,number,", a: v, show: String(+v.toFixed(4)), steps: ["
+bd6a499836,3,js/pathmath.js,76,number,", a: C(n, r) / 2 ** n, show: fr(C(n, r), 2 ** n), steps: ["
+be63afa7ea,3,js/pathmath.js,257,number,"We added lessons on writing proofs (tier 5), game theory and the mathematics of machine learning (tier 7), AI and how research works (tier 10)."
+0e22bd6352,3,js/pathmath.js,260,number,Homotopy type theory is a foundation of mathematics; it sits in tier 9 here because it is taught alongside the proof assistants that use it.
+f7c4801fd7,1,js/pathmath.js,261,current number,Lessons were drafted with AI (Claude) and checked by a separate AI fact-checker; no human expert has reviewed them yet. Statements about 2025–26 events are labelled developing and re-checked monthly. Corrections are logged publicly.
 38d9158a87,3,js/physics.js,52,number,In 1619 Kepler found that a planet’s year squared equals its distance cubed (in Earth years and AU). Newton later showed gravity explains why.
 8bbee7ef5e,3,js/physics.js,54,number,", null, Math.pow(q[1], 1.5).toFixed(2) + "
 bc36725a50,3,js/physics.js,59,number,"The rule: an object stays bound if its kinetic energy is less than the energy needed to escape gravity. At any distance r, a circular orbit needs speed √(GM/r), and escape needs √2 times that."
@@ -6400,13 +7003,13 @@ ed8490fe6c,2,js/storylines.js,11,number,"The defeat of 1927 left the party only 
 ed64211f60,1,js/storylines.js,12,quote,"The march became the party’s founding legend, and its survivors, the “Long March generation”, ruled China for half a century. Many were later destroyed in the Cultural Revolution."
 fe88fb15bb,1,js/storylines.js,13,deaths number,Japan’s full invasion in 1937 forced a second alliance with the Nationalists. From its base at Yan’an the party grew from tens of thousands to over a million members. The Rectification Movement of 1942–44 made Mao’s thought the party line and forced confessions from suspected spies. Estimates of Chinese deaths in the war run from about 14 to 20 million.
 850d4b3bcf,2,js/storylines.js,14,number,"The civil war resumed in 1946. The US backed the Nationalists; the Soviets helped the communists in Manchuria. Hyperinflation, corruption and land reform promises swung peasants and many city people to the communists. Mao proclaimed the People’s Republic on 1 October 1949; Chiang fled to Taiwan."
-8b83935ea4,1,js/storylines.js,15,deaths quote number,"Landlords were tried before village crowds and many were killed; a campaign against “counter-revolutionaries” followed. Mao himself later said about 700,000 had been killed; historians estimate one to two million deaths in these campaigns. In October 1950 China entered the Korean War against the US; hundreds of thousands of Chinese soldiers died, including Mao’s son. The US imposed a trade embargo"
+0eff282de9,1,js/storylines.js,15,deaths quote number,"Landlords were tried before village crowds and many were killed; a campaign against “counter-revolutionaries” followed. Historians estimate one to two million deaths in these campaigns; Mao’s own figure, reportedly given in a 1957 speech, was cut from the published text and cannot be checked. In October 1950 China entered the Korean War against the US; hundreds of thousands of Chinese soldiers die"
 efbacaacd3,1,js/storylines.js,16,deaths quote number,"Mao invited criticism of the party in 1956–57. When it came, he reversed course: officially 552,877 people were labelled “rightists”, and estimates of those persecuted run from one to two million. Many were sent to labour camps; at Jiabiangou in Gansu, about 2,500 of some 3,000 prisoners died."
 3b4298ec60,2,js/storylines.js,16,number,Mao was shaken by the 1956 uprising in Hungary and by Khrushchev’s attack on Stalin.
 5227d7cf4a,1,js/storylines.js,17,deaths number,"Communes, backyard steel and inflated harvests led to the deadliest famine in history, 15 to 45 million excess deaths. Critics were purged at Lushan in 1959. In 1962 Liu Shaoqi called it 70% man-made."
 03959ce27c,2,js/storylines.js,18,number,"Liu and Deng allowed private plots and household farming in places, and the economy recovered. Mao insisted in September 1962 that class struggle must never be forgotten. China tested its first atomic bomb in October 1964."
 85d19b24c0,1,js/storylines.js,18,deaths,The famine had discredited Mao’s methods but not his authority.
-01f2a6bbe3,1,js/storylines.js,19,deaths number,Mao turned students against the party; the army then restored order with mass purges. 1.1 to 1.6 million died and 22 to 30 million were persecuted. Liu Shaoqi died in detention; Deng was purged twice. Nixon’s visit in 1972 began a new relationship with the US.
+9b21f510d3,1,js/storylines.js,19,deaths number,"Mao turned students against the party; the army then restored order with mass purges. Estimates of deaths run from 1.1–1.6 million (the sociologist Andrew Walder, who calls this conservative) to 2–3 million (the historian Song Yongyi); 22 to 30 million were persecuted. Liu Shaoqi died in detention; Deng was purged twice. Nixon’s visit in 1972 began a new relationship with the US."
 123857604b,1,js/storylines.js,19,quote,Mao feared the party had become “revisionist” and wanted his revolution and power back.
 84e49aa469,1,js/storylines.js,19,deaths number,"Mao died in September 1976 and his closest allies, the Gang of Four, were arrested within a month."
 f0387892f2,2,js/storylines.js,20,number,"Deng Xiaoping rehabilitated millions and let farmers farm their own plots, starting with a secret pact by farmers in Xiaogang village in 1978. Special economic zones such as Shenzhen opened to foreign investment; the one-child policy began. Democracy activists such as Wei Jingsheng were jailed. In 1989 protests for reform were crushed by the army."
@@ -6417,6 +7020,7 @@ b6e3516289,2,js/storylines.js,24,number,"Futian (1930), Yan’an (1942–44), th
 bdddbc0058,2,js/storylines.js,25,number,"Warlords, invasion and civil war, then the Cultural Revolution, left Deng’s generation fearing disorder above all. That fear explains 1989, and the stress on stability since."
 e910f5f001,1,js/storylines.js,26,deaths number,"False harvest reports made the famine worse; the famine was hidden; Tiananmen is erased. Yet China’s own statistics, published in 1983, are among the strongest proof of the famine."
 f8618e18d0,1,js/storylines.js,28,deaths,"The same party presided over the deadliest famine in history and the largest fall in extreme poverty ever recorded. Both are true, and both belong in the story."
+d4ec67e948,1,js/storylines.js,29,deaths number,"Japan Times: China’s war with Japan, 14–20 million dead"
 0c30bd363b,2,js/storylines.js,29,number,"Britannica: readjustment and reaction, 1961–65"
 e708efa069,2,js/storylines.js,31,number,"The United States in the Cold War, 1945–1991"
 c19d5b4453,2,js/storylines.js,67,number,"Government, history, data, pictures and sources for all 196"
