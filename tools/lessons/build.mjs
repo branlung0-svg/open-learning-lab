@@ -41,7 +41,8 @@ function picture(key, caption) {
   const c = commons[key];
   if (!c) { warnings.push(`picture ${key} not in data/commons.json yet (skipped)`); return ''; }
   const src = String(c.f).startsWith('http') ? c.f : REL + c.f;
-  const credit = [c.artist && c.artist.replace(/\s+/g, ' '), c.license].filter(Boolean).join(' · ');
+  const who = String(c.artist || '').replace(/\s+/g, ' ').trim().replace(/^(.+?)\s*\1$/, '$1');  // Commons sometimes repeats the name
+  const credit = [who, c.license].filter(Boolean).join(' · ');
   return `<figure class="pic"><a href="${esc(c.page)}" target="_blank" rel="noopener"><img src="${esc(src)}" alt="${esc(caption || c.cap || c.title)}" loading="lazy" width="${c.w || ''}" height="${c.h || ''}"></a>` +
     `<figcaption>${inline(caption || c.cap || c.title)} <span class="credit">${esc(credit)}. <a href="${esc(c.page)}" target="_blank" rel="noopener">Wikimedia Commons</a></span></figcaption></figure>`;
 }

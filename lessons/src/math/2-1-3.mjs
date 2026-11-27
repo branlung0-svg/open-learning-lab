@@ -37,7 +37,7 @@ In 1797 a fourteen-year-old in Grenoble named Henri Beyle, who later wrote novel
 
 His teacher repeated the lesson and fell back on custom: everyone uses the rule, Euler and Lagrange included. A star pupil laughed at him. In the end Stendhal settled for this: the rule must be right, because every calculation that uses it comes out right. He remembered it as “ma difficulté de moins par moins”, his minus-times-minus problem.
 
-That is a sensible thing to believe and a weak reason for believing it. This lesson gives you three strong ones: a picture, a pattern and a proof. It also shows why some of the best mathematicians in Europe refused negative numbers for three hundred years, and how the question was finally settled in 1867.
+That is a sensible thing to believe and a weak reason for believing it. This lesson gives you three strong ones: a picture, a pattern and a proof. It also shows why some of the best mathematicians in Europe refused negative numbers for three hundred years, and how, in 1867, Hermann Hankel gave the answer mathematicians still use.
 
 <div class="full-only">
 
@@ -133,7 +133,7 @@ The minus sign does two different jobs, and most mistakes in this lesson come fr
 
 <div class="full-only">
 
-**Saying it clearly.** “Negative” for the number and “minus” for subtraction is the clearest habit, but both are common speech, and a calculator has separate keys for the two jobs: the (−) key for negative and the − key for subtract. Read \(-5 - (-2)\) as “negative five minus negative two”.
+**Saying it clearly.** “Negative” for the number and “minus” for subtraction is the clearest habit, but both are common speech, and many scientific calculators have separate keys for the two jobs: the (−) key for negative and the − key for subtract. Read \(-5 - (-2)\) as “negative five minus negative two”.
 
 </div>
 ` },
@@ -233,13 +233,13 @@ which is false. The only value that avoids a contradiction is \((-1)(-1) = 1\).
 
 <div class="full-only">
 
-**What did we actually assume?** Look at what the proofs never used: pictures, debts or films. They used only the laws, plus one decision: that the laws keep holding once negative numbers join the system. That decision is the real choice. Hermann Hankel made exactly this point in 1867: the sign rule cannot be proved from positive numbers alone, but it is the only rule that keeps the laws of arithmetic working. Mathematicians keep the laws because almost everything depends on them. Every rule of algebra you will learn uses the distributive law.
+**What did we actually assume?** Look at what the proofs never used: pictures, debts or films. They used only the laws, plus one decision: that the laws keep holding once negative numbers join the system. That decision is the real choice. Hermann Hankel made exactly this point in 1867: the sign rule cannot be proved from positive numbers alone, but it is the only rule that keeps the laws of arithmetic working. Mathematicians keep the laws because almost everything depends on them. Expanding brackets, factoring, collecting like terms and solving equations all use the distributive law.
 
 </div>
 
 <div class="full-only deeper">
 
-**One proof, many number systems.** Nothing in the proofs was special to whole numbers. They hold word for word for fractions, decimals and all real numbers, so \((-0.5)(-0.5) = 0.25\) and \(\left(-\tfrac{2}{3}\right)\left(-\tfrac{3}{4}\right) = \tfrac{1}{2}\). They hold for the clock numbers of Figure 6. And they hold in every *ring*, the abstract systems you meet in Tier 5: any system with these laws gets the sign rule for free.
+**One proof, many number systems.** Nothing in the proofs was special to whole numbers. They hold word for word for fractions, decimals and all real numbers, so \((-0.5)(-0.5) = 0.25\) and \(\left(-\tfrac{2}{3}\right)\left(-\tfrac{3}{4}\right) = \tfrac{1}{2}\). Step 0 and Theorems 0–3 also hold for the clock numbers of Figure 6, and in every *ring*, the abstract systems you meet in Tier 5: any system with these laws gets the sign rule for free. Theorems 4 and 5 need more: quotients that are unique, and a meaning for “positive”. Clock numbers have neither: on a 12-hour clock, \(2 \times 2\) and \(2 \times 8\) both land on 4.
 
 </div>
 
@@ -249,8 +249,8 @@ which is false. The only value that avoids a contradiction is \((-1)(-1) = 1\).
 
 - **Zero.** \(0 \div 5 = 0\), because \(5 \times 0 = 0\). But \(5 \div 0\) has no answer: no \(q\) gives \(0 \times q = 5\). And \(0 \div 0\) has no *single* answer, because every \(q\) gives \(0 \times q = 0\). Brahmagupta wrote that zero divided by zero is zero; that was his one recorded slip in these rules.
 - **Negative zero.** In the integers, \(-0 = 0\), because \(0 + 0 = 0\). Computers’ floating-point arithmetic does keep a “negative zero”: Python's \(0 / (-13)\) prints <code>-0.0</code>, which still counts as equal to 0.
-- **Division that does not come out even.** Programming languages disagree. Python rounds down, so <code>-7 // 2</code> gives \(-4\) with remainder 1. C rounds toward zero, so <code>-7 / 2</code> gives \(-3\) with remainder \(-1\). Both keep dividend = divisor × quotient + remainder. We ran both to confirm.
-- **Fixed-size numbers.** Computers often store integers in a fixed number of bits. An 8-bit signed integer holds \(-128\) to 127, so \((-128) \times (-1) = 128\) does not fit, and the machine gives \(-128\). Checked with NumPy.
+- **Division that does not come out even.** Programming languages disagree. Python rounds down, so <code>-7 // 2</code> gives \(-4\) with remainder 1. C (since its 1999 standard) rounds toward zero, so <code>-7 / 2</code> gives \(-3\) with remainder \(-1\). Both keep dividend = divisor × quotient + remainder. We ran both to confirm.
+- **Fixed-size numbers.** Computers often store integers in a fixed number of bits. An 8-bit signed integer holds \(-128\) to 127, so \((-128) \times (-1) = 128\) does not fit. NumPy wraps it around to \(-128\), with an overflow warning; some languages stop with an error instead. Checked with NumPy.
 
 </div>
 
@@ -275,9 +275,9 @@ The oldest surviving rules for negative numbers come from China. *The Nine Chapt
 
 {{img:c:math-l213-nine-chapters|A page from Li Huang’s 1820 illustrated edition of *The Nine Chapters on the Mathematical Art*.}}
 
-In his commentary of 263 CE, Liu Hui explained what the two kinds of rod mean: they stand for gains and losses, which he named positive and negative.
+In his commentary of 263 CE, Liu Hui explained what the two kinds of rod mean: they stand for opposite quantities, gains and losses, which is why the book’s rule calls them positive (zheng) and negative (fu).
 
-<blockquote class="primary" lang="zh"><p class="zh">正算赤，負算黑。</p><p>“Positive rods are red, negative rods are black.” Liu Hui, commentary on <i>The Nine Chapters</i>, 263 CE. Translation by Tao Steven Zheng.</p></blockquote>
+<blockquote class="primary" lang="zh"><p class="zh">正算赤，負算黑。</p><p>“The positive rods are red, and the negative rods are black.” Liu Hui, commentary on <i>The Nine Chapters</i>, 263 CE. Translation from Tao Steven Zheng’s article on Chinese counting rods.</p></blockquote>
 
 Red for positive is the reverse of the Western bookkeeping habit of writing losses “in the red”, a contrast David Mumford points out.
 
@@ -287,17 +287,17 @@ Neither tradition seems to have worried much about *why*. The rules worked on th
 
 ### Act 2: The long refusal
 
-Greek mathematics went another way. For Euclid, numbers measured lengths, areas and volumes, and a length cannot be less than nothing. Diophantus of Alexandria, who solved equations with symbols around the third century CE, called an equation whose answer would be negative, \(4 = 4x + 20\), absurd. In Baghdad, al-Khwārizmī treated negative results as meaningless, though later scholars used them: Abu'l-Wafā' worked with debts in the 900s, and al-Samaw'al stated the rules for multiplying signed numbers in the 1100s.
+Greek mathematics went another way. Euclid’s *Elements* distinguished two kinds of quantity: magnitudes, such as lengths, areas and volumes, and numbers, which were collections of units. Neither can be less than nothing. Diophantus of Alexandria, who solved equations with symbols around the third century CE, called an equation whose answer would be negative, \(4 = 4x + 20\), absurd. In Baghdad, al-Khwārizmī knew Brahmagupta’s work, but his geometric methods led him to treat negative results of equations as meaningless, even though he used debts in his book on inheritance. Later scholars went further: Abu'l-Wafā' worked with debts in the 900s, and al-Samaw'al stated the rules for multiplying signed numbers in the 1100s.
 
 In Europe, the signs + and − first appeared in print in 1489, in Johannes Widmann's arithmetic for merchants, where they marked surplus and shortfall in goods.
 
-{{img:c:math-l213-widmann|A page of Johannes Widmann’s 1489 arithmetic for merchants, with the first + and − signs in print. Here they mark how much a bale of goods is over or under weight.}}
+{{img:c:math-l213-widmann|A page of Johannes Widmann’s arithmetic for merchants (first printed 1489), with + and − in use. Here they mark how far each load of goods is over or under a round weight in hundredweights (zentner).}}
 
-Gerolamo Cardano's *Ars Magna* (1545) admitted negative solutions but called them fictitious. René Descartes called negative roots false. John Wallis gave a clear account using a number line in 1685, yet also argued that negative numbers were larger than infinity. Leonhard Euler's *Complete Guide to Algebra* (1770) explained \((-a) \times 3\) as a debt taken three times, and argued that \((-a)(-b)\) must be the opposite of \((-a)b\). His argument quietly assumes what it needs to prove: that changing one factor's sign must change the product's sign. That is Theorem 2, which needs the distributive law.
+Gerolamo Cardano's *Ars Magna* (1545) admitted negative solutions but called them fictitious. René Descartes called negative roots false. John Wallis gave a clear account using a number line in 1685, though about thirty years earlier, in his *Arithmetica Infinitorum*, he had argued that negative numbers were larger than infinity. Leonhard Euler's *Complete Guide to Algebra* (1770) explained \((-a) \times 3\) as a debt taken three times, and argued that \((-a)(-b)\) must be the opposite of \((-a)b\). His argument quietly assumes what it needs to prove: that changing one factor's sign must change the product's sign. That is Theorem 2, which needs the distributive law.
 
 In England, Francis Maseres (1758) and William Frend (1796) wrote algebra books that rejected negative numbers outright. As late as 1831, Augustus De Morgan wrote that \(0 - a\) was as inconceivable as the square root of \(-a\).
 
-David Mumford, a mathematician who has written a cross-cultural study of this history, argues the delay was an accident rather than a necessary stage. Two things held Europe back: the Greek idea of number as a magnitude, and the way negative numbers got tangled up with the even stranger square roots of negatives.
+David Mumford, a mathematician who has written a cross-cultural study of this history, argues the delay was an accident rather than a necessary stage. Two things held Europe back: the authority of Euclid in deciding what counted as mathematics, and the way negative numbers got tangled up with the even stranger square roots of negatives.
 
 ### Act 3: Laws first
 
@@ -307,8 +307,8 @@ The way out was to stop asking what a negative number *is* and start asking what
 
 | When | Who and where | What they did | What they got wrong or refused |
 | --- | --- | --- | --- |
-| c. 100 BCE – 100 CE | *The Nine Chapters*, China, chapter 8 | Rules for adding and subtracting signed numbers while solving equations; red rods positive, black negative | No multiplication rule in the standard English edition (Mumford) |
-| 263 CE | Liu Hui, commentary on *The Nine Chapters* | Named the two kinds of rod positive and negative, for gains and losses | — |
+| c. 100 BCE – 100 CE | *The Nine Chapters*, China, chapter 8 | Rules for adding and subtracting signed numbers while solving equations | No multiplication rule in the standard English edition (Mumford) |
+| 263 CE | Liu Hui, commentary on *The Nine Chapters* | Explained positive and negative rods as gains and losses; red rods for positive, black for negative | — |
 | 3rd century CE | Diophantus, Alexandria | Solved equations with symbols | Called an equation with a negative answer absurd |
 | 628 | Brahmagupta, India | Full rules for fortunes and debts | Said 0 ÷ 0 = 0 |
 | 9th – 12th century | Baghdad and beyond | Abu'l-Wafā' (940–998) used debts; al-Samaw'al (1130–1180) stated the multiplication rules | Al-Khwārizmī treated negative results as meaningless |
@@ -316,7 +316,7 @@ The way out was to stop asking what a negative number *is* and start asking what
 | 1489 | Johannes Widmann, Leipzig | First printed + and −, for surplus and shortfall | − did not yet mean “negative number” |
 | 1545 | Gerolamo Cardano | Included negative solutions | Called them fictitious |
 | 1637 | René Descartes | Showed how to turn negative roots into positive ones | Called negative roots false |
-| 1685 | John Wallis | First clear Western account, with a number line | Also argued negatives were larger than infinity |
+| 1685 | John Wallis | First clear Western account, with a number line | Had argued in the 1650s that negatives were larger than infinity |
 | 1758, 1796 | Francis Maseres, William Frend | Wrote algebra books | Rejected negative numbers altogether |
 | 1770 | Leonhard Euler | Debt argument for \((-a) \times 3\); argued \((-a)(-b) = ab\) | Assumed the step that needed proof |
 | 1797 | Stendhal, aged 14 | Asked why minus times minus is plus | Was told, in effect, that everyone accepts it |
@@ -367,15 +367,15 @@ from \(-56.5\) °C to 15 °C.
 
 <div class="case"><p class="case-tag">Economics and health</p>
 
-**Cheaper cigarettes, more smoking.** Economists measure how demand responds to price with the *price elasticity*: percent change in quantity ≈ elasticity × percent change in price. A U.S. National Cancer Institute monograph summarizes the research as roughly a 4% drop in cigarette consumption for a 10% price rise in the short run, an elasticity of about \(-0.4\):
+**Cheaper cigarettes, more smoking.** Economists measure how demand responds to price with the *price elasticity*: percent change in quantity ≈ elasticity × percent change in price. A 2000 U.S. National Cancer Institute monograph summarized the research as roughly a 4% drop in cigarette consumption for a 10% price rise in the short run, an elasticity of about \(-0.4\):
 \[(-0.4)(+10\%) = -4\% \quad\text{(a tax rise)}, \qquad (-0.4)(-10\%) = +4\% \quad\text{(a price cut).}\]
-Two negatives make a positive: cheaper cigarettes mean more smoking. The same monograph puts the long-run effect at about double. This is the arithmetic behind using tobacco taxes to cut smoking.
+Two negatives make a positive: cheaper cigarettes mean more smoking. The same monograph puts the long-run effect at about double, and NCI’s later Monograph 21, written with the World Health Organization, gives 2.5–5% for most countries. This is the arithmetic behind using tobacco taxes to cut smoking.
 
 </div>
 
 <div class="case"><p class="case-tag">Computing</p>
 
-**Two languages, two answers.** Dividing negative integers that do not divide evenly gives different results in different languages. Python rounds down: <code>-7 // 2</code> is \(-4\), remainder 1. C rounds toward zero: <code>-7 / 2</code> is \(-3\), remainder \(-1\). Code moved from one language to the other can silently change its results for negative inputs. We ran both to confirm these values. Both follow the same law, dividend = divisor × quotient + remainder; they just choose the quotient differently.
+**Two languages, two answers.** Dividing negative integers that do not divide evenly gives different results in different languages. Python rounds down: <code>-7 // 2</code> is \(-4\), remainder 1. C (since its 1999 standard) rounds toward zero: <code>-7 / 2</code> is \(-3\), remainder \(-1\). Code moved from one language to the other can silently change its results for negative inputs. We ran both to confirm these values. Both follow the same law, dividend = divisor × quotient + remainder; they just choose the quotient differently.
 
 </div>
 ` },
@@ -514,17 +514,17 @@ Every factual claim comes from a source we opened. Every number in the practice 
 - MacTutor History of Mathematics, [Brahmagupta](https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/): the rules for fortunes and debts; the zero-by-zero slip.
 - Leo Rogers, NRICH, [The history of negative numbers](https://nrich.maths.org/5961): Diophantus; Abu'l-Wafā'; al-Samaw'al; al-Khwārizmī; Maseres and Frend.
 - M. K. Smith, University of Texas, [History of negative numbers](https://web.ma.utexas.edu/users/mks/326K/Negnos.html): dating of *The Nine Chapters*; Descartes; Wallis; Euler; Peacock.
-- Tao Steven Zheng, [Liu Hui on counting rods](https://math-physics-problems.fandom.com/wiki/File:Ivory_counting_rods.jpg): Liu Hui's line, with translation.
+- Tao Steven Zheng, [article on Chinese numerals and counting rods](https://math-physics-problems.fandom.com/wiki/File:Ivory_counting_rods.jpg), on the open Math & Physics Problems wiki (Fandom): Liu Hui’s line, with translation. Mumford (above) independently confirms Liu Hui’s colour rule.
 - Ian Bruce, [translation of Euler's *Algebra*, chapters 1–8](https://www.17centurymaths.com/contents/euler/algebra/algebrabkIsect1ch1-8.pdf): Euler's paragraphs 32–33.
 - Stendhal, *Vie de Henry Brulard* (written 1835–36), via [a French classroom extract](https://clg-paul-kapel.eta.ac-guyane.fr/IMG/pdf/mathematiques_et_litterature-_val.pdf).
 - Jeff Miller, MacTutor, [Earliest uses of symbols of operation](https://mathshistory.st-andrews.ac.uk/Miller/mathsym/operation/): +, −, ×, · and ÷.
 - MacTutor, [De Morgan quotations](https://mathshistory.st-andrews.ac.uk/Biographies/De%5FMorgan/quotations/): the 1831 remark.
-- Vincent Tariel-Adam, [Two teams that cancel](https://arxiv.org/pdf/2611.02294) (arXiv preprint, October 2026): Hankel's 1867 position.
+- Vincent Tariel-Adam, [Two teams that cancel](https://arxiv.org/pdf/2611.02294) (arXiv preprint, 2026, not peer reviewed): Hankel’s 1867 position. MacTutor, [Hermann Hankel](https://mathshistory.st-andrews.ac.uk/Biographies/Hankel/): his 1867 *Theorie der complexen Zahlensysteme*, which opens with a revised statement of Peacock’s principle of permanence of formal laws.
 - CME Group, [Rulebook chapter 358](https://www.cmegroup.com/rulebook/CME/IV/350/358/358.pdf): E-mini contract size and tick.
 - CNBC, [Danish bank offers negative-rate mortgages](https://www.cnbc.com/2019/08/12/danish-bank-is-offering-10-year-mortgages-with-negative-interest-rates.html) (12 August 2019).
 - OpenStax, [*Physics*, 18.2 Coulomb's law](https://openstax.org/books/physics/pages/18-2-coulombs-law); NIST, [elementary charge](https://physics.nist.gov/cuu/Constants/Value/e.html).
 - Penn State, [METEO 300, 3.6](https://courses.ems.psu.edu/meteo300/node/594): the standard atmosphere per ICAO Doc 7488.
-- U.S. National Cancer Institute, [Smoking and Tobacco Control Monograph 12, chapter 6](https://cancercontrol.cancer.gov/sites/default/files/2020-06/chapter_6.pdf): the 10% price, 4% consumption estimate.
+- U.S. National Cancer Institute, [Smoking and Tobacco Control Monograph 12, chapter 6](https://cancercontrol.cancer.gov/sites/default/files/2020-06/chapter_6.pdf): the 10% price, 4% consumption estimate (2000); [NCI and WHO, Monograph 21 summary](https://cancercontrol.cancer.gov/sites/default/files/2020-08/NCI-WHO-Economics-Monograph-Presentation.pdf): 2.5–5% in most countries.
 - Pictures: Wikimedia Commons, credited under each picture.
 
 Found a mistake? Use “Report a problem” at the bottom of the page.
@@ -535,7 +535,7 @@ Found a mistake? Use “Report a problem” at the bottom of the page.
     steps: [
       { type: 'line', range: [-10, 10], answer: -6, hop: -2, count: 3, prompt: R`Find \(3 \times (-2)\): three jumps of \(-2\), starting at 0. Tap where you land.`, hints: { '6': 'Jumps of −2 go left, not right.', other: 'Start at 0 and jump 2 to the left, three times.' }, explain: R`Three jumps of \(-2\): \(0 \to -2 \to -4 \to -6\). A positive times a negative is negative.` },
       { type: 'choice', prompt: R`Is \((-2) \times 3\) the same as \(3 \times (-2)\)?`, options: ['Yes: both are −6', 'No: (−2) × 3 is 6', 'It has no meaning: you cannot have −2 groups'], answer: 0, hints: { '1': 'Order never changes a product: 3 × 4 = 4 × 3, and that law still holds with negatives.', '2': '“−2 groups” is hard to picture, but order does not matter in multiplication, so we can swap the factors.' }, explain: R`Order does not matter, so \((-2) \times 3 = 3 \times (-2) = -6\).` },
-      { type: 'table', prompt: R`Fill in \(n \times (-2)\) for \(n = 3, 2, 1, 0\).`, labels: ['3 × (−2)', '2 × (−2)', '1 × (−2)', '0 × (−2)'], answers: [-6, -4, -2, 0], explain: R`\(-6, -4, -2, 0\): each step up the list adds 2.` },
+      { type: 'table', prompt: R`Fill in \(n \times (-2)\) for \(n = 3, 2, 1, 0\).`, labels: ['3 × (−2)', '2 × (−2)', '1 × (−2)', '0 × (−2)'], answers: [-6, -4, -2, 0], explain: R`\(-6, -4, -2, 0\): each time \(n\) drops by 1, the product goes up by 2.` },
       { type: 'num', prompt: R`The products went \(-6, -4, -2, 0\), rising by 2 each time. Predict \((-1) \times (-2)\).`, answer: 2, hints: { '-2': 'That would make the pattern turn back down. Each step adds 2: 0 + 2 = ?', other: 'Keep adding 2 to the last product.' }, explain: R`\(0 + 2 = 2\), so \((-1)(-2) = 2\). The straight line continues.` },
       { type: 'choice', prompt: R`Multiplying by \(-1\) flips the line around zero. Where do 4 and \(-4\) land?`, options: ['4 → −4 and −4 → 4', '4 → −4 and −4 stays at −4', 'Both get smaller'], answer: 0, hints: { '1': 'A flip is a mirror through zero, so −4 moves too.', '2': '× (−1) makes 4 smaller but makes −4 bigger: it swaps each number with its opposite.' }, explain: R`\((-1)(4) = -4\) and \((-1)(-4) = 4\): every number swaps with its opposite.` },
       { type: 'num', prompt: R`Flip twice: \(3 \to -3 \to {?}\) So \((-1) \times (-1) \times 3 = 3\). What must \((-1) \times (-1)\) be?`, answer: 1, hints: { '-1': 'Two flips put 3 back at 3. What number times 3 gives 3?', other: 'What number times 3 leaves it at 3?' }, explain: R`Two flips change nothing, and "change nothing" is \(\times 1\): \((-1)(-1) = 1\).` },
@@ -554,7 +554,7 @@ Found a mistake? Use “Report a problem” at the bottom of the page.
       { q: R`\(-5 + (-4) = {?}\)`, options: ['9', '−9', '20', '−20'], answer: 1, why: { '0': 'The multiplication rule does not apply to addition. Adding two debts makes a bigger debt.', '2': 'That multiplies. This question adds.', '3': 'That multiplies with the wrong sign. This question adds.' }, explain: R`Adding two negatives moves further left: \(-9\).`, review: 'faq' },
       { q: R`\(-4^2 = {?}\)`, options: ['16', '−16', '8', '−8'], answer: 1, why: { '0': 'Powers come before the minus: −4² = −(4²).', '2': 'Squaring is 4 × 4, not 4 × 2.', '3': 'Squaring is 4 × 4, and the minus applies afterwards.' }, explain: R`\(-4^2 = -(4^2) = -16\).`, review: 'language' },
       { q: R`What is the sign of \((-2)(-2)(-2)\)?`, options: ['Positive', 'Negative'], answer: 1, why: { '0': 'One pair cancels, but a third negative is left.' }, explain: R`Three negatives is an odd count: the product is \(-8\).`, review: 'prove' },
-      { q: R`\(18 \div (-3) = {?}\)`, options: ['−6', '6', '−15', '−54'], answer: 0, why: { '1': 'Check by multiplying back: (−3)(6) = −18, not 18.', '2': 'That subtracts. Divide.', '3': 'That multiplies. Divide.' }, explain: R`\((-3)(-6) = 18\), so the answer is \(-6\).`, review: 'prove' },
+      { q: R`\(18 \div (-3) = {?}\)`, options: ['−6', '6', '15', '−54'], answer: 0, why: { '1': 'Check by multiplying back: (−3)(6) = −18, not 18.', '2': 'That is 18 + (−3): adding, not dividing.', '3': 'That is 18 × (−3): multiplying, not dividing.' }, explain: R`\((-3)(-6) = 18\), so the answer is \(-6\).`, review: 'prove' },
       { q: R`Which one has no answer?`, options: ['0 ÷ 7', '7 ÷ 0', '0 × 7'], answer: 1, why: { '0': '0 ÷ 7 = 0, because 7 × 0 = 0. Zero can be divided.', '2': '0 × 7 = 0. Multiplying by zero is fine.' }, explain: R`\(7 \div 0\) would need a number \(q\) with \(0 \times q = 7\). None exists.`, review: 'prove' },
       { q: R`A trader is short 1 E-mini contract ($50 a point) and the index falls 8 points. What is the result?`, options: ['+$400', '−$400', '+$8', '−$58'], answer: 0, why: { '1': 'A short position gains when prices fall: (−1)(−8)($50).', '2': 'Each point is worth $50.', '3': 'Multiply, don’t add.' }, explain: R`\((-1)(-8)(\$50) = +\$400\).`, review: 'uses' },
     ],
