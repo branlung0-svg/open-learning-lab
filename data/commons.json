@@ -118648,21 +118648,21 @@
   "w": 451
  },
  "c:math-l213-widmann": {
-  "artist": "Johannes Widmann",
-  "cap": "Johannes Widmann's arithmetic book for merchants, where + and − first appeared in print",
-  "date": "1489",
-  "desc": "Widmann (1489) f. 170v with ẜ and ʝ.",
+  "artist": "Unknown authorUnknown author",
+  "cap": "A page of Johannes Widmann's 1489 arithmetic for merchants, with the first printed + and −",
+  "date": "",
+  "desc": "page of Mercantile Arithmetic or Behende und hüpsche Rechenung auff allen Kauffmanschafft, by Johannes Widmann, published in 1489.",
   "f": "img/c/math-l213-widmann.jpg",
   "graphic": false,
-  "h": 1100,
+  "h": 756,
   "kind": "image",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Johannes_Widmann,_Behende_vnd_hubsche_Rechenung_auff_allen_kauffmanschafft,_1489,_f._170v.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Johannes_Widmann-Mercantile_Arithmetic_1489.jpg",
   "tags": [
    "math"
   ],
-  "title": "Johannes Widmann, Behende vnd hubsche Rechenung auff allen kauffmanschafft, 1489, f. 170v.jpg",
-  "w": 755
+  "title": "Johannes Widmann-Mercantile Arithmetic 1489.jpg",
+  "w": 440
  },
  "c:math-plimpton-322": {
   "artist": "photo author unknown",
