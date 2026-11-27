@@ -229,3 +229,14 @@ ol.quiz { padding-left: 1.4em; } ol.quiz > li { margin: 0 0 22px; }
   table { font-size: 14.5px; }
 }
 @media print { .bar, .toc, .controls, .stepnav, .dots, .prevnext { display: none !important; } body { background: #fff; } .fig, .thm, .case { break-inside: avoid; } }
+
+/* site doors in the lesson bar, the same five as every other page */
+.bar .doors { display: flex; gap: 2px; height: 100%; }
+.bar .doors a { display: flex; align-items: center; padding: 0 10px; color: var(--ink); text-decoration: none; font-weight: 550; border-bottom: 2px solid transparent; }
+.bar .doors a:hover { color: var(--brand); }
+.bar .doors a.on { color: var(--brand); border-bottom-color: var(--brand); }
+.title .crumbs { white-space: normal; flex-wrap: wrap; font-size: 14px; margin: 0 0 14px; }
+.title .crumbs a { color: var(--brand); }
+@media (max-width: 900px) { .bar .doors { display: none; } }
+@media (max-width: 640px) { .title .crumbs { display: flex; } }
+.title .crumbs{font-family:var(--sans)}

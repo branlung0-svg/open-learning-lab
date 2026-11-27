@@ -5,6 +5,7 @@ import re, time, os, glob
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'); os.chdir(ROOT)
 s = open('index.html', encoding='utf-8').read(); v = str(int(time.time()))
 s = re.sub(r'src="(js/[A-Za-z0-9_.-]+\.js)(\?v=\d+)?"', lambda m: f'src="{m.group(1)}?v={v}"', s)
+s = re.sub(r'href="(css/[A-Za-z0-9_.-]+\.css)(\?v=\d+)?"', lambda m: f'href="{m.group(1)}?v={v}"', s)
 open('index.html', 'w', encoding='utf-8').write(s)
 loaded = set(re.findall(r'src="(js/[^"?]+)', s))
 for f in sorted(glob.glob('js/*.js')):

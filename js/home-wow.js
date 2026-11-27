@@ -63,8 +63,12 @@
       if (ks.length > n) { const tick = setInterval(() => { if (!document.body.contains(mosaic)) return clearInterval(tick); const im = tiles[Math.floor(Math.random() * tiles.length)]; const k = ks[i++ % ks.length];
         urlOf(k, C).then((u) => { if (!u) return; im.style.opacity = 0; setTimeout(() => { im.src = u; im.onload = () => { im.style.opacity = 1; }; }, 600); }); }, 3200); } });
     return el; };
+  // Photo headers only where the archive's pictures fit the subject (history, places, documents); a math or physics
+  // page gets a plain title block rather than unrelated historical photos.
+  const PHOTO_ROUTES = new Set(['history', 'archive', 'reading', 'story', 'power', 'parliaments', 'institutions', 'oppression', 'cases', 'case', 'country', 'countries']);
   Lab.enhanceHeroes = (sid, eid) => document.querySelectorAll('#app section.hero:not(.hero-photo):not([data-own])').forEach((el) => {
     if (sid === 'd' && eid) return Lab.photoize(el, { prefix: 'c:' + eid + '-', tags: ['science'] });
+    if (!PHOTO_ROUTES.has(sid)) return;
     Lab.photoize(el, { tags: ROUTE_TAGS[sid] || SAFE }); });
   // a row of captioned photos; tap to enlarge
   Lab.photoStrip = (opts = {}) => { const box = h('div', { class: 'pstrip' });

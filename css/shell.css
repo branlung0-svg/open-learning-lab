@@ -1,0 +1,102 @@
+/* Site shell: header with the five doors, search and My Lab; breadcrumbs; notices; door pages; home; footer.
+   Uses the tokens in css/theme.css (paper, ink, hairlines, one brand blue). Works in light and dark and at 360px. */
+
+/* ---------- header ---------- */
+.top .wrap{height:60px;gap:6px;position:relative}
+.top .logo{margin-right:14px;flex:none}
+.top .logo span{font-size:18px}
+.top .doors{display:flex;align-items:stretch;height:60px;gap:2px}
+.top .doors a{display:flex;align-items:center;padding:0 12px;color:var(--ink);text-decoration:none;font-weight:550;font-size:15px;border-bottom:2px solid transparent;margin-bottom:-1px}
+.top .doors a:hover{color:var(--brand)}
+.top .doors a.on{border-bottom-color:var(--brand);color:var(--brand)}
+.top .hsearch{display:flex;align-items:center;position:relative}
+.top .hsearch .ic{position:absolute;left:10px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--muted);pointer-events:none}
+.top .hsearch input{width:220px;height:36px;padding:0 12px 0 32px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit;font-size:14px}
+.top .hsearch input:focus{outline:2px solid var(--brand);outline-offset:1px;width:280px}
+.top .hbtn{display:inline-flex;align-items:center;gap:6px;height:36px;padding:0 10px;border:1px solid var(--line)!important;border-radius:8px;background:var(--card)!important;color:var(--ink);font:inherit;font-size:14px;font-weight:550;cursor:pointer;text-decoration:none}
+.top .hbtn:hover{border-color:var(--brand)!important}
+.top .ic{display:inline-flex;width:18px;height:18px}
+.top .ic svg{width:100%;height:100%}
+.top .due:not(:empty){min-width:18px;height:18px;padding:0 5px;border-radius:9px;background:var(--brand);color:var(--card);font-size:11px;line-height:18px;text-align:center}
+.top .search-btn,.top .menu-btn{display:none}
+.top .wrap > .hpanel{position:absolute;right:16px;top:58px;width:300px;max-width:calc(100vw - 32px);background:var(--card)!important;border:1px solid var(--line)!important;border-radius:10px;padding:10px;box-shadow:0 12px 32px rgba(0,0,0,.12)!important;z-index:40}
+.hpanel a,.hpanel .linkish{display:block;padding:8px 10px;border-radius:6px;color:var(--ink);text-decoration:none;font-size:15px;background:none;border:0;width:100%;text-align:left;font:inherit;cursor:pointer}
+.hpanel a:hover,.hpanel .linkish:hover{background:var(--card2)}
+.hpanel .hp-h{margin:4px 10px 2px;font-family:var(--serif);font-weight:600;font-size:17px}
+.hpanel .me-stats{margin:0 10px 8px;color:var(--muted);font-size:13px}
+.hpanel hr{border:0;border-top:1px solid var(--line);margin:8px 0}
+.hpanel .mp-door b{display:block;font-size:16px}
+.hpanel .mp-door span{display:block;color:var(--muted);font-size:13px;line-height:1.4}
+@media (max-width:1080px){.top .hsearch input{width:160px}.top .hsearch input:focus{width:200px}.top .doors a{padding:0 9px}}
+@media (max-width:960px){.top .doors{display:none}.top .menu-btn{display:inline-flex}.top .logo{margin-right:0}}
+@media (max-width:720px){.top .hsearch{display:none}.top .search-btn{display:inline-flex}.top .me-btn .lbl{display:none}.top .wrap{height:56px}.top .wrap > .hpanel{top:54px;right:12px}}
+
+/* ---------- breadcrumbs and notices ---------- */
+nav.crumbs{display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px;font-size:14px;color:var(--muted);margin:0 0 10px}
+nav.crumbs a{color:var(--brand);text-decoration:none}
+nav.crumbs a:hover{text-decoration:underline}
+nav.crumbs .sep{color:var(--line);font-weight:700}
+nav.crumbs [aria-current]{color:var(--muted)}
+.hero nav.crumbs{margin-bottom:12px}
+.older-note{margin:0 0 16px;padding:10px 14px;border:1px solid var(--line);border-left:4px solid #B7791F;border-radius:8px;background:var(--card2);font-size:14px;color:var(--ink)}
+
+/* ---------- door pages ---------- */
+.door-hero h1{margin:0 0 8px}
+.door-jump{display:flex;gap:6px 18px;flex-wrap:wrap;margin:-6px 0 26px;padding-bottom:12px;border-bottom:1px solid var(--line);font-size:15px}
+.door-jump a{color:var(--brand);text-decoration:none;font-weight:550;white-space:nowrap}
+.door-sec{margin:0 0 38px;scroll-margin-top:76px}
+.door-sec > h2{margin:0 0 6px}
+.door-lede{margin:0 0 14px;color:var(--muted);max-width:760px}
+.fac{margin:0 0 22px}
+.fac h3{margin:0 0 10px;font-size:17px}
+.fac-sub{font-family:var(--sans);font-weight:400;color:var(--muted);font-size:14px}
+.dgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.dcard{display:flex;flex-direction:column;gap:4px;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);text-decoration:none;min-height:84px}
+.dcard:hover{border-color:var(--brand)}
+.dcard:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+.dc-t{font-family:var(--serif);font-weight:600;font-size:17px;line-height:1.3}
+.dc-d{color:var(--muted);font-size:14px;line-height:1.45}
+.dc-tag{align-self:flex-start;margin-top:auto;padding:2px 7px;border-radius:4px;font-size:11px;font-weight:650;letter-spacing:.04em;text-transform:uppercase;background:var(--card2);color:var(--muted)}
+.dc-tag.rebuilt{background:#E3F1E6;color:#1E6B34}
+.dc-tag.older{background:#F6ECD9;color:#8A5A12}
+.dc-tag.beingrebuilt{background:#E3ECF6;color:#1F4E79}
+@media (prefers-color-scheme: dark){.dc-tag.rebuilt{background:#1E3326;color:#9AD3AC}.dc-tag.older{background:#3A2E1A;color:#E2BE82}.dc-tag.beingrebuilt{background:#1D2C3D;color:#A9C6E6}}
+.cpick{display:flex;gap:8px;margin:0 0 14px;max-width:460px}
+.cpick input{flex:1;height:40px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit}
+
+/* ---------- home ---------- */
+.home-hero{padding:44px 0 30px;border-bottom:1px solid var(--line);margin-bottom:30px}
+.home-hero h1{font-size:clamp(30px,5vw,46px);max-width:860px;margin:0 0 14px}
+.home-hero p{font-size:18px;color:var(--muted);max-width:760px;margin:0 0 22px}
+.home-search{display:flex;align-items:center;gap:8px;position:relative;max-width:640px}
+.home-search .ic{position:absolute;left:14px;width:18px;height:18px;color:var(--muted);display:inline-flex}
+.home-search .ic svg{width:100%;height:100%}
+.home-search input{flex:1;height:48px;padding:0 14px 0 42px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit;font-size:16px}
+.home-search .btn{height:48px;padding:0 20px}
+.home-sec{margin:0 0 40px}
+.home-sec > h2{margin:0 0 12px}
+.home-doors{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.hdoor{display:flex;flex-direction:column;gap:8px;padding:18px;border:1px solid var(--line);border-top:3px solid var(--brand);border-radius:10px;background:var(--card);color:var(--ink);text-decoration:none}
+.hdoor:hover{border-color:var(--brand)}
+.hd-t{font-family:var(--serif);font-weight:600;font-size:22px}
+.hd-d{color:var(--muted);font-size:14px;line-height:1.5;flex:1}
+.hd-go{color:var(--brand);font-weight:600;font-size:14px}
+@media (max-width:1000px){.home-doors{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:560px){.home-doors{grid-template-columns:1fr}.home-hero{padding-top:26px}.home-search .btn{display:none}}
+.home-check{padding:20px;border:1px solid var(--line);border-radius:10px;background:var(--card2)}
+.home-check p{color:var(--muted);max-width:760px}
+
+/* ---------- footer ---------- */
+.foot{border-top:1px solid var(--line);margin-top:40px;padding-top:28px}
+.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:20px;margin-bottom:18px}
+.fcol a{display:block;color:var(--ink);text-decoration:none;font-size:14px;padding:3px 0}
+.fcol a:hover{color:var(--brand)}
+.fh{margin:0 0 6px;font-weight:650;color:var(--ink);font-size:14px}
+.fabout p:not(.fh){margin:0;max-width:340px}
+.fsmall{font-size:12px;color:var(--muted);max-width:900px;margin:0}
+@media (max-width:760px){.fgrid{grid-template-columns:1fr 1fr}.fabout{grid-column:1/-1}}
+.shell-hidden{display:none!important}
+.hero-photo nav.crumbs,.hero-photo nav.crumbs a,.hero-photo nav.crumbs [aria-current]{color:#fff}
+.hero-photo nav.crumbs .sep{color:rgba(255,255,255,.6)}
+#app > nav.crumbs{margin-top:18px}
+.home-search .btn.primary,.cpick .btn.primary{background:var(--brand);border-color:var(--brand);color:#fff}

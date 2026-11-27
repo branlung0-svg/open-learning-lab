@@ -96,7 +96,7 @@ function page(L, rel) {
 <a class="skip" href="#main">Skip to the lesson</a>
 <header class="bar">
   <a class="brand" href="${rel}index.html#home">Open Learning Lab</a>
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="${rel}index.html#d-math">Mathematics</a><span>›</span><a href="${rel}index.html#path-math">Tier ${L.tier}</a><span>›</span><span>${esc(L.unit)} ${esc(L.unitTitle)}</span></nav>
+  <nav class="doors" aria-label="Main">${[['learn', 'Learn'], ['explore', 'Explore'], ['library', 'Library'], ['evidence', 'Evidence'], ['practice', 'Practice']].map(([id, n]) => `<a href="${rel}index.html#${id}"${id === 'learn' ? ' class="on"' : ''}>${n}</a>`).join('')}</nav>
   <div class="bar-tools">
     <div class="mode" role="group" aria-label="Lesson length"><button type="button" data-mode="full"><span class="ll">Full lesson</span><span class="sl">Full</span></button><button type="button" data-mode="short"><span class="ll">${L.shortMinutes}-minute refresher</span><span class="sl">${L.shortMinutes} min</span></button></div>
     <button type="button" class="theme" aria-label="Switch between light and dark"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg></button>
@@ -107,6 +107,7 @@ function page(L, rel) {
 <nav class="toc" aria-label="Contents"><p class="toc-h">Contents</p><ol>${toc}</ol></nav>
 <main id="main">
 <header class="title">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="${rel}index.html#learn">Learn</a><span aria-hidden="true">›</span><a href="${rel}index.html#d-math">Mathematics</a><span aria-hidden="true">›</span><a href="${rel}index.html#path-math">Tier ${L.tier}</a><span aria-hidden="true">›</span><span aria-current="page">${esc(L.unit)} ${esc(L.unitTitle)}</span></nav>
   <p class="kicker">Lesson ${esc(L.id)} · Tier ${L.tier} · ${esc(L.unitTitle)}</p>
   <h1>${inline(L.title)}</h1>
   <p class="dek">${inline(L.dek)}</p>

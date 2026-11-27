@@ -222,7 +222,9 @@
     if (cleanup) { try { cleanup(); } catch (e) {} cleanup = null; }
     Lab.stopSpeaking();
     const app = $('#app');
-    const raw = (location.hash || '#home').slice(1);
+    let raw = (location.hash || '#home').slice(1);
+    const rd = Lab.redirectFor && Lab.redirectFor(raw);
+    if (rd && rd !== raw) { window.history.replaceState(null, '', '#' + rd); raw = rd; }
     const [sid, eid, ...rest] = raw.split('-');
     app.innerHTML = '';
     window.scrollTo(0, 0);
@@ -239,10 +241,16 @@
     if (!sid || sid === 'home' || !Lab.subject(sid)) {
       document.documentElement.style.setProperty('--accent', '#3B82F6');
       Lab.setContext('');
+      if (Lab.routes.home) { cleanup = Lab.routes.home(app, []) || null; return; }
       const home = reg.home && reg.home._page;
       if (home) cleanup = home.mount(app) || null;
       return;
     }
+    cleanup = Lab.renderSubject(app, sid, eid, rest);
+  }
+  // An older subject page (tabs of explorers). Exported so a door page can still show the old explorers it replaces.
+  Lab.renderSubject = function (app, sid, eid, rest) {
+    let cleanup = null;
     const S = Lab.subject(sid);
     document.documentElement.style.setProperty('--accent', S.c);
     const ex = S.ex.find(([e]) => e === eid) ? eid : S.ex[0][0];
@@ -255,11 +263,12 @@
     app.append(hero, tabs, body);
     const def = reg[sid] && reg[sid][ex];
     Lab.setContext(`${S.name} → ${S.ex.find(([e]) => e === ex)[1]}`);
-    if (!def) { body.append(h('div', { class: 'card' }, 'Coming soon.')); return; }
+    if (!def) { body.append(h('div', { class: 'card' }, 'Coming soon.')); return null; }
     if (Lab.markDone('visit:' + sid + ':' + ex, 10, 'new explorer')) {}
     try { cleanup = def.mount(body, rest.join('-')) || null; }
     catch (e) { body.append(h('div', { class: 'card' }, 'This explorer hit an error: ' + e.message)); console.error(e); }
-  }
+    return cleanup;
+  };
   Lab.go = (hash) => { if (location.hash === '#' + hash) route(); else location.hash = hash; };
 
   document.addEventListener('DOMContentLoaded', () => {
