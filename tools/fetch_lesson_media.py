@@ -15,7 +15,8 @@ out = json.load(open('data/commons.json')) if os.path.exists('data/commons.json'
 os.makedirs('img/c', exist_ok=True); n = 0
 for w in wanted:
     k = w['k']
-    if k in out and not str(out[k].get('f', '')).startswith('http') and os.path.exists(out[k]['f']): continue
+    if k in out and not w.get('force') and not str(out[k].get('f', '')).startswith('http') and os.path.exists(out[k]['f']): continue
+    if w.get('force') and out.get(k, {}).get('title') == str(w.get('file', ''))[5:] and os.path.exists(out[k].get('f', '')): continue
     try:
         titles = ([w['file']] if w.get('file') else []) + (fc.candidates(w['q'], 'image') if w.get('q') else [])
         if not titles: print('NONE', k); continue

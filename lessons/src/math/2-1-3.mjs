@@ -291,7 +291,7 @@ Greek mathematics went another way. For Euclid, numbers measured lengths, areas 
 
 In Europe, the signs + and − first appeared in print in 1489, in Johannes Widmann's arithmetic for merchants, where they marked surplus and shortfall in goods.
 
-{{img:c:math-l213-widmann|Johannes Widmann's arithmetic for merchants, where + and − first appeared in print.}}
+{{img:c:math-l213-widmann|A page of Johannes Widmann’s 1489 arithmetic for merchants, with the first + and − signs in print. Here they mark how much a bale of goods is over or under weight.}}
 
 Gerolamo Cardano's *Ars Magna* (1545) admitted negative solutions but called them fictitious. René Descartes called negative roots false. John Wallis gave a clear account using a number line in 1685, yet also argued that negative numbers were larger than infinity. Leonhard Euler's *Complete Guide to Algebra* (1770) explained \((-a) \times 3\) as a debt taken three times, and argued that \((-a)(-b)\) must be the opposite of \((-a)b\). His argument quietly assumes what it needs to prove: that changing one factor's sign must change the product's sign. That is Theorem 2, which needs the distributive law.
 

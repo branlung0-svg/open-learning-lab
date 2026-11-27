@@ -32394,12 +32394,14 @@
  },
  {
   "k": "c:math-l213-widmann",
-  "q": "Widmann Behende hübsche Rechenung Kauffmanschafft",
   "kind": "image",
   "tags": [
    "math"
   ],
   "graphic": false,
-  "cap": "Johannes Widmann's arithmetic book for merchants, where + and − first appeared in print"
+  "cap": "A page of Johannes Widmann's 1489 arithmetic for merchants, with the first printed + and −",
+  "file": "File:Johannes Widmann-Mercantile Arithmetic 1489.jpg",
+  "minw": 400,
+  "force": true
  }
 ]
