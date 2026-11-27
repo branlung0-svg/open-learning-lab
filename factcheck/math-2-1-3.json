@@ -1,0 +1,278 @@
+[
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "Rules for adding and subtracting signed numbers while solving equations; red rods positive, black negative",
+  "new": "Rules for adding and subtracting signed numbers while solving equations",
+  "problem": "The red-for-positive, black-for-negative rule comes from Liu Hui's commentary of 263 CE, not from the Nine Chapters text. The lesson's own blockquote credits the line to Liu Hui, so this timeline row contradicts it.",
+  "severity": "error",
+  "sources": [
+   "https://www.sec.ntnu.edu.tw/uploads/asset/data/62564108381784d09345bd4b/277-02%E6%AD%A3%E8%B2%A0%E6%95%B8%E7%9A%84%E6%A6%82%E5%BF%B5.pdf",
+   "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf"
+  ],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "Named the two kinds of rod positive and negative, for gains and losses",
+  "new": "Explained positive and negative rods as gains and losses; red rods for positive, black for negative",
+  "problem": "The words zheng (positive) and fu (negative) already appear in the Nine Chapters' own rule (正負術曰…) and in its problems. Liu Hui explained them and gave the colour rule; he did not coin the names.",
+  "severity": "precision",
+  "sources": [
+   "https://www.sec.ntnu.edu.tw/uploads/asset/data/62564108381784d09345bd4b/277-02%E6%AD%A3%E8%B2%A0%E6%95%B8%E7%9A%84%E6%A6%82%E5%BF%B5.pdf",
+   "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf"
+  ],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "they stand for gains and losses, which he named positive and negative.",
+  "new": "they stand for opposite quantities, gains and losses, which is why the book’s rule calls them positive (zheng) and negative (fu).",
+  "problem": "The base text of chapter 8 already uses 正 and 負 (its rule is headed 正負術曰). Liu Hui's note (今兩算得失相反，要令正負以名之) explains the naming; it does not introduce it.",
+  "severity": "precision",
+  "sources": [
+   "https://www.sec.ntnu.edu.tw/uploads/asset/data/62564108381784d09345bd4b/277-02%E6%AD%A3%E8%B2%A0%E6%95%B8%E7%9A%84%E6%A6%82%E5%BF%B5.pdf",
+   "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf"
+  ],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "“Positive rods are red, negative rods are black.” Liu Hui, commentary on <i>The Nine Chapters</i>, 263 CE. Translation by Tao Steven Zheng.",
+  "new": "“The positive rods are red, and the negative rods are black.” Liu Hui, commentary on <i>The Nine Chapters</i>, 263 CE. Translation from Tao Steven Zheng’s article on Chinese counting rods.",
+  "problem": "The words in quotation marks are not the cited source's wording, which is \"The positive rods are red, and the negative rods are black.\" The page also never says who made the translation; Zheng is named only as the article's author.",
+  "severity": "sourcing",
+  "sources": [
+   "https://math-physics-problems.fandom.com/wiki/File:Ivory_counting_rods.jpg"
+  ],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "- Tao Steven Zheng, [Liu Hui on counting rods](https://math-physics-problems.fandom.com/wiki/File:Ivory_counting_rods.jpg): Liu Hui's line, with translation.",
+  "new": "- Tao Steven Zheng, [article on Chinese numerals and counting rods](https://math-physics-problems.fandom.com/wiki/File:Ivory_counting_rods.jpg), on the open Math & Physics Problems wiki (Fandom): Liu Hui’s line, with translation. Mumford (above) independently confirms Liu Hui’s colour rule.",
+  "problem": "The link is an image-file URL on an open fan wiki, and no page there is titled \"Liu Hui on counting rods\" (the article's heading is \"Chinese Numerals and the Decimal System\"). A primary-source quotation should be backed by a reviewed source too, such as Mumford, who quotes Liu Hui's colour rule.",
+  "severity": "sourcing",
+  "sources": [
+   "https://math-physics-problems.fandom.com/wiki/File:Ivory_counting_rods.jpg",
+   "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf"
+  ],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "John Wallis gave a clear account using a number line in 1685, yet also argued that negative numbers were larger than infinity.",
+  "new": "John Wallis gave a clear account using a number line in 1685, though about thirty years earlier, in his *Arithmetica Infinitorum*, he had argued that negative numbers were larger than infinity.",
+  "problem": "The \"larger than infinity\" argument (that a/0 is infinite, so a/−1 is more than infinite) is from Arithmetica Infinitorum (1655–56), not the 1685 Treatise of Algebra. \"Yet also\" suggests he held both views at the same time.",
+  "severity": "precision",
+  "sources": [
+   "https://libquotes.com/morris-kline/quote/lbd6s3i",
+   "https://www.quadrivium.info/MathInt/Notes/WallisNegExp.pdf",
+   "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf",
+   "https://web.ma.utexas.edu/users/mks/326K/Negnos.html"
+  ],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "| Also argued negatives were larger than infinity |",
+  "new": "| Had argued in the 1650s that negatives were larger than infinity |",
+  "problem": "This row is dated 1685, but the \"larger than infinity\" claim comes from Wallis's Arithmetica Infinitorum of 1655–56.",
+  "severity": "precision",
+  "sources": [
+   "https://libquotes.com/morris-kline/quote/lbd6s3i",
+   "https://www.quadrivium.info/MathInt/Notes/WallisNegExp.pdf"
+  ],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "For Euclid, numbers measured lengths, areas and volumes, and a length cannot be less than nothing.",
+  "new": "Euclid’s *Elements* knew two kinds of quantity: magnitudes, such as lengths, areas and volumes, and numbers, which were collections of units. Neither can be less than nothing.",
+  "problem": "Euclid kept number (\"a multitude composed of units\", Book VII def. 2) apart from magnitude (length, area, volume). Saying his numbers measured lengths merges the two categories, a distinction Mumford spells out.",
+  "severity": "precision",
+  "sources": [
+   "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf"
+  ],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "Two things held Europe back: the Greek idea of number as a magnitude, and",
+  "new": "Two things held Europe back: the authority of Euclid in deciding what counted as mathematics, and",
+  "problem": "Mumford's first cause is \"the overwhelming importance of Euclid in defining what is and what is not mathematics\", not a Greek idea of number as magnitude. For Euclid, number and magnitude were different things.",
+  "severity": "precision",
+  "sources": [
+   "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf"
+  ],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "In Baghdad, al-Khwārizmī treated negative results as meaningless, though later scholars used them:",
+  "new": "In Baghdad, al-Khwārizmī knew Brahmagupta’s work, but his geometric methods led him to treat negative results of equations as meaningless, even though he used debts in his book on inheritance. Later scholars went further:",
+  "problem": "One-sided. The cited NRICH source says al-Khwārizmī accepted the idea of negatives from Brahmagupta and used debts in his inheritance treatise; only his geometric models made him reject negative results.",
+  "severity": "framing",
+  "sources": [
+   "https://nrich.maths.org/5961"
+  ],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "and how the question was finally settled in 1867.",
+  "new": "and how, in 1867, Hermann Hankel gave the answer mathematicians still use.",
+  "problem": "Saying the question was \"finally settled\" in 1867 is too strong. Acceptance came gradually through 19th-century formal algebra (Peacock, De Morgan, Hankel) and later constructions of the integers from the natural numbers. Mumford still quotes De Morgan in 1843 noting the lack of a rational explanation.",
+  "severity": "framing",
+  "sources": [
+   "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf",
+   "https://arxiv.org/pdf/2408.08547",
+   "https://arxiv.org/abs/2611.02294"
+  ],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "Every rule of algebra you will learn uses the distributive law.",
+  "new": "Expanding brackets, factoring, collecting like terms and solving equations all use the distributive law.",
+  "problem": "Overstated: some rules, such as the exponent law x^a · x^b = x^(a+b) and the order laws, do not use the distributive law. The FAQ itself says \"nearly all of algebra\".",
+  "severity": "framing",
+  "sources": [],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "They hold for the clock numbers of Figure 6. And they hold in every *ring*, the abstract systems you meet in Tier 5: any system with these laws gets the sign rule for free.",
+  "new": "Step 0 and Theorems 0–3 also hold for the clock numbers of Figure 6, and in every *ring*, the abstract systems you meet in Tier 5: any system with these laws gets the sign rule for free. Theorems 4 and 5 need more: quotients that are unique, and a meaning for “positive”. Clock numbers have neither: on a 12-hour clock, \\(2 \\times 2\\) and \\(2 \\times 8\\) both land on 4.",
+  "problem": "\"They\" means all the proofs, but Theorem 5 needs an order (positive and negative), and Theorem 4 assumes quotients are unique. Neither holds on a clock or in a general ring: mod 12, 2·2 = 2·8 = 4. The Connections table rightly limits the claim to Theorems 0–3.",
+  "severity": "precision",
+  "sources": [],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "so \\((-128) \\times (-1) = 128\\) does not fit, and the machine gives \\(-128\\). Checked with NumPy.",
+  "new": "so \\((-128) \\times (-1) = 128\\) does not fit. NumPy wraps it around to \\(-128\\), with an overflow warning; some languages stop with an error instead. Checked with NumPy.",
+  "problem": "\"The machine gives −128\" makes one behaviour sound universal. NumPy wraps and warns (we reproduced this: 'overflow encountered in scalar multiply'); C leaves signed overflow undefined or implementation-defined; some languages trap on overflow.",
+  "severity": "precision",
+  "sources": [],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "C rounds toward zero, so <code>-7 / 2</code> gives",
+  "new": "C (since its 1999 standard) rounds toward zero, so <code>-7 / 2</code> gives",
+  "problem": "Before C99, the direction of rounding for negative operands was implementation-defined, so older C code could floor. The values themselves are correct; we reproduced -3 and -1 with gcc -std=c99.",
+  "severity": "precision",
+  "sources": [
+   "https://open-std.org/JTC1/SC22/WG14/www/docs/n617.htm"
+  ],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "a calculator has separate keys for the two jobs",
+  "new": "many scientific calculators have separate keys for the two jobs",
+  "problem": "Not every calculator does: basic calculators often have only − and a +/− change-sign key. The (−) key is a feature of scientific and graphing models.",
+  "severity": "precision",
+  "sources": [],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "each step up the list adds 2.",
+  "new": "each time \\(n\\) drops by 1, the product goes up by 2.",
+  "problem": "The table lists n = 3, 2, 1, 0 from top to bottom, with products −6, −4, −2, 0. The product grows by 2 going down the list, so \"up the list\" gets the direction backward.",
+  "severity": "precision",
+  "sources": [],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "'2': 'That subtracts. Divide.'",
+  "new": "'2': 'That is 18 + (−3): adding, not dividing.'",
+  "problem": "The option −15 does not come from plain subtraction: 18 − (−3) = 21 and 18 + (−3) = 15. The feedback should name the actual slip, or the option should be changed. The lesson promises that each wrong option maps to one specific misconception.",
+  "severity": "precision",
+  "sources": [],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "(arXiv preprint, October 2026): Hankel's 1867 position.",
+  "new": "(arXiv preprint, 2026, not peer reviewed): Hankel’s 1867 position. MacTutor, [Hermann Hankel](https://mathshistory.st-andrews.ac.uk/Biographies/Hankel/): his 1867 *Theorie der complexen Zahlensysteme*, which opens with a revised statement of Peacock’s principle of permanence of formal laws.",
+  "problem": "The only cited source for a central historical claim is a new, unreviewed preprint on teaching by an independent researcher. Its arXiv number (2611.…) shows it was posted in November 2026, although its text is dated October. The claim agrees with other accounts (Wikipedia, citing Fischbein), but a primary or peer-reviewed source should be added.",
+  "severity": "sourcing",
+  "sources": [
+   "https://arxiv.org/abs/2611.02294",
+   "https://en.wikipedia.org/wiki/Hermann_Hankel"
+  ],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "A U.S. National Cancer Institute monograph summarizes the research as roughly",
+  "new": "A 2000 U.S. National Cancer Institute monograph summarized the research as roughly",
+  "problem": "The cited source is Monograph 12, chapter 6 (November 2000). NCI's newer 2016 Monograph 21, written with WHO, gives a range of 2.5–5% per 10% price rise. The 4% figure falls inside that range, but the source should be dated, or the newer range added.",
+  "severity": "outdated",
+  "sources": [
+   "https://cancercontrol.cancer.gov/sites/default/files/2020-06/chapter_6.pdf",
+   "https://cancercontrol.cancer.gov/brp/tcrb/monographs/12/index.html",
+   "https://cancercontrol.cancer.gov/sites/default/files/2020-08/NCI-WHO-Economics-Monograph-Presentation.pdf"
+  ],
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ },
+ {
+  "file": "lessons/src/math/2-1-3.mjs",
+  "old": "Here they mark how far each load of goods is over or under a round weight in hundredweights (zentner).",
+  "new": "Here they mark how far each load of goods is over or under a round weight in hundredweights (zentner).",
+  "problem": "Miller confirms that Widmann's + and − mark excess or deficiency in the weight of boxes or bales. I could not open the Commons file page (File:Johannes Widmann-Mercantile Arithmetic 1489.jpg) to confirm that this particular page shows that example, so the caption should describe the book rather than the page until someone checks.",
+  "severity": "sourcing",
+  "sources": [
+   "https://mathshistory.st-andrews.ac.uk/Miller/mathsym/operation/",
+   "https://old.maa.org/press/periodicals/convergence/mathematical-treasures-widmans-commercial-arithmetic"
+  ],
+  "applied": false,
+  "note": "Kept: the picture was checked by eye; it shows loads in zentner and pounds marked with + and −.",
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
+ }
+]

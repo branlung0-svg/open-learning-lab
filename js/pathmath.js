@@ -22,6 +22,9 @@
   const byTier = (t) => M.topics.filter((x) => x.tier === t);
   const done = (id) => Lab.isDone && Lab.isDone('math:' + id);
   const link = (id) => '#path-math-t-' + id;
+  // Lessons rebuilt to the full standard (lessons/math/*.html, built by tools/lessons/build.mjs). 'old' = the first-draft lesson they replace or deepen.
+  const REBUILT = [{ id: '2.1.3', t: 'Multiplying and dividing integers', href: 'lessons/math/2-1-3.html', old: 'neg', d: 'Why negative times negative is positive: six interactive visuals, a full proof, the 1,500-year history and 30 problems with worked solutions.' }];
+  const rebuiltCard = () => h('div', { class: 'card', style: { borderLeft: '4px solid var(--brand, #1F4E79)' } }, h('b', null, 'This path is being rebuilt, one lesson at a time.'), h('p', { class: 'small', style: { margin: '4px 0 8px' } }, 'The lessons below are a first draft. Each is being replaced by a much deeper lesson with interactive visuals, full proofs, primary sources and an independent fact-check. Rebuilt so far:'), h('ul', { style: { margin: 0 } }, ...REBUILT.map((r) => h('li', null, h('a', { href: r.href }, r.id + ' ' + r.t), ' ', h('span', { class: 'small muted' }, r.d)))));
   // hands-on ladder rungs in js/mathpath.js that match lessons
   const RUNG = { count: 'count', arith: 'mul', frac: 'frac', neg: 'pow', var: 'alg', alg: 'func', geo1: 'geo', calc1: 'calc', calc2: 'calc', prob: 'prob', data1: 'stats' };
 
@@ -217,7 +220,7 @@
     Lab.setContext('Math path overview: ten tiers from counting to the research frontier, with ' + M.topics.length + ' lessons.');
     const saved = (() => { try { return JSON.parse(localStorage.getItem('lab.math.place') || 'null'); } catch (e) { return null; } })();
     app.append(hero('Mathematics: from counting to the frontier', `${M.topics.length} lessons in ten tiers. Each one teaches the idea, works examples, explains why it is true, decodes the symbols, tells who discovered it and how, shows where it is used, and gives practice with answers.`),
-      subnav(''),
+      subnav(''), rebuiltCard(),
       h('div', { class: 'card' }, h('div', { class: 'row', style: { gap: '8px', flexWrap: 'wrap', alignItems: 'center' } }, h('a', { class: 'btn primary', href: '#path-math-check' }, saved ? `Your suggested start: tier ${saved.start} (retake check)` : 'Where do I stand? Take the 12-question check'), saved ? h('a', { class: 'btn', href: '#path-math-' + Math.min(saved.start, 10) }, `Go to tier ${Math.min(saved.start, 10)}`) : h('a', { class: 'btn', href: '#path-math-1' }, 'Start at tier 1')), progress(),
         h('p', { class: 'tiny muted', style: { marginBottom: 0 } }, 'Read the ladder from the bottom up. Ages are rough US school stages, not limits: start wherever you are. The whole story matters more than any single lesson, so each lesson links to what it builds on and what it leads to.')),
       ladder(),
@@ -237,7 +240,7 @@
     Lab.setContext(`Math path lesson (tier ${o.tier}): ${o.t}. ${o.big}`);
     document.documentElement.style.setProperty('--accent', col(o.tier));
     const ts = byTier(o.tier); const i = ts.indexOf(o); const all = M.topics; const gi = all.indexOf(o);
-    app.append(h('section', { class: 'hero', 'data-own': '1' }, h('a', { class: 'crumb', href: '#path-math-' + o.tier }, `← Tier ${o.tier}: ${TIERS[o.tier - 1][1]}`), h('h1', null, o.t), h('p', null, o.big)), tierStrip(o.tier), topicCard(o, true),
+    app.append(h('section', { class: 'hero', 'data-own': '1' }, h('a', { class: 'crumb', href: '#path-math-' + o.tier }, `← Tier ${o.tier}: ${TIERS[o.tier - 1][1]}`), h('h1', null, o.t), h('p', null, o.big)), ...REBUILT.filter((r) => r.old === id).map((r) => h('div', { class: 'card', style: { borderLeft: '4px solid var(--brand, #1F4E79)' } }, h('b', null, 'Rebuilt in depth: '), h('a', { href: r.href }, r.id + ' ' + r.t), h('p', { class: 'small', style: { margin: '4px 0 0' } }, r.d))), tierStrip(o.tier), topicCard(o, true),
       h('div', { class: 'row', style: { gap: '8px', justifyContent: 'space-between', marginTop: '10px', flexWrap: 'wrap' } }, gi > 0 ? h('a', { class: 'btn', href: link(all[gi - 1].id) }, '← ' + all[gi - 1].t) : h('span'), gi < all.length - 1 ? h('a', { class: 'btn primary', href: link(all[gi + 1].id) }, all[gi + 1].t + ' →') : h('span')));
     void i;
   };

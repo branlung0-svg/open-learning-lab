@@ -30,6 +30,17 @@ try:
             if crash: errs.append('error message shown on page')
             if errs or n < 80: fails.append((r, n, errs[:2]))
             print('ok  ' if not (errs or n < 80) else 'FAIL', r, n, errs[:1])
+        # rebuilt lesson pages (lessons/**/*.html): no script errors, every figure and exercise rendered
+        import json as _json
+        for L in _json.load(open('data/lessons.json')) if os.path.exists('data/lessons.json') else []:
+            errs.clear(); pg.goto(base + L['href']); pg.wait_for_timeout(900)
+            n = pg.evaluate("document.querySelector('main').innerText.length")
+            bad = pg.evaluate("[...document.querySelectorAll('figure.fig .fig-body, [data-kit]')].filter(e => !e.querySelector('svg, button, input, textarea')).length")
+            tex = pg.evaluate("document.querySelectorAll('.tex-error').length")
+            if bad: errs.append(f'{bad} figure(s) or exercise(s) empty')
+            if tex: errs.append(f'{tex} formula(s) failed to typeset')
+            if errs or n < 2000: fails.append((L['href'], n, errs[:2]))
+            print('ok  ' if not (errs or n < 2000) else 'FAIL', L['href'], n, errs[:1])
         b.close()
 finally:
     srv.terminate()

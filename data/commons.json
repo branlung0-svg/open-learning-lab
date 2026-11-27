@@ -118630,6 +118630,40 @@
   "title": "P. Oxy. I 29.jpg",
   "w": 1100
  },
+ "c:math-l213-nine-chapters": {
+  "artist": "中國書店海王邨公司",
+  "cap": "A page of Li Huang's 1820 illustrated edition of The Nine Chapters on the Mathematical Art",
+  "date": "2012-11-29 12:52:23",
+  "desc": "The Nine Chapters on the Mathematical Art, published in 1820.",
+  "f": "img/c/math-l213-nine-chapters.jpg",
+  "graphic": false,
+  "h": 679,
+  "kind": "image",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93%E7%B4%B0%E8%8D%89%E5%9C%96%E8%AA%AA.jpg",
+  "tags": [
+   "math"
+  ],
+  "title": "九章算術細草圖說.jpg",
+  "w": 451
+ },
+ "c:math-l213-widmann": {
+  "artist": "Unknown authorUnknown author",
+  "cap": "A page of Johannes Widmann's 1489 arithmetic for merchants, with the first printed + and −",
+  "date": "",
+  "desc": "page of Mercantile Arithmetic or Behende und hüpsche Rechenung auff allen Kauffmanschafft, by Johannes Widmann, published in 1489.",
+  "f": "img/c/math-l213-widmann.jpg",
+  "graphic": false,
+  "h": 756,
+  "kind": "image",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Johannes_Widmann-Mercantile_Arithmetic_1489.jpg",
+  "tags": [
+   "math"
+  ],
+  "title": "Johannes Widmann-Mercantile Arithmetic 1489.jpg",
+  "w": 440
+ },
  "c:math-plimpton-322": {
   "artist": "photo author unknown",
   "cap": "Plimpton 322, a Babylonian clay tablet (about 1800 BCE) listing Pythagorean triples.",

@@ -10,6 +10,7 @@ for f in sorted(glob.glob('factcheck/*.json')):
     data = json.load(open(f, encoding='utf-8'))
     if not isinstance(data, list) or not data or 'old' not in data[0]: continue  # claim-verification files are logged via the claim records
     for it in data:
+        if it.get('applied') is False: continue  # checked and kept, not a correction
         a = AREA.get(it['file'], [(it.get('area') or it['file']).replace('capitalism', 'Capitalism deep dive').replace('fascism', 'Fascism deep dive'), it.get('page', '')])
         out.append({'d': done[n], 'area': a[0], 'page': a[1], 'sev': it.get('severity', 'error'), 'what': it['problem'], 'src': it.get('sources', [])[:3]})
 out.sort(key=lambda x: x['d'], reverse=True)
