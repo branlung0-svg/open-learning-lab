@@ -110,7 +110,7 @@ function page(L, rel) {
   <p class="kicker">Lesson ${esc(L.id)} · Tier ${L.tier} · ${esc(L.unitTitle)}</p>
   <h1>${inline(L.title)}</h1>
   <p class="dek">${inline(L.dek)}</p>
-  <p class="meta"><span>About ${L.minutes} minutes</span><span class="full-only">Refresher: ${L.shortMinutes} minutes</span><span>Needs: ${pre}</span><span>Updated ${esc(L.updated)}</span></p>
+  <p class="meta"><span>About ${L.minutes} minutes</span><span class="full-only">Refresher: ${L.shortMinutes} minutes</span><span>Needs: ${pre}</span><span>Updated ${esc(L.updated)}</span>${L.checked ? `<span>Fact-checked ${esc(L.checked)} (<a href="${rel}index.html#changes">corrections</a>)</span>` : ""}</p>
 </header>
 ${L.summary ? `<aside class="summary" aria-label="The rules in one minute"><p class="summary-h">${inline(L.summary.title)}</p>${block(L.summary.md)}</aside>` : ''}
 ${secs}

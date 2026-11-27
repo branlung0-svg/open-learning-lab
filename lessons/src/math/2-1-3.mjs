@@ -7,7 +7,7 @@ export default {
   title: 'Multiplying and dividing integers',
   dek: 'Why a negative times a negative is positive: seen in six pictures, worked out by hand, then proved from the laws of arithmetic. Plus the 1,500-year argument over whether negative numbers even exist.',
   description: 'Why negative times negative is positive: six interactive visuals, a full proof from the laws of arithmetic, the history from China and India to Hankel in 1867, real uses and 30 practice problems with worked solutions.',
-  minutes: 50, shortMinutes: 10, updated: '26 November 2026',
+  minutes: 50, shortMinutes: 10, updated: '27 November 2026', checked: '27 November 2026',
   prereqs: [
     { id: '1.3.1', t: 'Groups, arrays and area' }, { id: '1.3.3', t: 'The distributive law' },
     { id: '2.1.1', t: 'Negative numbers' }, { id: '2.1.2', t: 'Adding and subtracting integers' },
