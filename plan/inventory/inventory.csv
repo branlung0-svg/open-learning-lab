@@ -1,0 +1,165 @@
+Area now,Example address,Pages,What it is,Largest page (characters),New home,Action,Why
+Home,#home,1,Front page,3489,Home,Rewrite,"Too many entry points on one page; becomes a clear start page with the five doors and ""continue where you left off"""
+Old subjects,#ai-llm,1,How a chatbot picks words,1494,Learn › Computer Science & AI › Labs,Merge,
+Old subjects,#ai-nn,1,Neural net playground,1230,Learn › Computer Science & AI › Labs,Merge,
+Old subjects,#body-body3d,1,3D body (530 characters),530,Learn › Biology / Medicine › Labs,Rewrite,Thin
+Old subjects,#body-cell,1,3D cell (572 characters),572,Learn › Biology › Labs,Rewrite,Thin
+Old subjects,#body-dna,1,DNA to protein,2718,Learn › Biology › Labs,Merge,
+Old subjects,#body-evolution,1,Evolution explorer,1752,Learn › Biology › Labs,Merge,
+Old subjects,#economy-divergence,1,Rich and poor since 1700,1924,Learn › Economics › Labs,Merge,
+Old subjects,#economy-growth,1,The power of growth (992 characters),992,Learn › Economics › Labs,Merge,Duplicates the compound-growth connection
+Old subjects,#economy-market,1,Supply and demand lab,1861,Learn › Economics › Labs,Merge,
+Old subjects,#economy-world,1,The world got… better?,2015,Learn › Economics › Labs,Merge,
+Old subjects,#evidence-questions,1,Evidence Lab: question a claim,1289,Evidence › How to check a claim,Merge,Duplicates the Toolkit
+Old subjects,#evidence-rate,1,Evidence Lab: rate the source,2358,Evidence › Who is telling me?,Merge,Duplicates Source checker and Who is telling me
+Old subjects,#ged-arcade,1,GED Arcade (639 characters),639,Practice › GED,Rewrite,Thin; needs full practice sets per test
+Old subjects,#ged-facts,1,GED test facts and plan,1859,Practice › GED › About the test,Keep,
+Old subjects,#history-atlas,1,World atlas 1492–now,1358,Explore › Map & timeline,Keep,
+Old subjects,#history-timeline,1,Timeline 1700–now,2511,Explore › Map & timeline,Merge,Second timeline besides Origins and Events; one timeline with zoom
+Old subjects,#mandarin-cards,1,Mandarin: first 60 words (613 characters),613,Learn › Language & Linguistics › Mandarin,Rewrite,Thin
+Old subjects,#mandarin-chars,1,Mandarin: character building blocks,1690,Learn › Language & Linguistics › Mandarin,Merge,
+Old subjects,#mandarin-tones,1,Mandarin: the four tones,1214,Learn › Language & Linguistics › Mandarin,Merge,
+Old subjects,#math-algebra,1,Algebra explorer,1627,Learn › Mathematics › Labs,Merge,Math currently has five separate entry points
+Old subjects,#math-calculus,1,Calculus you can see,1339,Learn › Mathematics › Labs,Merge,
+Old subjects,#math-circle,1,Circles to waves (961 characters),961,Learn › Mathematics › Labs,Merge,
+Old subjects,#math-functions,1,Function lab (583 characters),583,Learn › Mathematics › Labs,Rewrite,Thin
+Old subjects,#math-probability,1,Probability,1158,Learn › Statistics & Probability › Labs,Merge,
+Old subjects,#math-risk,1,Risk and ruin,1463,Learn › Statistics & Probability › Labs,Merge,
+Old subjects,#news-week,1,This Week (493 characters),493,Library › This week,Rewrite,Nearly empty
+Old subjects,#physics-elements,1,Periodic table,1793,Learn › Chemistry › Labs,Merge,
+Old subjects,#physics-orbits,1,Gravity and orbits,1066,Learn › Physics › Labs,Merge,
+Old subjects,#physics-projectile,1,Projectile lab,1286,Learn › Physics › Labs,Merge,
+Old subjects,#physics-reactions,1,Reactions,1336,Learn › Chemistry › Labs,Merge,
+Old subjects,#physics-sound,1,Sound and waves,2541,Learn › Physics › Labs,Merge,
+Old subjects,#physics-worlds,1,Other worlds,1191,Learn › Earth & Space › Labs,Merge,
+Disciplines,#d-anthropology,1,Anthropology discipline page,3522,Learn › Anthropology,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-arts,1,Arts & Aesthetics discipline page,3301,Learn › Arts & Aesthetics,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-biology,5,Biology discipline page,5699,Learn › Biology,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-chemistry,4,Chemistry discipline page,25957,Learn › Chemistry,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-computing,1,Computer Science & AI discipline page,3883,Learn › Computer Science & AI,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-earthspace,1,Earth & Space Sciences discipline page,3767,Learn › Earth & Space Sciences,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-economics,1,Economics discipline page,5523,Learn › Economics,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-engineering,1,Engineering discipline page,3485,Learn › Engineering,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-ethics,1,Ethics & Moral Philosophy discipline page,3604,Learn › Ethics & Moral Philosophy,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-geopolitics,1,Geopolitics discipline page,5278,Learn › Geopolitics,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-history,1,History discipline page,6495,Learn › History,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-law,1,Law & Jurisprudence discipline page,4091,Learn › Law & Jurisprudence,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-linguistics,1,Language & Linguistics discipline page,3392,Learn › Language & Linguistics,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-literature,1,Literature discipline page,2881,Learn › Literature,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-logic,1,Logic discipline page,3189,Learn › Logic,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-math,1,Mathematics discipline page,5785,Learn › Mathematics,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-medicine,1,Medicine & Health Sciences discipline page,3991,Learn › Medicine & Health Sciences,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-philosophy,1,Philosophy discipline page,3056,Learn › Philosophy,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-physics,4,Physics discipline page,10925,Learn › Physics,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-politics,1,Politics & Political Science discipline page,5210,Learn › Politics & Political Science,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-psychology,1,Psychology discipline page,4557,Learn › Psychology,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-religion,1,Religion & Theology discipline page,2532,Learn › Religion & Theology,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-sociology,1,Sociology discipline page,4291,Learn › Sociology,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Disciplines,#d-statistics,2,Statistics & Probability discipline page,6478,Learn › Statistics & Probability,Rewrite,"Becomes the full discipline page: Overview, Path, Labs, Topics, People, Sources, Debates, Connections"
+Math (old ladder 1),#mathpath,1,"""Math from the ground up"" index",1555,Learn › Mathematics › Path,Merge,Second math ladder; replaced by the rebuilt path
+Math (old ladder 1),#mathpath-alg,10,"10 stage pages (about 1,500 characters each)",1839,Learn › Mathematics › Path (as labs inside lessons),Merge,Thin; their interactives are reused inside rebuilt lessons
+Math (old ladder 2),#path-math,1,Math map: counting to the frontier,5208,Learn › Mathematics › Path,Rewrite,Being rebuilt as the 479-lesson path
+Math (old ladder 2),#path-math-1,10,10 tier pages,13653,Learn › Mathematics › Path › Tiers,Rewrite,Being rebuilt
+Math (old ladder 2),#path-math-about,1,About this map,1434,Learn › Mathematics › About,Keep,
+Math (old ladder 2),#path-math-check,1,Where do I stand? (placement),1544,Learn › Mathematics › Placement,Rewrite,Must place learners into the rebuilt lessons
+Math (old ladder 2),#path-math-connect,1,How it all connects,2765,Learn › Mathematics › Connections,Keep,
+Math (old ladder 2),#path-math-experiments,1,Do your own experiments,1417,Learn › Mathematics › Labs,Merge,
+Math (old ladder 2),#path-math-fields,1,Math across fields,3065,Learn › Mathematics › Connections,Merge,
+Math (old ladder 2),#path-math-learn,1,How to get good at math,2609,Learn › Paths › Thinking skills,Merge,
+Math (old ladder 2),#path-math-library,1,Free math library,6054,Library › Books (filtered to Mathematics),Merge,"One library, filtered by subject"
+Math (old ladder 2),#path-math-symbols,1,Symbols dictionary,19059,Learn › Mathematics › Reference,Keep,
+Math (old ladder 2),#path-math-t-abc,57,"57 topic pages (about 4,000–6,000 characters each)",6290,Learn › Mathematics › units,Rewrite,"Each is replaced by a rebuilt unit; marked ""older material"" until then"
+Hub pages,#connect,1,How the disciplines work together,4411,Learn › Connections,Keep,Also feeds each discipline page's Connections tab
+Hub pages,#explore,1,"""Explore the Lab"" hub",4040,Explore (door page),Rewrite,"Becomes the Explore door: Places, Ideas, Events, People, Institutions, Map"
+Hub pages,#learn,1,The Learning Journey (6 stages),3653,Learn › Paths,Merge,Overlaps with Learning paths and Math path; one Paths page
+Hub pages,#method,1,How we study anything,6884,Evidence › How to check a claim,Merge,Same subject as the Toolkit
+Hub pages,#path,1,"Learning paths (index, 506 characters)",506,Learn › Paths,Merge,Nearly empty index; fold into Paths
+Learning paths,#path-marx,1,Marx and after (reading path),16231,Explore › Ideas › Marxism › Reading path,Merge,Belongs on the Marxism page
+Connections,#connect-bantu,22,"22 short cross-discipline explainers (about 1,000–2,000 characters each)",2033,"Learn › each discipline › Topics, linked from both disciplines",Rewrite,Good ideas but thin; each becomes a proper topic page with sources
+Hands-on labs,#play,289,289 interactive labs across all disciplines,33864,Learn › each discipline › Labs (plus one Labs index),Merge,"Labs are learning tools and belong with their discipline; review each in the move, rewrite or retire weak ones"
+Countries,#countries,1,"""Every country in the world"" index",8131,Explore › Places,Keep,"Becomes the Places index with map, regions and filters"
+Countries,#country,1,Same page as above under a second address,10092,(forward to Explore › Places),Retire,Duplicate address
+Countries,#country-afg,196,"196 country pages (about 1,600 characters each)",1621,Explore › Places › one page per country,Rewrite,"Thin today; becomes the full ""one page per thing"" page"
+Countries,#country-afg-everything,13,"""Everything"" tab, only 13 countries",7468,Explore › Places › country page,Merge,This is what every country page should be
+Countries,#country-chn-data,7,Data tab,4425,Explore › Places › country › Data,Merge,
+Countries,#country-chn-history,2,History tab,4092,Explore › Places › country › History,Merge,
+Countries,#country-chn-places,2,Places and pictures tab,2026,Explore › Places › country › Pictures,Merge,
+Countries,#country-chn-power,2,Power tab,7924,Explore › Places › country › Government & power,Merge,
+Countries,#country-chn-sources,2,Sources tab,4616,Explore › Places › country › Sources,Merge,
+Standalone pages,#archive,1,The Archive (primary documents),6678,Library › Documents & archives,Keep,
+Standalone pages,#govern,1,Govern (who governs),2927,Explore › Places › each country › Government & power,Merge,Third copy of the power topic
+Standalone pages,#institutions,1,World institutions and money (17),3653,Explore › Institutions,Keep,
+Standalone pages,#institutions-imf,1,IMF,1397,Explore › Institutions › IMF,Keep,
+Standalone pages,#institutions-lobbying,1,Lobbying: follow the money yourself,3653,Evidence › Who is telling me? › Follow the money,Merge,Same subject as Follow the money
+Standalone pages,#oppression,1,Oppressor and oppressed (11 categories),4711,Explore › Events & eras › Oppression,Keep,
+Standalone pages,#oppression-apartheid,11,"11 category pages (about 2,200 characters each)",2256,Explore › Events & eras › Oppression,Rewrite,Thin; each case also belongs on its country and event pages
+Standalone pages,#origins,1,From the Big Bang to today (18 milestones),17676,Explore › Events & eras › Origins timeline,Keep,
+Standalone pages,#parliaments,1,Parliaments and power,9977,Explore › Institutions › Parliaments,Keep,Each parliament also shown on its country page
+Standalone pages,#parliaments-china,1,One parliament page (China),2818,Explore › Places › China › Government & power,Merge,
+Standalone pages,#power,1,How power really works (12 states),4585,Explore › Ideas & systems › How power works,Keep,
+Standalone pages,#power-china,12,"12 state power pages (USA, China, USSR, Nazi Germany …)",4595,Explore › Places › each country › Government & power,Merge,Same subject as the country power tab and Govern
+Standalone pages,#story,1,"Story lines (index, only one story)",1421,Explore › Places › China › History,Merge,One story does not need its own section
+Standalone pages,#story-china,6,"China, 1921 to today (6 chapters)",10326,Explore › Places › China › History,Merge,
+History deep dives,#history-modern,1,Modern history hub,7244,Explore (door page),Merge,Hub inside a hub
+History deep dives,#history-modern-africa,1,Africa deep dive,3388,Explore › Places › Africa (region page),Keep,
+History deep dives,#history-modern-americas,1,The Americas deep dive,3032,Explore › Places › the Americas (region page),Keep,
+History deep dives,#history-modern-anarchism,1,"Anarchism (about 2,800 characters)",2756,Explore › Ideas & systems › Anarchism,Rewrite,Thin
+History deep dives,#history-modern-anatomy,1,Anatomy of a regime,7727,Explore › Ideas & systems › How power works,Merge,
+History deep dives,#history-modern-authoritarianism,1,"Authoritarianism (about 2,900 characters)",2859,Explore › Ideas & systems › Authoritarianism,Rewrite,Thin
+History deep dives,#history-modern-capitalism,9,Capitalism deep dive (9 sections),14450,Explore › Ideas & systems › Capitalism,Keep,
+History deep dives,#history-modern-chosen,1,"How leaders are chosen (1,888 characters)",1888,Explore › Ideas & systems › How power works,Merge,Same subject as How power works
+History deep dives,#history-modern-claims,1,Contested claims,3448,Evidence › Claims checked,Merge,Third claims list besides Verify and Lies
+History deep dives,#history-modern-conservatism,1,"Conservatism (about 2,900 characters)",2876,Explore › Ideas & systems › Conservatism,Rewrite,Thin
+History deep dives,#history-modern-dives,1,Deep dives index,10298,Explore › Ideas & systems,Merge,
+History deep dives,#history-modern-empire,2,Empire deep dive,3852,Explore › Ideas & systems › Empire,Keep,
+History deep dives,#history-modern-events,1,Events index (same as hub),7244,Explore › Events & eras,Merge,
+History deep dives,#history-modern-fascism,8,Fascism deep dive (8 sections),9378,Explore › Ideas & systems › Fascism,Keep,
+History deep dives,#history-modern-govern,5,"Govern: China, UK, North Korea and 2 more",3317,Explore › Places › each country › Government & power,Merge,Fourth copy of the power topic
+History deep dives,#history-modern-ideologies,1,Ideologies overview,3678,Explore › Ideas & systems,Merge,
+History deep dives,#history-modern-ideologies-anarchism,7,"7 ideology families (anarchism, conservatism, progressive …)",6379,Explore › Ideas & systems › each idea,Merge,Overlaps with the full deep dives on the same ideas
+History deep dives,#history-modern-imperialism,2,Imperialism deep dive,5397,Explore › Ideas & systems › Imperialism,Merge,Same subject as Empire
+History deep dives,#history-modern-koreawar,1,The Korean War,3865,Explore › Events & eras › Korean War,Keep,
+History deep dives,#history-modern-ledger,1,The ledger (costs and gains),14463,Explore › Ideas & systems › Compare systems,Keep,
+History deep dives,#history-modern-liberalism,1,"Liberalism (about 3,000 characters)",3016,Explore › Ideas & systems › Liberalism,Rewrite,Thin next to Marxism and Capitalism
+History deep dives,#history-modern-marxism,10,Marxism deep dive (10 sections),12490,Explore › Ideas & systems › Marxism,Keep,
+History deep dives,#history-modern-people,1,"People (37,000 characters on one page)",37003,Explore › People › one page per person,Rewrite,A long list; each person gets a page
+History deep dives,#history-modern-power,1,Power overview,2114,Explore › Ideas & systems › How power works,Merge,
+History deep dives,#history-modern-sides,1,"17 contested events, every side",3499,Explore › Events & eras › each event,Merge,Each side-by-side belongs on its event page
+History deep dives,#history-modern-timeline-ev,17,"17 major events (Opium Wars, Versailles, the Leap, 1989 …)",36528,Explore › Events & eras › one page per event,Keep,Strong content; gets proper event pages
+History deep dives,#history-modern-truths,1,Hard truths,3234,Evidence › Case files,Merge,Same job as Case files
+History deep dives,#history-modern-uspower,1,US power abroad,4213,Explore › Places › United States › Government & power,Merge,
+History deep dives,#history-modern-warmyths,1,War myths,8825,Evidence › Claims checked,Merge,
+History deep dives,#history-modern-wars,1,Wars,4137,Explore › Events & eras › Wars,Keep,
+Evidence,#case,1,Same page as Case files under a second address,10047,(forward to Evidence › Case files),Retire,Duplicate address
+Evidence,#case-su-famine,19,"19 case files (Holodomor, Katyn, Tiananmen, Xinjiang, ICE …)",14790,"Evidence › Case files, and on each country and event page",Keep,Strong; link from places and events
+Evidence,#cases,1,Case files index,10047,Evidence › Case files,Keep,
+Evidence,#lies,1,"Lies, propaganda and paid influence (53)",30543,Evidence › Claims checked,Merge,
+Evidence,#lies-paid,1,Paid influence,7999,Evidence › Who is telling me? › Follow the money,Merge,
+Evidence,#money,1,Follow the money (18 cases),15531,Evidence › Who is telling me? › Follow the money,Keep,
+Evidence,#sources,1,Source checker,5291,Evidence › Who is telling me?,Merge,Three tools for one question
+Evidence,#tolls,1,Death tolls: what can be proven,48862,Evidence › Death tolls,Keep,
+Evidence,#toolkit,1,"How lies are made, and how to catch them",9580,Evidence › How to check a claim,Keep,
+Evidence,#toolkit-paid,1,Toolkit: paid content,2281,Evidence › Who is telling me? › Follow the money,Merge,
+Evidence,#toolkit-sources,1,Toolkit: sources,9804,Evidence › Who is telling me?,Merge,
+Evidence,#verify,1,Claims under the microscope,28698,Evidence › Claims checked,Merge,"Verify, Lies and Claims become one searchable list"
+Evidence,#verify-chn,4,Claims by country (4),23051,Explore › Places › each country › Claims checked,Merge,
+Evidence,#whois,1,"Who is telling me this? (92,000 characters on one page)",92051,Evidence › Who is telling me? › one page per outlet,Rewrite,Far too long for one page; split by outlet and owner
+Reading Room,#reading-library,449,432 complete books and their reader pages (449 addresses),1318343,Library › Books,Keep,"Each book also listed on the pages of the places, ideas and people it is about"
+Archive,#archive-slavery,1,Archive: slavery collection,3584,Library › Documents & archives › Slavery,Keep,
+My Lab,#me,1,Progress and badges,1822,My Lab,Merge,"Notes, notebook, review and progress become one My Lab area"
+My Lab,#notebook,1,Research notebook,382,My Lab › Notes,Merge,Two note tools doing one job
+My Lab,#notes,1,My notes,141,My Lab › Notes,Merge,Merge with Research Notebook
+My Lab,#settings,1,Settings,1262,My Lab › Settings,Keep,
+Practice,#review,1,Daily review,721,Practice › Daily review,Keep,
+Tools,#search,1,Search,115,Header › Search (every page),Rewrite,"Search must cover lessons, places, books, cases and claims, with grouped results"
+Footer pages,#about,1,About the Lab,2554,Footer › About,Keep,
+Footer pages,#audit,1,Accuracy audit,70983,Footer › How the Lab is checked › Audit,Merge,Same as above
+Footer pages,#changes,1,Corrections log (138 fixes),30798,Footer › How the Lab is checked › Corrections,Merge,Same as above
+Footer pages,#privacy,1,Privacy notice,769,Footer › Privacy,Keep,
+Footer pages,#reviewers,1,How the Lab is checked,1028,Footer › How the Lab is checked,Merge,Combine with Accuracy audit and Corrections log into one page with three tabs
+Broken links,#d,1,"""#d"" with no discipline opens the home page",3308,(forward to Learn),Retire,Bug
+Broken links,#data,1,"""#data"" opens the home page",3282,(fix the link),Retire,Bug
+Broken links,#home-dives,1,Link that opens the home page,3822,(forward to Explore › Ideas),Retire,Dead link
+Broken links,#https,1,"A malformed link (""#https…"") that opens the home page",3822,(fix the link),Retire,Bug
+Broken links,#lessons,1,"""#lessons"" opens the home page",3822,(forward to Learn),Retire,Bug
+Broken links,#og,19,19 links to Big Bang-to-today milestones that open the home page instead,3823,Explore › Events › Origins timeline,Retire,"Broken: the milestones exist on the Origins page, the links point nowhere"
