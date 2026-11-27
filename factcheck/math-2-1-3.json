@@ -9,7 +9,9 @@
    "https://www.sec.ntnu.edu.tw/uploads/asset/data/62564108381784d09345bd4b/277-02%E6%AD%A3%E8%B2%A0%E6%95%B8%E7%9A%84%E6%A6%82%E5%BF%B5.pdf",
    "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf"
   ],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -21,7 +23,9 @@
    "https://www.sec.ntnu.edu.tw/uploads/asset/data/62564108381784d09345bd4b/277-02%E6%AD%A3%E8%B2%A0%E6%95%B8%E7%9A%84%E6%A6%82%E5%BF%B5.pdf",
    "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf"
   ],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -33,7 +37,9 @@
    "https://www.sec.ntnu.edu.tw/uploads/asset/data/62564108381784d09345bd4b/277-02%E6%AD%A3%E8%B2%A0%E6%95%B8%E7%9A%84%E6%A6%82%E5%BF%B5.pdf",
    "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf"
   ],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -44,7 +50,9 @@
   "sources": [
    "https://math-physics-problems.fandom.com/wiki/File:Ivory_counting_rods.jpg"
   ],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -56,7 +64,9 @@
    "https://math-physics-problems.fandom.com/wiki/File:Ivory_counting_rods.jpg",
    "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf"
   ],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -70,7 +80,9 @@
    "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf",
    "https://web.ma.utexas.edu/users/mks/326K/Negnos.html"
   ],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -82,7 +94,9 @@
    "https://libquotes.com/morris-kline/quote/lbd6s3i",
    "https://www.quadrivium.info/MathInt/Notes/WallisNegExp.pdf"
   ],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -93,7 +107,9 @@
   "sources": [
    "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf"
   ],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -104,7 +120,9 @@
   "sources": [
    "https://www.dam.brown.edu/people/mumford/beyond/papers/2010b--Negatives-PrfShts.pdf"
   ],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -115,7 +133,9 @@
   "sources": [
    "https://nrich.maths.org/5961"
   ],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -128,7 +148,9 @@
    "https://arxiv.org/pdf/2408.08547",
    "https://arxiv.org/abs/2611.02294"
   ],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -137,7 +159,9 @@
   "problem": "Overstated: some rules, such as the exponent law x^a · x^b = x^(a+b) and the order laws, do not use the distributive law. The FAQ itself says \"nearly all of algebra\".",
   "severity": "framing",
   "sources": [],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -146,7 +170,9 @@
   "problem": "\"They\" means all the proofs, but Theorem 5 needs an order (positive and negative), and Theorem 4 assumes quotients are unique. Neither holds on a clock or in a general ring: mod 12, 2·2 = 2·8 = 4. The Connections table rightly limits the claim to Theorems 0–3.",
   "severity": "precision",
   "sources": [],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -155,7 +181,9 @@
   "problem": "\"The machine gives −128\" makes one behaviour sound universal. NumPy wraps and warns (we reproduced this: 'overflow encountered in scalar multiply'); C leaves signed overflow undefined or implementation-defined; some languages trap on overflow.",
   "severity": "precision",
   "sources": [],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -166,7 +194,9 @@
   "sources": [
    "https://open-std.org/JTC1/SC22/WG14/www/docs/n617.htm"
   ],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -175,7 +205,9 @@
   "problem": "Not every calculator does: basic calculators often have only − and a +/− change-sign key. The (−) key is a feature of scientific and graphing models.",
   "severity": "precision",
   "sources": [],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -184,7 +216,9 @@
   "problem": "The table lists n = 3, 2, 1, 0 from top to bottom, with products −6, −4, −2, 0. The product grows by 2 going down the list, so \"up the list\" gets the direction backward.",
   "severity": "precision",
   "sources": [],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -193,7 +227,9 @@
   "problem": "The option −15 does not come from plain subtraction: 18 − (−3) = 21 and 18 + (−3) = 15. The feedback should name the actual slip, or the option should be changed. The lesson promises that each wrong option maps to one specific misconception.",
   "severity": "precision",
   "sources": [],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -205,7 +241,9 @@
    "https://arxiv.org/abs/2611.02294",
    "https://en.wikipedia.org/wiki/Hermann_Hankel"
   ],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -218,7 +256,9 @@
    "https://cancercontrol.cancer.gov/brp/tcrb/monographs/12/index.html",
    "https://cancercontrol.cancer.gov/sites/default/files/2020-08/NCI-WHO-Economics-Monograph-Presentation.pdf"
   ],
-  "applied": true
+  "applied": true,
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  },
  {
   "file": "lessons/src/math/2-1-3.mjs",
@@ -231,6 +271,8 @@
    "https://old.maa.org/press/periodicals/convergence/mathematical-treasures-widmans-commercial-arithmetic"
   ],
   "applied": false,
-  "note": "Kept: the picture was checked by eye; it shows loads in zentner and pounds marked with + and −."
+  "note": "Kept: the picture was checked by eye; it shows loads in zentner and pounds marked with + and −.",
+  "area": "Math lesson 2.1.3 (before publication)",
+  "page": "path-math"
  }
 ]
