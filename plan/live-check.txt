@@ -1,5 +1,5 @@
-checked 2026-11-27T07:13:24Z
-repo stamp 1795763233, live stamp 1795763233
+checked 2026-11-27T07:24:49Z
+repo stamp 1795764204, live stamp 1795764204
 js/isms.js 200 80548
 js/balance.js 200 13596
 js/voices.js 200 12946
@@ -10,3 +10,10 @@ js/institutions.js 200 20794
 js/countries.js 200 33147
 sw.js 200 2026
 data/commons.json 200 5947035
+css/lesson.css 200 18833
+js/lesson-kit.js 200 34686
+vendor/katex/katex.min.css 200 23827
+data/lessons.json 200 245
+lessons/math/2-1-3.html 200 456993
+  img/c/math-l213-nine-chapters.jpg 200 71680
+  img/c/math-l213-widmann.jpg 200 86717
