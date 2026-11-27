@@ -1,13 +1,10 @@
 {
  "summary": {
-  "ok": 4083,
-  "unknown": 262,
-  "drop": 2
+  "ok": 4081,
+  "unknown": 263,
+  "drop": 0
  },
- "dropped": {
-  "c:k-caf-fp-2": "coordinates in fra | Euphaedra (Xypetana) xypete MHNT.jpg",
-  "c:k-mdv-fp-5": "coordinates in sea or unknown | Floatplane at Bathala (Maldives).jpg"
- },
+ "dropped": {},
  "all": {
   "c:a-britain-belfast-shipyard-titanic-1": [
    "ok",
@@ -4433,7 +4430,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-blz-fp-8": [
+  "c:k-blz-fp-9": [
    "ok",
    "coordinates"
   ],
@@ -4513,7 +4510,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-bol-fp-11": [
+  "c:k-bol-qi-8": [
    "ok",
    "categories"
   ],
@@ -4572,10 +4569,6 @@
   "c:k-bol-qi-7": [
    "ok",
    "coordinates"
-  ],
-  "c:k-bol-qi-8": [
-   "ok",
-   "categories"
   ],
   "c:k-bol-qi-9": [
    "ok",
@@ -4901,10 +4894,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-caf-fp-2": [
-   "drop",
-   "coordinates in fra"
-  ],
   "c:k-caf-qi-2": [
    "ok",
    "categories"
@@ -4987,7 +4976,7 @@
   ],
   "c:k-can-qi-1": [
    "ok",
-   "coordinates"
+   "categories"
   ],
   "c:k-can-qi-10": [
    "ok",
@@ -5742,8 +5731,8 @@
    "coordinates"
   ],
   "c:k-chn-life-wet-market-1": [
-   "ok",
-   "categories"
+   "unknown",
+   ""
   ],
   "c:k-chn-life-wet-market-2": [
    "ok",
@@ -11469,10 +11458,6 @@
    "ok",
    "coordinates"
   ],
-  "c:k-mdv-fp-5": [
-   "drop",
-   "coordinates in sea or unknown"
-  ],
   "c:k-mdv-mal-city-1": [
    "ok",
    "coordinates"
@@ -12033,7 +12018,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-mne-fp-5": [
+  "c:k-mne-montenegro-landscape-1": [
    "ok",
    "coordinates"
   ],
@@ -12060,10 +12045,6 @@
   "c:k-mne-montenegro-historical-photograph-2": [
    "ok",
    "categories"
-  ],
-  "c:k-mne-qi-5": [
-   "ok",
-   "coordinates"
   ],
   "c:k-mne-montenegro-landscape-2": [
    "ok",
@@ -12110,6 +12091,10 @@
    "coordinates"
   ],
   "c:k-mne-qi-4": [
+   "ok",
+   "coordinates"
+  ],
+  "c:k-mne-qi-5": [
    "ok",
    "coordinates"
   ],
@@ -13449,7 +13434,7 @@
    "ok",
    "categories"
   ],
-  "c:k-pan-qi-1": [
+  "c:k-pan-fp-1": [
    "ok",
    "categories"
   ],
@@ -13470,6 +13455,10 @@
    "categories"
   ],
   "c:k-pan-panama-landscape-1": [
+   "ok",
+   "categories"
+  ],
+  "c:k-pan-qi-1": [
    "ok",
    "categories"
   ],
@@ -14785,7 +14774,7 @@
    "ok",
    "coordinates"
   ],
-  "c:k-smr-fp-6": [
+  "c:k-smr-qi-7": [
    "ok",
    "categories"
   ],
@@ -14802,10 +14791,6 @@
    "coordinates"
   ],
   "c:k-smr-qi-12": [
-   "ok",
-   "categories"
-  ],
-  "c:k-smr-qi-7": [
    "ok",
    "categories"
   ],
@@ -17313,6 +17298,10 @@
    "ok",
    "coordinates"
   ],
+  "c:k-zwe-fp-9": [
+   "ok",
+   "coordinates"
+  ],
   "c:k-zwe-fp-2": [
    "ok",
    "coordinates"
@@ -17330,10 +17319,6 @@
    "coordinates"
   ],
   "c:k-zwe-fp-8": [
-   "ok",
-   "coordinates"
-  ],
-  "c:k-zwe-fp-9": [
    "ok",
    "coordinates"
   ],
