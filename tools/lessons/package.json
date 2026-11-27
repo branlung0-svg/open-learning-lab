@@ -1,0 +1,7 @@
+{
+  "name": "lab-lessons",
+  "private": true,
+  "type": "module",
+  "description": "Builds lessons/src/**/*.mjs into static lesson pages with typeset math (KaTeX, rendered at build time).",
+  "dependencies": { "katex": "0.16.47", "marked": "14.1.4" }
+}
