@@ -20,7 +20,10 @@ for w in wanted:
         titles = ([w['file']] if w.get('file') else []) + (fc.candidates(w['q'], 'image') if w.get('q') else [])
         if not titles: print('NONE', k); continue
         I = fc.info(titles[:15], 1100)
-        pick = next(((t, I[t], lic) for t in titles if t in I and (lic := fc.acceptable(I[t], 'image'))), None)
+        def ok(ii):  # same licence rule; a lesson may accept a smaller scan of a rare primary source ('minw')
+            lic = fc.clean(ii.get('extmetadata', {}).get('LicenseShortName', {}).get('value'))
+            return lic if fc.OK_LIC.match(lic) and ii.get('mime', '').startswith('image/') and ii.get('width', 0) >= int(w.get('minw', 640)) else None
+        pick = next(((t, I[t], lic) for t in titles if t in I and (lic := ok(I[t]))), None)
         if not pick: print('NOFREE', k, titles[:3]); continue
         t, ii, lic = pick
         r = fc.s.get(ii.get('thumburl') or ii['url'], timeout=60); r.raise_for_status()

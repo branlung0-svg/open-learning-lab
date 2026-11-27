@@ -32389,7 +32389,8 @@
    "math"
   ],
   "graphic": false,
-  "cap": "A page of The Nine Chapters on the Mathematical Art, from an 1820 edition"
+  "cap": "A page of Li Huang's 1820 illustrated edition of The Nine Chapters on the Mathematical Art",
+  "minw": 400
  },
  {
   "k": "c:math-l213-widmann",
@@ -32400,45 +32401,5 @@
   ],
   "graphic": false,
   "cap": "Johannes Widmann's arithmetic book for merchants, where + and − first appeared in print"
- },
- {
-  "k": "c:math-l213-euler-algebra",
-  "q": "Euler Vollständige Anleitung zur Algebra",
-  "kind": "image",
-  "tags": [
-   "math"
-  ],
-  "graphic": false,
-  "cap": "Euler's Complete Guide to Algebra (1770)"
- },
- {
-  "k": "c:math-l213-rod-calculation",
-  "q": "Sangaku counting rods calculation woodblock",
-  "kind": "image",
-  "tags": [
-   "math"
-  ],
-  "graphic": false,
-  "cap": "Calculating with counting rods, Japanese woodblock print"
- },
- {
-  "k": "c:math-l213-brahmasphuta",
-  "q": "Brahmasphutasiddhanta manuscript",
-  "kind": "image",
-  "tags": [
-   "math"
-  ],
-  "graphic": false,
-  "cap": "A manuscript of Brahmagupta's Brāhmasphuṭasiddhānta"
- },
- {
-  "k": "c:math-l213-counting-rods",
-  "q": "Chinese counting rods",
-  "kind": "image",
-  "tags": [
-   "math"
-  ],
-  "graphic": false,
-  "cap": "Chinese counting rods"
  }
 ]

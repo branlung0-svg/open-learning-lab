@@ -273,7 +273,7 @@ People used these rules for well over a thousand years before anyone could say w
 
 The oldest surviving rules for negative numbers come from China. *The Nine Chapters on the Mathematical Art*, a handbook compiled over generations and in its final form by about the first century CE, solves systems of equations by laying numbers out as rods on a counting board. Its method is essentially the elimination taught in algebra today, and elimination produces negative numbers all the time, so chapter 8 gives rules for adding and subtracting them.
 
-{{img:c:math-l213-nine-chapters|A page of *The Nine Chapters on the Mathematical Art*, from an 1820 edition.}}
+{{img:c:math-l213-nine-chapters|A page from Li Huang’s 1820 illustrated edition of *The Nine Chapters on the Mathematical Art*.}}
 
 In his commentary of 263 CE, Liu Hui explained what the two kinds of rod mean: they stand for gains and losses, which he named positive and negative.
 
@@ -294,8 +294,6 @@ In Europe, the signs + and − first appeared in print in 1489, in Johannes Widm
 {{img:c:math-l213-widmann|Johannes Widmann's arithmetic for merchants, where + and − first appeared in print.}}
 
 Gerolamo Cardano's *Ars Magna* (1545) admitted negative solutions but called them fictitious. René Descartes called negative roots false. John Wallis gave a clear account using a number line in 1685, yet also argued that negative numbers were larger than infinity. Leonhard Euler's *Complete Guide to Algebra* (1770) explained \((-a) \times 3\) as a debt taken three times, and argued that \((-a)(-b)\) must be the opposite of \((-a)b\). His argument quietly assumes what it needs to prove: that changing one factor's sign must change the product's sign. That is Theorem 2, which needs the distributive law.
-
-{{img:c:math-l213-euler-algebra|Euler's *Complete Guide to Algebra*, published in St Petersburg in 1770.}}
 
 In England, Francis Maseres (1758) and William Frend (1796) wrote algebra books that rejected negative numbers outright. As late as 1831, Augustus De Morgan wrote that \(0 - a\) was as inconceivable as the square root of \(-a\).
 

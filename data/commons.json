@@ -118630,40 +118630,6 @@
   "title": "P. Oxy. I 29.jpg",
   "w": 1100
  },
- "c:math-l213-counting-rods": {
-  "artist": "ÅñtóñSûsî (Ð)",
-  "cap": "Chinese counting rods",
-  "date": "2012-07-26",
-  "desc": "Grafiktafel für den Unicodeblock Zählstabziffern. Schraffierte Felder sind unbesetzte Codepoints.",
-  "f": "img/c/math-l213-counting-rods.jpg",
-  "graphic": false,
-  "h": 157,
-  "kind": "image",
-  "license": "CC BY 3.0 de",
-  "page": "https://commons.wikimedia.org/wiki/File:UCB_Counting_Rod_Numerals.png",
-  "tags": [
-   "math"
-  ],
-  "title": "UCB Counting Rod Numerals.png",
-  "w": 1100
- },
- "c:math-l213-euler-algebra": {
-  "artist": "Trail, William",
-  "cap": "Euler's Complete Guide to Algebra (1770)",
-  "date": "1789",
-  "desc": "Fleuron from book: Elements of algebra. For the use of students in universities. Third edition. To which is added an appendix.",
-  "f": "img/c/math-l213-euler-algebra.jpg",
-  "graphic": false,
-  "h": 539,
-  "kind": "image",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Elements_of_algebra_Fleuron_T108050-5.png",
-  "tags": [
-   "math"
-  ],
-  "title": "Elements of algebra Fleuron T108050-5.png",
-  "w": 787
- },
  "c:math-l213-widmann": {
   "artist": "Johannes Widmann",
   "cap": "Johannes Widmann's arithmetic book for merchants, where + and − first appeared in print",
